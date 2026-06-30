@@ -1,42 +1,33 @@
-"""Ashby connector.
-
-Public, no-auth JSON at:
-  https://api.ashbyhq.com/posting-api/job-board/{slug}
-Filter to isListed == true to skip drafts/unlisted roles.
-"""
+"""Ashby job board API: public, no auth."""
 
 from __future__ import annotations
 
-import requests
-
 from ..models import Job
+from ..net import Net
 
 URL = "https://api.ashbyhq.com/posting-api/job-board/{slug}"
 
 
-def fetch(company: dict, session: requests.Session) -> list[Job]:
+async def fetch(company: dict, net: Net) -> list[Job]:
     slug = company["slug"]
-    resp = session.get(URL.format(slug=slug), timeout=15)
-    resp.raise_for_status()
-    data = resp.json()
+    data = await net.get_json(URL.format(slug=slug))
 
-    jobs: list[Job] = []
-    for j in data.get("jobs", []):
-        if j.get("isListed") is False:
+    jobs = []
+    for posting in data.get("jobs", []):
+        if posting.get("isListed") is False:
             continue
-        job_url = j.get("jobUrl") or j.get("applyUrl") or ""
-        # Ashby has no plain numeric id in this API; derive one from the URL.
-        external = job_url.rstrip("/").split("/")[-1] if job_url else (j.get("title") or "")
+        job_url = posting.get("jobUrl") or posting.get("applyUrl") or ""
+        external = job_url.rstrip("/").rsplit("/", 1)[-1] if job_url else posting.get("title")
         jobs.append(
             Job(
                 id=f"ashby:{slug}:{external}",
                 source="ashby",
                 company=company["name"],
                 company_slug=slug,
-                title=(j.get("title") or "").strip(),
-                location=(j.get("location") or "—").strip() or "—",
+                title=(posting.get("title") or "").strip(),
+                location=(posting.get("location") or "—").strip() or "—",
                 url=job_url,
-                posted_at=j.get("publishedAt"),
+                posted_at=posting.get("publishedAt"),
             )
         )
     return jobs

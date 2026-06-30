@@ -8,9 +8,25 @@ top), and that date is frozen per role so the page behaves like a ladder.
 from __future__ import annotations
 
 import csv
+import json
 from datetime import datetime, timezone
 
 from . import config, paths, priority
+
+
+def _engine_metrics() -> str:
+    """One-line observability summary from the last run, if available."""
+    try:
+        with open(paths.STATS_PATH, encoding="utf-8") as f:
+            stats = json.load(f)
+    except (OSError, ValueError):
+        return ""
+    sources = len(stats.get("companies_by_source", {}))
+    return (
+        f"_Engine (last run): {stats.get('companies_total', 0):,} companies across "
+        f"{sources} ATS platforms · {int(stats.get('fetch_success_rate', 0) * 100)}% "
+        f"fetch success · completed in {stats.get('duration_seconds', 0)}s._"
+    )
 
 
 def _now_str() -> str:
@@ -151,9 +167,12 @@ def _footer() -> list[str]:
         "## How it stays current",
         "",
         "A small Python engine reads public company hiring feeds directly, keeps the "
-        "roles that match the scope above, removes duplicates, records each role's "
-        "published date once (so it never shifts), and regenerates this page through "
-        "GitHub Actions. The full source is in this repo.",
+        "roles that match the scope above, de-duplicates across sources, records each "
+        "role's published date once (so it never shifts), and regenerates this page "
+        "through GitHub Actions. It polls every company concurrently (async) with "
+        "retry/backoff and per-host rate limits. The full source is in this repo.",
+        "",
+        _engine_metrics(),
         "",
         "## Contributing",
         "",

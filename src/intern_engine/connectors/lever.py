@@ -1,23 +1,16 @@
-"""Lever connector.
-
-Public, no-auth JSON at:
-  https://api.lever.co/v0/postings/{slug}?mode=json
-Returns a bare JSON list of postings.
-"""
+"""Lever postings API: public, no auth. Returns a bare JSON list."""
 
 from __future__ import annotations
 
 from datetime import datetime, timezone
 
-import requests
-
 from ..models import Job
+from ..net import Net
 
 URL = "https://api.lever.co/v0/postings/{slug}?mode=json"
 
 
-def _ms_to_iso(ms) -> str | None:
-    """Lever gives createdAt as milliseconds since epoch."""
+def _epoch_ms_to_iso(ms) -> str | None:
     if not ms:
         return None
     try:
@@ -28,25 +21,23 @@ def _ms_to_iso(ms) -> str | None:
         return None
 
 
-def fetch(company: dict, session: requests.Session) -> list[Job]:
+async def fetch(company: dict, net: Net) -> list[Job]:
     slug = company["slug"]
-    resp = session.get(URL.format(slug=slug), timeout=15)
-    resp.raise_for_status()
-    data = resp.json()
+    postings = await net.get_json(URL.format(slug=slug))
 
-    jobs: list[Job] = []
-    for p in data:  # Lever returns a list
-        categories = p.get("categories") or {}
+    jobs = []
+    for posting in postings:
+        categories = posting.get("categories") or {}
         jobs.append(
             Job(
-                id=f"lever:{slug}:{p.get('id')}",
+                id=f"lever:{slug}:{posting.get('id')}",
                 source="lever",
                 company=company["name"],
                 company_slug=slug,
-                title=(p.get("text") or "").strip(),
+                title=(posting.get("text") or "").strip(),
                 location=(categories.get("location") or "—").strip() or "—",
-                url=p.get("hostedUrl") or p.get("applyUrl") or "",
-                posted_at=_ms_to_iso(p.get("createdAt")),
+                url=posting.get("hostedUrl") or posting.get("applyUrl") or "",
+                posted_at=_epoch_ms_to_iso(posting.get("createdAt")),
             )
         )
     return jobs

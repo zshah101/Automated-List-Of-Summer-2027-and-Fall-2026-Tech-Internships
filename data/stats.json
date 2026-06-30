@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-06-30T13:03:35Z",
+  "duration_seconds": 40.1,
+  "companies_total": 1282,
+  "companies_by_source": {
+    "greenhouse": 616,
+    "lever": 186,
+    "ashby": 268,
+    "smartrecruiters": 101,
+    "workday": 111
+  },
+  "fetched_ok": 1220,
+  "fetch_errors": 62,
+  "fetch_success_rate": 0.952,
+  "roles_matched": 35,
+  "roles_by_source": {
+    "ashby": 7,
+    "lever": 6,
+    "smartrecruiters": 1,
+    "workday": 6,
+    "greenhouse": 15
+  },
+  "roles_by_cycle": {
+    "Fall 2026": 29,
+    "Summer 2027": 6
+  },
+  "new_this_run": 0,
+  "open_total": 35
+}

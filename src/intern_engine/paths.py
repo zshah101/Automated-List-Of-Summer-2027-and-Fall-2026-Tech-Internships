@@ -16,5 +16,6 @@ CANDIDATES_PATH = os.path.join(DATA_DIR, "candidates.json")  # raw slugs to prob
 COMPANIES_PATH = os.path.join(DATA_DIR, "companies.json")    # validated companies
 JOBS_PATH = os.path.join(DATA_DIR, "jobs.json")              # persistent job state
 CSV_PATH = os.path.join(DATA_DIR, "internships.csv")         # downloadable tracker
+STATS_PATH = os.path.join(DATA_DIR, "stats.json")            # last-run metrics
 
 README_PATH = os.path.join(ROOT, "README.md")

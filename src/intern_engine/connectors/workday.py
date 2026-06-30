@@ -1,94 +1,69 @@
-"""Workday connector (the hard, enterprise tier).
+"""Workday (enterprise tier).
 
-Workday is per-tenant: each company has its own host + site, e.g.
-  https://{tenant}.wd5.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs
-It's a POST API protected by bot management, so we send browser-like headers and
-accept that some tenants (especially from cloud IPs) may refuse — those failures
-are isolated per company and never break a run.
+Per-tenant POST API behind bot management. We send browser-like headers and
+isolate failures per company. Dates are relative text ("Posted 6 Days Ago");
+we resolve the precise ones and blank the vague ones ("30+ Days Ago").
 
-Dates are relative text ("Posted 6 Days Ago"); we convert the precise ones to a
-real date and leave vague ones ("30+ Days Ago") blank.
+Cloud IPs are blocked more than home IPs, so the pipeline routes this connector
+through an optional proxy (WORKDAY_PROXY) when one is configured.
 """
 
 from __future__ import annotations
 
-import os
 import re
 from datetime import datetime, timedelta, timezone
 
-import requests
-
 from ..models import Job
-
-
-def _proxies() -> dict | None:
-    """Optional proxy for Workday only (set WORKDAY_PROXY in the CI secrets).
-
-    Workday blocks cloud/datacenter IPs more aggressively than home IPs, so the
-    GitHub Actions runner may get refused. Pointing WORKDAY_PROXY at a cheap
-    residential/rotating proxy recovers those tenants. Unset = direct (default).
-    """
-    proxy = os.environ.get("WORKDAY_PROXY")
-    return {"http": proxy, "https": proxy} if proxy else None
+from ..net import Net
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
     "Accept": "application/json",
-    "Content-Type": "application/json",
 }
 
-_DAYS_RE = re.compile(r"(\d+)\s*\+?\s*days?\s+ago", re.I)
+_DAYS_AGO = re.compile(r"(\d+)\s*\+?\s*days?\s+ago", re.IGNORECASE)
 
 
-def _posted(text: str | None) -> str | None:
+def _resolve_posted(text: str | None) -> str | None:
     if not text:
         return None
-    t = text.lower()
-    if "today" in t:
+    lowered = text.lower()
+    if "today" in lowered:
         days = 0
-    elif "yesterday" in t:
+    elif "yesterday" in lowered:
         days = 1
+    elif "30+" in lowered:
+        return None  # too vague to be a real date
     else:
-        if "30+" in t:
-            return None  # too vague to be a real date
-        m = _DAYS_RE.search(t)
-        if not m:
+        match = _DAYS_AGO.search(lowered)
+        if not match or int(match.group(1)) >= 30:
             return None
-        days = int(m.group(1))
-        if days >= 30:
-            return None
-    dt = datetime.now(timezone.utc) - timedelta(days=days)
-    return dt.strftime("%Y-%m-%dT00:00:00Z")
+        days = int(match.group(1))
+    return (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%dT00:00:00Z")
 
 
-def fetch(company: dict, session: requests.Session) -> list[Job]:
-    tenant = company["slug"]
-    wd = company["wd"]
-    site = company["site"]
+async def fetch(company: dict, net: Net) -> list[Job]:
+    tenant, wd, site = company["slug"], company["wd"], company["site"]
     url = f"https://{tenant}.{wd}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"
     body = {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": "intern"}
 
-    resp = session.post(
-        url, json=body, headers=HEADERS, timeout=25, proxies=_proxies()
-    )
-    resp.raise_for_status()
-    data = resp.json()
+    data = await net.post_json(url, json=body, headers=HEADERS)
 
     base = f"https://{tenant}.{wd}.myworkdayjobs.com/{site}"
-    jobs: list[Job] = []
-    for p in data.get("jobPostings", []):
-        path = p.get("externalPath") or ""
+    jobs = []
+    for posting in data.get("jobPostings", []):
+        path = posting.get("externalPath") or ""
         jobs.append(
             Job(
-                id=f"workday:{tenant}:{path or p.get('title')}",
+                id=f"workday:{tenant}:{path or posting.get('title')}",
                 source="workday",
                 company=company["name"],
                 company_slug=tenant,
-                title=(p.get("title") or "").strip(),
-                location=(p.get("locationsText") or "—").strip() or "—",
+                title=(posting.get("title") or "").strip(),
+                location=(posting.get("locationsText") or "—").strip() or "—",
                 url=(base + path) if path else base,
-                posted_at=_posted(p.get("postedOn")),
+                posted_at=_resolve_posted(posting.get("postedOn")),
             )
         )
     return jobs

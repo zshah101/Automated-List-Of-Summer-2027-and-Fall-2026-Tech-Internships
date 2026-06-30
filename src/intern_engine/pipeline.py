@@ -1,23 +1,27 @@
-"""The Watcher + Spotter: fetch every company concurrently, filter, store.
+"""The watcher + spotter.
 
-Flow:
-  load companies -> fetch all (in parallel) -> keep tech 2027 internships
-  -> upsert into the store (detect new + close gone) -> return stats.
-
-Per-company failures are isolated: one bad endpoint never breaks the whole run.
+Fetches every tracked company concurrently (async, with global and per-host
+concurrency caps), normalizes results into one shape, keeps the roles that match
+the configured scope, de-duplicates across sources, merges them into the store
+(detecting what's new and what's closed), and records run metrics.
 """
 
 from __future__ import annotations
 
+import asyncio
 import json
-from concurrent.futures import ThreadPoolExecutor
+import os
+import re
+import time
+from collections import Counter
 from dataclasses import asdict
 from datetime import datetime, timedelta, timezone
 
-import requests
+import httpx
 
 from . import config, filters, paths, store
 from .connectors import ashby, greenhouse, lever, smartrecruiters, workday
+from .net import HostLimiter, Net
 
 CONNECTORS = {
     "greenhouse": greenhouse.fetch,
@@ -27,20 +31,72 @@ CONNECTORS = {
     "workday": workday.fetch,
 }
 
-HEADERS = {"User-Agent": "intern-engine/1.0 (+github.com/intern-engine)"}
+GLOBAL_CONCURRENCY = 32
+PER_HOST_CONCURRENCY = 8
+USER_AGENT = "intern-engine/2.0 (+github.com/intern-engine)"
 
 
-def _fetch_one(company: dict):
-    """Returns (company, jobs, error). Never raises."""
-    session = requests.Session()
-    session.headers.update(HEADERS)
+def _load_companies() -> list[dict]:
+    with open(paths.COMPANIES_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+async def _fetch_one(company: dict, net: Net):
+    """Return (company, jobs, error); never raises (failures are isolated)."""
     fetch = CONNECTORS.get(company.get("ats"))
     if fetch is None:
-        return company, [], f"no connector for ats={company.get('ats')}"
+        return company, [], f"no connector for {company.get('ats')}"
     try:
-        return company, fetch(company, session), None
-    except Exception as exc:  # noqa: BLE001 - isolate any per-company failure
-        return company, [], str(exc)
+        return company, await fetch(company, net), None
+    except Exception as exc:  # noqa: BLE001 — one bad endpoint must not stop the run
+        return company, [], f"{type(exc).__name__}: {exc}"
+
+
+async def _fetch_all(companies: list[dict]):
+    limiter = HostLimiter(PER_HOST_CONCURRENCY)
+    gate = asyncio.Semaphore(GLOBAL_CONCURRENCY)
+    proxy = os.environ.get("WORKDAY_PROXY") or None
+
+    common = dict(
+        limits=httpx.Limits(max_connections=64, max_keepalive_connections=32),
+        timeout=httpx.Timeout(20.0, connect=10.0),
+        headers={"User-Agent": USER_AGENT},
+        follow_redirects=True,
+    )
+
+    async with httpx.AsyncClient(**common) as client:
+        default_net = Net(client, limiter)
+        workday_client = httpx.AsyncClient(proxy=proxy, **common) if proxy else None
+        workday_net = Net(workday_client, limiter) if workday_client else default_net
+
+        async def worker(company: dict):
+            net = workday_net if company.get("ats") == "workday" else default_net
+            async with gate:
+                return await _fetch_one(company, net)
+
+        try:
+            return await asyncio.gather(*(worker(c) for c in companies))
+        finally:
+            if workday_client is not None:
+                await workday_client.aclose()
+
+
+def _dedup(jobs: list) -> list:
+    """Collapse the same role seen more than once (e.g. via two ATS).
+
+    Keyed by company + normalized title; a posting that carries a real date wins
+    over one that doesn't.
+    """
+    jobs = sorted(jobs, key=lambda j: (j.posted_at is None,))
+    seen: set[tuple[str, str]] = set()
+    unique = []
+    for job in jobs:
+        key = (job.company.lower().strip(), re.sub(r"[^a-z0-9]+", "", job.title.lower()))
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(job)
+    return unique
 
 
 def run_update() -> tuple[dict, dict]:
@@ -48,55 +104,70 @@ def run_update() -> tuple[dict, dict]:
     cycles = config.cycles(cfg)
     tech_only = cfg.get("role_scope", "tech") == "tech"
     restrict = config.restrict_region(cfg)
-    want_us = config.want_us(cfg)
-    want_ca = config.want_canada(cfg)
+    want_us, want_ca = config.want_us(cfg), config.want_canada(cfg)
     max_age = config.max_age_days(cfg)
     cutoff = (
         (datetime.now(timezone.utc) - timedelta(days=max_age)).strftime("%Y-%m-%d")
-        if max_age
-        else None
+        if max_age else None
     )
 
-    with open(paths.COMPANIES_PATH, encoding="utf-8") as f:
-        companies = json.load(f)
+    companies = _load_companies()
+    started = time.monotonic()
+    results = asyncio.run(_fetch_all(companies))
 
     kept = []
     succeeded: set[str] = set()
-    errors: list[tuple[str, str]] = []
-
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        for company, jobs, error in pool.map(_fetch_one, companies):
-            key = f"{company['ats']}:{company['slug']}"
-            if error is not None:
-                errors.append((key, error))
+    errors = 0
+    for company, jobs, error in results:
+        if error is not None:
+            errors += 1
+            continue
+        succeeded.add(f"{company['ats']}:{company['slug']}")
+        for job in jobs:
+            if not filters.is_internship(job.title):
                 continue
-            succeeded.add(key)
-            for job in jobs:
-                if not filters.is_internship(job.title):
-                    continue
-                if tech_only and not filters.is_tech(job.title):
-                    continue
-                season = filters.detect_season(job.title, cycles)
-                if season is None:  # no explicit year, or a cycle we don't track
-                    continue
-                if restrict and not filters.region_ok(job.location, want_us, want_ca):
-                    continue
-                if cutoff and job.posted_at and job.posted_at[:10] < cutoff:
-                    continue  # stale / evergreen posting (e.g. a 2016 req)
-                job.season = season
-                job.category = filters.categorize(job.title)
-                kept.append(job)
+            if tech_only and not filters.is_tech(job.title):
+                continue
+            season = filters.detect_season(job.title, cycles)
+            if season is None:
+                continue
+            if restrict and not filters.region_ok(job.location, want_us, want_ca):
+                continue
+            if cutoff and (job.posted_at or "")[:10] and (job.posted_at or "")[:10] < cutoff:
+                continue
+            job.season = season
+            job.category = filters.categorize(job.title)
+            kept.append(job)
 
+    kept = _dedup(kept)
     existing = store.load(paths.JOBS_PATH)
     new_ids = store.upsert(existing, [asdict(j) for j in kept], succeeded)
     store.save(paths.JOBS_PATH, existing)
 
-    stats = {
-        "companies": len(companies),
-        "fetched_ok": len(succeeded),
-        "fetch_errors": len(errors),
-        "matched_internships": len(kept),
-        "new_this_run": len(new_ids),
-        "total_open": sum(1 for r in existing.values() if r.get("is_open")),
-    }
+    stats = _build_stats(companies, succeeded, errors, kept, existing, new_ids,
+                         round(time.monotonic() - started, 1))
+    _write_stats(stats)
     return stats, existing
+
+
+def _build_stats(companies, succeeded, errors, kept, existing, new_ids, duration) -> dict:
+    open_records = [r for r in existing.values() if r.get("is_open")]
+    return {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "duration_seconds": duration,
+        "companies_total": len(companies),
+        "companies_by_source": dict(Counter(c["ats"] for c in companies)),
+        "fetched_ok": len(succeeded),
+        "fetch_errors": errors,
+        "fetch_success_rate": round(len(succeeded) / max(len(companies), 1), 3),
+        "roles_matched": len(kept),
+        "roles_by_source": dict(Counter(j.source for j in kept)),
+        "roles_by_cycle": dict(Counter(j.season for j in kept)),
+        "new_this_run": len(new_ids),
+        "open_total": len(open_records),
+    }
+
+
+def _write_stats(stats: dict) -> None:
+    with open(paths.STATS_PATH, "w", encoding="utf-8") as f:
+        json.dump(stats, f, indent=2, ensure_ascii=False)

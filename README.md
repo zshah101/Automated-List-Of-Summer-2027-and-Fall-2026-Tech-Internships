@@ -1,20 +1,20 @@
 # Summer 2027 Tech Internships
 
-HI Everyone. This is a self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list - newest roles on top, refreshed automatically throughout the day.
+A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list — newest roles on top, refreshed automatically throughout the day.
 
-**34 open roles · 1282 companies tracked · updated Jun 30, 2026 at 12:43 UTC**
+**34 open roles · 1282 companies tracked · updated Jun 30, 2026 at 13:03 UTC**
 
-**⭐Star this repo** to save it and get updates when new roles are added⭐
+**Star this repo** to save it and get updates when new roles are added.
 
 ## What this is
 
-This is an engine, not a hand-kept list. It polls company career feeds several times a day, finds the internships, removes duplicates, and rebuilds this page on its own. Every link comes straight from the source, so it's real and current and not a stale hand list!!
+This is an engine, not a hand-kept list. It polls company career feeds (Greenhouse, Lever, Ashby, SmartRecruiters) several times a day, finds the internships, removes duplicates, and rebuilds this page on its own. Every link comes straight from the source, so it's real and current — not a stale list someone forgot to update.
 
 ## Scope
 
 - **Roles:** Software Engineering, Data Science & Machine Learning (and closely related technical internships)
-- **Region:** United States only (for now) - I will add more place if i ever get more stars
-- **Cycles:** Summer 2027 and Fall 2026 (As of now, the cycle hasn't begin so you wont see a lot)
+- **Region:** United States only (for now)
+- **Cycles:** Summer 2027 and Fall 2026
 
 ## About
 
@@ -22,7 +22,7 @@ I'm a US-based international student studying in the United States, so I built t
 
 ## Where this is going
 
-I'm building this in the open and adding to it as it grows. Coming soon: **SMS/email alerts** the moment a role opens, and **filtering** by role, location, and visa-sponsorship (a real one for all my international homies). If it helps you, a star means a lot and tells me to keep going.
+I'm building this in the open and adding to it as it grows. Coming soon: **SMS/email alerts** the moment a role opens, and **filtering** by role, location, and visa-sponsorship (a real one for fellow international students). If it helps you, a star means a lot and tells me to keep going.
 
 ## How to use
 
@@ -78,16 +78,19 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Verkada | Frontend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | — | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099529007) |
 
 ---
-## Note on dates
-The **Posted** column shows when a role was published, with the newest at the top. I pull the posting date straight from each job portal — but a lot of them (Greenhouse and many smaller career sites) don't expose one publicly, so those rows show a dash (—) for now instead of a guessed date. Portals that do publish dates are dated. Know the real date for a dashed role? Open a PR and I'll merge it.
 
 ## How it stays current
 
-A Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, removes duplicates, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. The full source is in this repo.
+A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
+
+_Engine (last run): 1,282 companies across 5 ATS platforms · 95% fetch success · completed in 40.1s._
 
 ## Contributing
 
 Adding a company takes one line — see [CONTRIBUTING.md](CONTRIBUTING.md). Suggestions and pull requests are welcome.
 
+## Note on dates
+
+The **Posted** column shows when a role was published, with the newest at the top. I pull the posting date straight from each job portal — but a lot of them (Greenhouse and many smaller career sites) don't expose one publicly, so those rows show a dash (—) for now instead of a guessed date. Portals that do publish dates (Lever, Ashby, SmartRecruiters) are dated. Know the real date for a dashed role? Open a PR and I'll merge it.
 
 Roles can close at any time — always confirm on the company's own site before applying.
