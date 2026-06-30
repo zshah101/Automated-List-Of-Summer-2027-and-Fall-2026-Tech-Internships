@@ -27,6 +27,7 @@ from .connectors import (
     greenhouse,
     lever,
     oracle,
+    rippling,
     smartrecruiters,
     workday,
 )
@@ -40,6 +41,7 @@ CONNECTORS = {
     "workday": workday.fetch,
     "amazon": amazon.fetch,
     "oracle": oracle.fetch,
+    "rippling": rippling.fetch,
 }
 
 GLOBAL_CONCURRENCY = 32

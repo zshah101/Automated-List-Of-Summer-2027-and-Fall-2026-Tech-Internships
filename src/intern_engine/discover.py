@@ -19,6 +19,7 @@ from . import paths
 
 PUBLIC_SOURCES = [
     "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json",
+    "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json",
     "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/dev/.github/scripts/listings.json",
 ]
 
@@ -31,6 +32,7 @@ _PATTERNS = {
     "lever": [re.compile(r"jobs\.lever\.co/([a-z0-9][a-z0-9_\-]*)", re.I)],
     "ashby": [re.compile(r"jobs\.ashbyhq\.com/([a-z0-9][a-z0-9_\-]*)", re.I)],
     "smartrecruiters": [re.compile(r"jobs\.smartrecruiters\.com/([A-Za-z0-9][\w\-]*)")],
+    "rippling": [re.compile(r"ats\.rippling\.com/([\w-]+)", re.I)],
 }
 
 _BLOCKLIST = {"jobs", "www", "careers", "job", "embed", "search"}
