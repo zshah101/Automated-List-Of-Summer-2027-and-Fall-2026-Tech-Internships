@@ -1,0 +1,70 @@
+"""Tunable settings, loaded from data/config.json (with safe defaults).
+
+Change behavior without touching code:
+  - cycles        : the exact intern cycles to show, e.g. ["Summer 2027", "Fall 2026"].
+                    These become the section headings, in this order.
+  - default_cycle : where to put roles that have no clear term/year (e.g. just
+                    "Software Engineer Intern"). Must be one of `cycles`.
+  - regions       : ["US"] for United States only, ["US", "Canada"] for both,
+                    or ["Global"] to disable the location filter entirely.
+  - role_scope    : "tech" (SWE/data/ML/quant/hardware/...) or "all" internships.
+"""
+
+from __future__ import annotations
+
+import json
+
+from . import paths
+
+DEFAULTS = {
+    "cycles": ["Summer 2027", "Fall 2026"],
+    "default_cycle": "Summer 2027",
+    "regions": ["US"],
+    "role_scope": "tech",
+}
+
+_GLOBAL_TOKENS = {"global", "international", "worldwide", "any", "all"}
+_US_TOKENS = {"us", "usa", "united states", "u.s.", "america"}
+
+
+def load_config() -> dict:
+    cfg = dict(DEFAULTS)
+    try:
+        with open(paths.CONFIG_PATH, encoding="utf-8") as f:
+            cfg.update(json.load(f))
+    except (OSError, json.JSONDecodeError):
+        pass
+    return cfg
+
+
+def cycles(cfg: dict) -> list[str]:
+    return list(cfg.get("cycles") or DEFAULTS["cycles"])
+
+
+def default_cycle(cfg: dict) -> str:
+    return cfg.get("default_cycle") or cycles(cfg)[0]
+
+
+def restrict_region(cfg: dict) -> bool:
+    regions = cfg.get("regions") or []
+    if not regions:
+        return False
+    return not any(str(r).lower() in _GLOBAL_TOKENS for r in regions)
+
+
+def want_us(cfg: dict) -> bool:
+    return any(str(r).lower() in _US_TOKENS for r in (cfg.get("regions") or []))
+
+
+def want_canada(cfg: dict) -> bool:
+    return any(str(r).lower() == "canada" for r in (cfg.get("regions") or []))
+
+
+def section_limit(cfg: dict, label: str):
+    """Max rows to show for a section, or None for no cap."""
+    return (cfg.get("section_limits") or {}).get(label)
+
+
+def max_age_days(cfg: dict):
+    """Drop roles published longer ago than this many days. 0/None = no limit."""
+    return cfg.get("max_age_days", 365)

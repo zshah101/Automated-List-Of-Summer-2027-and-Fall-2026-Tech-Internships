@@ -1,0 +1,43 @@
+name: Update internships
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # every 2 hours (UTC)
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write             # needed so the bot can commit the refreshed data
+
+concurrency:
+  group: update-internships
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the engine
+        run: python run.py update
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md data/jobs.json data/internships.csv
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: update internships ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

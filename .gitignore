@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local database files
+*.db
+*.sqlite3
+
+# Secrets (API keys, etc.) — never commit these
+.env
+
+# Personal / local-only files (planning, learning notes, experiments) —
+# kept on your machine, never pushed to the public repo.
+PLAN.md
+phase1_greenhouse.py
+LEARN.md
+docs/LEARN.md
+scratchpad/

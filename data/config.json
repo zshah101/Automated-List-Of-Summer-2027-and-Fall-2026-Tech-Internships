@@ -1,0 +1,11 @@
+{
+  "cycles": ["Summer 2027", "Fall 2026"],
+  "default_cycle": "Summer 2027",
+  "regions": ["US"],
+  "role_scope": "tech",
+  "max_age_days": 270,
+  "section_limits": {
+    "Summer 2027": 100,
+    "Fall 2026": 40
+  }
+}
