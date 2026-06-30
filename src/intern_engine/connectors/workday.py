@@ -11,7 +11,7 @@ through an optional proxy (WORKDAY_PROXY) when one is configured.
 from __future__ import annotations
 
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from ..models import Job
 from ..net import Net
@@ -40,7 +40,7 @@ def _resolve_posted(text: str | None) -> str | None:
         if not match or int(match.group(1)) >= 30:
             return None
         days = int(match.group(1))
-    return (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%dT00:00:00Z")
+    return (datetime.now(UTC) - timedelta(days=days)).strftime("%Y-%m-%dT00:00:00Z")
 
 
 async def fetch(company: dict, net: Net) -> list[Job]:

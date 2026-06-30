@@ -41,10 +41,6 @@ def cycles(cfg: dict) -> list[str]:
     return list(cfg.get("cycles") or DEFAULTS["cycles"])
 
 
-def default_cycle(cfg: dict) -> str:
-    return cfg.get("default_cycle") or cycles(cfg)[0]
-
-
 def restrict_region(cfg: dict) -> bool:
     regions = cfg.get("regions") or []
     if not regions:

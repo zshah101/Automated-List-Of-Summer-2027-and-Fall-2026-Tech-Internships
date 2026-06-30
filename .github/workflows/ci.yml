@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    # Only run on code changes, not on the bot's data refreshes.
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "run.py"
+      - "requirements*.txt"
+      - "ruff.toml"
+      - ".github/workflows/ci.yml"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Lint (ruff)
+        run: ruff check src tests run.py
+      - name: Tests (pytest)
+        run: python -m pytest -q

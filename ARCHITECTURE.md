@@ -1,5 +1,9 @@
 # Architecture
 
+[![CI](https://github.com/ShahZainSahir/summer-fall-2027-internships/actions/workflows/ci.yml/badge.svg)](https://github.com/ShahZainSahir/summer-fall-2027-internships/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![async](https://img.shields.io/badge/I%2FO-async%20httpx-success)
+
 A small, dependency-light Python engine that reads public ATS job feeds, keeps
 only the internships we care about (configurable cycle / region / scope), tracks
 them over time, and regenerates the public `README.md` + a CSV. GitHub Actions

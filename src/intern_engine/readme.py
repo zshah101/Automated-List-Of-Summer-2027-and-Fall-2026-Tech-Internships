@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import csv
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from . import config, paths, priority
 
@@ -22,15 +22,19 @@ def _engine_metrics() -> str:
     except (OSError, ValueError):
         return ""
     sources = len(stats.get("companies_by_source", {}))
-    return (
+    line = (
         f"_Engine (last run): {stats.get('companies_total', 0):,} companies across "
         f"{sources} ATS platforms · {int(stats.get('fetch_success_rate', 0) * 100)}% "
-        f"fetch success · completed in {stats.get('duration_seconds', 0)}s._"
+        f"fetch success · completed in {stats.get('duration_seconds', 0)}s"
     )
+    latency = stats.get("detection_latency") or {}
+    if latency.get("median_minutes") is not None and latency.get("sample_size", 0) >= 5:
+        line += f" · median detection latency {latency['median_minutes']:.0f} min"
+    return line + "._"
 
 
 def _now_str() -> str:
-    return datetime.now(timezone.utc).strftime("%b %d, %Y at %H:%M UTC")
+    return datetime.now(UTC).strftime("%b %d, %Y at %H:%M UTC")
 
 
 def _md_cell(text: str) -> str:
@@ -92,7 +96,6 @@ def _region_label(cfg: dict) -> str:
 
 
 def _company_count() -> int:
-    import json
     try:
         with open(paths.COMPANIES_PATH, encoding="utf-8") as f:
             return len(json.load(f))
@@ -121,8 +124,8 @@ def _header(cfg: dict, total_open: int, companies: int) -> list[str]:
         "## What this is",
         "",
         "This is an engine, not a hand-kept list. It polls company career feeds "
-        "(Greenhouse, Lever, Ashby, SmartRecruiters) several times a day, finds the internships, "
-        "removes duplicates, and rebuilds this page on its own. Every link comes "
+        "(Greenhouse, Lever, Ashby, SmartRecruiters, Workday) several times a day, finds "
+        "the internships, removes duplicates, and rebuilds this page on its own. Every link comes "
         "straight from the source, so it's real and current — not a stale list "
         "someone forgot to update.",
         "",

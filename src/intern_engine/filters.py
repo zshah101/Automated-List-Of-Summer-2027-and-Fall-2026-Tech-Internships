@@ -114,7 +114,7 @@ def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) ->
             return label
     # 2) year matches a tracked cycle and the title has no conflicting term
     #    (e.g. "2027 Software Engineer Intern" -> the 2027 cycle)
-    for cterm, cyear, label in parsed:
+    for _cterm, cyear, label in parsed:
         if cyear in years and term is None:
             return label
     # year stated but term conflicts (e.g. "Fall 2027") -> not a tracked cycle

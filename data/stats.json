@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-30T13:03:35Z",
-  "duration_seconds": 40.1,
+  "generated_at": "2026-06-30T13:22:01Z",
+  "duration_seconds": 19.8,
   "companies_total": 1282,
   "companies_by_source": {
     "greenhouse": 616,
@@ -25,5 +25,10 @@
     "Summer 2027": 6
   },
   "new_this_run": 0,
-  "open_total": 35
+  "open_total": 35,
+  "detection_latency": {
+    "median_minutes": 9629.5,
+    "sample_size": 1,
+    "window_days": 7
+  }
 }

@@ -12,10 +12,11 @@ import asyncio
 import json
 import os
 import re
+import statistics
 import time
 from collections import Counter
 from dataclasses import asdict
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 import httpx
 
@@ -107,7 +108,7 @@ def run_update() -> tuple[dict, dict]:
     want_us, want_ca = config.want_us(cfg), config.want_canada(cfg)
     max_age = config.max_age_days(cfg)
     cutoff = (
-        (datetime.now(timezone.utc) - timedelta(days=max_age)).strftime("%Y-%m-%d")
+        (datetime.now(UTC) - timedelta(days=max_age)).strftime("%Y-%m-%d")
         if max_age else None
     )
 
@@ -133,7 +134,8 @@ def run_update() -> tuple[dict, dict]:
                 continue
             if restrict and not filters.region_ok(job.location, want_us, want_ca):
                 continue
-            if cutoff and (job.posted_at or "")[:10] and (job.posted_at or "")[:10] < cutoff:
+            posted_day = (job.posted_at or "")[:10]
+            if cutoff and posted_day and posted_day < cutoff:
                 continue
             job.season = season
             job.category = filters.categorize(job.title)
@@ -150,10 +152,42 @@ def run_update() -> tuple[dict, dict]:
     return stats, existing
 
 
+def _parse_iso(value: str) -> datetime | None:
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except (ValueError, AttributeError):
+        return None
+
+
+def _detection_latency(existing: dict, window_days: int = 7) -> dict:
+    """Median minutes between a role being published and us first seeing it.
+
+    Only counts roles caught within `window_days` of their posting, so the figure
+    reflects real-time detection rather than the one-off backfill of old roles.
+    """
+    window_minutes = window_days * 24 * 60
+    deltas = []
+    for record in existing.values():
+        posted, seen = record.get("posted_at"), record.get("first_seen_at")
+        if not posted or not seen:
+            continue
+        posted_dt, seen_dt = _parse_iso(posted), _parse_iso(seen)
+        if not posted_dt or not seen_dt:
+            continue
+        minutes = (seen_dt - posted_dt).total_seconds() / 60
+        if 0 <= minutes <= window_minutes:
+            deltas.append(minutes)
+    return {
+        "median_minutes": round(statistics.median(deltas), 1) if deltas else None,
+        "sample_size": len(deltas),
+        "window_days": window_days,
+    }
+
+
 def _build_stats(companies, succeeded, errors, kept, existing, new_ids, duration) -> dict:
     open_records = [r for r in existing.values() if r.get("is_open")]
     return {
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "duration_seconds": duration,
         "companies_total": len(companies),
         "companies_by_source": dict(Counter(c["ats"] for c in companies)),
@@ -165,6 +199,7 @@ def _build_stats(companies, succeeded, errors, kept, existing, new_ids, duration
         "roles_by_cycle": dict(Counter(j.season for j in kept)),
         "new_this_run": len(new_ids),
         "open_total": len(open_records),
+        "detection_latency": _detection_latency(existing),
     }
 
 

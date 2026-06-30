@@ -82,4 +82,5 @@ class Net:
             response.raise_for_status()
             return response.json()
 
-        raise last_error  # unreachable, but keeps type checkers happy
+        # Only reached if every attempt hit a retryable status without resolving.
+        raise last_error or httpx.HTTPError(f"request to {url} failed after retries")
