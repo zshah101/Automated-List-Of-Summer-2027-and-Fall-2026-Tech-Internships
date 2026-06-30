@@ -20,6 +20,7 @@ PROBES = {
     "greenhouse": "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
     "lever": "https://api.lever.co/v0/postings/{slug}?mode=json",
     "ashby": "https://api.ashbyhq.com/posting-api/job-board/{slug}",
+    "smartrecruiters": "https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=1",
 }
 
 HEADERS = {"User-Agent": "intern-engine/1.0 (+github.com/intern-engine)"}
@@ -28,6 +29,10 @@ HEADERS = {"User-Agent": "intern-engine/1.0 (+github.com/intern-engine)"}
 def _count(ats: str, payload) -> int:
     if ats == "lever":
         return len(payload) if isinstance(payload, list) else 0
+    if ats == "smartrecruiters":
+        if isinstance(payload, dict):
+            return payload.get("totalFound", len(payload.get("content", [])))
+        return 0
     return len(payload.get("jobs", [])) if isinstance(payload, dict) else 0
 
 

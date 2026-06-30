@@ -2,11 +2,13 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list — newest roles on top, refreshed automatically throughout the day.
 
-**27 open roles · 1070 companies tracked · updated Jun 30, 2026 at 11:15 UTC**
+**27 open roles · 1171 companies tracked · updated Jun 30, 2026 at 12:15 UTC**
+
+**Star this repo** to save it and get updates when new roles are added.
 
 ## What this is
 
-This is an engine, not a hand-kept list. It polls company career feeds (Greenhouse, Lever, Ashby) several times a day, finds the internships, removes duplicates, and rebuilds this page on its own. Every link comes straight from the source, so it's real and current — not a stale list someone forgot to update.
+This is an engine, not a hand-kept list. It polls company career feeds (Greenhouse, Lever, Ashby, SmartRecruiters) several times a day, finds the internships, removes duplicates, and rebuilds this page on its own. Every link comes straight from the source, so it's real and current — not a stale list someone forgot to update.
 
 ## Scope
 
@@ -31,34 +33,24 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 
 ---
 
-## Summer 2027  (6 open)
+## Summer 2027  (5 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Anduril | 2027 Software Engineer Intern | Software | Atlanta +17 more | Jun 26, 2026 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
-| Point72 | Summer 2027 Quantitative Developer Internship | Quant | New York | Jun 25, 2026 | [Apply](https://boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002) |
-| Walleye Capital | Investment Data Science Intern (Summer 2027) | Data & ML/AI | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006) |
-| Walleye Capital | Quantic – Quantitative Developer Intern (Summer 2027) | Quant | Boston, MA | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006) |
-| Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
+| Point72 | Summer 2027 Quantitative Developer Internship | Quant | New York | — | [Apply](https://boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002) |
+| Walleye Capital | Investment Data Science Intern (Summer 2027) | Data & ML/AI | New York, New York | — | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006) |
+| Walleye Capital | Quantic – Quantitative Developer Intern (Summer 2027) | Quant | Boston, MA | — | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006) |
+| Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | — | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 
-## Fall 2026  (21 open)
+## Fall 2026  (22 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Rocket Lab | Software Intern Fall 2026 | Software | Albuquerque, NM | Jun 24, 2026 | [Apply](https://job-boards.greenhouse.io/rocketlab/jobs/7736776003) |
-| Varda Space | Flight Software Internship - Fall 2026 | Software | El Segundo, California, United States | Jun 24, 2026 | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7676465003) |
-| Verkada | Backend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | Jun 24, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099422007) |
-| Verkada | Frontend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | Jun 24, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099529007) |
 | 1Password | Developer Intern, Service Development - Fall 2026 | Software | Remote (United States / Canada) | Jun 23, 2026 | [Apply](https://jobs.ashbyhq.com/1password/b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2) |
-| Samsung Research America | 2026 Fall Intern, ML/NLP Research | Data & ML/AI | 665 Clyde Avenue +3 more | Jun 23, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8541339002) |
-| Figure | Firmware Intern [Fall 2026] | Hardware | San Jose, CA | Jun 22, 2026 | [Apply](https://job-boards.greenhouse.io/figureai/jobs/4691070006) |
+| Intuitive Surgical | Computer Vision Engineering Intern - Fall 2026 | Data & ML/AI | Sunnyvale, CA, United States | Jun 22, 2026 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000133458290) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Software | Peachtree Corners, GA | Jun 16, 2026 | [Apply](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
-| Astranis | Software Engineer- Backend Intern (Fall 2026) | Software | San Francisco, CA | Jun 12, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
-| SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July to December) | Data & ML/AI | Miami +5 more | Jun 12, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
-| Gemini | Software Engineering Intern (Fall 2026) | Software | New York, New York | Jun 10, 2026 | [Apply](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
 | 1Password | Developer Intern, Trust Platforms - Fall 2026 | Software | Remote (United States / Canada) | Jun 09, 2026 | [Apply](https://jobs.ashbyhq.com/1password/8f8774dc-e400-48b1-8100-c6840b8eaed1) |
-| Samsung Research America | 2026 Fall Intern, Computer Vision/AI | Data & ML/AI | 665 Clyde Avenue +3 more | Jun 05, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8560657002) |
 | Skydio | Middleware Software Engineer Intern - Fall 2026 | Software | San Mateo, California, United States | May 21, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915) |
 | Saronic | Software Engineer Intern (Fall 2026) | Software | Austin, TX | May 18, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | Skydio | Software Engineer Intern Fall 2026/Winter 2027 | Software | San Mateo, California, United States | May 05, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee) |
@@ -67,6 +59,16 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Notion | Software Engineer Intern (Fall 2026) | Software | San Francisco, California | Apr 06, 2026 | [Apply](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
 | Hermeus | Software Engineering Intern (HMI) - Fall 2026 | Software | Atlanta, GA | Apr 01, 2026 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | Center for AI Safety | Research Engineer Intern (Fall 2026) | Software | San Francisco, CA | Mar 05, 2026 | [Apply](https://jobs.lever.co/aisafety/e011814b-9a80-43d6-bb0c-cc153ea4bec4) |
+| Astranis | Software Engineer- Backend Intern (Fall 2026) | Software | San Francisco, CA | — | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
+| Figure | Firmware Intern [Fall 2026] | Hardware | San Jose, CA | — | [Apply](https://job-boards.greenhouse.io/figureai/jobs/4691070006) |
+| Gemini | Software Engineering Intern (Fall 2026) | Software | New York, New York | — | [Apply](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
+| Rocket Lab | Software Intern Fall 2026 | Software | Albuquerque, NM | — | [Apply](https://job-boards.greenhouse.io/rocketlab/jobs/7736776003) |
+| Samsung Research America | 2026 Fall Intern, ML/NLP Research | Data & ML/AI | 665 Clyde Avenue +3 more | — | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8541339002) |
+| Samsung Research America | 2026 Fall Intern, Computer Vision/AI | Data & ML/AI | 665 Clyde Avenue +3 more | — | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8560657002) |
+| SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July to December) | Data & ML/AI | Miami +5 more | — | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
+| Varda Space | Flight Software Internship - Fall 2026 | Software | El Segundo, California, United States | — | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7676465003) |
+| Verkada | Backend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | — | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099422007) |
+| Verkada | Frontend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | — | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099529007) |
 
 ---
 
@@ -80,4 +82,6 @@ Adding a company takes one line — see [CONTRIBUTING.md](CONTRIBUTING.md). Sugg
 
 ## Note on dates
 
-The **Posted** date is when the company published the role, newest first. Most boards expose this directly; where a board doesn't, we show the earliest date we could confirm and keep it fixed afterward. Roles can close at any time — always confirm on the company's own site before applying.
+The **Posted** column shows when a role was published, with the newest at the top. I pull the posting date straight from each job portal — but a lot of them (Greenhouse and many smaller career sites) don't expose one publicly, so those rows show a dash (—) for now instead of a guessed date. Portals that do publish dates (Lever, Ashby, SmartRecruiters) are dated. Know the real date for a dashed role? Open a PR and I'll merge it.
+
+Roles can close at any time — always confirm on the company's own site before applying.

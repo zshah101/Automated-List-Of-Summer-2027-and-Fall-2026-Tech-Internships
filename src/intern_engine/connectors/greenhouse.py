@@ -33,7 +33,10 @@ def fetch(company: dict, session: requests.Session) -> list[Job]:
                 title=(j.get("title") or "").strip(),
                 location=location.strip() or "—",
                 url=j.get("absolute_url") or "",
-                posted_at=j.get("updated_at"),
+                # Greenhouse's board API only exposes `updated_at` (last edited),
+                # not a true publish date — so we leave it blank rather than show
+                # a misleading date. The "Posted" column will be a dash.
+                posted_at=None,
             )
         )
     return jobs

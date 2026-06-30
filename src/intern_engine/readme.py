@@ -33,7 +33,14 @@ def _short_location(loc: str, limit: int = 40) -> str:
 
 def _date_str(record: dict) -> str:
     """The published date string we sort/display by (frozen per role)."""
-    return (record.get("posted_at") or record.get("first_seen_at") or "")
+    # Display only a REAL published date (no first_seen fallback) — undated -> dash.
+    return record.get("posted_at") or ""
+
+
+def _sort_key(record: dict):
+    # Dated roles first (newest), undated sink to the bottom; first_seen breaks
+    # ties so undated roles still have a stable, newest-first order.
+    return ((record.get("posted_at") or "")[:10], (record.get("first_seen_at") or "")[:19])
 
 
 def _pretty_date(record: dict) -> str:
@@ -93,10 +100,12 @@ def _header(cfg: dict, total_open: int, companies: int) -> list[str]:
         f"**{total_open} open roles · {companies} companies tracked · "
         f"updated {_now_str()}**",
         "",
+        "**Star this repo** to save it and get updates when new roles are added.",
+        "",
         "## What this is",
         "",
         "This is an engine, not a hand-kept list. It polls company career feeds "
-        "(Greenhouse, Lever, Ashby) several times a day, finds the internships, "
+        "(Greenhouse, Lever, Ashby, SmartRecruiters) several times a day, finds the internships, "
         "removes duplicates, and rebuilds this page on its own. Every link comes "
         "straight from the source, so it's real and current — not a stale list "
         "someone forgot to update.",
@@ -153,10 +162,15 @@ def _footer() -> list[str]:
         "",
         "## Note on dates",
         "",
-        "The **Posted** date is when the company published the role, newest first. "
-        "Most boards expose this directly; where a board doesn't, we show the earliest "
-        "date we could confirm and keep it fixed afterward. Roles can close at any "
-        "time — always confirm on the company's own site before applying.",
+        "The **Posted** column shows when a role was published, with the newest at the "
+        "top. I pull the posting date straight from each job portal — but a lot of them "
+        "(Greenhouse and many smaller career sites) don't expose one publicly, so those "
+        "rows show a dash (—) for now instead of a guessed date. Portals that do publish "
+        "dates (Lever, Ashby, SmartRecruiters) are dated. Know the real date for a "
+        "dashed role? Open a PR and I'll merge it.",
+        "",
+        "Roles can close at any time — always confirm on the company's own site before "
+        "applying.",
         "",
     ]
 
@@ -168,7 +182,7 @@ def _select(rows: list[dict], limit, per_company) -> list[dict]:
     2) if still over `limit`, keep the most sought-after companies first,
     3) display newest on top.
     """
-    rows = sorted(rows, key=lambda r: _date_str(r)[:10], reverse=True)
+    rows = sorted(rows, key=_sort_key, reverse=True)
     if per_company:
         seen: dict[str, int] = {}
         capped = []

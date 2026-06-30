@@ -32,6 +32,7 @@ _PATTERNS = {
     ],
     "lever": [re.compile(r"jobs\.lever\.co/([a-z0-9][a-z0-9_\-]*)", re.I)],
     "ashby": [re.compile(r"jobs\.ashbyhq\.com/([a-z0-9][a-z0-9_\-]*)", re.I)],
+    "smartrecruiters": [re.compile(r"jobs\.smartrecruiters\.com/([A-Za-z0-9][\w\-]*)")],
 }
 
 # Tokens that are URL noise, not real company slugs.
@@ -51,8 +52,10 @@ def _extract(listings: list) -> dict:
         for ats, patterns in _PATTERNS.items():
             for pattern in patterns:
                 for slug in pattern.findall(blob):
-                    slug = slug.lower()
-                    if slug in _BLOCKLIST:
+                    # SmartRecruiters identifiers are case-sensitive; others aren't.
+                    if ats != "smartrecruiters":
+                        slug = slug.lower()
+                    if slug.lower() in _BLOCKLIST:
                         continue
                     key = (ats, slug)
                     if key not in found:
