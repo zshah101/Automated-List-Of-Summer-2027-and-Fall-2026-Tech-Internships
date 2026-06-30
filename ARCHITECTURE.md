@@ -106,6 +106,16 @@ secret named **`WORKDAY_PROXY`** to a proxy URL (e.g. a cheap residential/rotati
 proxy: `http://user:pass@host:port`). The workflow passes it through, and only the
 Workday connector uses it. Unset = Workday runs direct (default).
 
+## Data layer (optional Postgres / Supabase)
+
+The JSON store is the always-available default. When `SUPABASE_URL` and
+`SUPABASE_SERVICE_KEY` are set, each run also mirrors the data into Postgres via
+`db.py` (best-effort - missing creds simply skip it): a normalized schema of
+`companies`, `jobs` (with first/last-seen history + open/closed state), and a
+`scrape_runs` metrics table, plus a `company_posting_stats` view (e.g. average
+days a company's postings stay live). The README, CSV, and dashboard remain
+exported views, so the presentation layer is decoupled from the data layer.
+
 ## Running locally
 
 ```bash

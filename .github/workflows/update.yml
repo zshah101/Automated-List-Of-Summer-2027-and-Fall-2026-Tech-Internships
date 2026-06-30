@@ -29,10 +29,13 @@ jobs:
 
       - name: Run the engine
         env:
-          # Optional: add a repo secret named WORKDAY_PROXY (a proxy URL) so the
-          # cloud runner can reach Workday tenants that block datacenter IPs.
-          # If the secret isn't set, this is empty and Workday runs direct.
+          # Optional: WORKDAY_PROXY lets the cloud runner reach Workday tenants
+          # that block datacenter IPs. Unset = Workday runs direct.
           WORKDAY_PROXY: ${{ secrets.WORKDAY_PROXY }}
+          # Optional: set these repo secrets to mirror each run into Postgres.
+          # Unset = the engine still runs and exports README/CSV as normal.
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python run.py update
 
       - name: Commit & push if changed

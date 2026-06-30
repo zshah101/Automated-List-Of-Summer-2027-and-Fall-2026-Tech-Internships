@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src
 
 from intern_engine import (  # noqa: E402
     dashboard,
+    db,
     discover,
     harvester,
     pipeline,
@@ -49,6 +50,8 @@ def cmd_update() -> None:
     stats, store_data = pipeline.run_update()
     summary = readme.generate(store_data)
     dashboard.generate(store_data, stats)
+    if db.sync(store_data, stats):
+        print("  synced to Postgres   yes")
     print("Update complete:")
     for k, v in stats.items():
         print(f"  {k:<20} {v}")
