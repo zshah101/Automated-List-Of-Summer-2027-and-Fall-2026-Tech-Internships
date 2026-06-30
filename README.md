@@ -1,14 +1,14 @@
 # Summer 2027 Tech Internships
-
+**SPEED MATTERS WHEN YOU APPLY**
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list — newest roles on top, refreshed automatically throughout the day.
 
 **35 open roles · 1282 companies tracked · updated Jun 30, 2026 at 16:25 UTC**
 
-**Star this repo** to save it and get updates when new roles are added.
+**⭐Star this repo⭐** to save it and get updates when new roles are added.
 
 ## What this is
 
-This is an engine, not a hand-kept list. It polls company career feeds (Greenhouse, Lever, Ashby, SmartRecruiters, Workday) several times a day, finds the internships, removes duplicates, and rebuilds this page on its own. Every link comes straight from the source, so it's real and current — not a stale list someone forgot to update.
+This is an engine, not a hand-kept list. It polls company career feeds several times a day, finds the internships, removes duplicates, and rebuilds this page on its own. Every link comes straight from the source, so it's real and current, not a stale list someone forgot to update (speed matters).
 
 ## Scope
 
