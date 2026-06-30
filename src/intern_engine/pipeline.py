@@ -44,7 +44,6 @@ def _fetch_one(company: dict):
 def run_update() -> tuple[dict, dict]:
     cfg = config.load_config()
     cycles = config.cycles(cfg)
-    default_cycle = config.default_cycle(cfg)
     tech_only = cfg.get("role_scope", "tech") == "tech"
     restrict = config.restrict_region(cfg)
     want_us = config.want_us(cfg)
@@ -75,8 +74,8 @@ def run_update() -> tuple[dict, dict]:
                     continue
                 if tech_only and not filters.is_tech(job.title):
                     continue
-                season = filters.detect_season(job.title, cycles, default_cycle)
-                if season is None:  # a cycle we don't track
+                season = filters.detect_season(job.title, cycles)
+                if season is None:  # no explicit year, or a cycle we don't track
                     continue
                 if restrict and not filters.region_ok(job.location, want_us, want_ca):
                     continue

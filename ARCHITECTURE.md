@@ -52,18 +52,23 @@ data/candidates.json        (company name + slug guesses)
 ```json
 {
   "cycles": ["Summer 2027", "Fall 2026"],
-  "default_cycle": "Summer 2027",
   "regions": ["US"],
-  "role_scope": "tech"
+  "role_scope": "tech",
+  "max_age_days": 270,
+  "max_per_company": 3,
+  "section_limits": { "Summer 2027": 100, "Fall 2026": 40 }
 }
 ```
 
 - `cycles` — the exact cycles to show; these become the section headings, in order.
-  Roles for any other cycle (e.g. "Summer 2026", "Fall 2027") are dropped.
-- `default_cycle` — bucket for roles with no clear term/year (must be one of `cycles`).
+  A role is kept ONLY if its title explicitly states the year (e.g. "2027" or
+  "Fall 2026"); undated roles and other cycles are dropped.
 - `regions` — `["US"]` (United States only), `["US", "Canada"]`, or `["Global"]`
   to disable the location filter.
 - `role_scope` — `"tech"` keeps only tech roles; `"all"` keeps every internship.
+- `max_age_days` — drop postings published longer ago than this (kills stale/evergreen reqs).
+- `max_per_company` — cap roles shown per company per section, for variety.
+- `section_limits` — max rows per section; over the cap, the most sought-after companies win.
 
 Run `python run.py discover` to mine public datasets (SimplifyJobs/vanshb03) for
 company tokens and grow `data/companies.json` — we then poll those feeds directly.

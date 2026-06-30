@@ -161,14 +161,25 @@ def _footer() -> list[str]:
     ]
 
 
-def _select(rows: list[dict], limit) -> list[dict]:
+def _select(rows: list[dict], limit, per_company) -> list[dict]:
     """Pick which rows to show, then order them newest-first for display.
 
-    If a section is over its cap, keep roles from the most sought-after
-    companies first (ties broken by recency), then display newest on top.
+    1) cap each company to `per_company` (variety, newest kept),
+    2) if still over `limit`, keep the most sought-after companies first,
+    3) display newest on top.
     """
+    rows = sorted(rows, key=lambda r: _date_str(r)[:10], reverse=True)
+    if per_company:
+        seen: dict[str, int] = {}
+        capped = []
+        for r in rows:
+            c = (r.get("company") or "").strip().lower()
+            if seen.get(c, 0) >= per_company:
+                continue
+            seen[c] = seen.get(c, 0) + 1
+            capped.append(r)
+        rows = capped
     if limit and len(rows) > limit:
-        rows = sorted(rows, key=lambda r: _date_str(r)[:10], reverse=True)
         rows = sorted(rows, key=lambda r: priority.rank(r.get("company")))[:limit]
     return sorted(rows, key=lambda r: _date_str(r)[:10], reverse=True)
 
@@ -184,10 +195,15 @@ def generate(store_data: dict) -> dict:
 
     ordered_labels = cycles + [lbl for lbl in groups if lbl not in cycles]
 
+    per_company = config.max_per_company(cfg)
     sections: list[tuple[str, list[dict]]] = []
     displayed: list[dict] = []
     for label in ordered_labels:
-        rows = _select(groups.get(label) or [], config.section_limit(cfg, label))
+        rows = _select(
+            groups.get(label) or [],
+            config.section_limit(cfg, label),
+            per_company,
+        )
         if rows:
             sections.append((label, rows))
             displayed.extend(rows)

@@ -70,38 +70,33 @@ def is_tech(title: str) -> bool:
 _CYCLE_RE = re.compile(r"(Summer|Fall|Spring|Winter)\s+(\d{4})", re.IGNORECASE)
 
 
-def detect_season(
-    title: str,
-    cycles=("Summer 2027", "Fall 2026"),
-    default_cycle: str = "Summer 2027",
-) -> str | None:
-    """Bucket a title into exactly one of the configured cycles.
+def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) -> str | None:
+    """Bucket a title into a cycle ONLY if the year is explicit in the title.
 
-    Returns a cycle label (e.g. "Fall 2026"), or None if the role is clearly for
-    a cycle we don't track (e.g. "Summer 2026", "Fall 2027", "Spring 2027").
+    This is strict on purpose: a role must actually state its year (e.g. "2027"
+    or "Fall 2026"). Roles with no year, or a year/term we don't track, are
+    dropped — so the list contains only genuine, dated postings (like the
+    reference repos), never undated roles defaulted into a cycle.
 
-    Rules:
-      - explicit term + year that matches a cycle -> that cycle
-      - explicit term + year that doesn't match   -> drop
-      - term only ("Fall Intern")                 -> the cycle with that term
-      - year only ("2027 Intern")                 -> the cycle with that year
-      - nothing ("Software Engineer Intern")      -> default_cycle (no dropping)
+    Examples (cycles = Summer 2027, Fall 2026):
+      "Software Engineer Intern, Summer 2027"  -> "Summer 2027"
+      "2027 Software Engineer Intern"          -> "Summer 2027"  (year explicit)
+      "Fall 2026 Data Science Intern"          -> "Fall 2026"
+      "Software Engineer Intern"               -> None  (no year -> drop)
+      "Summer 2026 Intern"                     -> None  (past -> drop)
+      "Fall 2027 Intern"                       -> None  (cycle not tracked)
     """
-    # Parse the configured cycles into lookups.
-    by_term_year: dict[tuple[str, str], str] = {}
-    by_term: dict[str, str] = {}
-    by_year: dict[str, str] = {}
+    parsed = []  # (term, year, label)
     for label in cycles:
         m = _CYCLE_RE.match(label.strip())
-        if not m:
-            continue
-        term, year = m.group(1).capitalize(), m.group(2)
-        by_term_year[(term, year)] = label
-        by_term.setdefault(term, label)
-        by_year.setdefault(year, label)
+        if m:
+            parsed.append((m.group(1).capitalize(), m.group(2), label))
+
+    years = set(_YEAR_RE.findall(title))
+    if not years:
+        return None  # no explicit year in the title -> drop
 
     t = title.lower()
-    years = _YEAR_RE.findall(title)
     if "summer" in t:
         term = "Summer"
     elif "fall" in t or "autumn" in t:
@@ -113,19 +108,17 @@ def detect_season(
     else:
         term = None
 
-    if term and years:
-        for y in years:
-            if (term, y) in by_term_year:
-                return by_term_year[(term, y)]
-        return None  # explicit term+year, but not a cycle we track -> drop
-    if term:  # term, no year
-        return by_term.get(term)  # None if that term isn't in our cycles -> drop
-    if years:  # year, no term
-        for y in years:
-            if y in by_year:
-                return by_year[y]
-        return None  # a year we don't track -> drop
-    return default_cycle  # no signal at all -> default bucket (don't drop)
+    # 1) exact term + year match (e.g. "Summer 2027")
+    for cterm, cyear, label in parsed:
+        if cyear in years and term == cterm:
+            return label
+    # 2) year matches a tracked cycle and the title has no conflicting term
+    #    (e.g. "2027 Software Engineer Intern" -> the 2027 cycle)
+    for cterm, cyear, label in parsed:
+        if cyear in years and term is None:
+            return label
+    # year stated but term conflicts (e.g. "Fall 2027") -> not a tracked cycle
+    return None
 
 
 # --- location: US / Canada detection -----------------------------------------
@@ -167,8 +160,10 @@ _US_NAME_RE = re.compile(
 _CA_NAME_RE = re.compile(
     r"\b(" + "|".join(re.escape(n) for n in _CA_PROVINCES) + r")\b", re.IGNORECASE
 )
-_US_CODE_RE = re.compile(r"\b(" + "|".join(_US_CODES) + r")\b")  # case-sensitive
-_CA_CODE_RE = re.compile(r"\b(" + "|".join(_CA_CODES) + r")\b")  # case-sensitive
+# case-sensitive; (?!-) avoids matching country-style prefixes like "DE-Berlin"
+# (Germany) as the US state code DE (Delaware).
+_US_CODE_RE = re.compile(r"\b(" + "|".join(_US_CODES) + r")\b(?!-)")
+_CA_CODE_RE = re.compile(r"\b(" + "|".join(_CA_CODES) + r")\b(?!-)")
 
 
 def is_united_states(location: str) -> bool:

@@ -68,3 +68,8 @@ def section_limit(cfg: dict, label: str):
 def max_age_days(cfg: dict):
     """Drop roles published longer ago than this many days. 0/None = no limit."""
     return cfg.get("max_age_days", 365)
+
+
+def max_per_company(cfg: dict):
+    """Max roles to show per company per section, for variety. 0/None = no limit."""
+    return cfg.get("max_per_company", 0)
