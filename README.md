@@ -2,7 +2,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**36 open roles · 2078 companies tracked · updated Jul 01, 2026 at 16:29 UTC**
+**37 open roles · 2078 companies tracked · updated Jul 01, 2026 at 20:01 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -33,17 +33,19 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 
 ---
 
-## Summer 2027  (5 open)
+## Summer 2027  (7 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
+| IMC Trading | Machine Learning Research Intern - Summer 2027 | Data & ML/AI | Chicago, United States | — | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4907430101) |
+| IMC Trading | Software Engineer Intern - Summer 2027 | Software | Chicago, United States | — | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) |
 | Anduril | 2027 Software Engineer Intern | Software | Atlanta +17 more | — | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | Walleye Capital | Investment Data Science Intern (Summer 2027) | Data & ML/AI | New York, New York | — | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006) |
 | Walleye Capital | Quantic – Quantitative Developer Intern (Summer 2027) | Quant | Boston, MA | — | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006) |
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | — | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 
-## Fall 2026  (31 open)
+## Fall 2026  (30 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -77,7 +79,6 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July to December) | Data & ML/AI | Miami +5 more | — | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
 | Varda Space | Flight Software Internship - Fall 2026 | Software | El Segundo, California, United States | — | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7676465003) |
 | Verkada | Backend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | — | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099422007) |
-| Verkada | Frontend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | — | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099529007) |
 
 ---
 
@@ -85,7 +86,7 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 2,078 companies across 8 ATS platforms · 94% fetch success · completed in 89.6s · median detection latency 3500 min._
+_Engine (last run): 2,078 companies across 8 ATS platforms · 94% fetch success · completed in 59.6s · median detection latency 3500 min._
 
 ## Contributing
 
