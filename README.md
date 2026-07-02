@@ -2,7 +2,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**44 open roles · 48 new this week · 3,541 companies tracked · updated Jul 02, 2026 at 19:33 UTC**
+**43 open roles · 47 new this week · 3,541 companies tracked · updated Jul 02, 2026 at 21:14 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -51,7 +51,7 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (37 open)
+## Fall 2026  (36 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -84,7 +84,6 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Hermeus | Software Engineering Intern (HIL) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
 | Hermeus | Software Engineering Intern (Modeling & Simulation) - Fall 2026 🇺🇸 | Software | Los Angeles, CA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
 | Notion ✓ | Software Engineer Intern (Fall 2026) | Software | San Francisco, California | Apr 06, 2026 | [Apply](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
-| Verkada ✓ | Backend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | Apr 06, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099422007) |
 | SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July to December) | Data & ML/AI | Miami +5 more | Apr 02, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
 | Hermeus | Software Engineering Intern (HMI) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 01, 2026 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | Motorola ✓ | Intern - Embedded Software, System, and Test Engineer - 2026 🇺🇸 🆕 | Software | Irvine, CA | Mar 30, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372) |
@@ -94,10 +93,11 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Amazon | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
 <details>
-<summary><strong>Recently closed</strong> — 4 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 5 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Verkada | Backend Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-02 |
 | CACI | AI/ML Engineering Co-op - Fall 2026 | Fall 2026 | 2026-07-02 |
 | OMERS | Intern, AI Enablement & Adoption Specialist (Fall 2026, 4 Months) - New York | Fall 2026 | 2026-07-02 |
 | Point72 | Summer 2027 Quantitative Developer Internship | Summer 2027 | 2026-07-01 |
@@ -111,7 +111,7 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,541 companies across 11 ATS platforms · 93% fetch success · completed in 266.1s · median detection latency 3032 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,541 companies across 11 ATS platforms · 99% fetch success · completed in 233.6s · median detection latency 3032 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

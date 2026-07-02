@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-02T19:33:23Z",
+ "generated_at": "2026-07-02T21:14:51Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 48,
+ "count": 47,
  "jobs": [
   {
    "id": "workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
@@ -543,21 +543,6 @@
    "salary": null,
    "source": "ashby",
    "h1b_approvals": 12
-  },
-  {
-   "id": "greenhouse:verkada:5099422007",
-   "company": "Verkada",
-   "title": "Backend Software Engineering Intern - Fall 2026",
-   "season": "Fall 2026",
-   "category": "Software",
-   "location": "San Mateo, CA United States",
-   "url": "https://job-boards.greenhouse.io/verkada/jobs/5099422007",
-   "posted_at": "2026-04-06T18:16:27-04:00",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "offers",
-   "salary": null,
-   "source": "greenhouse",
-   "h1b_approvals": 36
   },
   {
    "id": "greenhouse:sharkninjaoperatingllc:4669676006",
