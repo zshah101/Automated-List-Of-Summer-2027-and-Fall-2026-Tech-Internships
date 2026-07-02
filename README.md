@@ -2,7 +2,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**46 open roles · 50 new this week · 3,541 companies tracked · updated Jul 01, 2026 at 23:22 UTC**
+**45 open roles · 49 new this week · 3,541 companies tracked · updated Jul 02, 2026 at 03:55 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,12 +50,11 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) 🆕 | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns 🆕 | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (39 open)
+## Fall 2026  (38 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | NVIDIA | Applied Research Intern, NLP - Fall 2026 🆕 | Data & ML/AI | US, CA, Santa Clara | Jul 01, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) |
-| CACI | AI/ML Engineering Co-op - Fall 2026 🇺🇸 🆕 | Data & ML/AI | King of Prussia, PA, US | Jun 30, 2026 | [Apply](https://caci.wd1.myworkdayjobs.com/external/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_328403) |
 | 1Password | Developer Intern, Service Development - Fall 2026 🆕 | Software | Remote (United States / Canada) | Jun 23, 2026 | [Apply](https://jobs.ashbyhq.com/1password/b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2) |
 | Figure | Firmware Intern [Fall 2026] 🆕 | Hardware | San Jose, CA | Jun 22, 2026 | [Apply](https://job-boards.greenhouse.io/figureai/jobs/4691070006) |
 | Intuitive Surgical | Computer Vision Engineering Intern - Fall 2026 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jun 22, 2026 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000133458290) |
@@ -95,10 +94,11 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Amazon | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics 🆕 | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
 <details>
-<summary><strong>Recently closed</strong> — 2 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 3 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| CACI | AI/ML Engineering Co-op - Fall 2026 | Fall 2026 | 2026-07-02 |
 | Point72 | Summer 2027 Quantitative Developer Internship | Summer 2027 | 2026-07-01 |
 | Verkada | Frontend Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-01 |
 
@@ -110,7 +110,7 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,541 companies across 11 ATS platforms · 95% fetch success · completed in 269.1s · median detection latency 2449 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,541 companies across 11 ATS platforms · 95% fetch success · completed in 260.5s · median detection latency 2449 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

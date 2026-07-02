@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-07-01T23:22:53Z",
+ "generated_at": "2026-07-02T03:55:47Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
- "count": 50,
+ "count": 49,
  "jobs": [
   {
    "id": "workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
@@ -44,20 +44,6 @@
    "sponsorship": "unknown",
    "salary": null,
    "source": "greenhouse"
-  },
-  {
-   "id": "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_328403",
-   "company": "CACI",
-   "title": "AI/ML Engineering Co-op - Fall 2026",
-   "season": "Fall 2026",
-   "category": "Data & ML/AI",
-   "location": "King of Prussia, PA, US",
-   "url": "https://caci.wd1.myworkdayjobs.com/external/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_328403",
-   "posted_at": "2026-06-30T00:00:00Z",
-   "first_seen_at": "2026-06-30T19:33:09Z",
-   "sponsorship": "citizens-only",
-   "salary": null,
-   "source": "workday"
   },
   {
    "id": "ashby:1password:b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2",
