@@ -22,7 +22,7 @@ from datetime import UTC, datetime, timedelta
 
 import httpx
 
-from . import config, enrich, filters, health, models, paths, quality, store
+from . import config, enrich, filters, health, models, paths, quality, store, trends
 from .connectors import (
     amazon,
     ashby,
@@ -291,6 +291,10 @@ def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, exi
         "new_this_run": len(new_ids),
         "open_total": len(open_records),
         "detection_latency": _detection_latency(existing),
+        "posting_lifetime": dict(zip(
+            ("median_days", "sample_size"), trends.median_days_open(existing),
+            strict=True,
+        )),
     }
 
 

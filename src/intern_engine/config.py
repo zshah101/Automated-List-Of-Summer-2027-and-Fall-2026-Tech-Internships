@@ -104,3 +104,14 @@ def allowlist_only(cfg: dict) -> bool:
 def include_international(cfg: dict) -> bool:
     """When true, also keep non-US roles (shown in a separate International section)."""
     return bool(cfg.get("include_international", False))
+
+
+def signup_endpoint(cfg: dict) -> tuple[str, str] | None:
+    """(supabase_url, publishable_key) for the email signup form, when configured.
+
+    These are PUBLIC values by design (the key is Supabase's client-side
+    "publishable" key; row-level security is what protects the data).
+    """
+    url = (cfg.get("supabase_url") or "").rstrip("/")
+    key = cfg.get("supabase_publishable_key") or ""
+    return (url, key) if url and key else None

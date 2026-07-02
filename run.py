@@ -17,6 +17,7 @@ from intern_engine import (  # noqa: E402
     db,
     discover,
     harvester,
+    mailer,
     notify,
     pipeline,
     publish,
@@ -58,6 +59,9 @@ def cmd_update() -> None:
         print("  synced to Postgres   yes")
     if notify.send_new_roles(store_data, new_ids):
         print(f"  Discord alert        {len(new_ids)} new roles")
+    sent = mailer.send_digest(store_data)
+    if sent:
+        print(f"  email digest         sent to {sent} subscribers")
     print("Update complete:")
     for k, v in stats.items():
         print(f"  {k:<24} {v}")

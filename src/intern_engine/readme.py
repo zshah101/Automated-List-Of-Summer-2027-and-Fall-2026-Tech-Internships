@@ -12,7 +12,7 @@ import json
 from datetime import UTC, datetime, timedelta
 from urllib.parse import quote
 
-from . import config, filters, paths, priority, sponsorship
+from . import config, filters, h1b, paths, priority, sponsorship
 
 
 def _engine_metrics() -> str:
@@ -90,6 +90,8 @@ def _is_new(record: dict, hours: int = 48) -> bool:
 
 def _row(record: dict) -> str:
     company = _md_cell(record.get("company"))
+    if h1b.badge(h1b.approvals_for(record.get("company") or "")):
+        company += " ✓"
     title = _md_cell(record.get("title"))
     badges = " ".join(
         b for b in (sponsorship.flag(record.get("sponsorship")), "🆕" if _is_new(record) else "")
@@ -156,11 +158,13 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         f"**Live:** [dashboard]({pages}/) · [RSS feed]({pages}/feed.xml) "
         f"(instant alerts in any RSS app) · [JSON API]({pages}/api/jobs.json)",
         "",
-        # The raw URL serves the feed straight from the repo, so email
-        # subscriptions keep working even if GitHub Pages is off.
-        f"**🔔 New roles in your inbox:** [subscribe by email]({_email_subscribe_url()}) "
-        "(free, one click) - every new internship lands in your email the same day "
-        "the engine spots it. No app needed.",
+        # Native signup posts into our own Supabase list (RLS: insert-only).
+        # The Feedrabbit link is the zero-account fallback via the raw feed URL,
+        # which works even when GitHub Pages is off.
+        f"**🔔 New roles in your inbox:** [subscribe by email]({pages}/#subscribe) "
+        "- one email a day, only when new internships actually appeared, "
+        f"one-click unsubscribe. (Prefer RSS-to-email? [Feedrabbit works too]"
+        f"({_email_subscribe_url()}).)",
         "",
         "## What this is",
         "",
@@ -198,6 +202,12 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         "🛂 = the posting says it won't sponsor a work visa · 🆕 = spotted in the "
         "last 48 hours. Sponsorship flags are detected automatically from each job "
         "description - treat them as a strong hint and confirm on the posting.",
+        f"- **✓ after a company name** = a real H-1B track record: USCIS approved "
+        f"{h1b.BADGE_THRESHOLD}+ petitions for that employer in "
+        f"{h1b.window_label() or 'recent fiscal years'} (matched automatically "
+        "against the official [H-1B Employer Data Hub]"
+        "(https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub)). "
+        "No ✓ doesn't mean they won't sponsor - it means we can't prove they have.",
         "- Track your applications with [`data/internships.csv`](data/internships.csv) "
         "(opens in Excel / Google Sheets).",
         "- Missing a company? Adding one takes a single line, see "
@@ -357,10 +367,12 @@ def generate(store_data: dict) -> dict:
 def _write_csv(open_jobs: list[dict]) -> None:
     fields = [
         "company", "title", "season", "category", "location",
-        "sponsorship", "salary", "posted_at", "first_seen_at", "url",
+        "sponsorship", "h1b_approvals", "salary", "posted_at", "first_seen_at", "url",
     ]
     with open(paths.CSV_PATH, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
         for r in open_jobs:
-            writer.writerow({k: r.get(k, "") for k in fields})
+            row = {k: r.get(k, "") for k in fields}
+            row["h1b_approvals"] = h1b.approvals_for(r.get("company") or "") or ""
+            writer.writerow(row)

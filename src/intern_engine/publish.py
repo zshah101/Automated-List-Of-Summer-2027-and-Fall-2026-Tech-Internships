@@ -15,7 +15,7 @@ import os
 from datetime import UTC, datetime
 from xml.sax.saxutils import escape
 
-from . import config, paths, sponsorship
+from . import config, h1b, paths, sponsorship
 
 _FEED_LIMIT = 50
 
@@ -39,6 +39,12 @@ def _entry(record: dict, base: str) -> str:
     sponsor = record.get("sponsorship", "unknown")
     if sponsor != "unknown":
         summary_bits.append(f"sponsorship: {sponsor}")
+    approvals = h1b.approvals_for(record.get("company") or "")
+    if h1b.badge(approvals):
+        summary_bits.append(
+            f"H-1B track record: ~{h1b.pretty_count(approvals)} approvals "
+            f"({h1b.window_label()})"
+        )
     summary = " · ".join(b for b in summary_bits if b)
     updated = _first_seen(record) or datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
     return (
@@ -92,11 +98,17 @@ def write_api(store_data: dict, stats: dict) -> int:
     open_jobs.sort(
         key=lambda r: ((r.get("posted_at") or "")[:10], _first_seen(r)), reverse=True
     )
+    def _job(r: dict) -> dict:
+        row = {k: r.get(k) for k in _API_FIELDS}
+        row["h1b_approvals"] = h1b.approvals_for(r.get("company") or "")
+        return row
+
     payload = {
         "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": f"https://github.com/{config.repo_slug()}",
+        "h1b_window": h1b.window_label() or None,
         "count": len(open_jobs),
-        "jobs": [{k: r.get(k) for k in _API_FIELDS} for r in open_jobs],
+        "jobs": [_job(r) for r in open_jobs],
     }
     os.makedirs(paths.API_DIR, exist_ok=True)
     with open(os.path.join(paths.API_DIR, "jobs.json"), "w", encoding="utf-8") as f:

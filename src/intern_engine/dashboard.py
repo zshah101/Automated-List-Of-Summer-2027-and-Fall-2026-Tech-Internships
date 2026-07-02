@@ -13,7 +13,7 @@ import os
 from datetime import UTC, datetime
 from html import escape
 
-from . import config, paths, sponsorship
+from . import config, h1b, paths, sponsorship, trends
 
 
 def _cards(stats: dict) -> str:
@@ -21,6 +21,12 @@ def _cards(stats: dict) -> str:
     lat = (
         f"{latency['median_minutes']:.0f} min"
         if latency.get("median_minutes") is not None and latency.get("sample_size", 0) >= 5
+        else "calibrating"
+    )
+    life = stats.get("posting_lifetime") or {}
+    lifetime = (
+        f"{life['median_days']:.0f} days"
+        if life.get("median_days") is not None and life.get("sample_size", 0) >= 5
         else "calibrating"
     )
     items = [
@@ -31,6 +37,7 @@ def _cards(stats: dict) -> str:
         ("Quarantined boards", stats.get("quarantined", 0)),
         ("New this run", stats.get("new_this_run", 0)),
         ("Detection latency", lat),
+        ("Median posting lifetime", lifetime),
         ("Last run", f"{stats.get('duration_seconds', 0)}s"),
     ]
     return "".join(
@@ -94,6 +101,7 @@ def _sparkline(points: list[dict]) -> str:
 
 
 def _rows(open_jobs: list[dict]) -> str:
+    window = h1b.window_label()
     rows = []
     for r in open_jobs:
         posted = (r.get("posted_at") or "")[:10] or "—"
@@ -101,6 +109,12 @@ def _rows(open_jobs: list[dict]) -> str:
         apply = f'<a href="{escape(url)}" target="_blank" rel="noopener">Apply</a>' if url else "—"
         sponsor = r.get("sponsorship", "unknown")
         flag = sponsorship.flag(sponsor)
+        approvals = h1b.approvals_for(r.get("company") or "")
+        proven = "1" if h1b.badge(approvals) else "0"
+        check = (
+            f' <span class="ok" title="~{h1b.pretty_count(approvals)} H-1B approvals '
+            f'({escape(window)}, USCIS)">✓</span>' if proven == "1" else ""
+        )
         salary = r.get("salary") or ""
         haystack = " ".join(
             str(r.get(k) or "") for k in ("company", "title", "location", "category")
@@ -109,8 +123,9 @@ def _rows(open_jobs: list[dict]) -> str:
             f'<tr data-cycle="{escape(r.get("season", ""))}" '
             f'data-category="{escape(r.get("category", ""))}" '
             f'data-sponsor="{escape(sponsor)}" '
+            f'data-h1b="{proven}" '
             f'data-text="{escape(haystack)}">'
-            f"<td>{escape(r.get('company', ''))}</td>"
+            f"<td>{escape(r.get('company', ''))}{check}</td>"
             f"<td>{escape(r.get('title', ''))} {flag}</td>"
             f"<td><span class='tag'>{escape(r.get('season', ''))}</span></td>"
             f"<td>{escape(r.get('category', ''))}</td>"
@@ -125,6 +140,46 @@ def _rows(open_jobs: list[dict]) -> str:
 
 def _options(values: list[str]) -> str:
     return "".join(f'<option value="{escape(v)}">{escape(v)}</option>' for v in values)
+
+
+def _signup_section(cfg: dict) -> str:
+    """Native email signup: inserts straight into Supabase under RLS (the
+    publishable key is public by design; the policy only allows INSERT)."""
+    endpoint = config.signup_endpoint(cfg)
+    if not endpoint:
+        return ""
+    url, key = endpoint
+    return f"""
+  <div class="signup" id="subscribe">
+    <h2>📬 Daily email alerts</h2>
+    <p class="muted" style="margin:4px 0 10px">One email a day, only when new
+    internships actually appeared. Unsubscribe with one click, address never shared.</p>
+    <form id="subform">
+      <input id="subemail" type="email" required placeholder="you@school.edu" autocomplete="email">
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="submsg" class="muted" role="status"></p>
+  </div>
+<script>
+(function () {{
+  var form = document.getElementById('subform'), email = document.getElementById('subemail'),
+      msg = document.getElementById('submsg');
+  form.addEventListener('submit', function (ev) {{
+    ev.preventDefault();
+    msg.textContent = 'Subscribing…';
+    fetch({json.dumps(url)} + '/rest/v1/email_subscribers', {{
+      method: 'POST',
+      headers: {{ 'apikey': {json.dumps(key)}, 'Content-Type': 'application/json',
+                  'Prefer': 'return=minimal' }},
+      body: JSON.stringify({{ email: email.value.trim().toLowerCase() }})
+    }}).then(function (r) {{
+      if (r.status === 201) {{ msg.textContent = "You're in — first digest lands with the next batch of new roles."; form.reset(); }}
+      else if (r.status === 409) {{ msg.textContent = 'That address is already subscribed.'; }}
+      else {{ msg.textContent = 'Hmm, that did not work — try again in a minute.'; }}
+    }}).catch(function () {{ msg.textContent = 'Network error — try again in a minute.'; }});
+  }});
+}})();
+</script>"""
 
 
 def generate(store_data: dict, stats: dict) -> None:
@@ -178,6 +233,15 @@ def generate(store_data: dict, stats: dict) -> None:
   .spark {{ width:100%; height:80px; display:block; background:var(--card);
             border:1px solid var(--line); border-radius:10px; }}
   .spark-caption {{ font-size:12px; margin:6px 0 0; }}
+  .chart {{ width:100%; height:auto; display:block; background:var(--card);
+            border:1px solid var(--line); border-radius:10px; }}
+  .cbar {{ cursor:default; }}
+  .cbar:hover {{ filter:brightness(1.25); }}
+  .cvalue {{ fill:var(--txt); font-size:11px; font-weight:600; }}
+  .clabel {{ fill:var(--muted); font-size:10px; }}
+  #tip {{ position:fixed; display:none; background:#1c2128; color:var(--txt);
+          border:1px solid var(--line); border-radius:6px; padding:4px 9px;
+          font-size:12px; pointer-events:none; z-index:10; white-space:nowrap; }}
   .filters {{ display:flex; flex-wrap:wrap; gap:10px; margin:10px 0 4px; align-items:center; }}
   .filters input[type=search], .filters select {{
       background:var(--card); color:var(--txt); border:1px solid var(--line);
@@ -193,6 +257,17 @@ def generate(store_data: dict, stats: dict) -> None:
   a:hover {{ text-decoration:underline; }}
   .tag {{ background:#1f6feb22; color:#79c0ff; padding:1px 7px; border-radius:20px; font-size:12px; }}
   .muted {{ color:var(--muted); }}
+  .ok {{ color:var(--green); cursor:help; }}
+  .signup {{ background:var(--card); border:1px solid var(--line); border-radius:10px;
+             padding:18px; margin:26px 0 6px; }}
+  .signup h2 {{ margin:0; }}
+  .signup form {{ display:flex; gap:8px; flex-wrap:wrap; }}
+  .signup input[type=email] {{ flex:1; min-width:220px; background:var(--bg);
+      color:var(--txt); border:1px solid var(--line); border-radius:8px;
+      padding:9px 12px; font-size:14px; }}
+  .signup button {{ background:var(--accent); color:#fff; border:0; border-radius:8px;
+      padding:9px 18px; font-size:14px; font-weight:600; cursor:pointer; }}
+  .signup button:hover {{ filter:brightness(1.1); }}
   footer {{ color:var(--muted); font-size:12px; margin-top:36px; }}
 </style></head><body><div class="wrap">
   <h1>Internship Engine - Live Dashboard</h1>
@@ -201,6 +276,12 @@ def generate(store_data: dict, stats: dict) -> None:
   <a href="https://github.com/{escape(repo)}">GitHub</a></p>
   <div class="grid">{_cards(stats)}</div>
   {_sparkline(_history_points())}
+  {_signup_section(cfg)}
+  <h2>Internships posted per week</h2>
+  <p class="muted" style="margin:0 0 8px">Real published dates across every role the
+  engine has tracked — watch this spike when {escape(config.cycles(cfg)[0])}
+  recruiting opens up.</p>
+  {trends.svg_bar_chart(trends.weekly_postings(store_data))}
   <div class="panels">
     <div><h2>Roles by source</h2>{_bars(stats.get("roles_by_source", {}))}</div>
     <div><h2>Roles by cycle</h2>{_bars(stats.get("roles_by_cycle", {}))}</div>
@@ -212,36 +293,53 @@ def generate(store_data: dict, stats: dict) -> None:
     <select id="cat"><option value="">All categories</option>{_options(categories)}</select>
     <label class="chk"><input id="f1" type="checkbox">
       F-1 friendly only (hide 🇺🇸 citizens-only and 🛂 no-sponsorship)</label>
+    <label class="chk"><input id="h1b" type="checkbox">
+      ✓ proven H-1B sponsors only</label>
   </div>
   <table><thead><tr><th>Company</th><th>Role</th><th>Cycle</th><th>Category</th>
   <th>Location</th><th>Salary</th><th>Posted</th><th></th></tr></thead>
   <tbody id="rows">{_rows(open_jobs)}</tbody></table>
   <footer>Generated by the engine on each run. Companies polled across
   {len(stats.get("companies_by_source", {}))} ATS platforms. Sponsorship flags are
-  auto-detected from posting text — verify on the posting itself.</footer>
+  auto-detected from posting text — verify on the posting itself.
+  ✓ = USCIS approved {h1b.BADGE_THRESHOLD}+ H-1B petitions for that employer
+  ({escape(h1b.window_label() or "recent years")}, per the public
+  <a href="https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub">
+  Employer Data Hub</a>); no ✓ only means no confident match.</footer>
 </div>
 <script>
 (function () {{
   var q = document.getElementById('q'), cycle = document.getElementById('cycle'),
       cat = document.getElementById('cat'), f1 = document.getElementById('f1'),
+      h1b = document.getElementById('h1b'),
       rows = Array.prototype.slice.call(document.getElementById('rows').rows),
       count = document.getElementById('count');
   function apply() {{
     var text = q.value.trim().toLowerCase(), cy = cycle.value, ca = cat.value,
-        safe = f1.checked, shown = 0;
+        safe = f1.checked, proven = h1b.checked, shown = 0;
     rows.forEach(function (tr) {{
       var ok = (!text || tr.dataset.text.indexOf(text) !== -1)
         && (!cy || tr.dataset.cycle === cy)
         && (!ca || tr.dataset.category === ca)
         && (!safe || (tr.dataset.sponsor !== 'citizens-only'
-                      && tr.dataset.sponsor !== 'no-sponsorship'));
+                      && tr.dataset.sponsor !== 'no-sponsorship'))
+        && (!proven || tr.dataset.h1b === '1');
       tr.style.display = ok ? '' : 'none';
       if (ok) shown++;
     }});
     count.textContent = shown;
   }}
-  [q, cycle, cat, f1].forEach(function (el) {{
+  [q, cycle, cat, f1, h1b].forEach(function (el) {{
     el.addEventListener('input', apply); el.addEventListener('change', apply);
+  }});
+  // Chart hover tooltip: one floating div fed by each bar's data-tip.
+  var tip = document.createElement('div'); tip.id = 'tip'; document.body.appendChild(tip);
+  document.querySelectorAll('.cbar').forEach(function (bar) {{
+    bar.addEventListener('mousemove', function (ev) {{
+      tip.textContent = bar.dataset.tip; tip.style.display = 'block';
+      tip.style.left = (ev.clientX + 12) + 'px'; tip.style.top = (ev.clientY - 28) + 'px';
+    }});
+    bar.addEventListener('mouseleave', function () {{ tip.style.display = 'none'; }});
   }});
 }})();
 </script>
@@ -250,3 +348,51 @@ def generate(store_data: dict, stats: dict) -> None:
     os.makedirs(paths.DOCS_DIR, exist_ok=True)
     with open(paths.DASHBOARD_PATH, "w", encoding="utf-8") as f:
         f.write(html_doc)
+
+    _write_unsubscribe(cfg)
+
+
+def _write_unsubscribe(cfg: dict) -> None:
+    """One-click unsubscribe target for digest emails (?t=<secret token>).
+
+    Calls the security-definer RPC in Supabase: the token is the only
+    credential, so the page needs nothing but the public key.
+    """
+    endpoint = config.signup_endpoint(cfg)
+    if not endpoint:
+        return
+    url, key = endpoint
+    page = f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unsubscribe - Internship Engine</title>
+<style>
+  body {{ margin:0; background:#0d1117; color:#e6edf3;
+          font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }}
+  .box {{ max-width:520px; margin:18vh auto 0; padding:32px 24px; background:#161b22;
+          border:1px solid #30363d; border-radius:12px; text-align:center; }}
+  a {{ color:#2f81f7; }}
+</style></head><body>
+<div class="box"><h1 id="h">Unsubscribing…</h1><p id="p">One moment.</p></div>
+<script>
+(function () {{
+  var h = document.getElementById('h'), p = document.getElementById('p');
+  var token = new URLSearchParams(location.search).get('t');
+  if (!token) {{ h.textContent = 'Missing link token'; p.textContent =
+    'Use the unsubscribe link from one of our emails.'; return; }}
+  fetch({json.dumps(url)} + '/rest/v1/rpc/unsubscribe_email', {{
+    method: 'POST',
+    headers: {{ 'apikey': {json.dumps(key)}, 'Content-Type': 'application/json' }},
+    body: JSON.stringify({{ token: token }})
+  }}).then(function (r) {{
+    if (r.ok) {{ h.textContent = "You're unsubscribed"; p.textContent =
+      'No more emails. You can re-subscribe on the dashboard anytime.'; }}
+    else {{ h.textContent = 'Something went wrong'; p.textContent =
+      'Try the link again in a minute.'; }}
+  }}).catch(function () {{ h.textContent = 'Network error'; p.textContent =
+    'Try the link again in a minute.'; }});
+}})();
+</script>
+</body></html>"""
+    with open(os.path.join(paths.DOCS_DIR, "unsubscribe.html"), "w", encoding="utf-8") as f:
+        f.write(page)

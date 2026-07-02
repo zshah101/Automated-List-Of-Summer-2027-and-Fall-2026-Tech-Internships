@@ -42,7 +42,7 @@ Difficulty: 🟢 easy · 🟡 medium · 🔴 hard
 - [ ] 🟢 Better filters — catch more real tech roles, drop more fakes (`src/intern_engine/filters.py`)
 - [ ] 🟢 Show the **salary** column in the README table (already captured in CSV/API/dashboard)
 - [ ] 🟢 Add **state / country** tags to each row
-- [ ] 🟡 **Trend charts** (which companies post most, % of roles needing Python vs C++, new roles per day)
+- [x] ~~Trend charts~~ — **shipped**: postings-per-week chart on the dashboard + median posting-lifetime metric
 
 ### AI features 🧠
 - [ ] 🟡 **Skill tagger** — AI reads each job and tags the skills it wants (Python, React, SQL…)
@@ -52,12 +52,12 @@ Difficulty: 🟢 easy · 🟡 medium · 🔴 hard
 
 ### The F-1 edge 🛂
 - [x] ~~Visa-sponsorship tags~~ — **shipped**: auto-detected from posting text (🇺🇸 / 🛂 flags + "F-1 friendly" dashboard filter)
-- [ ] 🟡 Cross-check with public **H-1B disclosure data** to also mark "this company has actually sponsored before"
+- [x] ~~H-1B disclosure cross-check~~ — **shipped**: ✓ badge from the USCIS Employer Data Hub (10+ recent approvals), with a "proven sponsors" dashboard filter
 
 ### Alerts 🔔
 - [x] ~~RSS feed~~ — **shipped**: `docs/feed.xml` works with any RSS app / Slack / Discord RSS bot
 - [x] ~~Discord webhook~~ — **shipped**: set the `DISCORD_WEBHOOK_URL` secret
-- [ ] 🟡 **Email alerts** (Resend) the moment a matching role opens
+- [x] ~~Email alerts~~ — **shipped**: native signup on the dashboard (our own list, Supabase + RLS), daily digests via Brevo, one-click unsubscribe
 - [ ] 🟡 **SMS** alerts
 
 ### The real product 🌐

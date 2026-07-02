@@ -1,6 +1,11 @@
 {
-  "cycles": ["Summer 2027", "Fall 2026"],
-  "regions": ["US"],
+  "cycles": [
+    "Summer 2027",
+    "Fall 2026"
+  ],
+  "regions": [
+    "US"
+  ],
   "role_scope": "tech",
   "max_age_days": 270,
   "max_per_company": 3,
@@ -9,5 +14,7 @@
   "section_limits": {
     "Summer 2027": 100,
     "Fall 2026": 40
-  }
+  },
+  "supabase_url": "https://kvgkvgduomwuszbrygam.supabase.co",
+  "supabase_publishable_key": "sb_publishable_XWb72of7Q0F06ZJBEXZqRA_7F6vplu1"
 }

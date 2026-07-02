@@ -53,7 +53,10 @@ public datasets + README mines          data/candidates.json (curated slugs)
 | `src/intern_engine/connectors/` | One module per ATS: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, Amazon, Rippling, Workable, Breezy, Recruitee. |
 | `src/intern_engine/filters.py` | Classification: internship? tech? season/year? US/Canada? category. |
 | `src/intern_engine/sponsorship.py` | Phrase-anchored visa/citizenship classifier + display flags. |
+| `src/intern_engine/h1b.py` | Joins companies against the USCIS H-1B employer index (✓ badge). |
 | `src/intern_engine/enrich.py` | Fetches posting text for new matched roles; backfills exact dates. |
+| `src/intern_engine/trends.py` | Weekly posting-volume chart + median posting-lifetime metric. |
+| `src/intern_engine/mailer.py` | Daily email digests to our own subscriber list (Brevo, opt-in). |
 | `src/intern_engine/health.py` | Circuit breaker: quarantines repeatedly-failing boards, self-heals. |
 | `src/intern_engine/harvester.py` | Probes candidate slugs across 7 ATS, merges hits into the registry. |
 | `src/intern_engine/discover.py` | Mines public datasets/READMEs for ATS tokens at scale. |
@@ -73,6 +76,8 @@ public datasets + README mines          data/candidates.json (curated slugs)
 | `data/jobs.json` | The persistent job state (source of truth for the README). |
 | `data/health.json` | Circuit-breaker state (auditable in git like everything else). |
 | `data/history.jsonl` | One line of run metrics per run (feeds the dashboard chart). |
+| `data/h1b.json` | Compact USCIS employer→approvals index (built by `tools/build_h1b.py`). |
+| `tools/build_h1b.py` | Offline builder: USCIS Data Hub CSVs → `data/h1b.json` (run yearly). |
 
 ## Configuration (`data/config.json`)
 
@@ -136,6 +141,17 @@ over recall: EEO boilerplate that merely mentions "citizenship status" does not
 trigger. The README shows 🇺🇸 / 🛂 flags; the CSV, API, feed, and dashboard
 carry the raw value; the dashboard has a one-click "F-1 friendly" filter.
 
+That covers what a posting *says*. `h1b.py` adds what the company has *done*:
+`tools/build_h1b.py` aggregates the official USCIS H-1B Employer Data Hub
+exports (per-employer approval counts) into a compact committed index, and at
+render time each company is matched against it — normalized legal names
+(suffix stripping, DBA handling), a small alias table, then word-boundary
+prefix matching with ambiguity guards (entity resolution, precision-first: a
+single-token name never sums unrelated employer families). A company with 10+
+recent approvals gets a ✓ in every surface plus a "proven H-1B sponsors only"
+dashboard filter. The index ships in the repo, so runs never depend on
+uscis.gov being reachable (it blocks datacenter IPs anyway).
+
 ## Workday (enterprise tier) & the optional proxy
 
 Workday is per-tenant (each company has its own host + `site`) and bot-protected.
@@ -167,6 +183,20 @@ remain exported views, so the presentation layer is decoupled from the data laye
   roles arrive as notifications. Zero infrastructure.
 - **Discord webhook** (optional): set the `DISCORD_WEBHOOK_URL` secret and each
   run posts its newly found roles to your channel.
+- **Email digests** (our own list): the dashboard's signup form inserts straight
+  into Supabase under row-level security — the public can subscribe but never
+  read, enumerate, or modify the list. `mailer.py` sends at most one digest a
+  day, only when something new appeared, via Brevo's transactional API
+  (`BREVO_API_KEY` + `MAIL_FROM` secrets; unset = silent no-op). Every email
+  carries a one-click unsubscribe link — a per-subscriber secret token handled
+  by a security-definer RPC, so `docs/unsubscribe.html` needs only public keys.
+
+## Trends
+
+`trends.py` answers two timing questions from data the store already keeps:
+weekly posting volume (from real published dates — the dashboard bar chart) and
+the median days a posting stays open (from roles watched open → closed, shown
+as a stat card once the sample is big enough to mean something).
 
 ## Running locally
 
@@ -175,5 +205,5 @@ python -m venv .venv
 .\.venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 python run.py all               # discover + harvest + update
-python -m pytest                # 65 tests, no network
+python -m pytest                # 93 tests, no network
 ```

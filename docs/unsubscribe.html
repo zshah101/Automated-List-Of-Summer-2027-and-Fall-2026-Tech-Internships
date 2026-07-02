@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unsubscribe - Internship Engine</title>
+<style>
+  body { margin:0; background:#0d1117; color:#e6edf3;
+          font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+  .box { max-width:520px; margin:18vh auto 0; padding:32px 24px; background:#161b22;
+          border:1px solid #30363d; border-radius:12px; text-align:center; }
+  a { color:#2f81f7; }
+</style></head><body>
+<div class="box"><h1 id="h">Unsubscribing…</h1><p id="p">One moment.</p></div>
+<script>
+(function () {
+  var h = document.getElementById('h'), p = document.getElementById('p');
+  var token = new URLSearchParams(location.search).get('t');
+  if (!token) { h.textContent = 'Missing link token'; p.textContent =
+    'Use the unsubscribe link from one of our emails.'; return; }
+  fetch("https://kvgkvgduomwuszbrygam.supabase.co" + '/rest/v1/rpc/unsubscribe_email', {
+    method: 'POST',
+    headers: { 'apikey': "sb_publishable_XWb72of7Q0F06ZJBEXZqRA_7F6vplu1", 'Content-Type': 'application/json' },
+    body: JSON.stringify({ token: token })
+  }).then(function (r) {
+    if (r.ok) { h.textContent = "You're unsubscribed"; p.textContent =
+      'No more emails. You can re-subscribe on the dashboard anytime.'; }
+    else { h.textContent = 'Something went wrong'; p.textContent =
+      'Try the link again in a minute.'; }
+  }).catch(function () { h.textContent = 'Network error'; p.textContent =
+    'Try the link again in a minute.'; });
+})();
+</script>
+</body></html>
