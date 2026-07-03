@@ -15,11 +15,20 @@ latest week only, and a per-bar tooltip layer wired up by the dashboard JS.
 
 from __future__ import annotations
 
+import os
 import statistics
 from datetime import UTC, datetime, timedelta
 from html import escape
 
+from . import paths
+
 _MAX_LIFETIME_DAYS = 180  # beyond this, "closed" is a stale-req artifact, not a signal
+
+# GitHub-native hues, validated (dataviz six checks) against each README surface.
+_THEMES = {
+    "light": {"accent": "#0969da", "grid": "#d0d7de", "ink": "#57606a", "value": "#24292f"},
+    "dark": {"accent": "#2f81f7", "grid": "#30363d", "ink": "#8b949e", "value": "#e6edf3"},
+}
 
 
 def _parse_day(value: str | None) -> datetime | None:
@@ -139,3 +148,84 @@ def svg_bar_chart(buckets: list[tuple[str, int]], width: int = 640, height: int 
 
     parts.append("</svg>")
     return "".join(parts)
+
+
+def _line_chart_svg(buckets: list[tuple[str, int]], theme: dict,
+                    width: int = 720, height: int = 200) -> str:
+    """A standalone SVG document (for the README <picture> embed): weekly
+    posting volume as a line with a soft area fill. Transparent background so
+    it sits on GitHub's own surface; every color is a literal (no CSS vars)."""
+    pad_l, pad_r, pad_t, pad_b = 38, 14, 22, 26
+    plot_w, plot_h = width - pad_l - pad_r, height - pad_t - pad_b
+    values = [n for _, n in buckets]
+    top = max(values) if values else 0
+
+    head = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" '
+        f'width="{width}" height="{height}" role="img" '
+        f'aria-label="Internships posted per week, last {len(buckets)} weeks">'
+        f"<title>Internships posted per week</title>"
+    )
+    if not buckets or top == 0:
+        return (
+            head
+            + f'<text x="{width / 2}" y="{height / 2}" text-anchor="middle" '
+            f'fill="{theme["ink"]}" font-size="13" '
+            f'font-family="-apple-system,Segoe UI,Roboto,sans-serif">'
+            "chart appears as dated roles accumulate</text></svg>"
+        )
+
+    step = plot_w / (len(buckets) - 1) if len(buckets) > 1 else plot_w
+    pts = [
+        (pad_l + i * step, pad_t + plot_h - (n / top) * plot_h)
+        for i, n in enumerate(values)
+    ]
+    line = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    area = (
+        f"M{pts[0][0]:.1f},{pad_t + plot_h} L{line.replace(' ', ' L')} "
+        f"L{pts[-1][0]:.1f},{pad_t + plot_h} Z"
+    )
+
+    parts = [head, '<g font-family="-apple-system,Segoe UI,Roboto,sans-serif" font-size="11">']
+    for frac in (0.0, 0.5, 1.0):
+        gy = pad_t + plot_h - frac * plot_h
+        parts.append(
+            f'<line x1="{pad_l}" y1="{gy:.1f}" x2="{width - pad_r}" y2="{gy:.1f}" '
+            f'stroke="{theme["grid"]}" stroke-width="1"/>'
+            f'<text x="{pad_l - 6}" y="{gy + 4:.1f}" text-anchor="end" '
+            f'fill="{theme["ink"]}">{round(top * frac)}</text>'
+        )
+    parts.append(f'<path d="{area}" fill="{theme["accent"]}" fill-opacity="0.12"/>')
+    parts.append(
+        f'<polyline points="{line}" fill="none" stroke="{theme["accent"]}" '
+        'stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>'
+    )
+    # Direct labels where they earn their ink: the peak and the newest point.
+    peak_i = max(range(len(values)), key=values.__getitem__)
+    last_i = len(values) - 1
+    for i in {peak_i, last_i}:
+        x, y = pts[i]
+        parts.append(
+            f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" fill="{theme["accent"]}"/>'
+            f'<text x="{x:.1f}" y="{y - 9:.1f}" text-anchor="middle" '
+            f'fill="{theme["value"]}" font-weight="600">{values[i]}</text>'
+        )
+    for i, (week, _n) in enumerate(buckets):
+        if i % 4 == 0 or i == last_i:
+            label = datetime.strptime(week, "%Y-%m-%d").strftime("%b %d")
+            parts.append(
+                f'<text x="{pts[i][0]:.1f}" y="{height - 8}" text-anchor="middle" '
+                f'fill="{theme["ink"]}">{escape(label)}</text>'
+            )
+    parts.append("</g></svg>")
+    return "".join(parts)
+
+
+def write_readme_charts(store_data: dict) -> None:
+    """docs/trends-{light,dark}.svg — redrawn every run, embedded in README
+    via <picture> so each GitHub theme gets a chart drawn for its surface."""
+    buckets = weekly_postings(store_data)
+    for mode, theme in _THEMES.items():
+        with open(os.path.join(paths.DOCS_DIR, f"trends-{mode}.svg"), "w",
+                  encoding="utf-8") as f:
+            f.write(_line_chart_svg(buckets, theme))

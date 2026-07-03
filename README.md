@@ -1,8 +1,10 @@
 # Summer 2027 Tech Internships
 
+[![CI](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml/badge.svg)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml) ![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7) ![Updates](https://img.shields.io/badge/updates-every%202%20hours-3fb950) [![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
+
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**44 open roles · 48 new this week · 3,541 companies tracked · updated Jul 03, 2026 at 17:39 UTC**
+**44 open roles · 48 new this week · 3,541 companies tracked · updated Jul 03, 2026 at 18:22 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -55,7 +57,6 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Saronic | Enterprise Technology Intern - AI and Automation (Fall 2026) 🇺🇸 🆕 | Data & ML/AI | Austin, TX | Jul 02, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/c95c2e3a-4c67-47b0-a03d-0e0317ac11a3) |
 | NVIDIA ✓ | Applied Research Intern, NLP - Fall 2026 🆕 | Data & ML/AI | US, CA, Santa Clara | Jul 01, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) |
 | 1Password | Developer Intern, Service Development - Fall 2026 | Software | Remote (United States / Canada) | Jun 23, 2026 | [Apply](https://jobs.ashbyhq.com/1password/b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2) |
 | Figure | Firmware Intern [Fall 2026] | Hardware | San Jose, CA | Jun 22, 2026 | [Apply](https://job-boards.greenhouse.io/figureai/jobs/4691070006) |
@@ -85,6 +86,7 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Hermeus | Software Engineering Intern (HIL) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
 | Hermeus | Software Engineering Intern (Modeling & Simulation) - Fall 2026 🇺🇸 | Software | Los Angeles, CA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
 | Notion ✓ | Software Engineer Intern (Fall 2026) | Software | San Francisco, California | Apr 06, 2026 | [Apply](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
+| Verkada ✓ | Backend Software Engineering Intern - Fall 2026 | Software | San Mateo, CA United States | Apr 06, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5099422007) |
 | SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July to December) | Data & ML/AI | Miami +5 more | Apr 02, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
 | Hermeus | Software Engineering Intern (HMI) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 01, 2026 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | Motorola ✓ | Intern - Embedded Software, System, and Test Engineer - 2026 🇺🇸 🆕 | Software | Irvine, CA | Mar 30, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372) |
@@ -94,11 +96,10 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Amazon | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
 <details>
-<summary><strong>Recently closed</strong> — 5 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 4 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
-| Verkada | Backend Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-02 |
 | CACI | AI/ML Engineering Co-op - Fall 2026 | Fall 2026 | 2026-07-02 |
 | OMERS | Intern, AI Enablement & Adoption Specialist (Fall 2026, 4 Months) - New York | Fall 2026 | 2026-07-02 |
 | Point72 | Summer 2027 Quantitative Developer Internship | Summer 2027 | 2026-07-01 |
@@ -108,11 +109,20 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 
 ---
 
+## Hiring timeline
+
+Internships posted per week, from each role's real published date - redrawn automatically on every run. When this line takes off, recruiting season is open:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/trends-dark.svg">
+  <img alt="Internships posted per week, drawn from real published dates" src="docs/trends-light.svg">
+</picture>
+
 ## How it stays current
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,541 companies across 11 ATS platforms · 95% fetch success · completed in 247.7s · median detection latency 2568 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,541 companies across 11 ATS platforms · 95% fetch success · completed in 516.6s · median detection latency 3032 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

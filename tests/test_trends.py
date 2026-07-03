@@ -88,3 +88,25 @@ def test_svg_chart_renders_bars_labels_and_tooltips():
 def test_svg_chart_empty_state():
     out = trends.svg_bar_chart(trends.weekly_postings({}, weeks=4, now=NOW))
     assert "<svg" not in out and "appears once" in out
+
+
+# --- the standalone README chart --------------------------------------------------
+
+def test_line_chart_svg_standalone_for_both_themes():
+    buckets = trends.weekly_postings(
+        {"a": _rec(posted="2026-06-29T00:00:00Z"), "b": _rec(posted="2026-06-22T00:00:00Z")},
+        weeks=8, now=NOW,
+    )
+    for theme in trends._THEMES.values():
+        svg = trends._line_chart_svg(buckets, theme)
+        assert svg.startswith("<svg xmlns=")           # standalone document
+        assert "var(--" not in svg                     # no CSS vars in a file embed
+        assert theme["accent"] in svg
+        assert "<polyline" in svg and "fill-opacity" in svg
+        assert 'font-weight="600">1<' in svg           # peak/latest direct label
+
+
+def test_line_chart_svg_empty_state_is_valid_svg():
+    svg = trends._line_chart_svg(trends.weekly_postings({}, weeks=4, now=NOW),
+                                 trends._THEMES["light"])
+    assert svg.startswith("<svg xmlns=") and "accumulate" in svg

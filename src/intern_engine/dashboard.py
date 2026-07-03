@@ -16,7 +16,7 @@ from html import escape
 from . import config, h1b, paths, sponsorship, trends
 
 
-def _cards(stats: dict) -> str:
+def _cards(stats: dict, proven_roles: int) -> str:
     latency = stats.get("detection_latency") or {}
     lat = (
         f"{latency['median_minutes']:.0f} min"
@@ -31,6 +31,7 @@ def _cards(stats: dict) -> str:
     )
     items = [
         ("Open roles", stats.get("open_total", 0)),
+        ("At proven H-1B sponsors ✓", proven_roles),
         ("Companies tracked", f"{stats.get('companies_total', 0):,}"),
         ("ATS sources", len(stats.get("companies_by_source", {}))),
         ("Fetch success", f"{int(stats.get('fetch_success_rate', 0) * 100)}%"),
@@ -200,11 +201,24 @@ def generate(store_data: dict, stats: dict) -> None:
     cycles = sorted({r.get("season", "") for r in open_jobs if r.get("season")})
     categories = sorted({r.get("category", "") for r in open_jobs if r.get("category")})
     repo = config.repo_slug()
+    proven_roles = sum(
+        1 for r in open_jobs
+        if h1b.badge(h1b.approvals_for(r.get("company") or ""))
+    )
+    by_category: dict[str, int] = {}
+    for r in open_jobs:
+        cat = r.get("category") or "Other"
+        by_category[cat] = by_category.get(cat, 0) + 1
 
     html_doc = f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Internship Engine - Live Dashboard</title>
+<meta name="description" content="Summer 2027 & Fall 2026 tech internships, refreshed every 2 hours. Auto-detected visa sponsorship flags, proven H-1B sponsor badges, email alerts.">
+<meta property="og:title" content="Internship Engine - Live Dashboard">
+<meta property="og:description" content="{len(open_jobs)} open tech internships, refreshed every 2 hours. Visa-sponsorship flags + proven H-1B sponsor badges for international students.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
 <link rel="alternate" type="application/atom+xml" title="New internships" href="feed.xml">
 <style>
   :root {{ --bg:#0d1117; --card:#161b22; --line:#30363d; --txt:#e6edf3;
@@ -274,7 +288,7 @@ def generate(store_data: dict, stats: dict) -> None:
   <p class="sub">{region} tech internships, refreshed automatically. Updated {escape(updated)}.
   <a href="feed.xml">RSS feed</a> · <a href="api/jobs.json">JSON API</a> ·
   <a href="https://github.com/{escape(repo)}">GitHub</a></p>
-  <div class="grid">{_cards(stats)}</div>
+  <div class="grid">{_cards(stats, proven_roles)}</div>
   {_sparkline(_history_points())}
   {_signup_section(cfg)}
   <h2>Internships posted per week</h2>
@@ -285,6 +299,8 @@ def generate(store_data: dict, stats: dict) -> None:
   <div class="panels">
     <div><h2>Roles by source</h2>{_bars(stats.get("roles_by_source", {}))}</div>
     <div><h2>Roles by cycle</h2>{_bars(stats.get("roles_by_cycle", {}))}</div>
+    <div><h2>Roles by category</h2>{_bars(by_category)}</div>
+    <div><h2>Sponsorship verdicts</h2>{_bars(stats.get("sponsorship_counts", {}))}</div>
   </div>
   <h2>Open roles (<span id="count">{len(open_jobs)}</span>)</h2>
   <div class="filters">

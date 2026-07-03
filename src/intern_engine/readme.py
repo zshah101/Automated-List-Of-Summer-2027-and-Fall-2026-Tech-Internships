@@ -142,8 +142,17 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
     cycles_phrase = " and ".join(cycles)
     pages = config.pages_base()
 
+    repo = config.repo_slug()
+    stats_url = quote(f"{pages}/api/stats.json", safe="")
     return [
         "# Summer 2027 Tech Internships",
+        "",
+        f"[![CI](https://github.com/{repo}/actions/workflows/ci.yml/badge.svg)]"
+        f"(https://github.com/{repo}/actions/workflows/ci.yml) "
+        f"![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles"
+        f"&query=open_total&url={stats_url}&color=2f81f7) "
+        "![Updates](https://img.shields.io/badge/updates-every%202%20hours-3fb950) "
+        f"[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22)]({pages}/feed.xml)",
         "",
         "A self-updating engine that tracks tech internships so you don't have to. "
         "Instead of refreshing a dozen career pages by hand, it reads company hiring "
@@ -221,6 +230,18 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
 def _footer() -> list[str]:
     return [
         "---",
+        "",
+        "## Hiring timeline",
+        "",
+        "Internships posted per week, from each role's real published date - "
+        "redrawn automatically on every run. When this line takes off, "
+        "recruiting season is open:",
+        "",
+        "<picture>",
+        '  <source media="(prefers-color-scheme: dark)" srcset="docs/trends-dark.svg">',
+        '  <img alt="Internships posted per week, drawn from real published dates" '
+        'src="docs/trends-light.svg">',
+        "</picture>",
         "",
         "## How it stays current",
         "",
