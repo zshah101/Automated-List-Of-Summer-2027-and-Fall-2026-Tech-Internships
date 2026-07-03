@@ -1,0 +1,8678 @@
+{
+ "generated_at": "2026-07-03T18:34:20Z",
+ "cycle": "Summer 2027",
+ "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
+ "companies": [
+  {
+   "company": "Rippling",
+   "last_cycle_posted": "2025-06-07",
+   "approx": false,
+   "expected": "2026-06-07",
+   "days_until": -26,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Tesla",
+   "last_cycle_posted": "2025-08-03",
+   "approx": false,
+   "expected": "2026-08-03",
+   "days_until": 31,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 103
+  },
+  {
+   "company": "Notion",
+   "last_cycle_posted": "2025-08-08",
+   "approx": false,
+   "expected": "2026-08-08",
+   "days_until": 36,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Atomic Semi",
+   "last_cycle_posted": "2025-08-15",
+   "approx": false,
+   "expected": "2026-08-15",
+   "days_until": 43,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Datadog",
+   "last_cycle_posted": "2025-08-18",
+   "approx": false,
+   "expected": "2026-08-18",
+   "days_until": 46,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Shopify",
+   "last_cycle_posted": "2025-08-19",
+   "approx": false,
+   "expected": "2026-08-19",
+   "days_until": 47,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Capital One",
+   "last_cycle_posted": "2025-08-20",
+   "approx": false,
+   "expected": "2026-08-20",
+   "days_until": 48,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 20
+  },
+  {
+   "company": "NVIDIA",
+   "last_cycle_posted": "2025-08-24",
+   "approx": false,
+   "expected": "2026-08-24",
+   "days_until": 52,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 58
+  },
+  {
+   "company": "Pinterest",
+   "last_cycle_posted": "2025-09-24",
+   "approx": false,
+   "expected": "2026-09-24",
+   "days_until": 83,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Amazon",
+   "last_cycle_posted": "2025-10-04",
+   "approx": false,
+   "expected": "2026-10-04",
+   "days_until": 93,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 29
+  },
+  {
+   "company": "Figure",
+   "last_cycle_posted": "2025-10-22",
+   "approx": false,
+   "expected": "2026-10-22",
+   "days_until": 111,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Rivian and Volkswagen Group Technologies",
+   "last_cycle_posted": "2025-10-30",
+   "approx": false,
+   "expected": "2026-10-30",
+   "days_until": 119,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Leidos",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 101
+  },
+  {
+   "company": "Meta",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 65
+  },
+  {
+   "company": "T-Mobile",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 63
+  },
+  {
+   "company": "Sun Life",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 37
+  },
+  {
+   "company": "Copart",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 28
+  },
+  {
+   "company": "Samsung Research America",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 28
+  },
+  {
+   "company": "Electronic Arts",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 26
+  },
+  {
+   "company": "State Street",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 20
+  },
+  {
+   "company": "Moog",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 19
+  },
+  {
+   "company": "AbbVie",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "University Health Network",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Thomson Reuters",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Abacus Insights",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "The Allen Institute for AI",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "ATPCO",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Dropbox",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Crowdstrike",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Kabam",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "LexisNexis Risk Solutions",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Modernizing Medicine",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Valsoft",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Cohesity",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "ZOLL Medical Corporation",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Ascend Learning",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "BP",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Ivy Tech Community College",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Solar Turbines",
+   "last_cycle_posted": "2025-11-05",
+   "approx": true,
+   "expected": "2026-11-05",
+   "days_until": 125,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "General Dynamics Mission Systems",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 119
+  },
+  {
+   "company": "Cadence Design Systems",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 108
+  },
+  {
+   "company": "Motorola",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 52
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 35
+  },
+  {
+   "company": "Rivian",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 33
+  },
+  {
+   "company": "The Aerospace Corporation",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 22
+  },
+  {
+   "company": "Adobe",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 18
+  },
+  {
+   "company": "Tenstorrent",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 17
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Centene",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Insulet Corporation",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Interac",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "MongoDB",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Behaviour Interactive",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "FactSet",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Fujitsu",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Rehiko",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Coinbase",
+   "last_cycle_posted": "2025-11-06",
+   "approx": true,
+   "expected": "2026-11-06",
+   "days_until": 126,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Microsoft",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 145
+  },
+  {
+   "company": "RTX",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 139
+  },
+  {
+   "company": "TikTok",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 117
+  },
+  {
+   "company": "ByteDance",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 83
+  },
+  {
+   "company": "Autodesk",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 61
+  },
+  {
+   "company": "Robert Bosch Venture Capital",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 59
+  },
+  {
+   "company": "Oracle",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 38
+  },
+  {
+   "company": "Palantir",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 32
+  },
+  {
+   "company": "Comcast",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 29
+  },
+  {
+   "company": "John Deere",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 27
+  },
+  {
+   "company": "Altera Corporation",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 24
+  },
+  {
+   "company": "CVS Health",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 19
+  },
+  {
+   "company": "The Federal Reserve System",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "Synchrony Financial",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Commonwealth of Massachusetts",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Takeda",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Becton Dickinson",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Point72",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "CoStar Group",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Transcarent",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Seven Research",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Wing",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Persistent Systems",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Qualcomm",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Reingold",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "The Travelers Companies",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Zurich Insurance",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Mistral AI",
+   "last_cycle_posted": "2025-11-07",
+   "approx": true,
+   "expected": "2026-11-07",
+   "days_until": 127,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "ASML",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 29
+  },
+  {
+   "company": "Zoox",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 28
+  },
+  {
+   "company": "Bose",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 18
+  },
+  {
+   "company": "Bandwidth",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Trimble",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "HCSC",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "ICF International",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Crum & Forster Insurance",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Lightmatter",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Hitachi Energy",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Toast",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Ramp",
+   "last_cycle_posted": "2025-11-08",
+   "approx": true,
+   "expected": "2026-11-08",
+   "days_until": 128,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "ConnectPrep",
+   "last_cycle_posted": "2025-11-09",
+   "approx": true,
+   "expected": "2026-11-09",
+   "days_until": 129,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Sigma Computing",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 25
+  },
+  {
+   "company": "NBCUniversal",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 23
+  },
+  {
+   "company": "Parsons",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 19
+  },
+  {
+   "company": "Seagate Technology",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 16
+  },
+  {
+   "company": "ABB",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "Gilead Sciences",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "LMI",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Great American Insurance Company",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Toyota Research Institute",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Rakuten International",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Santander",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Activision-Blizzard",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Anglian Water",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Lendbuzz",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Viridien",
+   "last_cycle_posted": "2025-11-10",
+   "approx": true,
+   "expected": "2026-11-10",
+   "days_until": 130,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "The Walt Disney Company",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 90
+  },
+  {
+   "company": "Manulife Financial",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 36
+  },
+  {
+   "company": "Metropolitan Transportation Authority",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 21
+  },
+  {
+   "company": "Howmet Aerospace",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "Marvell",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Nutanix",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Experian",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Ryan",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Integration Innovation (i3)",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Memphis Meats",
+   "last_cycle_posted": "2025-11-11",
+   "approx": true,
+   "expected": "2026-11-11",
+   "days_until": 131,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Tencent",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 59
+  },
+  {
+   "company": "CAE",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 58
+  },
+  {
+   "company": "Visa",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 26
+  },
+  {
+   "company": "Al Warren Oil Company",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 25
+  },
+  {
+   "company": "Sandisk",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "GM financial",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Flagship Pioneering",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Optiver",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "ASSA ABLOY",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Cirrus Logic",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Dell Technologies",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Franklin Templeton",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Vertex Pharmaceuticals",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Zscaler",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Belden",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Block",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Wex",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "By Light Professional IT Services",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Cognex",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Highmark Health",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Benchling",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Circle",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Goodnotes",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Markon",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Sierra",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Skyworks",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Stripe",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Lyft",
+   "last_cycle_posted": "2025-11-12",
+   "approx": true,
+   "expected": "2026-11-12",
+   "days_until": 132,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Nokia",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 211
+  },
+  {
+   "company": "BorgWarner",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Analog Devices",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Zoetis",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Graphcore",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Marsh",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "League",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "BAE Systems",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Crusoe",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Airbus",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "ID.me",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Lifeway",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Hometap",
+   "last_cycle_posted": "2025-11-13",
+   "approx": true,
+   "expected": "2026-11-13",
+   "days_until": 133,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Altom Transport",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 67
+  },
+  {
+   "company": "Micron Technology",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 39
+  },
+  {
+   "company": "Uber",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 32
+  },
+  {
+   "company": "Keysight Technologies",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 30
+  },
+  {
+   "company": "Hitachi",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 27
+  },
+  {
+   "company": "S&P Global",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 17
+  },
+  {
+   "company": "Lumentum",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 15
+  },
+  {
+   "company": "Apex Fintech Solutions",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "CME Group",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "Fortive",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Skydio",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "National Renewable Energy Laboratory",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Cintas",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Radiance Technologies",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "ALSO",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Hologic",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "UiPath",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "DNV",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "DocuSign",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Tessera Labs",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Wealthsimple",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Astera Labs",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Diligent Corporation",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Fulton Bank",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Gusto",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Hootsuite",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "DTCC",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Exact Sciences",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Sierra Nevada Corporation",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Volaris Group",
+   "last_cycle_posted": "2025-11-14",
+   "approx": true,
+   "expected": "2026-11-14",
+   "days_until": 134,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Philips",
+   "last_cycle_posted": "2025-11-15",
+   "approx": false,
+   "expected": "2026-11-15",
+   "days_until": 135,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 17
+  },
+  {
+   "company": "American Express",
+   "last_cycle_posted": "2025-11-15",
+   "approx": false,
+   "expected": "2026-11-15",
+   "days_until": 135,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Viavi Solutions",
+   "last_cycle_posted": "2025-11-16",
+   "approx": false,
+   "expected": "2026-11-16",
+   "days_until": 136,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "KLA",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 69
+  },
+  {
+   "company": "CACI",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 42
+  },
+  {
+   "company": "Berkshire Hathaway Energy",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Nasdaq",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Waymo",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Ford Motor Company",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Invesco",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "St. Jude Children's Research Hospital",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Major League Baseball",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Smith+Nephew",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Standard Aero",
+   "last_cycle_posted": "2025-11-17",
+   "approx": false,
+   "expected": "2026-11-17",
+   "days_until": 137,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Ciena",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 38
+  },
+  {
+   "company": "Susquehanna International Group (SIG)",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 26
+  },
+  {
+   "company": "LinkedIn",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "FOX",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Rockwell Automation",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Mercury",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "PTC",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Red Bull",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Hunt Oil Company",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "ServiceNow",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Mercedes-Benz",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Zeiss",
+   "last_cycle_posted": "2025-11-18",
+   "approx": false,
+   "expected": "2026-11-18",
+   "days_until": 138,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Roche",
+   "last_cycle_posted": "2025-11-19",
+   "approx": false,
+   "expected": "2026-11-19",
+   "days_until": 139,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "IXL Learning",
+   "last_cycle_posted": "2025-11-19",
+   "approx": false,
+   "expected": "2026-11-19",
+   "days_until": 139,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "JP Morgan Chase",
+   "last_cycle_posted": "2025-11-19",
+   "approx": false,
+   "expected": "2026-11-19",
+   "days_until": 139,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Zebra Technologies",
+   "last_cycle_posted": "2025-11-19",
+   "approx": false,
+   "expected": "2026-11-19",
+   "days_until": 139,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Amgen",
+   "last_cycle_posted": "2025-11-19",
+   "approx": false,
+   "expected": "2026-11-19",
+   "days_until": 139,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Cisco",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 51
+  },
+  {
+   "company": "KBR",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 28
+  },
+  {
+   "company": "Microchip Technology",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "VSP Vision",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Corning",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Curtiss-Wright Corporation",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "NinjaTrader",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Rubrik",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Aquatic Capital Management",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Genies",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Mechanize",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Nestle",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Truveta",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Typeface",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Jump Trading",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Twitch",
+   "last_cycle_posted": "2025-11-20",
+   "approx": false,
+   "expected": "2026-11-20",
+   "days_until": 140,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Intuitive Surgical",
+   "last_cycle_posted": "2025-11-21",
+   "approx": false,
+   "expected": "2026-11-21",
+   "days_until": 141,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 26
+  },
+  {
+   "company": "Walmart",
+   "last_cycle_posted": "2025-11-21",
+   "approx": false,
+   "expected": "2026-11-21",
+   "days_until": 141,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Washpost",
+   "last_cycle_posted": "2025-11-21",
+   "approx": false,
+   "expected": "2026-11-21",
+   "days_until": 141,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Root Access",
+   "last_cycle_posted": "2025-11-21",
+   "approx": false,
+   "expected": "2026-11-21",
+   "days_until": 141,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Match Group",
+   "last_cycle_posted": "2025-11-21",
+   "approx": false,
+   "expected": "2026-11-21",
+   "days_until": 141,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Stevens Capital Management",
+   "last_cycle_posted": "2025-11-21",
+   "approx": false,
+   "expected": "2026-11-21",
+   "days_until": 141,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Dominion Energy",
+   "last_cycle_posted": "2025-11-21",
+   "approx": false,
+   "expected": "2026-11-21",
+   "days_until": 141,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "PennState University",
+   "last_cycle_posted": "2025-11-22",
+   "approx": false,
+   "expected": "2026-11-22",
+   "days_until": 142,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 28
+  },
+  {
+   "company": "Hewlett Packard (HP)",
+   "last_cycle_posted": "2025-11-22",
+   "approx": false,
+   "expected": "2026-11-22",
+   "days_until": 142,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 26
+  },
+  {
+   "company": "Chubb",
+   "last_cycle_posted": "2025-11-22",
+   "approx": false,
+   "expected": "2026-11-22",
+   "days_until": 142,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Geico",
+   "last_cycle_posted": "2025-11-22",
+   "approx": false,
+   "expected": "2026-11-22",
+   "days_until": 142,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Upstart",
+   "last_cycle_posted": "2025-11-22",
+   "approx": false,
+   "expected": "2026-11-22",
+   "days_until": 142,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SS&C",
+   "last_cycle_posted": "2025-11-23",
+   "approx": false,
+   "expected": "2026-11-23",
+   "days_until": 143,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Anduril",
+   "last_cycle_posted": "2025-11-23",
+   "approx": false,
+   "expected": "2026-11-23",
+   "days_until": 143,
+   "status": "posted",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Texas A&M International University",
+   "last_cycle_posted": "2025-11-23",
+   "approx": false,
+   "expected": "2026-11-23",
+   "days_until": 143,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Moderna",
+   "last_cycle_posted": "2025-11-23",
+   "approx": false,
+   "expected": "2026-11-23",
+   "days_until": 143,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Shield AI",
+   "last_cycle_posted": "2025-11-24",
+   "approx": false,
+   "expected": "2026-11-24",
+   "days_until": 144,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "The New York Times",
+   "last_cycle_posted": "2025-11-24",
+   "approx": false,
+   "expected": "2026-11-24",
+   "days_until": 144,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "University Corporation for Atmospheric Research",
+   "last_cycle_posted": "2025-11-24",
+   "approx": false,
+   "expected": "2026-11-24",
+   "days_until": 144,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Emerson Electric",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Field AI",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Zoom",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Paramount Global",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "GE Appliances",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Blue Cross Blue Shield of Michigan",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Honeywell",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Inmar Intelligence",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "NRG Energy",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "The Toro Company",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Wisk",
+   "last_cycle_posted": "2025-11-25",
+   "approx": false,
+   "expected": "2026-11-25",
+   "days_until": 145,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Applied Materials",
+   "last_cycle_posted": "2025-11-26",
+   "approx": false,
+   "expected": "2026-11-26",
+   "days_until": 146,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 43
+  },
+  {
+   "company": "LabCorp",
+   "last_cycle_posted": "2025-11-26",
+   "approx": false,
+   "expected": "2026-11-26",
+   "days_until": 146,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "SK hynix",
+   "last_cycle_posted": "2025-11-26",
+   "approx": false,
+   "expected": "2026-11-26",
+   "days_until": 146,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "SDSU Research Foundation",
+   "last_cycle_posted": "2025-11-26",
+   "approx": false,
+   "expected": "2026-11-26",
+   "days_until": 146,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Affirm",
+   "last_cycle_posted": "2025-11-26",
+   "approx": false,
+   "expected": "2026-11-26",
+   "days_until": 146,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "General Motors",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 47
+  },
+  {
+   "company": "BMO",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 34
+  },
+  {
+   "company": "Booz Allen",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 31
+  },
+  {
+   "company": "Amentum",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 27
+  },
+  {
+   "company": "Carnegie Mellon University",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 15
+  },
+  {
+   "company": "Spotify",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Carrier Global",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Ambarella",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "USAFacts",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Blackstone",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Ticketmaster",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "William Blair",
+   "last_cycle_posted": "2025-11-27",
+   "approx": false,
+   "expected": "2026-11-27",
+   "days_until": 147,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "TD Bank",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 38
+  },
+  {
+   "company": "Allstate Insurance Company",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Danaher Corporation",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Crane Co.",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Boston Consulting Group",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Dallas Fort Worth International Airport",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Direct Supply",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "AT&T",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Mercor",
+   "last_cycle_posted": "2025-11-28",
+   "approx": false,
+   "expected": "2026-11-28",
+   "days_until": 148,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "CIBC",
+   "last_cycle_posted": "2025-11-30",
+   "approx": false,
+   "expected": "2026-11-30",
+   "days_until": 150,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 40
+  },
+  {
+   "company": "GE Aerospace",
+   "last_cycle_posted": "2025-11-30",
+   "approx": false,
+   "expected": "2026-11-30",
+   "days_until": 150,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Neuralink",
+   "last_cycle_posted": "2025-11-30",
+   "approx": false,
+   "expected": "2026-11-30",
+   "days_until": 150,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Netflix",
+   "last_cycle_posted": "2025-12-01",
+   "approx": false,
+   "expected": "2026-12-01",
+   "days_until": 151,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Virtu Financial",
+   "last_cycle_posted": "2025-12-01",
+   "approx": false,
+   "expected": "2026-12-01",
+   "days_until": 151,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Ivalua",
+   "last_cycle_posted": "2025-12-01",
+   "approx": false,
+   "expected": "2026-12-01",
+   "days_until": 151,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Morgan Stanley",
+   "last_cycle_posted": "2025-12-01",
+   "approx": false,
+   "expected": "2026-12-01",
+   "days_until": 151,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Fiserv",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 41
+  },
+  {
+   "company": "Paccar",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 31
+  },
+  {
+   "company": "AstraZeneca",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Sony",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Barclays",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "SRI International",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Camping World",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Uhaul",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Evolve Technology",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Zip",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "MarketAxess",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "TransUnion",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Two Six Technologies",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Gemini",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Perplexity AI",
+   "last_cycle_posted": "2025-12-02",
+   "approx": false,
+   "expected": "2026-12-02",
+   "days_until": 152,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "RR Donnelley",
+   "last_cycle_posted": "2025-12-03",
+   "approx": false,
+   "expected": "2026-12-03",
+   "days_until": 153,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Waters Corporation",
+   "last_cycle_posted": "2025-12-03",
+   "approx": false,
+   "expected": "2026-12-03",
+   "days_until": 153,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Okta",
+   "last_cycle_posted": "2025-12-03",
+   "approx": false,
+   "expected": "2026-12-03",
+   "days_until": 153,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "PA Consulting",
+   "last_cycle_posted": "2025-12-03",
+   "approx": false,
+   "expected": "2026-12-03",
+   "days_until": 153,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Accenture",
+   "last_cycle_posted": "2025-12-03",
+   "approx": false,
+   "expected": "2026-12-03",
+   "days_until": 153,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Simular",
+   "last_cycle_posted": "2025-12-03",
+   "approx": false,
+   "expected": "2026-12-03",
+   "days_until": 153,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Cummins",
+   "last_cycle_posted": "2025-12-04",
+   "approx": false,
+   "expected": "2026-12-04",
+   "days_until": 154,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "L3Harris Technologies",
+   "last_cycle_posted": "2025-12-04",
+   "approx": false,
+   "expected": "2026-12-04",
+   "days_until": 154,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "American Fidelity",
+   "last_cycle_posted": "2025-12-04",
+   "approx": false,
+   "expected": "2026-12-04",
+   "days_until": 154,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Port Authority NY NJ",
+   "last_cycle_posted": "2025-12-04",
+   "approx": false,
+   "expected": "2026-12-04",
+   "days_until": 154,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Black Box",
+   "last_cycle_posted": "2025-12-04",
+   "approx": false,
+   "expected": "2026-12-04",
+   "days_until": 154,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Intropic",
+   "last_cycle_posted": "2025-12-04",
+   "approx": false,
+   "expected": "2026-12-04",
+   "days_until": 154,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Delta Dental",
+   "last_cycle_posted": "2025-12-05",
+   "approx": false,
+   "expected": "2026-12-05",
+   "days_until": 155,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "GoDaddy",
+   "last_cycle_posted": "2025-12-05",
+   "approx": false,
+   "expected": "2026-12-05",
+   "days_until": 155,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Trellix",
+   "last_cycle_posted": "2025-12-05",
+   "approx": false,
+   "expected": "2026-12-05",
+   "days_until": 155,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Marmon Holdings",
+   "last_cycle_posted": "2025-12-06",
+   "approx": false,
+   "expected": "2026-12-06",
+   "days_until": 156,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "W.R. Berkley",
+   "last_cycle_posted": "2025-12-06",
+   "approx": false,
+   "expected": "2026-12-06",
+   "days_until": 156,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Cloudflare",
+   "last_cycle_posted": "2025-12-06",
+   "approx": false,
+   "expected": "2026-12-06",
+   "days_until": 156,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Dexcom",
+   "last_cycle_posted": "2025-12-06",
+   "approx": false,
+   "expected": "2026-12-06",
+   "days_until": 156,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Simons Foundation",
+   "last_cycle_posted": "2025-12-06",
+   "approx": false,
+   "expected": "2026-12-06",
+   "days_until": 156,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Calico Labs",
+   "last_cycle_posted": "2025-12-06",
+   "approx": false,
+   "expected": "2026-12-06",
+   "days_until": 156,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Argonne National Laboratory",
+   "last_cycle_posted": "2025-12-07",
+   "approx": false,
+   "expected": "2026-12-07",
+   "days_until": 157,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Axiom Space",
+   "last_cycle_posted": "2025-12-08",
+   "approx": false,
+   "expected": "2026-12-08",
+   "days_until": 158,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Genentech",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 35
+  },
+  {
+   "company": "Veolia",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 31
+  },
+  {
+   "company": "Mackenzie Investments",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "AEG",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Airbnb",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Etched.ai",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Sharp Electronics",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Nextiva",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Plexus",
+   "last_cycle_posted": "2025-12-09",
+   "approx": false,
+   "expected": "2026-12-09",
+   "days_until": 159,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Magna",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 21
+  },
+  {
+   "company": "Westinghouse Electric Company",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 15
+  },
+  {
+   "company": "Snap",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "CommScope",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Fermilab",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Nelnet",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Realtor.com",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Atlassian",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Axos Bank",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "XPENG Motors",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Dow Chemical Company",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Vera Institute of Justice",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Aramark",
+   "last_cycle_posted": "2025-12-10",
+   "approx": false,
+   "expected": "2026-12-10",
+   "days_until": 160,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Western Digital",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 27
+  },
+  {
+   "company": "Rolls Royce",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 17
+  },
+  {
+   "company": "Intapp",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Rocket Mortgage",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Global Partners",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "NXP Semiconductors",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Anthropic",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Semtech",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "DataVisor",
+   "last_cycle_posted": "2025-12-11",
+   "approx": false,
+   "expected": "2026-12-11",
+   "days_until": 161,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Cotiviti",
+   "last_cycle_posted": "2025-12-12",
+   "approx": false,
+   "expected": "2026-12-12",
+   "days_until": 162,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 24
+  },
+  {
+   "company": "Astranis",
+   "last_cycle_posted": "2025-12-12",
+   "approx": false,
+   "expected": "2026-12-12",
+   "days_until": 162,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 17
+  },
+  {
+   "company": "Dematic",
+   "last_cycle_posted": "2025-12-12",
+   "approx": false,
+   "expected": "2026-12-12",
+   "days_until": 162,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Royal Bank of Canada",
+   "last_cycle_posted": "2025-12-13",
+   "approx": false,
+   "expected": "2026-12-13",
+   "days_until": 163,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 92
+  },
+  {
+   "company": "GE Vernova",
+   "last_cycle_posted": "2025-12-13",
+   "approx": false,
+   "expected": "2026-12-13",
+   "days_until": 163,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 29
+  },
+  {
+   "company": "DXC Technology",
+   "last_cycle_posted": "2025-12-13",
+   "approx": false,
+   "expected": "2026-12-13",
+   "days_until": 163,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Air Liquide",
+   "last_cycle_posted": "2025-12-13",
+   "approx": false,
+   "expected": "2026-12-13",
+   "days_until": 163,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Zipline",
+   "last_cycle_posted": "2025-12-13",
+   "approx": false,
+   "expected": "2026-12-13",
+   "days_until": 163,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Uline",
+   "last_cycle_posted": "2025-12-13",
+   "approx": false,
+   "expected": "2026-12-13",
+   "days_until": 163,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Roku",
+   "last_cycle_posted": "2025-12-15",
+   "approx": false,
+   "expected": "2026-12-15",
+   "days_until": 165,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 24
+  },
+  {
+   "company": "Ripple",
+   "last_cycle_posted": "2025-12-15",
+   "approx": false,
+   "expected": "2026-12-15",
+   "days_until": 165,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 21
+  },
+  {
+   "company": "Corsair",
+   "last_cycle_posted": "2025-12-15",
+   "approx": false,
+   "expected": "2026-12-15",
+   "days_until": 165,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Premier",
+   "last_cycle_posted": "2025-12-15",
+   "approx": false,
+   "expected": "2026-12-15",
+   "days_until": 165,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Thales",
+   "last_cycle_posted": "2025-12-15",
+   "approx": false,
+   "expected": "2026-12-15",
+   "days_until": 165,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "CCC Intelligent Solutions",
+   "last_cycle_posted": "2025-12-15",
+   "approx": false,
+   "expected": "2026-12-15",
+   "days_until": 165,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Fifth Third Bank",
+   "last_cycle_posted": "2025-12-15",
+   "approx": false,
+   "expected": "2026-12-15",
+   "days_until": 165,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Intuit",
+   "last_cycle_posted": "2025-12-16",
+   "approx": false,
+   "expected": "2026-12-16",
+   "days_until": 166,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Empower",
+   "last_cycle_posted": "2025-12-16",
+   "approx": false,
+   "expected": "2026-12-16",
+   "days_until": 166,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Velera",
+   "last_cycle_posted": "2025-12-16",
+   "approx": false,
+   "expected": "2026-12-16",
+   "days_until": 166,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Red Hat",
+   "last_cycle_posted": "2025-12-16",
+   "approx": false,
+   "expected": "2026-12-16",
+   "days_until": 166,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "AVEVA",
+   "last_cycle_posted": "2025-12-16",
+   "approx": false,
+   "expected": "2026-12-16",
+   "days_until": 166,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Assent",
+   "last_cycle_posted": "2025-12-16",
+   "approx": false,
+   "expected": "2026-12-16",
+   "days_until": 166,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "StepStone Group",
+   "last_cycle_posted": "2025-12-16",
+   "approx": false,
+   "expected": "2026-12-16",
+   "days_until": 166,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Genmab",
+   "last_cycle_posted": "2025-12-17",
+   "approx": false,
+   "expected": "2026-12-17",
+   "days_until": 167,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "TDS",
+   "last_cycle_posted": "2025-12-17",
+   "approx": false,
+   "expected": "2026-12-17",
+   "days_until": 167,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "FHLBank Atlanta",
+   "last_cycle_posted": "2025-12-17",
+   "approx": false,
+   "expected": "2026-12-17",
+   "days_until": 167,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Mercury Insurance",
+   "last_cycle_posted": "2025-12-17",
+   "approx": false,
+   "expected": "2026-12-17",
+   "days_until": 167,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Varian",
+   "last_cycle_posted": "2025-12-17",
+   "approx": false,
+   "expected": "2026-12-17",
+   "days_until": 167,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "EXL",
+   "last_cycle_posted": "2025-12-18",
+   "approx": false,
+   "expected": "2026-12-18",
+   "days_until": 168,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 15
+  },
+  {
+   "company": "TWG Global",
+   "last_cycle_posted": "2025-12-18",
+   "approx": false,
+   "expected": "2026-12-18",
+   "days_until": 168,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Xometry",
+   "last_cycle_posted": "2025-12-18",
+   "approx": false,
+   "expected": "2026-12-18",
+   "days_until": 168,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Barry-Wehmiller",
+   "last_cycle_posted": "2025-12-18",
+   "approx": false,
+   "expected": "2026-12-18",
+   "days_until": 168,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Atos",
+   "last_cycle_posted": "2025-12-18",
+   "approx": false,
+   "expected": "2026-12-18",
+   "days_until": 168,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "pony.ai",
+   "last_cycle_posted": "2025-12-18",
+   "approx": false,
+   "expected": "2026-12-18",
+   "days_until": 168,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Waabi",
+   "last_cycle_posted": "2025-12-18",
+   "approx": false,
+   "expected": "2026-12-18",
+   "days_until": 168,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Bank of Montreal",
+   "last_cycle_posted": "2025-12-19",
+   "approx": false,
+   "expected": "2026-12-19",
+   "days_until": 169,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 100
+  },
+  {
+   "company": "Geotab",
+   "last_cycle_posted": "2025-12-19",
+   "approx": false,
+   "expected": "2026-12-19",
+   "days_until": 169,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 36
+  },
+  {
+   "company": "Hearst",
+   "last_cycle_posted": "2025-12-19",
+   "approx": false,
+   "expected": "2026-12-19",
+   "days_until": 169,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Eulerity",
+   "last_cycle_posted": "2025-12-19",
+   "approx": false,
+   "expected": "2026-12-19",
+   "days_until": 169,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Intrinsic",
+   "last_cycle_posted": "2025-12-19",
+   "approx": false,
+   "expected": "2026-12-19",
+   "days_until": 169,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Collaborative Robotics",
+   "last_cycle_posted": "2025-12-19",
+   "approx": false,
+   "expected": "2026-12-19",
+   "days_until": 169,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Procter & Gamble (P&G)",
+   "last_cycle_posted": "2025-12-19",
+   "approx": false,
+   "expected": "2026-12-19",
+   "days_until": 169,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "University of Virginia",
+   "last_cycle_posted": "2025-12-20",
+   "approx": false,
+   "expected": "2026-12-20",
+   "days_until": 170,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Entegris",
+   "last_cycle_posted": "2025-12-22",
+   "approx": false,
+   "expected": "2026-12-22",
+   "days_until": 172,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Citi",
+   "last_cycle_posted": "2025-12-22",
+   "approx": false,
+   "expected": "2026-12-22",
+   "days_until": 172,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "DotDash Meredith",
+   "last_cycle_posted": "2025-12-22",
+   "approx": false,
+   "expected": "2026-12-22",
+   "days_until": 172,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Medpace, Inc.",
+   "last_cycle_posted": "2025-12-22",
+   "approx": false,
+   "expected": "2026-12-22",
+   "days_until": 172,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "McKesson",
+   "last_cycle_posted": "2025-12-22",
+   "approx": false,
+   "expected": "2026-12-22",
+   "days_until": 172,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Cadence",
+   "last_cycle_posted": "2025-12-22",
+   "approx": false,
+   "expected": "2026-12-22",
+   "days_until": 172,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Snowflake",
+   "last_cycle_posted": "2025-12-23",
+   "approx": false,
+   "expected": "2026-12-23",
+   "days_until": 173,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 15
+  },
+  {
+   "company": "Lucid Motors",
+   "last_cycle_posted": "2025-12-23",
+   "approx": false,
+   "expected": "2026-12-23",
+   "days_until": 173,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "National Information Solutions Cooperative (NISC)",
+   "last_cycle_posted": "2025-12-23",
+   "approx": false,
+   "expected": "2026-12-23",
+   "days_until": 173,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Rocket Lab USA",
+   "last_cycle_posted": "2025-12-23",
+   "approx": false,
+   "expected": "2026-12-23",
+   "days_until": 173,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Archer",
+   "last_cycle_posted": "2025-12-24",
+   "approx": false,
+   "expected": "2026-12-24",
+   "days_until": 174,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "DiDi Global",
+   "last_cycle_posted": "2025-12-24",
+   "approx": false,
+   "expected": "2026-12-24",
+   "days_until": 174,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "AeroVironment",
+   "last_cycle_posted": "2025-12-26",
+   "approx": false,
+   "expected": "2026-12-26",
+   "days_until": 176,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Intelcom | Dragonfly",
+   "last_cycle_posted": "2025-12-29",
+   "approx": false,
+   "expected": "2026-12-29",
+   "days_until": 179,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 30
+  },
+  {
+   "company": "Trane Technologies",
+   "last_cycle_posted": "2025-12-29",
+   "approx": false,
+   "expected": "2026-12-29",
+   "days_until": 179,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 18
+  },
+  {
+   "company": "ASM International",
+   "last_cycle_posted": "2025-12-29",
+   "approx": false,
+   "expected": "2026-12-29",
+   "days_until": 179,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Draper",
+   "last_cycle_posted": "2025-12-30",
+   "approx": false,
+   "expected": "2026-12-30",
+   "days_until": 180,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Brookhaven Lab",
+   "last_cycle_posted": "2025-12-30",
+   "approx": false,
+   "expected": "2026-12-30",
+   "days_until": 180,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "GlobalFoundries",
+   "last_cycle_posted": "2025-12-30",
+   "approx": false,
+   "expected": "2026-12-30",
+   "days_until": 180,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Entrust",
+   "last_cycle_posted": "2025-12-31",
+   "approx": false,
+   "expected": "2026-12-31",
+   "days_until": 181,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Cambria",
+   "last_cycle_posted": "2025-12-31",
+   "approx": false,
+   "expected": "2026-12-31",
+   "days_until": 181,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "General Dynamics UK",
+   "last_cycle_posted": "2026-01-02",
+   "approx": false,
+   "expected": "2027-01-02",
+   "days_until": 183,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 21
+  },
+  {
+   "company": "IDEXX",
+   "last_cycle_posted": "2026-01-04",
+   "approx": false,
+   "expected": "2027-01-04",
+   "days_until": 185,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Intact",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 20
+  },
+  {
+   "company": "Schweitzer Engineering Laboratories",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 18
+  },
+  {
+   "company": "Deloitte",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "AltaML",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Sherwin-Williams",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "BDO Canada",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "CSAA Insurance Group",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Medtronic",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Ontario Teachers' Pension Plan",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "DRW",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "DRW Holdings",
+   "last_cycle_posted": "2026-01-05",
+   "approx": false,
+   "expected": "2027-01-05",
+   "days_until": 186,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Kaiser Permanente",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 31
+  },
+  {
+   "company": "Together AI",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Peraton",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Ribbon",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Unisys",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Definity Financial",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Lowe's",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Veeam Software",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "NewsBreak",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Cubic",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Globus Medical",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "TD Synnex",
+   "last_cycle_posted": "2026-01-06",
+   "approx": false,
+   "expected": "2027-01-06",
+   "days_until": 187,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SoFi",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "Saronic",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Southwest Airlines",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Visier Solutions",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Investment Management Corporation of Ontario",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "CloudKitchens",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Desjardins Group",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Formlabs",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Ohio State University",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "OpenAI",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Peter Millar",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "QTS",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Snorkel AI",
+   "last_cycle_posted": "2026-01-07",
+   "approx": false,
+   "expected": "2027-01-07",
+   "days_until": 188,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Kinaxis",
+   "last_cycle_posted": "2026-01-08",
+   "approx": false,
+   "expected": "2027-01-08",
+   "days_until": 189,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 20
+  },
+  {
+   "company": "Vanderlande Industries",
+   "last_cycle_posted": "2026-01-08",
+   "approx": false,
+   "expected": "2027-01-08",
+   "days_until": 189,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Sanofi",
+   "last_cycle_posted": "2026-01-08",
+   "approx": false,
+   "expected": "2027-01-08",
+   "days_until": 189,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Scientific Research Corporation",
+   "last_cycle_posted": "2026-01-08",
+   "approx": false,
+   "expected": "2027-01-08",
+   "days_until": 189,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "APEX Analytix",
+   "last_cycle_posted": "2026-01-08",
+   "approx": false,
+   "expected": "2027-01-08",
+   "days_until": 189,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Unity",
+   "last_cycle_posted": "2026-01-08",
+   "approx": false,
+   "expected": "2027-01-08",
+   "days_until": 189,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Intel",
+   "last_cycle_posted": "2026-01-09",
+   "approx": false,
+   "expected": "2027-01-09",
+   "days_until": 190,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 32
+  },
+  {
+   "company": "Bloom Energy",
+   "last_cycle_posted": "2026-01-09",
+   "approx": false,
+   "expected": "2027-01-09",
+   "days_until": 190,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Apera AI",
+   "last_cycle_posted": "2026-01-09",
+   "approx": false,
+   "expected": "2027-01-09",
+   "days_until": 190,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "D2L",
+   "last_cycle_posted": "2026-01-09",
+   "approx": false,
+   "expected": "2027-01-09",
+   "days_until": 190,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Rocket Companies",
+   "last_cycle_posted": "2026-01-09",
+   "approx": false,
+   "expected": "2027-01-09",
+   "days_until": 190,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Kargo",
+   "last_cycle_posted": "2026-01-09",
+   "approx": false,
+   "expected": "2027-01-09",
+   "days_until": 190,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Woven",
+   "last_cycle_posted": "2026-01-10",
+   "approx": false,
+   "expected": "2027-01-10",
+   "days_until": 191,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "The Coca-Cola Company",
+   "last_cycle_posted": "2026-01-12",
+   "approx": false,
+   "expected": "2027-01-12",
+   "days_until": 193,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Prudential Financial",
+   "last_cycle_posted": "2026-01-12",
+   "approx": false,
+   "expected": "2027-01-12",
+   "days_until": 193,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Veeva Systems",
+   "last_cycle_posted": "2026-01-12",
+   "approx": false,
+   "expected": "2027-01-12",
+   "days_until": 193,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "SailPoint",
+   "last_cycle_posted": "2026-01-12",
+   "approx": false,
+   "expected": "2027-01-12",
+   "days_until": 193,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "RWS",
+   "last_cycle_posted": "2026-01-13",
+   "approx": false,
+   "expected": "2027-01-13",
+   "days_until": 194,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "AssetMark",
+   "last_cycle_posted": "2026-01-13",
+   "approx": false,
+   "expected": "2027-01-13",
+   "days_until": 194,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Instacart",
+   "last_cycle_posted": "2026-01-13",
+   "approx": false,
+   "expected": "2027-01-13",
+   "days_until": 194,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Donaldson Company",
+   "last_cycle_posted": "2026-01-13",
+   "approx": false,
+   "expected": "2027-01-13",
+   "days_until": 194,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "PlayStation",
+   "last_cycle_posted": "2026-01-14",
+   "approx": false,
+   "expected": "2027-01-14",
+   "days_until": 195,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Johnson Controls",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "British Columbia Investment",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Warner Bros.",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Cohere",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Clorox",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "XPO",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Faire",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Space Dynamics Laboratory",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Akuna Capital",
+   "last_cycle_posted": "2026-01-15",
+   "approx": false,
+   "expected": "2027-01-15",
+   "days_until": 196,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Johnson & Johnson",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 46
+  },
+  {
+   "company": "The Boeing Company",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 22
+  },
+  {
+   "company": "Coherent",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 21
+  },
+  {
+   "company": "Samsung",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 20
+  },
+  {
+   "company": "Verkada",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Nuro",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "PricewaterhouseCoopers (PwC)",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Stanley Black & Decker",
+   "last_cycle_posted": "2026-01-16",
+   "approx": false,
+   "expected": "2027-01-16",
+   "days_until": 197,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Farmers Insurance",
+   "last_cycle_posted": "2026-01-18",
+   "approx": false,
+   "expected": "2027-01-18",
+   "days_until": 199,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Jabil",
+   "last_cycle_posted": "2026-01-20",
+   "approx": false,
+   "expected": "2027-01-20",
+   "days_until": 201,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 22
+  },
+  {
+   "company": "Relativity",
+   "last_cycle_posted": "2026-01-20",
+   "approx": false,
+   "expected": "2027-01-20",
+   "days_until": 201,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Vertiv",
+   "last_cycle_posted": "2026-01-20",
+   "approx": false,
+   "expected": "2027-01-20",
+   "days_until": 201,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "AECOM",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Generac",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "onsemi",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Dark Wolf Solutions",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Roblox",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Varda Space",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Brain Co.",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Genworth Financial",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Jones Lang LaSalle (JLL)",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "RSM",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Triumph",
+   "last_cycle_posted": "2026-01-21",
+   "approx": false,
+   "expected": "2027-01-21",
+   "days_until": 202,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Assurant",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Aptiv",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Citadel",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Analytical Mechanics Associates",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "First Canadian Title",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "SharkNinja",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Oura",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "PMG",
+   "last_cycle_posted": "2026-01-22",
+   "approx": false,
+   "expected": "2027-01-22",
+   "days_until": 203,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Western Alliance",
+   "last_cycle_posted": "2026-01-23",
+   "approx": false,
+   "expected": "2027-01-23",
+   "days_until": 204,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Caterpillar Inc.",
+   "last_cycle_posted": "2026-01-23",
+   "approx": false,
+   "expected": "2027-01-23",
+   "days_until": 204,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Rheem",
+   "last_cycle_posted": "2026-01-23",
+   "approx": false,
+   "expected": "2027-01-23",
+   "days_until": 204,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Circle K",
+   "last_cycle_posted": "2026-01-24",
+   "approx": false,
+   "expected": "2027-01-24",
+   "days_until": 205,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Dordt University",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Bio-Techne",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Fortinet",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Klaviyo",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Sparksoft",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Adtheorant",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "BambooHR",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "United Parcel Service (UPS)",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Brigham Young University - Provo",
+   "last_cycle_posted": "2026-01-26",
+   "approx": false,
+   "expected": "2027-01-26",
+   "days_until": 207,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "HARMAN International",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "HNTB",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Citizens Financial Group",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "d-Matrix",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "BillionToOne",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Calix",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Cambridge Associates",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "AskBio",
+   "last_cycle_posted": "2026-01-27",
+   "approx": false,
+   "expected": "2027-01-27",
+   "days_until": 208,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Blackberry",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Meridian Partners",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "DraftKings",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "SAS",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "LPL Financial Holdings",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Tempus",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "DigitalOcean",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Kroll",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Yes Energy",
+   "last_cycle_posted": "2026-01-28",
+   "approx": false,
+   "expected": "2027-01-28",
+   "days_until": 209,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Expedia Group",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 13
+  },
+  {
+   "company": "Nissan Global",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Blockchain.com",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Cooper Standard",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "EQ Bank",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Equifax",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Mastercard",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Ironclad",
+   "last_cycle_posted": "2026-01-29",
+   "approx": false,
+   "expected": "2027-01-29",
+   "days_until": 210,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Fidelity Investments",
+   "last_cycle_posted": "2026-01-30",
+   "approx": false,
+   "expected": "2027-01-30",
+   "days_until": 211,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 23
+  },
+  {
+   "company": "Proofpoint",
+   "last_cycle_posted": "2026-01-30",
+   "approx": false,
+   "expected": "2027-01-30",
+   "days_until": 211,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 15
+  },
+  {
+   "company": "Jonas Software",
+   "last_cycle_posted": "2026-01-30",
+   "approx": false,
+   "expected": "2027-01-30",
+   "days_until": 211,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Magnet Forensics",
+   "last_cycle_posted": "2026-01-30",
+   "approx": false,
+   "expected": "2027-01-30",
+   "days_until": 211,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Flexera",
+   "last_cycle_posted": "2026-01-30",
+   "approx": false,
+   "expected": "2027-01-30",
+   "days_until": 211,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Harvey",
+   "last_cycle_posted": "2026-01-30",
+   "approx": false,
+   "expected": "2027-01-30",
+   "days_until": 211,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "1Password",
+   "last_cycle_posted": "2026-01-31",
+   "approx": false,
+   "expected": "2027-01-31",
+   "days_until": 212,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 18
+  },
+  {
+   "company": "Alo Yoga",
+   "last_cycle_posted": "2026-01-31",
+   "approx": false,
+   "expected": "2027-01-31",
+   "days_until": 212,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "General Dynamics Information Technology",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 26
+  },
+  {
+   "company": "Resmed",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 17
+  },
+  {
+   "company": "Teledyne",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Apptronik",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "G-Research",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Merck",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Strategic Education",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Breeze Airways",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "MFS",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Blue Cross and Blue Shield of Minnesota",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Gametime",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Greenheck Group",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Stoke Space",
+   "last_cycle_posted": "2026-02-02",
+   "approx": false,
+   "expected": "2027-02-02",
+   "days_until": 214,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "The Home Depot",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Guidewire",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Werfen",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Cresta",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "ASM Global",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "AspenTech",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Relay",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Confluent",
+   "last_cycle_posted": "2026-02-03",
+   "approx": false,
+   "expected": "2027-02-03",
+   "days_until": 215,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Interdigital",
+   "last_cycle_posted": "2026-02-04",
+   "approx": false,
+   "expected": "2027-02-04",
+   "days_until": 216,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "McGill University",
+   "last_cycle_posted": "2026-02-04",
+   "approx": false,
+   "expected": "2027-02-04",
+   "days_until": 216,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Jain Global",
+   "last_cycle_posted": "2026-02-04",
+   "approx": false,
+   "expected": "2027-02-04",
+   "days_until": 216,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Canadian Tire",
+   "last_cycle_posted": "2026-02-04",
+   "approx": false,
+   "expected": "2027-02-04",
+   "days_until": 216,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Gen",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Citadel Securities",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "EBSCO",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Itron",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Brunswick",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Apex",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Biogen",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Iron Mountain",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "PrizePicks",
+   "last_cycle_posted": "2026-02-05",
+   "approx": false,
+   "expected": "2027-02-05",
+   "days_until": 217,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Healthfirst",
+   "last_cycle_posted": "2026-02-06",
+   "approx": false,
+   "expected": "2027-02-06",
+   "days_until": 218,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Impinj",
+   "last_cycle_posted": "2026-02-06",
+   "approx": false,
+   "expected": "2027-02-06",
+   "days_until": 218,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Pluralsight",
+   "last_cycle_posted": "2026-02-06",
+   "approx": false,
+   "expected": "2027-02-06",
+   "days_until": 218,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Voyager Technologies",
+   "last_cycle_posted": "2026-02-07",
+   "approx": false,
+   "expected": "2027-02-07",
+   "days_until": 219,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Prairie View A&M University",
+   "last_cycle_posted": "2026-02-09",
+   "approx": false,
+   "expected": "2027-02-09",
+   "days_until": 221,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Prolaio",
+   "last_cycle_posted": "2026-02-09",
+   "approx": false,
+   "expected": "2027-02-09",
+   "days_until": 221,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Seaspan",
+   "last_cycle_posted": "2026-02-09",
+   "approx": false,
+   "expected": "2027-02-09",
+   "days_until": 221,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Twilio",
+   "last_cycle_posted": "2026-02-09",
+   "approx": false,
+   "expected": "2027-02-09",
+   "days_until": 221,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "AAA Club Alliance",
+   "last_cycle_posted": "2026-02-10",
+   "approx": false,
+   "expected": "2027-02-10",
+   "days_until": 222,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "Handshake",
+   "last_cycle_posted": "2026-02-10",
+   "approx": false,
+   "expected": "2027-02-10",
+   "days_until": 222,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "True Anomaly",
+   "last_cycle_posted": "2026-02-10",
+   "approx": false,
+   "expected": "2027-02-10",
+   "days_until": 222,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Salesforce",
+   "last_cycle_posted": "2026-02-11",
+   "approx": false,
+   "expected": "2027-02-11",
+   "days_until": 223,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 18
+  },
+  {
+   "company": "PG&E",
+   "last_cycle_posted": "2026-02-11",
+   "approx": false,
+   "expected": "2027-02-11",
+   "days_until": 223,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Fresenius Medical Care",
+   "last_cycle_posted": "2026-02-11",
+   "approx": false,
+   "expected": "2027-02-11",
+   "days_until": 223,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Akima",
+   "last_cycle_posted": "2026-02-11",
+   "approx": false,
+   "expected": "2027-02-11",
+   "days_until": 223,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Ensemble Health Partners",
+   "last_cycle_posted": "2026-02-11",
+   "approx": false,
+   "expected": "2027-02-11",
+   "days_until": 223,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "CFD Research Corporation",
+   "last_cycle_posted": "2026-02-11",
+   "approx": false,
+   "expected": "2027-02-11",
+   "days_until": 223,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Robert Half",
+   "last_cycle_posted": "2026-02-12",
+   "approx": false,
+   "expected": "2027-02-12",
+   "days_until": 224,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Fanatics",
+   "last_cycle_posted": "2026-02-12",
+   "approx": false,
+   "expected": "2027-02-12",
+   "days_until": 224,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Mentis AI",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 19
+  },
+  {
+   "company": "HERE Technologies",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 16
+  },
+  {
+   "company": "Applied Intuition",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "EquipmentShare",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Gelber Group",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Medra",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SMX",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Strata Decision Technology",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "WhatNot",
+   "last_cycle_posted": "2026-02-13",
+   "approx": false,
+   "expected": "2027-02-13",
+   "days_until": 225,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Ensora Health",
+   "last_cycle_posted": "2026-02-16",
+   "approx": false,
+   "expected": "2027-02-16",
+   "days_until": 228,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Deluxe",
+   "last_cycle_posted": "2026-02-16",
+   "approx": false,
+   "expected": "2027-02-16",
+   "days_until": 228,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Fresenius Kabi",
+   "last_cycle_posted": "2026-02-16",
+   "approx": false,
+   "expected": "2027-02-16",
+   "days_until": 228,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SWBC",
+   "last_cycle_posted": "2026-02-17",
+   "approx": false,
+   "expected": "2027-02-17",
+   "days_until": 229,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Bree",
+   "last_cycle_posted": "2026-02-17",
+   "approx": false,
+   "expected": "2027-02-17",
+   "days_until": 229,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Edwards Lifesciences",
+   "last_cycle_posted": "2026-02-17",
+   "approx": false,
+   "expected": "2027-02-17",
+   "days_until": 229,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Masco",
+   "last_cycle_posted": "2026-02-17",
+   "approx": false,
+   "expected": "2027-02-17",
+   "days_until": 229,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Sartorius",
+   "last_cycle_posted": "2026-02-17",
+   "approx": false,
+   "expected": "2027-02-17",
+   "days_until": 229,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Hudson River Trading",
+   "last_cycle_posted": "2026-02-17",
+   "approx": false,
+   "expected": "2027-02-17",
+   "days_until": 229,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Vantage Data Centers",
+   "last_cycle_posted": "2026-02-17",
+   "approx": false,
+   "expected": "2027-02-17",
+   "days_until": 229,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "X Development",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 15
+  },
+  {
+   "company": "F5",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Harris Computer",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Primetals Technologies",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "First American",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Cisive",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Intermountain Healthcare",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "3S Business Corporation",
+   "last_cycle_posted": "2026-02-18",
+   "approx": false,
+   "expected": "2027-02-18",
+   "days_until": 230,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "WSP",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Blue Origin",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Atria Group",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Cleveland Clinic",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Stewart",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Akamai Technologies",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Critical Mass",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "doTERRA",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Kensington",
+   "last_cycle_posted": "2026-02-19",
+   "approx": false,
+   "expected": "2027-02-19",
+   "days_until": 231,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Tatari",
+   "last_cycle_posted": "2026-02-20",
+   "approx": false,
+   "expected": "2027-02-20",
+   "days_until": 232,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "OCLC",
+   "last_cycle_posted": "2026-02-20",
+   "approx": false,
+   "expected": "2027-02-20",
+   "days_until": 232,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "GE Healthcare",
+   "last_cycle_posted": "2026-02-20",
+   "approx": false,
+   "expected": "2027-02-20",
+   "days_until": 232,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Boston Dynamics",
+   "last_cycle_posted": "2026-02-20",
+   "approx": false,
+   "expected": "2027-02-20",
+   "days_until": 232,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "NICE",
+   "last_cycle_posted": "2026-02-20",
+   "approx": false,
+   "expected": "2027-02-20",
+   "days_until": 232,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Eikon Therapeutics",
+   "last_cycle_posted": "2026-02-20",
+   "approx": false,
+   "expected": "2027-02-20",
+   "days_until": 232,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Credit Acceptance Careers",
+   "last_cycle_posted": "2026-02-20",
+   "approx": false,
+   "expected": "2027-02-20",
+   "days_until": 232,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "IMC Trading",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "posted",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "BeOne",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Elsevier",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "ACI Worldwide",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "RELX",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Citco",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Multiply Labs",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Vercel",
+   "last_cycle_posted": "2026-02-23",
+   "approx": false,
+   "expected": "2027-02-23",
+   "days_until": 235,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Legal & General",
+   "last_cycle_posted": "2026-02-24",
+   "approx": false,
+   "expected": "2027-02-24",
+   "days_until": 236,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Kanshe Infotech",
+   "last_cycle_posted": "2026-02-24",
+   "approx": false,
+   "expected": "2027-02-24",
+   "days_until": 236,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "InfiniteQuant",
+   "last_cycle_posted": "2026-02-24",
+   "approx": false,
+   "expected": "2027-02-24",
+   "days_until": 236,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Nidec",
+   "last_cycle_posted": "2026-02-24",
+   "approx": false,
+   "expected": "2027-02-24",
+   "days_until": 236,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Brex",
+   "last_cycle_posted": "2026-02-24",
+   "approx": false,
+   "expected": "2027-02-24",
+   "days_until": 236,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Inogen",
+   "last_cycle_posted": "2026-02-25",
+   "approx": false,
+   "expected": "2027-02-25",
+   "days_until": 237,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "ZoomInfo",
+   "last_cycle_posted": "2026-02-25",
+   "approx": false,
+   "expected": "2027-02-25",
+   "days_until": 237,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Northwestern Mutual",
+   "last_cycle_posted": "2026-02-25",
+   "approx": false,
+   "expected": "2027-02-25",
+   "days_until": 237,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Cambridge Mobile Telematics",
+   "last_cycle_posted": "2026-02-26",
+   "approx": false,
+   "expected": "2027-02-26",
+   "days_until": 238,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Geisinger",
+   "last_cycle_posted": "2026-02-26",
+   "approx": false,
+   "expected": "2027-02-26",
+   "days_until": 238,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Sajix",
+   "last_cycle_posted": "2026-02-26",
+   "approx": false,
+   "expected": "2027-02-26",
+   "days_until": 238,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Sonatus",
+   "last_cycle_posted": "2026-02-26",
+   "approx": false,
+   "expected": "2027-02-26",
+   "days_until": 238,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Pearson",
+   "last_cycle_posted": "2026-02-26",
+   "approx": false,
+   "expected": "2027-02-26",
+   "days_until": 238,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "KION Group",
+   "last_cycle_posted": "2026-02-27",
+   "approx": false,
+   "expected": "2027-02-27",
+   "days_until": 239,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 18
+  },
+  {
+   "company": "Cypress Creek Renewables",
+   "last_cycle_posted": "2026-02-27",
+   "approx": false,
+   "expected": "2027-02-27",
+   "days_until": 239,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "USM Business Systems",
+   "last_cycle_posted": "2026-02-27",
+   "approx": false,
+   "expected": "2027-02-27",
+   "days_until": 239,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Global Relay",
+   "last_cycle_posted": "2026-02-27",
+   "approx": false,
+   "expected": "2027-02-27",
+   "days_until": 239,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Leonardo",
+   "last_cycle_posted": "2026-03-03",
+   "approx": false,
+   "expected": "2027-03-03",
+   "days_until": 243,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Socure",
+   "last_cycle_posted": "2026-03-03",
+   "approx": false,
+   "expected": "2027-03-03",
+   "days_until": 243,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Sargent & Lundy",
+   "last_cycle_posted": "2026-03-03",
+   "approx": false,
+   "expected": "2027-03-03",
+   "days_until": 243,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Toshiba Global Commerce",
+   "last_cycle_posted": "2026-03-03",
+   "approx": false,
+   "expected": "2027-03-03",
+   "days_until": 243,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Live Nation Entertainment",
+   "last_cycle_posted": "2026-03-04",
+   "approx": false,
+   "expected": "2027-03-04",
+   "days_until": 244,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Magna International",
+   "last_cycle_posted": "2026-03-04",
+   "approx": false,
+   "expected": "2027-03-04",
+   "days_until": 244,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "LSEG",
+   "last_cycle_posted": "2026-03-04",
+   "approx": false,
+   "expected": "2027-03-04",
+   "days_until": 244,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "MassMutual Ascend",
+   "last_cycle_posted": "2026-03-04",
+   "approx": false,
+   "expected": "2027-03-04",
+   "days_until": 244,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Nio",
+   "last_cycle_posted": "2026-03-04",
+   "approx": false,
+   "expected": "2027-03-04",
+   "days_until": 244,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Scout Motors",
+   "last_cycle_posted": "2026-03-04",
+   "approx": false,
+   "expected": "2027-03-04",
+   "days_until": 244,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Avnet",
+   "last_cycle_posted": "2026-03-05",
+   "approx": false,
+   "expected": "2027-03-05",
+   "days_until": 245,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "CWAN",
+   "last_cycle_posted": "2026-03-05",
+   "approx": false,
+   "expected": "2027-03-05",
+   "days_until": 245,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Sunwater Capital",
+   "last_cycle_posted": "2026-03-05",
+   "approx": false,
+   "expected": "2027-03-05",
+   "days_until": 245,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "University of Chicago",
+   "last_cycle_posted": "2026-03-05",
+   "approx": false,
+   "expected": "2027-03-05",
+   "days_until": 245,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Precisely",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Hermeus",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Mass General Brigham",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "AtkinsRéalis",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "iPipeline",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Stantec",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Zayo",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Accuray",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Tilde Research",
+   "last_cycle_posted": "2026-03-06",
+   "approx": false,
+   "expected": "2027-03-06",
+   "days_until": 246,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Centerfield",
+   "last_cycle_posted": "2026-03-07",
+   "approx": false,
+   "expected": "2027-03-07",
+   "days_until": 247,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "AssetWorks",
+   "last_cycle_posted": "2026-03-09",
+   "approx": false,
+   "expected": "2027-03-09",
+   "days_until": 249,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "zaimler",
+   "last_cycle_posted": "2026-03-09",
+   "approx": false,
+   "expected": "2027-03-09",
+   "days_until": 249,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Ensono",
+   "last_cycle_posted": "2026-03-10",
+   "approx": false,
+   "expected": "2027-03-10",
+   "days_until": 250,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Cambium Learning Group",
+   "last_cycle_posted": "2026-03-10",
+   "approx": false,
+   "expected": "2027-03-10",
+   "days_until": 250,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Solink",
+   "last_cycle_posted": "2026-03-10",
+   "approx": false,
+   "expected": "2027-03-10",
+   "days_until": 250,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Hayden AI",
+   "last_cycle_posted": "2026-03-10",
+   "approx": false,
+   "expected": "2027-03-10",
+   "days_until": 250,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Centific",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 14
+  },
+  {
+   "company": "Vanguard",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Savannah River National Laboratory",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Sony Pictures Entertainment",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Armada",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Dollar Tree",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "EisnerAmper",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Monolithic Power Systems",
+   "last_cycle_posted": "2026-03-11",
+   "approx": false,
+   "expected": "2027-03-11",
+   "days_until": 251,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Planet",
+   "last_cycle_posted": "2026-03-12",
+   "approx": false,
+   "expected": "2027-03-12",
+   "days_until": 252,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Nightwing Intelligence Solutions",
+   "last_cycle_posted": "2026-03-12",
+   "approx": false,
+   "expected": "2027-03-12",
+   "days_until": 252,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Premera Blue Cross",
+   "last_cycle_posted": "2026-03-13",
+   "approx": false,
+   "expected": "2027-03-13",
+   "days_until": 253,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "GoodRx",
+   "last_cycle_posted": "2026-03-13",
+   "approx": false,
+   "expected": "2027-03-13",
+   "days_until": 253,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Pennsylvania State University",
+   "last_cycle_posted": "2026-03-14",
+   "approx": false,
+   "expected": "2027-03-14",
+   "days_until": 254,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 58
+  },
+  {
+   "company": "Nextech Systems",
+   "last_cycle_posted": "2026-03-14",
+   "approx": false,
+   "expected": "2027-03-14",
+   "days_until": 254,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Solidigm",
+   "last_cycle_posted": "2026-03-14",
+   "approx": false,
+   "expected": "2027-03-14",
+   "days_until": 254,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Bio-Rad Laboratories",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Ingram Micro",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Canon",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Riverside Research",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "ABC Fitness",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "EverCommerce",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Gamechanger",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Jackson",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Judi Health",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Signet Jewelers",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Starz",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "State of Nebraska",
+   "last_cycle_posted": "2026-03-16",
+   "approx": false,
+   "expected": "2027-03-16",
+   "days_until": 256,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "University of Texas at Austin",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Ryder System",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Baxter International",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Nasuni",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Snyk",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Torch Technologies",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Digs",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Horace Mann",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "The Trade Desk",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Cockroach Labs",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Vantage",
+   "last_cycle_posted": "2026-03-17",
+   "approx": false,
+   "expected": "2027-03-17",
+   "days_until": 257,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "The Campbell's Company",
+   "last_cycle_posted": "2026-03-18",
+   "approx": false,
+   "expected": "2027-03-18",
+   "days_until": 258,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "University of Arkansas",
+   "last_cycle_posted": "2026-03-18",
+   "approx": false,
+   "expected": "2027-03-18",
+   "days_until": 258,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Hiscox",
+   "last_cycle_posted": "2026-03-18",
+   "approx": false,
+   "expected": "2027-03-18",
+   "days_until": 258,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Loblaw Companies",
+   "last_cycle_posted": "2026-03-18",
+   "approx": false,
+   "expected": "2027-03-18",
+   "days_until": 258,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Cooper Companies",
+   "last_cycle_posted": "2026-03-19",
+   "approx": false,
+   "expected": "2027-03-19",
+   "days_until": 259,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Rakuten Advertising",
+   "last_cycle_posted": "2026-03-19",
+   "approx": false,
+   "expected": "2027-03-19",
+   "days_until": 259,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Revvity",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "Blue Cross Blue Shield",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Rolls-Royce Motorcars",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Impiricus",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Age of Learning",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "DriveWealth",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "TNS",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Bloomberg Philanthropies",
+   "last_cycle_posted": "2026-03-20",
+   "approx": false,
+   "expected": "2027-03-20",
+   "days_until": 260,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "MSX International",
+   "last_cycle_posted": "2026-03-23",
+   "approx": false,
+   "expected": "2027-03-23",
+   "days_until": 263,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Norfolk Southern",
+   "last_cycle_posted": "2026-03-23",
+   "approx": false,
+   "expected": "2027-03-23",
+   "days_until": 263,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SitusAMC",
+   "last_cycle_posted": "2026-03-25",
+   "approx": false,
+   "expected": "2027-03-25",
+   "days_until": 265,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Scale AI",
+   "last_cycle_posted": "2026-03-25",
+   "approx": false,
+   "expected": "2027-03-25",
+   "days_until": 265,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Boston Medical Center",
+   "last_cycle_posted": "2026-03-26",
+   "approx": false,
+   "expected": "2027-03-26",
+   "days_until": 266,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "VaynerMedia",
+   "last_cycle_posted": "2026-03-26",
+   "approx": false,
+   "expected": "2027-03-26",
+   "days_until": 266,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "American University",
+   "last_cycle_posted": "2026-03-27",
+   "approx": false,
+   "expected": "2027-03-27",
+   "days_until": 267,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "City of Baltimore",
+   "last_cycle_posted": "2026-03-27",
+   "approx": false,
+   "expected": "2027-03-27",
+   "days_until": 267,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Halliburton",
+   "last_cycle_posted": "2026-03-30",
+   "approx": false,
+   "expected": "2027-03-30",
+   "days_until": 270,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SentinelOne",
+   "last_cycle_posted": "2026-03-30",
+   "approx": false,
+   "expected": "2027-03-30",
+   "days_until": 270,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Hello Fresh",
+   "last_cycle_posted": "2026-03-31",
+   "approx": false,
+   "expected": "2027-03-31",
+   "days_until": 271,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Primerica",
+   "last_cycle_posted": "2026-03-31",
+   "approx": false,
+   "expected": "2027-03-31",
+   "days_until": 271,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Octopus Energy",
+   "last_cycle_posted": "2026-04-01",
+   "approx": false,
+   "expected": "2027-04-01",
+   "days_until": 272,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Bot Auto",
+   "last_cycle_posted": "2026-04-01",
+   "approx": false,
+   "expected": "2027-04-01",
+   "days_until": 272,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Gordon Food Service",
+   "last_cycle_posted": "2026-04-01",
+   "approx": false,
+   "expected": "2027-04-01",
+   "days_until": 272,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Reply",
+   "last_cycle_posted": "2026-04-01",
+   "approx": false,
+   "expected": "2027-04-01",
+   "days_until": 272,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "RoboForce",
+   "last_cycle_posted": "2026-04-01",
+   "approx": false,
+   "expected": "2027-04-01",
+   "days_until": 272,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Tandem Diabetes Care",
+   "last_cycle_posted": "2026-04-02",
+   "approx": false,
+   "expected": "2027-04-02",
+   "days_until": 273,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Sentry",
+   "last_cycle_posted": "2026-04-02",
+   "approx": false,
+   "expected": "2027-04-02",
+   "days_until": 273,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 2
+  },
+  {
+   "company": "Actian",
+   "last_cycle_posted": "2026-04-03",
+   "approx": false,
+   "expected": "2027-04-03",
+   "days_until": 274,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 9
+  },
+  {
+   "company": "Onto Innovation",
+   "last_cycle_posted": "2026-04-03",
+   "approx": false,
+   "expected": "2027-04-03",
+   "days_until": 274,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "AvePoint",
+   "last_cycle_posted": "2026-04-03",
+   "approx": false,
+   "expected": "2027-04-03",
+   "days_until": 274,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Acxiom",
+   "last_cycle_posted": "2026-04-06",
+   "approx": false,
+   "expected": "2027-04-06",
+   "days_until": 277,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "EarnIn",
+   "last_cycle_posted": "2026-04-06",
+   "approx": false,
+   "expected": "2027-04-06",
+   "days_until": 277,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "RA Capital Management",
+   "last_cycle_posted": "2026-04-06",
+   "approx": false,
+   "expected": "2027-04-06",
+   "days_until": 277,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Cerence",
+   "last_cycle_posted": "2026-04-07",
+   "approx": false,
+   "expected": "2027-04-07",
+   "days_until": 278,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "iSpot.tv",
+   "last_cycle_posted": "2026-04-08",
+   "approx": false,
+   "expected": "2027-04-08",
+   "days_until": 279,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Dover",
+   "last_cycle_posted": "2026-04-09",
+   "approx": false,
+   "expected": "2027-04-09",
+   "days_until": 280,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 10
+  },
+  {
+   "company": "Chamberlain Group",
+   "last_cycle_posted": "2026-04-10",
+   "approx": false,
+   "expected": "2027-04-10",
+   "days_until": 281,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Hyundai Motor Company",
+   "last_cycle_posted": "2026-04-13",
+   "approx": false,
+   "expected": "2027-04-13",
+   "days_until": 284,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "BlueScope",
+   "last_cycle_posted": "2026-04-13",
+   "approx": false,
+   "expected": "2027-04-13",
+   "days_until": 284,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "EyeSouth Partners",
+   "last_cycle_posted": "2026-04-13",
+   "approx": false,
+   "expected": "2027-04-13",
+   "days_until": 284,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "The Boyd Group",
+   "last_cycle_posted": "2026-04-13",
+   "approx": false,
+   "expected": "2027-04-13",
+   "days_until": 284,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Imerys",
+   "last_cycle_posted": "2026-04-14",
+   "approx": false,
+   "expected": "2027-04-14",
+   "days_until": 285,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Equinix",
+   "last_cycle_posted": "2026-04-15",
+   "approx": false,
+   "expected": "2027-04-15",
+   "days_until": 286,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Louisiana State University (LSU)",
+   "last_cycle_posted": "2026-04-23",
+   "approx": false,
+   "expected": "2027-04-23",
+   "days_until": 294,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "IEM",
+   "last_cycle_posted": "2026-04-23",
+   "approx": false,
+   "expected": "2027-04-23",
+   "days_until": 294,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "United Wholesale Mortgage",
+   "last_cycle_posted": "2026-04-23",
+   "approx": false,
+   "expected": "2027-04-23",
+   "days_until": 294,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Revantage Corporate Services",
+   "last_cycle_posted": "2026-04-23",
+   "approx": false,
+   "expected": "2027-04-23",
+   "days_until": 294,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "EPRI",
+   "last_cycle_posted": "2026-04-24",
+   "approx": false,
+   "expected": "2027-04-24",
+   "days_until": 295,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Cerebras",
+   "last_cycle_posted": "2026-04-24",
+   "approx": false,
+   "expected": "2027-04-24",
+   "days_until": 295,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "AI Fund",
+   "last_cycle_posted": "2026-04-27",
+   "approx": false,
+   "expected": "2027-04-27",
+   "days_until": 298,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Homebase",
+   "last_cycle_posted": "2026-04-27",
+   "approx": false,
+   "expected": "2027-04-27",
+   "days_until": 298,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SOTI",
+   "last_cycle_posted": "2026-04-28",
+   "approx": false,
+   "expected": "2027-04-28",
+   "days_until": 299,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Integra FEC",
+   "last_cycle_posted": "2026-04-28",
+   "approx": false,
+   "expected": "2027-04-28",
+   "days_until": 299,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Quadric",
+   "last_cycle_posted": "2026-04-28",
+   "approx": false,
+   "expected": "2027-04-28",
+   "days_until": 299,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "OMERS",
+   "last_cycle_posted": "2026-04-30",
+   "approx": false,
+   "expected": "2027-04-30",
+   "days_until": 301,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Vanasse Hangen Brustlin (VHB)",
+   "last_cycle_posted": "2026-04-30",
+   "approx": false,
+   "expected": "2027-04-30",
+   "days_until": 301,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "DoorDash",
+   "last_cycle_posted": "2026-04-30",
+   "approx": false,
+   "expected": "2027-04-30",
+   "days_until": 301,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "SCAN",
+   "last_cycle_posted": "2026-05-05",
+   "approx": false,
+   "expected": "2027-05-05",
+   "days_until": 306,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Apple",
+   "last_cycle_posted": "2026-05-06",
+   "approx": false,
+   "expected": "2027-05-06",
+   "days_until": 307,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 12
+  },
+  {
+   "company": "Super",
+   "last_cycle_posted": "2026-05-11",
+   "approx": false,
+   "expected": "2027-05-11",
+   "days_until": 312,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 7
+  },
+  {
+   "company": "Databricks",
+   "last_cycle_posted": "2026-05-15",
+   "approx": false,
+   "expected": "2027-05-15",
+   "days_until": 316,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Zillow",
+   "last_cycle_posted": "2026-05-16",
+   "approx": false,
+   "expected": "2027-05-16",
+   "days_until": 317,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Ancestry",
+   "last_cycle_posted": "2026-05-16",
+   "approx": false,
+   "expected": "2027-05-16",
+   "days_until": 317,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Xsolla",
+   "last_cycle_posted": "2026-05-18",
+   "approx": false,
+   "expected": "2027-05-18",
+   "days_until": 319,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "PlusAI",
+   "last_cycle_posted": "2026-05-19",
+   "approx": false,
+   "expected": "2027-05-19",
+   "days_until": 320,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 16
+  },
+  {
+   "company": "Lila Sciences",
+   "last_cycle_posted": "2026-05-19",
+   "approx": false,
+   "expected": "2027-05-19",
+   "days_until": 320,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Harvard University",
+   "last_cycle_posted": "2026-05-19",
+   "approx": false,
+   "expected": "2027-05-19",
+   "days_until": 320,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Melotech",
+   "last_cycle_posted": "2026-05-19",
+   "approx": false,
+   "expected": "2027-05-19",
+   "days_until": 320,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Photon",
+   "last_cycle_posted": "2026-05-19",
+   "approx": false,
+   "expected": "2027-05-19",
+   "days_until": 320,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "LiveRamp",
+   "last_cycle_posted": "2026-05-20",
+   "approx": false,
+   "expected": "2027-05-20",
+   "days_until": 321,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Etched",
+   "last_cycle_posted": "2026-05-20",
+   "approx": false,
+   "expected": "2027-05-20",
+   "days_until": 321,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Phamily",
+   "last_cycle_posted": "2026-05-20",
+   "approx": false,
+   "expected": "2027-05-20",
+   "days_until": 321,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Celonis",
+   "last_cycle_posted": "2026-05-20",
+   "approx": false,
+   "expected": "2027-05-20",
+   "days_until": 321,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Coupang",
+   "last_cycle_posted": "2026-05-21",
+   "approx": false,
+   "expected": "2027-05-21",
+   "days_until": 322,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Kudu Dynamics",
+   "last_cycle_posted": "2026-05-22",
+   "approx": false,
+   "expected": "2027-05-22",
+   "days_until": 323,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "SHEIN",
+   "last_cycle_posted": "2026-05-23",
+   "approx": false,
+   "expected": "2027-05-23",
+   "days_until": 324,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Nationwide Children's Hospital",
+   "last_cycle_posted": "2026-05-26",
+   "approx": false,
+   "expected": "2027-05-26",
+   "days_until": 327,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Meshy",
+   "last_cycle_posted": "2026-05-27",
+   "approx": false,
+   "expected": "2027-05-27",
+   "days_until": 328,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "University System of New Hampshire",
+   "last_cycle_posted": "2026-05-30",
+   "approx": false,
+   "expected": "2027-05-30",
+   "days_until": 331,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 6
+  },
+  {
+   "company": "Magnite",
+   "last_cycle_posted": "2026-06-02",
+   "approx": false,
+   "expected": "2027-06-02",
+   "days_until": 334,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  },
+  {
+   "company": "Cohere Health",
+   "last_cycle_posted": "2026-06-05",
+   "approx": false,
+   "expected": "2027-06-05",
+   "days_until": 337,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Bank of America",
+   "last_cycle_posted": "2026-06-08",
+   "approx": false,
+   "expected": "2027-06-08",
+   "days_until": 340,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Worcester Polytechnic Institute",
+   "last_cycle_posted": "2026-06-08",
+   "approx": false,
+   "expected": "2027-06-08",
+   "days_until": 340,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 3
+  },
+  {
+   "company": "Walleye Capital",
+   "last_cycle_posted": "2026-06-10",
+   "approx": false,
+   "expected": "2027-06-10",
+   "days_until": 342,
+   "status": "posted",
+   "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
+   "roles_last_cycle": 8
+  },
+  {
+   "company": "Pebl",
+   "last_cycle_posted": "2026-06-11",
+   "approx": false,
+   "expected": "2027-06-11",
+   "days_until": 343,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 5
+  },
+  {
+   "company": "Palo Alto Networks",
+   "last_cycle_posted": "2026-07-01",
+   "approx": false,
+   "expected": "2027-07-01",
+   "days_until": 363,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 11
+  },
+  {
+   "company": "NOX METALS",
+   "last_cycle_posted": "2026-07-01",
+   "approx": false,
+   "expected": "2027-07-01",
+   "days_until": 363,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 1
+  },
+  {
+   "company": "Travelers",
+   "last_cycle_posted": "2026-07-03",
+   "approx": false,
+   "expected": "2027-07-03",
+   "days_until": 365,
+   "status": "waiting",
+   "url": "",
+   "roles_last_cycle": 4
+  }
+ ],
+ "count": 867
+}

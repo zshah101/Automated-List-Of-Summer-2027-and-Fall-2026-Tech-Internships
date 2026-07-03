@@ -22,6 +22,7 @@ HEALTH_PATH = os.path.join(DATA_DIR, "health.json")          # circuit-breaker s
 HISTORY_PATH = os.path.join(DATA_DIR, "history.jsonl")       # one line of metrics per run
 H1B_PATH = os.path.join(DATA_DIR, "h1b.json")                # USCIS employer -> approvals index
 MAIL_STATE_PATH = os.path.join(DATA_DIR, "mail_state.json")  # when the last digest went out
+SEASONS_PATH = os.path.join(DATA_DIR, "seasons.json")        # last cycle's first-post date per company
 
 README_PATH = os.path.join(ROOT, "README.md")
 DOCS_DIR = os.path.join(ROOT, "docs")

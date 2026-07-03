@@ -15,7 +15,7 @@ import os
 from datetime import UTC, datetime
 from xml.sax.saxutils import escape
 
-from . import config, h1b, paths, sponsorship
+from . import config, h1b, paths, radar, sponsorship
 
 _FEED_LIMIT = 50
 
@@ -115,4 +115,15 @@ def write_api(store_data: dict, stats: dict) -> int:
         json.dump(payload, f, indent=1, ensure_ascii=False)
     with open(os.path.join(paths.API_DIR, "stats.json"), "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=1, ensure_ascii=False)
+
+    cycle = config.cycles(config.load_config())[0]
+    radar_payload = {
+        "generated_at": payload["generated_at"],
+        "cycle": cycle,
+        "source": payload["source"],
+        "companies": radar.rows(store_data, cycle),
+    }
+    radar_payload["count"] = len(radar_payload["companies"])
+    with open(os.path.join(paths.API_DIR, "radar.json"), "w", encoding="utf-8") as f:
+        json.dump(radar_payload, f, indent=1, ensure_ascii=False)
     return len(open_jobs)

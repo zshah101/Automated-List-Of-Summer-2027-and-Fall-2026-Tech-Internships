@@ -12,7 +12,7 @@ import json
 from datetime import UTC, datetime, timedelta
 from urllib.parse import quote
 
-from . import config, filters, h1b, paths, priority, sponsorship
+from . import config, filters, h1b, paths, priority, radar, sponsorship
 
 
 def _engine_metrics() -> str:
@@ -304,6 +304,41 @@ def _new_this_week(open_jobs: list[dict]) -> int:
     return sum(1 for r in open_jobs if (r.get("first_seen_at") or "") >= cutoff)
 
 
+def _radar_section(store_data: dict, cycle: str, cap: int = 20) -> list[str]:
+    """The Drop Radar: which companies haven't posted yet, and when to expect
+    them — last cycle's first-post dates projected one year forward."""
+    rows = radar.rows(store_data, cycle)
+    if not rows:
+        return []
+    pages = config.pages_base()
+    lines = [
+        f"## 📅 Drop Radar — when companies usually post for {cycle}",
+        "",
+        "Stop refreshing career pages. This is each company's **first intern posting "
+        "last cycle**, projected forward a year — so you know who drops next. "
+        "✅ = already live in the list above.",
+        "",
+        "| Company | First posted last cycle | Expected this cycle | Status |",
+        "|---|---|---|---|",
+    ]
+    for r in rows[:cap]:
+        status = f"✅ [open now]({r['url']})" if r["status"] == "posted" and r["url"] \
+            else ("✅ open now" if r["status"] == "posted" else "⏳ waiting")
+        lines.append(
+            f"| {_md_cell(r['company'])} | {radar.pretty_last(r)} | "
+            f"{radar.pretty_expected(r)} | {status} |"
+        )
+    lines.extend([
+        "",
+        f"_{len(rows)} companies on the [full radar]({pages}/#radar). "
+        "\"by Nov 05\" = the role was already up when last cycle's reference window "
+        "opened - treat it as a latest bound. \"waiting\" means not seen in our "
+        "tracked feeds yet, not a guarantee it isn't out somewhere else._",
+        "",
+    ])
+    return lines
+
+
 def _closed_section(store_data: dict, days: int = 14, cap: int = 40) -> list[str]:
     """Roles that recently closed, kept visible (collapsed) so nobody wastes an
     application on a listing that just died."""
@@ -374,6 +409,7 @@ def generate(store_data: dict) -> dict:
         )
         lines.append("")
 
+    lines.extend(_radar_section(store_data, cycles[0]))
     lines.extend(_closed_section(store_data))
     lines.extend(_footer())
 

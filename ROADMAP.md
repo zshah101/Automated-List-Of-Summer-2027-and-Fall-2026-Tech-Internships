@@ -42,7 +42,8 @@ Difficulty: 🟢 easy · 🟡 medium · 🔴 hard
 - [ ] 🟢 Better filters — catch more real tech roles, drop more fakes (`src/intern_engine/filters.py`)
 - [ ] 🟢 Show the **salary** column in the README table (already captured in CSV/API/dashboard)
 - [ ] 🟢 Add **state / country** tags to each row
-- [x] ~~Trend charts~~ — **shipped**: postings-per-week chart on the dashboard + median posting-lifetime metric
+- [x] ~~Trend charts~~ — **shipped**: postings-per-week chart (README + dashboard) + median posting-lifetime metric
+- [x] ~~Drop Radar~~ — **shipped**: "when does each company usually post?" — last cycle's first-post dates projected onto this cycle, with live posted/waiting status
 
 ### AI features 🧠
 - [ ] 🟡 **Skill tagger** — AI reads each job and tags the skills it wants (Python, React, SQL…)

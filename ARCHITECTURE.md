@@ -56,6 +56,7 @@ public datasets + README mines          data/candidates.json (curated slugs)
 | `src/intern_engine/h1b.py` | Joins companies against the USCIS H-1B employer index (✓ badge). |
 | `src/intern_engine/enrich.py` | Fetches posting text for new matched roles; backfills exact dates. |
 | `src/intern_engine/trends.py` | Weekly posting-volume chart + median posting-lifetime metric. |
+| `src/intern_engine/radar.py` | Drop Radar: last cycle's first-post dates projected onto this cycle. |
 | `src/intern_engine/mailer.py` | Daily email digests to our own subscriber list (Brevo, opt-in). |
 | `src/intern_engine/health.py` | Circuit breaker: quarantines repeatedly-failing boards, self-heals. |
 | `src/intern_engine/harvester.py` | Probes candidate slugs across 7 ATS, merges hits into the registry. |
@@ -77,7 +78,9 @@ public datasets + README mines          data/candidates.json (curated slugs)
 | `data/health.json` | Circuit-breaker state (auditable in git like everything else). |
 | `data/history.jsonl` | One line of run metrics per run (feeds the dashboard chart). |
 | `data/h1b.json` | Compact USCIS employer→approvals index (built by `tools/build_h1b.py`). |
+| `data/seasons.json` | Last cycle's first-post date per company (built by `tools/build_seasons.py`). |
 | `tools/build_h1b.py` | Offline builder: USCIS Data Hub CSVs → `data/h1b.json` (run yearly). |
+| `tools/build_seasons.py` | Offline builder: last cycle's listing datasets → `data/seasons.json`. |
 
 ## Configuration (`data/config.json`)
 
@@ -190,6 +193,19 @@ remain exported views, so the presentation layer is decoupled from the data laye
   (`BREVO_API_KEY` + `MAIL_FROM` secrets; unset = silent no-op). Every email
   carries a one-click unsubscribe link — a per-subscriber secret token handled
   by a security-definer RPC, so `docs/unsubscribe.html` needs only public keys.
+
+## Drop Radar
+
+Every list shows what's open; the radar shows **what's coming**. Offline,
+`tools/build_seasons.py` mines last cycle's public listing datasets for each
+company's earliest SWE/DS/Quant intern posting date. At render time `radar.py`
+projects that date one year forward, checks it against the live store (has the
+company posted this cycle in our feeds?), and renders a countdown table:
+README shows the next 20, the dashboard has all ~870 searchable, and
+`docs/api/radar.json` serves the raw data. Honesty rules: dates inside the
+reference dataset's backfill window render as "by <date>" (a latest bound, not
+a drop day), and "waiting" means "not seen in our tracked feeds", never "not
+posted anywhere".
 
 ## Trends
 

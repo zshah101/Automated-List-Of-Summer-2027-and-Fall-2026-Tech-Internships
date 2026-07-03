@@ -52,7 +52,7 @@ jobs:
                   data/health.json data/history.jsonl data/mail_state.json \
                   docs/index.html docs/feed.xml docs/unsubscribe.html \
                   docs/trends-light.svg docs/trends-dark.svg \
-                  docs/api/jobs.json docs/api/stats.json
+                  docs/api/jobs.json docs/api/stats.json docs/api/radar.json
           if git diff --staged --quiet; then
             echo "No changes."
           else
