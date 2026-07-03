@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**44 open roles · 48 new this week · 3,541 companies tracked · updated Jul 03, 2026 at 18:34 UTC**
+**44 open roles · 48 new this week · 3,541 companies tracked · updated Jul 03, 2026 at 18:43 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -15,6 +15,14 @@ A self-updating engine that tracks tech internships so you don't have to. Instea
 ## What this is
 
 This is an engine, not a hand-kept list. It polls company career feeds several times a day, finds the internships, removes duplicates, and rebuilds this page on its own. Every link comes straight from the source, so it's real and current, not a stale list someone forgot to update (speed matters).
+
+## What makes this different
+
+- **📅 [Drop Radar](#drop-radar)** - the only list that shows **what's coming**: each company's expected posting window, projected from last cycle's real first-post dates.
+- **Visa intel, computed** - 🇺🇸 / 🛂 flags detected automatically from every job description, plus ✓ for employers with a real H-1B track record (official USCIS data). The big lists crowdsource this by hand; here it's code.
+- **Real posted dates on every role** - pulled from each job portal itself, so newest-first actually means newest.
+- **Alerts your way** - [email digests](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe), [RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml), or Discord - plus a [live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/) with search, filters, and an F-1 friendly toggle.
+- **An engine, not a spreadsheet** - 3,541 companies polled every 2 hours across 11 job platforms, ~100 tests, full source in this repo.
 
 ## Scope
 
@@ -28,7 +36,7 @@ I'm a US-based international student studying in the United States, so I built t
 
 ## Where this is going
 
-I'm building this in the open and adding to it as it grows. Coming soon: **SMS/email alerts** the moment a role opens, and **filtering** by role, location, and visa-sponsorship (a real one for fellow international students). If it helps you, a star means a lot and tells me to keep going.
+I'm building this in the open and adding to it as it grows. Recently shipped: **email alerts**, the **Drop Radar**, **auto-detected sponsorship flags**, and the **live dashboard**. Next up: personalized alerts (pick your categories), per-company hiring pages, and a ghost-posting detector. If it helps you, a star means a lot and tells me to keep going.
 
 ## How to use
 
@@ -95,9 +103,13 @@ I'm building this in the open and adding to it as it grows. Coming soon: **SMS/e
 | Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
+<a id="drop-radar"></a>
+
 ## 📅 Drop Radar — when companies usually post for Summer 2027
 
 Stop refreshing career pages. This is each company's **first intern posting last cycle**, projected forward a year — so you know who drops next. ✅ = already live in the list above.
+
+> **Heads up:** companies trend *earlier* every cycle — this year's first ✅s appeared months ahead of their projected dates. Treat "expected" as the **latest** point to start watching, not a promise of the drop day.
 
 | Company | First posted last cycle | Expected this cycle | Status |
 |---|---|---|---|

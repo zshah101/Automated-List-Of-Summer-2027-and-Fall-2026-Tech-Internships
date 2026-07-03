@@ -182,6 +182,22 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         "on its own. Every link comes straight from the source, so it's real and "
         "current, not a stale list someone forgot to update (speed matters).",
         "",
+        "## What makes this different",
+        "",
+        "- **📅 [Drop Radar](#drop-radar)** - "
+        "the only list that shows **what's coming**: each company's expected posting "
+        "window, projected from last cycle's real first-post dates.",
+        "- **Visa intel, computed** - 🇺🇸 / 🛂 flags detected automatically from every "
+        "job description, plus ✓ for employers with a real H-1B track record "
+        "(official USCIS data). The big lists crowdsource this by hand; here it's code.",
+        "- **Real posted dates on every role** - pulled from each job portal itself, "
+        "so newest-first actually means newest.",
+        f"- **Alerts your way** - [email digests]({pages}/#subscribe), "
+        f"[RSS]({pages}/feed.xml), or Discord - plus a [live dashboard]({pages}/) "
+        "with search, filters, and an F-1 friendly toggle.",
+        f"- **An engine, not a spreadsheet** - {companies:,} companies polled every "
+        "2 hours across 11 job platforms, ~100 tests, full source in this repo.",
+        "",
         "## Scope",
         "",
         "- **Roles:** Software Engineering, Data Science & Machine Learning "
@@ -198,10 +214,11 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         "",
         "## Where this is going",
         "",
-        "I'm building this in the open and adding to it as it grows. Coming soon: "
-        "**SMS/email alerts** the moment a role opens, and **filtering** by role, "
-        "location, and visa-sponsorship (a real one for fellow international "
-        "students). If it helps you, a star means a lot and tells me to keep going.",
+        "I'm building this in the open and adding to it as it grows. Recently "
+        "shipped: **email alerts**, the **Drop Radar**, **auto-detected sponsorship "
+        "flags**, and the **live dashboard**. Next up: personalized alerts (pick "
+        "your categories), per-company hiring pages, and a ghost-posting detector. "
+        "If it helps you, a star means a lot and tells me to keep going.",
         "",
         "## How to use",
         "",
@@ -312,11 +329,17 @@ def _radar_section(store_data: dict, cycle: str, cap: int = 20) -> list[str]:
         return []
     pages = config.pages_base()
     lines = [
+        '<a id="drop-radar"></a>',
+        "",
         f"## 📅 Drop Radar — when companies usually post for {cycle}",
         "",
         "Stop refreshing career pages. This is each company's **first intern posting "
         "last cycle**, projected forward a year — so you know who drops next. "
         "✅ = already live in the list above.",
+        "",
+        "> **Heads up:** companies trend *earlier* every cycle — this year's first "
+        "✅s appeared months ahead of their projected dates. Treat \"expected\" as "
+        "the **latest** point to start watching, not a promise of the drop day.",
         "",
         "| Company | First posted last cycle | Expected this cycle | Status |",
         "|---|---|---|---|",
