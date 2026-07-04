@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-04T03:29:52Z",
- "duration_seconds": 260.3,
+ "generated_at": "2026-07-04T06:52:00Z",
+ "duration_seconds": 184.9,
  "companies_total": 3541,
  "companies_by_source": {
   "greenhouse": 945,
@@ -15,29 +15,29 @@
   "amazon": 1,
   "breezy": 9
  },
- "quarantined": 160,
- "fetched_ok": 3380,
- "fetch_errors": 1,
+ "quarantined": 155,
+ "fetched_ok": 2197,
+ "fetch_errors": 1189,
  "errors_by_source": {
-  "workday": 1
+  "workday": 1189
  },
- "fetch_success_rate": 1.0,
- "roles_matched": 48,
+ "fetch_success_rate": 0.649,
+ "roles_matched": 37,
  "roles_by_source": {
   "ashby": 8,
-  "workday": 13,
   "amazon": 5,
   "greenhouse": 14,
   "lever": 6,
   "smartrecruiters": 1,
-  "workable": 1
+  "workable": 1,
+  "workday": 2
  },
  "roles_by_cycle": {
-  "Fall 2026": 41,
+  "Fall 2026": 30,
   "Summer 2027": 7
  },
  "roles_by_region": {
-  "US": 48
+  "US": 37
  },
  "sponsorship_counts": {
   "unknown": 33,
