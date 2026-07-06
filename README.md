@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**42 open roles · 45 new this week · 3,589 companies tracked · updated Jul 06, 2026 at 16:57 UTC**
+**42 open roles · 46 new this week · 3,589 companies tracked · updated Jul 06, 2026 at 20:05 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -66,6 +66,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| NVIDIA ✓ | Performance Engineer Intern, Systems Software-  Fall 2026 🆕 | Software | US, MO, St. Louis | Jul 06, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
 | Saronic | Enterprise Technology Intern - AI and Automation (Fall 2026) 🇺🇸 | Data & ML/AI | Austin, TX | Jul 02, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/c95c2e3a-4c67-47b0-a03d-0e0317ac11a3) |
 | NVIDIA ✓ | Applied Research Intern, NLP - Fall 2026 | Data & ML/AI | US, CA, Santa Clara | Jul 01, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) |
 | 1Password | Developer Intern, Service Development - Fall 2026 | Software | Remote (United States / Canada) | Jun 23, 2026 | [Apply](https://jobs.ashbyhq.com/1password/b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2) |
@@ -77,7 +78,6 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | 1Password | Developer Intern, Trust Platforms - Fall 2026 | Software | Remote (United States / Canada) | Jun 09, 2026 | [Apply](https://jobs.ashbyhq.com/1password/8f8774dc-e400-48b1-8100-c6840b8eaed1) |
 | NVIDIA ✓ | Quantum Research Scientist Intern - Fall 2026 | Data & ML/AI | US, CA, Remote | May 27, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244) |
 | Samsung Research America ✓ | 2026 Fall Intern, Computer Vision/AI | Data & ML/AI | 665 Clyde Avenue +3 more | May 27, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8560657002) |
-| NVIDIA ✓ | Quantum Error Correction Research Scientist Intern - Fall 2026 | Data & ML/AI | US, CA, Remote | May 21, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Quantum-Error-Correction-Research-Scientist-Intern---Fall-2026_JR2018628) |
 | Skydio ✓ | Middleware Software Engineer Intern - Fall 2026 | Software | San Mateo, California, United States | May 21, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915) |
 | Rocket Lab | Software Intern Fall 2026 🇺🇸 | Software | Albuquerque, NM | May 21, 2026 | [Apply](https://job-boards.greenhouse.io/rocketlab/jobs/7736776003) |
 | Saronic | Software Engineer Intern (Fall 2026) 🇺🇸 | Software | Austin, TX | May 18, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
@@ -166,7 +166,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,589 companies across 11 ATS platforms · 99% fetch success · completed in 244.2s · median detection latency 1871 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,589 companies across 11 ATS platforms · 95% fetch success · completed in 240.5s · median detection latency 1206 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

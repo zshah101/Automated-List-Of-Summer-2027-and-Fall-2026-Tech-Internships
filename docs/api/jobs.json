@@ -1,9 +1,24 @@
 {
- "generated_at": "2026-07-06T16:57:18Z",
+ "generated_at": "2026-07-06T20:05:51Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 45,
+ "count": 46,
  "jobs": [
+  {
+   "id": "workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
+   "company": "NVIDIA",
+   "title": "Performance Engineer Intern, Systems Software-  Fall 2026",
+   "season": "Fall 2026",
+   "category": "Software",
+   "location": "US, MO, St. Louis",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
+   "posted_at": "2026-07-06T00:00:00Z",
+   "first_seen_at": "2026-07-06T20:05:50Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "source": "workday",
+   "h1b_approvals": 851
+  },
   {
    "id": "greenhouse:towerresearchcapital:8044334",
    "company": "Tower Research Capital",
