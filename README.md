@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**42 open roles · 46 new this week · 3,541 companies tracked · updated Jul 05, 2026 at 23:08 UTC**
+**42 open roles · 45 new this week · 3,541 companies tracked · updated Jul 06, 2026 at 03:55 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -93,7 +93,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Hermeus | Software Engineering Intern (HIL) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
 | Hermeus | Software Engineering Intern (Modeling & Simulation) - Fall 2026 🇺🇸 | Software | Los Angeles, CA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
 | Notion ✓ | Software Engineer Intern (Fall 2026) | Software | San Francisco, California | Apr 06, 2026 | [Apply](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
-| SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July to December) | Data & ML/AI | Miami +5 more | Apr 02, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
+| SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July/August to December) | Data & ML/AI | Miami +8 more | Apr 02, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
 | Hermeus | Software Engineering Intern (HMI) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 01, 2026 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | Motorola ✓ | Intern - Embedded Software, System, and Test Engineer - 2026 🇺🇸 | Software | Irvine, CA | Mar 30, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372) |
 | Varda Space | Flight Software Internship - Fall 2026 🇺🇸 | Software | El Segundo, California, United States | Mar 23, 2026 | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7676465003) |
@@ -112,12 +112,12 @@ Stop refreshing career pages. This is each company's **first intern posting last
 | Company | First posted last cycle | Expected this cycle | Status |
 |---|---|---|---|
 | Rippling | Jun 07 | ~Jun 07 · any day now | ⏳ waiting |
-| Tesla | Aug 03 | ~Aug 03 · in ~29d | ⏳ waiting |
-| Notion | Aug 08 | ~Aug 08 · in ~34d | ⏳ waiting |
-| Atomic Semi | Aug 15 | ~Aug 15 · in ~41d | ⏳ waiting |
-| Datadog | Aug 18 | ~Aug 18 · in ~44d | ⏳ waiting |
-| Shopify | Aug 19 | ~Aug 19 · in ~45d | ⏳ waiting |
-| Capital One | Aug 20 | ~Aug 20 | ⏳ waiting |
+| Tesla | Aug 03 | ~Aug 03 · in ~28d | ⏳ waiting |
+| Notion | Aug 08 | ~Aug 08 · in ~33d | ⏳ waiting |
+| Atomic Semi | Aug 15 | ~Aug 15 · in ~40d | ⏳ waiting |
+| Datadog | Aug 18 | ~Aug 18 · in ~43d | ⏳ waiting |
+| Shopify | Aug 19 | ~Aug 19 · in ~44d | ⏳ waiting |
+| Capital One | Aug 20 | ~Aug 20 · in ~45d | ⏳ waiting |
 | NVIDIA | Aug 24 | ~Aug 24 | ⏳ waiting |
 | Pinterest | Sep 24 | ~Sep 24 | ⏳ waiting |
 | Amazon | Oct 04 | ~Oct 04 | ⏳ waiting |
@@ -135,10 +135,11 @@ Stop refreshing career pages. This is each company's **first intern posting last
 _867 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). "by Nov 05" = the role was already up when last cycle's reference window opened - treat it as a latest bound. "waiting" means not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 8 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 9 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Amazon | Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more) | Fall 2026 | 2026-07-06 |
 | TD Bank | 2026 Fall Co-op - Global Technology Solutions - Cyber Security | Fall 2026 | 2026-07-05 |
 | TD Bank | 2026 Fall Co-op - Global Technology Solutions - Data Engineer | Fall 2026 | 2026-07-05 |
 | TD Bank | 2026 Fall Co-op - Global Technology Solutions - Software Engineer (SWE) | Fall 2026 | 2026-07-05 |
@@ -165,7 +166,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,541 companies across 11 ATS platforms · 96% fetch success · completed in 258.5s · median detection latency 1871 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,541 companies across 11 ATS platforms · 97% fetch success · completed in 251.4s · median detection latency 1871 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

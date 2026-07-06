@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-05T23:08:17Z</updated>
+  <updated>2026-07-06T03:55:08Z</updated>
   <entry>
     <id>urn:intern-engine:greenhouse:towerresearchcapital:8044334</id>
     <title>Tower Research Capital: Quantitative Developer Intern - Summer 2027</title>
@@ -109,14 +109,6 @@
     <updated>2026-06-30T17:50:48Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Seattle, Washington, USA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:3104589</id>
-    <title>Amazon: Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more)</title>
-    <link href="https://www.amazon.jobs/en/jobs/3104589/robotics-applied-scientist-ii-intern-co-op-2026-robotics-manipulation-perception-motion-planning-autonomous-mobile-robots-computer-vision-machine-learning-controls-and-more"/>
-    <updated>2026-06-30T17:50:48Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · North Reading, Massachusetts, USA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:3116030</id>
@@ -280,11 +272,11 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:sharkninjaoperatingllc:4669676006</id>
-    <title>SharkNinja: Fall 2026: SharkByte Applied AI &amp; Analytics Co-op (July to December)</title>
+    <title>SharkNinja: Fall 2026: SharkByte Applied AI &amp; Analytics Co-op (July/August to December)</title>
     <link href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Miami, Florida, United States; Needham, MA, United States</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Miami, Florida, United States; Needham, MA, United States; New York, New York, United States</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:vardaspace:7676465003</id>
