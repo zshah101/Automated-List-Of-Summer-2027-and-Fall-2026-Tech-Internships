@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-06T23:15:03Z",
+ "generated_at": "2026-07-07T03:44:13Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 46,
+ "count": 45,
  "jobs": [
   {
    "id": "workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
@@ -92,21 +92,6 @@
    "sponsorship": "unknown",
    "salary": null,
    "source": "greenhouse",
-   "h1b_approvals": null
-  },
-  {
-   "id": "ashby:1password:b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2",
-   "company": "1Password",
-   "title": "Developer Intern, Service Development - Fall 2026",
-   "season": "Fall 2026",
-   "category": "Software",
-   "location": "Remote (United States | Canada)",
-   "url": "https://jobs.ashbyhq.com/1password/b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2",
-   "posted_at": "2026-06-23T19:44:54.371+00:00",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "source": "ashby",
    "h1b_approvals": null
   },
   {
