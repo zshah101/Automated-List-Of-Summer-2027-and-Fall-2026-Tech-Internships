@@ -1,0 +1,25 @@
+{
+ "note": "Hand-verified typical opening windows for SWE/quant SUMMER internships, month-level. Checked 2026-07 against company career pages + reputable guides. 'opens' = the month the summer cycle typically opens in the calendar year BEFORE that summer (e.g. '08' => a Summer 2027 role opens ~Aug 2026). precision: 'month' = we trust the month; 'rolling' = the company posts year-round / continuously, so no single drop month is honest. This only SEEDS the radar for marquee names the engine has not yet observed directly; real observed dates (data/observed.json) always win. Re-verify each cycle.",
+ "verified_at": "2026-07-07",
+ "companies": [
+  {"name": "Amazon", "opens": "07", "precision": "month", "note": "rolling from mid-summer, very early", "src": "amazon.jobs + guides"},
+  {"name": "Meta", "opens": "08", "precision": "month", "note": "late Aug, rolling into Nov", "src": "metacareers.com"},
+  {"name": "Google", "opens": "08", "precision": "month", "note": "Aug-Oct main window", "src": "google.com/about/careers"},
+  {"name": "Jane Street", "opens": "08", "precision": "month", "note": "opens ~Aug, rolling", "src": "janestreet.com"},
+  {"name": "Citadel", "opens": "08", "precision": "month", "note": "Aug-Oct", "src": "citadel.com/careers"},
+  {"name": "Citadel Securities", "opens": "08", "precision": "month", "note": "Aug-Oct", "src": "citadelsecurities.com"},
+  {"name": "Databricks", "opens": "08", "precision": "month", "note": "rolling from Aug", "src": "databricks.com/careers"},
+  {"name": "Optiver", "opens": "08", "precision": "month", "note": "opens ~Aug for next summer", "src": "optiver.com"},
+  {"name": "Stripe", "opens": "09", "precision": "month", "note": "early Sept, closes mid-Nov", "src": "stripe.com/jobs/university"},
+  {"name": "Hudson River Trading", "opens": "09", "precision": "month", "note": "opens fall, closes early Feb", "src": "hudsonrivertrading.com"},
+  {"name": "D.E. Shaw", "opens": "10", "precision": "month", "note": "apply by end of prior year; class set early Q1", "src": "deshaw.com/careers"},
+  {"name": "Two Sigma", "opens": "12", "precision": "month", "note": "opens ~Dec, deadline late Feb", "src": "twosigma.com/careers"},
+  {"name": "Coinbase", "opens": "12", "precision": "month", "note": "Dec-Jan, peak hiring Feb", "src": "coinbase.com/internships"},
+  {"name": "Ramp", "opens": "12", "precision": "month", "note": "Dec-Jan early movers", "src": "efinancialcareers + guides"},
+  {"name": "Microsoft", "opens": null, "precision": "rolling", "note": "posts year-round, rolling review", "src": "careers.microsoft.com"},
+  {"name": "Apple", "opens": null, "precision": "rolling", "note": "rolling, roles close on varying dates", "src": "jobs.apple.com"},
+  {"name": "NVIDIA", "opens": null, "precision": "rolling", "note": "multiple programs; Ignite ~Oct, SWE ongoing", "src": "nvidia.com/careers"},
+  {"name": "Palantir", "opens": null, "precision": "rolling", "note": "rolling SWE internship postings", "src": "palantir.com/careers"},
+  {"name": "IMC Trading", "opens": null, "precision": "rolling", "note": "posts early, rolling", "src": "imc.com/careers"}
+ ]
+}

@@ -22,11 +22,12 @@ HEALTH_PATH = os.path.join(DATA_DIR, "health.json")          # circuit-breaker s
 HISTORY_PATH = os.path.join(DATA_DIR, "history.jsonl")       # one line of metrics per run
 H1B_PATH = os.path.join(DATA_DIR, "h1b.json")                # USCIS employer -> approvals index
 MAIL_STATE_PATH = os.path.join(DATA_DIR, "mail_state.json")  # when the last digest went out
-SEASONS_PATH = os.path.join(DATA_DIR, "seasons.json")        # last cycle's first-post date per company (reference)
 OBSERVED_PATH = os.path.join(DATA_DIR, "observed.json")      # real posted dates the engine itself has seen (ground truth)
+KNOWN_WINDOWS_PATH = os.path.join(DATA_DIR, "known_windows.json")  # hand-verified typical opening months for marquee names
 
 README_PATH = os.path.join(ROOT, "README.md")
 DOCS_DIR = os.path.join(ROOT, "docs")
 DASHBOARD_PATH = os.path.join(DOCS_DIR, "index.html")        # GitHub Pages dashboard
 FEED_PATH = os.path.join(DOCS_DIR, "feed.xml")               # Atom feed (new roles)
+RADAR_ICS_PATH = os.path.join(DOCS_DIR, "radar.ics")         # subscribable calendar of expected drop dates
 API_DIR = os.path.join(DOCS_DIR, "api")                      # static JSON API

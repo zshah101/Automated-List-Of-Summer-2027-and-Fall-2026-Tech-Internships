@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import json
 import os
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from xml.sax.saxutils import escape
 
 from . import config, h1b, paths, radar, sponsorship
@@ -84,6 +84,97 @@ def write_feed(store_data: dict) -> int:
     with open(paths.FEED_PATH, "w", encoding="utf-8") as f:
         f.write("".join(xml))
     return len(entries)
+
+
+def _ics_escape(text: str) -> str:
+    return (text.replace("\\", "\\\\").replace(";", "\\;")
+                .replace(",", "\\,").replace("\n", "\\n"))
+
+
+def _ics_fold(line: str) -> str:
+    """Fold a content line at 75 octets per RFC 5545 (UTF-8 aware)."""
+    raw = line.encode("utf-8")
+    if len(raw) <= 75:
+        return line
+    out, chunk = [], b""
+    for ch in line:
+        enc = ch.encode("utf-8")
+        # 74 leaves room; continuation lines start with a single space.
+        limit = 75 if not out else 74
+        if len(chunk) + len(enc) > limit:
+            out.append(chunk.decode("utf-8"))
+            chunk = b""
+        chunk += enc
+    out.append(chunk.decode("utf-8"))
+    return "\r\n ".join(out)
+
+
+def write_radar_ics(store_data: dict, cycle: str | None = None) -> int:
+    """A subscribable calendar of expected internship drop dates.
+
+    Point Google/Apple Calendar at docs/radar.ics and every company's expected
+    opening becomes an all-day event with a reminder a week before. Only rows
+    with a real date (verified projections + hand-verified month windows) get an
+    event; rolling / already-open companies are skipped. This turns the radar
+    from something you check into something that pings you — on brand for a
+    real-time engine, and no infrastructure since Pages serves the static file.
+    """
+    cycle = cycle or config.cycles(config.load_config())[0]
+    base = config.pages_base()
+    now = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    rows = [r for r in radar.rows(store_data, cycle)
+            if r["status"] == "waiting" and not r["rolling"] and r["expected"]]
+
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//intern-engine//Drop Radar//EN",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        f"X-WR-CALNAME:Internship Drop Radar ({_ics_escape(cycle)})",
+        "X-WR-CALDESC:Expected opening dates for tech internships. "
+        "Verified from live career-page data + hand-checked windows.",
+        "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
+        "X-PUBLISHED-TTL:PT12H",
+    ]
+    for r in rows:
+        start = r["expected"].replace("-", "")
+        end = (datetime.strptime(r["expected"], "%Y-%m-%d").date()
+               + timedelta(days=1)).strftime("%Y%m%d")
+        uid = f"radar-{h1b.normalize(r['company']) or r['company']}-{start}@intern-engine"
+        verified = r["source"] == "engine"
+        precise = r["precision"] == "day"
+        mark = "🎯 " if verified else ""
+        when = "expected to open" if precise else "typically opens"
+        summary = f"{mark}{r['company']} — {when} ({cycle})"
+        trust = ("date verified from our own live career-page observations"
+                 if verified else "hand-verified typical opening month (month-level)")
+        desc_bits = [f"{r['company']} {when} around this date.", trust]
+        if r.get("note"):
+            desc_bits.append(r["note"])
+        desc_bits.append(f"Radar: {base}/#radar")
+        lines += [
+            "BEGIN:VEVENT",
+            f"UID:{_ics_escape(uid)}",
+            f"DTSTAMP:{now}",
+            f"DTSTART;VALUE=DATE:{start}",
+            f"DTEND;VALUE=DATE:{end}",
+            f"SUMMARY:{_ics_escape(summary)}",
+            f"DESCRIPTION:{_ics_escape('  '.join(desc_bits))}",
+            "TRANSP:TRANSPARENT",
+            "BEGIN:VALARM",
+            "TRIGGER:-P7D",
+            "ACTION:DISPLAY",
+            f"DESCRIPTION:{_ics_escape(r['company'] + ' internships open soon')}",
+            "END:VALARM",
+            "END:VEVENT",
+        ]
+    lines.append("END:VCALENDAR")
+
+    os.makedirs(paths.DOCS_DIR, exist_ok=True)
+    with open(paths.RADAR_ICS_PATH, "w", encoding="utf-8", newline="") as f:
+        f.write("\r\n".join(_ics_fold(ln) for ln in lines) + "\r\n")
+    return len(rows)
 
 
 _API_FIELDS = (

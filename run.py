@@ -57,6 +57,7 @@ def cmd_update() -> None:
     dashboard.generate(store_data, stats)
     feed_entries = publish.write_feed(store_data)
     publish.write_api(store_data, stats)
+    ics_events = publish.write_radar_ics(store_data)
     if db.sync(store_data, stats):
         print("  synced to Postgres   yes")
     if notify.send_new_roles(store_data, new_ids):
@@ -69,6 +70,7 @@ def cmd_update() -> None:
         print(f"  {k:<24} {v}")
     print(f"  README open roles      {summary['open']}")
     print(f"  feed entries           {feed_entries}")
+    print(f"  radar calendar events  {ics_events}")
 
 
 def main() -> None:

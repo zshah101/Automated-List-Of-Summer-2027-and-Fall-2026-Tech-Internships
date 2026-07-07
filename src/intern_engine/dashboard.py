@@ -145,17 +145,19 @@ def _options(values: list[str]) -> str:
 
 _CF_TITLE = {
     "verified": "We saw this date ourselves, straight from the company's careers API.",
-    "estimated": "From last cycle's public reference dataset, projected forward a year.",
-    "floor": "The role was already up when the reference dataset began — a latest bound, not the drop day.",
+    "window": "Hand-verified typical opening month for this company (month-level, not a promise of the day).",
+    "rolling": "This company posts year-round / on a rolling basis — worth checking anytime.",
 }
 
 
 def _radar_rows(rows: list[dict]) -> str:
     out = []
     for r in rows:
-        if r["status"] == "posted":
+        if r["status"] == "open":
             status = (f'<a href="{escape(r["url"])}" target="_blank" rel="noopener">✅ open now</a>'
                       if r["url"] else "✅ open now")
+        elif r["status"] == "dropped":
+            status = '<span class="muted">🗓️ dropped</span>'
         else:
             status = '<span class="muted">⏳ waiting</span>'
         conf = r.get("confidence", "estimated")
@@ -181,15 +183,19 @@ def _radar_section(store_data: dict, cfg: dict) -> str:
     return f"""
   <h2 id="radar">📅 Drop Radar — when companies usually post
     (<span id="rcount">{len(rows)}</span>)</h2>
-  <p class="muted" style="margin:0 0 8px">Each company's typical drop date,
-  projected one year forward. <span class="cf cf-verified">verified</span> = we saw
-  the real date ourselves via the company's careers API (🎯);
-  <span class="cf cf-estimated">estimated</span> = from a public reference list;
-  <span class="cf cf-floor">latest bound</span> = already up before that list began.
+  <p class="muted" style="margin:0 0 8px">When each company usually opens — every
+  date real or verified, no third-party list.
+  <span class="cf cf-verified">verified</span> = we saw the drop ourselves via the
+  company's careers API (🎯); <span class="cf cf-window">typical window</span> =
+  hand-checked opening month for a marquee name;
+  <span class="cf cf-rolling">rolling</span> = posts year-round.
   "waiting" = not seen in our tracked feeds yet.</p>
+  <p style="margin:0 0 10px"><a href="radar.ics" class="ics">📅 Subscribe in your
+    calendar</a> <span class="muted" style="font-size:12px">— add every expected
+    drop date to Google/Apple Calendar and get a reminder a week before.</span></p>
   <div class="filters"><input id="rq" type="search"
     placeholder="Search the radar — is your target company on it?" autocomplete="off"></div>
-  <table><thead><tr><th>Company</th><th>Typical drop</th><th>Expected</th>
+  <table><thead><tr><th>Company</th><th>Typical opening</th><th>Expected</th>
   <th>Confidence</th><th>Status</th>
   </tr></thead><tbody id="rrows">{_radar_rows(rows)}</tbody></table>
 """
@@ -323,9 +329,12 @@ def generate(store_data: dict, stats: dict) -> None:
   a:hover {{ text-decoration:underline; }}
   .tag {{ background:#1f6feb22; color:#79c0ff; padding:1px 7px; border-radius:20px; font-size:12px; }}
   .cf {{ padding:1px 8px; border-radius:20px; font-size:11.5px; white-space:nowrap; }}
+  .ics {{ display:inline-block; background:var(--accent); color:#fff; padding:6px 12px;
+      border-radius:8px; font-size:13px; font-weight:600; }}
+  .ics:hover {{ text-decoration:none; opacity:.9; }}
   .cf-verified {{ background:#2ea04322; color:var(--green); }}
-  .cf-estimated {{ background:#8b949e22; color:var(--muted); }}
-  .cf-floor {{ background:#d2992222; color:#e3b341; }}
+  .cf-window {{ background:#1f6feb22; color:#79c0ff; }}
+  .cf-rolling {{ background:#8b949e22; color:var(--muted); }}
   .muted {{ color:var(--muted); }}
   .ok {{ color:var(--green); cursor:help; }}
   .signup {{ background:var(--card); border:1px solid var(--line); border-radius:10px;

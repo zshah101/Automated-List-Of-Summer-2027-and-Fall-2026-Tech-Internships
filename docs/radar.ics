@@ -1,0 +1,231 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//intern-engine//Drop Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Internship Drop Radar (Summer 2027)
+X-WR-CALDESC:Expected opening dates for tech internships. Verified from liv
+ e career-page data + hand-checked windows.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:radar-citadel-20260801@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Citadel — typically opens (Summer 2027)
+DESCRIPTION:Citadel typically opens around this date.  hand-verified typica
+ l opening month (month-level)  Aug-Oct  Radar: https://zshah101.github.io/
+ Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Citadel internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-citadel securities-20260801@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Citadel Securities — typically opens (Summer 2027)
+DESCRIPTION:Citadel Securities typically opens around this date.  hand-veri
+ fied typical opening month (month-level)  Aug-Oct  Radar: https://zshah101
+ .github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#r
+ adar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Citadel Securities internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-databricks-20260801@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Databricks — typically opens (Summer 2027)
+DESCRIPTION:Databricks typically opens around this date.  hand-verified typ
+ ical opening month (month-level)  rolling from Aug  Radar: https://zshah10
+ 1.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#
+ radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Databricks internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-google-20260801@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Google — typically opens (Summer 2027)
+DESCRIPTION:Google typically opens around this date.  hand-verified typical
+  opening month (month-level)  Aug-Oct main window  Radar: https://zshah101
+ .github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#r
+ adar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Google internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-jane street-20260801@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Jane Street — typically opens (Summer 2027)
+DESCRIPTION:Jane Street typically opens around this date.  hand-verified ty
+ pical opening month (month-level)  opens ~Aug\, rolling  Radar: https://zs
+ hah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internsh
+ ips/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Jane Street internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-meta-20260801@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Meta — typically opens (Summer 2027)
+DESCRIPTION:Meta typically opens around this date.  hand-verified typical o
+ pening month (month-level)  late Aug\, rolling into Nov  Radar: https://zs
+ hah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internsh
+ ips/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Meta internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-optiver-20260801@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Optiver — typically opens (Summer 2027)
+DESCRIPTION:Optiver typically opens around this date.  hand-verified typica
+ l opening month (month-level)  opens ~Aug for next summer  Radar: https://
+ zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Intern
+ ships/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Optiver internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-hudson river trading-20260901@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Hudson River Trading — typically opens (Summer 2027)
+DESCRIPTION:Hudson River Trading typically opens around this date.  hand-ve
+ rified typical opening month (month-level)  opens fall\, closes early Feb 
+  Radar: https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-
+ 2026-Tech-Internships/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Hudson River Trading internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-stripe-20260901@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Stripe — typically opens (Summer 2027)
+DESCRIPTION:Stripe typically opens around this date.  hand-verified typical
+  opening month (month-level)  early Sept\, closes mid-Nov  Radar: https://
+ zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Intern
+ ships/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Stripe internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-d e shaw-20261001@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:D.E. Shaw — typically opens (Summer 2027)
+DESCRIPTION:D.E. Shaw typically opens around this date.  hand-verified typi
+ cal opening month (month-level)  apply by end of prior year\; class set ea
+ rly Q1  Radar: https://zshah101.github.io/Automated-List-Of-Summer-2027-an
+ d-Fall-2026-Tech-Internships/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:D.E. Shaw internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-coinbase-20261201@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Coinbase — typically opens (Summer 2027)
+DESCRIPTION:Coinbase typically opens around this date.  hand-verified typic
+ al opening month (month-level)  Dec-Jan\, peak hiring Feb  Radar: https://
+ zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Intern
+ ships/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Coinbase internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-ramp-20261201@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Ramp — typically opens (Summer 2027)
+DESCRIPTION:Ramp typically opens around this date.  hand-verified typical o
+ pening month (month-level)  Dec-Jan early movers  Radar: https://zshah101.
+ github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#ra
+ dar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Ramp internships open soon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-two sigma-20261201@intern-engine
+DTSTAMP:20260707T192641Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Two Sigma — typically opens (Summer 2027)
+DESCRIPTION:Two Sigma typically opens around this date.  hand-verified typi
+ cal opening month (month-level)  opens ~Dec\, deadline late Feb  Radar: ht
+ tps://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-
+ Internships/#radar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Two Sigma internships open soon
+END:VALARM
+END:VEVENT
+END:VCALENDAR

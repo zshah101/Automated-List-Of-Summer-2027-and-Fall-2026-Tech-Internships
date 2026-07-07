@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**41 open roles · 13 new this week · 3,589 companies tracked · updated Jul 07, 2026 at 19:03 UTC**
+**41 open roles · 13 new this week · 3,589 companies tracked · updated Jul 07, 2026 at 19:26 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -104,34 +104,34 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ## 📅 Drop Radar — when companies usually post for Summer 2027
 
-Stop refreshing career pages. This is each company's **typical drop date**, projected forward a year — so you know who's next. 🎯 = date the engine **saw for itself** from the company's own careers API (not a third-party list); ✅ = already live in the list above.
+Stop refreshing career pages. Every date here is **real or verified** — no third-party list. 🎯 = the engine **saw the drop itself** from the company's own careers API; the rest are hand-checked typical opening windows for marquee names. ✅ = already live in the list above.
 
-> **Heads up:** companies trend *earlier* every cycle — this year's first ✅s appeared months ahead of their projected dates. Treat "expected" as the **latest** point to start watching, not a promise of the drop day.
+> **Heads up:** companies trend *earlier* every cycle, and "~Aug" is a month, not a day. Treat "expected" as when to **start watching**, and "rolling" companies as worth checking year-round.
 
-| Company | Typical drop | Expected this cycle | Status |
+| Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
 | 🎯 Ellipsis Labs | Mar 26 | dropped Mar 26 | ✅ [open now](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 | 🎯 Walleye Capital | Jun 01 | dropped Jun 01 | ✅ [open now](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006) |
 | 🎯 Anduril | Jun 10 | dropped Jun 10 | ✅ [open now](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | 🎯 IMC Trading | Jul 01 | dropped Jul 01 | ✅ [open now](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) |
 | 🎯 Tower Research Capital | Jul 05 | dropped Jul 05 | ✅ [open now](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
-| 🎯 Amazon | Oct 04 | ~May 13 · any day now | ⏳ waiting |
-| Rippling | Jun 07 | ~Jun 07 · any day now | ⏳ waiting |
-| 🎯 Western Digital | Dec 11 | ~Jun 28 · any day now | ⏳ waiting |
-| Tesla | Aug 03 | ~Aug 03 · in ~27d | ⏳ waiting |
-| Notion | Aug 08 | ~Aug 08 · in ~32d | ⏳ waiting |
-| Atomic Semi | Aug 15 | ~Aug 15 · in ~39d | ⏳ waiting |
-| Datadog | Aug 18 | ~Aug 18 · in ~42d | ⏳ waiting |
-| Shopify | Aug 19 | ~Aug 19 · in ~43d | ⏳ waiting |
-| Capital One | Aug 20 | ~Aug 20 · in ~44d | ⏳ waiting |
-| NVIDIA | Aug 24 | ~Aug 24 | ⏳ waiting |
-| Pinterest | Sep 24 | ~Sep 24 | ⏳ waiting |
-| Figure | Oct 22 | ~Oct 22 | ⏳ waiting |
-| Rivian and Volkswagen Group Technologies | Oct 30 | ~Oct 30 | ⏳ waiting |
-| General Dynamics Mission Systems | by Nov 10 | ~Nov 10 or earlier | ⏳ waiting |
-| Sigma Computing | by Nov 10 | ~Nov 10 or earlier | ⏳ waiting |
+| 🎯 Amazon | May 13 | dropped May 13 · closed | 🗓️ dropped |
+| 🎯 Western Digital | Jun 28 | dropped Jun 28 · closed | 🗓️ dropped |
+| Citadel | ~Aug | ~Aug · in ~25d | ⏳ waiting |
+| Citadel Securities | ~Aug | ~Aug · in ~25d | ⏳ waiting |
+| Databricks | ~Aug | ~Aug · in ~25d | ⏳ waiting |
+| Google | ~Aug | ~Aug · in ~25d | ⏳ waiting |
+| Jane Street | ~Aug | ~Aug · in ~25d | ⏳ waiting |
+| Meta | ~Aug | ~Aug · in ~25d | ⏳ waiting |
+| Optiver | ~Aug | ~Aug · in ~25d | ⏳ waiting |
+| Hudson River Trading | ~Sep | ~Sep | ⏳ waiting |
+| Stripe | ~Sep | ~Sep | ⏳ waiting |
+| D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
+| Coinbase | ~Dec | ~Dec | ⏳ waiting |
+| Ramp | ~Dec | ~Dec | ⏳ waiting |
+| Two Sigma | ~Dec | ~Dec | ⏳ waiting |
 
-_856 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **7** dated from our own live observations 🎯. "by Nov 10" = the role was already up when last cycle's reference dataset began — a latest bound, not the drop day. "waiting" means not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_24 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **7** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 10 roles taken down in the last 14 days</summary>

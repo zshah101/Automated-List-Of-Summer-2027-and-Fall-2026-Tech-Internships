@@ -323,7 +323,7 @@ def _new_this_week(open_jobs: list[dict]) -> int:
 
 def _radar_section(store_data: dict, cycle: str, cap: int = 20) -> list[str]:
     """The Drop Radar: which companies haven't posted yet, and when to expect
-    them — last cycle's first-post dates projected one year forward."""
+    them — from the engine's own observed dates + hand-verified opening windows."""
     rows = radar.rows(store_data, cycle)
     if not rows:
         return []
@@ -334,34 +334,38 @@ def _radar_section(store_data: dict, cycle: str, cap: int = 20) -> list[str]:
         "",
         f"## 📅 Drop Radar — when companies usually post for {cycle}",
         "",
-        "Stop refreshing career pages. This is each company's **typical drop date**, "
-        "projected forward a year — so you know who's next. 🎯 = date the engine "
-        "**saw for itself** from the company's own careers API (not a third-party "
-        "list); ✅ = already live in the list above.",
+        "Stop refreshing career pages. Every date here is **real or verified** — "
+        "no third-party list. 🎯 = the engine **saw the drop itself** from the "
+        "company's own careers API; the rest are hand-checked typical opening "
+        "windows for marquee names. ✅ = already live in the list above.",
         "",
-        "> **Heads up:** companies trend *earlier* every cycle — this year's first "
-        "✅s appeared months ahead of their projected dates. Treat \"expected\" as "
-        "the **latest** point to start watching, not a promise of the drop day.",
+        "> **Heads up:** companies trend *earlier* every cycle, and \"~Aug\" is a "
+        "month, not a day. Treat \"expected\" as when to **start watching**, and "
+        "\"rolling\" companies as worth checking year-round.",
         "",
-        "| Company | Typical drop | Expected this cycle | Status |",
+        "| Company | Typical opening | Expected this cycle | Status |",
         "|---|---|---|---|",
     ]
     for r in rows[:cap]:
-        status = f"✅ [open now]({r['url']})" if r["status"] == "posted" and r["url"] \
-            else ("✅ open now" if r["status"] == "posted" else "⏳ waiting")
+        if r["status"] == "open":
+            status = f"✅ [open now]({r['url']})" if r["url"] else "✅ open now"
+        elif r["status"] == "dropped":
+            status = "🗓️ dropped"
+        else:
+            status = "⏳ waiting"
         mark = "🎯 " if r.get("source") == "engine" else ""
         lines.append(
             f"| {mark}{_md_cell(r['company'])} | {radar.pretty_last(r)} | "
             f"{radar.pretty_expected(r)} | {status} |"
         )
-    verified_note = (f"**{verified}** dated from our own live observations 🎯. "
-                     if verified else "")
+    verified_note = (f"**{verified}** dated from our own live observations 🎯 "
+                     "(this grows every cycle). " if verified else "")
     lines.extend([
         "",
         f"_{len(rows)} companies on the [full radar]({pages}/#radar). {verified_note}"
-        "\"by Nov 10\" = the role was already up when last cycle's reference dataset "
-        "began — a latest bound, not the drop day. \"waiting\" means not seen in our "
-        "tracked feeds yet, not a guarantee it isn't out somewhere else._",
+        "\"~Aug\" = hand-verified typical month, not a promise of the day; "
+        "\"rolling\" = posts year-round; \"waiting\" = not seen in our tracked "
+        "feeds yet, not a guarantee it isn't out somewhere else._",
         "",
     ])
     return lines
