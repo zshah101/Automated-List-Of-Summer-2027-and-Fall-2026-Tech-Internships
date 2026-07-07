@@ -1,0 +1,396 @@
+{
+ "companies": {
+  "1password": {
+   "name": "1Password",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-09",
+     "count": 2
+    }
+   }
+  },
+  "abb": {
+   "name": "ABB",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-18",
+     "count": 1
+    }
+   }
+  },
+  "achievers": {
+   "name": "Achievers",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-20",
+     "count": 1
+    }
+   }
+  },
+  "amazon": {
+   "name": "Amazon",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2025-10-08",
+     "count": 21
+    },
+    "Summer 2027": {
+     "first_posted": "2026-05-13",
+     "count": 3
+    }
+   }
+  },
+  "anduril": {
+   "name": "Anduril",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-06-10",
+     "count": 1
+    }
+   }
+  },
+  "astranis": {
+   "name": "Astranis",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-13",
+     "count": 1
+    }
+   }
+  },
+  "caci": {
+   "name": "CACI",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-30",
+     "count": 2
+    }
+   }
+  },
+  "center for ai safety": {
+   "name": "Center for AI Safety",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-03-05",
+     "count": 1
+    }
+   }
+  },
+  "cohere": {
+   "name": "Cohere",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-01",
+     "count": 2
+    }
+   }
+  },
+  "creatify lab": {
+   "name": "Creatify Lab",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-03-18",
+     "count": 1
+    }
+   }
+  },
+  "dmainc": {
+   "name": "Dmainc",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-27",
+     "count": 1
+    }
+   }
+  },
+  "ellipsis labs": {
+   "name": "Ellipsis Labs",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-03-26",
+     "count": 1
+    }
+   }
+  },
+  "figure": {
+   "name": "Figure",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-22",
+     "count": 1
+    }
+   }
+  },
+  "gemini": {
+   "name": "Gemini",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-01",
+     "count": 1
+    }
+   }
+  },
+  "general dynamics uk": {
+   "name": "General Dynamics UK",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-19",
+     "count": 1
+    }
+   }
+  },
+  "general motors": {
+   "name": "General Motors",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-12",
+     "count": 1
+    }
+   }
+  },
+  "hermeus": {
+   "name": "Hermeus",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-03-04",
+     "count": 4
+    }
+   }
+  },
+  "imc trading": {
+   "name": "IMC Trading",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-07-01",
+     "count": 2
+    }
+   }
+  },
+  "intuitive surgical": {
+   "name": "Intuitive Surgical",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-22",
+     "count": 1
+    }
+   }
+  },
+  "kepler communications": {
+   "name": "Kepler Communications",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-02-02",
+     "count": 1
+    }
+   }
+  },
+  "lego": {
+   "name": "Lego",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-20",
+     "count": 1
+    }
+   }
+  },
+  "magnet forensics": {
+   "name": "Magnet Forensics",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-16",
+     "count": 2
+    }
+   }
+  },
+  "motorola": {
+   "name": "Motorola",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-03-30",
+     "count": 2
+    }
+   }
+  },
+  "notion": {
+   "name": "Notion",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-06",
+     "count": 1
+    }
+   }
+  },
+  "nvidia": {
+   "name": "NVIDIA",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-24",
+     "count": 7
+    }
+   }
+  },
+  "omers": {
+   "name": "OMERS",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-12",
+     "count": 1
+    }
+   }
+  },
+  "rocket lab": {
+   "name": "Rocket Lab",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-21",
+     "count": 1
+    }
+   }
+  },
+  "salesforce": {
+   "name": "Salesforce",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-24",
+     "count": 1
+    }
+   }
+  },
+  "samsung research america": {
+   "name": "Samsung Research America",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-08",
+     "count": 2
+    }
+   }
+  },
+  "saronic": {
+   "name": "Saronic",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-18",
+     "count": 2
+    }
+   }
+  },
+  "sharkninja": {
+   "name": "SharkNinja",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-02",
+     "count": 1
+    }
+   }
+  },
+  "skydio": {
+   "name": "Skydio",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-05",
+     "count": 2
+    }
+   }
+  },
+  "snowflake": {
+   "name": "Snowflake",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-05-12",
+     "count": 4
+    }
+   }
+  },
+  "solopulse": {
+   "name": "SoloPulse",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-16",
+     "count": 1
+    }
+   }
+  },
+  "td bank": {
+   "name": "TD Bank",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-18",
+     "count": 3
+    }
+   }
+  },
+  "telus digital": {
+   "name": "TELUS Digital",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-14",
+     "count": 3
+    }
+   }
+  },
+  "tmeic": {
+   "name": "TMEIC",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-24",
+     "count": 1
+    }
+   }
+  },
+  "varda space": {
+   "name": "Varda Space",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-03-23",
+     "count": 1
+    }
+   }
+  },
+  "verkada": {
+   "name": "Verkada",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-04-06",
+     "count": 1
+    }
+   }
+  },
+  "vertex pharmaceuticals": {
+   "name": "Vertex Pharmaceuticals",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-09",
+     "count": 1
+    }
+   }
+  },
+  "walleye capital": {
+   "name": "Walleye Capital",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-06-01",
+     "count": 3
+    }
+   }
+  },
+  "western digital": {
+   "name": "Western Digital",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-06-28",
+     "count": 2
+    }
+   }
+  },
+  "zip": {
+   "name": "Zip",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-09",
+     "count": 1
+    }
+   }
+  }
+ },
+ "updated_at": "2026-07-07T18:55:06Z"
+}

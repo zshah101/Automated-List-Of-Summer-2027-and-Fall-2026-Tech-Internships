@@ -24,9 +24,13 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 from intern_engine import h1b, paths  # noqa: E402  (shared name normalizer)
 
 CYCLE = "Summer 2026"          # the completed cycle we learn timing from
+# (label, url) — the first is the dominant dataset; its start date is the "floor"
+# below which no company can be dated, so floor-window dates are only a latest
+# bound. The engine's own observed dates (data/observed.json) supersede all of
+# these over time; this file is only the cold-start reference.
 SOURCES = [
-    "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json",
-    "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/dev/.github/scripts/listings.json",
+    ("simplify", "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json"),
+    ("vanshb03", "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/dev/.github/scripts/listings.json"),
 ]
 
 # Simplify's category values worth tracking for a tech list.
@@ -45,11 +49,13 @@ def _wanted(item: dict) -> bool:
 
 def build() -> dict:
     best: dict[str, dict] = {}
-    for url in SOURCES:
+    source_floor: dict[str, str] = {}   # label -> earliest date the dataset holds
+    source_size: dict[str, int] = {}    # label -> tech listings contributed
+    for label, url in SOURCES:
         try:
             listings = httpx.get(url, timeout=90, follow_redirects=True).json()
         except Exception as exc:  # noqa: BLE001 — a dead source shouldn't kill the build
-            print(f"  source failed: {url} ({type(exc).__name__})")
+            print(f"  source failed: {label} ({type(exc).__name__})")
             continue
         for item in listings:
             if not isinstance(item, dict) or not item.get("date_posted"):
@@ -61,15 +67,28 @@ def build() -> dict:
             if not key:
                 continue
             posted = datetime.fromtimestamp(item["date_posted"], tz=UTC).strftime("%Y-%m-%d")
-            entry = best.setdefault(key, {"name": name, "first_posted": posted, "count": 0})
+            source_size[label] = source_size.get(label, 0) + 1
+            if label not in source_floor or posted < source_floor[label]:
+                source_floor[label] = posted
+            entry = best.setdefault(
+                key, {"name": name, "first_posted": posted, "count": 0, "source": label})
             entry["count"] += 1
             if posted < entry["first_posted"]:
                 entry["first_posted"] = posted
                 entry["name"] = name
+                entry["source"] = label
+
+    # The floor is where the DOMINANT dataset begins: any date at/just after it
+    # means "already up by then", not the real drop day. We surface it so the
+    # radar can flag those dates as a latest bound instead of faking precision.
+    dominant = max(source_size, key=source_size.get) if source_size else None
+    floor = source_floor.get(dominant) if dominant else None
 
     return {
         "cycle": CYCLE,
         "built_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "floor": floor,
+        "source_floors": source_floor,
         "companies": dict(sorted(best.items())),
     }
 

@@ -143,6 +143,13 @@ def _options(values: list[str]) -> str:
     return "".join(f'<option value="{escape(v)}">{escape(v)}</option>' for v in values)
 
 
+_CF_TITLE = {
+    "verified": "We saw this date ourselves, straight from the company's careers API.",
+    "estimated": "From last cycle's public reference dataset, projected forward a year.",
+    "floor": "The role was already up when the reference dataset began — a latest bound, not the drop day.",
+}
+
+
 def _radar_rows(rows: list[dict]) -> str:
     out = []
     for r in rows:
@@ -151,11 +158,16 @@ def _radar_rows(rows: list[dict]) -> str:
                       if r["url"] else "✅ open now")
         else:
             status = '<span class="muted">⏳ waiting</span>'
+        conf = r.get("confidence", "estimated")
+        cf = (f'<span class="cf cf-{conf}" title="{escape(_CF_TITLE.get(conf, ""))}">'
+              f'{escape(radar.confidence_note(r))}</span>')
+        mark = "🎯 " if r.get("source") == "engine" else ""
         out.append(
             f'<tr data-text="{escape(r["company"].lower())}">'
-            f"<td>{escape(r['company'])}</td>"
+            f"<td>{mark}{escape(r['company'])}</td>"
             f"<td>{escape(radar.pretty_last(r))}</td>"
             f"<td>{escape(radar.pretty_expected(r))}</td>"
+            f"<td>{cf}</td>"
             f"<td>{status}</td></tr>"
         )
     return "".join(out)
@@ -169,12 +181,16 @@ def _radar_section(store_data: dict, cfg: dict) -> str:
     return f"""
   <h2 id="radar">📅 Drop Radar — when companies usually post
     (<span id="rcount">{len(rows)}</span>)</h2>
-  <p class="muted" style="margin:0 0 8px">Each company's first intern posting last
-  cycle, projected one year forward. "by …" = already up when the reference window
-  opened; "waiting" = not seen in our tracked feeds yet.</p>
+  <p class="muted" style="margin:0 0 8px">Each company's typical drop date,
+  projected one year forward. <span class="cf cf-verified">verified</span> = we saw
+  the real date ourselves via the company's careers API (🎯);
+  <span class="cf cf-estimated">estimated</span> = from a public reference list;
+  <span class="cf cf-floor">latest bound</span> = already up before that list began.
+  "waiting" = not seen in our tracked feeds yet.</p>
   <div class="filters"><input id="rq" type="search"
     placeholder="Search the radar — is your target company on it?" autocomplete="off"></div>
-  <table><thead><tr><th>Company</th><th>Last cycle</th><th>Expected</th><th>Status</th>
+  <table><thead><tr><th>Company</th><th>Typical drop</th><th>Expected</th>
+  <th>Confidence</th><th>Status</th>
   </tr></thead><tbody id="rrows">{_radar_rows(rows)}</tbody></table>
 """
 
@@ -306,6 +322,10 @@ def generate(store_data: dict, stats: dict) -> None:
   a {{ color:var(--accent); text-decoration:none; }}
   a:hover {{ text-decoration:underline; }}
   .tag {{ background:#1f6feb22; color:#79c0ff; padding:1px 7px; border-radius:20px; font-size:12px; }}
+  .cf {{ padding:1px 8px; border-radius:20px; font-size:11.5px; white-space:nowrap; }}
+  .cf-verified {{ background:#2ea04322; color:var(--green); }}
+  .cf-estimated {{ background:#8b949e22; color:var(--muted); }}
+  .cf-floor {{ background:#d2992222; color:#e3b341; }}
   .muted {{ color:var(--muted); }}
   .ok {{ color:var(--green); cursor:help; }}
   .signup {{ background:var(--card); border:1px solid var(--line); border-radius:10px;

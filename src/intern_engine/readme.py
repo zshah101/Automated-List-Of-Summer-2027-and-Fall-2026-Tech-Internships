@@ -328,34 +328,39 @@ def _radar_section(store_data: dict, cycle: str, cap: int = 20) -> list[str]:
     if not rows:
         return []
     pages = config.pages_base()
+    verified = sum(1 for r in rows if r.get("source") == "engine")
     lines = [
         '<a id="drop-radar"></a>',
         "",
         f"## 📅 Drop Radar — when companies usually post for {cycle}",
         "",
-        "Stop refreshing career pages. This is each company's **first intern posting "
-        "last cycle**, projected forward a year — so you know who drops next. "
-        "✅ = already live in the list above.",
+        "Stop refreshing career pages. This is each company's **typical drop date**, "
+        "projected forward a year — so you know who's next. 🎯 = date the engine "
+        "**saw for itself** from the company's own careers API (not a third-party "
+        "list); ✅ = already live in the list above.",
         "",
         "> **Heads up:** companies trend *earlier* every cycle — this year's first "
         "✅s appeared months ahead of their projected dates. Treat \"expected\" as "
         "the **latest** point to start watching, not a promise of the drop day.",
         "",
-        "| Company | First posted last cycle | Expected this cycle | Status |",
+        "| Company | Typical drop | Expected this cycle | Status |",
         "|---|---|---|---|",
     ]
     for r in rows[:cap]:
         status = f"✅ [open now]({r['url']})" if r["status"] == "posted" and r["url"] \
             else ("✅ open now" if r["status"] == "posted" else "⏳ waiting")
+        mark = "🎯 " if r.get("source") == "engine" else ""
         lines.append(
-            f"| {_md_cell(r['company'])} | {radar.pretty_last(r)} | "
+            f"| {mark}{_md_cell(r['company'])} | {radar.pretty_last(r)} | "
             f"{radar.pretty_expected(r)} | {status} |"
         )
+    verified_note = (f"**{verified}** dated from our own live observations 🎯. "
+                     if verified else "")
     lines.extend([
         "",
-        f"_{len(rows)} companies on the [full radar]({pages}/#radar). "
-        "\"by Nov 05\" = the role was already up when last cycle's reference window "
-        "opened - treat it as a latest bound. \"waiting\" means not seen in our "
+        f"_{len(rows)} companies on the [full radar]({pages}/#radar). {verified_note}"
+        "\"by Nov 10\" = the role was already up when last cycle's reference dataset "
+        "began — a latest bound, not the drop day. \"waiting\" means not seen in our "
         "tracked feeds yet, not a guarantee it isn't out somewhere else._",
         "",
     ])

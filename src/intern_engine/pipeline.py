@@ -22,7 +22,7 @@ from datetime import UTC, datetime, timedelta
 
 import httpx
 
-from . import config, enrich, filters, health, models, paths, quality, store, trends
+from . import config, enrich, filters, health, models, observe, paths, quality, store, trends
 from .connectors import (
     amazon,
     ashby,
@@ -218,6 +218,11 @@ def run_update() -> tuple[dict, dict, list[str]]:
     new_ids = store.upsert(existing, rows, succeeded, enriched_ids)
     purged = store.purge(existing)
     store.save(paths.JOBS_PATH, existing)
+
+    # Record the real posted dates we saw straight from the ATS. This is the
+    # engine's own ground truth for the Drop Radar — it accrues every run and
+    # eventually replaces the outside reference dataset entirely.
+    observe.record_run(existing)
 
     stats = _build_stats(
         companies, benched, succeeded, errors, errors_by_ats, kept, existing, new_ids,
