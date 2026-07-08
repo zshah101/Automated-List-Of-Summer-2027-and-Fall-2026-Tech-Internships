@@ -5,7 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-08T14:24:54Z</updated>
+  <updated>2026-07-08T17:44:24Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:statestreet:/job/Quincy-Massachusetts/BestX-AI-Engineer--Full-time-Internship--July---Dec-2026-_R-784548</id>
+    <title>State Street: BestX AI Engineer, Full-time Internship (July - Dec 2026)</title>
+    <link href="https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/BestX-AI-Engineer--Full-time-Internship--July---Dec-2026-_R-784548"/>
+    <updated>2026-07-08T17:44:24Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Quincy, Massachusetts · H-1B track record: ~246 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275</id>
     <title>Northrop Grumman: 2027 Intern Software Engineer 🇺🇸</title>
@@ -56,7 +64,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:imc:4907430101</id>
-    <title>IMC Trading: Machine Learning Research Intern - Summer 2027</title>
+    <title>IMC Trading: Machine Learning Research Intern - Summer 2027 - Chicago</title>
     <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4907430101"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Summer 2027"/>

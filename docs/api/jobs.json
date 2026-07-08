@@ -1,9 +1,24 @@
 {
- "generated_at": "2026-07-08T14:24:54Z",
+ "generated_at": "2026-07-08T17:44:24Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 46,
+ "count": 47,
  "jobs": [
+  {
+   "id": "workday:statestreet:/job/Quincy-Massachusetts/BestX-AI-Engineer--Full-time-Internship--July---Dec-2026-_R-784548",
+   "company": "State Street",
+   "title": "BestX AI Engineer, Full-time Internship (July - Dec 2026)",
+   "season": "Fall 2026",
+   "category": "Data & ML/AI",
+   "location": "Quincy, Massachusetts",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/BestX-AI-Engineer--Full-time-Internship--July---Dec-2026-_R-784548",
+   "posted_at": "2026-07-08T00:00:00Z",
+   "first_seen_at": "2026-07-08T17:44:24Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "source": "workday",
+   "h1b_approvals": 246
+  },
   {
    "id": "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
    "company": "Northrop Grumman",
@@ -97,7 +112,7 @@
   {
    "id": "greenhouse:imc:4907430101",
    "company": "IMC Trading",
-   "title": "Machine Learning Research Intern - Summer 2027",
+   "title": "Machine Learning Research Intern - Summer 2027 - Chicago",
    "season": "Summer 2027",
    "category": "Data & ML/AI",
    "location": "Chicago, United States",
