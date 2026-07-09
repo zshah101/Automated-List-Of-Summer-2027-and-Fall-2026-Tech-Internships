@@ -27,4 +27,5 @@ class Job:
     category: str = "Other"
     sponsorship: str = "unknown"   # citizens-only | no-sponsorship | offers | unknown
     salary: str | None = None      # pay text when the ATS exposes it (Ashby/Lever/Breezy)
+    skills: list[str] | None = None  # tags extracted from posting text (None = not yet)
     description: str | None = None  # transient: raw posting text, used for classification

@@ -82,6 +82,8 @@ def upsert(existing: dict, jobs: list[dict], succeeded_keys: set[str],
                 record["posted_at"] = job["posted_at"]
             if job.get("salary"):
                 record["salary"] = job["salary"]
+            if job.get("skills") is not None:
+                record["skills"] = job["skills"]
             if job.get("sponsorship", "unknown") != "unknown":
                 record["sponsorship"] = job["sponsorship"]
             if record.get("closed_at"):

@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**41 open roles · 5 new this week · 3,589 companies tracked · updated Jul 09, 2026 at 11:06 UTC**
+**41 open roles · 5 new this week · 3,593 companies tracked · updated Jul 09, 2026 at 12:42 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -21,8 +21,9 @@ This is an engine, not a hand-kept list. It polls company career feeds several t
 - **📅 [Drop Radar](#drop-radar)** - the only list that shows **what's coming**: each company's expected posting window, projected from last cycle's real first-post dates.
 - **Visa intel, computed** - 🇺🇸 / 🛂 flags detected automatically from every job description, plus ✓ for employers with a real H-1B track record (official USCIS data). The big lists crowdsource this by hand; here it's code.
 - **Real posted dates on every role** - pulled from each job portal itself, so newest-first actually means newest.
+- **Skill tags + pay, extracted** - every posting's text is scanned for the stack it wants (Python, C++, PyTorch, ...) and the pay it states - searchable on the [dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/), included in the CSV and API.
 - **Alerts your way** - [email digests](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe), [RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml), or Discord - plus a [live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/) with search, filters, and an F-1 friendly toggle.
-- **An engine, not a spreadsheet** - 3,589 companies polled every 2 hours across 11 job platforms, ~100 tests, full source in this repo.
+- **An engine, not a spreadsheet** - 3,593 companies polled every 2 hours across 12 job platforms, ~130 tests, full source in this repo.
 
 ## Scope
 
@@ -83,22 +84,22 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Saronic | Software Engineer Intern (Fall 2026) 🇺🇸 | Software | Austin, TX | May 18, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | Astranis | Software Engineer- Backend Intern (Fall 2026) 🇺🇸 | Software | San Francisco, CA | May 13, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
 | Samsung Research America ✓ | 2026 Fall Intern, ML/NLP Research | Data & ML/AI | 665 Clyde Avenue +3 more | May 08, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8541339002) |
-| Amazon | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) | Data & ML/AI | Seattle, Washington, USA | May 06, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us) |
+| Amazon ✓ | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) | Data & ML/AI | Seattle, Washington, USA | May 06, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us) |
 | Skydio ✓ | Software Engineer Intern Fall 2026/Winter 2027 | Software | San Mateo, California, United States | May 05, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee) |
 | Motorola ✓ | Intern – Web Interface Software Engineer (2026) 🇺🇸 | Software | Los Angeles, CA | May 01, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Intern---Web-Interface-Software-Engineer--2026-_R64590) |
 | Gemini ✓ | Software Engineering Intern (Fall 2026) | Software | New York, New York | May 01, 2026 | [Apply](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
-| TMEIC | Intern - Applications, AI and Machine Learning (Fall 2026) (ET26021) 🛂 | Data & ML/AI | Roanoke, Virginia, United States | Apr 24, 2026 | [Apply](https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/) |
+| TMEIC ✓ | Intern - Applications, AI and Machine Learning (Fall 2026) (ET26021) 🛂 | Data & ML/AI | Roanoke, Virginia, United States | Apr 24, 2026 | [Apply](https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/) |
 | Lego | Firmware Engineering Co-Op - Fall 2026 | Hardware | United States of America | Apr 20, 2026 | [Apply](https://lego.wd103.myworkdayjobs.com/lego_executive/job/Boston-Hub/Firmware-Engineering-Intern_0000031568) |
 | Hermeus | Software Engineering Intern (HIL) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
 | Hermeus | Software Engineering Intern (Modeling & Simulation) - Fall 2026 🇺🇸 | Software | Los Angeles, CA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
 | Notion ✓ | Software Engineer Intern (Fall 2026) | Software | San Francisco, California | Apr 06, 2026 | [Apply](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
-| SharkNinja | Fall 2026: SharkByte Applied AI & Analytics Co-op (July/August to December) | Data & ML/AI | Miami +8 more | Apr 02, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
+| SharkNinja ✓ | Fall 2026: SharkByte Applied AI & Analytics Co-op (July/August to December) | Data & ML/AI | Miami +8 more | Apr 02, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
 | Hermeus | Software Engineering Intern (HMI) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 01, 2026 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | Motorola ✓ | Intern - Embedded Software, System, and Test Engineer - 2026 🇺🇸 | Software | Irvine, CA | Mar 30, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372) |
 | Varda Space | Flight Software Internship - Fall 2026 🇺🇸 | Software | El Segundo, California, United States | Mar 23, 2026 | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7676465003) |
 | Center for AI Safety | Research Engineer Intern (Fall 2026) | Software | San Francisco, CA | Mar 05, 2026 | [Apply](https://jobs.lever.co/aisafety/e011814b-9a80-43d6-bb0c-cc153ea4bec4) |
-| Amazon | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
-| Amazon | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
+| Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
+| Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
 <a id="drop-radar"></a>
 
@@ -134,7 +135,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _25 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **8** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 12 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 40 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -150,6 +151,34 @@ _25 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | OMERS | Intern, AI Enablement & Adoption Specialist (Fall 2026, 4 Months) - New York | Fall 2026 | 2026-07-02 |
 | Point72 | Summer 2027 Quantitative Developer Internship | Summer 2027 | 2026-07-01 |
 | Verkada | Frontend Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-01 |
+| Amazon | Software Dev Engineer Intern, 2026 Beijing | Fall 2026 | 2026-06-30 |
+| Amazon | Software Dev Engineer Intern, OpenSearch, 2026 Shanghai | Fall 2026 | 2026-06-30 |
+| Amazon | Software Dev Engineer Intern, 2026 Shanghai | Fall 2026 | 2026-06-30 |
+| Amazon | Software Dev Engineer Intern, (Devices) 2026 Shanghai | Fall 2026 | 2026-06-30 |
+| Amazon | Software Dev Engineer Intern, (Sustaining Operations) 2026 Shanghai | Fall 2026 | 2026-06-30 |
+| Amazon | Applied Scientist Intern, 2026 Shenzhen | Fall 2026 | 2026-06-30 |
+| Amazon | Software Dev Engineer Intern, (Alexa) 2026 Shenzhen | Fall 2026 | 2026-06-30 |
+| Amazon | SEED Engineer Program - Software Development Engineer Intern, 2026 Shenzhen | Fall 2026 | 2026-06-30 |
+| Amazon | Software Development Engineer Internship - Fall 2026 (Canada) | Fall 2026 | 2026-06-30 |
+| Amazon | Technical Business Developer Intern, 2026 Hong Kong | Fall 2026 | 2026-06-30 |
+| Amazon | Software Dev Engineer Intern, (Devices) 2026 Beijing | Fall 2026 | 2026-06-30 |
+| Amazon | 2027 Software Dev Engineer Intern | Summer 2027 | 2026-06-30 |
+| Amazon | 2027 Applied Science Intern (Machine Learning, Recommender Systems), Amazon International Machine Learning | Summer 2027 | 2026-06-30 |
+| Amazon | 2027 Applied Science Intern (Computer Vision), Amazon International Machine Learning | Summer 2027 | 2026-06-30 |
+| Amazon | 2026 Software Dev Engineer Intern - Tel-Aviv, Israel | Fall 2026 | 2026-06-30 |
+| Amazon | Robotics - Software Development Engineer Intern - 2026 - Toronto | Fall 2026 | 2026-06-30 |
+| Amazon | 2026 Software Dev Engineer Intern - Haifa, Israel | Fall 2026 | 2026-06-30 |
+| Amazon | Applied Scientist Intern, International Technology, 2026 Beijing | Fall 2026 | 2026-06-30 |
+| Amazon | 2026 Software Dev Engineer Intern (Location : Sydney) | Fall 2026 | 2026-06-30 |
+| Cohere | Machine Learning Intern/Co-op  (Fall, 2026) | Fall 2026 | 2026-06-30 |
+| Cohere | Software Engineer Intern (Fall / Winter 2026) | Fall 2026 | 2026-06-30 |
+| Creatify Lab | Software Engineer Intern 2026 | Fall 2026 | 2026-06-30 |
+| Snowflake | Software Engineer Intern - Zurich (2026) | Fall 2026 | 2026-06-30 |
+| Snowflake | Software Engineer Intern - Berlin (2026) | Fall 2026 | 2026-06-30 |
+| Snowflake | Software Engineer Intern (AI/ML) - 2026 | Fall 2026 | 2026-06-30 |
+| Snowflake | Research Intern (AI) - 2026 | Fall 2026 | 2026-06-30 |
+| TELUS Digital | Data Science Intern (Argentina) - Year Round 2026 | Fall 2026 | 2026-06-30 |
+| TELUS Digital | AI Intern (Argentina) - Year Round 2026 | Fall 2026 | 2026-06-30 |
 
 </details>
 
@@ -168,7 +197,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,589 companies across 11 ATS platforms · 99% fetch success · completed in 234.6s · median detection latency 1173 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,593 companies across 12 ATS platforms · 99% fetch success · completed in 311.2s · median detection latency 1173 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

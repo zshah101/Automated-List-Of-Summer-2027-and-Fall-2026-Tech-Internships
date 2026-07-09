@@ -42,10 +42,23 @@ class TestEnrich:
     def test_stored_verdict_carried_over_no_refetch(self):
         net = FakeNet({})
         job = _job(jid="greenhouse:acme:9", source="greenhouse")
-        existing = {"greenhouse:acme:9": {"sponsorship": "citizens-only", "enriched_at": "x"}}
+        existing = {"greenhouse:acme:9": {
+            "sponsorship": "citizens-only", "enriched_at": "x", "skills": ["Python"],
+        }}
         enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
         assert job.sponsorship == "citizens-only"
         assert enriched == set() and net.calls == 0
+
+    def test_settled_record_without_skills_backfills_once_keeping_verdict(self):
+        # Records that predate skill tags get ONE re-fetch for tags; the stored
+        # sponsorship verdict must never flip even if the text now reads differently.
+        net = FakeNet({"content": "Uses Python daily. Visa sponsorship is available."})
+        job = _job(jid="greenhouse:acme:9", source="greenhouse")
+        existing = {"greenhouse:acme:9": {"sponsorship": "citizens-only", "enriched_at": "x"}}
+        enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
+        assert job.sponsorship == "citizens-only"  # verdict kept, not re-classified
+        assert job.skills == ["Python"]
+        assert enriched == {job.id} and fetched == 1
 
     def test_greenhouse_detail_fetch(self):
         net = FakeNet({"content": "U.S. citizenship is required for this position."})

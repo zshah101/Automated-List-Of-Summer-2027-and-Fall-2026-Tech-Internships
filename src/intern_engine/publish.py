@@ -36,6 +36,8 @@ def _entry(record: dict, base: str) -> str:
     ]
     if record.get("salary"):
         summary_bits.append(record["salary"])
+    if record.get("skills"):
+        summary_bits.append(", ".join(record["skills"][:5]))
     sponsor = record.get("sponsorship", "unknown")
     if sponsor != "unknown":
         summary_bits.append(f"sponsorship: {sponsor}")
@@ -179,7 +181,7 @@ def write_radar_ics(store_data: dict, cycle: str | None = None) -> int:
 
 _API_FIELDS = (
     "id", "company", "title", "season", "category", "location", "url",
-    "posted_at", "first_seen_at", "sponsorship", "salary", "source",
+    "posted_at", "first_seen_at", "sponsorship", "salary", "skills", "source",
 )
 
 

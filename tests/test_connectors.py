@@ -10,6 +10,7 @@ from intern_engine.connectors import (
     amazon,
     ashby,
     breezy,
+    eightfold,
     greenhouse,
     lever,
     oracle,
@@ -197,3 +198,35 @@ def test_oracle():
     jobs = _run(oracle.fetch(company, FakeNet(payload)))
     assert jobs[0].id == "oracle:ford:9"
     assert jobs[0].posted_at == "2026-06-05"
+
+
+def test_eightfold():
+    payload = {"count": 1, "positions": [{
+        "id": 790316547536, "ats_job_id": "JR31938",
+        "name": "AI/ML Scientist Intern, Fall 2026",
+        "locations": ["Los Gatos,California,United States of America"],
+        "location": "Los Gatos,California,United States of America",
+        "t_create": 1782086400, "t_update": 1782090000,
+        "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/790316547536",
+        "job_description": "<p>Experience with Python and PyTorch. "
+                           "Unable to sponsor visas for this role.</p>",
+    }]}
+    company = {"name": "Netflix", "slug": "netflix", "ats": "eightfold",
+               "host": "explore.jobs.netflix.net", "domain": "netflix.com"}
+    jobs = _run(eightfold.fetch(company, FakeNet(payload)))
+    assert len(jobs) == 1
+    j = jobs[0]
+    assert j.id == "eightfold:netflix:790316547536"
+    assert j.company == "Netflix"
+    assert j.title == "AI/ML Scientist Intern, Fall 2026"
+    assert j.location == "Los Gatos, California, United States of America"
+    assert j.posted_at == "2026-06-22T00:00:00Z"
+    assert j.url.endswith("/790316547536")
+    assert "Python" in j.description and "sponsor" in j.description
+
+
+def test_eightfold_no_positions():
+    company = {"name": "Netflix", "slug": "netflix", "ats": "eightfold",
+               "host": "explore.jobs.netflix.net", "domain": "netflix.com"}
+    jobs = _run(eightfold.fetch(company, FakeNet({"count": 0, "positions": []})))
+    assert jobs == []

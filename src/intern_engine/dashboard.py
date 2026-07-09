@@ -117,8 +117,15 @@ def _rows(open_jobs: list[dict]) -> str:
             f'({escape(window)}, USCIS)">✓</span>' if proven == "1" else ""
         )
         salary = r.get("salary") or ""
+        skills = [s for s in (r.get("skills") or []) if s][:6]
+        chips = (
+            '<span class="sks">'
+            + "".join(f'<span class="sk">{escape(s)}</span>' for s in skills)
+            + "</span>"
+        ) if skills else ""
         haystack = " ".join(
-            str(r.get(k) or "") for k in ("company", "title", "location", "category")
+            [str(r.get(k) or "") for k in ("company", "title", "location", "category")]
+            + skills
         ).lower()
         rows.append(
             f'<tr data-cycle="{escape(r.get("season", ""))}" '
@@ -127,7 +134,7 @@ def _rows(open_jobs: list[dict]) -> str:
             f'data-h1b="{proven}" '
             f'data-text="{escape(haystack)}">'
             f"<td>{escape(r.get('company', ''))}{check}</td>"
-            f"<td>{escape(r.get('title', ''))} {flag}</td>"
+            f"<td>{escape(r.get('title', ''))} {flag}{chips}</td>"
             f"<td><span class='tag'>{escape(r.get('season', ''))}</span></td>"
             f"<td>{escape(r.get('category', ''))}</td>"
             f"<td>{escape((r.get('location') or '')[:48])}</td>"
@@ -328,6 +335,10 @@ def generate(store_data: dict, stats: dict) -> None:
   a {{ color:var(--accent); text-decoration:none; }}
   a:hover {{ text-decoration:underline; }}
   .tag {{ background:#1f6feb22; color:#79c0ff; padding:1px 7px; border-radius:20px; font-size:12px; }}
+  .sks {{ display:block; margin-top:3px; }}
+  .sk {{ display:inline-block; background:#8b949e1a; color:var(--muted);
+         border:1px solid var(--line); padding:0 6px; border-radius:10px;
+         font-size:11px; margin:1px 3px 0 0; }}
   .cf {{ padding:1px 8px; border-radius:20px; font-size:11.5px; white-space:nowrap; }}
   .ics {{ display:inline-block; background:var(--accent); color:#fff; padding:6px 12px;
       border-radius:8px; font-size:13px; font-weight:600; }}
@@ -369,7 +380,7 @@ def generate(store_data: dict, stats: dict) -> None:
   </div>
   <h2>Open roles (<span id="count">{len(open_jobs)}</span>)</h2>
   <div class="filters">
-    <input id="q" type="search" placeholder="Search company, role, location…" autocomplete="off">
+    <input id="q" type="search" placeholder="Search company, role, location, or skill (try “Python”)…" autocomplete="off">
     <select id="cycle"><option value="">All cycles</option>{_options(cycles)}</select>
     <select id="cat"><option value="">All categories</option>{_options(categories)}</select>
     <label class="chk"><input id="f1" type="checkbox">

@@ -27,6 +27,7 @@ from .connectors import (
     amazon,
     ashby,
     breezy,
+    eightfold,
     greenhouse,
     lever,
     oracle,
@@ -50,6 +51,7 @@ CONNECTORS = {
     "workable": workable.fetch,
     "breezy": breezy.fetch,
     "recruitee": recruitee.fetch,
+    "eightfold": eightfold.fetch,
 }
 
 GLOBAL_CONCURRENCY = 32
@@ -141,6 +143,7 @@ def _keep_matching(results, cfg, blocklist) -> tuple[list, set[str], int, Counte
     succeeded: set[str] = set()
     errors = 0
     errors_by_ats: Counter = Counter()
+    dropped_no_year = 0  # tech internships we skip only because the title has no year
     for company, jobs, error in results:
         if error is not None:
             errors += 1
@@ -158,6 +161,9 @@ def _keep_matching(results, cfg, blocklist) -> tuple[list, set[str], int, Counte
                 continue
             season = filters.detect_season(job.title, cycles)
             if season is None:
+                # Measured so we know the size of the undated-roles pool before
+                # ever deciding to surface it (accuracy first, coverage second).
+                dropped_no_year += 1
                 continue
             is_us = filters.is_united_states(job.location)
             if restrict and not is_us and not include_intl:
@@ -171,7 +177,7 @@ def _keep_matching(results, cfg, blocklist) -> tuple[list, set[str], int, Counte
             job.season = season
             job.category = filters.categorize(job.title)
             kept.append(job)
-    return kept, succeeded, errors, errors_by_ats
+    return kept, succeeded, errors, errors_by_ats, dropped_no_year
 
 
 def run_update() -> tuple[dict, dict, list[str]]:
@@ -191,17 +197,17 @@ def run_update() -> tuple[dict, dict, list[str]]:
     async def _enrich_stage(results, net, workday_net):
         """Filter first (cheap, sync), then enrich only the keepers."""
         nonlocal kept
-        kept, succeeded, errors, errors_by_ats = _keep_matching(results, cfg, blocklist)
+        kept, succeeded, errors, errors_by_ats, no_year = _keep_matching(results, cfg, blocklist)
         kept = _dedup(kept)
         # Workday/Oracle enrichment goes through the same proxied client as fetch.
         wd_jobs = [j for j in kept if j.source in ("workday", "oracle")]
         other = [j for j in kept if j.source not in ("workday", "oracle")]
         ids_a, n_a = await enrich.enrich_jobs(other, existing, net)
         ids_b, n_b = await enrich.enrich_jobs(wd_jobs, existing, workday_net)
-        return succeeded, errors, errors_by_ats, ids_a | ids_b, n_a + n_b
+        return succeeded, errors, errors_by_ats, ids_a | ids_b, n_a + n_b, no_year
 
-    results, (succeeded, errors, errors_by_ats, enriched_ids, detail_fetches) = asyncio.run(
-        _fetch_all(active, _enrich_stage)
+    results, (succeeded, errors, errors_by_ats, enriched_ids, detail_fetches, no_year) = (
+        asyncio.run(_fetch_all(active, _enrich_stage))
     )
 
     for company, _jobs, error in results:
@@ -227,6 +233,7 @@ def run_update() -> tuple[dict, dict, list[str]]:
     stats = _build_stats(
         companies, benched, succeeded, errors, errors_by_ats, kept, existing, new_ids,
         len(enriched_ids), detail_fetches, purged, round(time.monotonic() - started, 1),
+        no_year,
     )
     _write_stats(stats)
     _append_history(stats)
@@ -266,7 +273,8 @@ def _detection_latency(existing: dict, window_days: int = 7) -> dict:
 
 
 def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, existing,
-                 new_ids, enriched, detail_fetches, purged, duration) -> dict:
+                 new_ids, enriched, detail_fetches, purged, duration,
+                 dropped_no_year=0) -> dict:
     open_records = [r for r in existing.values() if r.get("is_open")]
     attempted = len(companies) - len(benched)
     dated = sum(1 for r in open_records if r.get("posted_at"))
@@ -281,6 +289,7 @@ def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, exi
         "errors_by_source": dict(errors_by_ats),
         "fetch_success_rate": round(len(succeeded) / max(attempted, 1), 3),
         "roles_matched": len(kept),
+        "dropped_no_year_in_title": dropped_no_year,
         "roles_by_source": dict(Counter(j.source for j in kept)),
         "roles_by_cycle": dict(Counter(j.season for j in kept)),
         "roles_by_region": dict(Counter(

@@ -192,11 +192,14 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         "(official USCIS data). The big lists crowdsource this by hand; here it's code.",
         "- **Real posted dates on every role** - pulled from each job portal itself, "
         "so newest-first actually means newest.",
+        "- **Skill tags + pay, extracted** - every posting's text is scanned for the "
+        "stack it wants (Python, C++, PyTorch, ...) and the pay it states - "
+        f"searchable on the [dashboard]({pages}/), included in the CSV and API.",
         f"- **Alerts your way** - [email digests]({pages}/#subscribe), "
         f"[RSS]({pages}/feed.xml), or Discord - plus a [live dashboard]({pages}/) "
         "with search, filters, and an F-1 friendly toggle.",
         f"- **An engine, not a spreadsheet** - {companies:,} companies polled every "
-        "2 hours across 11 job platforms, ~100 tests, full source in this repo.",
+        "2 hours across 12 job platforms, ~130 tests, full source in this repo.",
         "",
         "## Scope",
         "",
@@ -455,8 +458,8 @@ def generate(store_data: dict) -> dict:
 
 def _write_csv(open_jobs: list[dict]) -> None:
     fields = [
-        "company", "title", "season", "category", "location",
-        "sponsorship", "h1b_approvals", "salary", "posted_at", "first_seen_at", "url",
+        "company", "title", "season", "category", "location", "sponsorship",
+        "h1b_approvals", "salary", "skills", "posted_at", "first_seen_at", "url",
     ]
     with open(paths.CSV_PATH, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
@@ -464,4 +467,5 @@ def _write_csv(open_jobs: list[dict]) -> None:
         for r in open_jobs:
             row = {k: r.get(k, "") for k in fields}
             row["h1b_approvals"] = h1b.approvals_for(r.get("company") or "") or ""
+            row["skills"] = "; ".join(r.get("skills") or [])
             writer.writerow(row)

@@ -2918,6 +2918,13 @@
     "site": "BCI"
   },
   {
+    "name": "Blue Origin",
+    "slug": "blueorigin",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "blueorigin"
+  },
+  {
     "name": "Blue Shield of California",
     "slug": "ecge.fa.us2.oraclecloud.com",
     "ats": "oracle",
@@ -2947,13 +2954,6 @@
     "name": "BlueLabs Analytics",
     "slug": "bluelabsanalyticsinc",
     "ats": "greenhouse"
-  },
-  {
-    "name": "Blueorigin",
-    "slug": "blueorigin",
-    "ats": "workday",
-    "wd": "wd5",
-    "site": "blueorigin"
   },
   {
     "name": "Blueprint Technologies",
@@ -9380,6 +9380,16 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Hudson River Trading",
+    "slug": "wehrtyou",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "huggingface",
+    "ats": "workable"
+  },
+  {
     "name": "HUMAN",
     "slug": "human",
     "ats": "ashby"
@@ -10427,18 +10437,18 @@
     "ats": "rippling"
   },
   {
-    "name": "JP Morgan Chase",
-    "slug": "jpmc.fa.oraclecloud.com",
-    "ats": "oracle",
-    "host": "jpmc.fa.oraclecloud.com",
-    "site": "CX_1"
-  },
-  {
     "name": "JPI",
     "slug": "jpi",
     "ats": "workday",
     "wd": "wd1",
     "site": "jpicareers"
+  },
+  {
+    "name": "JPMorganChase",
+    "slug": "jpmc.fa.oraclecloud.com",
+    "ats": "oracle",
+    "host": "jpmc.fa.oraclecloud.com",
+    "site": "CX_1"
   },
   {
     "name": "Julius AI",
@@ -13021,9 +13031,9 @@
   {
     "name": "Netflix",
     "slug": "netflix",
-    "ats": "workday",
-    "wd": "wd1",
-    "site": "Netflix"
+    "ats": "eightfold",
+    "host": "explore.jobs.netflix.net",
+    "domain": "netflix.com"
   },
   {
     "name": "Netlify",
@@ -14293,6 +14303,13 @@
     "ats": "workday",
     "wd": "wd501",
     "site": "PDCO"
+  },
+  {
+    "name": "PayPal",
+    "slug": "paypal",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "jobs"
   },
   {
     "name": "PBS",
@@ -20260,6 +20277,11 @@
   {
     "name": "Waymark",
     "slug": "waymark",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Waymo",
+    "slug": "waymo",
     "ats": "greenhouse"
   },
   {

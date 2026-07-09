@@ -5,14 +5,14 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-09T11:06:06Z</updated>
+  <updated>2026-07-09T12:42:55Z</updated>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275</id>
     <title>Northrop Grumman: 2027 Intern Software Engineer 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275"/>
     <updated>2026-07-08T14:24:54Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Florida-Melbourne · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Florida-Melbourne · $16.25–$36.5/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779</id>
@@ -20,7 +20,7 @@
     <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779"/>
     <updated>2026-07-06T20:05:50Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · US, MO, St. Louis · H-1B track record: ~851 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · US, MO, St. Louis · Python, PyTorch, CUDA, Kubernetes, Linux · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:towerresearchcapital:8044334</id>
@@ -28,7 +28,7 @@
     <link href="https://www.tower-research.com/open-positions/?gh_jid=8044334"/>
     <updated>2026-07-05T23:08:17Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, Chicago · H-1B track record: ~18 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Quant · New York, Chicago · Python, C++, Linux · H-1B track record: ~38 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:saronic:c95c2e3a-4c67-47b0-a03d-0e0317ac11a3</id>
@@ -36,7 +36,7 @@
     <link href="https://jobs.ashbyhq.com/saronic/c95c2e3a-4c67-47b0-a03d-0e0317ac11a3"/>
     <updated>2026-07-02T23:15:03Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Austin, TX · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Austin, TX · LLMs · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488</id>
@@ -44,7 +44,7 @@
     <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488"/>
     <updated>2026-07-02T18:48:20Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Santa Clara · H-1B track record: ~851 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Santa Clara · Python, PyTorch · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:imc:4823924101</id>
@@ -52,7 +52,7 @@
     <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4823924101"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, United States</summary>
+    <summary>Summer 2027 · Software · Chicago, United States · Java, C++</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:imc:4907430101</id>
@@ -60,7 +60,7 @@
     <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4907430101"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Chicago, United States</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Chicago, United States · Python, PyTorch, TensorFlow</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workable:tmeic-corporation-americas:FD4C9770FF</id>
@@ -68,7 +68,7 @@
     <link href="https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Roanoke, Virginia, United States · sponsorship: no-sponsorship</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Roanoke, Virginia, United States · sponsorship: no-sponsorship · H-1B track record: ~12 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:abb:/job/USA-NC-Cary/AI---Data-Scientist-AI-Intern---Fall-2026_JR00036225</id>
@@ -76,7 +76,7 @@
     <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI---Data-Scientist-AI-Intern---Fall-2026_JR00036225"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · USA, NC, Cary · sponsorship: no-sponsorship · H-1B track record: ~43 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · USA, NC, Cary · $20–$34/hr · sponsorship: no-sponsorship · H-1B track record: ~69 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:lego:/job/Boston-Hub/Firmware-Engineering-Intern_0000031568</id>
@@ -84,7 +84,7 @@
     <link href="https://lego.wd103.myworkdayjobs.com/lego_executive/job/Boston-Hub/Firmware-Engineering-Intern_0000031568"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Hardware · United States of America</summary>
+    <summary>Fall 2026 · Hardware · United States of America · Python</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:motorolasolutions:/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372</id>
@@ -92,7 +92,7 @@
     <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Irvine, CA · sponsorship: citizens-only · H-1B track record: ~104 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · Irvine, CA · sponsorship: citizens-only · H-1B track record: ~191 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:motorolasolutions:/job/Los-Angeles-CA/Intern---Web-Interface-Software-Engineer--2026-_R64590</id>
@@ -100,7 +100,7 @@
     <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Intern---Web-Interface-Software-Engineer--2026-_R64590"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Los Angeles, CA · sponsorship: citizens-only · H-1B track record: ~104 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · Los Angeles, CA · Python, C++, JavaScript, React, Linux · sponsorship: citizens-only · H-1B track record: ~191 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:vrtx:/job/Boston-MA/Vertex-Fall-Co-op-2026--AI-and-Governance_REQ-28615-1</id>
@@ -108,7 +108,7 @@
     <link href="https://vrtx.wd501.myworkdayjobs.com/vertex_careers/job/Boston-MA/Vertex-Fall-Co-op-2026--AI-and-Governance_REQ-28615-1"/>
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Boston, MA · sponsorship: no-sponsorship · H-1B track record: ~64 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Boston, MA · sponsorship: no-sponsorship · H-1B track record: ~171 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10412530</id>
@@ -116,7 +116,7 @@
     <link href="https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us"/>
     <updated>2026-06-30T17:50:48Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Seattle, Washington, USA</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:3116030</id>
@@ -124,7 +124,7 @@
     <link href="https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us"/>
     <updated>2026-06-30T17:50:48Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Seattle, Washington, USA</summary>
+    <summary>Fall 2026 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:3132414</id>
@@ -132,7 +132,7 @@
     <link href="https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics"/>
     <updated>2026-06-30T17:50:48Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · North Reading, Massachusetts, USA</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · North Reading, Massachusetts, USA · $65.38/hr · Python, Java, C++, LLMs, Computer Vision · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:3136266</id>
@@ -140,7 +140,7 @@
     <link href="https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026"/>
     <updated>2026-06-30T17:50:48Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Hardware · Westboro, Wisconsin, USA</summary>
+    <summary>Fall 2026 · Hardware · Westboro, Wisconsin, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:andurilindustries:5148079007</id>
@@ -148,7 +148,7 @@
     <link href="https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007"/>
     <updated>2026-06-30T12:22:43Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States · Python, Java, C++, Rust, Computer Vision · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:nvidia:/job/US-CA-Remote/Quantum-Error-Correction-Research-Scientist-Intern---Fall-2026_JR2018628</id>
@@ -156,7 +156,7 @@
     <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Quantum-Error-Correction-Research-Scientist-Intern---Fall-2026_JR2018628"/>
     <updated>2026-06-30T12:22:43Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Remote · H-1B track record: ~851 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Remote · Python, CUDA · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:nvidia:/job/US-CA-Remote/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244</id>
@@ -164,7 +164,7 @@
     <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244"/>
     <updated>2026-06-30T12:22:43Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Remote · H-1B track record: ~851 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Remote · Python, LLMs, CUDA · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745</id>
@@ -172,7 +172,7 @@
     <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745"/>
     <updated>2026-06-30T12:22:43Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · US, CA, Santa Clara · H-1B track record: ~851 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · US, CA, Santa Clara · Python, C++, PyTorch, TensorFlow, scikit-learn · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:1password:8f8774dc-e400-48b1-8100-c6840b8eaed1</id>
@@ -180,7 +180,7 @@
     <link href="https://jobs.ashbyhq.com/1password/8f8774dc-e400-48b1-8100-c6840b8eaed1"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Remote (United States | Canada)</summary>
+    <summary>Fall 2026 · Software · Remote (United States | Canada) · Rust</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:ellipsislabs:02136b22-35b1-4b3d-8bef-567c3380a849</id>
@@ -188,7 +188,7 @@
     <link href="https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, New York · $10K per month</summary>
+    <summary>Summer 2027 · Software · New York, New York · $10K per month · Python, Java, C++, Rust, TypeScript</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:notion:5b15697c-fa91-4511-9482-c98a6ff29f90</id>
@@ -196,7 +196,7 @@
     <link href="https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · San Francisco, California · H-1B track record: ~12 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · San Francisco, California · $57/hr · Python, TypeScript, LLMs, React, Node.js · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:saronic:1c74957f-0895-415b-9324-08b0994747d7</id>
@@ -204,7 +204,7 @@
     <link href="https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Austin, TX · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · Austin, TX · Python, C++, Rust, TypeScript, JavaScript · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915</id>
@@ -212,7 +212,7 @@
     <link href="https://jobs.ashbyhq.com/skydio/7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · San Mateo, California, United States · H-1B track record: ~17 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · San Mateo, California, United States · $47/hr · Python, C++ · H-1B track record: ~26 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:f6320e9b-4eed-408d-8d37-d509fb0406ee</id>
@@ -220,7 +220,7 @@
     <link href="https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · San Mateo, California, United States · H-1B track record: ~17 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · San Mateo, California, United States · $47/hr · Python, Go, TypeScript, JavaScript, AWS · H-1B track record: ~26 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:astranis:4681183006</id>
@@ -228,7 +228,7 @@
     <link href="https://job-boards.greenhouse.io/astranis/jobs/4681183006"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · San Francisco, CA · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · San Francisco, CA · $29/hr · Python, Kubernetes, PostgreSQL · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:figureai:4691070006</id>
@@ -236,7 +236,7 @@
     <link href="https://job-boards.greenhouse.io/figureai/jobs/4691070006"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Hardware · San Jose, CA</summary>
+    <summary>Fall 2026 · Hardware · San Jose, CA · $40–$45/hr · Python, C++</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gemini:7875125</id>
@@ -244,7 +244,7 @@
     <link href="https://boards.greenhouse.io/embed/job_app?for=gemini&amp;token=7875125&amp;gh_jid=7875125"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · New York, New York · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Software · New York, New York · $50/hr · H-1B track record: ~44 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:rocketlab:7736776003</id>
@@ -252,7 +252,7 @@
     <link href="https://job-boards.greenhouse.io/rocketlab/jobs/7736776003"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Albuquerque, NM · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · Albuquerque, NM · Python, TypeScript, JavaScript, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:samsungresearchamericainternship:8541339002</id>
@@ -260,7 +260,7 @@
     <link href="https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8541339002"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · 665 Clyde Avenue, Mountain View,  CA, USA · H-1B track record: ~41 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · 665 Clyde Avenue, Mountain View,  CA, USA · PyTorch, TensorFlow, LLMs · H-1B track record: ~98 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:samsungresearchamericainternship:8560657002</id>
@@ -268,7 +268,7 @@
     <link href="https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8560657002"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · 665 Clyde Avenue, Mountain View,  CA, USA · H-1B track record: ~41 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · 665 Clyde Avenue, Mountain View,  CA, USA · Python, PyTorch, LLMs · H-1B track record: ~98 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:sharkninjaoperatingllc:4669676006</id>
@@ -276,7 +276,7 @@
     <link href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Miami, Florida, United States; Needham, MA, United States; New York, New York, United States</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Miami, Florida, United States; Needham, MA, United States; New York, New York, United States · Python, SQL, LLMs, AWS, Tableau · H-1B track record: ~23 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:vardaspace:7676465003</id>
@@ -284,7 +284,7 @@
     <link href="https://job-boards.greenhouse.io/vardaspace/jobs/7676465003"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · El Segundo, California, United States · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · El Segundo, California, United States · Python, C++, Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:walleyecapital-external-students:4676587006</id>
@@ -292,7 +292,7 @@
     <link href="https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, New York</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, New York · Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:walleyecapital-external-students:4679168006</id>
@@ -300,7 +300,7 @@
     <link href="https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Boston, MA</summary>
+    <summary>Summer 2027 · Quant · Boston, MA · Python, PyTorch, TensorFlow, scikit-learn, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:walleyecapital-external-students:4679434006</id>
@@ -308,7 +308,7 @@
     <link href="https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, New York</summary>
+    <summary>Summer 2027 · Quant · New York, New York · Python, Java, C++</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:aisafety:e011814b-9a80-43d6-bb0c-cc153ea4bec4</id>
@@ -316,7 +316,7 @@
     <link href="https://jobs.lever.co/aisafety/e011814b-9a80-43d6-bb0c-cc153ea4bec4"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · San Francisco, CA · 9,700–19,000 USD / per year salary</summary>
+    <summary>Fall 2026 · Software · San Francisco, CA · 9,700–19,000 USD / per year salary · PyTorch, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:hermeus:10d69ef6-a754-42ab-833c-76adf01367bf</id>
@@ -324,7 +324,7 @@
     <link href="https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Atlanta, GA · 25–33 USD / per hour wage · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · Atlanta, GA · 25–33 USD / per hour wage · Python, C++, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:hermeus:49f7cf3f-bf66-44ca-bf97-ee0f7180a68d</id>
@@ -332,7 +332,7 @@
     <link href="https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Los Angeles, CA · 25–33 USD / per hour wage · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · Los Angeles, CA · 25–33 USD / per hour wage · Python, C++, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:hermeus:51378fa0-0327-45fd-9420-b6e7d8b56440</id>
@@ -340,7 +340,7 @@
     <link href="https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Atlanta, GA · 25–33 USD / per hour wage · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · Atlanta, GA · 25–33 USD / per hour wage · C++ · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:hermeus:a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67</id>
@@ -348,7 +348,7 @@
     <link href="https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Atlanta, GA · 25–33 USD / per hour wage · sponsorship: citizens-only</summary>
+    <summary>Fall 2026 · Software · Atlanta, GA · 25–33 USD / per hour wage · C++, TypeScript, JavaScript, React, Angular · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:solopulseco:00fbde18-a387-4c9f-97d4-77059aec7b56</id>
@@ -356,7 +356,7 @@
     <link href="https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Peachtree Corners, GA</summary>
+    <summary>Fall 2026 · Software · Peachtree Corners, GA · Python, C++, PyTorch, CUDA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Intuitive:744000133458290</id>
@@ -364,6 +364,6 @@
     <link href="https://jobs.smartrecruiters.com/Intuitive/744000133458290"/>
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Sunnyvale, CA, United States · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, C++, PyTorch, Computer Vision · H-1B track record: ~14 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

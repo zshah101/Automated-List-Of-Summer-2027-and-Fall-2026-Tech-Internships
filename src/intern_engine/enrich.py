@@ -13,7 +13,7 @@ from __future__ import annotations
 import asyncio
 import re
 
-from . import sponsorship
+from . import skills, sponsorship
 from .models import Job
 from .net import Net
 
@@ -125,9 +125,13 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
     async def _resolve(job: Job) -> str | None:
         nonlocal fetched
         prior = existing.get(job.id) or {}
-        if prior.get("enriched_at") or prior.get("sponsorship", "unknown") != "unknown":
+        settled = bool(
+            prior.get("enriched_at") or prior.get("sponsorship", "unknown") != "unknown"
+        )
+        if settled and prior.get("skills") is not None:
             job.sponsorship = prior.get("sponsorship", "unknown")
             return None  # already settled on an earlier run
+        # (settled but skills missing = record predates skill tags; re-fetch once)
         if job.description is None:
             fetcher = _FETCHERS.get(job.source)
             if fetcher is not None:
@@ -137,7 +141,14 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
                     fetched += 1
                 except Exception:  # noqa: BLE001 — a dead detail page must not kill the run
                     return None  # no enriched_at -> retried on the next run
-        job.sponsorship = sponsorship.classify(job.description)
+        if settled:
+            job.sponsorship = prior.get("sponsorship", "unknown")  # never flip a verdict
+        else:
+            job.sponsorship = sponsorship.classify(job.description)
+        text = sponsorship.strip_html(job.description) if job.description else ""
+        job.skills = skills.extract(text)
+        if not job.salary:
+            job.salary = skills.extract_pay(text)
         return job.id
 
     done = await asyncio.gather(*(_resolve(j) for j in jobs))

@@ -39,6 +39,7 @@ _ALIASES = {
     "google": "google",                       # resolved by prefix, kept for clarity
     "meta": "meta platforms",
     "ibm": "international business machines",
+    "amazon": "amazon com services",          # 13 "Amazon ..." entities; this is the petitioner
     "aws": "amazon web services",
     "gm": "general motors",
     "jpmorgan": "jpmorgan chase",
@@ -70,6 +71,10 @@ def normalize(name: str) -> str:
     n = _PUNCT_RE.sub(" ", n)
     n = _WS_RE.sub(" ", n).strip()
     tokens = n.split(" ")
+    # "The Boeing Company" and "Boeing" must land on the same key; both sides
+    # of the join go through this function, so the strip stays consistent.
+    if len(tokens) > 1 and tokens[0] == "the":
+        tokens.pop(0)
     while len(tokens) > 1 and tokens[-1] in _SUFFIXES:
         tokens.pop()
     return " ".join(tokens)

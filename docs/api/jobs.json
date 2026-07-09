@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-09T11:06:06Z",
+ "generated_at": "2026-07-09T12:42:55Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 45,
@@ -15,7 +15,8 @@
    "posted_at": "2026-07-08T00:00:00Z",
    "first_seen_at": "2026-07-08T14:24:54Z",
    "sponsorship": "citizens-only",
-   "salary": null,
+   "salary": "$16.25–$36.5/hr",
+   "skills": [],
    "source": "workday",
    "h1b_approvals": null
   },
@@ -31,8 +32,15 @@
    "first_seen_at": "2026-07-06T20:05:50Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "CUDA",
+    "Kubernetes",
+    "Linux"
+   ],
    "source": "workday",
-   "h1b_approvals": 851
+   "h1b_approvals": 1526
   },
   {
    "id": "greenhouse:towerresearchcapital:8044334",
@@ -46,8 +54,13 @@
    "first_seen_at": "2026-07-05T23:08:17Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Linux"
+   ],
    "source": "greenhouse",
-   "h1b_approvals": 18
+   "h1b_approvals": 38
   },
   {
    "id": "ashby:saronic:c95c2e3a-4c67-47b0-a03d-0e0317ac11a3",
@@ -61,6 +74,9 @@
    "first_seen_at": "2026-07-02T23:15:03Z",
    "sponsorship": "citizens-only",
    "salary": null,
+   "skills": [
+    "LLMs"
+   ],
    "source": "ashby",
    "h1b_approvals": null
   },
@@ -76,8 +92,12 @@
    "first_seen_at": "2026-07-02T18:48:20Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch"
+   ],
    "source": "workday",
-   "h1b_approvals": 851
+   "h1b_approvals": 1526
   },
   {
    "id": "greenhouse:imc:4823924101",
@@ -91,6 +111,10 @@
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Java",
+    "C++"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -106,6 +130,11 @@
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -120,9 +149,13 @@
    "posted_at": "2026-06-22T14:13:34-04:00",
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
-   "salary": null,
+   "salary": "$40–$45/hr",
+   "skills": [
+    "Python",
+    "C++"
+   ],
    "source": "greenhouse",
-   "h1b_approvals": null
+   "h1b_approvals": 4
   },
   {
    "id": "smartrecruiters:Intuitive:744000133458290",
@@ -136,8 +169,14 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "Computer Vision"
+   ],
    "source": "smartrecruiters",
-   "h1b_approvals": 10
+   "h1b_approvals": 14
   },
   {
    "id": "workday:abb:/job/USA-NC-Cary/AI---Data-Scientist-AI-Intern---Fall-2026_JR00036225",
@@ -150,9 +189,10 @@
    "posted_at": "2026-06-18T00:00:00Z",
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "no-sponsorship",
-   "salary": null,
+   "salary": "$20–$34/hr",
+   "skills": [],
    "source": "workday",
-   "h1b_approvals": 43
+   "h1b_approvals": 69
   },
   {
    "id": "lever:solopulseco:00fbde18-a387-4c9f-97d4-77059aec7b56",
@@ -166,6 +206,12 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "CUDA"
+   ],
    "source": "lever",
    "h1b_approvals": null
   },
@@ -181,6 +227,13 @@
    "first_seen_at": "2026-06-30T12:22:43Z",
    "sponsorship": "citizens-only",
    "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "Rust",
+    "Computer Vision"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -196,8 +249,9 @@
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "no-sponsorship",
    "salary": null,
+   "skills": [],
    "source": "workday",
-   "h1b_approvals": 64
+   "h1b_approvals": 171
   },
   {
    "id": "ashby:1password:8f8774dc-e400-48b1-8100-c6840b8eaed1",
@@ -211,6 +265,9 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Rust"
+   ],
    "source": "ashby",
    "h1b_approvals": null
   },
@@ -226,6 +283,9 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Linux"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -241,6 +301,14 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "LLMs",
+    "Linux"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -256,6 +324,11 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -271,8 +344,13 @@
    "first_seen_at": "2026-06-30T12:22:43Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "LLMs",
+    "CUDA"
+   ],
    "source": "workday",
-   "h1b_approvals": 851
+   "h1b_approvals": 1526
   },
   {
    "id": "greenhouse:samsungresearchamericainternship:8560657002",
@@ -286,8 +364,13 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "LLMs"
+   ],
    "source": "greenhouse",
-   "h1b_approvals": 41
+   "h1b_approvals": 98
   },
   {
    "id": "workday:nvidia:/job/US-CA-Remote/Quantum-Error-Correction-Research-Scientist-Intern---Fall-2026_JR2018628",
@@ -301,8 +384,12 @@
    "first_seen_at": "2026-06-30T12:22:43Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "CUDA"
+   ],
    "source": "workday",
-   "h1b_approvals": 851
+   "h1b_approvals": 1526
   },
   {
    "id": "ashby:skydio:7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915",
@@ -315,9 +402,13 @@
    "posted_at": "2026-05-21T21:53:22.384+00:00",
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
-   "salary": null,
+   "salary": "$47/hr",
+   "skills": [
+    "Python",
+    "C++"
+   ],
    "source": "ashby",
-   "h1b_approvals": 17
+   "h1b_approvals": 26
   },
   {
    "id": "greenhouse:rocketlab:7736776003",
@@ -331,6 +422,12 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
    "salary": null,
+   "skills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "Git"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -346,6 +443,13 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
    "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Rust",
+    "TypeScript",
+    "JavaScript"
+   ],
    "source": "ashby",
    "h1b_approvals": null
   },
@@ -360,7 +464,12 @@
    "posted_at": "2026-05-13T16:07:31-04:00",
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
-   "salary": null,
+   "salary": "$29/hr",
+   "skills": [
+    "Python",
+    "Kubernetes",
+    "PostgreSQL"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -376,8 +485,13 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "PyTorch",
+    "TensorFlow",
+    "LLMs"
+   ],
    "source": "greenhouse",
-   "h1b_approvals": 41
+   "h1b_approvals": 98
   },
   {
    "id": "amazon:amazon:10412530",
@@ -391,8 +505,18 @@
    "first_seen_at": "2026-06-30T17:50:48Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "C#",
+    "Rust",
+    "TypeScript",
+    "SQL",
+    "LLMs"
+   ],
    "source": "amazon",
-   "h1b_approvals": null
+   "h1b_approvals": 23139
   },
   {
    "id": "ashby:skydio:f6320e9b-4eed-408d-8d37-d509fb0406ee",
@@ -405,9 +529,19 @@
    "posted_at": "2026-05-05T22:59:03.280+00:00",
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
-   "salary": null,
+   "salary": "$47/hr",
+   "skills": [
+    "Python",
+    "Go",
+    "TypeScript",
+    "JavaScript",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Linux"
+   ],
    "source": "ashby",
-   "h1b_approvals": 17
+   "h1b_approvals": 26
   },
   {
    "id": "workday:motorolasolutions:/job/Los-Angeles-CA/Intern---Web-Interface-Software-Engineer--2026-_R64590",
@@ -421,8 +555,15 @@
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "citizens-only",
    "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "JavaScript",
+    "React",
+    "Linux"
+   ],
    "source": "workday",
-   "h1b_approvals": 104
+   "h1b_approvals": 191
   },
   {
    "id": "greenhouse:gemini:7875125",
@@ -435,9 +576,10 @@
    "posted_at": "2026-05-01T16:57:37-04:00",
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
-   "salary": null,
+   "salary": "$50/hr",
+   "skills": [],
    "source": "greenhouse",
-   "h1b_approvals": 28
+   "h1b_approvals": 44
   },
   {
    "id": "workable:tmeic-corporation-americas:FD4C9770FF",
@@ -451,8 +593,9 @@
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "no-sponsorship",
    "salary": null,
+   "skills": [],
    "source": "workable",
-   "h1b_approvals": 7
+   "h1b_approvals": 12
   },
   {
    "id": "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
@@ -466,8 +609,15 @@
    "first_seen_at": "2026-06-30T12:22:43Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn"
+   ],
    "source": "workday",
-   "h1b_approvals": 851
+   "h1b_approvals": 1526
   },
   {
    "id": "workday:lego:/job/Boston-Hub/Firmware-Engineering-Intern_0000031568",
@@ -481,8 +631,11 @@
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python"
+   ],
    "source": "workday",
-   "h1b_approvals": 3
+   "h1b_approvals": 9
   },
   {
    "id": "lever:hermeus:10d69ef6-a754-42ab-833c-76adf01367bf",
@@ -496,6 +649,11 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
    "salary": "25–33 USD / per hour wage",
+   "skills": [
+    "Python",
+    "C++",
+    "MATLAB"
+   ],
    "source": "lever",
    "h1b_approvals": null
   },
@@ -511,6 +669,11 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
    "salary": "25–33 USD / per hour wage",
+   "skills": [
+    "Python",
+    "C++",
+    "MATLAB"
+   ],
    "source": "lever",
    "h1b_approvals": null
   },
@@ -525,9 +688,16 @@
    "posted_at": "2026-04-06T22:40:58.312+00:00",
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
-   "salary": null,
+   "salary": "$57/hr",
+   "skills": [
+    "Python",
+    "TypeScript",
+    "LLMs",
+    "React",
+    "Node.js"
+   ],
    "source": "ashby",
-   "h1b_approvals": 12
+   "h1b_approvals": 28
   },
   {
    "id": "greenhouse:sharkninjaoperatingllc:4669676006",
@@ -541,8 +711,15 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "LLMs",
+    "AWS",
+    "Tableau"
+   ],
    "source": "greenhouse",
-   "h1b_approvals": 6
+   "h1b_approvals": 23
   },
   {
    "id": "lever:hermeus:a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
@@ -556,6 +733,13 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
    "salary": "25–33 USD / per hour wage",
+   "skills": [
+    "C++",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Angular"
+   ],
    "source": "lever",
    "h1b_approvals": null
   },
@@ -571,8 +755,9 @@
    "first_seen_at": "2026-07-01T20:55:33Z",
    "sponsorship": "citizens-only",
    "salary": null,
+   "skills": [],
    "source": "workday",
-   "h1b_approvals": 104
+   "h1b_approvals": 191
   },
   {
    "id": "ashby:ellipsislabs:02136b22-35b1-4b3d-8bef-567c3380a849",
@@ -586,6 +771,16 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": "$10K per month",
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "Rust",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Docker"
+   ],
    "source": "ashby",
    "h1b_approvals": null
   },
@@ -601,6 +796,11 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
    "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Linux"
+   ],
    "source": "greenhouse",
    "h1b_approvals": null
   },
@@ -616,6 +816,10 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "unknown",
    "salary": "9,700–19,000 USD / per year salary",
+   "skills": [
+    "PyTorch",
+    "LLMs"
+   ],
    "source": "lever",
    "h1b_approvals": null
   },
@@ -631,6 +835,9 @@
    "first_seen_at": "2026-06-30T12:14:22Z",
    "sponsorship": "citizens-only",
    "salary": "25–33 USD / per hour wage",
+   "skills": [
+    "C++"
+   ],
    "source": "lever",
    "h1b_approvals": null
   },
@@ -646,8 +853,18 @@
    "first_seen_at": "2026-06-30T17:50:48Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "C#",
+    "Rust",
+    "TypeScript",
+    "SQL",
+    "LLMs"
+   ],
    "source": "amazon",
-   "h1b_approvals": null
+   "h1b_approvals": 23139
   },
   {
    "id": "amazon:amazon:3132414",
@@ -660,9 +877,16 @@
    "posted_at": "2025-11-25T00:00:00Z",
    "first_seen_at": "2026-06-30T17:50:48Z",
    "sponsorship": "unknown",
-   "salary": null,
+   "salary": "$65.38/hr",
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "LLMs",
+    "Computer Vision"
+   ],
    "source": "amazon",
-   "h1b_approvals": null
+   "h1b_approvals": 23139
   },
   {
    "id": "amazon:amazon:3116030",
@@ -676,8 +900,18 @@
    "first_seen_at": "2026-06-30T17:50:48Z",
    "sponsorship": "unknown",
    "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "C#",
+    "Rust",
+    "TypeScript",
+    "SQL",
+    "LLMs"
+   ],
    "source": "amazon",
-   "h1b_approvals": null
+   "h1b_approvals": 23139
   }
  ]
 }
