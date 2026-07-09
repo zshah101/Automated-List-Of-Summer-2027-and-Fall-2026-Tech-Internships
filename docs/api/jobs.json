@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-09T20:03:01Z",
+ "generated_at": "2026-07-09T21:41:43Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 47,
+ "count": 46,
  "jobs": [
   {
    "id": "greenhouse:uberfreight:5194491008",
@@ -295,24 +295,6 @@
    "skills": [],
    "source": "workday",
    "h1b_approvals": 171
-  },
-  {
-   "id": "ashby:1password:8f8774dc-e400-48b1-8100-c6840b8eaed1",
-   "company": "1Password",
-   "title": "Developer Intern, Trust Platforms - Fall 2026",
-   "season": "Fall 2026",
-   "category": "Software",
-   "location": "Remote (United States | Canada)",
-   "url": "https://jobs.ashbyhq.com/1password/8f8774dc-e400-48b1-8100-c6840b8eaed1",
-   "posted_at": "2026-06-09T22:32:05.190+00:00",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Rust"
-   ],
-   "source": "ashby",
-   "h1b_approvals": null
   },
   {
    "id": "greenhouse:walleyecapital-external-students:4676587006",
