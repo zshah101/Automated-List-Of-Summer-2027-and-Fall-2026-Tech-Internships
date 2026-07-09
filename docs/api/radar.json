@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-08T23:15:00Z",
+ "generated_at": "2026-07-09T03:38:07Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -12,7 +12,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-03-26",
-   "days_until": -104,
+   "days_until": -105,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849",
    "note": ""
@@ -26,7 +26,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-01",
-   "days_until": -37,
+   "days_until": -38,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
    "note": ""
@@ -40,7 +40,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-10",
-   "days_until": -28,
+   "days_until": -29,
    "status": "open",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
    "note": ""
@@ -54,7 +54,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-01",
-   "days_until": -7,
+   "days_until": -8,
    "status": "open",
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
    "note": "posts early, rolling"
@@ -68,7 +68,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-05",
-   "days_until": -3,
+   "days_until": -4,
    "status": "open",
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
    "note": ""
@@ -82,7 +82,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-08",
-   "days_until": 0,
+   "days_until": -1,
    "status": "open",
    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
    "note": ""
@@ -96,7 +96,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-05-13",
-   "days_until": -56,
+   "days_until": -57,
    "status": "dropped",
    "url": "",
    "note": "rolling from mid-summer, very early"
@@ -110,7 +110,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-28",
-   "days_until": -10,
+   "days_until": -11,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -124,7 +124,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 24,
+   "days_until": 23,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct"
@@ -138,7 +138,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 24,
+   "days_until": 23,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct"
@@ -152,7 +152,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 24,
+   "days_until": 23,
    "status": "waiting",
    "url": "",
    "note": "rolling from Aug"
@@ -166,7 +166,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 24,
+   "days_until": 23,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct main window"
@@ -180,7 +180,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 24,
+   "days_until": 23,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug, rolling"
@@ -194,7 +194,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 24,
+   "days_until": 23,
    "status": "waiting",
    "url": "",
    "note": "late Aug, rolling into Nov"
@@ -208,7 +208,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 24,
+   "days_until": 23,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug for next summer"
@@ -222,7 +222,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 55,
+   "days_until": 54,
    "status": "waiting",
    "url": "",
    "note": "opens fall, closes early Feb"
@@ -236,7 +236,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 55,
+   "days_until": 54,
    "status": "waiting",
    "url": "",
    "note": "early Sept, closes mid-Nov"
@@ -250,7 +250,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-10-01",
-   "days_until": 85,
+   "days_until": 84,
    "status": "waiting",
    "url": "",
    "note": "apply by end of prior year; class set early Q1"
@@ -264,7 +264,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 146,
+   "days_until": 145,
    "status": "waiting",
    "url": "",
    "note": "Dec-Jan, peak hiring Feb"
@@ -278,7 +278,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 146,
+   "days_until": 145,
    "status": "waiting",
    "url": "",
    "note": "Dec-Jan early movers"
@@ -292,7 +292,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 146,
+   "days_until": 145,
    "status": "waiting",
    "url": "",
    "note": "opens ~Dec, deadline late Feb"
