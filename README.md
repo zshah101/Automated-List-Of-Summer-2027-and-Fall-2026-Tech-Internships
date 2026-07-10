@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**40 open roles · 4 new this week · 3,593 companies tracked · updated Jul 10, 2026 at 14:37 UTC**
+**39 open roles · 4 new this week · 3,593 companies tracked · updated Jul 10, 2026 at 17:52 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -63,7 +63,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (32 open)
+## Fall 2026  (31 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -75,7 +75,6 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Figure | Firmware Intern [Fall 2026] | Hardware | San Jose, CA | Jun 22, 2026 | [Apply](https://job-boards.greenhouse.io/figureai/jobs/4691070006) |
 | Intuitive Surgical ✓ | Computer Vision Engineering Intern - Fall 2026 | Data & ML/AI | Sunnyvale, CA, United States | Jun 22, 2026 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000133458290) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Software | Peachtree Corners, GA | Jun 16, 2026 | [Apply](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
-| Vertex Pharmaceuticals ✓ | Vertex Fall Co-op 2026, AI and Governance 🛂 | Data & ML/AI | Boston, MA | Jun 09, 2026 | [Apply](https://vrtx.wd501.myworkdayjobs.com/vertex_careers/job/Boston-MA/Vertex-Fall-Co-op-2026--AI-and-Governance_REQ-28615-1) |
 | NVIDIA ✓ | Quantum Research Scientist Intern - Fall 2026 | Data & ML/AI | US, CA, Remote | May 27, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244) |
 | Samsung Research America ✓ | 2026 Fall Intern, Computer Vision/AI | Data & ML/AI | 665 Clyde Avenue +3 more | May 27, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8560657002) |
 | Skydio ✓ | Middleware Software Engineer Intern - Fall 2026 | Software | San Mateo, California, United States | May 21, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915) |
@@ -138,6 +137,7 @@ _25 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Vertex Pharmaceuticals | Vertex Fall Co-op 2026, AI and Governance | Fall 2026 | 2026-07-10 |
 | ABB | AI & Data Scientist  Intern - Fall 2026 | Fall 2026 | 2026-07-10 |
 | Northrop Grumman | 2027 Intern Software Engineer | Summer 2027 | 2026-07-09 |
 | 1Password | Developer Intern, Trust Platforms - Fall 2026 | Fall 2026 | 2026-07-09 |
@@ -177,7 +177,6 @@ _25 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | Creatify Lab | Software Engineer Intern 2026 | Fall 2026 | 2026-06-30 |
 | Snowflake | Software Engineer Intern - Zurich (2026) | Fall 2026 | 2026-06-30 |
 | Snowflake | Software Engineer Intern - Berlin (2026) | Fall 2026 | 2026-06-30 |
-| Snowflake | Software Engineer Intern (AI/ML) - 2026 | Fall 2026 | 2026-06-30 |
 
 </details>
 
@@ -196,7 +195,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,593 companies across 12 ATS platforms · 99% fetch success · completed in 249.8s · median detection latency 1064 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,593 companies across 12 ATS platforms · 99% fetch success · completed in 221.6s · median detection latency 1064 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
