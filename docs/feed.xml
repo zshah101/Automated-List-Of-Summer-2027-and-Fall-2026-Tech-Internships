@@ -5,7 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-13T07:01:07Z</updated>
+  <updated>2026-07-13T11:18:45Z</updated>
+  <entry>
+    <id>urn:intern-engine:ashby:junior:23ee686b-d305-4ac9-860d-16c99ddb4891</id>
+    <title>Junior: Software Engineering Intern — Fall 2026 🇺🇸</title>
+    <link href="https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891"/>
+    <updated>2026-07-13T11:18:44Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · New York City · $40/hr · TypeScript, JavaScript, LLMs · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:uberfreight:5194491008</id>
     <title>Uber Freight: Data Scientist Intern - Fall 2026 🛂</title>

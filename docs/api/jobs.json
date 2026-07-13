@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-13T07:01:07Z",
+ "generated_at": "2026-07-13T11:18:45Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 43,
+ "count": 44,
  "jobs": [
   {
    "id": "greenhouse:uberfreight:5194491008",
@@ -163,6 +163,26 @@
     "TensorFlow"
    ],
    "source": "greenhouse",
+   "h1b_approvals": null
+  },
+  {
+   "id": "ashby:junior:23ee686b-d305-4ac9-860d-16c99ddb4891",
+   "company": "Junior",
+   "title": "Software Engineering Intern — Fall 2026",
+   "season": "Fall 2026",
+   "category": "Software",
+   "location": "New York City",
+   "url": "https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891",
+   "posted_at": "2026-06-30T18:51:50.247+00:00",
+   "first_seen_at": "2026-07-13T11:18:44Z",
+   "sponsorship": "citizens-only",
+   "salary": "$40/hr",
+   "skills": [
+    "TypeScript",
+    "JavaScript",
+    "LLMs"
+   ],
+   "source": "ashby",
    "h1b_approvals": null
   },
   {
