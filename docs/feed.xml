@@ -5,7 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-13T19:44:34Z</updated>
+  <updated>2026-07-13T21:03:40Z</updated>
+  <entry>
+    <id>urn:intern-engine:greenhouse:akunacapital:8018847</id>
+    <title>Akuna Capital: Software Engineer Intern - C++, Summer 2027</title>
+    <link href="https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847"/>
+    <updated>2026-07-13T19:44:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, IL · Python, C++, React · H-1B track record: ~40 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:akunacapital:8018853</id>
+    <title>Akuna Capital: Software Engineer Intern - Python, Summer 2027</title>
+    <link href="https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853"/>
+    <updated>2026-07-13T19:44:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, IL · Python, React · H-1B track record: ~40 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:akunacapital:8018856</id>
     <title>Akuna Capital: Platform Engineer Intern, Summer 2027</title>
@@ -23,28 +39,12 @@
     <summary>Summer 2027 · Software · Chicago, IL · C#, .NET, Git · H-1B track record: ~40 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:akunacapital:8018847</id>
-    <title>Akuna Capital: Software Engineer Intern - C++, Summer 2027</title>
-    <link href="https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847"/>
-    <updated>2026-07-13T19:44:33Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, IL · Python, C++, React · H-1B track record: ~40 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:akunacapital:8018893</id>
     <title>Akuna Capital: Software Engineer Intern - Full Stack Web, Summer 2027</title>
     <link href="https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893"/>
     <updated>2026-07-13T19:44:33Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Chicago, IL · Python, TypeScript, JavaScript, React, Linux · H-1B track record: ~40 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:akunacapital:8018853</id>
-    <title>Akuna Capital: Software Engineer Intern - Python, Summer 2027</title>
-    <link href="https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853"/>
-    <updated>2026-07-13T19:44:33Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, IL · Python, React · H-1B track record: ~40 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:wehrtyou:8052083</id>
