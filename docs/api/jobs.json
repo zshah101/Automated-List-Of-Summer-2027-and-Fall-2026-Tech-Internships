@@ -1,9 +1,111 @@
 {
- "generated_at": "2026-07-13T18:00:59Z",
+ "generated_at": "2026-07-13T19:44:34Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 44,
+ "count": 48,
  "jobs": [
+  {
+   "id": "greenhouse:akunacapital:8018856",
+   "company": "Akuna Capital",
+   "title": "Platform Engineer Intern, Summer 2027",
+   "season": "Summer 2027",
+   "category": "Software",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856",
+   "posted_at": "2026-07-13T14:21:52-04:00",
+   "first_seen_at": "2026-07-13T19:44:33Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "React",
+    "AWS",
+    "Kubernetes"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 40
+  },
+  {
+   "id": "greenhouse:akunacapital:8018886",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - C# .NET Desktop, Summer 2027",
+   "season": "Summer 2027",
+   "category": "Software",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886",
+   "posted_at": "2026-07-13T14:21:28-04:00",
+   "first_seen_at": "2026-07-13T19:44:33Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "C#",
+    ".NET",
+    "Git"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 40
+  },
+  {
+   "id": "greenhouse:akunacapital:8018847",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - C++, Summer 2027",
+   "season": "Summer 2027",
+   "category": "Software",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
+   "posted_at": "2026-07-13T14:41:20-04:00",
+   "first_seen_at": "2026-07-13T19:44:33Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "React"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 40
+  },
+  {
+   "id": "greenhouse:akunacapital:8018893",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - Full Stack Web, Summer 2027",
+   "season": "Summer 2027",
+   "category": "Software",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8018893/?gh_jid=8018893",
+   "posted_at": "2026-07-13T14:21:34-04:00",
+   "first_seen_at": "2026-07-13T19:44:33Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Linux",
+    "Git"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 40
+  },
+  {
+   "id": "greenhouse:akunacapital:8018853",
+   "company": "Akuna Capital",
+   "title": "Software Engineer Intern - Python, Summer 2027",
+   "season": "Summer 2027",
+   "category": "Software",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853",
+   "posted_at": "2026-07-13T14:21:39-04:00",
+   "first_seen_at": "2026-07-13T19:44:33Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "React"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 40
+  },
   {
    "id": "greenhouse:wehrtyou:8052083",
    "company": "Hudson River Trading",
@@ -382,25 +484,6 @@
    ],
    "source": "workday",
    "h1b_approvals": 1526
-  },
-  {
-   "id": "ashby:skydio:7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915",
-   "company": "Skydio",
-   "title": "Middleware Software Engineer Intern - Fall 2026",
-   "season": "Fall 2026",
-   "category": "Software",
-   "location": "San Mateo, California, United States",
-   "url": "https://jobs.ashbyhq.com/skydio/7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915",
-   "posted_at": "2026-05-21T21:53:22.384+00:00",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "unknown",
-   "salary": "$47/hr",
-   "skills": [
-    "Python",
-    "C++"
-   ],
-   "source": "ashby",
-   "h1b_approvals": 26
   },
   {
    "id": "greenhouse:rocketlab:7736776003",

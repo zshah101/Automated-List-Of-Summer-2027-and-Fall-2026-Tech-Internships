@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T18:00:59Z",
+ "generated_at": "2026-07-13T19:44:34Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -71,6 +71,20 @@
    "days_until": -8,
    "status": "open",
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
+   "note": ""
+  },
+  {
+   "company": "Akuna Capital",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-13",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856",
    "note": ""
   },
   {
@@ -354,5 +368,5 @@
    "note": "rolling SWE internship postings"
   }
  ],
- "count": 25
+ "count": 26
 }

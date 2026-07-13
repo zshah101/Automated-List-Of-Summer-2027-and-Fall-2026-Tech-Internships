@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**40 open roles · 4 new this week · 3,641 companies tracked · updated Jul 13, 2026 at 18:00 UTC**
+**42 open roles · 9 new this week · 3,641 companies tracked · updated Jul 13, 2026 at 19:44 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,10 +50,13 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (9 open)
+## Summer 2027  (12 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Akuna Capital ✓ | Platform Engineer Intern, Summer 2027 🆕 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856) |
+| Akuna Capital ✓ | Software Engineer Intern - C# .NET Desktop, Summer 2027 🆕 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018886/?gh_jid=8018886) |
+| Akuna Capital ✓ | Software Engineer Intern - C++, Summer 2027 🆕 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847) |
 | Hudson River Trading ✓ | Software Engineering Internship (C++ or Python) – Summer 2027 🆕 | Software | Austin +9 more | Jul 13, 2026 | [Apply](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
 | Tower Research Capital ✓ | Quantitative Developer Intern - Summer 2027 | Quant | New York, Chicago | Jul 05, 2026 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
 | IMC Trading | Software Engineer Intern - Summer 2027 | Software | Chicago, United States | Jul 01, 2026 | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) |
@@ -64,7 +67,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (31 open)
+## Fall 2026  (30 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -78,7 +81,6 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Software | Peachtree Corners, GA | Jun 16, 2026 | [Apply](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
 | NVIDIA ✓ | Quantum Research Scientist Intern - Fall 2026 | Data & ML/AI | US, CA, Remote | May 27, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244) |
 | Samsung Research America ✓ | 2026 Fall Intern, Computer Vision/AI | Data & ML/AI | 665 Clyde Avenue +3 more | May 27, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8560657002) |
-| Skydio ✓ | Middleware Software Engineer Intern - Fall 2026 | Software | San Mateo, California, United States | May 21, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915) |
 | Rocket Lab | Software Intern Fall 2026 🇺🇸 | Software | Albuquerque, NM | May 21, 2026 | [Apply](https://job-boards.greenhouse.io/rocketlab/jobs/7736776003) |
 | Saronic | Software Engineer Intern (Fall 2026) 🇺🇸 | Software | Austin, TX | May 18, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | Astranis | Software Engineer- Backend Intern (Fall 2026) 🇺🇸 | Software | San Francisco, CA | May 13, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
@@ -115,6 +117,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | 🎯 Anduril | Jun 10 | dropped Jun 10 | ✅ [open now](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | 🎯 IMC Trading | Jul 01 | dropped Jul 01 | ✅ [open now](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) |
 | 🎯 Tower Research Capital | Jul 05 | dropped Jul 05 | ✅ [open now](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
+| 🎯 Akuna Capital | Jul 13 | dropped Jul 13 | ✅ [open now](https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856) |
 | 🎯 Hudson River Trading | Jul 13 | dropped Jul 13 | ✅ [open now](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
 | 🎯 Amazon | May 13 | dropped May 13 · closed | 🗓️ dropped |
 | 🎯 Western Digital | Jun 28 | dropped Jun 28 · closed | 🗓️ dropped |
@@ -129,15 +132,15 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Stripe | ~Sep | ~Sep | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
 | Coinbase | ~Dec | ~Dec | ⏳ waiting |
-| Ramp | ~Dec | ~Dec | ⏳ waiting |
 
-_25 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **9** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_26 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **10** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 40 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Skydio | Middleware Software Engineer Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
 | CACI | Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
 | Vertex Pharmaceuticals | Vertex Fall Co-op 2026, AI and Governance | Fall 2026 | 2026-07-10 |
 | ABB | AI & Data Scientist  Intern - Fall 2026 | Fall 2026 | 2026-07-10 |
@@ -177,7 +180,6 @@ _25 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | Cohere | Machine Learning Intern/Co-op  (Fall, 2026) | Fall 2026 | 2026-06-30 |
 | Cohere | Software Engineer Intern (Fall / Winter 2026) | Fall 2026 | 2026-06-30 |
 | Creatify Lab | Software Engineer Intern 2026 | Fall 2026 | 2026-06-30 |
-| Snowflake | Software Engineer Intern - Zurich (2026) | Fall 2026 | 2026-06-30 |
 
 </details>
 
@@ -196,7 +198,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,641 companies across 12 ATS platforms · 97% fetch success · completed in 240.9s · median detection latency 1025 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,641 companies across 12 ATS platforms · 98% fetch success · completed in 283.5s · median detection latency 865 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
