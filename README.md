@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**42 open roles · 9 new this week · 3,641 companies tracked · updated Jul 14, 2026 at 19:27 UTC**
+**42 open roles · 9 new this week · 3,641 companies tracked · updated Jul 14, 2026 at 21:06 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -136,7 +136,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _27 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **11** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 40 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 21 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -161,25 +161,6 @@ _27 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | OMERS | Intern, AI Enablement & Adoption Specialist (Fall 2026, 4 Months) - New York | Fall 2026 | 2026-07-02 |
 | Point72 | Summer 2027 Quantitative Developer Internship | Summer 2027 | 2026-07-01 |
 | Verkada | Frontend Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-01 |
-| Amazon | Software Dev Engineer Intern, 2026 Beijing | Fall 2026 | 2026-06-30 |
-| Amazon | Software Dev Engineer Intern, OpenSearch, 2026 Shanghai | Fall 2026 | 2026-06-30 |
-| Amazon | Software Dev Engineer Intern, 2026 Shanghai | Fall 2026 | 2026-06-30 |
-| Amazon | Software Dev Engineer Intern, (Devices) 2026 Shanghai | Fall 2026 | 2026-06-30 |
-| Amazon | Software Dev Engineer Intern, (Sustaining Operations) 2026 Shanghai | Fall 2026 | 2026-06-30 |
-| Amazon | Applied Scientist Intern, 2026 Shenzhen | Fall 2026 | 2026-06-30 |
-| Amazon | Software Dev Engineer Intern, (Alexa) 2026 Shenzhen | Fall 2026 | 2026-06-30 |
-| Amazon | SEED Engineer Program - Software Development Engineer Intern, 2026 Shenzhen | Fall 2026 | 2026-06-30 |
-| Amazon | Software Development Engineer Internship - Fall 2026 (Canada) | Fall 2026 | 2026-06-30 |
-| Amazon | Technical Business Developer Intern, 2026 Hong Kong | Fall 2026 | 2026-06-30 |
-| Amazon | Software Dev Engineer Intern, (Devices) 2026 Beijing | Fall 2026 | 2026-06-30 |
-| Amazon | 2027 Software Dev Engineer Intern | Summer 2027 | 2026-06-30 |
-| Amazon | 2027 Applied Science Intern (Machine Learning, Recommender Systems), Amazon International Machine Learning | Summer 2027 | 2026-06-30 |
-| Amazon | 2027 Applied Science Intern (Computer Vision), Amazon International Machine Learning | Summer 2027 | 2026-06-30 |
-| Amazon | 2026 Software Dev Engineer Intern - Tel-Aviv, Israel | Fall 2026 | 2026-06-30 |
-| Amazon | Robotics - Software Development Engineer Intern - 2026 - Toronto | Fall 2026 | 2026-06-30 |
-| Amazon | 2026 Software Dev Engineer Intern - Haifa, Israel | Fall 2026 | 2026-06-30 |
-| Amazon | Applied Scientist Intern, International Technology, 2026 Beijing | Fall 2026 | 2026-06-30 |
-| Amazon | 2026 Software Dev Engineer Intern (Location : Sydney) | Fall 2026 | 2026-06-30 |
 
 </details>
 
@@ -198,7 +179,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,641 companies across 12 ATS platforms · 99% fetch success · completed in 261.3s · median detection latency 544 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,641 companies across 12 ATS platforms · 99% fetch success · completed in 221.9s · median detection latency 544 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
