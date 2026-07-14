@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T17:21:07Z",
+ "generated_at": "2026-07-14T19:27:54Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -100,6 +100,20 @@
    "status": "open",
    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
    "note": "opens fall, closes early Feb"
+  },
+  {
+   "company": "Five Rings",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
+   "note": ""
   },
   {
    "company": "Amazon",
@@ -368,5 +382,5 @@
    "note": "rolling SWE internship postings"
   }
  ],
- "count": 26
+ "count": 27
 }

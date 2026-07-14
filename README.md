@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**41 open roles · 8 new this week · 3,641 companies tracked · updated Jul 14, 2026 at 17:21 UTC**
+**42 open roles · 9 new this week · 3,641 companies tracked · updated Jul 14, 2026 at 19:27 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,10 +50,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (12 open)
+## Summer 2027  (13 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Five Rings | Summer Intern 2027 - Software Developer 🆕 | Software | New York | Jul 14, 2026 | [Apply](https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008) |
 | Akuna Capital ✓ | Software Engineer Intern - C++, Summer 2027 🆕 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847) |
 | Akuna Capital ✓ | Software Engineer Intern - Python, Summer 2027 🆕 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853) |
 | Akuna Capital ✓ | Platform Engineer Intern, Summer 2027 🆕 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856) |
@@ -118,6 +119,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | 🎯 Tower Research Capital | Jul 05 | dropped Jul 05 | ✅ [open now](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
 | 🎯 Akuna Capital | Jul 13 | dropped Jul 13 | ✅ [open now](https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847) |
 | 🎯 Hudson River Trading | Jul 13 | dropped Jul 13 | ✅ [open now](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
+| 🎯 Five Rings | Jul 14 | dropped Jul 14 | ✅ [open now](https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008) |
 | 🎯 Amazon | May 13 | dropped May 13 · closed | 🗓️ dropped |
 | 🎯 Western Digital | Jun 28 | dropped Jun 28 · closed | 🗓️ dropped |
 | 🎯 Northrop Grumman | Jul 08 | dropped Jul 08 · closed | 🗓️ dropped |
@@ -130,9 +132,8 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Optiver | ~Aug | ~Aug · in ~18d | ⏳ waiting |
 | Stripe | ~Sep | ~Sep | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
-| Coinbase | ~Dec | ~Dec | ⏳ waiting |
 
-_26 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **10** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_27 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **11** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 40 roles taken down in the last 14 days</summary>
@@ -197,7 +198,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,641 companies across 12 ATS platforms · 99% fetch success · completed in 244.5s · median detection latency 865 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,641 companies across 12 ATS platforms · 99% fetch success · completed in 261.3s · median detection latency 544 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

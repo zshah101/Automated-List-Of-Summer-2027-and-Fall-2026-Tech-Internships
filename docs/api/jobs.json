@@ -1,9 +1,29 @@
 {
- "generated_at": "2026-07-14T17:21:07Z",
+ "generated_at": "2026-07-14T19:27:54Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 45,
+ "count": 46,
  "jobs": [
+  {
+   "id": "greenhouse:fiveringsllc:5349707008",
+   "company": "Five Rings",
+   "title": "Summer Intern 2027 - Software Developer",
+   "season": "Summer 2027",
+   "category": "Software",
+   "location": "New York",
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
+   "posted_at": "2026-07-14T13:51:03-04:00",
+   "first_seen_at": "2026-07-14T19:27:53Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Linux"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 7
+  },
   {
    "id": "greenhouse:akunacapital:8018847",
    "company": "Akuna Capital",
