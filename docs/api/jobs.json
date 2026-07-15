@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-15T13:53:03Z",
+ "generated_at": "2026-07-15T15:31:36Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 45,
+ "count": 44,
  "jobs": [
   {
    "id": "greenhouse:fiveringsllc:5349707008",
@@ -144,25 +144,6 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": 29
-  },
-  {
-   "id": "greenhouse:uberfreight:5194491008",
-   "company": "Uber Freight",
-   "title": "Data Scientist Intern - Fall 2026",
-   "season": "Fall 2026",
-   "category": "Data & ML/AI",
-   "location": "Chicago, IL 60607, United States",
-   "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5194491008",
-   "posted_at": "2026-07-09T09:01:17-04:00",
-   "first_seen_at": "2026-07-09T15:20:30Z",
-   "sponsorship": "no-sponsorship",
-   "salary": "$30/hr",
-   "skills": [
-    "Python",
-    "SQL"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": 63
   },
   {
    "id": "workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
