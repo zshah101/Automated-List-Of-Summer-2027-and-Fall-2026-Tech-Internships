@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**88 open roles · 57 new this week · 3,641 companies tracked · updated Jul 16, 2026 at 14:04 UTC**
+**89 open roles · 58 new this week · 3,641 companies tracked · updated Jul 16, 2026 at 15:47 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -54,6 +54,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| DNV | AI Research Internship ~ 🆕 | Data & ML/AI | Oakland, CA, United States | Jul 16, 2026 | [Apply](https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7094) |
 | Acds | AI Software Engineer Intern- Bastazo ~ 🆕 | Data & ML/AI | Bentonville, AR | Jul 15, 2026 | [Apply](https://jobs.lever.co/acds/65b739c3-02ad-4814-ad24-24abecbc83f4) |
 | Fortive | IT Infrastructure Internship ~ 🆕 | Software | Irvine, CA, United States | Jul 15, 2026 | [Apply](https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10126) |
 | Datasite | AI Transformation / Forward Deployed Engineer (FDE) Internship ~ 🆕 | Data & ML/AI | USA - MN - Minneapolis | Jul 15, 2026 | [Apply](https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---MN---Minneapolis/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255) |
@@ -77,7 +78,6 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | VetsEZ | Full Stack Developer Intern (Remote Opportunity) ~ 🆕 | Software | Dallas, TX | Jul 06, 2026 | [Apply](https://vetsez.breezy.hr/p/d18961a7a7e701-full-stack-developer-intern-remote-opportunity) |
 | Tower Research Capital ✓ | Quantitative Developer Intern - Summer 2027 | Quant | New York, Chicago | Jul 05, 2026 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
 | Bot Auto | Intern, Deep Learning Engineer ~ 🆕 | Data & ML/AI | Houston, TX | Jul 02, 2026 | [Apply](https://job-boards.greenhouse.io/botauto/jobs/5289440008) |
-| Traackr | Software Engineering Intern (Part-Time, Internal Tooling) ~ 🆕 | Software | New York City | Jul 02, 2026 | [Apply](https://jobs.lever.co/traackr/9d884d26-018c-45b2-8cfb-f17d29d4e688) |
 | ConnectPrep | Data Analyst Internship ~ 🇺🇸 🆕 | Data & ML/AI | Washington +2 more | Jul 02, 2026 | [Apply](https://apply.workable.com/connectprep/j/C0CA13664F/) |
 | Palantir ✓ | Forward Deployed Software Engineer, Internship - Intel ~ 🆕 | Software | Washington, D.C. | Jul 01, 2026 | [Apply](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) |
 | Nelnet ✓ | Intern - AI Engineer ~ 🆕 | Data & ML/AI | Lincoln, NE | Jul 01, 2026 | [Apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763) |
@@ -113,10 +113,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 _~ = the title doesn't state a year; bucketed here from its posting date (42 of 56)._
 
-## Fall 2026  (32 open)
+## Fall 2026  (33 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Moog | Intern, IT Computer Science - Data Analytics 🆕 | Data & ML/AI | Buffalo, NY | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
 | onsemi | Fall 2026 - AI & Data Analytics Intern 🆕 | Data & ML/AI | Scottsdale, AZ, United States | Jul 15, 2026 | [Apply](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2505878) |
 | Sentara Health | Enterprise Data & AI Intern- Fall 2026 Internship 🆕 | Data & ML/AI | Virginia Beach, VA | Jul 15, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685) |
 | NVIDIA ✓ | Performance Engineer Intern, Systems Software-  Fall 2026 | Software | US, MO, St. Louis | Jul 06, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
@@ -150,7 +151,7 @@ _~ = the title doesn't state a year; bucketed here from its posting date (42 of 
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (1 of 32)._
+_~ = the title doesn't state a year; bucketed here from its posting date (1 of 33)._
 
 <a id="drop-radar"></a>
 
@@ -183,13 +184,14 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | 🎯 Nio | Jun 19 | dropped Jun 19 | ✅ [open now](https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144) |
 | 🎯 RFCUNY | Jun 23 | dropped Jun 23 | ✅ [open now](https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987) |
 
-_64 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **49** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_65 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **50** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 21 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 22 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Traackr | Software Engineering Intern (Part-Time, Internal Tooling) | Summer 2027 | 2026-07-16 |
 | Uber Freight | Data Scientist Intern - Fall 2026 | Fall 2026 | 2026-07-15 |
 | Rocket Lab | Software Intern Fall 2026 | Fall 2026 | 2026-07-15 |
 | NVIDIA | Quantum Error Correction Research Scientist Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
@@ -229,7 +231,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,641 companies across 12 ATS platforms · 98% fetch success · completed in 293.1s · median detection latency 1064 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,641 companies across 12 ATS platforms · 99% fetch success · completed in 264.4s · median detection latency 1045 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

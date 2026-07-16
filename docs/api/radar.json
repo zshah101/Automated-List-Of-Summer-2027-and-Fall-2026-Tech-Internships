@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T14:04:06Z",
+ "generated_at": "2026-07-16T15:47:56Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -382,20 +382,6 @@
    "note": ""
   },
   {
-   "company": "Traackr",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-02",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-02",
-   "days_until": -14,
-   "status": "open",
-   "url": "https://jobs.lever.co/traackr/9d884d26-018c-45b2-8cfb-f17d29d4e688",
-   "note": ""
-  },
-  {
    "company": "Tower Research Capital",
    "last_cycle_posted": "",
    "posted_on": "2026-07-05",
@@ -578,6 +564,20 @@
    "note": ""
   },
   {
+   "company": "DNV",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7094",
+   "note": ""
+  },
+  {
    "company": "Amazon",
    "last_cycle_posted": "",
    "posted_on": "2026-05-13",
@@ -643,6 +643,20 @@
    "source": "engine",
    "expected": "2026-06-28",
    "days_until": -18,
+   "status": "dropped",
+   "url": "",
+   "note": ""
+  },
+  {
+   "company": "Traackr",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-02",
+   "days_until": -14,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -900,5 +914,5 @@
    "note": "multiple programs; Ignite ~Oct, SWE ongoing"
   }
  ],
- "count": 64
+ "count": 65
 }

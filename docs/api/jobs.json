@@ -1,9 +1,43 @@
 {
- "generated_at": "2026-07-16T14:04:06Z",
+ "generated_at": "2026-07-16T15:47:56Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 93,
+ "count": 94,
  "jobs": [
+  {
+   "id": "oracle:ecyq.fa.em2.oraclecloud.com:7094",
+   "company": "DNV",
+   "title": "AI Research Internship",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Oakland, CA, United States",
+   "url": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7094",
+   "posted_at": "2026-07-16",
+   "first_seen_at": "2026-07-16T15:47:55Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "oracle",
+   "h1b_approvals": null
+  },
+  {
+   "id": "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
+   "company": "Moog",
+   "title": "Intern, IT Computer Science - Data Analytics",
+   "season": "Fall 2026",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Buffalo, NY",
+   "url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
+   "posted_at": "2026-07-16T00:00:00Z",
+   "first_seen_at": "2026-07-16T15:47:55Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "workday",
+   "h1b_approvals": 2
+  },
   {
    "id": "lever:acds:65b739c3-02ad-4814-ad24-24abecbc83f4",
    "company": "Acds",
@@ -603,30 +637,6 @@
     "Git"
    ],
    "source": "greenhouse",
-   "h1b_approvals": null
-  },
-  {
-   "id": "lever:traackr:9d884d26-018c-45b2-8cfb-f17d29d4e688",
-   "company": "Traackr",
-   "title": "Software Engineering Intern (Part-Time, Internal Tooling)",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Software",
-   "location": "New York City",
-   "url": "https://jobs.lever.co/traackr/9d884d26-018c-45b2-8cfb-f17d29d4e688",
-   "posted_at": "2026-07-02T18:44:54Z",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "JavaScript",
-    "SQL",
-    "Kotlin"
-   ],
-   "source": "lever",
    "h1b_approvals": null
   },
   {
