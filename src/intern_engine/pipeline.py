@@ -133,6 +133,8 @@ def _keep_matching(results, cfg, blocklist) -> tuple[list, set[str], int, Counte
     restrict = config.restrict_region(cfg)
     include_intl = config.include_international(cfg)
     allowlist_only = config.allowlist_only(cfg)
+    infer = config.infer_undated(cfg)
+    infer_age = config.infer_max_age_days(cfg)
     max_age = config.max_age_days(cfg)
     cutoff = (
         (datetime.now(UTC) - timedelta(days=max_age)).strftime("%Y-%m-%d")
@@ -160,9 +162,14 @@ def _keep_matching(results, cfg, blocklist) -> tuple[list, set[str], int, Counte
             if tech_only and not filters.is_tech(job.title):
                 continue
             season = filters.detect_season(job.title, cycles)
+            inferred = False
+            if season is None and infer:
+                # The measured no-year pool dwarfed the explicit-year pool
+                # (~13x), so recent undated roles are bucketed by posting date
+                # and marked `~` everywhere they render (honesty preserved).
+                season = filters.infer_season(job.title, job.posted_at, cycles, infer_age)
+                inferred = season is not None
             if season is None:
-                # Measured so we know the size of the undated-roles pool before
-                # ever deciding to surface it (accuracy first, coverage second).
                 dropped_no_year += 1
                 continue
             is_us = filters.is_united_states(job.location)
@@ -175,6 +182,7 @@ def _keep_matching(results, cfg, blocklist) -> tuple[list, set[str], int, Counte
             if cutoff and posted_day and posted_day < cutoff:
                 continue
             job.season = season
+            job.season_inferred = inferred
             job.category = filters.categorize(job.title)
             kept.append(job)
     return kept, succeeded, errors, errors_by_ats, dropped_no_year
@@ -241,10 +249,14 @@ def run_update() -> tuple[dict, dict, list[str]]:
 
 
 def _parse_iso(value: str) -> datetime | None:
+    """Always returns a UTC-aware datetime: ATS feeds mix offset-less strings
+    and date-only strings with full `Z`/`±HH:MM` timestamps, and one naive
+    value next to an aware one makes the subtraction below raise TypeError."""
     try:
-        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
     except (ValueError, AttributeError):
         return None
+    return dt.replace(tzinfo=UTC) if dt.tzinfo is None else dt.astimezone(UTC)
 
 
 def _detection_latency(existing: dict, window_days: int = 7) -> dict:
@@ -289,6 +301,7 @@ def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, exi
         "errors_by_source": dict(errors_by_ats),
         "fetch_success_rate": round(len(succeeded) / max(attempted, 1), 3),
         "roles_matched": len(kept),
+        "roles_cycle_inferred": sum(1 for j in kept if j.season_inferred),
         "dropped_no_year_in_title": dropped_no_year,
         "roles_by_source": dict(Counter(j.source for j in kept)),
         "roles_by_cycle": dict(Counter(j.season for j in kept)),
