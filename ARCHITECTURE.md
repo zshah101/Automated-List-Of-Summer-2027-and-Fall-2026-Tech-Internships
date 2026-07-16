@@ -78,9 +78,8 @@ public datasets + README mines          data/candidates.json (curated slugs)
 | `data/health.json` | Circuit-breaker state (auditable in git like everything else). |
 | `data/history.jsonl` | One line of run metrics per run (feeds the dashboard chart). |
 | `data/h1b.json` | Compact USCIS employer→approvals index (built by `tools/build_h1b.py`). |
-| `data/seasons.json` | Last cycle's first-post date per company (built by `tools/build_seasons.py`). |
 | `tools/build_h1b.py` | Offline builder: USCIS Data Hub CSVs → `data/h1b.json` (run yearly). |
-| `tools/build_seasons.py` | Offline builder: last cycle's listing datasets → `data/seasons.json`. |
+| `tools/audit_seasons.py` | Audit date-inferred cycles against posting text; `--apply` repairs the store. |
 
 ## Configuration (`data/config.json`)
 
@@ -92,7 +91,9 @@ public datasets + README mines          data/candidates.json (curated slugs)
   "max_age_days": 270,
   "max_per_company": 3,
   "allowlist_only": false,
-  "section_limits": { "Summer 2027": 100, "Fall 2026": 40 }
+  "infer_undated": true,
+  "infer_max_age_days": 45,
+  "section_limits": { "Summer 2027": 300, "Fall 2026": 150 }
 }
 ```
 
@@ -102,8 +103,13 @@ quality gate (`data/blocklist.json` plus the optional `allowlist_only` mode)
 keeps the list free of junk/no-name companies.
 
 - `cycles` — the exact cycles to show; these become the section headings, in order.
-  A role is kept ONLY if its title explicitly states the year (e.g. "2027" or
-  "Fall 2026"); undated roles and other cycles are dropped.
+  A year stated in the title always wins (e.g. "2027" or "Fall 2026"). Titles
+  with no year are bucketed from their posting date when posted within
+  `infer_max_age_days` (marked `~` everywhere they render), then checked against
+  the posting text at enrichment: a cycle the text states replaces the guess,
+  and an off-cycle statement drops the role. Once stored, a season is sticky —
+  never re-derived on later runs. `tools/audit_seasons.py` re-audits the
+  backlog on demand. Older undated roles and other cycles are dropped.
 - `regions` — `["US"]` (United States only), `["US", "Canada"]`, or `["Global"]`
   to disable the location filter.
 - `role_scope` — `"tech"` keeps only tech roles; `"all"` keeps every internship.

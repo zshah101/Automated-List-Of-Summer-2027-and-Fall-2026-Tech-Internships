@@ -5,14 +5,14 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-16T07:47:23Z</updated>
+  <updated>2026-07-16T08:12:56Z</updated>
   <entry>
     <id>urn:intern-engine:ashby:beaconsoftware:2452d342-a069-4eda-adbe-9df296808ca1</id>
     <title>Beaconsoftware: Software Engineering Intern</title>
     <link href="https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1"/>
     <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA · Python, TypeScript, LLMs, PostgreSQL</summary>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · San Francisco, CA · Python, TypeScript, LLMs, PostgreSQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:centerfield:3279e803-56ab-4e12-8168-c2fd60bc8e60</id>
@@ -59,8 +59,8 @@
     <title>Four Hands: Cybersecurity Intern</title>
     <link href="https://job-boards.greenhouse.io/fourhands/jobs/4267718009"/>
     <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Austin, TX · Azure</summary>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Security · Austin, TX · Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:iherb:7776154003</id>
@@ -127,14 +127,6 @@
     <summary>Summer 2027 · Data &amp; ML/AI · New York, New York, United States · $20/hr · Python</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:pointc:5282753008</id>
-    <title>Point C: Account Management AI Intern</title>
-    <link href="https://job-boards.greenhouse.io/pointc/jobs/5282753008"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:scaleai:4703343005</id>
     <title>Scale AI: AI Builder Intern</title>
     <link href="https://job-boards.greenhouse.io/scaleai/jobs/4703343005"/>
@@ -181,14 +173,6 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Bentonville, AR · 15–15 USD / per hour wage · Python, JavaScript, SQL, PyTorch, TensorFlow</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:acds:d0d04e55-9fbe-4c07-9710-f6550032b6bb</id>
-    <title>Acds: Digital Marketer Intern-Align AI</title>
-    <link href="https://jobs.lever.co/acds/d0d04e55-9fbe-4c07-9710-f6550032b6bb"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Bentonville, AR · 15–15 USD / per hour wage</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:exowatt:2623555d-8b81-4f95-8bca-de9fafd2381c</id>
@@ -359,14 +343,6 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Lincoln, NE · Python, LLMs · H-1B track record: ~18 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:nexstar:/job/FL-Tampa/Unpaid-Programming-Intern_REQ-42139</id>
-    <title>Nexstar: Unpaid Programming Intern</title>
-    <link href="https://nexstar.wd5.myworkdayjobs.com/nexstar/job/FL-Tampa/Unpaid-Programming-Intern_REQ-42139"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · FL, Tampa</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:nio:/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144</id>
     <title>Nio: AI Robotics Researcher Intern (Dexterous Manipulation)</title>
     <link href="https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144"/>
@@ -405,5 +381,29 @@
     <updated>2026-07-16T06:46:32Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Scottsdale, AZ, United States · Python, SQL, LLMs, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thetradedesk:5187605007</id>
+    <title>The Trade Desk: 2027 North America Software Engineering Internship</title>
+    <link href="https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007"/>
+    <updated>2026-07-15T17:24:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Bellevue; Boulder; Denver; Irvine; New York; Seattle · H-1B track record: ~43 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sentara:/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685</id>
+    <title>Sentara Health: Enterprise Data &amp; AI Intern- Fall 2026 Internship</title>
+    <link href="https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685"/>
+    <updated>2026-07-15T17:24:53Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Virginia Beach, VA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:fiveringsllc:5349707008</id>
+    <title>Five Rings: Summer Intern 2027 - Software Developer</title>
+    <link href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008"/>
+    <updated>2026-07-14T19:27:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York · Python, C++, Linux</summary>
   </entry>
 </feed>

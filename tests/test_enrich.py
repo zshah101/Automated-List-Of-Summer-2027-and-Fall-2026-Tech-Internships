@@ -99,3 +99,29 @@ class TestEnrich:
         assert job.sponsorship == "unknown"
         assert enriched == {job.id}  # settled: rippling has no text to fetch
         assert net.calls == 0
+
+    def test_text_stated_cycle_replaces_inferred(self):
+        net = FakeNet({})
+        job = _job(description=(
+            "Join our Fall 2026 co-op program in Boston. "
+            "No visa sponsorship for this role."
+        ))
+        job.season, job.season_inferred = "Summer 2027", True
+        _run(enrich.enrich_jobs([job], {}, net))
+        assert job.season == "Fall 2026"
+        assert job.season_inferred is False  # the company stated it -> not a guess
+
+    def test_text_without_cycle_statement_keeps_inference(self):
+        net = FakeNet({})
+        job = _job(description="A great internship. Python required.")
+        job.season, job.season_inferred = "Summer 2027", True
+        _run(enrich.enrich_jobs([job], {}, net))
+        assert job.season == "Summer 2027"
+        assert job.season_inferred is True  # still an inference, still marked ~
+
+    def test_title_stated_cycle_never_overridden_by_text(self):
+        net = FakeNet({})
+        job = _job(description="This internship runs Fall 2026 through December.")
+        job.season, job.season_inferred = "Summer 2027", False  # year was in the title
+        _run(enrich.enrich_jobs([job], {}, net))
+        assert job.season == "Summer 2027"

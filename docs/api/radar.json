@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T07:47:24Z",
+ "generated_at": "2026-07-16T08:12:56Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -46,20 +46,6 @@
    "note": ""
   },
   {
-   "company": "Beaconsoftware",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-02",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-02",
-   "days_until": -44,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1",
-   "note": ""
-  },
-  {
    "company": "Fluxergy",
    "last_cycle_posted": "",
    "posted_on": "2026-06-02",
@@ -71,20 +57,6 @@
    "days_until": -44,
    "status": "open",
    "url": "https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec",
-   "note": ""
-  },
-  {
-   "company": "Four Hands",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-02",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-02",
-   "days_until": -44,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/fourhands/jobs/4267718009",
    "note": ""
   },
   {
@@ -340,20 +312,6 @@
    "note": "rolling SWE internship postings"
   },
   {
-   "company": "Point C",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-25",
-   "days_until": -21,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/pointc/jobs/5282753008",
-   "note": ""
-  },
-  {
    "company": "Sony",
    "last_cycle_posted": "",
    "posted_on": "2026-06-30",
@@ -463,20 +421,6 @@
    "days_until": -10,
    "status": "open",
    "url": "https://vetsez.breezy.hr/p/d18961a7a7e701-full-stack-developer-intern-remote-opportunity",
-   "note": ""
-  },
-  {
-   "company": "Nexstar",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-07",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-07",
-   "days_until": -9,
-   "status": "open",
-   "url": "https://nexstar.wd5.myworkdayjobs.com/nexstar/job/FL-Tampa/Unpaid-Programming-Intern_REQ-42139",
    "note": ""
   },
   {
@@ -648,6 +592,48 @@
    "note": "rolling from mid-summer, very early"
   },
   {
+   "company": "Beaconsoftware",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-02",
+   "days_until": -44,
+   "status": "dropped",
+   "url": "",
+   "note": ""
+  },
+  {
+   "company": "Four Hands",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-02",
+   "days_until": -44,
+   "status": "dropped",
+   "url": "",
+   "note": ""
+  },
+  {
+   "company": "Point C",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-25",
+   "days_until": -21,
+   "status": "dropped",
+   "url": "",
+   "note": ""
+  },
+  {
    "company": "Western Digital",
    "last_cycle_posted": "",
    "posted_on": "2026-06-28",
@@ -657,6 +643,20 @@
    "source": "engine",
    "expected": "2026-06-28",
    "days_until": -18,
+   "status": "dropped",
+   "url": "",
+   "note": ""
+  },
+  {
+   "company": "Nexstar",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-07",
+   "days_until": -9,
    "status": "dropped",
    "url": "",
    "note": ""

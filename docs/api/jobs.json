@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-16T07:47:24Z",
+ "generated_at": "2026-07-16T08:12:56Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 96,
+ "count": 93,
  "jobs": [
   {
    "id": "lever:acds:65b739c3-02ad-4814-ad24-24abecbc83f4",
@@ -520,23 +520,6 @@
    "h1b_approvals": 83
   },
   {
-   "id": "workday:nexstar:/job/FL-Tampa/Unpaid-Programming-Intern_REQ-42139",
-   "company": "Nexstar",
-   "title": "Unpaid Programming Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Software",
-   "location": "FL, Tampa",
-   "url": "https://nexstar.wd5.myworkdayjobs.com/nexstar/job/FL-Tampa/Unpaid-Programming-Intern_REQ-42139",
-   "posted_at": "2026-07-07T00:00:00Z",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": 3
-  },
-  {
    "id": "breezy:vetsez:d18961a7a7e701",
    "company": "VetsEZ",
    "title": "Full Stack Developer Intern (Remote Opportunity)",
@@ -878,23 +861,6 @@
    "h1b_approvals": null
   },
   {
-   "id": "greenhouse:pointc:5282753008",
-   "company": "Point C",
-   "title": "Account Management AI Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "United States - Remote",
-   "url": "https://job-boards.greenhouse.io/pointc/jobs/5282753008",
-   "posted_at": "2026-06-25T16:06:38-04:00",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "greenhouse",
-   "h1b_approvals": null
-  },
-  {
    "id": "lever:palantir:75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
    "company": "Palantir",
    "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
@@ -1084,23 +1050,6 @@
     "Python"
    ],
    "source": "greenhouse",
-   "h1b_approvals": null
-  },
-  {
-   "id": "lever:acds:d0d04e55-9fbe-4c07-9710-f6550032b6bb",
-   "company": "Acds",
-   "title": "Digital Marketer Intern-Align AI",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Bentonville, AR",
-   "url": "https://jobs.lever.co/acds/d0d04e55-9fbe-4c07-9710-f6550032b6bb",
-   "posted_at": "2026-06-18T21:08:07Z",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": "15–15 USD / per hour wage",
-   "skills": [],
-   "source": "lever",
    "h1b_approvals": null
   },
   {
@@ -1395,8 +1344,8 @@
    "id": "ashby:beaconsoftware:2452d342-a069-4eda-adbe-9df296808ca1",
    "company": "Beaconsoftware",
    "title": "Software Engineering Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
+   "season": "Fall 2026",
+   "season_inferred": false,
    "category": "Software",
    "location": "San Francisco, CA",
    "url": "https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1",
@@ -1417,8 +1366,8 @@
    "id": "greenhouse:fourhands:4267718009",
    "company": "Four Hands",
    "title": "Cybersecurity Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
+   "season": "Fall 2026",
+   "season_inferred": false,
    "category": "Security",
    "location": "Austin, TX",
    "url": "https://job-boards.greenhouse.io/fourhands/jobs/4267718009",

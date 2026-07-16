@@ -50,3 +50,45 @@ class TestDetectionLatency:
                     "first_seen_at": "2026-07-15T00:00:00Z"},
         }
         assert _detection_latency(existing)["sample_size"] == 0
+
+
+class TestStickySeasons:
+    """A season already on record wins over re-inference (see _keep_matching)."""
+
+    CFG = {"cycles": ["Summer 2027", "Fall 2026"], "regions": ["US"],
+           "role_scope": "tech", "infer_undated": True, "infer_max_age_days": 45}
+
+    def _results(self, posted_days_ago):
+        from datetime import UTC, datetime, timedelta
+
+        from intern_engine.models import Job
+        posted = (datetime.now(UTC) - timedelta(days=posted_days_ago)).strftime("%Y-%m-%d")
+        job = Job(id="greenhouse:acme:1", source="greenhouse", company="Acme",
+                  company_slug="acme", title="Software Engineer Intern",
+                  location="New York, NY", url="https://x",
+                  posted_at=f"{posted}T00:00:00Z")
+        return [({"ats": "greenhouse", "slug": "acme", "name": "Acme"}, [job], None)]
+
+    def _keep(self, results, existing):
+        from intern_engine.pipeline import _keep_matching
+        kept, *_ = _keep_matching(results, self.CFG, {}, existing)
+        return kept
+
+    def test_fresh_undated_role_is_date_inferred(self):
+        kept = self._keep(self._results(3), {})
+        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
+
+    def test_text_verified_season_on_record_beats_reinference(self):
+        existing = {"greenhouse:acme:1": {"season": "Fall 2026", "season_inferred": False}}
+        kept = self._keep(self._results(3), existing)
+        assert [(j.season, j.season_inferred) for j in kept] == [("Fall 2026", False)]
+
+    def test_sticky_season_outlives_inference_recency_window(self):
+        # 60 days old: a fresh inference would refuse, but the role is already
+        # on record — it must stay open instead of flipping closed.
+        existing = {"greenhouse:acme:1": {"season": "Summer 2027", "season_inferred": True}}
+        kept = self._keep(self._results(60), existing)
+        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
+
+    def test_stale_undated_role_without_record_still_dropped(self):
+        assert self._keep(self._results(60), {}) == []

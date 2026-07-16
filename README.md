@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**91 open roles · 60 new this week · 3,641 companies tracked · updated Jul 16, 2026 at 07:47 UTC**
+**88 open roles · 57 new this week · 3,641 companies tracked · updated Jul 16, 2026 at 08:12 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,7 +50,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (61 open)
+## Summer 2027  (56 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -74,7 +74,6 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Jump Trading | Campus AI Research Engineer - Deep Learning (Intern) ~ 🆕 | Data & ML/AI | Chicago; New York | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=8052338) |
 | Jump Trading | Campus AI Research Engineer – Research Automation (Intern) ~ 🆕 | Data & ML/AI | Chicago; New York | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=8052351) |
 | Copart ✓ | DevOps Engineering Intern ~ 🆕 | Software | Dallas, TX - Headquarters | Jul 08, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/DevOps-Engineering-Intern_JR109490) |
-| Nexstar | Unpaid Programming Intern ~ 🆕 | Software | FL, Tampa | Jul 07, 2026 | [Apply](https://nexstar.wd5.myworkdayjobs.com/nexstar/job/FL-Tampa/Unpaid-Programming-Intern_REQ-42139) |
 | VetsEZ | Full Stack Developer Intern (Remote Opportunity) ~ 🆕 | Software | Dallas, TX | Jul 06, 2026 | [Apply](https://vetsez.breezy.hr/p/d18961a7a7e701-full-stack-developer-intern-remote-opportunity) |
 | Tower Research Capital ✓ | Quantitative Developer Intern - Summer 2027 | Quant | New York, Chicago | Jul 05, 2026 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
 | Bot Auto | Intern, Deep Learning Engineer ~ 🆕 | Data & ML/AI | Houston, TX | Jul 02, 2026 | [Apply](https://job-boards.greenhouse.io/botauto/jobs/5289440008) |
@@ -87,13 +86,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Palantir ✓ | Forward Deployed Software Engineer, Internship - Commercial ~ 🆕 | Software | Chicago, IL | Jun 30, 2026 | [Apply](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) |
 | Sony | Research Intern on Generative and Protective AI for Content Creation ~ 🆕 | Data & ML/AI | Remote - New York | Jun 30, 2026 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335) |
 | Lila Sciences | Co-Op, LS AI, ML Scientist for Protein Engineering ~ 🆕 | Data & ML/AI | San Francisco, CA USA | Jun 29, 2026 | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4289387009) |
-| Point C | Account Management AI Intern ~ 🆕 | Data & ML/AI | United States - Remote | Jun 25, 2026 | [Apply](https://job-boards.greenhouse.io/pointc/jobs/5282753008) |
 | Altasciences | Process Innovation - Software Engineering Intern ~ 🆕 | Software | Overland Park, Kansas | Jun 24, 2026 | [Apply](https://altasciences.wd1.myworkdayjobs.com/Careers/job/Overland-Park-Kansas/Process-Innovation---Software-Engineering-Intern_R102750) |
 | RFCUNY | Data Analyst Intern ~ 🆕 | Data & ML/AI | New York, NY | Jun 23, 2026 | [Apply](https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987) |
 | Centerfield ✓ | Data Science Intern ~ 🆕 | Data & ML/AI | Los Angeles, California | Jun 22, 2026 | [Apply](https://jobs.ashbyhq.com/centerfield/916dcf42-d69a-4f00-875a-f8fe630e0f33) |
 | Nio | AI Robotics Researcher Intern (Dexterous Manipulation) ~ 🆕 | Data & ML/AI | San Jose-US | Jun 19, 2026 | [Apply](https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144) |
 | Doctors Without Borders | Data Science Intern ~ 🆕 | Data & ML/AI | New York, New York, United States | Jun 18, 2026 | [Apply](https://job-boards.greenhouse.io/msfcareers/jobs/5271141008) |
-| Acds | Digital Marketer Intern-Align AI ~ 🆕 | Data & ML/AI | Bentonville, AR | Jun 18, 2026 | [Apply](https://jobs.lever.co/acds/d0d04e55-9fbe-4c07-9710-f6550032b6bb) |
 | Copart ✓ | Software Engineering Intern ~ 🆕 | Software | Dallas, TX - Headquarters | Jun 18, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441) |
 | Generac ✓ | Intern Firmware Engineering ~ 🆕 | Hardware | Reno, NV - USA | Jun 18, 2026 | [Apply](https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674) |
 | iHerb | Software Development Intern ~ 🆕 | Software | United States of America - Remote / Hom… | Jun 17, 2026 | [Apply](https://job-boards.greenhouse.io/iherb/jobs/7776154003) |
@@ -106,8 +103,6 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Scale AI ✓ | AI Builder Intern ~ 🆕 | Data & ML/AI | San Francisco, CA; New York, NY | Jun 06, 2026 | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4703343005) |
 | Clarity Innovations | Junior Software Engineer Internship ~ 🇺🇸 🆕 | Software | Herndon, VA | Jun 05, 2026 | [Apply](https://job-boards.greenhouse.io/clarityinnovates/jobs/5155449007) |
 | XPENG Motors | AI Infra Onboard Performance Intern ~ 🆕 | Data & ML/AI | Santa Clara, CA | Jun 05, 2026 | [Apply](https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002) |
-| Beaconsoftware | Software Engineering Intern ~ 🆕 | Software | San Francisco, CA | Jun 02, 2026 | [Apply](https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1) |
-| Four Hands | Cybersecurity Intern ~ 🆕 | Security | Austin, TX | Jun 02, 2026 | [Apply](https://job-boards.greenhouse.io/fourhands/jobs/4267718009) |
 | TransMarket Group | DevOps/SRE Intern ~ 🆕 | Software | Chicago, Illinois, United States | Jun 02, 2026 | [Apply](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007) |
 | Fluxergy | Firmware Engineer Intern ~ 🆕 | Hardware | Irvine, California | Jun 02, 2026 | [Apply](https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec) |
 | GenBio AI | Software Engineering Intern ~ 🆕 | Software | Palo Alto, CA | Jun 01, 2026 | [Apply](https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74) |
@@ -116,9 +111,9 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (47 of 61)._
+_~ = the title doesn't state a year; bucketed here from its posting date (42 of 56)._
 
-## Fall 2026  (30 open)
+## Fall 2026  (32 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -132,6 +127,8 @@ _~ = the title doesn't state a year; bucketed here from its posting date (47 of 
 | Figure | Firmware Intern [Fall 2026] | Hardware | San Jose, CA | Jun 22, 2026 | [Apply](https://job-boards.greenhouse.io/figureai/jobs/4691070006) |
 | Intuitive Surgical ✓ | Computer Vision Engineering Intern - Fall 2026 | Data & ML/AI | Sunnyvale, CA, United States | Jun 22, 2026 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000133458290) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Software | Peachtree Corners, GA | Jun 16, 2026 | [Apply](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
+| Beaconsoftware | Software Engineering Intern 🆕 | Software | San Francisco, CA | Jun 02, 2026 | [Apply](https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1) |
+| Four Hands | Cybersecurity Intern 🆕 | Security | Austin, TX | Jun 02, 2026 | [Apply](https://job-boards.greenhouse.io/fourhands/jobs/4267718009) |
 | Samsung Research America ✓ | 2026 Fall Intern, Computer Vision/AI | Data & ML/AI | 665 Clyde Avenue +3 more | May 27, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8560657002) |
 | Saronic | Software Engineer Intern (Fall 2026) 🇺🇸 | Software | Austin, TX | May 18, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | Astranis | Software Engineer- Backend Intern (Fall 2026) 🇺🇸 | Software | San Francisco, CA | May 13, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
@@ -153,7 +150,7 @@ _~ = the title doesn't state a year; bucketed here from its posting date (47 of 
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (1 of 30)._
+_~ = the title doesn't state a year; bucketed here from its posting date (1 of 32)._
 
 <a id="drop-radar"></a>
 
@@ -168,9 +165,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | 🎯 Ellipsis Labs | Mar 26 | dropped Mar 26 | ✅ [open now](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 | 🎯 GenBio AI | Jun 01 | dropped Jun 01 | ✅ [open now](https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74) |
 | 🎯 Walleye Capital | Jun 01 | dropped Jun 01 | ✅ [open now](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006) |
-| 🎯 Beaconsoftware | Jun 02 | dropped Jun 02 | ✅ [open now](https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1) |
 | 🎯 Fluxergy | Jun 02 | dropped Jun 02 | ✅ [open now](https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec) |
-| 🎯 Four Hands | Jun 02 | dropped Jun 02 | ✅ [open now](https://job-boards.greenhouse.io/fourhands/jobs/4267718009) |
 | 🎯 TransMarket Group | Jun 02 | dropped Jun 02 | ✅ [open now](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007) |
 | 🎯 Clarity Innovations | Jun 05 | dropped Jun 05 | ✅ [open now](https://job-boards.greenhouse.io/clarityinnovates/jobs/5155449007) |
 | 🎯 XPENG Motors | Jun 05 | dropped Jun 05 | ✅ [open now](https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002) |
@@ -185,6 +180,8 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | 🎯 Copart | Jun 18 | dropped Jun 18 | ✅ [open now](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/DevOps-Engineering-Intern_JR109490) |
 | 🎯 Doctors Without Borders | Jun 18 | dropped Jun 18 | ✅ [open now](https://job-boards.greenhouse.io/msfcareers/jobs/5271141008) |
 | 🎯 Generac | Jun 18 | dropped Jun 18 | ✅ [open now](https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674) |
+| 🎯 Nio | Jun 19 | dropped Jun 19 | ✅ [open now](https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144) |
+| 🎯 RFCUNY | Jun 23 | dropped Jun 23 | ✅ [open now](https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987) |
 
 _64 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **49** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
@@ -232,7 +229,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,641 companies across 12 ATS platforms · 97% fetch success · completed in 273.6s · median detection latency 1064 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,641 companies across 12 ATS platforms · 100% fetch success · completed in 598.1s · median detection latency 1064 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

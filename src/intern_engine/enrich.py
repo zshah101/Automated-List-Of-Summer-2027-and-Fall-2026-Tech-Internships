@@ -13,7 +13,7 @@ from __future__ import annotations
 import asyncio
 import re
 
-from . import skills, sponsorship
+from . import filters, skills, sponsorship
 from .models import Job
 from .net import Net
 
@@ -149,6 +149,15 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
         job.skills = skills.extract(text)
         if not job.salary:
             job.salary = skills.extract_pay(text)
+        if job.season_inferred:
+            # The posting text is ground truth for date-inferred cycles: an
+            # explicitly stated term+year replaces the guess (and un-marks the
+            # row). An off-cycle statement leaves an untracked label behind,
+            # which the pipeline drops. No statement = the inference stands.
+            stated = filters.season_from_text(text)
+            if stated:
+                job.season = stated
+                job.season_inferred = False
         return job.id
 
     done = await asyncio.gather(*(_resolve(j) for j in jobs))

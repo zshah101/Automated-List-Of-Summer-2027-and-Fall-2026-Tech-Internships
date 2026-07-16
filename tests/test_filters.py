@@ -119,3 +119,46 @@ class TestInferSeason:
     def test_explicit_year_never_reaches_inference(self):
         # Belt and suspenders: detect_season handles dated titles first.
         assert filters.detect_season("Software Intern Summer 2027", CYCLES) == "Summer 2027"
+
+
+class TestTechScopeExclusions:
+    def test_non_tech_roles_with_ai_bait_excluded(self):
+        assert not filters.is_tech("Digital Marketer Intern-Align AI")
+        assert not filters.is_tech("Account Management AI Intern")
+        assert not filters.is_tech("Unpaid Programming Intern")
+
+    def test_real_tech_titles_still_pass(self):
+        assert filters.is_tech("Programming Intern")
+        assert filters.is_tech("AI Software Engineer Intern")
+
+
+class TestSeasonFromText:
+    def test_stated_coop_term(self):
+        assert filters.season_from_text(
+            "Join our Fall 2026 co-op program in Boston."
+        ) == "Fall 2026"
+
+    def test_summer_of_phrasing_and_autumn_alias(self):
+        assert filters.season_from_text(
+            "an internship in the summer of 2027 at our NYC office"
+        ) == "Summer 2027"
+        assert filters.season_from_text(
+            "This internship runs autumn 2026 through December."
+        ) == "Fall 2026"
+
+    def test_conflicting_mentions_never_override(self):
+        # Grad-window boilerplate lists several terms -> no verdict.
+        assert filters.season_from_text(
+            "Internship candidates graduating between Fall 2026 and Summer 2027 "
+            "are encouraged to apply."
+        ) is None
+
+    def test_far_away_mention_ignored(self):
+        pad = "x " * 200
+        assert filters.season_from_text(
+            f"Our company was named a best employer of Summer 2026. {pad} "
+            "This internship is fully remote."
+        ) is None
+
+    def test_empty_text(self):
+        assert filters.season_from_text("") is None

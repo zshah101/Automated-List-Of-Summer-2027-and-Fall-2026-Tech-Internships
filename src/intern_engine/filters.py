@@ -44,7 +44,8 @@ _EXCLUDE_RE = re.compile(
     r"biology|biological|materials|structural|thermal|fluid|manufacturing|"
     r"industrial engineer|electrical|fpga|asic|pcb|analog|photonics|optical|"
     r"hardware|physical design|silicon|semiconductor|vlsi|rtl|"
-    r"recruit|recruiting|recruiter|sales|account executive|account manager|marketing|"
+    r"recruit|recruiting|recruiter|sales|account executive|account manager|"
+    r"account management|marketing|marketer|unpaid|"
     r"legal|counsel|accounting|human resources|people operations|people team|talent|"
     r"communications|supply chain|business development|product design|product designer|"
     r"product manager|product management|ux design|graphic design|industrial design|"
@@ -170,6 +171,33 @@ def infer_season(title: str, posted_at: str | None,
     year = posted.year if posted.month <= _TERM_ROLLOVER_MONTH[term] else posted.year + 1
     label = f"{term} {year}"
     return label if label in cycles else None
+
+
+# --- season stated in posting TEXT (verifies date-inferred cycles) ------------
+_TEXT_CYCLE_RE = re.compile(r"\b(summer|fall|autumn|winter|spring)\s+(?:of\s+)?(20\d\d)\b", re.I)
+_INTERNISH_RE = re.compile(
+    r"\b(intern(?:ship)?s?|co[\s-]?op|start\s+date|program|term|semester)\b", re.I
+)
+
+
+def season_from_text(text: str, near: int = 90) -> str | None:
+    """The cycle a posting's own text states, or None.
+
+    Precision-first, mirroring detect_season's ethos: a "<term> <year>" mention
+    only counts when internship-ish words sit within `near` characters (skips
+    stray dates), and a verdict is returned only when every counted mention
+    agrees — a posting listing several terms (grad-window boilerplate) never
+    overrides the date inference.
+    """
+    if not text:
+        return None
+    labels = set()
+    for m in _TEXT_CYCLE_RE.finditer(text):
+        lo = max(0, m.start() - near)
+        if _INTERNISH_RE.search(text[lo:m.end() + near]):
+            term = m.group(1).capitalize()
+            labels.add(f"{'Fall' if term == 'Autumn' else term} {m.group(2)}")
+    return labels.pop() if len(labels) == 1 else None
 
 
 # --- location: US / Canada detection -----------------------------------------
