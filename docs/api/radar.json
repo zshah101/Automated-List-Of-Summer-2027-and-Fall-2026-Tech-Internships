@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T19:19:46Z",
+ "generated_at": "2026-07-16T21:08:02Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -592,6 +592,20 @@
    "note": ""
   },
   {
+   "company": "Torch Technologies",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Software-Engineer-Intern_R1381",
+   "note": ""
+  },
+  {
    "company": "Amazon",
    "last_cycle_posted": "",
    "posted_on": "2026-05-13",
@@ -928,5 +942,5 @@
    "note": "multiple programs; Ignite ~Oct, SWE ongoing"
   }
  ],
- "count": 66
+ "count": 67
 }

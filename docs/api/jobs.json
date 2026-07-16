@@ -1,9 +1,32 @@
 {
- "generated_at": "2026-07-16T19:19:46Z",
+ "generated_at": "2026-07-16T21:08:02Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 95,
+ "count": 96,
  "jobs": [
+  {
+   "id": "workday:starfish:/job/Huntsville-AL/Software-Engineer-Intern_R1381",
+   "company": "Torch Technologies",
+   "title": "Software Engineer Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Huntsville, AL",
+   "url": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Software-Engineer-Intern_R1381",
+   "posted_at": "2026-07-16T00:00:00Z",
+   "first_seen_at": "2026-07-16T21:08:01Z",
+   "sponsorship": "citizens-only",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "MATLAB",
+    "PyTorch",
+    "Git"
+   ],
+   "source": "workday",
+   "h1b_approvals": null
+  },
   {
    "id": "workday:chevron:/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1",
    "company": "Chevron Corporation",
