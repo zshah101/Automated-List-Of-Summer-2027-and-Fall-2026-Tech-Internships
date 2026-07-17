@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**91 open roles · 60 new this week · 3,641 companies tracked · updated Jul 17, 2026 at 15:20 UTC**
+**93 open roles · 62 new this week · 3,641 companies tracked · updated Jul 17, 2026 at 17:19 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,10 +50,12 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (58 open)
+## Summer 2027  (60 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Deepgram | Software Engineering- Internship ~ 🆕 | Software | USA / Remote | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
+| Stevens Institute of Technology ✓ | Summer 2026 Intern:  Cyber Security and Reliable AI for UAS and Contested Environments ~ 🆕 | Data & ML/AI | Hoboken, NJ - Main Campus | Jul 17, 2026 | [Apply](https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1) |
 | Torch Technologies | Software Engineer Intern ~ 🇺🇸 🆕 | Software | Huntsville, AL | Jul 16, 2026 | [Apply](https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Software-Engineer-Intern_R1381) |
 | Chevron Corporation ✓ | 2026-2027 Information Technology - Software Engineer - Intern 🛂 🆕 | Software | Houston, Texas, United States of America | Jul 16, 2026 | [Apply](https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
 | DNV | AI Research Internship ~ 🆕 | Data & ML/AI | Oakland, CA, United States | Jul 16, 2026 | [Apply](https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7094) |
@@ -113,7 +115,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (43 of 58)._
+_~ = the title doesn't state a year; bucketed here from its posting date (45 of 60)._
 
 ## Fall 2026  (33 open)
 
@@ -186,7 +188,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | 🎯 Nio | Jun 19 | dropped Jun 19 | ✅ [open now](https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144) |
 | 🎯 RFCUNY | Jun 23 | dropped Jun 23 | ✅ [open now](https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987) |
 
-_67 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **52** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_69 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **54** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 19 roles taken down in the last 14 days</summary>
@@ -230,7 +232,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,641 companies across 12 ATS platforms · 99% fetch success · completed in 249.9s · median detection latency 1045 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,641 companies across 12 ATS platforms · 98% fetch success · completed in 257.4s · median detection latency 1045 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

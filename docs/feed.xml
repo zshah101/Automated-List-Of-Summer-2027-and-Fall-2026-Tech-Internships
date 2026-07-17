@@ -5,7 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-17T15:20:31Z</updated>
+  <updated>2026-07-17T17:19:37Z</updated>
+  <entry>
+    <id>urn:intern-engine:ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1</id>
+    <title>Deepgram: Software Engineering- Internship</title>
+    <link href="https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"/>
+    <updated>2026-07-17T17:19:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA | Remote · $55 – $65 per hour · LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:stevens:/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1</id>
+    <title>Stevens Institute of Technology: Summer 2026 Intern:  Cyber Security and Reliable AI for UAS and Contested Environments</title>
+    <link href="https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1"/>
+    <updated>2026-07-17T17:19:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Hoboken, NJ - Main Campus · H-1B track record: ~29 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:starfish:/job/Huntsville-AL/Software-Engineer-Intern_R1381</id>
     <title>Torch Technologies: Software Engineer Intern 🇺🇸</title>
@@ -389,21 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Remote - New York · $50/hr · PyTorch, LLMs, Computer Vision</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1</id>
-    <title>Tencent: Research Intern – Video World Models (Research &amp; ML Systems)</title>
-    <link href="https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · US-California-Palo Alto · $124.8k/yr · Python, PyTorch, LLMs, CUDA · H-1B track record: ~53 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hctz.fa.us2.oraclecloud.com:2505878</id>
-    <title>onsemi: Fall 2026 - AI &amp; Data Analytics Intern</title>
-    <link href="https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2505878"/>
-    <updated>2026-07-16T06:46:32Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Scottsdale, AZ, United States · Python, SQL, LLMs, Tableau</summary>
   </entry>
 </feed>

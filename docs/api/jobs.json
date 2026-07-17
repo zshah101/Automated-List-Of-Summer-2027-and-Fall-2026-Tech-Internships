@@ -1,9 +1,45 @@
 {
- "generated_at": "2026-07-17T15:20:32Z",
+ "generated_at": "2026-07-17T17:19:37Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 96,
+ "count": 98,
  "jobs": [
+  {
+   "id": "ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+   "company": "Deepgram",
+   "title": "Software Engineering- Internship",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "USA | Remote",
+   "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+   "posted_at": "2026-07-17T16:00:27.132+00:00",
+   "first_seen_at": "2026-07-17T17:19:36Z",
+   "sponsorship": "unknown",
+   "salary": "$55 – $65 per hour",
+   "skills": [
+    "LLMs"
+   ],
+   "source": "ashby",
+   "h1b_approvals": 2
+  },
+  {
+   "id": "workday:stevens:/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1",
+   "company": "Stevens Institute of Technology",
+   "title": "Summer 2026 Intern:  Cyber Security and Reliable AI for UAS and Contested Environments",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Hoboken, NJ - Main Campus",
+   "url": "https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1",
+   "posted_at": "2026-07-17T00:00:00Z",
+   "first_seen_at": "2026-07-17T17:19:36Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "workday",
+   "h1b_approvals": 29
+  },
   {
    "id": "workday:starfish:/job/Huntsville-AL/Software-Engineer-Intern_R1381",
    "company": "Torch Technologies",

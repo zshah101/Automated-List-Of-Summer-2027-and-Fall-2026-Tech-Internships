@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T15:20:32Z",
+ "generated_at": "2026-07-17T17:19:37Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -606,6 +606,34 @@
    "note": ""
   },
   {
+   "company": "Deepgram",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-17",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+   "note": ""
+  },
+  {
+   "company": "Stevens Institute of Technology",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-17",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1",
+   "note": ""
+  },
+  {
    "company": "Amazon",
    "last_cycle_posted": "",
    "posted_on": "2026-05-13",
@@ -942,5 +970,5 @@
    "note": "multiple programs; Ignite ~Oct, SWE ongoing"
   }
  ],
- "count": 67
+ "count": 69
 }
