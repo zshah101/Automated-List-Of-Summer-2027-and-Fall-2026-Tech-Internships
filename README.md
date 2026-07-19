@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**94 open roles · 63 new this week · 3,641 companies tracked · updated Jul 19, 2026 at 06:36 UTC**
+**94 open roles · 63 new this week · 3,641 companies tracked · updated Jul 19, 2026 at 09:57 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -192,7 +192,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _72 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **57** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 22 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 19 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -215,9 +215,6 @@ _72 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | Dmainc | Software Development Intern - Fall 2026 | Fall 2026 | 2026-07-08 |
 | 1Password | Developer Intern, Service Development - Fall 2026 | Fall 2026 | 2026-07-07 |
 | Amazon | Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more) | Fall 2026 | 2026-07-06 |
-| TD Bank | 2026 Fall Co-op - Global Technology Solutions - Cyber Security | Fall 2026 | 2026-07-05 |
-| TD Bank | 2026 Fall Co-op - Global Technology Solutions - Data Engineer | Fall 2026 | 2026-07-05 |
-| TD Bank | 2026 Fall Co-op - Global Technology Solutions - Software Engineer (SWE) | Fall 2026 | 2026-07-05 |
 
 </details>
 
@@ -236,7 +233,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,641 companies across 12 ATS platforms · 98% fetch success · completed in 253.5s · median detection latency 1055 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,641 companies across 12 ATS platforms · 95% fetch success · completed in 240.7s · median detection latency 1055 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
