@@ -5,22 +5,14 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-20T10:59:22Z</updated>
+  <updated>2026-07-20T14:15:45Z</updated>
   <entry>
-    <id>urn:intern-engine:greenhouse:charlesriveranalytics90:8035563</id>
-    <title>Charlesriveranalytics90: Software QA Tester Intern/Co-op (Fall 2026)</title>
-    <link href="https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8035563"/>
-    <updated>2026-07-20T10:59:21Z</updated>
+    <id>urn:intern-engine:workday:medtronic:/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173</id>
+    <title>Medtronic: Intern AI Vision for Equipment Development</title>
+    <link href="https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173"/>
+    <updated>2026-07-20T14:15:44Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Cambridge, MA · $20–$30/hr · TypeScript, React, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:etyy.fa.ap2.oraclecloud.com:11497</id>
-    <title>Kulicke &amp; Soffa: Intern, Software Engineering</title>
-    <link href="https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11497"/>
-    <updated>2026-07-20T10:59:21Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Fort Washington, PA, United States · H-1B track record: ~17 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · Lausanne, Vaud, Switzerland · Python, C++, Computer Vision · H-1B track record: ~424 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:reliable-robotics:c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f</id>
@@ -31,12 +23,28 @@
     <summary>Fall 2026 · Software · Mountain View, CA · $120K · C++</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:greenhouse:charlesriveranalytics90:8035563</id>
+    <title>Charlesriveranalytics90: Software QA Tester Intern/Co-op (Fall 2026)</title>
+    <link href="https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8035563"/>
+    <updated>2026-07-20T10:59:21Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Cambridge, MA · $20–$30/hr · TypeScript, React, Git</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:greenhouse:voloridgeinvestmentmanagement:4224862009</id>
     <title>Voloridge: Quantitative Developer Intern 2027</title>
     <link href="https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009"/>
     <updated>2026-07-20T10:59:21Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · Jupiter, FL · Python, C++, C#, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:etyy.fa.ap2.oraclecloud.com:11497</id>
+    <title>Kulicke &amp; Soffa: Intern, Software Engineering</title>
+    <link href="https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11497"/>
+    <updated>2026-07-20T10:59:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Fort Washington, PA, United States · H-1B track record: ~17 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109672</id>
@@ -397,13 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Lincoln, NE · Python, LLMs · H-1B track record: ~18 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nio:/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144</id>
-    <title>Nio: AI Robotics Researcher Intern (Dexterous Manipulation)</title>
-    <link href="https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Jose-US · Python, PyTorch, TensorFlow, ROS</summary>
   </entry>
 </feed>

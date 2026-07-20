@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**94 open roles · 63 new this week · 3,705 companies tracked · updated Jul 20, 2026 at 10:59 UTC**
+**94 open roles · 63 new this week · 3,705 companies tracked · updated Jul 20, 2026 at 14:15 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -121,6 +121,7 @@ _~ = the title doesn't state a year; bucketed here from its posting date (43 of 
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Medtronic ✓ | Intern AI Vision for Equipment Development 🆕 | Data & ML/AI | Lausanne, Vaud, Switzerland | Jul 20, 2026 | [Apply](https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173) |
 | Moog | Intern, IT Computer Science - Data Analytics | Data & ML/AI | Buffalo, NY | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
 | Sentara Health | Enterprise Data & AI Intern- Fall 2026 Internship | Data & ML/AI | Virginia Beach, VA | Jul 15, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685) |
 | Reliable Robotics | Flight Software Engineering Intern (Fall 2026 Internship) 🆕 | Software | Mountain View, CA | Jul 13, 2026 | [Apply](https://jobs.ashbyhq.com/reliable-robotics/c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f) |
@@ -141,7 +142,6 @@ _~ = the title doesn't state a year; bucketed here from its posting date (43 of 
 | Samsung Research America ✓ | 2026 Fall Intern, ML/NLP Research | Data & ML/AI | 665 Clyde Avenue +3 more | May 08, 2026 | [Apply](https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8541339002) |
 | Amazon ✓ | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) | Data & ML/AI | Seattle, Washington, USA | May 06, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us) |
 | Skydio ✓ | Software Engineer Intern Fall 2026/Winter 2027 | Software | San Mateo, California, United States | May 05, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee) |
-| Motorola ✓ | Intern – Web Interface Software Engineer (2026) 🇺🇸 | Software | Los Angeles, CA | May 01, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Los-Angeles-CA/Intern---Web-Interface-Software-Engineer--2026-_R64590) |
 | Gemini ✓ | Software Engineering Intern (Fall 2026) | Software | New York, New York | May 01, 2026 | [Apply](https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125) |
 | TMEIC ✓ | Intern - Applications, AI and Machine Learning (Fall 2026) (ET26021) 🛂 | Data & ML/AI | Roanoke, Virginia, United States | Apr 24, 2026 | [Apply](https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/) |
 | Lego | Firmware Engineering Co-Op - Fall 2026 | Hardware | United States of America | Apr 20, 2026 | [Apply](https://lego.wd103.myworkdayjobs.com/lego_executive/job/Boston-Hub/Firmware-Engineering-Intern_0000031568) |
@@ -192,10 +192,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _73 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **58** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 18 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 19 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Motorola | Intern – Web Interface Software Engineer (2026) | Fall 2026 | 2026-07-20 |
 | Torch Technologies | Software Engineer Intern | Summer 2027 | 2026-07-19 |
 | Copart | Software Engineering Intern | Summer 2027 | 2026-07-18 |
 | onsemi | Fall 2026 - AI & Data Analytics Intern | Fall 2026 | 2026-07-17 |
@@ -232,7 +233,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,705 companies across 12 ATS platforms · 98% fetch success · completed in 260.9s · median detection latency 1055 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,705 companies across 12 ATS platforms · 98% fetch success · completed in 272.2s · median detection latency 1045 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
