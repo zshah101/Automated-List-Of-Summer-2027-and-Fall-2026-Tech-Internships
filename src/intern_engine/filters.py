@@ -56,6 +56,14 @@ _EXCLUDE_RE = re.compile(
 
 # --- season detection --------------------------------------------------------
 _YEAR_RE = re.compile(r"\b(20\d\d)\b")
+# "Summer '27" / "SWE Intern '27": two-digit years behind an apostrophe.
+_SHORT_YEAR_RE = re.compile(r"['’](\d{2})\b")
+# A graduation year in a title ("Class of 2027", "Graduating 2027") names the
+# student, not the internship cycle — those years must not bucket the role.
+_TITLE_GRAD_RE = re.compile(
+    r"\b(?:class\s+of|grad(?:uating|uation)?(?:\s+(?:date|year))?:?(?:\s+in)?)\s+['’]?(?:20)?\d{2}\b",
+    re.IGNORECASE,
+)
 
 
 def is_internship(title: str) -> bool:
@@ -70,6 +78,22 @@ def is_tech(title: str) -> bool:
 
 
 _CYCLE_RE = re.compile(r"(Summer|Fall|Spring|Winter)\s+(\d{4})", re.IGNORECASE)
+
+
+def is_cycle_label(value) -> bool:
+    """True for a well-formed "<Term> <Year>" label (tracked or not)."""
+    return bool(value) and bool(_CYCLE_RE.fullmatch(str(value).strip()))
+
+
+def states_explicit_year(title: str) -> bool:
+    """True when the title names a year (graduation years don't count).
+
+    Used as a hard stop: when detect_season refused a year-stating title, that
+    year is off-cycle — the role must not be rescued by a sticky stored season
+    or a posting-date inference ("Summer 2026 Intern" stays out, period).
+    """
+    scannable = _TITLE_GRAD_RE.sub(" ", title)
+    return bool(_YEAR_RE.search(scannable) or _SHORT_YEAR_RE.search(scannable))
 
 
 def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) -> str | None:
@@ -94,7 +118,9 @@ def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) ->
         if m:
             parsed.append((m.group(1).capitalize(), m.group(2), label))
 
-    years = set(_YEAR_RE.findall(title))
+    scannable = _TITLE_GRAD_RE.sub(" ", title)  # drop graduation-year phrases
+    years = set(_YEAR_RE.findall(scannable))
+    years |= {f"20{d}" for d in _SHORT_YEAR_RE.findall(scannable)}
     if not years:
         return None  # no explicit year in the title -> drop
 
@@ -145,6 +171,11 @@ def infer_season(title: str, posted_at: str | None,
 
     Returns a tracked cycle label, or None (leave the role dropped).
     """
+    if states_explicit_year(title):
+        # The title states a year and detect_season still refused it — that's
+        # an explicit OFF-cycle role ("Summer 2026 Intern"). Guessing a cycle
+        # from the posting date would override what the company wrote.
+        return None
     if not posted_at:
         return None  # no date -> nothing to reason from
     try:
@@ -175,28 +206,78 @@ def infer_season(title: str, posted_at: str | None,
 
 # --- season stated in posting TEXT (verifies date-inferred cycles) ------------
 _TEXT_CYCLE_RE = re.compile(r"\b(summer|fall|autumn|winter|spring)\s+(?:of\s+)?(20\d\d)\b", re.I)
+# "start date July 2026" / "June 8, 2027 through August 2027": a month+year is
+# as good as a stated term once mapped through the calendar.
+_TEXT_MONTH_RE = re.compile(
+    r"\b(january|february|march|april|may|june|july|august|september|october|"
+    r"november|december|jan|feb|mar|apr|jun|jul|aug|sept?|oct|nov|dec)\.?\s+"
+    r"(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?(20\d\d)\b",
+    re.I,
+)
+_MONTH_NUM = {
+    "january": 1, "jan": 1, "february": 2, "feb": 2, "march": 3, "mar": 3,
+    "april": 4, "apr": 4, "may": 5, "june": 6, "jun": 6, "july": 7, "jul": 7,
+    "august": 8, "aug": 8, "september": 9, "sept": 9, "sep": 9,
+    "october": 10, "oct": 10, "november": 11, "nov": 11, "december": 12, "dec": 12,
+}
+_MONTH_TERM = {1: "Winter", 2: "Winter", 3: "Spring", 4: "Spring",
+               5: "Summer", 6: "Summer", 7: "Summer", 8: "Summer",
+               9: "Fall", 10: "Fall", 11: "Fall", 12: "Winter"}
 _INTERNISH_RE = re.compile(
     r"\b(intern(?:ship)?s?|co[\s-]?op|start\s+date|program|term|semester)\b", re.I
 )
+# A date in these contexts describes the candidate or the company, not the
+# internship cycle ("graduating in December 2027", "founded in November 2014").
+# Same-sentence only: a period/!/?/; between the keyword and the date resets it.
+_NOT_CYCLE_BACK_RE = re.compile(
+    r"\b(?:graduat\w*|class\s+of|degree|diploma|founded|established|commencement)\b[^.!?;]*$",
+    re.I,
+)
 
 
-def season_from_text(text: str, near: int = 90) -> str | None:
+def season_from_text(text: str, near: int = 90,
+                     now: datetime | None = None) -> str | None:
     """The cycle a posting's own text states, or None.
 
-    Precision-first, mirroring detect_season's ethos: a "<term> <year>" mention
-    only counts when internship-ish words sit within `near` characters (skips
-    stray dates), and a verdict is returned only when every counted mention
+    Precision-first, mirroring detect_season's ethos. A mention counts only when
+    ALL of these hold, and a verdict is returned only when every counted mention
     agrees — a posting listing several terms (grad-window boilerplate) never
-    overrides the date inference.
+    overrides the date inference:
+
+      - "<term> <year>" or "<month> [day,] <year>" (month mapped via calendar)
+      - internship-ish words within `near` characters (skips stray dates)
+      - the year is plausible for a live posting (this year .. +2), which kills
+        "founded in November 2014"-style company history
+      - the same sentence doesn't frame it as a graduation/company date
+        ("graduating in December 2027" is the candidate, not the cycle)
     """
     if not text:
         return None
+    now = now or datetime.now(UTC)
+    year_lo, year_hi = now.year, now.year + 2
+
+    def _counted(m: re.Match, label: str, year: int) -> str | None:
+        if not (year_lo <= year <= year_hi):
+            return None
+        lo = max(0, m.start() - near)
+        if not _INTERNISH_RE.search(text[lo:m.end() + near]):
+            return None
+        if _NOT_CYCLE_BACK_RE.search(text[lo:m.start()]):
+            return None
+        return label
+
     labels = set()
     for m in _TEXT_CYCLE_RE.finditer(text):
-        lo = max(0, m.start() - near)
-        if _INTERNISH_RE.search(text[lo:m.end() + near]):
-            term = m.group(1).capitalize()
-            labels.add(f"{'Fall' if term == 'Autumn' else term} {m.group(2)}")
+        term = m.group(1).capitalize()
+        term = "Fall" if term == "Autumn" else term
+        label = _counted(m, f"{term} {m.group(2)}", int(m.group(2)))
+        if label:
+            labels.add(label)
+    for m in _TEXT_MONTH_RE.finditer(text):
+        term = _MONTH_TERM[_MONTH_NUM[m.group(1).lower().rstrip(".")]]
+        label = _counted(m, f"{term} {m.group(2)}", int(m.group(2)))
+        if label:
+            labels.add(label)
     return labels.pop() if len(labels) == 1 else None
 
 
@@ -232,6 +313,8 @@ _CA_CODES = ["ON", "QC", "BC", "AB", "MB", "SK", "NS", "NB", "NL", "PE", "YT", "
 
 _US_COUNTRY = ("united states", "u.s.a", "u.s.", "u.s", "usa", "america")
 _CA_COUNTRY = ("canada", "canadian")
+# "Latin America" / "South America" must not read as the US ("america" token).
+_AMERICA_NOT_US_RE = re.compile(r"\b(?:south|latin|central)\s+america")
 
 # Countries that appear in ATS location strings and must never read as US, even
 # when a state-code lookalike sits next to them ("IN - Bangalore, India" is not
@@ -268,12 +351,17 @@ def is_united_states(location: str) -> bool:
     if not location:
         return False
     low = location.lower()
-    if any(token in low for token in _US_COUNTRY):
+    stripped = _AMERICA_NOT_US_RE.sub(" ", low)
+    if any(token in stripped for token in _US_COUNTRY):
         return True
     if _NON_US_RE.search(low):
         return False  # a named foreign country outranks state-name/code guesses
     if _US_NAME_RE.search(low):
-        return True
+        return True  # full state names first: "Ontario, California" IS the US
+    if any(token in low for token in _CA_COUNTRY) or _CA_NAME_RE.search(low):
+        # An unambiguous Canada signal vetoes state-CODE lookalikes:
+        # "Milton, Ontario, CA" is Canada, not the California code.
+        return False
     if _US_CODE_RE.search(location):
         return True
     return False

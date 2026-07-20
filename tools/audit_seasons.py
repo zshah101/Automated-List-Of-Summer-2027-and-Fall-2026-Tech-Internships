@@ -6,7 +6,9 @@ and compare with the cycle the text states, if any:
 
   CONFIRMED  text states the cycle we inferred      -> un-mark (it's stated now)
   MOVED      text states another tracked cycle      -> rebucket + un-mark
-  OFF-CYCLE  text states a cycle we don't track     -> remove the record
+  OFF-CYCLE  text states a cycle we don't track     -> close + record the verdict
+             (deleting would let the role re-enter via inference next run;
+             a kept off-cycle label is sticky-dropped by the pipeline instead)
   NO-SIGNAL  text states nothing explicit           -> keep the inference + ~
 
 Read-only by default; --apply rewrites data/jobs.json. The engine performs this
@@ -119,16 +121,19 @@ def main() -> None:
         print("\nDry run — pass --apply to repair the store.")
         return
 
+    ts = store.now_iso()
     for record, _stated in verdicts["CONFIRMED"]:
         data[record["id"]]["season_inferred"] = False
     for record, stated in verdicts["MOVED"]:
         data[record["id"]]["season"] = stated
         data[record["id"]]["season_inferred"] = False
-    for record, _stated in verdicts["OFF-CYCLE"]:
-        del data[record["id"]]
+    for record, stated in verdicts["OFF-CYCLE"]:
+        rec = data[record["id"]]
+        rec.update(season=stated, season_inferred=False,
+                   is_open=False, closed_at=ts, enriched_at=ts)
     store.save(paths.JOBS_PATH, data)
     print(f"\nApplied: {len(verdicts['CONFIRMED'])} confirmed, "
-          f"{len(verdicts['MOVED'])} moved, {len(verdicts['OFF-CYCLE'])} removed. "
+          f"{len(verdicts['MOVED'])} moved, {len(verdicts['OFF-CYCLE'])} closed off-cycle. "
           f"Store saved.")
 
 

@@ -8,6 +8,8 @@ section is over its limit, not what gets collected.
 
 from __future__ import annotations
 
+import re
+
 # Roughly ordered by how sought-after they are for SWE/ML interns.
 TOP_COMPANIES = [
     "amazon", "google", "microsoft", "apple", "meta", "nvidia", "salesforce",
@@ -33,6 +35,10 @@ TOP_COMPANIES = [
 ]
 
 _RANK = {name: i for i, name in enumerate(TOP_COMPANIES)}
+# Whole-word matching so "Unity" never claims "Community Bank" and "meta"
+# never claims "Metagenomics".
+_RANK_RES = [(re.compile(rf"\b{re.escape(name)}\b"), i)
+             for name, i in _RANK.items()]
 UNRANKED = 10_000
 
 
@@ -41,7 +47,7 @@ def rank(company: str) -> int:
     c = (company or "").strip().lower()
     if c in _RANK:
         return _RANK[c]
-    for name, i in _RANK.items():
-        if name in c:  # e.g. "Stripe, Inc." contains "stripe"
+    for pattern, i in _RANK_RES:
+        if pattern.search(c):  # e.g. "Stripe, Inc." contains the word "stripe"
             return i
     return UNRANKED

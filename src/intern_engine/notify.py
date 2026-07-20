@@ -11,17 +11,21 @@ import os
 
 import httpx
 
-from . import sponsorship
+from . import config, sponsorship
 
 _MAX_EMBEDS = 10  # Discord's cap per message
 
-_COLOR = {
-    "Summer 2027": 0x2ECC71,
-    "Fall 2026": 0xE67E22,
-}
+# One color per configured cycle, in order (green, orange, purple, blue);
+# anything else gets Discord blurple.
+_PALETTE = (0x2ECC71, 0xE67E22, 0x9B59B6, 0x3498DB)
 
 
-def _embed(record: dict) -> dict:
+def _cycle_colors() -> dict[str, int]:
+    labels = config.cycles(config.load_config())
+    return {label: _PALETTE[i % len(_PALETTE)] for i, label in enumerate(labels)}
+
+
+def _embed(record: dict, colors: dict[str, int]) -> dict:
     flag = sponsorship.flag(record.get("sponsorship"))
     title = f"{record.get('company', '')} — {record.get('title', '')}"
     bits = [record.get("season") or "", record.get("location") or ""]
@@ -33,7 +37,7 @@ def _embed(record: dict) -> dict:
         "title": title[:256],
         "url": record.get("url") or None,
         "description": " · ".join(b for b in bits if b)[:2048],
-        "color": _COLOR.get(record.get("season", ""), 0x5865F2),
+        "color": colors.get(record.get("season", ""), 0x5865F2),
     }
 
 
@@ -53,10 +57,12 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> bool:
     if extra > 0:
         content += f" (showing {_MAX_EMBEDS}, +{extra} more on the list)"
 
+    colors = _cycle_colors()
     try:
         httpx.post(
             webhook,
-            json={"content": content, "embeds": [_embed(r) for r in records[:_MAX_EMBEDS]]},
+            json={"content": content,
+                  "embeds": [_embed(r, colors) for r in records[:_MAX_EMBEDS]]},
             timeout=10,
         ).raise_for_status()
         return True

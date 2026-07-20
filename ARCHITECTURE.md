@@ -103,13 +103,19 @@ quality gate (`data/blocklist.json` plus the optional `allowlist_only` mode)
 keeps the list free of junk/no-name companies.
 
 - `cycles` — the exact cycles to show; these become the section headings, in order.
-  A year stated in the title always wins (e.g. "2027" or "Fall 2026"). Titles
-  with no year are bucketed from their posting date when posted within
+  A year stated in the title always wins (e.g. "2027", "Fall 2026", "Summer '27"
+  — but a graduation year like "Class of 2027" never counts). Titles with no
+  year are bucketed from their posting date when posted within
   `infer_max_age_days` (marked `~` everywhere they render), then checked against
-  the posting text at enrichment: a cycle the text states replaces the guess,
-  and an off-cycle statement drops the role. Once stored, a season is sticky —
-  never re-derived on later runs. `tools/audit_seasons.py` re-audits the
-  backlog on demand. Older undated roles and other cycles are dropped.
+  the posting text at enrichment. The text reader understands both "<term>
+  <year>" and month+year start dates ("start date July 2026" → Summer 2026),
+  guarded three ways: the year must be plausible for a live posting, all counted
+  mentions must agree, and graduation/company-history dates ("graduating in
+  December 2027", "founded in November 2014") are excluded. A cycle the text
+  states replaces the guess; an off-cycle statement closes the role AND records
+  the verdict, so it can never be re-inferred back in. Once stored, a season is
+  sticky — never re-derived on later runs. `tools/audit_seasons.py` re-audits
+  the backlog on demand. Older undated roles and other cycles are dropped.
 - `regions` — `["US"]` (United States only), `["US", "Canada"]`, or `["Global"]`
   to disable the location filter.
 - `role_scope` — `"tech"` keeps only tech roles; `"all"` keeps every internship.

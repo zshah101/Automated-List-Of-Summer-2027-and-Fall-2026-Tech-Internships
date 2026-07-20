@@ -57,7 +57,11 @@ def _parse_ts(value: str | None) -> datetime | None:
 
 
 def new_roles(store_data: dict, now: datetime | None = None) -> list[dict]:
-    """Open roles first seen within the news window, newest first."""
+    """ALL open roles first seen within the news window, newest first.
+
+    No cap here — the subject line reports the true count; the HTML body caps
+    what it lists (and says "+N more") at composition time.
+    """
     now = now or datetime.now(UTC)
     cutoff = now - timedelta(hours=_NEW_WINDOW_HOURS)
     fresh = [
@@ -65,7 +69,7 @@ def new_roles(store_data: dict, now: datetime | None = None) -> list[dict]:
         if r.get("is_open") and (_parse_ts(r.get("first_seen_at")) or cutoff) > cutoff
     ]
     fresh.sort(key=lambda r: r.get("first_seen_at") or "", reverse=True)
-    return fresh[:_MAX_ROLES]
+    return fresh
 
 
 def should_send(state: dict, fresh_count: int, now: datetime | None = None) -> bool:
@@ -94,9 +98,21 @@ def _role_row(r: dict) -> str:
 
 
 def build_digest_html(fresh: list[dict]) -> str:
-    """The digest body; {{UNSUB_URL}} is replaced per recipient at send time."""
+    """The digest body; {{UNSUB_URL}} is replaced per recipient at send time.
+
+    Lists the newest _MAX_ROLES; a bigger day gets a "+N more" pointer instead
+    of a 60-row email.
+    """
     repo = config.repo_slug()
-    rows = "".join(_role_row(r) for r in fresh)
+    rows = "".join(_role_row(r) for r in fresh[:_MAX_ROLES])
+    extra = len(fresh) - _MAX_ROLES
+    if extra > 0:
+        rows += (
+            '<tr><td style="padding:10px 0;color:#666">'
+            f'…plus {extra} more new role{"s" if extra != 1 else ""} on '
+            f'<a href="{config.pages_base()}/">the live dashboard</a>.'
+            "</td></tr>"
+        )
     return (
         '<div style="font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;'
         'max-width:640px;margin:0 auto;color:#1a1a1a">'
@@ -170,14 +186,18 @@ def send_digest(store_data: dict) -> int:
     sent = 0
     with httpx.Client(timeout=20) as client:
         for sub in subscribers[:_MAX_SENDS]:
-            html = body.replace("{{UNSUB_URL}}", f"{unsub_base}?t={sub['unsub_token']}")
+            address = (sub.get("email") or "").strip()
+            token = sub.get("unsub_token") or ""
+            if not address or not token:
+                continue  # never send without a working unsubscribe link
+            html = body.replace("{{UNSUB_URL}}", f"{unsub_base}?t={token}")
             try:
                 client.post(
                     _BREVO_URL,
                     headers={"api-key": api_key, "Content-Type": "application/json"},
                     json={
                         "sender": sender,
-                        "to": [{"email": sub["email"]}],
+                        "to": [{"email": address}],
                         "subject": subject,
                         "htmlContent": html,
                     },

@@ -201,20 +201,22 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         f"[RSS]({pages}/feed.xml), or Discord - plus a [live dashboard]({pages}/) "
         "with search, filters, and an F-1 friendly toggle.",
         f"- **An engine, not a spreadsheet** - {companies:,} companies polled every "
-        "2 hours across 12 job platforms, ~130 tests, full source in this repo.",
+        "2 hours across 12 job platforms, 175+ tests, full source in this repo.",
         "",
         "## Scope",
         "",
         "- **Roles:** Software Engineering, Data Science & Machine Learning "
         "(and closely related technical internships)",
-        f"- **Region:** {region} (primary), with a separate International section",
+        f"- **Region:** {region}"
+        + (" (primary), with a separate International section"
+           if config.include_international(cfg) else ""),
         f"- **Cycles:** {cycles_phrase}",
         "",
         "## About",
         "",
-        "I'm a US-based international student studying in the United States, so I "
-        "built this for the search I'm doing myself. It started US-focused and now "
-        "covers international roles too. Use it to spot roles early and apply before "
+        "I'm an international student studying in the United States, so I built "
+        "this for the search I'm doing myself. The list is US roles only for now - "
+        "that's where I'm searching. Use it to spot roles early and apply before "
         "they fill up - being first genuinely helps.",
         "",
         "## Where this is going",
@@ -376,13 +378,17 @@ def _radar_section(store_data: dict, cycle: str, cap: int = 20) -> list[str]:
     return lines
 
 
-def _closed_section(store_data: dict, days: int = 14, cap: int = 40) -> list[str]:
+def _closed_section(store_data: dict, cycles: list[str],
+                    days: int = 14, cap: int = 40) -> list[str]:
     """Roles that recently closed, kept visible (collapsed) so nobody wastes an
-    application on a listing that just died."""
+    application on a listing that just died. Only tracked cycles appear here —
+    an off-cycle tombstone (text-verified "Summer 2026") was never on the list,
+    so it has no business in its obituary either."""
     cutoff = (datetime.now(UTC) - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%S")
     closed = [
         r for r in store_data.values()
         if not r.get("is_open") and (r.get("closed_at") or "") >= cutoff
+        and r.get("season") in cycles
     ]
     if not closed:
         return []
@@ -454,7 +460,7 @@ def generate(store_data: dict) -> dict:
         lines.append("")
 
     lines.extend(_radar_section(store_data, cycles[0]))
-    lines.extend(_closed_section(store_data))
+    lines.extend(_closed_section(store_data, cycles))
     lines.extend(_footer())
 
     with open(paths.README_PATH, "w", encoding="utf-8") as f:

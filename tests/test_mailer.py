@@ -28,12 +28,22 @@ def test_new_roles_window():
     assert [r["id"] for r in fresh] == ["a:2"] or len(fresh) == 1
 
 
-def test_new_roles_newest_first_and_capped():
-    store = {str(i): _record(i, id=str(i)) for i in range(1, 40)}
+def test_new_roles_newest_first_and_uncapped():
+    # new_roles reports the TRUE count (for the subject line); the HTML body
+    # is what caps at _MAX_ROLES.
+    store = {str(i): _record(i / 2, id=str(i)) for i in range(1, 45)}
     fresh = mailer.new_roles(store)
-    assert len(fresh) <= mailer._MAX_ROLES
+    assert len(fresh) == 44
     seen = [r["first_seen_at"] for r in fresh]
     assert seen == sorted(seen, reverse=True)
+
+
+def test_digest_html_caps_rows_and_says_plus_n_more():
+    fresh = [_record(i / 4, id=str(i), company=f"Co{i}") for i in range(40)]
+    html = mailer.build_digest_html(fresh)
+    listed = html.count("border-bottom:1px solid #eee")
+    assert listed == mailer._MAX_ROLES
+    assert f"plus {40 - mailer._MAX_ROLES} more new roles" in html
 
 
 # --- daily gate ----------------------------------------------------------------

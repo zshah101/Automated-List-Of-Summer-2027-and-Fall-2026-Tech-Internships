@@ -1,0 +1,49 @@
+name: Audit inferred cycles
+
+# Weekly: re-check every date-inferred (~) role against its posting's own text.
+# Companies edit postings after they go up (start dates appear later), and the
+# engine's inline check runs only once at first enrichment — this pass keeps
+# the backlog honest: confirmed cycles get un-marked, moved ones re-bucketed,
+# off-cycle ones closed with the verdict recorded so they never re-enter.
+on:
+  schedule:
+    - cron: "0 9 * * 4"     # Thursdays 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Same group as the 2-hourly update: the two must never race on data/jobs.json.
+concurrency:
+  group: update-internships
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Re-audit inferred cycles against posting text
+        run: python tools/audit_seasons.py --apply
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json
+          if git diff --staged --quiet; then
+            echo "Backlog already in line."
+          else
+            git commit -m "chore: re-audit inferred cycles ($(date -u +'%Y-%m-%d'))"
+            git push
+          fi

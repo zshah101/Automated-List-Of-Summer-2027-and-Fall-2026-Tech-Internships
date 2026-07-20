@@ -10,6 +10,9 @@ __pycache__/
 # Secrets (API keys, etc.) — never commit these
 .env
 
+# Local artifacts from the email test tool
+tools/digest_preview.html
+
 # Personal / local-only files (planning, learning notes, experiments) —
 # kept on your machine, never pushed to the public repo.
 PLAN.md

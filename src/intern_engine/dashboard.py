@@ -124,7 +124,8 @@ def _rows(open_jobs: list[dict]) -> str:
             + "</span>"
         ) if skills else ""
         haystack = " ".join(
-            [str(r.get(k) or "") for k in ("company", "title", "location", "category")]
+            [str(r.get(k) or "") for k in
+             ("company", "title", "location", "category", "season", "salary")]
             + skills
         ).lower()
         cycle_tag = (
@@ -138,6 +139,8 @@ def _rows(open_jobs: list[dict]) -> str:
             f'data-category="{escape(r.get("category", ""))}" '
             f'data-sponsor="{escape(sponsor)}" '
             f'data-h1b="{proven}" '
+            f'data-posted="{escape(posted if posted != "—" else "")}" '
+            f'data-inferred="{"1" if r.get("season_inferred") else "0"}" '
             f'data-text="{escape(haystack)}">'
             f"<td>{escape(r.get('company', ''))}{check}</td>"
             f"<td>{escape(r.get('title', ''))} {flag}{chips}</td>"
@@ -264,8 +267,12 @@ def generate(store_data: dict, stats: dict) -> None:
     updated = datetime.now(UTC).strftime("%b %d, %Y at %H:%M UTC")
     if config.include_international(cfg):
         region = "US + International"
+    elif config.want_us(cfg) and config.want_canada(cfg):
+        region = "United States & Canada"
     elif config.want_us(cfg):
         region = "United States"
+    elif config.want_canada(cfg):
+        region = "Canada"
     else:
         region = "Worldwide"
 
@@ -389,10 +396,18 @@ def generate(store_data: dict, stats: dict) -> None:
     <input id="q" type="search" placeholder="Search company, role, location, or skill (try “Python”)…" autocomplete="off">
     <select id="cycle"><option value="">All cycles</option>{_options(cycles)}</select>
     <select id="cat"><option value="">All categories</option>{_options(categories)}</select>
+    <select id="age">
+      <option value="">Posted anytime</option>
+      <option value="2">Last 48 hours</option>
+      <option value="7">Last 7 days</option>
+      <option value="30">Last 30 days</option>
+    </select>
     <label class="chk"><input id="f1" type="checkbox">
       F-1 friendly only (hide 🇺🇸 citizens-only and 🛂 no-sponsorship)</label>
     <label class="chk"><input id="h1b" type="checkbox">
       ✓ proven H-1B sponsors only</label>
+    <label class="chk" title="Hide roles whose cycle was inferred from the posting date (marked ~)">
+      <input id="stated" type="checkbox"> stated cycle only (hide ~)</label>
   </div>
   <table><thead><tr><th>Company</th><th>Role</th><th>Cycle</th><th>Category</th>
   <th>Location</th><th>Salary</th><th>Posted</th><th></th></tr></thead>
@@ -410,25 +425,34 @@ def generate(store_data: dict, stats: dict) -> None:
 (function () {{
   var q = document.getElementById('q'), cycle = document.getElementById('cycle'),
       cat = document.getElementById('cat'), f1 = document.getElementById('f1'),
-      h1b = document.getElementById('h1b'),
+      h1b = document.getElementById('h1b'), age = document.getElementById('age'),
+      stated = document.getElementById('stated'),
       rows = Array.prototype.slice.call(document.getElementById('rows').rows),
       count = document.getElementById('count');
+  function cutoffISO(days) {{
+    var d = new Date(Date.now() - days * 86400000);
+    return d.toISOString().slice(0, 10);
+  }}
   function apply() {{
     var text = q.value.trim().toLowerCase(), cy = cycle.value, ca = cat.value,
-        safe = f1.checked, proven = h1b.checked, shown = 0;
+        safe = f1.checked, proven = h1b.checked, shown = 0,
+        minPosted = age.value ? cutoffISO(parseInt(age.value, 10)) : '',
+        statedOnly = stated.checked;
     rows.forEach(function (tr) {{
       var ok = (!text || tr.dataset.text.indexOf(text) !== -1)
         && (!cy || tr.dataset.cycle === cy)
         && (!ca || tr.dataset.category === ca)
         && (!safe || (tr.dataset.sponsor !== 'citizens-only'
                       && tr.dataset.sponsor !== 'no-sponsorship'))
-        && (!proven || tr.dataset.h1b === '1');
+        && (!proven || tr.dataset.h1b === '1')
+        && (!minPosted || (tr.dataset.posted && tr.dataset.posted >= minPosted))
+        && (!statedOnly || tr.dataset.inferred === '0');
       tr.style.display = ok ? '' : 'none';
       if (ok) shown++;
     }});
     count.textContent = shown;
   }}
-  [q, cycle, cat, f1, h1b].forEach(function (el) {{
+  [q, cycle, cat, age, f1, h1b, stated].forEach(function (el) {{
     el.addEventListener('input', apply); el.addEventListener('change', apply);
   }});
   // Radar search (separate list, separate box).

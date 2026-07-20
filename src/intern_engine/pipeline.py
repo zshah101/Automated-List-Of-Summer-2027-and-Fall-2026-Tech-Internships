@@ -127,7 +127,8 @@ def _dedup(jobs: list) -> list:
 
 
 def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[str], int, Counter]:
-    """Apply every scope filter; return (kept jobs, succeeded keys, errors, errors by ats).
+    """Apply every scope filter; return (kept jobs, succeeded keys, errors,
+    errors by ats, dropped-no-year count, dropped-off-cycle count).
 
     `existing` (the store) makes cycle assignment sticky for yearless titles: a
     season already on record — set by an earlier inference or verified from the
@@ -138,6 +139,8 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
     cycles = config.cycles(cfg)
     tech_only = cfg.get("role_scope", "tech") == "tech"
     restrict = config.restrict_region(cfg)
+    wants_us = config.want_us(cfg)
+    wants_canada = config.want_canada(cfg)
     include_intl = config.include_international(cfg)
     allowlist_only = config.allowlist_only(cfg)
     infer = config.infer_undated(cfg)
@@ -154,6 +157,7 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
     errors = 0
     errors_by_ats: Counter = Counter()
     dropped_no_year = 0  # tech internships we skip only because the title has no year
+    dropped_offcycle = 0  # roles whose recorded season is a verified off-cycle label
     for company, jobs, error in results:
         if error is not None:
             errors += 1
@@ -172,10 +176,23 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
             season = filters.detect_season(job.title, cycles)
             inferred = False
             if season is None:
+                if filters.states_explicit_year(job.title):
+                    # The title names a year we don't track ("Summer 2026
+                    # Intern"): a hard verdict. Neither a stored season nor a
+                    # posting-date inference may rescue it.
+                    dropped_offcycle += 1
+                    continue
                 prior = existing.get(job.id) or {}
-                if prior.get("season") in cycles:
-                    season = prior["season"]  # sticky (see docstring)
+                prior_season = prior.get("season")
+                if prior_season in cycles:
+                    season = prior_season  # sticky (see docstring)
                     inferred = bool(prior.get("season_inferred"))
+                elif filters.is_cycle_label(prior_season):
+                    # A recorded off-cycle label ("Summer 2026") is a settled
+                    # text-verified verdict: the role stays off the list, and
+                    # is never re-inferred or re-enriched.
+                    dropped_offcycle += 1
+                    continue
                 elif infer:
                     # The measured no-year pool dwarfed the explicit-year pool
                     # (~13x), so recent undated roles are bucketed by posting
@@ -186,12 +203,12 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
             if season is None:
                 dropped_no_year += 1
                 continue
-            is_us = filters.is_united_states(job.location)
-            if restrict and not is_us and not include_intl:
+            in_region = filters.region_ok(job.location, wants_us, wants_canada)
+            if restrict and not in_region and not include_intl:
                 continue
             loc = (job.location or "").strip()
-            if not is_us and (not loc or loc == "—"):
-                continue  # international roles need a real location
+            if not in_region and (not loc or loc == "—"):
+                continue  # out-of-region roles need a real location
             posted_day = (job.posted_at or "")[:10]
             if cutoff and posted_day and posted_day < cutoff:
                 continue
@@ -199,7 +216,7 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
             job.season_inferred = inferred
             job.category = filters.categorize(job.title)
             kept.append(job)
-    return kept, succeeded, errors, errors_by_ats, dropped_no_year
+    return kept, succeeded, errors, errors_by_ats, dropped_no_year, dropped_offcycle
 
 
 def run_update() -> tuple[dict, dict, list[str]]:
@@ -219,7 +236,7 @@ def run_update() -> tuple[dict, dict, list[str]]:
     async def _enrich_stage(results, net, workday_net):
         """Filter first (cheap, sync), then enrich only the keepers."""
         nonlocal kept
-        kept, succeeded, errors, errors_by_ats, no_year = _keep_matching(
+        kept, succeeded, errors, errors_by_ats, no_year, offcycle_sticky = _keep_matching(
             results, cfg, blocklist, existing
         )
         kept = _dedup(kept)
@@ -229,10 +246,32 @@ def run_update() -> tuple[dict, dict, list[str]]:
         ids_a, n_a = await enrich.enrich_jobs(other, existing, net)
         ids_b, n_b = await enrich.enrich_jobs(wd_jobs, existing, workday_net)
         # Enrichment may have replaced an inferred cycle with the one the
-        # posting text states; anything now off-cycle leaves the list.
+        # posting text states; anything now off-cycle leaves the list — and the
+        # verdict is written into the store so the role never re-enters (or
+        # pays another detail fetch) on later runs.
         cycles = config.cycles(cfg)
-        offcycle = sum(1 for j in kept if j.season not in cycles)
-        kept = [j for j in kept if j.season in cycles]
+        ts = store.now_iso()
+        offcycle = offcycle_sticky
+        still = []
+        for job in kept:
+            if job.season in cycles:
+                still.append(job)
+                continue
+            offcycle += 1
+            record = existing.get(job.id)
+            if record is None:
+                record = {
+                    k: v for k, v in asdict(job).items()
+                    if k not in models.TRANSIENT_FIELDS
+                }
+                record.update(first_seen_at=ts, last_seen_at=ts,
+                              is_open=False, closed_at=ts)
+                existing[job.id] = record
+            else:
+                record["season"] = job.season
+                record["season_inferred"] = False
+            record["enriched_at"] = ts  # settled: never fetch this posting again
+        kept = still
         return succeeded, errors, errors_by_ats, ids_a | ids_b, n_a + n_b, no_year, offcycle
 
     results, (succeeded, errors, errors_by_ats, enriched_ids, detail_fetches, no_year,
@@ -306,7 +345,7 @@ def _detection_latency(existing: dict, window_days: int = 7) -> dict:
 
 def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, existing,
                  new_ids, enriched, detail_fetches, purged, duration,
-                 dropped_no_year=0, dropped_offcycle_text=0) -> dict:
+                 dropped_no_year=0, dropped_offcycle=0) -> dict:
     open_records = [r for r in existing.values() if r.get("is_open")]
     attempted = len(companies) - len(benched)
     dated = sum(1 for r in open_records if r.get("posted_at"))
@@ -323,7 +362,7 @@ def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, exi
         "roles_matched": len(kept),
         "roles_cycle_inferred": sum(1 for j in kept if j.season_inferred),
         "dropped_no_year_in_title": dropped_no_year,
-        "dropped_offcycle_by_text": dropped_offcycle_text,
+        "dropped_offcycle_by_text": dropped_offcycle,
         "roles_by_source": dict(Counter(j.source for j in kept)),
         "roles_by_cycle": dict(Counter(j.season for j in kept)),
         "roles_by_region": dict(Counter(
