@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T22:59:54Z",
+ "generated_at": "2026-07-20T02:58:51Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 99,
+ "count": 95,
  "jobs": [
   {
    "id": "workday:altera:/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707",
@@ -50,27 +50,6 @@
    "h1b_approvals": 4758
   },
   {
-   "id": "workday:magna:/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238",
-   "company": "Magna International",
-   "title": "AI Engineering Co-Op Student (4 months)",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Milton, Ontario, CA",
-   "url": "https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238",
-   "posted_at": "2026-07-17T00:00:00Z",
-   "first_seen_at": "2026-07-17T19:18:44Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "JavaScript",
-    "SQL"
-   ],
-   "source": "workday",
-   "h1b_approvals": null
-  },
-  {
    "id": "ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
    "company": "Deepgram",
    "title": "Software Engineering- Internship (Fall 2026/Summer 2027)",
@@ -88,23 +67,6 @@
    ],
    "source": "ashby",
    "h1b_approvals": 2
-  },
-  {
-   "id": "workday:stevens:/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1",
-   "company": "Stevens Institute of Technology",
-   "title": "Summer 2026 Intern:  Cyber Security and Reliable AI for UAS and Contested Environments",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Hoboken, NJ - Main Campus",
-   "url": "https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1",
-   "posted_at": "2026-07-17T00:00:00Z",
-   "first_seen_at": "2026-07-17T17:19:36Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": 29
   },
   {
    "id": "workday:chevron:/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1",
@@ -210,28 +172,6 @@
    ],
    "source": "oracle",
    "h1b_approvals": 2
-  },
-  {
-   "id": "workday:datasite:/job/USA---MN---Minneapolis/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255",
-   "company": "Datasite",
-   "title": "AI Transformation / Forward Deployed Engineer (FDE) Internship",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "USA - MN - Minneapolis",
-   "url": "https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---MN---Minneapolis/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255",
-   "posted_at": "2026-07-15T00:00:00Z",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "LLMs",
-    "Git"
-   ],
-   "source": "workday",
-   "h1b_approvals": 8
   },
   {
    "id": "workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1",
@@ -1172,25 +1112,6 @@
     "ROS"
    ],
    "source": "workday",
-   "h1b_approvals": null
-  },
-  {
-   "id": "greenhouse:msfcareers:5271141008",
-   "company": "Doctors Without Borders",
-   "title": "Data Science Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "New York, New York, United States",
-   "url": "https://job-boards.greenhouse.io/msfcareers/jobs/5271141008",
-   "posted_at": "2026-06-18T17:21:40-04:00",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": "$20/hr",
-   "skills": [
-    "Python"
-   ],
-   "source": "greenhouse",
    "h1b_approvals": null
   },
   {

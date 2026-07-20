@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T22:59:54Z",
+ "generated_at": "2026-07-20T02:58:51Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -12,7 +12,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-03-26",
-   "days_until": -115,
+   "days_until": -116,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849",
    "note": ""
@@ -26,7 +26,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-01",
-   "days_until": -48,
+   "days_until": -49,
    "status": "open",
    "url": "https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74",
    "note": ""
@@ -40,7 +40,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-01",
-   "days_until": -48,
+   "days_until": -49,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
    "note": ""
@@ -54,7 +54,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-02",
-   "days_until": -47,
+   "days_until": -48,
    "status": "open",
    "url": "https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec",
    "note": ""
@@ -68,7 +68,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-02",
-   "days_until": -47,
+   "days_until": -48,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007",
    "note": ""
@@ -82,7 +82,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-05",
-   "days_until": -44,
+   "days_until": -45,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/clarityinnovates/jobs/5155449007",
    "note": ""
@@ -96,7 +96,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-05",
-   "days_until": -44,
+   "days_until": -45,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002",
    "note": ""
@@ -110,7 +110,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-06",
-   "days_until": -43,
+   "days_until": -44,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
    "note": ""
@@ -124,7 +124,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-08",
-   "days_until": -41,
+   "days_until": -42,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5158533007",
    "note": ""
@@ -138,7 +138,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-09",
-   "days_until": -40,
+   "days_until": -41,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/centerfield/3279e803-56ab-4e12-8168-c2fd60bc8e60",
    "note": ""
@@ -152,7 +152,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-10",
-   "days_until": -39,
+   "days_until": -40,
    "status": "open",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
    "note": ""
@@ -166,7 +166,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-11",
-   "days_until": -38,
+   "days_until": -39,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4280809009",
    "note": ""
@@ -180,7 +180,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-12",
-   "days_until": -37,
+   "days_until": -38,
    "status": "open",
    "url": "https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678",
    "note": ""
@@ -194,7 +194,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-17",
-   "days_until": -32,
+   "days_until": -33,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/iherb/jobs/7776154003",
    "note": ""
@@ -208,7 +208,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-18",
-   "days_until": -31,
+   "days_until": -32,
    "status": "open",
    "url": "https://jobs.lever.co/acds/41bee5e2-6477-428f-b359-34b4071d545f",
    "note": ""
@@ -222,23 +222,9 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-18",
-   "days_until": -31,
+   "days_until": -32,
    "status": "open",
    "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/DevOps-Engineering-Intern_JR109490",
-   "note": ""
-  },
-  {
-   "company": "Doctors Without Borders",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-18",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-18",
-   "days_until": -31,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/msfcareers/jobs/5271141008",
    "note": ""
   },
   {
@@ -250,7 +236,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-18",
-   "days_until": -31,
+   "days_until": -32,
    "status": "open",
    "url": "https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674",
    "note": ""
@@ -264,7 +250,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-19",
-   "days_until": -30,
+   "days_until": -31,
    "status": "open",
    "url": "https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144",
    "note": ""
@@ -278,7 +264,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-23",
-   "days_until": -26,
+   "days_until": -27,
    "status": "open",
    "url": "https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987",
    "note": ""
@@ -292,7 +278,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-24",
-   "days_until": -25,
+   "days_until": -26,
    "status": "open",
    "url": "https://altasciences.wd1.myworkdayjobs.com/Careers/job/Overland-Park-Kansas/Process-Innovation---Software-Engineering-Intern_R102750",
    "note": ""
@@ -306,7 +292,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-24",
-   "days_until": -25,
+   "days_until": -26,
    "status": "open",
    "url": "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
    "note": "rolling SWE internship postings"
@@ -320,7 +306,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-30",
-   "days_until": -19,
+   "days_until": -20,
    "status": "open",
    "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335",
    "note": ""
@@ -334,7 +320,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-01",
-   "days_until": -18,
+   "days_until": -19,
    "status": "open",
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
    "note": "posts early, rolling"
@@ -348,7 +334,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-01",
-   "days_until": -18,
+   "days_until": -19,
    "status": "open",
    "url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763",
    "note": ""
@@ -362,7 +348,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-02",
-   "days_until": -17,
+   "days_until": -18,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/botauto/jobs/5289440008",
    "note": ""
@@ -376,7 +362,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-02",
-   "days_until": -17,
+   "days_until": -18,
    "status": "open",
    "url": "https://apply.workable.com/connectprep/j/C0CA13664F/",
    "note": ""
@@ -390,7 +376,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-05",
-   "days_until": -14,
+   "days_until": -15,
    "status": "open",
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
    "note": ""
@@ -404,7 +390,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-06",
-   "days_until": -13,
+   "days_until": -14,
    "status": "open",
    "url": "https://vetsez.breezy.hr/p/d18961a7a7e701-full-stack-developer-intern-remote-opportunity",
    "note": ""
@@ -418,7 +404,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-08",
-   "days_until": -11,
+   "days_until": -12,
    "status": "open",
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8052281",
    "note": ""
@@ -432,7 +418,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-10",
-   "days_until": -9,
+   "days_until": -10,
    "status": "open",
    "url": "https://jobs.lever.co/exowatt/2623555d-8b81-4f95-8bca-de9fafd2381c",
    "note": ""
@@ -446,7 +432,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-10",
-   "days_until": -9,
+   "days_until": -10,
    "status": "open",
    "url": "https://manh.wd5.myworkdayjobs.com/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931",
    "note": ""
@@ -460,7 +446,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-10",
-   "days_until": -9,
+   "days_until": -10,
    "status": "open",
    "url": "https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6",
    "note": ""
@@ -474,7 +460,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-13",
-   "days_until": -6,
+   "days_until": -7,
    "status": "open",
    "url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
    "note": ""
@@ -488,7 +474,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-13",
-   "days_until": -6,
+   "days_until": -7,
    "status": "open",
    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
    "note": "opens fall, closes early Feb"
@@ -502,23 +488,9 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-14",
-   "days_until": -5,
+   "days_until": -6,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
-   "note": ""
-  },
-  {
-   "company": "Datasite",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-15",
-   "days_until": -4,
-   "status": "open",
-   "url": "https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---MN---Minneapolis/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255",
    "note": ""
   },
   {
@@ -530,7 +502,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-15",
-   "days_until": -4,
+   "days_until": -5,
    "status": "open",
    "url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10126",
    "note": ""
@@ -544,7 +516,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-15",
-   "days_until": -4,
+   "days_until": -5,
    "status": "open",
    "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1",
    "note": ""
@@ -558,7 +530,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-15",
-   "days_until": -4,
+   "days_until": -5,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007",
    "note": ""
@@ -572,7 +544,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-16",
-   "days_until": -3,
+   "days_until": -4,
    "status": "open",
    "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1",
    "note": ""
@@ -586,7 +558,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-16",
-   "days_until": -3,
+   "days_until": -4,
    "status": "open",
    "url": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7094",
    "note": ""
@@ -600,7 +572,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-17",
-   "days_until": -2,
+   "days_until": -3,
    "status": "open",
    "url": "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707",
    "note": ""
@@ -614,7 +586,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-17",
-   "days_until": -2,
+   "days_until": -3,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
    "note": ""
@@ -628,37 +600,9 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-17",
-   "days_until": -2,
+   "days_until": -3,
    "status": "open",
    "url": "https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
-   "note": ""
-  },
-  {
-   "company": "Magna International",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-17",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-17",
-   "days_until": -2,
-   "status": "open",
-   "url": "https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238",
-   "note": ""
-  },
-  {
-   "company": "Stevens Institute of Technology",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-17",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-17",
-   "days_until": -2,
-   "status": "open",
-   "url": "https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1",
    "note": ""
   },
   {
@@ -670,7 +614,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-05-13",
-   "days_until": -67,
+   "days_until": -68,
    "status": "dropped",
    "url": "",
    "note": "rolling from mid-summer, very early"
@@ -684,7 +628,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-02",
-   "days_until": -47,
+   "days_until": -48,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -698,7 +642,21 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-02",
-   "days_until": -47,
+   "days_until": -48,
+   "status": "dropped",
+   "url": "",
+   "note": ""
+  },
+  {
+   "company": "Doctors Without Borders",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-18",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-18",
+   "days_until": -32,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -712,7 +670,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-25",
-   "days_until": -24,
+   "days_until": -25,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -726,7 +684,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-28",
-   "days_until": -21,
+   "days_until": -22,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -740,7 +698,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-02",
-   "days_until": -17,
+   "days_until": -18,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -754,7 +712,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-07",
-   "days_until": -12,
+   "days_until": -13,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -768,7 +726,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-08",
-   "days_until": -11,
+   "days_until": -12,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -782,6 +740,20 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-14",
+   "days_until": -6,
+   "status": "dropped",
+   "url": "",
+   "note": ""
+  },
+  {
+   "company": "Datasite",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-15",
    "days_until": -5,
    "status": "dropped",
    "url": "",
@@ -796,7 +768,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-16",
-   "days_until": -3,
+   "days_until": -4,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -810,7 +782,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 13,
+   "days_until": 12,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct"
@@ -824,7 +796,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 13,
+   "days_until": 12,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct"
@@ -838,7 +810,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 13,
+   "days_until": 12,
    "status": "waiting",
    "url": "",
    "note": "rolling from Aug"
@@ -852,7 +824,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 13,
+   "days_until": 12,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct main window"
@@ -866,7 +838,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 13,
+   "days_until": 12,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug, rolling"
@@ -880,7 +852,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 13,
+   "days_until": 12,
    "status": "waiting",
    "url": "",
    "note": "late Aug, rolling into Nov"
@@ -894,7 +866,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 13,
+   "days_until": 12,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug for next summer"
@@ -908,7 +880,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 44,
+   "days_until": 43,
    "status": "waiting",
    "url": "",
    "note": "early Sept, closes mid-Nov"
@@ -922,7 +894,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-10-01",
-   "days_until": 74,
+   "days_until": 73,
    "status": "waiting",
    "url": "",
    "note": "apply by end of prior year; class set early Q1"
@@ -936,7 +908,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 135,
+   "days_until": 134,
    "status": "waiting",
    "url": "",
    "note": "Dec-Jan, peak hiring Feb"
@@ -950,7 +922,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 135,
+   "days_until": 134,
    "status": "waiting",
    "url": "",
    "note": "Dec-Jan early movers"
@@ -964,10 +936,24 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 135,
+   "days_until": 134,
    "status": "waiting",
    "url": "",
    "note": "opens ~Dec, deadline late Feb"
+  },
+  {
+   "company": "Stevens Institute of Technology",
+   "last_cycle_posted": "2026-07-17",
+   "posted_on": "",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2027-07-17",
+   "days_until": 362,
+   "status": "waiting",
+   "url": "",
+   "note": ""
   },
   {
    "company": "Apple",
@@ -1012,5 +998,5 @@
    "note": "multiple programs; Ignite ~Oct, SWE ongoing"
   }
  ],
- "count": 72
+ "count": 71
 }

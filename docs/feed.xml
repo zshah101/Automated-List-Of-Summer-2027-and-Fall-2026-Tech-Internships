@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml</id>
-  <title>Summer 2027 Tech Internships — new roles</title>
+  <title>Summer 2027 &amp; Fall 2026 Tech Internships — new roles</title>
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-19T22:59:54Z</updated>
+  <updated>2026-07-20T02:58:51Z</updated>
   <entry>
     <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109672</id>
     <title>Copart: Software Engineering Intern</title>
@@ -31,28 +31,12 @@
     <summary>Summer 2027 · Data &amp; ML/AI · US, Arizona, Phoenix · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:magna:/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238</id>
-    <title>Magna International: AI Engineering Co-Op Student (4 months)</title>
-    <link href="https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238"/>
-    <updated>2026-07-17T19:18:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Milton, Ontario, CA · Python, JavaScript, SQL</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1</id>
     <title>Deepgram: Software Engineering- Internship (Fall 2026/Summer 2027)</title>
     <link href="https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"/>
     <updated>2026-07-17T17:19:36Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · USA | Remote · $55 – $65 per hour · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:stevens:/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1</id>
-    <title>Stevens Institute of Technology: Summer 2026 Intern:  Cyber Security and Reliable AI for UAS and Contested Environments</title>
-    <link href="https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Intern---Cyber-Security-and-Reliable-AI-for-UAS-and-Contested-Environments_RQ30408-1"/>
-    <updated>2026-07-17T17:19:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Hoboken, NJ - Main Campus · H-1B track record: ~29 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:chevron:/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1</id>
@@ -189,14 +173,6 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA USA · Python, PyTorch</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:msfcareers:5271141008</id>
-    <title>Doctors Without Borders: Data Science Intern</title>
-    <link href="https://job-boards.greenhouse.io/msfcareers/jobs/5271141008"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, New York, United States · $20/hr · Python</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:scaleai:4703343005</id>
@@ -367,14 +343,6 @@
     <summary>Summer 2027 · Software · Dallas, TX - Headquarters · Python, Java, PyTorch, TensorFlow, AWS · H-1B track record: ~83 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:datasite:/job/USA---MN---Minneapolis/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255</id>
-    <title>Datasite: AI Transformation / Forward Deployed Engineer (FDE) Internship</title>
-    <link href="https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---MN---Minneapolis/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA - MN - Minneapolis · Python, SQL, LLMs, Git</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:generac:/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674</id>
     <title>Generac: Intern Firmware Engineering</title>
     <link href="https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674"/>
@@ -405,5 +373,37 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · San Jose-US · Python, PyTorch, TensorFlow, ROS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:rfcuny:/job/New-York-NY/Data-Analyst-Intern_JR2987</id>
+    <title>RFCUNY: Data Analyst Intern</title>
+    <link href="https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987"/>
+    <updated>2026-07-16T07:39:11Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY · $17.5/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sonyglobal:/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335</id>
+    <title>Sony: Research Intern on Generative and Protective AI for Content Creation</title>
+    <link href="https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335"/>
+    <updated>2026-07-16T07:39:11Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Remote - New York · $50/hr · PyTorch, LLMs, Computer Vision</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1</id>
+    <title>Tencent: Research Intern – Video World Models (Research &amp; ML Systems)</title>
+    <link href="https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1"/>
+    <updated>2026-07-16T07:39:11Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · US-California-Palo Alto · $124.8k/yr · Python, PyTorch, LLMs, CUDA · H-1B track record: ~53 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thetradedesk:5187605007</id>
+    <title>The Trade Desk: 2027 North America Software Engineering Internship</title>
+    <link href="https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007"/>
+    <updated>2026-07-15T17:24:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Bellevue; Boulder; Denver; Irvine; New York; Seattle · H-1B track record: ~43 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
