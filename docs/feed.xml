@@ -5,7 +5,39 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-20T06:54:10Z</updated>
+  <updated>2026-07-20T10:59:22Z</updated>
+  <entry>
+    <id>urn:intern-engine:greenhouse:charlesriveranalytics90:8035563</id>
+    <title>Charlesriveranalytics90: Software QA Tester Intern/Co-op (Fall 2026)</title>
+    <link href="https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8035563"/>
+    <updated>2026-07-20T10:59:21Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Cambridge, MA · $20–$30/hr · TypeScript, React, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:etyy.fa.ap2.oraclecloud.com:11497</id>
+    <title>Kulicke &amp; Soffa: Intern, Software Engineering</title>
+    <link href="https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11497"/>
+    <updated>2026-07-20T10:59:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Fort Washington, PA, United States · H-1B track record: ~17 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:reliable-robotics:c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f</id>
+    <title>Reliable Robotics: Flight Software Engineering Intern (Fall 2026 Internship)</title>
+    <link href="https://jobs.ashbyhq.com/reliable-robotics/c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f"/>
+    <updated>2026-07-20T10:59:21Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Mountain View, CA · $120K · C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:voloridgeinvestmentmanagement:4224862009</id>
+    <title>Voloridge: Quantitative Developer Intern 2027</title>
+    <link href="https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009"/>
+    <updated>2026-07-20T10:59:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · Jupiter, FL · Python, C++, C#, SQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109672</id>
     <title>Copart: Software Engineering Intern</title>
@@ -373,37 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · San Jose-US · Python, PyTorch, TensorFlow, ROS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:rfcuny:/job/New-York-NY/Data-Analyst-Intern_JR2987</id>
-    <title>RFCUNY: Data Analyst Intern</title>
-    <link href="https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY · $17.5/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sonyglobal:/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335</id>
-    <title>Sony: Research Intern on Generative and Protective AI for Content Creation</title>
-    <link href="https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Remote - New York · $50/hr · PyTorch, LLMs, Computer Vision</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1</id>
-    <title>Tencent: Research Intern – Video World Models (Research &amp; ML Systems)</title>
-    <link href="https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · US-California-Palo Alto · $124.8k/yr · Python, PyTorch, LLMs, CUDA · H-1B track record: ~53 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thetradedesk:5187605007</id>
-    <title>The Trade Desk: 2027 North America Software Engineering Internship</title>
-    <link href="https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007"/>
-    <updated>2026-07-15T17:24:53Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Bellevue; Boulder; Denver; Irvine; New York; Seattle · H-1B track record: ~43 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

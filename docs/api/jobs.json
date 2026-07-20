@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-20T06:54:10Z",
+ "generated_at": "2026-07-20T10:59:22Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 95,
+ "count": 99,
  "jobs": [
   {
    "id": "workday:altera:/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707",
@@ -249,6 +249,25 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": 7
+  },
+  {
+   "id": "ashby:reliable-robotics:c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f",
+   "company": "Reliable Robotics",
+   "title": "Flight Software Engineering Intern (Fall 2026 Internship)",
+   "season": "Fall 2026",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/reliable-robotics/c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f",
+   "posted_at": "2026-07-13T20:51:48.188+00:00",
+   "first_seen_at": "2026-07-20T10:59:21Z",
+   "sponsorship": "unknown",
+   "salary": "$120K",
+   "skills": [
+    "C++"
+   ],
+   "source": "ashby",
+   "h1b_approvals": null
   },
   {
    "id": "lever:acds:41bee5e2-6477-428f-b359-34b4071d545f",
@@ -661,6 +680,23 @@
    "h1b_approvals": 38
   },
   {
+   "id": "oracle:etyy.fa.ap2.oraclecloud.com:11497",
+   "company": "Kulicke & Soffa",
+   "title": "Intern, Software Engineering",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Fort Washington, PA, United States",
+   "url": "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11497",
+   "posted_at": "2026-07-03",
+   "first_seen_at": "2026-07-20T10:59:21Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "oracle",
+   "h1b_approvals": 17
+  },
+  {
    "id": "greenhouse:botauto:5289440008",
    "company": "Bot Auto",
    "title": "Intern, Deep Learning Engineer",
@@ -894,6 +930,27 @@
     "LLMs"
    ],
    "source": "ashby",
+   "h1b_approvals": null
+  },
+  {
+   "id": "greenhouse:charlesriveranalytics90:8035563",
+   "company": "Charlesriveranalytics90",
+   "title": "Software QA Tester Intern/Co-op (Fall 2026)",
+   "season": "Fall 2026",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8035563",
+   "posted_at": "2026-06-29T14:41:31-04:00",
+   "first_seen_at": "2026-07-20T10:59:21Z",
+   "sponsorship": "unknown",
+   "salary": "$20–$30/hr",
+   "skills": [
+    "TypeScript",
+    "React",
+    "Git"
+   ],
+   "source": "greenhouse",
    "h1b_approvals": null
   },
   {
@@ -1197,6 +1254,28 @@
    "salary": "100,000–140,000 USD / per year salary",
    "skills": [],
    "source": "lever",
+   "h1b_approvals": null
+  },
+  {
+   "id": "greenhouse:voloridgeinvestmentmanagement:4224862009",
+   "company": "Voloridge",
+   "title": "Quantitative Developer Intern 2027",
+   "season": "Summer 2027",
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Jupiter, FL",
+   "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009",
+   "posted_at": "2026-06-11T09:46:12-04:00",
+   "first_seen_at": "2026-07-20T10:59:21Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "C#",
+    "SQL"
+   ],
+   "source": "greenhouse",
    "h1b_approvals": null
   },
   {

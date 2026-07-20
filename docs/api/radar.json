@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T06:54:10Z",
+ "generated_at": "2026-07-20T10:59:22Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -169,6 +169,20 @@
    "days_until": -39,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4280809009",
+   "note": ""
+  },
+  {
+   "company": "Voloridge",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-11",
+   "days_until": -39,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009",
    "note": ""
   },
   {
@@ -365,6 +379,20 @@
    "days_until": -18,
    "status": "open",
    "url": "https://apply.workable.com/connectprep/j/C0CA13664F/",
+   "note": ""
+  },
+  {
+   "company": "Kulicke & Soffa",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-03",
+   "days_until": -17,
+   "status": "open",
+   "url": "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11497",
    "note": ""
   },
   {
@@ -998,5 +1026,5 @@
    "note": "multiple programs; Ignite ~Oct, SWE ongoing"
   }
  ],
- "count": 71
+ "count": 73
 }
