@@ -5,7 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-20T23:06:49Z</updated>
+  <updated>2026-07-21T02:57:41Z</updated>
+  <entry>
+    <id>urn:intern-engine:greenhouse:axontalentcommunity:7800628003</id>
+    <title>Axon: 2027 US Firmware Engineering Internship</title>
+    <link href="https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800628003"/>
+    <updated>2026-07-21T02:57:41Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Hardware · Seattle, Washington, United States · Python, C++, Go, Rust, Linux · H-1B track record: ~72 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:axontalentcommunity:7800617003</id>
+    <title>Axon: 2027 US Software Engineering Internship</title>
+    <link href="https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800617003"/>
+    <updated>2026-07-21T02:57:41Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Seattle, Washington, United States · Python, Java, C#, SQL, Scala · H-1B track record: ~72 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:38783</id>
     <title>Nokia: AI R&amp;D Engineer Co-op</title>
@@ -359,14 +375,6 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Los Angeles, United States · 20–25 USD / per hour wage · Git</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:ejta.fa.us6.oraclecloud.com:10126</id>
-    <title>Fortive: IT Infrastructure Internship</title>
-    <link href="https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10126"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Irvine, CA, United States · AWS</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workable:altom-transport:9FC654F05E</id>
     <title>Altom Transport: Fall Software Development Intern</title>
     <link href="https://apply.workable.com/altom-transport/j/9FC654F05E/"/>
@@ -397,13 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Dallas, TX - Headquarters · Python, Java, PyTorch, TensorFlow, AWS · H-1B track record: ~83 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generac:/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674</id>
-    <title>Generac: Intern Firmware Engineering</title>
-    <link href="https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Hardware · Reno, NV - USA · Python, C++, Git · H-1B track record: ~17 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

@@ -1,9 +1,56 @@
 {
- "generated_at": "2026-07-20T23:06:49Z",
+ "generated_at": "2026-07-21T02:57:42Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 101,
+ "count": 102,
  "jobs": [
+  {
+   "id": "greenhouse:axontalentcommunity:7800628003",
+   "company": "Axon",
+   "title": "2027 US Firmware Engineering Internship",
+   "season": "Summer 2027",
+   "season_inferred": false,
+   "category": "Hardware",
+   "location": "Seattle, Washington, United States",
+   "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800628003",
+   "posted_at": "2026-07-20T21:57:45-04:00",
+   "first_seen_at": "2026-07-21T02:57:41Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Go",
+    "Rust",
+    "Linux"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 72
+  },
+  {
+   "id": "greenhouse:axontalentcommunity:7800617003",
+   "company": "Axon",
+   "title": "2027 US Software Engineering Internship",
+   "season": "Summer 2027",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Seattle, Washington, United States",
+   "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800617003",
+   "posted_at": "2026-07-20T21:57:41-04:00",
+   "first_seen_at": "2026-07-21T02:57:41Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C#",
+    "SQL",
+    "Scala",
+    "Linux"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 72
+  },
   {
    "id": "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:38783",
    "company": "Nokia",
@@ -234,25 +281,6 @@
    "salary": null,
    "skills": [],
    "source": "workday",
-   "h1b_approvals": 2
-  },
-  {
-   "id": "oracle:ejta.fa.us6.oraclecloud.com:10126",
-   "company": "Fortive",
-   "title": "IT Infrastructure Internship",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Irvine, CA, United States",
-   "url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10126",
-   "posted_at": "2026-07-15",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "AWS"
-   ],
-   "source": "oracle",
    "h1b_approvals": 2
   },
   {
