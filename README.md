@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**96 open roles · 60 new this week · 3,855 companies tracked · updated Jul 22, 2026 at 13:46 UTC**
+**96 open roles · 60 new this week · 3,855 companies tracked · updated Jul 22, 2026 at 15:34 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -54,7 +54,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| SS&C ✓ | Healthcare AI & Automation Intern ~ 🆕 | Data & ML/AI | Remote - Florida, US | Jul 22, 2026 | [Apply](https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126) |
+| Carnegie Mellon University ✓ | Research Intern - School of Computer Science - LTI ~ 🆕 | Software | Pittsburgh, PA | Jul 22, 2026 | [Apply](https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Intern---School-of-Computer-Science---LTI_2024870) |
 | Virtu Financial ✓ | Internship - Software Engineer 🆕 | Software | Austin, TX; New York | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | HireVue | Data Science Intern / Fully Remote US ~ 🆕 | Data & ML/AI | Sandy, UT, United States (Remote) | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/HireVue/744000138728139) |
 | Nokia ✓ | AI R&D Engineer Co-op ~ 🆕 | Data & ML/AI | United States | Jul 20, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38783) |
@@ -126,7 +126,7 @@ _~ = the title doesn't state a year; bucketed here from its posting date (45 of 
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Medtronic ✓ | Intern AI Vision for Equipment Development 🆕 | Data & ML/AI | Lausanne, Vaud, Switzerland | Jul 20, 2026 | [Apply](https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173) |
+| Medtronic ✓ | Intern AI Vision for Equipment Development | Data & ML/AI | Lausanne, Vaud, Switzerland | Jul 20, 2026 | [Apply](https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173) |
 | Moog | Intern, IT Computer Science - Data Analytics | Data & ML/AI | Buffalo, NY | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
 | Sentara Health | Enterprise Data & AI Intern- Fall 2026 Internship | Data & ML/AI | Virginia Beach, VA | Jul 15, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685) |
 | NVIDIA ✓ | Performance Engineer Intern, Systems Software-  Fall 2026 | Software | US, MO, St. Louis | Jul 06, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
@@ -204,10 +204,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _53 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **18** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 29 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 30 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| SS&C | Healthcare AI & Automation Intern | Summer 2027 | 2026-07-22 |
 | Centific | Tech Intern - Responsible AI | Summer 2027 | 2026-07-22 |
 | Center for AI Safety | Research Engineer Intern (Fall 2026) | Fall 2026 | 2026-07-22 |
 | Axon | 2027 US Software Engineering Internship | Summer 2027 | 2026-07-21 |
@@ -255,7 +256,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,855 companies across 12 ATS platforms · 99% fetch success · completed in 285.9s · median detection latency 1042 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,855 companies across 12 ATS platforms · 99% fetch success · completed in 293.8s · median detection latency 1040 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
