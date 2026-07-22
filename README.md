@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**93 open roles · 57 new this week · 3,710 companies tracked · updated Jul 22, 2026 at 05:49 UTC**
+**92 open roles · 56 new this week · 3,710 companies tracked · updated Jul 22, 2026 at 08:25 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,11 +50,10 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (62 open)
+## Summer 2027  (61 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Centific | Tech Intern - Responsible AI ~ 🆕 | Data & ML/AI | Redmond, Washington | Jul 21, 2026 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Redmond-Washington/Tech-Intern---Responsible-AI_JR107893-1) |
 | Virtu Financial ✓ | Internship - Software Engineer 🆕 | Software | Austin, TX; New York | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Nokia ✓ | AI R&D Engineer Co-op ~ 🆕 | Data & ML/AI | United States | Jul 20, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38783) |
 | Western Digital ✓ | Summer 2027 - Software Engineering Internship 🆕 | Software | San Jose, CA, United States | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000138727213) |
@@ -117,7 +116,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (42 of 62)._
+_~ = the title doesn't state a year; bucketed here from its posting date (41 of 61)._
 
 ## Fall 2026  (31 open)
 
@@ -201,10 +200,11 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _53 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **18** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 28 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 29 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Centific | Tech Intern - Responsible AI | Summer 2027 | 2026-07-22 |
 | Center for AI Safety | Research Engineer Intern (Fall 2026) | Fall 2026 | 2026-07-22 |
 | Axon | 2027 US Software Engineering Internship | Summer 2027 | 2026-07-21 |
 | Axon | 2027 US Firmware Engineering Internship | Summer 2027 | 2026-07-21 |
@@ -251,7 +251,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,710 companies across 12 ATS platforms · 98% fetch success · completed in 270.1s · median detection latency 1042 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,710 companies across 12 ATS platforms · 98% fetch success · completed in 246.4s · median detection latency 1042 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

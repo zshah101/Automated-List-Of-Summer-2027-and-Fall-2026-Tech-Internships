@@ -5,15 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-22T05:49:40Z</updated>
-  <entry>
-    <id>urn:intern-engine:workday:centific:/job/Redmond-Washington/Tech-Intern---Responsible-AI_JR107893-1</id>
-    <title>Centific: Tech Intern - Responsible AI</title>
-    <link href="https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Redmond-Washington/Tech-Intern---Responsible-AI_JR107893-1"/>
-    <updated>2026-07-21T23:57:26Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Redmond, Washington · $50/hr · Python, PyTorch, LLMs, Kubernetes, Docker</summary>
-  </entry>
+  <updated>2026-07-22T08:25:18Z</updated>
   <entry>
     <id>urn:intern-engine:greenhouse:virtu:8624410002</id>
     <title>Virtu Financial: Internship - Software Engineer</title>
@@ -405,5 +397,13 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US - Home Office · Python, Java, JavaScript, LLMs · H-1B track record: ~153 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nelnet:/job/Lincoln-NE/Intern---AI-Engineer_R22763</id>
+    <title>Nelnet: Intern - AI Engineer</title>
+    <link href="https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763"/>
+    <updated>2026-07-16T07:39:11Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Lincoln, NE · Python, LLMs · H-1B track record: ~18 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
