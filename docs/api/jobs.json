@@ -1,9 +1,26 @@
 {
- "generated_at": "2026-07-22T21:06:14Z",
+ "generated_at": "2026-07-22T23:01:40Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 102,
+ "count": 103,
  "jobs": [
+  {
+   "id": "workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1",
+   "company": "Hewlett Packard (HP)",
+   "title": "Software Engineering Intern, Device Experiences",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "San Francisco, California, United States of America",
+   "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1",
+   "posted_at": "2026-07-22T00:00:00Z",
+   "first_seen_at": "2026-07-22T23:01:40Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "workday",
+   "h1b_approvals": null
+  },
   {
    "id": "workable:pony-dot-ai:4C1F53EF5D",
    "company": "Pony Dot Ai",
@@ -79,6 +96,28 @@
    "skills": [],
    "source": "workday",
    "h1b_approvals": 164
+  },
+  {
+   "id": "workday:ssctech:/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126",
+   "company": "SS&C",
+   "title": "Healthcare AI & Automation Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Remote - Florida, US",
+   "url": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126",
+   "posted_at": "2026-07-22T00:00:00Z",
+   "first_seen_at": "2026-07-22T13:46:16Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "LLMs",
+    "Git"
+   ],
+   "source": "workday",
+   "h1b_approvals": 53
   },
   {
    "id": "greenhouse:virtu:8624410002",
@@ -1689,28 +1728,6 @@
    ],
    "source": "lever",
    "h1b_approvals": 3
-  },
-  {
-   "id": "lever:genbio:4bdb14ae-e19f-40c8-84db-1307dbdabe74",
-   "company": "GenBio AI",
-   "title": "Software Engineering Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Palo Alto, CA",
-   "url": "https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74",
-   "posted_at": "2026-06-01T19:17:29Z",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": "8,000–10,000 USD / per month salary",
-   "skills": [
-    "Python",
-    "TypeScript",
-    "React",
-    "Kubernetes"
-   ],
-   "source": "lever",
-   "h1b_approvals": null
   },
   {
    "id": "greenhouse:walleyecapital-external-students:4676587006",
