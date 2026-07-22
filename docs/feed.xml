@@ -5,7 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-22T19:12:45Z</updated>
+  <updated>2026-07-22T21:06:14Z</updated>
+  <entry>
+    <id>urn:intern-engine:workable:pony-dot-ai:4C1F53EF5D</id>
+    <title>Pony Dot Ai: Research Intern - Deep Learning</title>
+    <link href="https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/"/>
+    <updated>2026-07-22T21:06:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Fremont, California, United States · Python, C++, LLMs, CUDA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:pony-dot-ai:BA5FFDBC71</id>
+    <title>Pony Dot Ai: Software Engineer Intern - Generalist</title>
+    <link href="https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/"/>
+    <updated>2026-07-22T21:06:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Fremont, California, United States · Python, C++</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:moog:/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1</id>
     <title>Moog: Intern, Software Engineering</title>
@@ -389,21 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Los Angeles, United States · 20–25 USD / per hour wage · Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:altom-transport:9FC654F05E</id>
-    <title>Altom Transport: Fall Software Development Intern</title>
-    <link href="https://apply.workable.com/altom-transport/j/9FC654F05E/"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Hammond, Indiana, United States · Python, JavaScript, SQL, AWS, GCP</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:connectprep:C0CA13664F</id>
-    <title>ConnectPrep: Data Analyst Internship 🇺🇸</title>
-    <link href="https://apply.workable.com/connectprep/j/C0CA13664F/"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Washington, District of Columbia, United States (Remote) · Python, SQL, Pandas, Tableau · sponsorship: citizens-only</summary>
   </entry>
 </feed>

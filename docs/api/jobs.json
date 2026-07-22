@@ -1,9 +1,51 @@
 {
- "generated_at": "2026-07-22T19:12:45Z",
+ "generated_at": "2026-07-22T21:06:14Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 102,
  "jobs": [
+  {
+   "id": "workable:pony-dot-ai:4C1F53EF5D",
+   "company": "Pony Dot Ai",
+   "title": "Research Intern - Deep Learning",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Fremont, California, United States",
+   "url": "https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/",
+   "posted_at": "2026-07-22T00:00:00.000Z",
+   "first_seen_at": "2026-07-22T21:06:13Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "LLMs",
+    "CUDA"
+   ],
+   "source": "workable",
+   "h1b_approvals": null
+  },
+  {
+   "id": "workable:pony-dot-ai:BA5FFDBC71",
+   "company": "Pony Dot Ai",
+   "title": "Software Engineer Intern - Generalist",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Fremont, California, United States",
+   "url": "https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/",
+   "posted_at": "2026-07-22T00:00:00.000Z",
+   "first_seen_at": "2026-07-22T21:06:13Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "source": "workable",
+   "h1b_approvals": null
+  },
   {
    "id": "workday:moog:/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1",
    "company": "Moog",
@@ -1301,27 +1343,6 @@
    "h1b_approvals": null
   },
   {
-   "id": "workday:generac:/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674",
-   "company": "Generac",
-   "title": "Intern Firmware Engineering",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Hardware",
-   "location": "Reno, NV - USA",
-   "url": "https://generac.wd5.myworkdayjobs.com/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR14674",
-   "posted_at": "2026-06-18T00:00:00Z",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "C++",
-    "Git"
-   ],
-   "source": "workday",
-   "h1b_approvals": 17
-  },
-  {
    "id": "greenhouse:iherb:7776154003",
    "company": "iHerb",
    "title": "Software Development Intern",
@@ -1845,32 +1866,6 @@
    ],
    "source": "amazon",
    "h1b_approvals": 23139
-  },
-  {
-   "id": "ashby:skydio:f6320e9b-4eed-408d-8d37-d509fb0406ee",
-   "company": "Skydio",
-   "title": "Software Engineer Intern Fall 2026/Winter 2027",
-   "season": "Fall 2026",
-   "season_inferred": false,
-   "category": "Software",
-   "location": "San Mateo, California, United States",
-   "url": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee",
-   "posted_at": "2026-05-05T22:59:03.280+00:00",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "unknown",
-   "salary": "$47/hr",
-   "skills": [
-    "Python",
-    "Go",
-    "TypeScript",
-    "JavaScript",
-    "AWS",
-    "GCP",
-    "Azure",
-    "Linux"
-   ],
-   "source": "ashby",
-   "h1b_approvals": 26
   },
   {
    "id": "greenhouse:gemini:7875125",
