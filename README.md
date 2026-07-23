@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**96 open roles · 23 new this week · 3,870 companies tracked · updated Jul 23, 2026 at 15:09 UTC**
+**96 open roles · 22 new this week · 3,870 companies tracked · updated Jul 23, 2026 at 17:20 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -60,7 +60,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Pony Dot Ai | Software Engineer Intern - Generalist ~ 🆕 | Software | Fremont, California, United States | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/) |
 | Moog | Intern, Software Engineering ~ 🆕 | Software | Buffalo, NY | Jul 22, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1) |
 | Carnegie Mellon University ✓ | Research Intern - School of Computer Science - LTI ~ 🆕 | Software | Pittsburgh, PA | Jul 22, 2026 | [Apply](https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Intern---School-of-Computer-Science---LTI_2024870) |
-| Virtu Financial ✓ | Internship - Software Engineer 🆕 | Software | Austin, TX; New York | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
+| Virtu Financial ✓ | 2027 Internship - Software Engineer | Software | Austin, TX; New York | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | HireVue | Data Science Intern / Fully Remote US ~ 🆕 | Data & ML/AI | Sandy, UT, United States (Remote) | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/HireVue/744000138728139) |
 | Western Digital ✓ | Summer 2027 - Software Engineering Internship | Software | San Jose, CA, United States | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000138727213) |
 | AVEVA ✓ | Software Developer Intern- Drexel Co-op US ~ | Software | Philadelphia +2 more | Jul 20, 2026 | [Apply](https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Philadelphia-Pennsylvania-United-States-of-America/Software-Developer-Intern--Drexel-Co-op-US_R014478) |
@@ -260,7 +260,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 274.2s · median detection latency 1045 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 265.0s · median detection latency 1045 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
