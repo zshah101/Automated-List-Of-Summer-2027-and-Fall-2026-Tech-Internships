@@ -1,9 +1,28 @@
 {
- "generated_at": "2026-07-23T21:02:49Z",
+ "generated_at": "2026-07-23T22:12:05Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 99,
+ "count": 100,
  "jobs": [
+  {
+   "id": "greenhouse:astranis:4699071006",
+   "company": "Astranis",
+   "title": "Software Engineer Intern - Enterprise Systems (Fall 2026)",
+   "season": "Fall 2026",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4699071006",
+   "posted_at": "2026-07-23T18:05:51-04:00",
+   "first_seen_at": "2026-07-23T22:12:04Z",
+   "sponsorship": "citizens-only",
+   "salary": "$29/hr",
+   "skills": [
+    "Python"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": null
+  },
   {
    "id": "greenhouse:appian:8041237",
    "company": "Appian",

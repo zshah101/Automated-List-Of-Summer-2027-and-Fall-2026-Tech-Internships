@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**94 open roles · 21 new this week · 3,870 companies tracked · updated Jul 23, 2026 at 21:02 UTC**
+**95 open roles · 22 new this week · 3,870 companies tracked · updated Jul 23, 2026 at 22:12 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -122,10 +122,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 _~ = the title doesn't state a year; bucketed here from its posting date (44 of 65)._
 
-## Fall 2026  (29 open)
+## Fall 2026  (30 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Astranis | Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸 🆕 | Software | San Francisco, CA | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Medtronic ✓ | Intern AI Vision for Equipment Development | Data & ML/AI | Lausanne, Vaud, Switzerland | Jul 20, 2026 | [Apply](https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173) |
 | Moog | Intern, IT Computer Science - Data Analytics | Data & ML/AI | Buffalo, NY | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
 | NVIDIA ✓ | Performance Engineer Intern, Systems Software-  Fall 2026 | Software | US, MO, St. Louis | Jul 06, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
@@ -156,7 +157,7 @@ _~ = the title doesn't state a year; bucketed here from its posting date (44 of 
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (1 of 29)._
+_~ = the title doesn't state a year; bucketed here from its posting date (1 of 30)._
 
 <a id="drop-radar"></a>
 
@@ -202,7 +203,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _54 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **19** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 38 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 37 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -243,7 +244,6 @@ _54 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | Vertex Pharmaceuticals | Vertex Fall Co-op 2026, AI and Governance | Fall 2026 | 2026-07-10 |
 | ABB | AI & Data Scientist  Intern - Fall 2026 | Fall 2026 | 2026-07-10 |
 | Northrop Grumman | 2027 Intern Software Engineer | Summer 2027 | 2026-07-09 |
-| 1Password | Developer Intern, Trust Platforms - Fall 2026 | Fall 2026 | 2026-07-09 |
 
 </details>
 
@@ -262,7 +262,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 266.2s · median detection latency 1042 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 247.7s · median detection latency 1040 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
