@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**97 open roles · 60 new this week · 3,855 companies tracked · updated Jul 23, 2026 at 07:33 UTC**
+**97 open roles · 22 new this week · 3,855 companies tracked · updated Jul 23, 2026 at 10:20 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -205,7 +205,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _53 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **18** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 32 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 31 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -240,7 +240,6 @@ _53 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | ABB | AI & Data Scientist  Intern - Fall 2026 | Fall 2026 | 2026-07-10 |
 | Northrop Grumman | 2027 Intern Software Engineer | Summer 2027 | 2026-07-09 |
 | 1Password | Developer Intern, Trust Platforms - Fall 2026 | Fall 2026 | 2026-07-09 |
-| State Street | BestX AI Engineer, Full-time Internship (July - Dec 2026) | Fall 2026 | 2026-07-09 |
 
 </details>
 
@@ -259,7 +258,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,855 companies across 12 ATS platforms · 99% fetch success · completed in 249.6s · median detection latency 1045 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,855 companies across 12 ATS platforms · 96% fetch success · completed in 232.5s · median detection latency 1045 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
