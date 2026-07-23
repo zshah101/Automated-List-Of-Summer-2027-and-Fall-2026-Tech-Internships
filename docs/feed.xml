@@ -5,7 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-23T17:20:51Z</updated>
+  <updated>2026-07-23T19:12:58Z</updated>
+  <entry>
+    <id>urn:intern-engine:greenhouse:appian:8041237</id>
+    <title>Appian: Software Engineering Intern 🛂</title>
+    <link href="https://job-boards.greenhouse.io/appian/jobs/8041237"/>
+    <updated>2026-07-23T19:12:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · McLean, Virginia · $50/hr · LLMs · sponsorship: no-sponsorship · H-1B track record: ~44 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5186916007</id>
+    <title>Tenstorrent: Software Engineering Intern, Power Modeling &amp; AI Tools</title>
+    <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007"/>
+    <updated>2026-07-23T19:12:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California, United States · $50/hr · Python, SQL, LLMs, Git · H-1B track record: ~12 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workable:halo-industries:29728B1DAF</id>
     <title>Halo Industries: Software Engineer Intern - Machine Learning Workflow</title>
@@ -389,21 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Washington, D.C. · Python, Java, C++, TypeScript, JavaScript · H-1B track record: ~88 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:palantir:d5486403-c050-4920-b2e0-91b69b61ebb2</id>
-    <title>Palantir: Forward Deployed Software Engineer, Internship - Commercial</title>
-    <link href="https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, IL · Python, Java, C++, TypeScript, JavaScript · H-1B track record: ~88 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:xsolla:1c0e5375-2352-4a2c-a816-48ddebbdd3d6</id>
-    <title>Xsolla: AI-First Engineering Intern</title>
-    <link href="https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Los Angeles, United States · 20–25 USD / per hour wage · Git</summary>
   </entry>
 </feed>

@@ -5,7 +5,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-09",
-     "count": 40
+     "count": 42
     }
    }
   },
@@ -14,7 +14,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-18",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -23,7 +23,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-20",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -32,7 +32,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-13",
-     "count": 100
+     "count": 105
     }
    }
   },
@@ -41,11 +41,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2025-10-08",
-     "count": 380
+     "count": 399
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 60
+     "count": 63
     }
    }
   },
@@ -54,7 +54,16 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-10",
-     "count": 20
+     "count": 21
+    }
+   }
+  },
+  "appian": {
+   "name": "Appian",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-07-23",
+     "count": 1
     }
    }
   },
@@ -63,7 +72,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-13",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -72,7 +81,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-20",
-     "count": 40
+     "count": 42
     }
    }
   },
@@ -81,7 +90,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-02",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -90,7 +99,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-30",
-     "count": 60
+     "count": 63
     }
    }
   },
@@ -99,7 +108,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-05",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -108,7 +117,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-29",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -117,7 +126,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-16",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -126,7 +135,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-20",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -135,7 +144,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-18",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -144,7 +153,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-17",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -153,7 +162,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-27",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -162,7 +171,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-03-26",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -171,7 +180,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-22",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -180,7 +189,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-14",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -189,7 +198,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-02",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -198,7 +207,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-01",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -207,7 +216,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-12",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -216,7 +225,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-04",
-     "count": 80
+     "count": 84
     }
    }
   },
@@ -225,7 +234,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-13",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -234,7 +243,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-01",
-     "count": 40
+     "count": 42
     }
    }
   },
@@ -243,7 +252,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-22",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -252,7 +261,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-30",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -261,7 +270,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-20",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -270,7 +279,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-20",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -279,7 +288,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-16",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -288,7 +297,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-30",
-     "count": 40
+     "count": 42
     }
    }
   },
@@ -297,7 +306,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -306,7 +315,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-06",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -315,7 +324,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-24",
-     "count": 160
+     "count": 168
     }
    }
   },
@@ -324,7 +333,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-12",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -333,7 +342,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-15",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -342,7 +351,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-13",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -351,7 +360,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-21",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -360,7 +369,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-24",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -369,7 +378,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-08",
-     "count": 40
+     "count": 42
     }
    }
   },
@@ -378,7 +387,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-18",
-     "count": 40
+     "count": 42
     }
    }
   },
@@ -387,7 +396,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-15",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -396,7 +405,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-02",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -405,7 +414,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-05",
-     "count": 40
+     "count": 42
     }
    }
   },
@@ -414,7 +423,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-12",
-     "count": 80
+     "count": 84
     }
    }
   },
@@ -423,7 +432,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-16",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -432,7 +441,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-08",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -441,7 +450,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-18",
-     "count": 60
+     "count": 63
     }
    }
   },
@@ -450,7 +459,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-14",
-     "count": 60
+     "count": 63
     }
    }
   },
@@ -459,7 +468,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-24",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -468,7 +477,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-05",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -477,7 +486,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-15",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -486,7 +495,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-09",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -495,7 +504,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-23",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -504,7 +513,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-06",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -513,7 +522,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-09",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -522,7 +531,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-21",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -531,7 +540,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-11",
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -540,7 +549,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-01",
-     "count": 60
+     "count": 63
     }
    }
   },
@@ -549,7 +558,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-28",
-     "count": 60
+     "count": 63
     }
    }
   },
@@ -558,10 +567,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-09",
-     "count": 20
+     "count": 21
     }
    }
   }
  },
- "updated_at": "2026-07-23T17:20:50Z"
+ "updated_at": "2026-07-23T19:12:57Z"
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-23T17:20:51Z",
+ "generated_at": "2026-07-23T19:12:58Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -211,6 +211,20 @@
    "days_until": -2,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
+   "note": ""
+  },
+  {
+   "company": "Appian",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-23",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-23",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
    "note": ""
   },
   {
@@ -746,5 +760,5 @@
    "note": ""
   }
  ],
- "count": 53
+ "count": 54
 }
