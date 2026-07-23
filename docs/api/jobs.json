@@ -1,9 +1,26 @@
 {
- "generated_at": "2026-07-23T10:20:50Z",
+ "generated_at": "2026-07-23T12:26:12Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 102,
+ "count": 103,
  "jobs": [
+  {
+   "id": "workday:sentara:/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1",
+   "company": "Sentara Health",
+   "title": "Cyber Security Compliance Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Security",
+   "location": "Virginia Beach, VA",
+   "url": "https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1",
+   "posted_at": "2026-07-23T00:00:00Z",
+   "first_seen_at": "2026-07-23T12:26:12Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "workday",
+   "h1b_approvals": null
+  },
   {
    "id": "workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1",
    "company": "Hewlett Packard (HP)",
@@ -96,28 +113,6 @@
    "skills": [],
    "source": "workday",
    "h1b_approvals": 164
-  },
-  {
-   "id": "workday:ssctech:/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126",
-   "company": "SS&C",
-   "title": "Healthcare AI & Automation Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Remote - Florida, US",
-   "url": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126",
-   "posted_at": "2026-07-22T00:00:00Z",
-   "first_seen_at": "2026-07-22T13:46:16Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "LLMs",
-    "Git"
-   ],
-   "source": "workday",
-   "h1b_approvals": 53
   },
   {
    "id": "greenhouse:virtu:8624410002",
@@ -1082,6 +1077,27 @@
    ],
    "source": "ashby",
    "h1b_approvals": null
+  },
+  {
+   "id": "workable:halo-industries:29728B1DAF",
+   "company": "Halo Industries",
+   "title": "Software Engineer Intern - Machine Learning Workflow",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Santa Clara, California, United States",
+   "url": "https://apply.workable.com/halo-industries/j/29728B1DAF/",
+   "posted_at": "2026-06-29T00:00:00.000Z",
+   "first_seen_at": "2026-07-23T12:26:12Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C#",
+    "Git"
+   ],
+   "source": "workable",
+   "h1b_approvals": 2
   },
   {
    "id": "ashby:veeda-labs:58cc42fb-1d6f-4e5f-860d-3b97bdccc6f4",

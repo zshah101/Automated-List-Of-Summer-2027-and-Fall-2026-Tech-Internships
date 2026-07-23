@@ -5,7 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-23T10:20:50Z</updated>
+  <updated>2026-07-23T12:26:12Z</updated>
+  <entry>
+    <id>urn:intern-engine:workable:halo-industries:29728B1DAF</id>
+    <title>Halo Industries: Software Engineer Intern - Machine Learning Workflow</title>
+    <link href="https://apply.workable.com/halo-industries/j/29728B1DAF/"/>
+    <updated>2026-07-23T12:26:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California, United States · Python, C#, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sentara:/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1</id>
+    <title>Sentara Health: Cyber Security Compliance Intern</title>
+    <link href="https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1"/>
+    <updated>2026-07-23T12:26:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Virginia Beach, VA</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1</id>
     <title>Hewlett Packard (HP): Software Engineering Intern, Device Experiences</title>
@@ -45,14 +61,6 @@
     <updated>2026-07-22T15:34:33Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Pittsburgh, PA · H-1B track record: ~164 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ssctech:/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126</id>
-    <title>SS&amp;C: Healthcare AI &amp; Automation Intern</title>
-    <link href="https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Remote---Florida-US/Healthcare-AI---Automation-Intern_R45126"/>
-    <updated>2026-07-22T13:46:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Remote - Florida, US · Python, SQL, LLMs, Git · H-1B track record: ~53 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:quadrillion-labs:601e105d-2f0f-4482-9bae-3a825a1b97fd</id>
@@ -397,13 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Chicago, IL · Python, Java, C++, TypeScript, JavaScript · H-1B track record: ~88 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:xsolla:1c0e5375-2352-4a2c-a816-48ddebbdd3d6</id>
-    <title>Xsolla: AI-First Engineering Intern</title>
-    <link href="https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Los Angeles, United States · 20–25 USD / per hour wage · Git</summary>
   </entry>
 </feed>
