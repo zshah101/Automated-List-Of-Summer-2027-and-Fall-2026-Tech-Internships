@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-23T22:12:05Z",
+ "generated_at": "2026-07-24T00:00:58Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -12,7 +12,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-03-26",
-   "days_until": -119,
+   "days_until": -120,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849",
    "note": ""
@@ -26,7 +26,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-01",
-   "days_until": -52,
+   "days_until": -53,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
    "note": ""
@@ -40,7 +40,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-10",
-   "days_until": -43,
+   "days_until": -44,
    "status": "open",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
    "note": "rolling intern postings across teams"
@@ -54,7 +54,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-11",
-   "days_until": -42,
+   "days_until": -43,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009",
    "note": ""
@@ -68,7 +68,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-06-28",
-   "days_until": -25,
+   "days_until": -26,
    "status": "open",
    "url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213",
    "note": ""
@@ -82,7 +82,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-01",
-   "days_until": -22,
+   "days_until": -23,
    "status": "open",
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
    "note": "posts early, rolling"
@@ -96,7 +96,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-05",
-   "days_until": -18,
+   "days_until": -19,
    "status": "open",
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
    "note": "opens ~Aug-Sep"
@@ -110,7 +110,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-13",
-   "days_until": -10,
+   "days_until": -11,
    "status": "open",
    "url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
    "note": "opens ~Aug-Sep"
@@ -124,7 +124,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-13",
-   "days_until": -10,
+   "days_until": -11,
    "status": "open",
    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
    "note": "opens fall, closes early Feb"
@@ -138,7 +138,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-14",
-   "days_until": -9,
+   "days_until": -10,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
    "note": "opens ~Aug, very early"
@@ -152,7 +152,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-15",
-   "days_until": -8,
+   "days_until": -9,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007",
    "note": ""
@@ -166,7 +166,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-16",
-   "days_until": -7,
+   "days_until": -8,
    "status": "open",
    "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1",
    "note": ""
@@ -180,7 +180,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-17",
-   "days_until": -6,
+   "days_until": -7,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
    "note": ""
@@ -194,7 +194,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-20",
-   "days_until": -3,
+   "days_until": -4,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
    "note": ""
@@ -208,7 +208,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-21",
-   "days_until": -2,
+   "days_until": -3,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
    "note": ""
@@ -222,7 +222,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-23",
-   "days_until": 0,
+   "days_until": -1,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
    "note": ""
@@ -236,7 +236,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct"
@@ -250,7 +250,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct"
@@ -264,7 +264,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "rolling from Aug"
@@ -278,7 +278,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug-Sep"
@@ -292,7 +292,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug, early mover"
@@ -306,7 +306,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "Aug-Oct main window"
@@ -320,7 +320,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug, rolling"
@@ -334,7 +334,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "late Aug, rolling into Nov"
@@ -348,7 +348,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug for next summer"
@@ -362,7 +362,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "opens late summer for next year"
@@ -376,7 +376,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "Futureforce, opens late summer"
@@ -390,7 +390,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "Susquehanna, opens ~Aug"
@@ -404,7 +404,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "opens ~Aug, rolling"
@@ -418,7 +418,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-08-01",
-   "days_until": 9,
+   "days_until": 8,
    "status": "waiting",
    "url": "",
    "note": "opens late summer, rolling"
@@ -432,7 +432,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "Sep-Oct main window"
@@ -446,7 +446,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "opens ~Sep"
@@ -460,7 +460,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "opens early fall, rolling review"
@@ -474,7 +474,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "opens ~Sep"
@@ -488,7 +488,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "opens fall"
@@ -502,7 +502,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "Cubist/academy, opens fall"
@@ -516,7 +516,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "opens fall"
@@ -530,7 +530,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "opens fall for next summer"
@@ -544,7 +544,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-09-01",
-   "days_until": 40,
+   "days_until": 39,
    "status": "waiting",
    "url": "",
    "note": "early Sept, closes mid-Nov"
@@ -558,7 +558,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-10-01",
-   "days_until": 70,
+   "days_until": 69,
    "status": "waiting",
    "url": "",
    "note": "apply by end of prior year; class set early Q1"
@@ -572,7 +572,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 131,
+   "days_until": 130,
    "status": "waiting",
    "url": "",
    "note": "Dec-Jan, peak hiring Feb"
@@ -586,7 +586,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 131,
+   "days_until": 130,
    "status": "waiting",
    "url": "",
    "note": "Dec-Jan early movers"
@@ -600,7 +600,7 @@
    "confidence": "window",
    "source": "known",
    "expected": "2026-12-01",
-   "days_until": 131,
+   "days_until": 130,
    "status": "waiting",
    "url": "",
    "note": "opens ~Dec, deadline late Feb"
@@ -726,7 +726,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-05-13",
-   "days_until": -71,
+   "days_until": -72,
    "status": "dropped",
    "url": "",
    "note": "rolling from mid-summer, very early"
@@ -740,7 +740,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-08",
-   "days_until": -15,
+   "days_until": -16,
    "status": "dropped",
    "url": "",
    "note": ""
@@ -754,7 +754,7 @@
    "confidence": "verified",
    "source": "engine",
    "expected": "2026-07-20",
-   "days_until": -3,
+   "days_until": -4,
    "status": "dropped",
    "url": "",
    "note": ""

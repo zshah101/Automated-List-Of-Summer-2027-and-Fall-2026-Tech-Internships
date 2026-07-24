@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**95 open roles · 22 new this week · 3,870 companies tracked · updated Jul 23, 2026 at 22:12 UTC**
+**95 open roles · 22 new this week · 3,870 companies tracked · updated Jul 24, 2026 at 00:00 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -169,29 +169,29 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 
 | Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
-| Citadel | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Citadel Securities | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Databricks | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| DoorDash | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| DRW | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Google | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Jane Street | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Meta | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Optiver | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Pinterest | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Salesforce | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| SIG | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Snowflake | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Uber | ~Aug | ~Aug · in ~9d | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Bloomberg | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Dropbox | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Plaid | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Point72 | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Robinhood | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Roblox | ~Sep | ~Sep · in ~40d | ⏳ waiting |
-| Stripe | ~Sep | ~Sep · in ~40d | ⏳ waiting |
+| Citadel | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Citadel Securities | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Databricks | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| DoorDash | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| DRW | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Google | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Jane Street | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Meta | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Optiver | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Pinterest | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Salesforce | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| SIG | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Snowflake | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Uber | ~Aug | ~Aug · in ~8d | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Bloomberg | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Dropbox | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Plaid | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Point72 | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Robinhood | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Roblox | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Stripe | ~Sep | ~Sep · in ~39d | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
 | Coinbase | ~Dec | ~Dec | ⏳ waiting |
 | Ramp | ~Dec | ~Dec | ⏳ waiting |
@@ -203,7 +203,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _54 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **19** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 37 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 36 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -243,7 +243,6 @@ _54 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | CACI | Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
 | Vertex Pharmaceuticals | Vertex Fall Co-op 2026, AI and Governance | Fall 2026 | 2026-07-10 |
 | ABB | AI & Data Scientist  Intern - Fall 2026 | Fall 2026 | 2026-07-10 |
-| Northrop Grumman | 2027 Intern Software Engineer | Summer 2027 | 2026-07-09 |
 
 </details>
 
@@ -262,7 +261,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 247.7s · median detection latency 1040 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 259.7s · median detection latency 1040 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
