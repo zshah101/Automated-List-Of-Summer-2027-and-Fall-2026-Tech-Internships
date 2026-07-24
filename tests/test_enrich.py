@@ -16,6 +16,10 @@ class FakeNet:
         self.calls += 1
         return self.payload
 
+    async def get_text(self, url, **kwargs):
+        self.calls += 1
+        return self.payload if isinstance(self.payload, str) else ""
+
     async def post_json(self, url, **kwargs):
         self.calls += 1
         return self.payload
@@ -80,6 +84,28 @@ class TestEnrich:
         _run(enrich.enrich_jobs([job], {}, net))
         assert job.sponsorship == "no-sponsorship"
         assert job.posted_at == "2026-06-20T00:00:00Z"
+
+    def test_jobvite_detail_backfills_posted_date_and_description(self):
+        net = FakeNet(
+            """
+            <script type="application/ld+json">
+            {"@type":"JobPosting","datePosted":"2026-06-04",
+             "description":"We cannot sponsor visas for this role."}
+            </script>
+            <div class="jv-job-detail-description" ng-non-bindable>
+                <h6>Description</h6>
+                <p>We cannot sponsor visas for this role.</p>
+            </div>
+            """
+        )
+        job = _job(
+            jid="jobvite:medspeed:oBYfAfw8",
+            source="jobvite",
+            url="https://jobs.jobvite.com/medspeed/job/oBYfAfw8",
+        )
+        _run(enrich.enrich_jobs([job], {}, net))
+        assert job.sponsorship == "no-sponsorship"
+        assert job.posted_at == "2026-06-04T00:00:00Z"
 
     def test_failed_fetch_stays_unknown_and_retryable(self):
         class ExplodingNet(FakeNet):

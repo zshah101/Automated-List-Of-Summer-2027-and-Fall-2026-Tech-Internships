@@ -6,12 +6,15 @@ schema-to-Job mapping for every source without hitting the internet.
 
 import asyncio
 
+import httpx
+
 from intern_engine.connectors import (
     amazon,
     ashby,
     breezy,
     eightfold,
     greenhouse,
+    jobvite,
     lever,
     oracle,
     recruitee,
@@ -20,18 +23,26 @@ from intern_engine.connectors import (
     workable,
     workday,
 )
+from intern_engine.net import HostLimiter, Net
 
 
 class FakeNet:
     """Stands in for net.Net: returns a preset payload for any request."""
 
-    def __init__(self, payload):
+    def __init__(self, payload, text_payload=None):
         self.payload = payload
+        self.text_payload = text_payload
         self.urls = []
 
     async def get_json(self, url, **kwargs):
         self.urls.append(url)
         return self.payload
+
+    async def get_text(self, url, **kwargs):
+        self.urls.append(url)
+        if self.text_payload is not None:
+            return self.text_payload
+        return self.payload if isinstance(self.payload, str) else ""
 
     async def post_json(self, url, **kwargs):
         self.urls.append(url)
@@ -109,6 +120,52 @@ def test_amazon():
     jobs = _run(amazon.fetch({"name": "Amazon", "slug": "amazon"}, FakeNet(payload)))
     assert jobs[0].url == "https://www.amazon.jobs/en/jobs/1/sde"
     assert jobs[0].posted_at.startswith("2026-06-01")
+
+
+def test_jobvite():
+    html = """
+    <ul class="jv-job-list jv-search-list">
+        <li class="row">
+            <a href="/medspeed/job/oBYfAfw8" class="flex-row">
+                <div class="jv-job-list-name">
+                    Box Truck Medical Delivery Driver
+                </div>
+                <div class="ml-auto jv-job-list-location">
+                    Little Rock, Arkansas
+                </div>
+            </a>
+        </li>
+    </ul>
+    <div class="jv-pagination">
+        <a href="/medspeed/search/?p=1" class="jv-pagination-next">Next</a>
+    </div>
+    """
+    jobs = _run(jobvite.fetch({"name": "MedSpeed", "slug": "medspeed"}, FakeNet(html, text_payload=html)))
+    assert len(jobs) == 1
+    assert jobs[0].id == "jobvite:medspeed:oBYfAfw8"
+    assert jobs[0].title == "Box Truck Medical Delivery Driver"
+    assert jobs[0].location == "Little Rock, Arkansas"
+    assert jobs[0].url == "https://jobs.jobvite.com/medspeed/job/oBYfAfw8"
+
+
+def test_jobvite_fetch_uses_httpx_compatible_request_options():
+    html = """
+    <li class="row">
+        <a href="/medspeed/job/oBYfAfw8">
+            <div class="jv-job-list-name">Software Engineer Intern</div>
+        </a>
+    </li>
+    """
+
+    async def run():
+        transport = httpx.MockTransport(lambda request: httpx.Response(200, text=html))
+        async with httpx.AsyncClient(transport=transport) as client:
+            return await jobvite.fetch(
+                {"name": "MedSpeed", "slug": "medspeed"}, Net(client, HostLimiter())
+            )
+
+    jobs = _run(run())
+    assert len(jobs) == 1
 
 
 def test_rippling():

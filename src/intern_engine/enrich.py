@@ -11,6 +11,7 @@ backfills rows the list API only described as "N days ago".
 from __future__ import annotations
 
 import asyncio
+import json
 import re
 
 from . import filters, skills, sponsorship
@@ -33,6 +34,42 @@ _WD_SITE_RE = re.compile(
     r"https://(wd\d+\.myworkdaysite\.com)/recruiting/([\w-]+)/([\w%-]+)(/job/.+)", re.I
 )
 _ORACLE_RE = re.compile(r"https://([\w.-]+\.oraclecloud\.com)/.+/sites/([\w]+)/job/(\d+)", re.I)
+
+
+def _json_ld_nodes(html: str) -> list[dict]:
+    nodes: list[dict] = []
+    for raw in re.findall(r'<script\b[^>]*type="application/ld\+json"[^>]*>([\s\S]*?)</script>', html):
+        try:
+            data = json.loads(raw)
+        except Exception:  # noqa: BLE001 - malformed JSON-LD should not kill enrichment
+            continue
+        if isinstance(data, list):
+            nodes.extend(node for node in data if isinstance(node, dict))
+        elif isinstance(data, dict) and isinstance(data.get("@graph"), list):
+            nodes.extend(node for node in data["@graph"] if isinstance(node, dict))
+        elif isinstance(data, dict):
+            nodes.append(data)
+    return nodes
+
+
+def _job_posting_node(nodes: list[dict]) -> dict | None:
+    for node in nodes:
+        node_type = node.get("@type")
+        if node_type == "JobPosting" or (isinstance(node_type, list) and "JobPosting" in node_type):
+            return node
+    for node in nodes:
+        if node.get("datePosted"):
+            return node
+    return None
+
+
+def _iso_midnight(value: str | None) -> str | None:
+    if not isinstance(value, str):
+        return None
+    date = value.strip()[:10]
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
+        return f"{date}T00:00:00Z"
+    return value if value else None
 
 
 async def _greenhouse(job: Job, net: Net) -> str | None:
@@ -103,12 +140,24 @@ async def _workable(job: Job, net: Net) -> str | None:
     return " ".join(str(data.get(k) or "") for k in ("description", "requirements", "benefits"))
 
 
+async def _jobvite(job: Job, net: Net) -> str | None:
+    html = await net.get_text(job.url, headers=_BROWSER_HEADERS)
+    nodes = _json_ld_nodes(html)
+    posting = _job_posting_node(nodes)
+    if posting is None:
+        return None
+    if not job.posted_at:
+        job.posted_at = _iso_midnight(posting.get("datePosted") or posting.get("startDate"))
+    return posting.get("description") or posting.get("jobDescription") or html
+
+
 _FETCHERS = {
     "greenhouse": _greenhouse,
     "smartrecruiters": _smartrecruiters,
     "workday": _workday,
     "oracle": _oracle,
     "workable": _workable,
+    "jobvite": _jobvite,
 }
 
 
