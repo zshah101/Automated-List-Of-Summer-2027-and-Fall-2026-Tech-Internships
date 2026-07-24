@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T14:55:56Z",
-  "duration_seconds": 252.3,
+  "generated_at": "2026-07-24T16:37:05Z",
+  "duration_seconds": 268.8,
   "companies_total": 3889,
   "companies_by_source": {
     "greenhouse": 998,
@@ -16,55 +16,54 @@
     "breezy": 11,
     "eightfold": 1
   },
-  "quarantined": 176,
-  "fetched_ok": 3654,
-  "fetch_errors": 59,
+  "quarantined": 180,
+  "fetched_ok": 3688,
+  "fetch_errors": 21,
   "errors_by_source": {
-    "workday": 54,
-    "ashby": 4,
-    "oracle": 1
+    "workday": 21
   },
-  "fetch_success_rate": 0.984,
-  "roles_matched": 103,
-  "roles_cycle_inferred": 47,
-  "dropped_no_year_in_title": 335,
+  "fetch_success_rate": 0.994,
+  "roles_matched": 109,
+  "roles_cycle_inferred": 52,
+  "dropped_no_year_in_title": 334,
   "dropped_offcycle_by_text": 20,
   "roles_by_source": {
     "lever": 14,
     "greenhouse": 41,
+    "workday": 24,
     "workable": 7,
     "amazon": 4,
     "ashby": 12,
-    "workday": 21,
-    "smartrecruiters": 3,
+    "smartrecruiters": 5,
+    "oracle": 1,
     "breezy": 1
   },
   "roles_by_cycle": {
-    "Summer 2027": 71,
-    "Fall 2026": 32
+    "Summer 2027": 76,
+    "Fall 2026": 33
   },
   "roles_by_region": {
-    "US": 103
+    "US": 109
   },
   "sponsorship_counts": {
-    "unknown": 81,
+    "unknown": 86,
     "citizens-only": 16,
-    "no-sponsorship": 3,
+    "no-sponsorship": 4,
     "offers": 3
   },
   "posted_date_coverage": 1.0,
-  "enriched_this_run": 0,
-  "enrichment_detail_fetches": 0,
+  "enriched_this_run": 5,
+  "enrichment_detail_fetches": 5,
   "purged_this_run": 0,
-  "new_this_run": 0,
-  "open_total": 103,
+  "new_this_run": 5,
+  "open_total": 109,
   "detection_latency": {
-    "median_minutes": 1012.4,
-    "sample_size": 70,
+    "median_minutes": 997.1,
+    "sample_size": 75,
     "window_days": 7
   },
   "posting_lifetime": {
-    "median_days": 25.5,
-    "sample_size": 82
+    "median_days": 26,
+    "sample_size": 81
   }
 }

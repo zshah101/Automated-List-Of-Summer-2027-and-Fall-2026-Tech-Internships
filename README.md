@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**98 open roles · 25 new this week · 3,889 companies tracked · updated Jul 24, 2026 at 14:55 UTC**
+**104 open roles · 31 new this week · 3,889 companies tracked · updated Jul 24, 2026 at 16:37 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,10 +50,14 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (68 open)
+## Summer 2027  (73 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Magna International | R&D- Computer Vision Engineering Intern ~ 🆕 | Data & ML/AI | Troy, Michigan, US | Jul 24, 2026 | [Apply](https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1) |
+| Northwell Health ✓ | Data Analytics / Data Science Intern ~ 🆕 | Data & ML/AI | Lake Success, Nassau, United States | Jul 24, 2026 | [Apply](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/192734) |
+| Robert Bosch Venture Capital | Autonomous Driving – Internship in Machine Learning ~ 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139649345) |
+| Robert Bosch Venture Capital | Powertrain Controls Software Engineering Intern ~ 🛂 🆕 | Software | Farmington Hills, MI, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139639579) |
 | Quadrillion | Software Engineering Intern (Summer 2027) 🆕 | Software | New York City | Jul 24, 2026 | [Apply](https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05) |
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 🆕 | Quant | New York City | Jul 23, 2026 | [Apply](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Appian ✓ | Software Engineering Intern 🛂 🆕 | Software | McLean, Virginia | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/appian/jobs/8041237) |
@@ -63,7 +67,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Pony Dot Ai | Research Intern - Deep Learning ~ 🆕 | Data & ML/AI | Fremont, California, United States | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/) |
 | Pony Dot Ai | Software Engineer Intern - Generalist ~ 🆕 | Software | Fremont, California, United States | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/) |
 | Moog | Intern, Software Engineering ~ 🆕 | Software | Buffalo, NY | Jul 22, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1) |
-| Carnegie Mellon University ✓ | Research Intern - School of Computer Science - LTI ~ 🆕 | Software | Pittsburgh, PA | Jul 22, 2026 | [Apply](https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Intern---School-of-Computer-Science---LTI_2024870) |
+| Carnegie Mellon University ✓ | Research Intern - School of Computer Science - LTI ~ | Software | Pittsburgh, PA | Jul 22, 2026 | [Apply](https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Intern---School-of-Computer-Science---LTI_2024870) |
 | Virtu Financial ✓ | 2027 Internship - Software Engineer | Software | Austin, TX; New York | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
 | Hyperlight | Software Engineer Intern ~ 🆕 | Software | Cambridge, Massachusetts, United States | Jul 20, 2026 | [Apply](https://apply.workable.com/hyperlight/j/5581EA0668/) |
 | HireVue | Data Science Intern / Fully Remote US ~ | Data & ML/AI | Sandy, UT, United States (Remote) | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/HireVue/744000138728139) |
@@ -71,6 +75,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | AVEVA ✓ | Software Developer Intern- Drexel Co-op US ~ | Software | Philadelphia +2 more | Jul 20, 2026 | [Apply](https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Philadelphia-Pennsylvania-United-States-of-America/Software-Developer-Intern--Drexel-Co-op-US_R014478) |
 | Chicago Trading Company | Software Engineering Internship - Summer 2027 | Software | Chicago, Illinois, United States | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005) |
 | Acds | AI Operations Intern-Caddell Reynolds ~ | Data & ML/AI | Fort Smith, AR | Jul 20, 2026 | [Apply](https://jobs.lever.co/acds/01fdf41b-a835-4e00-8d01-0275677a8f08) |
+| Altera Corporation ✓ | AI Software Development Engineer - Intern ~ | Data & ML/AI | San Jose, California, United States | Jul 17, 2026 | [Apply](https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707) |
 | Deepgram | Software Engineering- Internship (Fall 2026/Summer 2027) | Software | USA / Remote | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Chevron Corporation ✓ | 2026-2027 Information Technology - Software Engineer - Intern 🛂 | Software | Houston, Texas, United States of America | Jul 16, 2026 | [Apply](https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) |
 | Tencent ✓ | Research Intern – Video World Models (Research & ML Systems) ~ | Data & ML/AI | US-California-Palo Alto | Jul 15, 2026 | [Apply](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1) |
@@ -123,12 +128,13 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (45 of 68)._
+_~ = the title doesn't state a year; bucketed here from its posting date (50 of 73)._
 
-## Fall 2026  (30 open)
+## Fall 2026  (31 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Sentara Health | Data & AI Finance Strategy Intern - Fall 2026 Internship Remote 🆕 | Data & ML/AI | Virginia Beach, VA | Jul 24, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073) |
 | Astranis | Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸 🆕 | Software | San Francisco, CA | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Medtronic ✓ | Intern AI Vision for Equipment Development | Data & ML/AI | Lausanne, Vaud, Switzerland | Jul 20, 2026 | [Apply](https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173) |
 | Moog | Intern, IT Computer Science - Data Analytics | Data & ML/AI | Buffalo, NY | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
@@ -160,7 +166,7 @@ _~ = the title doesn't state a year; bucketed here from its posting date (45 of 
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (1 of 30)._
+_~ = the title doesn't state a year; bucketed here from its posting date (1 of 31)._
 
 <a id="drop-radar"></a>
 
@@ -206,7 +212,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _56 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **21** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 35 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 34 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -229,7 +235,6 @@ _56 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | Samsung Research America | 2026 Fall Intern, Computer Vision/AI | Fall 2026 | 2026-07-21 |
 | DNV | AI Research Internship | Summer 2027 | 2026-07-21 |
 | Fortive | IT Infrastructure Internship | Summer 2027 | 2026-07-21 |
-| Altera Corporation | AI Software Development Engineer - Intern | Summer 2027 | 2026-07-20 |
 | Reliable Robotics | Flight Software Engineering Intern (Fall 2026 Internship) | Fall 2026 | 2026-07-20 |
 | Acds | AI Software Engineer Intern- Bastazo | Summer 2027 | 2026-07-20 |
 | Motorola | Intern – Web Interface Software Engineer (2026) | Fall 2026 | 2026-07-20 |
@@ -263,7 +268,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,889 companies across 12 ATS platforms · 98% fetch success · completed in 252.3s · median detection latency 1012 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,889 companies across 12 ATS platforms · 99% fetch success · completed in 268.8s · median detection latency 997 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

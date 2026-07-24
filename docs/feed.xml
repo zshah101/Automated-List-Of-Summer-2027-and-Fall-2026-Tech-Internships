@@ -5,7 +5,47 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-24T14:55:56Z</updated>
+  <updated>2026-07-24T16:37:06Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:magna:/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1</id>
+    <title>Magna International: R&amp;D- Computer Vision Engineering Intern</title>
+    <link href="https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1"/>
+    <updated>2026-07-24T16:37:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Troy, Michigan, US · Python, PyTorch, TensorFlow, Computer Vision, ROS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:eppr.fa.us2.oraclecloud.com:192734</id>
+    <title>Northwell Health: Data Analytics / Data Science Intern</title>
+    <link href="https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/192734"/>
+    <updated>2026-07-24T16:37:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Lake Success, Nassau, United States · H-1B track record: ~149 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000139649345</id>
+    <title>Robert Bosch Venture Capital: Autonomous Driving – Internship in Machine Learning</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000139649345"/>
+    <updated>2026-07-24T16:37:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, CA, United States · $34–$68/hr · Python, PyTorch, Azure, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000139639579</id>
+    <title>Robert Bosch Venture Capital: Powertrain Controls Software Engineering Intern 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000139639579"/>
+    <updated>2026-07-24T16:37:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Farmington Hills, MI, United States · MATLAB, Linux · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sentara:/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073</id>
+    <title>Sentara Health: Data &amp; AI Finance Strategy Intern - Fall 2026 Internship Remote</title>
+    <link href="https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073"/>
+    <updated>2026-07-24T16:37:05Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Virginia Beach, VA</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96</id>
     <title>Anthelion Capital: Quant Developer / Quant Research Intern - 2026/2027</title>
@@ -199,6 +239,14 @@
     <summary>Summer 2027 · Software · Dallas, TX - Headquarters · Java, JavaScript, SQL, Angular, Spring · H-1B track record: ~83 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:altera:/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707</id>
+    <title>Altera Corporation: AI Software Development Engineer - Intern</title>
+    <link href="https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707"/>
+    <updated>2026-07-17T22:56:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Jose, California, United States · $48/hr · Python, C++, LLMs · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1</id>
     <title>Deepgram: Software Engineering- Internship (Fall 2026/Summer 2027)</title>
     <link href="https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"/>
@@ -357,53 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, C++, CUDA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:acds:41bee5e2-6477-428f-b359-34b4071d545f</id>
-    <title>Acds: AI Operations Intern - Naukr AI</title>
-    <link href="https://jobs.lever.co/acds/41bee5e2-6477-428f-b359-34b4071d545f"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Bentonville, AR · 15–15 USD / per hour wage · SQL, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:fluxergy-2:c592763e-56ba-4d20-b751-3a4574470eec</id>
-    <title>Fluxergy: Firmware Engineer Intern</title>
-    <link href="https://jobs.lever.co/fluxergy-2/c592763e-56ba-4d20-b751-3a4574470eec"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Hardware · Irvine, California · $20/hr · C++, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:ifm-us:3eec355c-6dde-4a3e-8cdf-b2a8930d5678</id>
-    <title>Institute of Foundation Models: AI Research Internship - WM</title>
-    <link href="https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, CA · 100,000–140,000 USD / per year salary</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:palantir:3db7e40a-28e0-4ad1-96c5-93de5bc96aa9</id>
-    <title>Palantir: Forward Deployed Infrastructure Engineer, Internship - US Government 🇺🇸</title>
-    <link href="https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Washington, D.C. · Python, Java, C++, TypeScript, JavaScript · sponsorship: citizens-only · H-1B track record: ~88 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:palantir:75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3</id>
-    <title>Palantir: Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial 🇺🇸</title>
-    <link href="https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, IL · Python, Java, C++, TypeScript, JavaScript · sponsorship: citizens-only · H-1B track record: ~88 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:palantir:9e40d77f-b07c-437b-98e7-def9b0184d89</id>
-    <title>Palantir: Forward Deployed Software Engineer, Internship - Intel</title>
-    <link href="https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Washington, D.C. · Python, Java, C++, TypeScript, JavaScript · H-1B track record: ~88 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

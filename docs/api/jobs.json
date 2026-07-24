@@ -1,9 +1,108 @@
 {
- "generated_at": "2026-07-24T14:55:56Z",
+ "generated_at": "2026-07-24T16:37:06Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 103,
+ "count": 109,
  "jobs": [
+  {
+   "id": "workday:magna:/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1",
+   "company": "Magna International",
+   "title": "R&D- Computer Vision Engineering Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Troy, Michigan, US",
+   "url": "https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1",
+   "posted_at": "2026-07-24T00:00:00Z",
+   "first_seen_at": "2026-07-24T16:37:05Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Computer Vision",
+    "ROS"
+   ],
+   "source": "workday",
+   "h1b_approvals": null
+  },
+  {
+   "id": "oracle:eppr.fa.us2.oraclecloud.com:192734",
+   "company": "Northwell Health",
+   "title": "Data Analytics / Data Science Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Lake Success, Nassau, United States",
+   "url": "https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/192734",
+   "posted_at": "2026-07-24",
+   "first_seen_at": "2026-07-24T16:37:05Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "oracle",
+   "h1b_approvals": 149
+  },
+  {
+   "id": "smartrecruiters:BoschGroup:744000139649345",
+   "company": "Robert Bosch Venture Capital",
+   "title": "Autonomous Driving – Internship in Machine Learning",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Sunnyvale, CA, United States",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000139649345",
+   "posted_at": "2026-07-24T16:12:25.654Z",
+   "first_seen_at": "2026-07-24T16:37:05Z",
+   "sponsorship": "unknown",
+   "salary": "$34–$68/hr",
+   "skills": [
+    "Python",
+    "PyTorch",
+    "Azure",
+    "Linux"
+   ],
+   "source": "smartrecruiters",
+   "h1b_approvals": null
+  },
+  {
+   "id": "smartrecruiters:BoschGroup:744000139639579",
+   "company": "Robert Bosch Venture Capital",
+   "title": "Powertrain Controls Software Engineering Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Farmington Hills, MI, United States",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000139639579",
+   "posted_at": "2026-07-24T15:19:25.785Z",
+   "first_seen_at": "2026-07-24T16:37:05Z",
+   "sponsorship": "no-sponsorship",
+   "salary": null,
+   "skills": [
+    "MATLAB",
+    "Linux"
+   ],
+   "source": "smartrecruiters",
+   "h1b_approvals": null
+  },
+  {
+   "id": "workday:sentara:/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073",
+   "company": "Sentara Health",
+   "title": "Data & AI Finance Strategy Intern - Fall 2026 Internship Remote",
+   "season": "Fall 2026",
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Virginia Beach, VA",
+   "url": "https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073",
+   "posted_at": "2026-07-24T00:00:00Z",
+   "first_seen_at": "2026-07-24T16:37:05Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "workday",
+   "h1b_approvals": null
+  },
   {
    "id": "ashby:quadrillion-labs:a4acc44c-31ce-41a0-ab44-2500487b4d05",
    "company": "Quadrillion",
@@ -393,6 +492,27 @@
    ],
    "source": "workday",
    "h1b_approvals": 424
+  },
+  {
+   "id": "workday:altera:/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707",
+   "company": "Altera Corporation",
+   "title": "AI Software Development Engineer - Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "San Jose, California, United States",
+   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707",
+   "posted_at": "2026-07-17T00:00:00Z",
+   "first_seen_at": "2026-07-17T22:56:38Z",
+   "sponsorship": "unknown",
+   "salary": "$48/hr",
+   "skills": [
+    "Python",
+    "C++",
+    "LLMs"
+   ],
+   "source": "workday",
+   "h1b_approvals": 11
   },
   {
    "id": "ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
