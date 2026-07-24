@@ -12,6 +12,7 @@ re-harvest. Dataset-scale growth lives in discover.py.
 from __future__ import annotations
 
 import json
+import re
 from concurrent.futures import ThreadPoolExecutor
 
 import requests
@@ -26,6 +27,7 @@ PROBES = {
     "rippling": "https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs",
     "recruitee": "https://{slug}.recruitee.com/api/offers/",
     "breezy": "https://{slug}.breezy.hr/json",
+    "jobvite": "https://jobs.jobvite.com/{slug}/search?p=0",
 }
 
 HEADERS = {"User-Agent": "intern-engine/3.0 (+github.com/intern-engine)"}
@@ -34,6 +36,10 @@ HEADERS = {"User-Agent": "intern-engine/3.0 (+github.com/intern-engine)"}
 def _count(ats: str, payload) -> int:
     if ats in ("lever", "rippling", "breezy"):
         return len(payload) if isinstance(payload, list) else 0
+    if ats == "jobvite":
+        if not isinstance(payload, str):
+            return 0
+        return len(re.findall(r'href="/[^"/]+/job/[^"/]+"', payload))
     if ats == "smartrecruiters":
         if isinstance(payload, dict):
             return payload.get("totalFound", len(payload.get("content", [])))
@@ -48,7 +54,8 @@ def detect(candidate: dict, session: requests.Session) -> dict | None:
     for ats, template in PROBES.items():
         try:
             resp = session.get(template.format(slug=slug), timeout=12)
-            if resp.status_code == 200 and _count(ats, resp.json()) > 0:
+            payload = resp.text if ats == "jobvite" else resp.json()
+            if resp.status_code == 200 and _count(ats, payload) > 0:
                 return {"name": candidate["name"], "slug": slug, "ats": ats}
         except (requests.RequestException, ValueError):
             continue
