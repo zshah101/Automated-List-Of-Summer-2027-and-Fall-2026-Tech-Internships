@@ -108,6 +108,13 @@ async def _fetch_all(companies: list[dict], enrich_after):
                 await workday_client.aclose()
 
 
+def _tracked_seasons(cfg: dict) -> set[str]:
+    """Every season label the pipeline still considers in-scope: internship
+    cycles plus new-grad cycles. A role whose season falls outside this set
+    (post-enrichment) is off-cycle and gets tombstoned."""
+    return set(config.cycles(cfg)) | set(config.new_grad_cycles(cfg))
+
+
 def _dedup(jobs: list) -> list:
     """Collapse the same role seen more than once (e.g. via two ATS).
 
@@ -137,6 +144,7 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
     "closed" the day its posting outgrew the inference recency window.
     """
     cycles = config.cycles(cfg)
+    grad_cycles = config.new_grad_cycles(cfg)
     tech_only = cfg.get("role_scope", "tech") == "tech"
     restrict = config.restrict_region(cfg)
     wants_us = config.want_us(cfg)
@@ -169,40 +177,52 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
         if allowlist_only and not quality.is_recognized(company["name"]):
             continue
         for job in jobs:
-            if not filters.is_internship(job.title):
+            is_intern_title = filters.is_internship(job.title)
+            is_grad_title = bool(grad_cycles) and filters.is_new_grad(job.title)
+            if not is_intern_title and not is_grad_title:
                 continue
             if tech_only and not filters.is_tech(job.title):
                 continue
-            season = filters.detect_season(job.title, cycles)
+
             inferred = False
-            if season is None:
-                if filters.states_explicit_year(job.title):
-                    # The title names a year we don't track ("Summer 2026
-                    # Intern"): a hard verdict. Neither a stored season nor a
-                    # posting-date inference may rescue it.
+            if is_grad_title:
+                # New-grad roles aren't seasonal like internship terms — no
+                # sticky-season/date-inference machinery, just a title-stated
+                # (or defaulted) graduating-class year.
+                season = filters.detect_grad_cycle(job.title, grad_cycles)
+                if season is None:
                     dropped_offcycle += 1
                     continue
-                prior = existing.get(job.id) or {}
-                prior_season = prior.get("season")
-                if prior_season in cycles:
-                    season = prior_season  # sticky (see docstring)
-                    inferred = bool(prior.get("season_inferred"))
-                elif filters.is_cycle_label(prior_season):
-                    # A recorded off-cycle label ("Summer 2026") is a settled
-                    # text-verified verdict: the role stays off the list, and
-                    # is never re-inferred or re-enriched.
-                    dropped_offcycle += 1
+            else:
+                season = filters.detect_season(job.title, cycles)
+                if season is None:
+                    if filters.states_explicit_year(job.title):
+                        # The title names a year we don't track ("Summer 2026
+                        # Intern"): a hard verdict. Neither a stored season nor a
+                        # posting-date inference may rescue it.
+                        dropped_offcycle += 1
+                        continue
+                    prior = existing.get(job.id) or {}
+                    prior_season = prior.get("season")
+                    if prior_season in cycles:
+                        season = prior_season  # sticky (see docstring)
+                        inferred = bool(prior.get("season_inferred"))
+                    elif filters.is_cycle_label(prior_season):
+                        # A recorded off-cycle label ("Summer 2026") is a settled
+                        # text-verified verdict: the role stays off the list, and
+                        # is never re-inferred or re-enriched.
+                        dropped_offcycle += 1
+                        continue
+                    elif infer:
+                        # The measured no-year pool dwarfed the explicit-year pool
+                        # (~13x), so recent undated roles are bucketed by posting
+                        # date, marked `~` everywhere they render, and checked
+                        # against the posting text at enrichment time.
+                        season = filters.infer_season(job.title, job.posted_at, cycles, infer_age)
+                        inferred = season is not None
+                if season is None:
+                    dropped_no_year += 1
                     continue
-                elif infer:
-                    # The measured no-year pool dwarfed the explicit-year pool
-                    # (~13x), so recent undated roles are bucketed by posting
-                    # date, marked `~` everywhere they render, and checked
-                    # against the posting text at enrichment time.
-                    season = filters.infer_season(job.title, job.posted_at, cycles, infer_age)
-                    inferred = season is not None
-            if season is None:
-                dropped_no_year += 1
-                continue
             in_region = filters.region_ok(job.location, wants_us, wants_canada)
             if restrict and not in_region and not include_intl:
                 continue
@@ -249,12 +269,12 @@ def run_update() -> tuple[dict, dict, list[str]]:
         # posting text states; anything now off-cycle leaves the list — and the
         # verdict is written into the store so the role never re-enters (or
         # pays another detail fetch) on later runs.
-        cycles = config.cycles(cfg)
+        tracked = _tracked_seasons(cfg)
         ts = store.now_iso()
         offcycle = offcycle_sticky
         still = []
         for job in kept:
-            if job.season in cycles:
+            if job.season in tracked:
                 still.append(job)
                 continue
             offcycle += 1

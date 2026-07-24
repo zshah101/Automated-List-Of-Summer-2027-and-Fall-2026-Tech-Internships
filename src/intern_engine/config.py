@@ -3,6 +3,11 @@
 Change behavior without touching code:
   - cycles        : the exact intern cycles to show, e.g. ["Summer 2027", "Fall 2026"].
                     These become the section headings, in this order.
+  - new_grad_cycles : new grad / entry-level cycles to also track, e.g.
+                    ["New Grad 2027"]. A separate, independent list from
+                    `cycles` (new-grad roles aren't seasonal the way internship
+                    terms are), rendered as additional sections after them.
+                    Empty/absent disables new-grad tracking entirely.
   - default_cycle : where to put roles that have no clear term/year (e.g. just
                     "Software Engineer Intern"). Must be one of `cycles`.
   - regions       : ["US"] for United States only, ["US", "Canada"] for both,
@@ -20,12 +25,13 @@ from . import paths
 
 DEFAULTS = {
     "cycles": ["Summer 2027", "Fall 2026"],
+    "new_grad_cycles": [],
     "default_cycle": "Summer 2027",
     "regions": ["US"],
     "role_scope": "tech",
 }
 
-_FALLBACK_REPO = "zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"
+_FALLBACK_REPO = "YoonieJ/Automated-List-Of-2027_New_Grad_Jobs"
 
 
 def repo_slug() -> str:
@@ -64,6 +70,13 @@ def load_config() -> dict:
 
 def cycles(cfg: dict) -> list[str]:
     return list(cfg.get("cycles") or DEFAULTS["cycles"])
+
+
+def new_grad_cycles(cfg: dict) -> list[str]:
+    """New grad / entry-level cycles to track, independent of `cycles`.
+
+    Empty by default: the new-grad track is entirely opt-in via config."""
+    return list(cfg.get("new_grad_cycles") or [])
 
 
 def restrict_region(cfg: dict) -> bool:

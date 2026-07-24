@@ -142,6 +142,7 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
     region = _region_label(cfg)
     cycles = config.cycles(cfg)
     cycles_phrase = " and ".join(cycles)
+    grad_cycles = config.new_grad_cycles(cfg)
     pages = config.pages_base()
 
     repo = config.repo_slug()
@@ -156,7 +157,8 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         "![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950) "
         f"[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22)]({pages}/feed.xml)",
         "",
-        "A self-updating engine that tracks tech internships so you don't have to. "
+        f"A self-updating engine that tracks tech internships"
+        f"{' and new-grad roles' if grad_cycles else ''} so you don't have to. "
         "Instead of refreshing a dozen career pages by hand, it reads company hiring "
         "feeds directly and keeps one live list, newest roles on top, refreshed "
         "automatically throughout the day.",
@@ -212,6 +214,8 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int) -> list[s
         + (" (primary), with a separate International section"
            if config.include_international(cfg) else ""),
         f"- **Cycles:** {cycles_phrase}",
+    ] + ([f"- **Also tracks:** New Grad / Entry Level roles ({', '.join(grad_cycles)})"]
+         if grad_cycles else []) + [
         "",
         "## About",
         "",
@@ -427,6 +431,7 @@ def _closed_section(store_data: dict, cycles: list[str],
 def generate(store_data: dict) -> dict:
     cfg = config.load_config()
     cycles = config.cycles(cfg)
+    grad_cycles = config.new_grad_cycles(cfg)
     per_company = config.max_per_company(cfg)
 
     open_jobs = [r for r in store_data.values() if r.get("is_open")]
@@ -437,7 +442,7 @@ def generate(store_data: dict) -> dict:
     sections: list[tuple[str, list[dict]]] = []
     displayed: list[dict] = []
     for region in ("US", "International"):
-        for cycle in cycles:
+        for cycle in cycles + grad_cycles:
             rows = _select(
                 groups.get((region, cycle)) or [],
                 config.section_limit(cfg, cycle),
@@ -472,7 +477,7 @@ def generate(store_data: dict) -> dict:
         lines.append("")
 
     lines.extend(_radar_section(store_data, cycles[0]))
-    lines.extend(_closed_section(store_data, cycles))
+    lines.extend(_closed_section(store_data, cycles + grad_cycles))
     lines.extend(_footer())
 
     with open(paths.README_PATH, "w", encoding="utf-8") as f:

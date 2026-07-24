@@ -1,6 +1,6 @@
 # Architecture
 
-[![CI](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml/badge.svg)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)
+[![CI](https://github.com/YoonieJ/Automated-List-Of-2027_New_Grad_Jobs/actions/workflows/ci.yml/badge.svg)](https://github.com/YoonieJ/Automated-List-Of-2027_New_Grad_Jobs/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![async](https://img.shields.io/badge/I%2FO-async%20httpx-success)
 

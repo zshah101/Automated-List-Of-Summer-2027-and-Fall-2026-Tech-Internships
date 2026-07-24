@@ -67,6 +67,50 @@ class TestSeason:
         assert filters.is_cycle_label("Summer 2026")
         assert filters.is_cycle_label("Fall 2027")
         assert not filters.is_cycle_label("Unspecified")
+
+
+GRAD_CYCLES = ["New Grad 2027"]
+
+
+class TestNewGrad:
+    def test_matches_new_grad_titles(self):
+        assert filters.is_new_grad("New Grad Software Engineer")
+        assert filters.is_new_grad("Entry Level Software Engineer")
+        assert filters.is_new_grad("Software Engineer - Class of 2027")
+        assert filters.is_new_grad("Early Career Data Scientist")
+
+    def test_rejects_internships(self):
+        assert not filters.is_new_grad("New Grad Software Engineer Intern")
+        assert not filters.is_new_grad("Software Engineer Intern")
+
+    def test_rejects_senior(self):
+        assert not filters.is_new_grad("Senior New Grad Software Engineer")
+
+    def test_rejects_substring_false_positive(self):
+        assert not filters.is_new_grad("Internal Tools Engineer")
+
+
+class TestDetectGradCycle:
+    def test_no_year_defaults_to_first_tracked_cycle(self):
+        assert filters.detect_grad_cycle(
+            "Entry Level Software Engineer", GRAD_CYCLES
+        ) == "New Grad 2027"
+
+    def test_matching_year_is_kept(self):
+        assert filters.detect_grad_cycle(
+            "New Grad 2027 Software Engineer", GRAD_CYCLES
+        ) == "New Grad 2027"
+        assert filters.detect_grad_cycle(
+            "Software Engineer - Class of 2027", GRAD_CYCLES
+        ) == "New Grad 2027"
+
+    def test_off_cycle_year_is_dropped(self):
+        assert filters.detect_grad_cycle(
+            "New Grad 2026 Software Engineer", GRAD_CYCLES
+        ) is None
+
+    def test_no_tracked_cycles_returns_none(self):
+        assert filters.detect_grad_cycle("New Grad Software Engineer", []) is None
         assert not filters.is_cycle_label("")
         assert not filters.is_cycle_label(None)
 

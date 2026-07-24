@@ -116,7 +116,7 @@ def build_digest_html(fresh: list[dict]) -> str:
     return (
         '<div style="font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;'
         'max-width:640px;margin:0 auto;color:#1a1a1a">'
-        f"<h2 style=\"font-size:18px\">{len(fresh)} new internship"
+        f"<h2 style=\"font-size:18px\">{len(fresh)} new role"
         f"{'s' if len(fresh) != 1 else ''} spotted</h2>"
         '<p style="color:#666;font-size:13px">✓ = the employer has a real H-1B '
         "track record (USCIS data) · 🇺🇸 = citizens only · 🛂 = no visa "
@@ -126,7 +126,7 @@ def build_digest_html(fresh: list[dict]) -> str:
         "Full list & tracker on GitHub</a> · "
         f'<a href="{config.pages_base()}/">live dashboard</a></p>'
         '<p style="color:#999;font-size:12px;margin-top:24px">You get this because '
-        "you subscribed to new-internship alerts. "
+        "you subscribed to new-role alerts. "
         '<a href="{{UNSUB_URL}}" style="color:#999">Unsubscribe</a> anytime.</p>'
         "</div>"
     )
@@ -179,7 +179,7 @@ def send_digest(store_data: dict) -> int:
         return 0
 
     today = datetime.now(UTC).strftime("%b %d")
-    subject = f"{len(fresh)} new internship{'s' if len(fresh) != 1 else ''} · {today}"
+    subject = f"{len(fresh)} new role{'s' if len(fresh) != 1 else ''} · {today}"
     body = build_digest_html(fresh)
     unsub_base = f"{config.pages_base()}/unsubscribe.html"
 

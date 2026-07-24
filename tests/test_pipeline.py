@@ -122,6 +122,62 @@ class TestStickySeasons:
         assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
 
 
+class TestNewGradPipeline:
+    """New-grad roles are a separate, config-driven track from internships."""
+
+    CFG = {"cycles": ["Summer 2027", "Fall 2026"], "new_grad_cycles": ["New Grad 2027"],
+           "regions": ["US"], "role_scope": "tech", "infer_undated": True,
+           "infer_max_age_days": 45}
+
+    def _job(self, title, job_id="greenhouse:acme:1"):
+        from intern_engine.models import Job
+        return Job(id=job_id, source="greenhouse", company="Acme",
+                   company_slug="acme", title=title,
+                   location="New York, NY", url="https://x",
+                   posted_at="2026-07-01T00:00:00Z")
+
+    def _keep(self, job, cfg=None):
+        from intern_engine.pipeline import _keep_matching
+        results = [({"ats": "greenhouse", "slug": "acme", "name": "Acme"}, [job], None)]
+        kept, *_ = _keep_matching(results, cfg or self.CFG, {}, {})
+        return kept
+
+    def test_new_grad_role_is_kept_and_bucketed(self):
+        kept = self._keep(self._job("New Grad Software Engineer"))
+        assert [(j.season, j.season_inferred) for j in kept] == [("New Grad 2027", False)]
+
+    def test_stated_grad_year_is_kept(self):
+        kept = self._keep(self._job("Software Engineer - Class of 2027"))
+        assert [j.season for j in kept] == ["New Grad 2027"]
+
+    def test_off_cycle_grad_year_is_dropped(self):
+        assert self._keep(self._job("New Grad 2026 Software Engineer")) == []
+
+    def test_internship_titles_unaffected_by_new_grad_config(self):
+        kept = self._keep(self._job("Software Engineer Intern, Summer 2027"))
+        assert [j.season for j in kept] == ["Summer 2027"]
+
+    def test_disabled_by_default_when_config_omits_new_grad_cycles(self):
+        cfg = {"cycles": ["Summer 2027", "Fall 2026"], "regions": ["US"],
+               "role_scope": "tech"}
+        assert self._keep(self._job("New Grad Software Engineer"), cfg) == []
+
+
+class TestTrackedSeasons:
+    def test_includes_both_internship_and_new_grad_cycles(self):
+        from intern_engine.pipeline import _tracked_seasons
+        cfg = {"cycles": ["Summer 2027", "Fall 2026"], "new_grad_cycles": ["New Grad 2027"]}
+        assert _tracked_seasons(cfg) == {"Summer 2027", "Fall 2026", "New Grad 2027"}
+
+    def test_new_grad_cycle_not_wrongly_dropped_as_offcycle(self):
+        # Regression: the post-enrichment sweep in run_update()._enrich_stage
+        # used to check `job.season in config.cycles(cfg)` only, which would
+        # purge every kept new-grad job as "offcycle" right after enrichment.
+        from intern_engine.pipeline import _tracked_seasons
+        cfg = {"cycles": ["Summer 2027", "Fall 2026"], "new_grad_cycles": ["New Grad 2027"]}
+        assert "New Grad 2027" in _tracked_seasons(cfg)
+
+
 class TestRegionConfig:
     """regions config must be honored end-to-end (Canada was silently dropped)."""
 

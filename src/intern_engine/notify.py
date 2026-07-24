@@ -21,7 +21,8 @@ _PALETTE = (0x2ECC71, 0xE67E22, 0x9B59B6, 0x3498DB)
 
 
 def _cycle_colors() -> dict[str, int]:
-    labels = config.cycles(config.load_config())
+    cfg = config.load_config()
+    labels = config.cycles(cfg) + config.new_grad_cycles(cfg)
     return {label: _PALETTE[i % len(_PALETTE)] for i, label in enumerate(labels)}
 
 
@@ -53,7 +54,7 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> bool:
         return False
 
     extra = len(records) - _MAX_EMBEDS
-    content = f"**{len(records)} new internship{'s' if len(records) != 1 else ''} spotted**"
+    content = f"**{len(records)} new role{'s' if len(records) != 1 else ''} spotted**"
     if extra > 0:
         content += f" (showing {_MAX_EMBEDS}, +{extra} more on the list)"
 

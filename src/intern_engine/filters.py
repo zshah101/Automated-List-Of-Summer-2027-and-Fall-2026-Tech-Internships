@@ -70,6 +70,24 @@ def is_internship(title: str) -> bool:
     return bool(_INTERN_RE.search(title)) and not _SENIOR_RE.search(title)
 
 
+# --- new grad / entry-level detection (separate track from internships) -----
+_NEW_GRAD_RE = re.compile(
+    r"\b(new grad(?:uate)?s?|university grad(?:uate)?s?|college grad(?:uate)?s?|"
+    r"recent grad(?:uate)?s?|early career|early[\s-]in[\s-]career|entry[\s-]level|"
+    r"class of 20\d\d)\b",
+    re.IGNORECASE,
+)
+
+
+def is_new_grad(title: str) -> bool:
+    """New grad / entry-level roles: never an internship, never senior/staff."""
+    return (
+        bool(_NEW_GRAD_RE.search(title))
+        and not _INTERN_RE.search(title)
+        and not _SENIOR_RE.search(title)
+    )
+
+
 def is_tech(title: str) -> bool:
     """Keep software/data/ML/security roles; reject hardware/mech/non-tech."""
     if _EXCLUDE_RE.search(title):
@@ -147,6 +165,32 @@ def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) ->
             return label
     # year stated but term conflicts (e.g. "Fall 2027") -> not a tracked cycle
     return None
+
+
+def detect_grad_cycle(title: str, cycles: list[str]) -> str | None:
+    """Bucket a new-grad/entry-level title into a tracked graduating-class year.
+
+    Unlike `detect_season`, there's no term to match — just a year, and the
+    year IS the signal here (no stripping via `_TITLE_GRAD_RE`, since "New
+    Grad 2027" or "Class of 2027" is exactly what we're looking for).
+
+      "New Grad 2027 Software Engineer"  -> "New Grad 2027" (year explicit)
+      "Entry Level Software Engineer"    -> cycles[0]  (no year -> default)
+      "New Grad 2026 Software Engineer"  -> None  (stated year not tracked)
+    """
+    if not cycles:
+        return None
+    tracked_years = {}
+    for label in cycles:
+        m = re.search(r"(20\d\d)", label)
+        if m:
+            tracked_years[m.group(1)] = label
+
+    years = set(_YEAR_RE.findall(title))
+    if not years:
+        return cycles[0]  # no stated year -> assume the nearest tracked cycle
+    matches = {tracked_years[y] for y in years if y in tracked_years}
+    return matches.pop() if len(matches) == 1 else None
 
 
 # For yearless titles: the month a term's recruiting rolls over to next year.

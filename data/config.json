@@ -3,6 +3,9 @@
     "Summer 2027",
     "Fall 2026"
   ],
+  "new_grad_cycles": [
+    "New Grad 2027"
+  ],
   "regions": [
     "US"
   ],
@@ -13,7 +16,8 @@
   "include_international": false,
   "section_limits": {
     "Summer 2027": 300,
-    "Fall 2026": 150
+    "Fall 2026": 150,
+    "New Grad 2027": 150
   },
   "supabase_url": "https://kvgkvgduomwuszbrygam.supabase.co",
   "supabase_publishable_key": "sb_publishable_XWb72of7Q0F06ZJBEXZqRA_7F6vplu1",

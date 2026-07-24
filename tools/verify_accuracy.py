@@ -32,6 +32,8 @@ from intern_engine import config, filters, paths, quality, store  # noqa: E402
 def main() -> None:
     cfg = config.load_config()
     cycles = config.cycles(cfg)
+    grad_cycles = config.new_grad_cycles(cfg)
+    tracked = cycles + grad_cycles
     blocklist = quality.load_blocklist()
     max_age = config.max_age_days(cfg)
     cutoff = (datetime.now(UTC) - timedelta(days=max_age)).strftime("%Y-%m-%d") if max_age else ""
@@ -50,19 +52,27 @@ def main() -> None:
     for r in open_jobs:
         title = r.get("title") or ""
         season = r.get("season")
-        if season not in cycles:
+        is_grad_role = season in grad_cycles
+        if season not in tracked:
             flag(r, "untracked-season")
-        stated = filters.detect_season(title, cycles)
-        if stated is not None and stated != season:
-            flag(r, "title-season-mismatch")
-        if stated is None and filters.states_explicit_year(title):
-            flag(r, "off-cycle-year-in-title")
+        if is_grad_role:
+            stated = filters.detect_grad_cycle(title, grad_cycles)
+            if stated is not None and stated != season:
+                flag(r, "title-season-mismatch")
+            if not filters.is_new_grad(title):
+                flag(r, "not-a-new-grad-title")
+        else:
+            stated = filters.detect_season(title, cycles)
+            if stated is not None and stated != season:
+                flag(r, "title-season-mismatch")
+            if stated is None and filters.states_explicit_year(title):
+                flag(r, "off-cycle-year-in-title")
+            if not filters.is_internship(title):
+                flag(r, "not-an-internship-title")
         if config.restrict_region(cfg) and not config.include_international(cfg) and \
                 not filters.region_ok(r.get("location") or "",
                                       config.want_us(cfg), config.want_canada(cfg)):
             flag(r, "out-of-region")
-        if not filters.is_internship(title):
-            flag(r, "not-an-internship-title")
         if cfg.get("role_scope", "tech") == "tech" and not filters.is_tech(title):
             flag(r, "not-a-tech-title")
         posted = (r.get("posted_at") or "")[:10]
@@ -86,7 +96,7 @@ def main() -> None:
         problems.append("  [api-missing] docs/api/jobs.json unreadable")
 
     n_inferred = sum(1 for r in open_jobs if r.get("season_inferred"))
-    by_cycle = {c: sum(1 for r in open_jobs if r.get("season") == c) for c in cycles}
+    by_cycle = {c: sum(1 for r in open_jobs if r.get("season") == c) for c in tracked}
     print(f"Checked {len(open_jobs)} open roles "
           f"({', '.join(f'{c}: {n}' for c, n in by_cycle.items())}; "
           f"{n_inferred} cycle-inferred).")

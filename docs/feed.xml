@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml</id>
+  <id>https://yooniej.github.io/Automated-List-Of-2027_New_Grad_Jobs/feed.xml</id>
   <title>Summer 2027 &amp; Fall 2026 Tech Internships — new roles</title>
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
-  <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
-  <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-24T00:00:58Z</updated>
+  <link href="https://yooniej.github.io/Automated-List-Of-2027_New_Grad_Jobs/feed.xml" rel="self"/>
+  <link href="https://github.com/YoonieJ/Automated-List-Of-2027_New_Grad_Jobs"/>
+  <updated>2026-07-24T15:26:57Z</updated>
   <entry>
     <id>urn:intern-engine:greenhouse:astranis:4699071006</id>
     <title>Astranis: Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸</title>
