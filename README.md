@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**95 open roles · 22 new this week · 3,870 companies tracked · updated Jul 24, 2026 at 02:41 UTC**
+**96 open roles · 23 new this week · 3,870 companies tracked · updated Jul 24, 2026 at 05:51 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,10 +50,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (65 open)
+## Summer 2027  (66 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Quadrillion | Software Engineering Intern (Summer 2027) 🆕 | Software | New York City | Jul 24, 2026 | [Apply](https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05) |
 | Appian ✓ | Software Engineering Intern 🛂 🆕 | Software | McLean, Virginia | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/appian/jobs/8041237) |
 | Tenstorrent ✓ | Software Engineering Intern, Power Modeling & AI Tools ~ 🆕 | Data & ML/AI | Santa Clara, California, United States | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | Sentara Health | Cyber Security Compliance Intern ~ 🆕 | Security | Virginia Beach, VA | Jul 23, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1) |
@@ -120,7 +121,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (44 of 65)._
+_~ = the title doesn't state a year; bucketed here from its posting date (44 of 66)._
 
 ## Fall 2026  (30 open)
 
@@ -200,10 +201,10 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Datadog | rolling | year-round | ⏳ waiting |
 | Jump Trading | rolling | year-round | ⏳ waiting |
 
-_54 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **19** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_55 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **20** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 36 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 35 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -242,7 +243,6 @@ _54 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | Skydio | Middleware Software Engineer Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
 | CACI | Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
 | Vertex Pharmaceuticals | Vertex Fall Co-op 2026, AI and Governance | Fall 2026 | 2026-07-10 |
-| ABB | AI & Data Scientist  Intern - Fall 2026 | Fall 2026 | 2026-07-10 |
 
 </details>
 
@@ -261,7 +261,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 269.1s · median detection latency 1040 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,870 companies across 12 ATS platforms · 99% fetch success · completed in 274.0s · median detection latency 1012 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

@@ -1,9 +1,30 @@
 {
- "generated_at": "2026-07-24T02:41:54Z",
+ "generated_at": "2026-07-24T05:51:04Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 100,
+ "count": 101,
  "jobs": [
+  {
+   "id": "ashby:quadrillion-labs:a4acc44c-31ce-41a0-ab44-2500487b4d05",
+   "company": "Quadrillion",
+   "title": "Software Engineering Intern (Summer 2027)",
+   "season": "Summer 2027",
+   "season_inferred": false,
+   "category": "Software",
+   "location": "New York City",
+   "url": "https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05",
+   "posted_at": "2026-07-24T03:24:43.068+00:00",
+   "first_seen_at": "2026-07-24T05:51:03Z",
+   "sponsorship": "unknown",
+   "salary": "$4K – $6K per week",
+   "skills": [
+    "Python",
+    "Pandas",
+    "React"
+   ],
+   "source": "ashby",
+   "h1b_approvals": null
+  },
   {
    "id": "greenhouse:astranis:4699071006",
    "company": "Astranis",

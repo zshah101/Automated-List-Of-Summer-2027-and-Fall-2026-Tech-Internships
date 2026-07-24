@@ -5,7 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-24T02:41:54Z</updated>
+  <updated>2026-07-24T05:51:04Z</updated>
+  <entry>
+    <id>urn:intern-engine:ashby:quadrillion-labs:a4acc44c-31ce-41a0-ab44-2500487b4d05</id>
+    <title>Quadrillion: Software Engineering Intern (Summer 2027)</title>
+    <link href="https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05"/>
+    <updated>2026-07-24T05:51:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York City · $4K – $6K per week · Python, Pandas, React</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:astranis:4699071006</id>
     <title>Astranis: Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸</title>
@@ -397,13 +405,5 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Los Angeles, United States · 20–25 USD / per hour wage · Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:altom-transport:9FC654F05E</id>
-    <title>Altom Transport: Fall Software Development Intern</title>
-    <link href="https://apply.workable.com/altom-transport/j/9FC654F05E/"/>
-    <updated>2026-07-16T07:39:11Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Hammond, Indiana, United States · Python, JavaScript, SQL, AWS, GCP</summary>
   </entry>
 </feed>

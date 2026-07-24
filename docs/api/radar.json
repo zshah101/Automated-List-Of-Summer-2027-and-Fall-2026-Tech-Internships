@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T02:41:54Z",
+ "generated_at": "2026-07-24T05:51:04Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -225,6 +225,20 @@
    "days_until": -1,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
+   "note": ""
+  },
+  {
+   "company": "Quadrillion",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-24",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05",
    "note": ""
   },
   {
@@ -760,5 +774,5 @@
    "note": ""
   }
  ],
- "count": 54
+ "count": 55
 }
