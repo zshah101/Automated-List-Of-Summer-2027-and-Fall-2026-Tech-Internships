@@ -16,8 +16,10 @@ class FakeResponse:
 class FakeSession:
     def __init__(self, jobvite_html):
         self.jobvite_html = jobvite_html
+        self.urls = []
 
     def get(self, url, timeout=12):
+        self.urls.append(url)
         if "jobvite" in url:
             return FakeResponse(text=self.jobvite_html)
         return FakeResponse(payload={"jobs": []})
@@ -34,3 +36,11 @@ def test_detect_jobvite_uses_medspeed_slug():
     """
     result = detect({"name": "MedSpeed", "slug": "medspeed"}, FakeSession(html))
     assert result == {"name": "MedSpeed", "slug": "medspeed", "ats": "jobvite"}
+
+
+def test_detect_jobvite_uses_current_jobs_path():
+    html = '<a href="/tylertech/job/oWkjAfwT">Software Engineer</a>'
+    session = FakeSession(html)
+    result = detect({"name": "Tyler Technologies", "slug": "tylertech"}, session)
+    assert result == {"name": "Tyler Technologies", "slug": "tylertech", "ats": "jobvite"}
+    assert "https://jobs.jobvite.com/tylertech/jobs" in session.urls

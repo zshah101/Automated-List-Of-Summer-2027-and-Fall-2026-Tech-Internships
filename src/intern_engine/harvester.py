@@ -27,7 +27,7 @@ PROBES = {
     "rippling": "https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs",
     "recruitee": "https://{slug}.recruitee.com/api/offers/",
     "breezy": "https://{slug}.breezy.hr/json",
-    "jobvite": "https://jobs.jobvite.com/{slug}/search?p=0",
+    "jobvite": "https://jobs.jobvite.com/{slug}/jobs",
 }
 
 HEADERS = {"User-Agent": "intern-engine/3.0 (+github.com/intern-engine)"}

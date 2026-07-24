@@ -148,6 +148,27 @@ def test_jobvite():
     assert jobs[0].url == "https://jobs.jobvite.com/medspeed/job/oBYfAfw8"
 
 
+def test_jobvite_current_table_board():
+    html = """
+    <table class="jv-job-list"><tbody>
+        <tr>
+            <td class="jv-job-list-name">
+                <a href="/tylertech/job/oWkjAfwT">Software Engineer</a>
+            </td>
+            <td class="jv-job-list-location">Plano, Texas</td>
+        </tr>
+    </tbody></table>
+    """
+    net = FakeNet(html, text_payload=html)
+    jobs = _run(jobvite.fetch({"name": "Tyler Technologies", "slug": "tylertech"}, net))
+    assert len(jobs) == 1
+    assert jobs[0].id == "jobvite:tylertech:oWkjAfwT"
+    assert jobs[0].title == "Software Engineer"
+    assert jobs[0].location == "Plano, Texas"
+    assert jobs[0].url == "https://jobs.jobvite.com/tylertech/job/oWkjAfwT"
+    assert net.urls == ["https://jobs.jobvite.com/tylertech/jobs"]
+
+
 def test_jobvite_fetch_uses_httpx_compatible_request_options():
     html = """
     <li class="row">

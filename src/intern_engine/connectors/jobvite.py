@@ -1,8 +1,9 @@
 """Jobvite hosted-careers pages.
 
-The public search pages are server-rendered HTML, not JSON. We scan the jobs
-list pages directly and then use the job detail page's JSON-LD to backfill the
-posted date plus the full description text.
+The public pages are server-rendered HTML, not JSON. Current Jobvite boards
+serve their listings at ``/{slug}/jobs`` in table rows, while older boards use
+``/{slug}/search`` with list cards. We support both markup variants and use
+the job detail page's JSON-LD to backfill the posted date and description.
 """
 
 from __future__ import annotations
@@ -37,11 +38,12 @@ def _origin(company: dict) -> str | None:
 
 
 def _search_url(origin: str, company_slug: str, page: int) -> str:
-    return f"{origin}/{company_slug}/search?p={page}"
+    url = f"{origin}/{company_slug}/jobs"
+    return f"{url}?p={page}" if page else url
 
 
 def _collapse(text: str) -> str:
-    return re.sub(r"\s+", " ", unescape(text)).strip()
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", unescape(text))).strip()
 
 
 def _job_id(url: str) -> str:
@@ -79,10 +81,20 @@ def _job_posting_node(nodes: list[dict]) -> dict | None:
 def _parse_list_page(html: str, origin: str, company_slug: str, company_name: str) -> tuple[list[Job], str | None]:
     jobs: list[Job] = []
     next_page: str | None = None
-    for card in re.findall(r'<li class="row">([\s\S]*?)</li>', html):
+    # Modern Jobvite boards render table rows; the older job search view uses
+    # list items. Both expose the same jv-job-list-* fields.
+    cards = re.findall(r"<tr\b[^>]*>([\s\S]*?)</tr>", html, re.I)
+    cards.extend(re.findall(r"<li\b[^>]*\bclass=['\"][^'\"]*\brow\b[^'\"]*['\"][^>]*>([\s\S]*?)</li>", html, re.I))
+    for card in cards:
         href = re.search(r'href="([^"]*/job/[^"]+)"', card)
-        title = re.search(r'<div class="jv-job-list-name">\s*([\s\S]*?)\s*</div>', card)
-        location = re.search(r'<div class="ml-auto jv-job-list-location">\s*([\s\S]*?)\s*</div>', card)
+        title = re.search(
+            r"<(?:div|td)\b[^>]*\bclass=['\"][^'\"]*\bjv-job-list-name\b[^'\"]*['\"][^>]*>"
+            r"\s*([\s\S]*?)\s*</(?:div|td)>", card, re.I,
+        )
+        location = re.search(
+            r"<(?:div|td)\b[^>]*\bclass=['\"][^'\"]*\bjv-job-list-location\b[^'\"]*['\"][^>]*>"
+            r"\s*([\s\S]*?)\s*</(?:div|td)>", card, re.I,
+        )
         if not href or not title:
             continue
         path = href.group(1)
@@ -97,9 +109,13 @@ def _parse_list_page(html: str, origin: str, company_slug: str, company_name: st
                 url=f"{origin}{path}",
             )
         )
-    next_link = re.search(r'<a href="([^"]*p=(\d+)[^"]*)" class="jv-pagination-next">', html)
+    next_link = re.search(
+        r"<a\b[^>]*href=['\"][^'\"]*[?&]p=(\d+)[^'\"]*['\"][^>]*"
+        r"class=['\"][^'\"]*\bjv-pagination-next\b[^'\"]*['\"]",
+        html, re.I,
+    )
     if next_link:
-        next_page = next_link.group(2)
+        next_page = next_link.group(1)
     return jobs, next_page
 
 
