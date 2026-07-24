@@ -926,6 +926,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Alpaca",
+    "slug": "alpaca",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Alpha FMC",
     "slug": "alphafmcroles",
     "ats": "greenhouse"
@@ -1302,6 +1307,11 @@
     "ats": "lever"
   },
   {
+    "name": "Ando",
+    "slug": "ando",
+    "ats": "ashby"
+  },
+  {
     "name": "Anduril",
     "slug": "andurilindustries",
     "ats": "greenhouse"
@@ -1371,6 +1381,11 @@
   {
     "name": "Anterior",
     "slug": "anterior",
+    "ats": "ashby"
+  },
+  {
+    "name": "Anthelion Capital",
+    "slug": "anthelioncap",
     "ats": "ashby"
   },
   {
@@ -2408,6 +2423,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Azenta",
+    "slug": "azenta",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "AzentaJobs"
+  },
+  {
     "name": "Azuria Corporation",
     "slug": "aegion",
     "ats": "workday",
@@ -2751,6 +2773,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "External"
+  },
+  {
+    "name": "BetMGM",
+    "slug": "betmgminc",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "BetMGM"
   },
   {
     "name": "BetterHelp",
@@ -3372,6 +3401,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "BRG_External_Career_Site"
+  },
+  {
+    "name": "Bridger",
+    "slug": "bridger",
+    "ats": "ashby"
   },
   {
     "name": "Bridgestone",
@@ -4653,6 +4687,11 @@
     "ats": "lever"
   },
   {
+    "name": "ClaimSorted",
+    "slug": "claimsorted",
+    "ats": "ashby"
+  },
+  {
     "name": "Clairo",
     "slug": "clarioclinical",
     "ats": "workday",
@@ -4818,6 +4857,11 @@
     "name": "Close",
     "slug": "close",
     "ats": "ashby"
+  },
+  {
+    "name": "Closinglock",
+    "slug": "closinglock",
+    "ats": "rippling"
   },
   {
     "name": "Cloud SynApps",
@@ -8895,6 +8939,11 @@
     "site": "CX_1"
   },
   {
+    "name": "Go Fish Digital",
+    "slug": "gofishdigital",
+    "ats": "rippling"
+  },
+  {
     "name": "GOAT",
     "slug": "goatgroup",
     "ats": "greenhouse"
@@ -8907,6 +8956,11 @@
   {
     "name": "GoFundMe",
     "slug": "gofundme",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Golden Pet Brands",
+    "slug": "goldenpetbrands",
     "ats": "greenhouse"
   },
   {
@@ -9192,6 +9246,11 @@
     "name": "Grid",
     "slug": "grid",
     "ats": "lever"
+  },
+  {
+    "name": "GridCARE",
+    "slug": "gridcare",
+    "ats": "ashby"
   },
   {
     "name": "Gritt Robotics Inc",
@@ -9698,6 +9757,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Hiive",
+    "slug": "hiive",
+    "ats": "ashby"
+  },
+  {
     "name": "Hilb Group",
     "slug": "hilbgroup",
     "ats": "workday",
@@ -10090,6 +10154,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Hyperlight",
+    "slug": "hyperlight",
+    "ats": "workable"
+  },
+  {
     "name": "Hyster-Yale Materials Handling",
     "slug": "hysteryale",
     "ats": "workday",
@@ -10273,6 +10342,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "iko_careers"
+  },
+  {
+    "name": "Illumia",
+    "slug": "transact-campus",
+    "ats": "breezy"
   },
   {
     "name": "Illumina",
@@ -11009,6 +11083,13 @@
     "site": "JLPjobs_careers"
   },
   {
+    "name": "John Wiley & Sons",
+    "slug": "wiley",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "wiley_careers"
+  },
+  {
     "name": "Johns Manville (JM)",
     "slug": "jm",
     "ats": "workday",
@@ -11266,6 +11347,11 @@
     "name": "KGS Technology Group",
     "slug": "KGSTechnologyGroupInc",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Kielo Research",
+    "slug": "kielo",
+    "ats": "rippling"
   },
   {
     "name": "Kikoff",
@@ -14299,6 +14385,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "Northwest_Careers"
+  },
+  {
+    "name": "Northwestern Medicine",
+    "slug": "NorthwesternMedicine",
+    "ats": "smartrecruiters"
   },
   {
     "name": "Northwestern Mutual",
@@ -17643,6 +17734,13 @@
     "site": "External_Careers"
   },
   {
+    "name": "Scotts Miracle-Gro",
+    "slug": "scottsmiraclegro",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "smgexternal"
+  },
+  {
     "name": "Scout AI",
     "slug": "scoutai",
     "ats": "greenhouse"
@@ -17749,6 +17847,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "SemtechCareers"
+  },
+  {
+    "name": "Sennos",
+    "slug": "sennos",
+    "ats": "rippling"
   },
   {
     "name": "Sensata",
