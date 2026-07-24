@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**104 open roles · 31 new this week · 3,889 companies tracked · updated Jul 24, 2026 at 16:37 UTC**
+**105 open roles · 31 new this week · 3,889 companies tracked · updated Jul 24, 2026 at 18:20 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,14 +50,15 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (73 open)
+## Summer 2027  (74 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
-| Magna International | R&D- Computer Vision Engineering Intern ~ 🆕 | Data & ML/AI | Troy, Michigan, US | Jul 24, 2026 | [Apply](https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1) |
+| Core & Main | Intern - AI/ML Data Engineering  -  Onsite - St. Louis ~ 🆕 | Data & ML/AI | Saint Louis, MO 63146 | Jul 24, 2026 | [Apply](https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804) |
 | Northwell Health ✓ | Data Analytics / Data Science Intern ~ 🆕 | Data & ML/AI | Lake Success, Nassau, United States | Jul 24, 2026 | [Apply](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/192734) |
-| Robert Bosch Venture Capital | Autonomous Driving – Internship in Machine Learning ~ 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139649345) |
 | Robert Bosch Venture Capital | Powertrain Controls Software Engineering Intern ~ 🛂 🆕 | Software | Farmington Hills, MI, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139639579) |
+| Robert Bosch Venture Capital | Autonomous Driving – Internship in Machine Learning ~ 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139649345) |
+| Magna International | R&D- Computer Vision Engineering Intern ~ 🆕 | Data & ML/AI | Troy, Michigan, US | Jul 24, 2026 | [Apply](https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1) |
 | Quadrillion | Software Engineering Intern (Summer 2027) 🆕 | Software | New York City | Jul 24, 2026 | [Apply](https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05) |
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 🆕 | Quant | New York City | Jul 23, 2026 | [Apply](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Appian ✓ | Software Engineering Intern 🛂 🆕 | Software | McLean, Virginia | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/appian/jobs/8041237) |
@@ -128,7 +129,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (50 of 73)._
+_~ = the title doesn't state a year; bucketed here from its posting date (51 of 74)._
 
 ## Fall 2026  (31 open)
 
@@ -212,7 +213,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _56 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **21** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 34 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 33 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
@@ -249,7 +250,6 @@ _56 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-S
 | NVIDIA | Software Engineering Intern, JAX - Fall 2026 | Fall 2026 | 2026-07-13 |
 | Skydio | Middleware Software Engineer Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
 | CACI | Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-13 |
-| Vertex Pharmaceuticals | Vertex Fall Co-op 2026, AI and Governance | Fall 2026 | 2026-07-10 |
 
 </details>
 
@@ -268,7 +268,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,889 companies across 12 ATS platforms · 99% fetch success · completed in 268.8s · median detection latency 997 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,889 companies across 12 ATS platforms · 99% fetch success · completed in 305.7s · median detection latency 997 min · real posted dates on 100% of open roles._
 
 ## Contributing
 

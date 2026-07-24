@@ -1,28 +1,31 @@
 {
- "generated_at": "2026-07-24T16:37:06Z",
+ "generated_at": "2026-07-24T18:20:48Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 109,
+ "count": 110,
  "jobs": [
   {
-   "id": "workday:magna:/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1",
-   "company": "Magna International",
-   "title": "R&D- Computer Vision Engineering Intern",
+   "id": "workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+   "company": "Core & Main",
+   "title": "Intern - AI/ML Data Engineering  -  Onsite - St. Louis",
    "season": "Summer 2027",
    "season_inferred": true,
    "category": "Data & ML/AI",
-   "location": "Troy, Michigan, US",
-   "url": "https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1",
+   "location": "Saint Louis, MO 63146",
+   "url": "https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
    "posted_at": "2026-07-24T00:00:00Z",
-   "first_seen_at": "2026-07-24T16:37:05Z",
+   "first_seen_at": "2026-07-24T18:20:47Z",
    "sponsorship": "unknown",
    "salary": null,
    "skills": [
     "Python",
-    "PyTorch",
-    "TensorFlow",
-    "Computer Vision",
-    "ROS"
+    "SQL",
+    "scikit-learn",
+    "Pandas",
+    "Azure",
+    "Git",
+    "Spark",
+    "Tableau"
    ],
    "source": "workday",
    "h1b_approvals": null
@@ -43,6 +46,26 @@
    "skills": [],
    "source": "oracle",
    "h1b_approvals": 149
+  },
+  {
+   "id": "smartrecruiters:BoschGroup:744000139639579",
+   "company": "Robert Bosch Venture Capital",
+   "title": "Powertrain Controls Software Engineering Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Farmington Hills, MI, United States",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000139639579",
+   "posted_at": "2026-07-24T15:19:25.785Z",
+   "first_seen_at": "2026-07-24T16:37:05Z",
+   "sponsorship": "no-sponsorship",
+   "salary": null,
+   "skills": [
+    "MATLAB",
+    "Linux"
+   ],
+   "source": "smartrecruiters",
+   "h1b_approvals": null
   },
   {
    "id": "smartrecruiters:BoschGroup:744000139649345",
@@ -67,23 +90,26 @@
    "h1b_approvals": null
   },
   {
-   "id": "smartrecruiters:BoschGroup:744000139639579",
-   "company": "Robert Bosch Venture Capital",
-   "title": "Powertrain Controls Software Engineering Intern",
+   "id": "workday:magna:/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1",
+   "company": "Magna International",
+   "title": "R&D- Computer Vision Engineering Intern",
    "season": "Summer 2027",
    "season_inferred": true,
-   "category": "Software",
-   "location": "Farmington Hills, MI, United States",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000139639579",
-   "posted_at": "2026-07-24T15:19:25.785Z",
+   "category": "Data & ML/AI",
+   "location": "Troy, Michigan, US",
+   "url": "https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1",
+   "posted_at": "2026-07-24T00:00:00Z",
    "first_seen_at": "2026-07-24T16:37:05Z",
-   "sponsorship": "no-sponsorship",
+   "sponsorship": "unknown",
    "salary": null,
    "skills": [
-    "MATLAB",
-    "Linux"
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Computer Vision",
+    "ROS"
    ],
-   "source": "smartrecruiters",
+   "source": "workday",
    "h1b_approvals": null
   },
   {
