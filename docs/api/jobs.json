@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-24T08:25:20Z",
+ "generated_at": "2026-07-24T11:11:08Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 101,
+ "count": 103,
  "jobs": [
   {
    "id": "ashby:quadrillion-labs:a4acc44c-31ce-41a0-ab44-2500487b4d05",
@@ -21,6 +21,28 @@
     "Python",
     "Pandas",
     "React"
+   ],
+   "source": "ashby",
+   "h1b_approvals": null
+  },
+  {
+   "id": "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
+   "company": "Anthelion Capital",
+   "title": "Quant Developer / Quant Research Intern - 2026/2027",
+   "season": "Summer 2027",
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York City",
+   "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+   "posted_at": "2026-07-23T19:51:59.097+00:00",
+   "first_seen_at": "2026-07-24T11:11:07Z",
+   "sponsorship": "unknown",
+   "salary": "$1.8K – $2K per week",
+   "skills": [
+    "Python",
+    "C++",
+    "Rust",
+    "Azure"
    ],
    "source": "ashby",
    "h1b_approvals": null
@@ -216,6 +238,28 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": 31
+  },
+  {
+   "id": "workable:hyperlight:5581EA0668",
+   "company": "Hyperlight",
+   "title": "Software Engineer Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Cambridge, Massachusetts, United States",
+   "url": "https://apply.workable.com/hyperlight/j/5581EA0668/",
+   "posted_at": "2026-07-20T00:00:00.000Z",
+   "first_seen_at": "2026-07-24T11:11:07Z",
+   "sponsorship": "unknown",
+   "salary": "$25–$32/hr",
+   "skills": [
+    "Python",
+    "SQL",
+    "scikit-learn",
+    "Pandas"
+   ],
+   "source": "workable",
+   "h1b_approvals": null
   },
   {
    "id": "smartrecruiters:HireVue:744000138728139",
