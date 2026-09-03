@@ -172,14 +172,18 @@ def write_radar_ics(store_data: dict, cycle: str | None = None,
     from something you check into something that pings you — on brand for a
     real-time engine, and no infrastructure since Pages serves the static file.
     """
-    cycle = cycle or config.cycles(config.load_config())[0]
+    cfg = config.load_config()
+    cycle = cycle or config.cycles(cfg)[0]
     base = config.pages_base()
     as_of = _data_as_of(data_as_of)
     now = as_of.replace("-", "").replace(":", "")
     today = datetime.strptime(as_of[:10], "%Y-%m-%d").date()
+    # The radar's windows are hand-seeded US employers (data/known_windows.json),
+    # so off a US list this calendar would ping a reader about drops in a
+    # region the page doesn't cover.
     rows = [r for r in radar.rows(store_data, cycle, today=today)
             if r["status"] == "waiting" and not r["rolling"] and r["expected"]
-            and radar.is_actionable(r)]
+            and radar.is_actionable(r)] if config.want_us(cfg) else []
 
     lines = [
         "BEGIN:VCALENDAR",
@@ -274,7 +278,8 @@ def write_api(store_data: dict, stats: dict) -> int:
     with open(os.path.join(paths.API_DIR, "stats.json"), "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=1, ensure_ascii=False)
 
-    cycle = config.cycles(config.load_config())[0]
+    cfg = config.load_config()
+    cycle = config.cycles(cfg)[0]
     radar_payload = {
         "generated_at": payload["generated_at"],
         "data_as_of": data_as_of,
@@ -285,7 +290,7 @@ def write_api(store_data: dict, stats: dict) -> int:
             store_data,
             cycle,
             today=datetime.fromisoformat(data_as_of.replace("Z", "+00:00")).date(),
-        ),
+        ) if config.want_us(cfg) else [],
     }
     radar_payload["count"] = len(radar_payload["companies"])
     with open(os.path.join(paths.API_DIR, "radar.json"), "w", encoding="utf-8") as f:

@@ -39,6 +39,14 @@ JSON_SOURCES = [
 MARKDOWN_SOURCES = [
     "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md",
     "https://raw.githubusercontent.com/speedyapply/2026-SWE-College-Jobs/main/README.md",
+    # Singapore / SEA. The lists above are US-facing, so on their own they
+    # discover almost no regional employer: these three carry the SG boards
+    # (banks, statutory boards, the regional quant desks) that never appear on
+    # a US list. The 2024 one is deliberately kept - a board slug outlives the
+    # cycle it was posted for, and dead ones get quarantined anyway.
+    "https://raw.githubusercontent.com/didtheyghostme/Singapore-Summer2026-TechInternships/main/README.md",
+    "https://raw.githubusercontent.com/kxrt/Singapore-Summer2024-TechInternships/main/README.md",
+    "https://raw.githubusercontent.com/sushinoya/singapore-tech-internships/master/README.md",
 ]
 
 # Pull the company token out of an ATS apply URL.

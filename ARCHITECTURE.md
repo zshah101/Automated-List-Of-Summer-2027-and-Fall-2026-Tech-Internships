@@ -101,7 +101,7 @@ off, and a partial snapshot is never allowed to close anything. Roughly 90 of
 | `src/intern_engine/connectors/` | One module per ATS: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, Amazon, Rippling, Workable, Breezy, Recruitee, Eightfold. |
 | `src/intern_engine/filters.py` | Classification: internship? tech? season/year? US/Canada? category. |
 | `src/intern_engine/sponsorship.py` | Phrase-anchored visa/citizenship classifier + display flags. |
-| `src/intern_engine/h1b.py` | Joins companies against the USCIS H-1B employer index (✓ badge). |
+| `src/intern_engine/h1b.py` | Joins companies against the USCIS H-1B employer index (✓ badge). Rendered only when `regions` includes the US. |
 | `src/intern_engine/enrich.py` | Fetches posting text for new matched roles; backfills exact dates. |
 | `src/intern_engine/trends.py` | Weekly posting-volume chart + median posting-lifetime metric. |
 | `src/intern_engine/radar.py` | Drop Radar: last cycle's first-post dates projected onto this cycle. |
@@ -142,7 +142,7 @@ off, and a partial snapshot is never allowed to close anything. Roughly 90 of
 ```json
 {
   "cycles": ["Summer 2027", "Fall 2026"],
-  "regions": ["US"],
+  "regions": ["SEA"],
   "role_scope": "tech",
   "max_age_days": 270,
   "max_per_company": 3,
@@ -172,8 +172,13 @@ keeps the list free of junk/no-name companies.
   the verdict, so it can never be re-inferred back in. Once stored, a season is
   sticky — never re-derived on later runs. `tools/audit_seasons.py` re-audits
   the backlog on demand. Older undated roles and other cycles are dropped.
-- `regions` — `["US"]` (United States only), `["US", "Canada"]`, or `["Global"]`
-  to disable the location filter.
+- `regions` — which countries to keep. A group token (`["SEA"]` = Singapore,
+  Malaysia, Indonesia, Thailand, Vietnam, the Philippines), single countries
+  (`["Singapore"]`, `["US", "Canada"]`), or `["Global"]` to disable the location
+  filter. Tokens are mapped to region keys in `config._REGION_ALIASES` and
+  matched in `filters.region_ok`; groups are defined in `filters.REGION_GROUPS`.
+  Setting a non-US region also hides the US-visa surfaces (H-1B badge,
+  🇺🇸 / 🛂 flags, Drop Radar), which have no meaning outside the US.
 - `role_scope` — `"tech"` keeps only tech roles; `"all"` keeps every internship.
 - `max_age_days` — drop postings published longer ago than this (kills stale/evergreen reqs).
 - `max_per_company` — cap roles shown per company per section, for variety.

@@ -255,7 +255,7 @@ def _pill(text: str, bg: str, fg: str) -> str:
             f'line-height:1.5;white-space:nowrap">{escape(text)}</span>')
 
 
-def _role_row(r: dict) -> str:
+def _role_row(r: dict, us_context: bool = True) -> str:
     """One role as a card: employer line, linked title, facts, skills.
 
     Written for email clients, which means tables and inline styles only — no
@@ -265,7 +265,9 @@ def _role_row(r: dict) -> str:
     """
     company = escape(r.get("company") or "")
     marks = ""
-    if h1b.badge(h1b.approvals_for(r.get("company") or "")):
+    # The H-1B badge and the visa flag are US immigration records; on a digest
+    # of roles from a region that data doesn't cover they claim nothing.
+    if us_context and h1b.badge(h1b.approvals_for(r.get("company") or "")):
         marks += ' <span style="color:#1a7f37" title="proven H-1B sponsor">✓</span>'
     if filters.is_remote(r.get("location") or "", r.get("title") or ""):
         marks += " " + _pill("R", "#dafbe1", "#1a7f37")
@@ -279,7 +281,7 @@ def _role_row(r: dict) -> str:
     openings = r.get("openings") or 1
     if openings > 1:
         facts.append(f"{openings} openings")
-    flag = sponsorship.flag(r.get("sponsorship"))
+    flag = sponsorship.flag(r.get("sponsorship")) if us_context else ""
     if flag:
         facts.append(flag)
     skills = " ".join(_pill(s, "#f6f8fa", "#57606a") for s in (r.get("skills") or [])[:4])
@@ -330,7 +332,8 @@ def build_digest_html(fresh: list[dict]) -> str:
     """
     repo = config.repo_slug()
     shown = _digest_rows(fresh)
-    rows = "".join(_role_row(r) for r in shown)
+    us_context = config.want_us(config.load_config())
+    rows = "".join(_role_row(r, us_context) for r in shown)
     # "…plus N more" counts ROLES the reader can't see here, so it has to
     # subtract the requisitions the printed cards already account for, not the
     # number of cards.
@@ -366,11 +369,13 @@ def build_digest_html(fresh: list[dict]) -> str:
         'font-size:14px;padding:10px 18px;border-radius:7px">'
         "Open the dashboard</a></div>"
         '<div style="color:#57606a;font-size:12px;margin-top:14px;line-height:1.6">'
-        "<b>✓</b> the employer has a real H-1B track record (USCIS data) · "
-        "<b>R</b> this role is remote · 🇺🇸 citizens only · 🛂 no visa "
-        "sponsorship.<br>Sponsorship flags are auto-detected from the posting "
-        "text — treat them as a strong hint and confirm on the posting itself."
-        "</div>"
+        + ("<b>✓</b> the employer has a real H-1B track record (USCIS data) · "
+           "<b>R</b> this role is remote · 🇺🇸 citizens only · 🛂 no visa "
+           "sponsorship.<br>Sponsorship flags are auto-detected from the "
+           "posting text — treat them as a strong hint and confirm on the "
+           "posting itself." if us_context else
+           "<b>R</b> this role is remote.")
+        + "</div>"
         f'<div style="color:#8c959f;font-size:12px;margin-top:18px;'
         'border-top:1px solid #e6e8eb;padding-top:12px">'
         f'<a href="https://github.com/{escape(repo)}" style="color:#8c959f">'

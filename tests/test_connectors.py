@@ -849,3 +849,35 @@ class TestWorkdayRequisitionIdentity:
             FakeNet({"jobPostings": [posting]}),
         ))[0]
         assert mine.canonical_id != theirs.canonical_id
+
+
+class TestSEALocationsSurviveNormalization:
+    """A region filter can only see what the connectors emit.
+
+    Both of these platforms map ISO codes through a fixed table and degrade an
+    unmapped one to "International (XX)" so it can't be misread as a US state.
+    That safety net is also a trap: an unmapped SG posting becomes unreadable
+    to the region filter, so the tracked countries have to be in the table.
+    """
+
+    def test_smartrecruiters_names_the_sea_countries(self):
+        from intern_engine import filters
+
+        for code, country in (("sg", "Singapore"), ("my", "Malaysia"),
+                              ("th", "Thailand"), ("vn", "Vietnam"),
+                              ("ph", "Philippines"), ("id", "Indonesia")):
+            loc = smartrecruiters._location({"city": "X", "country": code})
+            assert country in loc, loc
+            assert filters.region_ok(loc, ["sea"]), loc
+
+    def test_oracle_names_the_sea_countries(self):
+        for code, country in (("SG", "Singapore"), ("MY", "Malaysia"),
+                              ("TH", "Thailand"), ("VN", "Vietnam"),
+                              ("PH", "Philippines"), ("ID", "Indonesia")):
+            assert oracle._COUNTRIES[code] == country
+
+    def test_amazon_names_the_sea_countries(self):
+        from intern_engine import filters
+
+        loc = amazon._location({"city": "Singapore", "country_code": "SG"})
+        assert filters.region_ok(loc, ["sea"]), loc

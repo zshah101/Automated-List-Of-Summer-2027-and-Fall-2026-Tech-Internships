@@ -124,9 +124,16 @@ def _is_new(record: dict, hours: int = 48) -> bool:
 REMOTE_MARK = "🆁"  # U+1F181 — a squared R, so it reads as a badge, not a word
 
 
-def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
+def _cells(record: dict,
+           us_context: bool = True) -> tuple[str, str, str, str, str, str, str]:
+    """Table cells for one role.
+
+    `us_context` carries whether the US is a tracked region. The ✓ H-1B badge
+    and the 🇺🇸 / 🛂 flags are read off US immigration data, so on a list that
+    holds no US roles they would be blank at best and misleading at worst.
+    """
     company = _md_cell(record.get("company"))
-    if h1b.badge(h1b.approvals_for(record.get("company") or "")):
+    if us_context and h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
     # The remote mark sits beside the H-1B ✓ in the first column, where the eye
     # already goes for row-level markers, instead of trailing a title that can
@@ -137,7 +144,7 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
     title = _md_cell(record.get("title"))
     is_open = record.get("is_open", True)
     badges = " ".join(
-        b for b in (sponsorship.flag(record.get("sponsorship")),
+        b for b in (sponsorship.flag(record.get("sponsorship")) if us_context else "",
                     "🆕" if _is_new(record) and is_open else "")
         if b
     )
@@ -168,8 +175,9 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
     )
 
 
-def _row(record: dict, cycle: str | None = None) -> str:
-    company, title, category, location, skill_tags, posted, apply = _cells(record)
+def _row(record: dict, cycle: str | None = None, us_context: bool = True) -> str:
+    company, title, category, location, skill_tags, posted, apply = _cells(
+        record, us_context)
     # A multi-cycle posting appears under each cycle it names. Naming the OTHER
     # cycles here explains why the same title shows up twice — repeating this
     # section's own cycle would just be noise.
@@ -180,7 +188,7 @@ def _row(record: dict, cycle: str | None = None) -> str:
             f"{posted} | {apply} |")
 
 
-def _rolling_row(record: dict) -> str:
+def _rolling_row(record: dict, us_context: bool = True) -> str:
     """A row in the cycle-not-stated lane.
 
     There is deliberately no "likely cycle" column any more. It used to print
@@ -188,20 +196,14 @@ def _rolling_row(record: dict) -> str:
     postings it was confirmed 0 times out of 60 and contradicted every time it
     could be checked. These rows now say what's true — nobody stated a cycle.
     """
-    company, title, category, location, skill_tags, posted, apply = _cells(record)
+    company, title, category, location, skill_tags, posted, apply = _cells(
+        record, us_context)
     return (f"| {company} | {title} | {category} | {location} | {skill_tags} | "
             f"{posted} | {apply} |")
 
 
 def _region_label(cfg: dict) -> str:
-    if not config.restrict_region(cfg):
-        return "Worldwide"
-    parts = []
-    if config.want_us(cfg):
-        parts.append("United States")
-    if config.want_canada(cfg):
-        parts.append("Canada")
-    return " & ".join(parts) if parts else "United States"
+    return config.region_label(cfg)
 
 
 def _company_count() -> tuple[int, int]:
@@ -258,10 +260,14 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
     # The masthead is centered HTML: GitHub renders it, and it gives the page a
     # real header block instead of a left-aligned pile of bold lines. Markdown
     # inside needs the blank lines around it to keep parsing as markdown.
+    # The H1 is the repo's shop window, so it names the cycle AND the region
+    # this deployment actually tracks - a title that says one thing while the
+    # table below lists another is the fastest way to lose a reader's trust.
     return [
         '<div align="center">',
         "",
-        "# 🎓 Summer 2027 Tech Internships",
+        f"# 🎓 {cycles[0]} Tech Internships"
+        + (f" — {region}" if config.restrict_region(cfg) else ""),
         "",
         "**A self-updating engine that tracks tech internships so you don't have "
         "to.**",
@@ -326,16 +332,24 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         # lines each and the distinguishing word was buried mid-sentence.
         "| | |",
         "|---|---|",
-        "| 📅 **[Drop Radar](#drop-radar)** | A forecast of **what's coming**. "
-        "Each marquee company's typical opening window, replaced by the real "
-        "drop date the moment the engine catches it live. Windows are estimates "
-        "and labelled as such; only dates the engine saw itself are marked "
-        "verified. |",
-        "| 🛂 **Visa intel, computed** | 🇺🇸 / 🛂 flags detected automatically from "
-        "every job description, plus ✓ for employers with a real H-1B track "
-        "record (USCIS data, FY2022-23 — a history, not a promise). The big "
-        "lists crowdsource this by hand; here it's code. Most postings say "
-        "nothing either way, and those show as unknown rather than guessed. |",
+        # Both of these are built on US immigration data and a US-seeded radar,
+        # so they are claims this page can only make while it lists US roles.
+        *(("| 📅 **[Drop Radar](#drop-radar)** | A forecast of **what's coming**. "
+           "Each marquee company's typical opening window, replaced by the real "
+           "drop date the moment the engine catches it live. Windows are "
+           "estimates and labelled as such; only dates the engine saw itself "
+           "are marked verified. |",
+           "| 🛂 **Visa intel, computed** | 🇺🇸 / 🛂 flags detected automatically "
+           "from every job description, plus ✓ for employers with a real H-1B "
+           "track record (USCIS data, FY2022-23 — a history, not a promise). "
+           "The big lists crowdsource this by hand; here it's code. Most "
+           "postings say nothing either way, and those show as unknown rather "
+           "than guessed. |") if config.want_us(cfg) else ()),
+        *((f"| 🌏 **Built for {region}** | Every role is filtered to the "
+           "region above, from the posting's own location. Country-prefixed "
+           "and city-only postings are both understood, so a bare "
+           "\"Kuala Lumpur\" or \"SG-Singapore\" is never missed. |",)
+          if not config.want_us(cfg) else ()),
         "| 📆 **A real date on nearly every role** | Taken from the job portal "
         "itself wherever the portal states one, so newest-first actually means "
         "newest. The exact coverage figure is printed at the bottom of this "
@@ -367,9 +381,11 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "",
         "## About",
         "",
-        "I'm an international student studying in the United States, so I built "
-        "this for the search I'm doing myself. The list is US roles only for "
-        "now — that's where I'm searching.",
+        f"I built this for the search I'm doing myself, so it tracks {region} "
+        "— that's where I'm applying. Everything is filtered from each "
+        "posting's own stated location, and the same engine can be pointed at "
+        "another region by editing one line of "
+        "[`data/config.json`](data/config.json).",
         "",
         "Use it to spot roles early and apply before they fill up. Being first "
         "genuinely helps.",
@@ -378,8 +394,8 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "",
         "I'm building this in the open and adding to it as it grows.",
         "",
-        "**Recently shipped:** email alerts · the Drop Radar · auto-detected "
-        "sponsorship flags · the live dashboard",
+        "**Recently shipped:** email alerts · the live dashboard · "
+        f"{region} coverage",
         "",
         "**Next up:** personalized alerts (pick your categories) · per-company "
         "hiring pages · a ghost-posting detector",
@@ -410,17 +426,27 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         f"- **{REMOTE_MARK} after a company name** = **this role is remote** — "
         "the posting's own location or title says so. It marks the role on that "
         "row, not the whole company.",
-        "- **Flags after a role title:** 🇺🇸 = requires U.S. citizenship or a "
-        "security clearance · 🛂 = the posting says it won't sponsor a work "
-        "visa · 🆕 = spotted in the last 48 hours. Sponsorship flags are "
-        "detected automatically from each job description - treat them as a "
-        "strong hint and confirm on the posting.",
-        f"- **✓ after a company name** = a real H-1B track record: USCIS approved "
-        f"{h1b.BADGE_THRESHOLD}+ petitions for that employer in "
-        f"{h1b.window_label() or 'recent fiscal years'} (matched automatically "
-        "against the official [H-1B Employer Data Hub]"
-        "(https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub)). "
-        "No ✓ doesn't mean they won't sponsor - it means we can't prove they have.",
+        # The visa markers only appear on rows when the US is tracked, so the
+        # legend that explains them only appears then either.
+        *(("- **Flags after a role title:** 🇺🇸 = requires U.S. citizenship or a "
+           "security clearance · 🛂 = the posting says it won't sponsor a work "
+           "visa · 🆕 = spotted in the last 48 hours. Sponsorship flags are "
+           "detected automatically from each job description - treat them as a "
+           "strong hint and confirm on the posting.",
+           "- **✓ after a company name** = a real H-1B track record: USCIS "
+           f"approved {h1b.BADGE_THRESHOLD}+ petitions for that employer in "
+           f"{h1b.window_label() or 'recent fiscal years'} (matched "
+           "automatically against the official [H-1B Employer Data Hub]"
+           "(https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub)). "
+           "No ✓ doesn't mean they won't sponsor - it means we can't prove "
+           "they have.")
+          if config.want_us(cfg) else
+          ("- **🆕 after a role title** = spotted in the last 48 hours.",
+           "- **Work passes:** most roles here are open to students studying "
+           "in the country concerned; in Singapore a non-resident intern "
+           "normally needs a Work Holiday Pass or a Training Employment Pass, "
+           "which the employer applies for. Postings rarely say either way, so "
+           "confirm before you count on it.")),
         "- Track your applications with [`data/internships.csv`](data/internships.csv) "
         "(opens in Excel / Google Sheets).",
         "- Missing a company? Adding one takes a single line, see "
@@ -521,8 +547,22 @@ def _select(rows: list[dict], limit, per_company) -> list[dict]:
     return sorted(rows, key=lambda r: _date_str(r)[:10], reverse=True)
 
 
-def _region_of(record: dict) -> str:
-    return "US" if filters.is_united_states(record.get("location") or "") else "International"
+IN_REGION = "in-region"
+OUT_OF_REGION = "International"
+
+
+def _region_of(record: dict, regions) -> str:
+    """Which of the page's two lanes a role belongs in.
+
+    Deliberately coarse. The store carries the specific country (stats and the
+    API break it out), but the page needs one primary section per cycle plus
+    the International overflow - one section per SEA country would fragment a
+    list this size into eight near-empty tables.
+    """
+    if not regions:
+        return IN_REGION  # "Global": the location filter is off, so nothing is out
+    location = record.get("location") or ""
+    return IN_REGION if filters.region_ok(location, regions) else OUT_OF_REGION
 
 
 def _new_this_week(open_jobs: list[dict], data_as_of: str | None = None) -> int:
@@ -645,6 +685,8 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
     cfg = config.load_config()
     cycles = config.cycles(cfg)
     per_company = config.max_per_company(cfg)
+    regions = config.wanted_regions(cfg)
+    us_context = config.want_us(cfg)
 
     open_jobs = [r for r in store_data.values() if r.get("is_open")]
     # The honesty split. A cycle section is a claim ("this role is for Summer
@@ -660,12 +702,12 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
         # A multi-cycle posting ("Fall 2026/Summer 2027") belongs in EVERY
         # cycle it states — that's the point of keeping the full set.
         for cyc in (r.get("seasons") or [r.get("season", "")]):
-            groups.setdefault((_region_of(r), cyc), []).append(r)
+            groups.setdefault((_region_of(r, regions), cyc), []).append(r)
 
     sections: list[tuple[str, str, list[dict]]] = []
     displayed: list[dict] = []
     seen_display: set[str] = set()
-    for region in ("US", "International"):
+    for region in (IN_REGION, OUT_OF_REGION):
         for cycle in cycles:
             # Group BEFORE selecting, so an employer that opened one job eight
             # times spends one row of the per-company budget instead of eight —
@@ -677,7 +719,8 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
                 per_company,
             )
             if rows:
-                heading = cycle if region == "US" else f"{cycle} (International)"
+                heading = (cycle if region == IN_REGION
+                           else f"{cycle} ({OUT_OF_REGION})")
                 sections.append((heading, cycle, rows))
                 for r in rows:
                     if r.get("id") not in seen_display:
@@ -703,7 +746,7 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
         lines.append("")
         lines.append("| Company | Role | Category | Location | Skills | Posted | Apply |")
         lines.append("|---|---|---|---|---|---|---|")
-        lines.extend(_row(r, cycle) for r in rows)
+        lines.extend(_row(r, cycle, us_context) for r in rows)
         lines.append("")
 
     if rolling_rows:
@@ -721,7 +764,7 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
             "| Company | Role | Category | Location | Skills | Posted | Apply |",
             "|---|---|---|---|---|---|---|",
         ])
-        lines.extend(_rolling_row(r) for r in rolling_rows)
+        lines.extend(_rolling_row(r, us_context) for r in rolling_rows)
         lines.append("")
 
     if not displayed and not rolling_rows:
@@ -731,7 +774,10 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
         )
         lines.append("")
 
-    lines.extend(_radar_section(store_data, cycles[0], data_as_of=data_as_of))
+    # data/known_windows.json holds US marquee employers only, so off a US
+    # list the radar has nothing to forecast and renders as an empty promise.
+    if us_context:
+        lines.extend(_radar_section(store_data, cycles[0], data_as_of=data_as_of))
     lines.extend(_closed_section(store_data, cycles, data_as_of=data_as_of))
     lines.extend(_footer())
 

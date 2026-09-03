@@ -28,7 +28,14 @@ A posting must pass all of:
    is software work students filter for) and a small number of **Hardware**
    roles whose titles are software-first (embedded, firmware). The dashboard's
    category filter separates all of them, so you can exclude either.
-3. **It's in the configured region** — United States by default.
+3. **It's in the configured region** — Singapore and core Southeast Asia
+   (Singapore, Malaysia, Indonesia, Thailand, Vietnam, the Philippines) by
+   default. The region is read from the posting's own location string: a named
+   country, a country-prefixed component (`SG-Singapore`, `ID-Jakarta`), or a
+   recognised regional hub city on its own (`Kuala Lumpur`, `Taguig`). A city
+   only counts when nothing else in the string names a country, so a US
+   namesake such as `Manila, AR` is never mistaken for the region. A bare
+   "Remote" with no country named matches nothing.
 4. **It maps to a tracked cycle** — see below.
 
 The filters are precision-first: we would rather miss a role than list a wrong
@@ -115,6 +122,12 @@ whole live list rather than only roles found after the change.
 
 ## The ✓ H-1B badge
 
+**Shown only while the United States is a tracked region.** The badge and the
+🇺🇸 / 🛂 flags are read off US immigration data and US-visa phrasing, so on the
+Southeast Asia list they are suppressed everywhere they would otherwise render
+rather than shown blank. The classifier still runs — its text is shared with
+skill and cycle extraction — but its verdicts are not published.
+
 ✓ means USCIS approved a meaningful number of H-1B petitions for that employer
 in the published fiscal-year window, matched against the public
 [H-1B Employer Data Hub](https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub).
@@ -190,7 +203,12 @@ the run stops and the previous good build stays live.
 
 - Most postings never mention sponsorship, so `unknown` dominates — by design.
 - Cycle inference is a heuristic; that's exactly why those roles are separated.
-- The H-1B data lags by fiscal years and matches on employer name.
+- The H-1B data lags by fiscal years and matches on employer name (US only).
 - Skill tags come from keyword matching over posting text and will miss things.
 - We only see roles posted to the ATS platforms we support.
 - Region detection reads the location string; unusual formats may be missed.
+  Regional-hub cities are recognised from a fixed list, so a role posted with
+  only a smaller city's name and no country will be missed.
+- Most boards in the registry were discovered from US-facing datasets, so
+  Southeast Asian coverage is still growing; `data/candidates.json` and the
+  regional sources in `discover.py` are where it is widened.

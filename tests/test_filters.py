@@ -153,16 +153,16 @@ class TestSeason:
 
 class TestRegion:
     def test_us_match(self):
-        assert filters.region_ok("San Francisco, CA", want_us=True, want_canada=False)
-        assert filters.region_ok("New York, United States", want_us=True, want_canada=False)
+        assert filters.region_ok("San Francisco, CA", ["us"])
+        assert filters.region_ok("New York, United States", ["us"])
 
     def test_canada_excluded_when_us_only(self):
-        assert not filters.region_ok("Toronto, Ontario, Canada", want_us=True, want_canada=False)
-        assert filters.region_ok("Toronto, Ontario, Canada", want_us=False, want_canada=True)
+        assert not filters.region_ok("Toronto, Ontario, Canada", ["us"])
+        assert filters.region_ok("Toronto, Ontario, Canada", ["canada"])
 
     def test_country_code_prefix_not_us(self):
         # "DE-Berlin" is Germany, not the Delaware state code
-        assert not filters.region_ok("DE-Berlin-Trion", want_us=True, want_canada=False)
+        assert not filters.region_ok("DE-Berlin-Trion", ["us"])
 
     def test_named_foreign_country_beats_state_code_lookalike(self):
         # "IN - Bangalore, India" is India, not Indiana
@@ -178,7 +178,7 @@ class TestRegion:
         reverse = "London, United Kingdom; Austin, TX"
         assert filters.is_united_states(forward)
         assert filters.is_united_states(reverse)
-        assert filters.region_ok(forward, want_us=True, want_canada=False)
+        assert filters.region_ok(forward, ["us"])
 
     def test_state_code_with_spaced_suffix_still_us(self):
         assert filters.is_united_states("Dallas, TX - Headquarters")
@@ -633,3 +633,61 @@ class TestDetectSeasonsProximity:
     def test_untracked_cycles_are_excluded(self):
         for t in ("Summer 2026 Intern", "Fall 2027 Intern"):
             assert filters.detect_seasons(t, self.C) == [], t
+
+
+class TestRegionSEA:
+    """Singapore / Southeast Asia, the region this deployment tracks.
+
+    The US suite above is kept as a regression test: the SEA matcher shares the
+    country table and the option-splitting with it, so a break there shows up
+    here and vice versa.
+    """
+
+    def test_country_named_outright(self):
+        for location in ("Singapore", "Singapore, Singapore",
+                         "One-north, Singapore", "Remote - Singapore",
+                         "Kuala Lumpur, Malaysia", "Jakarta, Indonesia",
+                         "Ho Chi Minh City, Vietnam", "Bangkok, Thailand",
+                         "Cebu City, Philippines"):
+            assert filters.region_ok(location, ["sea"]), location
+
+    def test_country_prefixed_components(self):
+        # Workday and Oracle publish "SG-Singapore" / "ID-Jakarta".
+        assert filters.region_ok("SG-Singapore", ["sea"])
+        assert filters.region_ok("ID-Jakarta", ["sea"])
+        assert filters.region_ok("PH-Taguig", ["sea"])
+
+    def test_bare_city_is_inferred_for_known_hubs(self):
+        for location in ("Kuala Lumpur", "Jakarta", "Bangkok", "Taguig",
+                         "Ho Chi Minh City", "Hanoi"):
+            assert filters.region_ok(location, ["sea"]), location
+
+    def test_a_us_namesake_never_reads_as_sea(self):
+        # Every SEA hub has a US namesake; the state component has to win.
+        assert not filters.region_ok("Manila, AR", ["sea"])
+        assert not filters.region_ok("Singapore, MI", ["sea"])
+        assert filters.is_united_states("Singapore, MI")
+
+    def test_bare_remote_matches_nothing(self):
+        assert not filters.region_ok("Remote", ["sea"])
+        assert not filters.region_ok("", ["sea"])
+
+    def test_other_regions_are_excluded(self):
+        for location in ("San Francisco, CA", "Toronto, Ontario, Canada",
+                         "Bangalore, India", "Sydney, Australia",
+                         "Tokyo, Japan", "Shanghai, China"):
+            assert not filters.region_ok(location, ["sea"]), location
+
+    def test_multi_location_option_keeps_a_valid_sea_option(self):
+        assert filters.region_ok("New York, USA; Singapore", ["sea"])
+        assert filters.region_ok("Singapore; London, United Kingdom", ["sea"])
+
+    def test_single_country_is_narrower_than_the_group(self):
+        assert filters.region_ok("Kuala Lumpur, Malaysia", ["sea"])
+        assert not filters.region_ok("Kuala Lumpur, Malaysia", ["singapore"])
+        assert filters.region_ok("Singapore", ["singapore"])
+
+    def test_region_of_names_the_matched_country(self):
+        assert filters.region_of("Singapore", ["sea"]) == "Singapore"
+        assert filters.region_of("Jakarta", ["sea"]) == "Indonesia"
+        assert filters.region_of("San Francisco, CA", ["sea"]) == "International"

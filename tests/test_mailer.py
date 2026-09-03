@@ -180,8 +180,23 @@ def test_digest_html_lists_roles_and_unsub_slot():
     html = mailer.build_digest_html(fresh)
     assert "Stripe" in html and "Backend Intern" in html
     assert "$55/hr" in html
-    assert "\U0001f6c2" in html            # 🛂 flag carried into the email
     assert "{{UNSUB_URL}}" in html          # per-recipient link slot survives
+
+
+def test_visa_flags_follow_the_tracked_region(monkeypatch):
+    """🛂 is a US visa verdict, so it ships only on a digest of US roles.
+
+    On the Southeast Asia list the classifier still runs (its text is shared
+    with skills and cycle extraction), but its US-immigration reading is not
+    something to put in front of a reader it does not apply to.
+    """
+    fresh = [_record(1, company="Acme", sponsorship="no-sponsorship")]
+
+    monkeypatch.setattr(mailer.config, "load_config", lambda: {"regions": ["US"]})
+    assert "🛂" in mailer.build_digest_html(fresh)
+
+    monkeypatch.setattr(mailer.config, "load_config", lambda: {"regions": ["SEA"]})
+    assert "🛂" not in mailer.build_digest_html(fresh)
 
 
 def test_sender_parsing(monkeypatch):

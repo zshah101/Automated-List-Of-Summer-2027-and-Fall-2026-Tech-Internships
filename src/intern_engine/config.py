@@ -5,8 +5,11 @@ Change behavior without touching code:
                     These become the section headings, in this order.
   - default_cycle : where to put roles that have no clear term/year (e.g. just
                     "Software Engineer Intern"). Must be one of `cycles`.
-  - regions       : ["US"] for United States only, ["US", "Canada"] for both,
-                    or ["Global"] to disable the location filter entirely.
+  - regions       : which countries to track, e.g. ["SEA"] for Singapore +
+                    core Southeast Asia, ["Singapore"] for one country, ["US"]
+                    or ["US", "Canada"] for North America, or ["Global"] to
+                    disable the location filter entirely. Group tokens ("SEA")
+                    expand to their members; see filters.REGION_GROUPS.
   - role_scope    : "tech" (SWE/data/ML/quant/hardware/...) or "all" internships.
 """
 
@@ -16,12 +19,12 @@ import json
 import os
 import re
 
-from . import paths
+from . import filters, paths
 
 DEFAULTS = {
     "cycles": ["Summer 2027", "Fall 2026"],
     "default_cycle": "Summer 2027",
-    "regions": ["US"],
+    "regions": ["SEA"],
     "role_scope": "tech",
 }
 
@@ -58,7 +61,21 @@ def pages_base() -> str:
     return f"https://{owner.lower()}.github.io/{name}"
 
 _GLOBAL_TOKENS = {"global", "international", "worldwide", "any", "all"}
-_US_TOKENS = {"us", "usa", "united states", "u.s.", "america"}
+# What a user may write in data/config.json -> the canonical region key that
+# filters.py matches on. Group tokens ("sea") expand via filters.REGION_GROUPS.
+_REGION_ALIASES = {
+    "us": "us", "usa": "us", "u.s.": "us", "united states": "us",
+    "america": "us",
+    "canada": "canada", "ca": "canada",
+    "singapore": "singapore", "sg": "singapore",
+    "malaysia": "malaysia", "my": "malaysia",
+    "indonesia": "indonesia", "id": "indonesia",
+    "thailand": "thailand", "th": "thailand",
+    "vietnam": "vietnam", "viet nam": "vietnam", "vn": "vietnam",
+    "philippines": "philippines", "ph": "philippines",
+    "sea": "sea", "southeast asia": "sea", "south-east asia": "sea",
+    "south east asia": "sea", "asean": "sea",
+}
 
 
 def _string_list(value, field: str, *, allow_empty: bool = False) -> list[str]:
@@ -94,7 +111,7 @@ def validate_config(raw: object) -> dict:
         raise ConfigError("cycles must use labels such as 'Summer 2027'")
 
     cfg["regions"] = _string_list(cfg.get("regions"), "regions")
-    supported = _GLOBAL_TOKENS | _US_TOKENS | {"canada"}
+    supported = _GLOBAL_TOKENS | set(_REGION_ALIASES)
     unknown = [r for r in cfg["regions"] if r.casefold() not in supported]
     if unknown:
         raise ConfigError(f"unsupported regions: {', '.join(unknown)}")
@@ -159,12 +176,51 @@ def restrict_region(cfg: dict) -> bool:
     return not any(str(r).lower() in _GLOBAL_TOKENS for r in regions)
 
 
+def wanted_regions(cfg: dict) -> list[str]:
+    """Canonical region keys to filter on; empty when the filter is off.
+
+    Group tokens are left intact for :func:`filters.resolve_regions`, which is
+    the single place that knows what "sea" contains.
+    """
+    if not restrict_region(cfg):
+        return []
+    keys: list[str] = []
+    for value in cfg.get("regions") or []:
+        key = _REGION_ALIASES.get(str(value).strip().casefold())
+        if key and key not in keys:
+            keys.append(key)
+    return keys
+
+
+# A group reads better under its own name than as a list of six countries.
+_GROUP_LABELS = {"sea": "Singapore & Southeast Asia"}
+
+
+def region_label(cfg: dict) -> str:
+    """One human-readable phrase for the tracked region, for page furniture."""
+    keys = wanted_regions(cfg)
+    if not keys:
+        return "Worldwide"
+    parts = [
+        _GROUP_LABELS.get(key) or filters.REGION_LABELS.get(key, key.title())
+        for key in keys
+    ]
+    if len(parts) == 1:
+        return parts[0]
+    return ", ".join(parts[:-1]) + " & " + parts[-1]
+
+
 def want_us(cfg: dict) -> bool:
-    return any(str(r).lower() in _US_TOKENS for r in (cfg.get("regions") or []))
+    """Whether the US is tracked - the switch for every US-visa feature.
+
+    The H-1B badges, the sponsorship flags and the Drop Radar are all built on
+    US immigration data, so they are shown only when US roles are on the list.
+    """
+    return "us" in wanted_regions(cfg)
 
 
 def want_canada(cfg: dict) -> bool:
-    return any(str(r).lower() == "canada" for r in (cfg.get("regions") or []))
+    return "canada" in wanted_regions(cfg)
 
 
 def section_limit(cfg: dict, label: str):

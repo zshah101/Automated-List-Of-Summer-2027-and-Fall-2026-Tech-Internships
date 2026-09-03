@@ -11,7 +11,7 @@ def _rec(jid, **extra):
     rec = {
         "id": jid, "company": "Acme", "title": "Software Engineer Intern",
         "season": "Summer 2027", "season_inferred": False, "category": "Software",
-        "location": "Austin, TX", "url": f"https://x/{jid}", "is_open": True,
+        "location": "Singapore", "url": f"https://x/{jid}", "is_open": True,
         "posted_at": "2026-07-01T00:00:00Z", "first_seen_at": "2026-07-01T00:00:00Z",
         "sponsorship": "unknown", "skills": [],
     }
@@ -106,7 +106,7 @@ class TestCsvCompleteness:
         assert len(rows) == 9
 
     def test_csv_carries_the_new_fields(self, outputs):
-        store = {"a": _rec("a", title="Data Co-op", location="Remote - US")}
+        store = {"a": _rec("a", title="Data Co-op", location="Remote - Singapore")}
         readme.generate(store)
         row = next(csv.DictReader((outputs / "internships.csv").open(encoding="utf-8")))
         assert row["id"]
@@ -213,7 +213,7 @@ class TestIdenticalOpenings:
 
     def test_a_different_location_is_not_folded_away(self, outputs):
         store = self._store(2)
-        store["1"]["location"] = "Seattle, WA"
+        store["1"]["location"] = "Kuala Lumpur, Malaysia"
         readme.generate(store)
         text = (outputs / "README.md").read_text(encoding="utf-8")
         assert text.count("| Acme | Software Engineer Intern") == 2

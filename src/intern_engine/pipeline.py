@@ -418,8 +418,7 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
     cycles = config.cycles(cfg)
     tech_only = cfg.get("role_scope", "tech") == "tech"
     restrict = config.restrict_region(cfg)
-    wants_us = config.want_us(cfg)
-    wants_canada = config.want_canada(cfg)
+    regions = config.wanted_regions(cfg)
     include_intl = config.include_international(cfg)
     allowlist_only = config.allowlist_only(cfg)
     infer = config.infer_undated(cfg)
@@ -529,7 +528,7 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
             if season is None:
                 dropped_no_year += 1
                 continue
-            in_region = filters.region_ok(job.location, wants_us, wants_canada)
+            in_region = filters.region_ok(job.location, regions)
             if restrict and not in_region and not include_intl:
                 continue
             loc = (job.location or "").strip()
@@ -616,13 +615,13 @@ def _close_region_out_of_scope(existing: dict, cfg: dict) -> int:
     if not config.restrict_region(cfg) or config.include_international(cfg):
         return 0
     ts = store.now_iso()
-    wants_us, wants_canada = config.want_us(cfg), config.want_canada(cfg)
+    regions = config.wanted_regions(cfg)
     n = 0
     for r in existing.values():
         if not r.get("is_open"):
             continue
         loc = (r.get("location") or "").strip()
-        if loc and loc != "—" and not filters.region_ok(loc, wants_us, wants_canada):
+        if loc and loc != "—" and not filters.region_ok(loc, regions):
             r.update(is_open=False, closed_at=ts, closed_reason="out-of-scope")
             r.pop("missing_streak", None)
             n += 1
@@ -642,7 +641,7 @@ def _close_out_of_scope(existing: dict, cfg: dict, blocklist: dict | None = None
     tech_only = cfg.get("role_scope", "tech") == "tech"
     allowlist_only = config.allowlist_only(cfg)
     restrict = config.restrict_region(cfg) and not config.include_international(cfg)
-    wants_us, wants_canada = config.want_us(cfg), config.want_canada(cfg)
+    regions = config.wanted_regions(cfg)
     infer_cutoff = (
         datetime.now(UTC) - timedelta(days=config.infer_max_age_days(cfg))
     ).date()
@@ -677,7 +676,7 @@ def _close_out_of_scope(existing: dict, cfg: dict, blocklist: dict | None = None
             or explicit_offcycle
             or (
                 restrict and bool(location) and location != "—"
-                and not filters.region_ok(location, wants_us, wants_canada)
+                and not filters.region_ok(location, regions)
             )
             or (bool(company) and quality.is_blocked(company, blocklist or {}))
             or (
@@ -796,7 +795,7 @@ def run_update() -> tuple[dict, dict, list[str]]:
         companies, benched, succeeded, complete_keys, errors, errors_by_ats, kept,
         existing, new_ids, len(enriched_ids), detail_fetches, purged,
         round(time.monotonic() - started, 1), no_year, offcycle,
-        partial_by_reason,
+        partial_by_reason, regions=config.wanted_regions(cfg),
     )
     write_stats(stats)
     _append_history(stats)
@@ -875,8 +874,10 @@ def _detection_latency(existing: dict, window_days: int = 7,
 def _build_stats(companies, benched, succeeded, complete_keys, errors, errors_by_ats,
                  kept, existing, new_ids, enriched, detail_fetches, purged, duration,
                  dropped_no_year=0, dropped_offcycle=0,
-                 partial_by_reason: Counter | None = None) -> dict:
+                 partial_by_reason: Counter | None = None,
+                 regions: list[str] | None = None) -> dict:
     open_records = [r for r in existing.values() if r.get("is_open")]
+    regions = regions or []
     attempted = len(companies) - len(benched)
     dated = sum(1 for r in open_records if r.get("posted_at"))
     partial_by_reason = partial_by_reason or Counter()
@@ -925,7 +926,7 @@ def _build_stats(companies, benched, succeeded, complete_keys, errors, errors_by
             for cyc in (r.get("seasons") or [r.get("season")]) if cyc
         )),
         "roles_by_region": dict(Counter(
-            "US" if filters.is_united_states(r.get("location") or "") else "International"
+            filters.region_of(r.get("location") or "", regions)
             for r in open_records
         )),
         "sponsorship_counts": dict(Counter(
@@ -945,7 +946,7 @@ def _build_stats(companies, benched, succeeded, complete_keys, errors, errors_by
     }
 
 
-def restat(existing: dict, stats: dict) -> dict:
+def restat(existing: dict, stats: dict, cfg: dict | None = None) -> dict:
     """Recompute the store-derived counts in `stats` from the current store.
 
     Two things produce numbers here: this run's FETCH (roles matched, per-source
@@ -958,6 +959,7 @@ def restat(existing: dict, stats: dict) -> dict:
     than showing the last real run's.
     """
     stats = dict(stats)
+    regions = config.wanted_regions(cfg if cfg is not None else config.load_config())
     open_records = [r for r in existing.values() if r.get("is_open")]
     dated = sum(1 for r in open_records if r.get("posted_at"))
     stats.update({
@@ -969,7 +971,7 @@ def restat(existing: dict, stats: dict) -> dict:
         "roles_cycle_inferred": sum(1 for r in open_records if r.get("season_inferred")),
         "roles_by_source": dict(Counter(r.get("source") for r in open_records)),
         "roles_by_region": dict(Counter(
-            "US" if filters.is_united_states(r.get("location") or "") else "International"
+            filters.region_of(r.get("location") or "", regions)
             for r in open_records
         )),
         "sponsorship_counts": dict(Counter(

@@ -393,6 +393,18 @@ class TestRegionConfig:
         kept = self._keep(self._results("New York, NY"), ["US", "Canada"])
         assert len(kept) == 1
 
+    def test_sea_group_keeps_the_region_and_drops_the_rest(self):
+        for location in ("Singapore", "Kuala Lumpur, Malaysia", "SG-Singapore",
+                         "Jakarta", "Bangkok, Thailand"):
+            assert len(self._keep(self._results(location), ["SEA"])) == 1, location
+        for location in ("New York, NY", "Toronto, Ontario, Canada",
+                         "Bangalore, India"):
+            assert self._keep(self._results(location), ["SEA"]) == [], location
+
+    def test_a_single_sea_country_is_narrower_than_the_group(self):
+        assert len(self._keep(self._results("Singapore"), ["Singapore"])) == 1
+        assert self._keep(self._results("Jakarta, Indonesia"), ["Singapore"]) == []
+
 
 class TestDateSourceMigration:
     def test_legacy_records_get_a_shape_derived_label(self):
@@ -429,6 +441,23 @@ class TestOutOfScopeSweep:
         assert existing["a"]["closed_reason"] == "out-of-scope"
         assert existing["b"]["is_open"] is True
         assert existing["d"]["is_open"] is True
+
+    def test_the_sweep_follows_the_configured_region(self):
+        """Retargeting the region has to evict the old region from the store.
+
+        This is the migration path: the roles admitted under the previous
+        region are closed from the record alone, with no fetch evidence.
+        """
+        from intern_engine.pipeline import _close_out_of_scope
+        existing = {
+            "a": {"is_open": True, "location": "Austin, TX"},
+            "b": {"is_open": True, "location": "Singapore"},
+            "c": {"is_open": True, "location": "Kuala Lumpur, Malaysia"},
+        }
+        assert _close_out_of_scope(existing, {"regions": ["SEA"]}) == 1
+        assert existing["a"]["closed_reason"] == "out-of-scope"
+        assert existing["b"]["is_open"] is True
+        assert existing["c"]["is_open"] is True
 
     def test_sweep_is_off_when_international_is_included(self):
         from intern_engine.pipeline import _close_out_of_scope

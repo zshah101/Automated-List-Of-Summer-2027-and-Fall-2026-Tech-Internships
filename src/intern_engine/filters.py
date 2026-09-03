@@ -590,7 +590,7 @@ def season_from_text(
     return labels[0] if len(labels) == 1 else None
 
 
-# --- location: US / Canada detection -----------------------------------------
+# --- location: country + region detection ------------------------------------
 # Full state/province names are matched case-insensitively; the 2-letter codes
 # are matched case-SENSITIVELY (uppercase) so "OR"/"IN" don't match the words
 # "or"/"in" inside a city name.
@@ -637,34 +637,142 @@ _US_COUNTRY_RE = re.compile(
 # "Latin America" / "South America" must not read as the US ("america" token).
 _AMERICA_NOT_US_RE = re.compile(r"\b(?:south|latin|central)\s+america")
 
-# Countries that appear in ATS location strings and must never read as US, even
-# when a state-code lookalike sits next to them ("IN - Bangalore, India" is not
-# Indiana). An explicit US token still wins for multi-country strings.
+# Every country that turns up in ATS location strings, keyed by the canonical
+# region key this engine uses. One table does two jobs:
+#   - it answers "which country does this location name?", for region matching
+#   - it IS the veto list that stops a state-code lookalike reading as American
+#     ("IN - Bangalore, India" is not Indiana)
+# The US and Canada are deliberately absent: they have their own, much richer
+# matchers below (state codes, province disambiguation), and putting "canada"
+# in here would route it through the foreign-veto path that already handles it
+# separately.
 # NOTE on omissions: "georgia" is a US state as well as a country, and
-# "england" hides inside "New England" — both are handled below rather than
+# "england" hides inside "New England" - both are handled below rather than
 # listed here, so a US location never loses to a name collision.
-_NON_US_COUNTRIES = (
-    "india", "united kingdom", "great britain", "scotland", "wales",
-    "northern ireland", "ireland", "germany", "france", "poland",
-    "netherlands", "spain", "italy", "portugal", "romania", "hungary",
-    "bulgaria", "croatia", "serbia", "slovenia", "bosnia", "albania",
-    "montenegro", "macedonia", "ukraine", "belarus", "russia", "moldova",
-    "lithuania", "latvia", "estonia", "luxembourg", "iceland", "cyprus",
-    "malta", "czech", "slovakia", "sweden", "switzerland", "belgium",
-    "austria", "denmark", "norway", "finland", "greece", "turkey", "israel",
-    "united arab emirates", "saudi arabia", "qatar", "kuwait", "bahrain",
-    "oman", "jordan", "lebanon", "iraq", "iran", "afghanistan", "egypt",
-    "morocco", "tunisia", "algeria", "nigeria", "ghana", "senegal",
-    "ethiopia", "kenya", "tanzania", "uganda", "zimbabwe", "botswana",
-    "namibia", "south africa", "brazil", "mexico", "argentina", "colombia",
-    "chile", "peru", "bolivia", "paraguay", "uruguay", "venezuela",
-    "ecuador", "panama", "costa rica", "guatemala", "honduras", "nicaragua",
-    "el salvador", "belize", "dominican republic", "jamaica", "trinidad",
-    "japan", "china", "singapore", "korea", "taiwan", "hong kong", "macau",
-    "philippines", "indonesia", "vietnam", "thailand", "cambodia",
-    "myanmar", "malaysia", "pakistan", "bangladesh", "sri lanka", "nepal",
-    "mongolia", "kazakhstan", "uzbekistan", "azerbaijan", "armenia",
-    "australia", "new zealand", "fiji",
+_COUNTRIES: dict[str, tuple[str, ...]] = {
+    "india": ("india",),
+    "uk": ("united kingdom", "great britain", "scotland", "wales",
+           "northern ireland"),
+    "ireland": ("ireland",),
+    "germany": ("germany",),
+    "france": ("france",),
+    "poland": ("poland",),
+    "netherlands": ("netherlands",),
+    "spain": ("spain",),
+    "italy": ("italy",),
+    "portugal": ("portugal",),
+    "romania": ("romania",),
+    "hungary": ("hungary",),
+    "bulgaria": ("bulgaria",),
+    "croatia": ("croatia",),
+    "serbia": ("serbia",),
+    "slovenia": ("slovenia",),
+    "bosnia": ("bosnia",),
+    "albania": ("albania",),
+    "montenegro": ("montenegro",),
+    "macedonia": ("macedonia",),
+    "ukraine": ("ukraine",),
+    "belarus": ("belarus",),
+    "russia": ("russia",),
+    "moldova": ("moldova",),
+    "lithuania": ("lithuania",),
+    "latvia": ("latvia",),
+    "estonia": ("estonia",),
+    "luxembourg": ("luxembourg",),
+    "iceland": ("iceland",),
+    "cyprus": ("cyprus",),
+    "malta": ("malta",),
+    "czechia": ("czech",),
+    "slovakia": ("slovakia",),
+    "sweden": ("sweden",),
+    "switzerland": ("switzerland",),
+    "belgium": ("belgium",),
+    "austria": ("austria",),
+    "denmark": ("denmark",),
+    "norway": ("norway",),
+    "finland": ("finland",),
+    "greece": ("greece",),
+    "turkey": ("turkey",),
+    "israel": ("israel",),
+    "uae": ("united arab emirates",),
+    "saudi arabia": ("saudi arabia",),
+    "qatar": ("qatar",),
+    "kuwait": ("kuwait",),
+    "bahrain": ("bahrain",),
+    "oman": ("oman",),
+    "jordan": ("jordan",),
+    "lebanon": ("lebanon",),
+    "iraq": ("iraq",),
+    "iran": ("iran",),
+    "afghanistan": ("afghanistan",),
+    "egypt": ("egypt",),
+    "morocco": ("morocco",),
+    "tunisia": ("tunisia",),
+    "algeria": ("algeria",),
+    "nigeria": ("nigeria",),
+    "ghana": ("ghana",),
+    "senegal": ("senegal",),
+    "ethiopia": ("ethiopia",),
+    "kenya": ("kenya",),
+    "tanzania": ("tanzania",),
+    "uganda": ("uganda",),
+    "zimbabwe": ("zimbabwe",),
+    "botswana": ("botswana",),
+    "namibia": ("namibia",),
+    "south africa": ("south africa",),
+    "brazil": ("brazil",),
+    "mexico": ("mexico",),
+    "argentina": ("argentina",),
+    "colombia": ("colombia",),
+    "chile": ("chile",),
+    "peru": ("peru",),
+    "bolivia": ("bolivia",),
+    "paraguay": ("paraguay",),
+    "uruguay": ("uruguay",),
+    "venezuela": ("venezuela",),
+    "ecuador": ("ecuador",),
+    "panama": ("panama",),
+    "costa rica": ("costa rica",),
+    "guatemala": ("guatemala",),
+    "honduras": ("honduras",),
+    "nicaragua": ("nicaragua",),
+    "el salvador": ("el salvador",),
+    "belize": ("belize",),
+    "dominican republic": ("dominican republic",),
+    "jamaica": ("jamaica",),
+    "trinidad": ("trinidad",),
+    "japan": ("japan",),
+    "china": ("china",),
+    "singapore": ("singapore",),
+    "korea": ("korea",),
+    "taiwan": ("taiwan",),
+    "hong kong": ("hong kong",),
+    "macau": ("macau",),
+    "philippines": ("philippines",),
+    "indonesia": ("indonesia",),
+    "vietnam": ("vietnam", "viet nam"),
+    "thailand": ("thailand",),
+    "cambodia": ("cambodia",),
+    "myanmar": ("myanmar", "burma"),
+    "malaysia": ("malaysia",),
+    "brunei": ("brunei",),
+    "laos": ("laos",),
+    "pakistan": ("pakistan",),
+    "bangladesh": ("bangladesh",),
+    "sri lanka": ("sri lanka",),
+    "nepal": ("nepal",),
+    "mongolia": ("mongolia",),
+    "kazakhstan": ("kazakhstan",),
+    "uzbekistan": ("uzbekistan",),
+    "azerbaijan": ("azerbaijan",),
+    "armenia": ("armenia",),
+    "australia": ("australia",),
+    "new zealand": ("new zealand",),
+    "fiji": ("fiji",),
+}
+
+_NON_US_COUNTRIES = tuple(
+    alias for aliases in _COUNTRIES.values() for alias in aliases
 )
 _NON_US_RE = re.compile(
     r"\b(" + "|".join(re.escape(c) for c in _NON_US_COUNTRIES) + r")\b"
@@ -809,16 +917,161 @@ def is_us_or_canada(location: str) -> bool:
     return is_united_states(location) or is_canada(location)
 
 
-def region_ok(location: str, want_us: bool, want_canada: bool) -> bool:
+# --- Southeast Asia ----------------------------------------------------------
+# SEA boards very often publish a bare city ("Kuala Lumpur", "Taguig") with no
+# country at all, so a country-token test alone would miss most of the region.
+# These are the hubs that actually appear on ATS feeds. A city only counts when
+# it stands alone as its own component AND nothing else in the string claims a
+# country, so "Manila, AR" (Arkansas) can never be mistaken for the Philippines.
+_SEA_CITIES: dict[str, str] = {
+    "kuala lumpur": "malaysia", "petaling jaya": "malaysia",
+    "cyberjaya": "malaysia", "penang": "malaysia", "george town": "malaysia",
+    "johor bahru": "malaysia", "putrajaya": "malaysia",
+    "subang jaya": "malaysia",
+    "jakarta": "indonesia", "bandung": "indonesia", "surabaya": "indonesia",
+    "tangerang": "indonesia", "bsd city": "indonesia",
+    "yogyakarta": "indonesia",
+    "bangkok": "thailand", "chiang mai": "thailand",
+    "ho chi minh city": "vietnam", "ho chi minh": "vietnam",
+    "saigon": "vietnam", "hanoi": "vietnam", "da nang": "vietnam",
+    "danang": "vietnam",
+    "manila": "philippines", "metro manila": "philippines",
+    "makati": "philippines", "makati city": "philippines",
+    "taguig": "philippines", "taguig city": "philippines",
+    "bonifacio global city": "philippines", "cebu": "philippines",
+    "cebu city": "philippines", "pasig": "philippines",
+    "pasig city": "philippines", "quezon city": "philippines",
+    "mandaluyong": "philippines",
+}
+# Workday and Oracle publish country-prefixed components ("SG-Singapore",
+# "ID-Jakarta"). Only this hyphenated shape is accepted: a BARE two-letter code
+# is never enough, because "ID" is Idaho, "MY"/"IN"/"OR" collide with ordinary
+# words, and a false positive here silently imports the wrong country.
+_SEA_CODES = {
+    "SG": "singapore", "MY": "malaysia", "ID": "indonesia",
+    "TH": "thailand", "VN": "vietnam", "PH": "philippines",
+}
+_SEA_PREFIX_RE = re.compile(r"\b(?:" + "|".join(_SEA_CODES) + r")-(?=\w)")
+
+SEA_REGIONS = (
+    "singapore", "malaysia", "indonesia", "thailand", "vietnam", "philippines",
+)
+
+# Region keys the engine can filter on. The US and Canada keep their dedicated
+# matchers; every other key is answered by the country table above.
+REGION_LABELS: dict[str, str] = {
+    "us": "United States",
+    "canada": "Canada",
+    "singapore": "Singapore",
+    "malaysia": "Malaysia",
+    "indonesia": "Indonesia",
+    "thailand": "Thailand",
+    "vietnam": "Vietnam",
+    "philippines": "Philippines",
+}
+# Named bundles a config may ask for with a single token.
+REGION_GROUPS: dict[str, tuple[str, ...]] = {"sea": SEA_REGIONS}
+
+_REGION_MATCHERS = {"us": is_united_states, "canada": is_canada}
+
+_COUNTRY_RES = {
+    key: re.compile(
+        r"\b(?:" + "|".join(re.escape(a) for a in aliases) + r")\b", re.IGNORECASE
+    )
+    for key, aliases in _COUNTRIES.items()
+}
+
+
+def _outranked_by_us(location: str, pattern: re.Pattern) -> bool:
+    """True when a US state component sits to the RIGHT of the country token.
+
+    Mirror of the rule :func:`is_united_states` applies in the other direction:
+    the rightmost qualifier wins. It is what makes "Singapore, MI" a Michigan
+    village rather than the republic - every SEA hub has a US namesake.
+    """
+    parts = _location_parts(location)
+    hits = [index for index, part in enumerate(parts) if pattern.search(part)]
+    if not hits:
+        return False
+    signal = _structured_signal(parts, _US_STATES, _US_CODES)
+    return bool(signal and signal[0] > max(hits))
+
+
+def is_country(location: str, key: str) -> bool:
+    """True when ``location`` names the country ``key``.
+
+    Same option-splitting contract as :func:`is_united_states`: a posting
+    advertising "Singapore; Sydney, Australia" is in Singapore.
+    """
+    if not location:
+        return False
+    options = [part.strip() for part in _LOCATION_OPTION_RE.split(location)
+               if part.strip()]
+    if len(options) > 1:
+        return any(is_country(option, key) for option in options)
+    pattern = _COUNTRY_RES.get(key)
+    if pattern is None:
+        return False
+    if pattern.search(location):
+        return not (key in SEA_REGIONS and _outranked_by_us(location, pattern))
+    if key not in SEA_REGIONS:
+        return False
+    for code, country in _SEA_CODES.items():
+        if country == key and re.search(rf"\b{code}-(?=\w)", location):
+            return True
+    # City inference, last and most cautious: a standalone component only, and
+    # only when nothing else in the string already claims a country. The US
+    # test is what keeps "Manila, AR" (Arkansas) and "Singapore, MI" out of
+    # Southeast Asia - every SEA hub below has a US namesake somewhere.
+    if _NON_US_RE.search(location.lower()) or is_united_states(location):
+        return False
+    if _SEA_PREFIX_RE.search(location):
+        return False
+    return any(
+        _SEA_CITIES.get(part.lower()) == key for part in _location_parts(location)
+    )
+
+
+def resolve_regions(regions) -> list[str]:
+    """Expand group tokens ("sea") into their member region keys, in order."""
+    resolved: list[str] = []
+    for value in regions or ():
+        key = str(value).strip().lower()
+        for member in REGION_GROUPS.get(key, (key,)):
+            if member not in resolved:
+                resolved.append(member)
+    return resolved
+
+
+def in_region(location: str, key: str) -> bool:
+    """True when ``location`` falls inside the single region ``key``."""
+    matcher = _REGION_MATCHERS.get(key)
+    if matcher is not None:
+        return matcher(location)
+    return is_country(location, key)
+
+
+def region_ok(location: str, regions) -> bool:
     """True if the location matches one of the wanted regions.
 
     Conservative: a bare "Remote" with no country mentioned matches nothing.
     """
-    if want_us and is_united_states(location):
-        return True
-    if want_canada and is_canada(location):
-        return True
-    return False
+    return any(in_region(location, key) for key in resolve_regions(regions))
+
+
+def region_of(location: str, regions) -> str:
+    """The label of the first wanted region the location matches.
+
+    "International" when it matches none - the bucket every renderer uses for
+    roles that are on the list but outside the tracked region. With no region
+    configured at all (the "Global" setting) every known region is tried, so
+    the breakdown still names countries instead of calling the whole world
+    international.
+    """
+    for key in resolve_regions(regions) or REGION_LABELS:
+        if in_region(location, key):
+            return REGION_LABELS.get(key, key.title())
+    return "International"
 
 
 # --- category tagging (first match wins; order = specific before generic) -----

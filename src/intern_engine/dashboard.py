@@ -16,8 +16,9 @@ from html import escape
 from . import config, filters, grouping, h1b, paths, radar, sponsorship, trends
 
 
-def _hero(stats: dict, open_jobs: list[dict], proven_roles: int) -> str:
-    """The four numbers an applicant actually needs, and nothing else.
+def _hero(stats: dict, open_jobs: list[dict], proven_roles: int,
+          us_context: bool = True) -> str:
+    """The handful of numbers an applicant actually needs, and nothing else.
 
     This used to be ten equal-weight tiles where "Last run: 402.0s" sat beside
     "Open roles" — engine telemetry competing with the thing people came for.
@@ -29,8 +30,11 @@ def _hero(stats: dict, open_jobs: list[dict], proven_roles: int) -> str:
     items = [
         (str(len(open_jobs)), "open roles", "every one linked to the employer"),
         (str(stated), "with a stated cycle", "the employer named it, we didn't guess"),
-        (str(proven_roles), "at proven H-1B sponsors",
-         f"USCIS approved {h1b.BADGE_THRESHOLD}+ petitions"),
+        # The H-1B tile is a US immigration statistic; off a US list it would
+        # read "0 at proven H-1B sponsors", which says nothing true.
+        *([(str(proven_roles), "at proven H-1B sponsors",
+            f"USCIS approved {h1b.BADGE_THRESHOLD}+ petitions")]
+          if us_context else []),
         (str(remote), "remote", "the posting's own words say so"),
     ]
     return "".join(
@@ -149,7 +153,44 @@ def _sparkline(points: list[dict]) -> str:
     )
 
 
-def _rows(open_jobs: list[dict]) -> str:
+def _visa_filters(us_context: bool) -> str:
+    """The sponsorship dropdown - US visa language, so US lists only."""
+    if not us_context:
+        return ""
+    return (
+        '<select id="spon" title="What the posting itself says about visa '
+        'sponsorship">'
+        '<option value="">Any sponsorship status</option>'
+        '<option value="no-restriction">No explicit restriction found</option>'
+        '<option value="offers">Explicitly offers sponsorship</option>'
+        '<option value="unknown">Sponsorship not stated</option>'
+        '<option value="restricted">Explicitly restricted (🇺🇸 / 🛂)</option>'
+        "</select>"
+    )
+
+
+def _h1b_filter(us_context: bool) -> str:
+    if not us_context:
+        return ""
+    return ('<label class="chk"><input id="h1b" type="checkbox">'
+            "<span>✓ proven H-1B sponsors only</span></label>")
+
+
+def _visa_legend(us_context: bool) -> str:
+    if not us_context:
+        return ""
+    return (
+        "Sponsorship flags are auto-detected from posting text — treat them "
+        "as a strong hint and verify on the posting itself. ✓ = USCIS "
+        f"approved {h1b.BADGE_THRESHOLD}+ H-1B petitions for that employer "
+        f"({escape(h1b.window_label() or 'recent years')}, per the public "
+        '<a href="https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub">'
+        "Employer Data Hub</a>) — a history, not a promise; no ✓ only "
+        "means no confident match."
+    )
+
+
+def _rows(open_jobs: list[dict], us_context: bool = True) -> str:
     window = h1b.window_label()
     rows = []
     for r in open_jobs:
@@ -157,9 +198,9 @@ def _rows(open_jobs: list[dict]) -> str:
         url = r.get("url") or ""
         apply = f'<a href="{escape(url)}" target="_blank" rel="noopener">Apply</a>' if url else "—"
         sponsor = r.get("sponsorship", "unknown")
-        flag = sponsorship.flag(sponsor)
+        flag = sponsorship.flag(sponsor) if us_context else ""
         approvals = h1b.approvals_for(r.get("company") or "")
-        proven = "1" if h1b.badge(approvals) else "0"
+        proven = "1" if us_context and h1b.badge(approvals) else "0"
         check = (
             f' <span class="ok" title="~{h1b.pretty_count(approvals)} H-1B approvals '
             f'({escape(window)}, USCIS)">✓</span>' if proven == "1" else ""
@@ -288,6 +329,11 @@ def _radar_rows(rows: list[dict]) -> str:
 
 
 def _radar_section(store_data: dict, cfg: dict, data_as_of: datetime | None = None) -> str:
+    # data/known_windows.json seeds the radar with US marquee employers, and
+    # radar.rows() emits them whether or not the store holds a US role. Off a
+    # US list that is a forecast for companies this page doesn't even track.
+    if not config.want_us(cfg):
+        return ""
     cycle = config.cycles(cfg)[0]
     rows = radar.rows(store_data, cycle, today=data_as_of.date() if data_as_of else None)
     if not rows:
@@ -373,16 +419,11 @@ def generate(store_data: dict, stats: dict) -> None:
         data_as_of_dt = datetime.now(UTC)
     data_as_of = data_as_of_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     updated = data_as_of_dt.strftime("%b %d, %Y at %H:%M UTC")
-    if config.include_international(cfg):
-        region = "US + International"
-    elif config.want_us(cfg) and config.want_canada(cfg):
-        region = "United States & Canada"
-    elif config.want_us(cfg):
-        region = "United States"
-    elif config.want_canada(cfg):
-        region = "Canada"
-    else:
-        region = "Worldwide"
+    region = config.region_label(cfg)
+    if config.include_international(cfg) and config.restrict_region(cfg):
+        region = f"{region} + International"
+    # Every H-1B / visa control below is built on US immigration data.
+    us_context = config.want_us(cfg)
 
     # Real cycles first, "Not stated" pinned last — it's the absence of a
     # cycle, so alphabetical order (which drops it between Fall and Summer)
@@ -392,6 +433,7 @@ def generate(store_data: dict, stats: dict) -> None:
         key=lambda s: (s == filters.NOT_STATED, s),
     )
     categories = sorted({r.get("category", "") for r in open_jobs if r.get("category")})
+    cycles_phrase = " & ".join(config.cycles(cfg))
     repo = config.repo_slug()
     proven_roles = sum(
         1 for r in open_jobs
@@ -406,9 +448,9 @@ def generate(store_data: dict, stats: dict) -> None:
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Internship Engine - Live Dashboard</title>
-<meta name="description" content="Summer 2027 & Fall 2026 tech internships, refreshed every 30 minutes. Auto-detected visa sponsorship flags, proven H-1B sponsor badges, email alerts.">
+<meta name="description" content="{escape(cycles_phrase)} tech internships in {escape(region)}, refreshed every 30 minutes. Live search, filters and email alerts.">
 <meta property="og:title" content="Internship Engine - Live Dashboard">
-<meta property="og:description" content="{len(open_jobs)} open tech internships, refreshed every 30 minutes. Visa-sponsorship flags + proven H-1B sponsor badges for international students.">
+<meta property="og:description" content="{len(open_jobs)} open tech internships in {escape(region)}, refreshed every 30 minutes, straight from each employer's own job board.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <link rel="alternate" type="application/atom+xml" title="New internships" href="feed.xml">
@@ -675,7 +717,7 @@ def generate(store_data: dict, stats: dict) -> None:
     <a href="https://github.com/{escape(repo)}">source</a> ·
     <a href="https://github.com/{escape(repo)}/blob/main/METHODOLOGY.md">methodology</a></p>
   </header>
-  <div class="hero">{_hero(stats, open_jobs, proven_roles)}</div>
+  <div class="hero">{_hero(stats, open_jobs, proven_roles, us_context)}</div>
 
   <h2 id="roles">Open roles <span class="muted">(<span id="count">{len(open_jobs)}</span>
     showing)</span></h2>
@@ -697,21 +739,14 @@ def generate(store_data: dict, stats: dict) -> None:
           <option value="7">Last 7 days</option>
           <option value="30">Last 30 days</option>
         </select>
-        <select id="spon" title="What the posting itself says about visa sponsorship">
-          <option value="">Any sponsorship status</option>
-          <option value="no-restriction">No explicit restriction found</option>
-          <option value="offers">Explicitly offers sponsorship</option>
-          <option value="unknown">Sponsorship not stated</option>
-          <option value="restricted">Explicitly restricted (🇺🇸 / 🛂)</option>
-        </select>
+        {_visa_filters(us_context)}
         <select id="program">
           <option value="">Internships &amp; co-ops</option>
           <option value="Internship">Internships</option>
           <option value="Co-op">Co-ops</option>
         </select>
         <label class="chk"><input id="remote" type="checkbox"><span><span class="rmark">R</span> remote only</span></label>
-        <label class="chk"><input id="h1b" type="checkbox">
-          <span>✓ proven H-1B sponsors only</span></label>
+        {_h1b_filter(us_context)}
         <label class="chk" title="Show only roles whose employer named the cycle themselves">
           <input id="stated" type="checkbox"><span>employer-stated cycle only</span></label>
         <button id="export" class="ghost" type="button" title="Download your saved roles as CSV">
@@ -729,7 +764,7 @@ def generate(store_data: dict, stats: dict) -> None:
   <table><thead><tr><th class="c-save" title="Save"></th><th>Company</th><th>Role</th>
   <th>Cycle</th><th>Category</th>
   <th>Location</th><th>Salary</th><th>Posted</th><th></th></tr></thead>
-  <tbody id="rows">{_rows(display_jobs)}</tbody></table>
+  <tbody id="rows">{_rows(display_jobs, us_context)}</tbody></table>
   </div>
   <p id="empty" class="muted empty" hidden>No roles match those filters.
     <button class="ghost" type="button" id="reset2">Clear filters</button></p>
@@ -746,16 +781,14 @@ def generate(store_data: dict, stats: dict) -> None:
   {_engine_panel(stats, by_category, _history_points())}
 
   <footer>Generated by the engine on each run across
-  {len(stats.get("companies_by_source", {}))} ATS platforms. Sponsorship flags are
-  auto-detected from posting text — treat them as a strong hint and verify on the
-  posting itself. ✓ = USCIS approved {h1b.BADGE_THRESHOLD}+ H-1B petitions for that
-  employer ({escape(h1b.window_label() or "recent years")}, per the public
-  <a href="https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub">
-  Employer Data Hub</a>) — a history, not a promise; no ✓ only means no confident
-  match. Roles can close at any time; always confirm on the company's own site.</footer>
+  {len(stats.get("companies_by_source", {}))} ATS platforms covering {escape(region)}.
+  {_visa_legend(us_context)}
+  Roles can close at any time; always confirm on the company's own site.</footer>
 </div>
 <script>
 (function () {{
+  // spon and h1b are rendered only while US roles are tracked, so every read
+  // of those two below has to tolerate a missing element.
   var q = document.getElementById('q'), cycle = document.getElementById('cycle'),
       cat = document.getElementById('cat'), spon = document.getElementById('spon'),
       h1b = document.getElementById('h1b'), age = document.getElementById('age'),
@@ -863,7 +896,7 @@ def generate(store_data: dict, stats: dict) -> None:
   }}
   function apply() {{
     var text = q.value.trim().toLowerCase(), cy = cycle.value, ca = cat.value,
-        sp = spon.value, proven = h1b.checked, shown = 0,
+        sp = spon ? spon.value : '', proven = h1b ? h1b.checked : false, shown = 0,
         minPosted = age.value ? cutoffISO(parseInt(age.value, 10)) : '',
         statedOnly = stated.checked, prog = program.value,
         remoteOnly = remote.checked, onlySaved = savedonly.checked;
@@ -891,7 +924,8 @@ def generate(store_data: dict, stats: dict) -> None:
     count.textContent = shown;
     empty.hidden = shown !== 0;
   }}
-  var controls = [q, cycle, cat, age, spon, program, remote, h1b, stated, savedonly];
+  var controls = [q, cycle, cat, age, spon, program, remote, h1b, stated,
+                  savedonly].filter(Boolean);
   controls.forEach(function (el) {{
     el.addEventListener('input', apply); el.addEventListener('change', apply);
   }});

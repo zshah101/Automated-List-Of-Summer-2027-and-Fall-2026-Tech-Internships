@@ -37,7 +37,7 @@ def configured() -> bool:
     return bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
 
 
-def _role_line(record: dict) -> str:
+def _role_line(record: dict, us_context: bool = True) -> str:
     """One role, as Telegram-flavoured HTML.
 
     Telegram's HTML parse mode supports a small tag set (<b>, <i>, <a>, <code>)
@@ -45,7 +45,9 @@ def _role_line(record: dict) -> str:
     bold employer, linked title, dim detail line.
     """
     company = escape((record.get("company") or "")[:180])
-    if h1b.badge(h1b.approvals_for(record.get("company") or "")):
+    # The H-1B badge and the visa flag are US immigration records; on a digest
+    # of roles from a region that data doesn't cover they claim nothing.
+    if us_context and h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
     if filters.is_remote(record.get("location") or "", record.get("title") or ""):
         company += " 🆁"
@@ -66,7 +68,7 @@ def _role_line(record: dict) -> str:
         bits.append(record["location"][:80])
     if record.get("salary"):
         bits.append(record["salary"][:80])
-    flag = sponsorship.flag(record.get("sponsorship"))
+    flag = sponsorship.flag(record.get("sponsorship")) if us_context else ""
     if flag:
         bits.append(flag)
     detail = escape(" · ".join(b for b in bits if b))
@@ -109,12 +111,13 @@ def build_chunks(records: list[tuple[str, dict]]) -> list[tuple[str, list[str]]]
               f"{'s' if total != 1 else ''}</b>")
     footer = f'\n<a href="{config.pages_base()}/">Open the dashboard</a>'
 
+    us_context = config.want_us(config.load_config())
     chunks: list[tuple[list[str], list[str]]] = []   # (lines, ids)
     lines: list[str] = []
     ids: list[str] = []
     first = True
     for jid, record in records:
-        line = _role_line(record)
+        line = _role_line(record, us_context)
         # One line can stand for several requisitions. All of them settle
         # together on that line's delivery, or none of them do.
         line_ids = [i for i in (record.get("opening_ids") or [jid]) if i]

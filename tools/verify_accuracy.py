@@ -129,7 +129,7 @@ def main() -> None:
             flag(r, "unstated-despite-cycle-in-title")
         if config.restrict_region(cfg) and not config.include_international(cfg) and \
                 not filters.region_ok(r.get("location") or "",
-                                      config.want_us(cfg), config.want_canada(cfg)):
+                                      config.wanted_regions(cfg)):
             flag(r, "out-of-region")
         if not filters.is_internship(title):
             flag(r, "not-an-internship-title")

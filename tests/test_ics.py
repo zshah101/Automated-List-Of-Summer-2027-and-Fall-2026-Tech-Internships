@@ -1,10 +1,16 @@
 """The subscribable radar calendar (docs/radar.ics)."""
 
-from intern_engine import publish, radar
+from intern_engine import config, publish, radar
 
 
 def _rows(monkeypatch, rows):
     monkeypatch.setattr(radar, "rows", lambda *a, **k: rows)
+    # The radar only exists on a US list (its windows are US-seeded), so the
+    # writer's own mechanics are exercised under a US config.
+    monkeypatch.setattr(
+        config, "load_config",
+        lambda: {**config.DEFAULTS, "regions": ["US"]},
+    )
 
 
 def test_ics_has_events_only_for_dated_waiting_rows(monkeypatch, tmp_path):
@@ -81,3 +87,22 @@ def test_ics_folding_moves_spaces_off_physical_line_endings():
     assert folded.replace("\r\n ", "") == (
         "DESCRIPTION:" + "x" * 62 + "  more words"
     )
+
+
+def test_no_calendar_events_off_a_us_list(monkeypatch, tmp_path):
+    """The windows are hand-seeded US employers, so a SEA list gets no pings."""
+    from intern_engine import paths
+    monkeypatch.setattr(paths, "RADAR_ICS_PATH", str(tmp_path / "radar.ics"))
+    monkeypatch.setattr(paths, "DOCS_DIR", str(tmp_path))
+    monkeypatch.setattr(radar, "rows", lambda *a, **k: [
+        {"company": "Meta", "status": "waiting", "rolling": False,
+         "expected": "2026-08-01", "precision": "month", "source": "known",
+         "note": "late Aug"},
+    ])
+    monkeypatch.setattr(
+        config, "load_config",
+        lambda: {**config.DEFAULTS, "regions": ["SEA"]},
+    )
+    assert publish.write_radar_ics({}, "Summer 2027") == 0
+    text = open(str(tmp_path / "radar.ics"), encoding="utf-8").read()
+    assert "BEGIN:VEVENT" not in text

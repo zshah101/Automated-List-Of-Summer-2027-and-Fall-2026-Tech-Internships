@@ -33,6 +33,10 @@ _COUNTRIES = {
     "US": "United States", "USA": "United States", "CA": "Canada",
     "GB": "United Kingdom", "IN": "India", "IL": "Israel",
     "AR": "Argentina", "CO": "Colombia", "ID": "Indonesia",
+    # Southeast Asia - the tracked region. An unmapped code degrades to
+    # "International (SG)", which the region filter cannot read.
+    "SG": "Singapore", "MY": "Malaysia", "TH": "Thailand",
+    "VN": "Vietnam", "PH": "Philippines",
 }
 
 

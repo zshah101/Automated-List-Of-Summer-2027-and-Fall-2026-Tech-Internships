@@ -32,6 +32,20 @@ TOP_COMPANIES = [
     "fivetran", "airbyte", "dbt labs", "weights & biases", "pinecone",
     "runway", "character.ai", "glean", "harvey", "grammarly", "canva", "miro",
     "loom", "coursera", "webflow", "checkr", "lattice", "gong", "zapier",
+    # Singapore / Southeast Asia. The cap decides which roles survive when a
+    # section overflows, so a purely US ranking would drop the regional names
+    # this list exists to surface.
+    "sea", "shopee", "sea labs", "garena", "grab", "gojek", "goto",
+    "bytedance", "tiktok", "lazada", "tokopedia", "traveloka", "agoda",
+    "booking.com", "carousell", "ninja van", "shopback", "razer",
+    "coda payments", "advance intelligence", "atome", "nium", "thunes",
+    "aspire", "endowus", "stashaway", "syfe", "xendit", "dana", "ovo",
+    "govtech", "gic", "temasek", "dbs", "ocbc", "uob", "sea group",
+    "standard chartered", "hsbc", "singtel", "starhub", "singapore airlines",
+    "a*star", "astar", "dso national laboratories", "dsta", "csit", "htx",
+    "imda", "sea ai lab", "hyperscal", "vflow", "sleek", "peak xv",
+    "squarepoint", "qube research", "jane street asia", "grasshopper",
+    "quantedge", "dymon asia", "trafigura", "vitol",
 ]
 
 _LEGAL_SUFFIXES = {

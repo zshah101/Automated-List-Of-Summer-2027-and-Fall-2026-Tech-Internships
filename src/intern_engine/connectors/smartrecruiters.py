@@ -29,6 +29,10 @@ _COUNTRY = {
     "in": "India", "de": "Germany", "ie": "Ireland", "au": "Australia",
     "il": "Israel", "ar": "Argentina", "co": "Colombia",
     "id": "Indonesia", "me": "Montenegro",
+    # Southeast Asia - the tracked region. Without these an SG posting comes
+    # back as "International (SG)", which the region filter cannot read.
+    "sg": "Singapore", "my": "Malaysia", "th": "Thailand",
+    "vn": "Vietnam", "ph": "Philippines",
 }
 
 _COUNTRY_ALIASES = {
