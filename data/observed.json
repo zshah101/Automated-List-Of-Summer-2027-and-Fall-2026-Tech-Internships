@@ -519,9 +519,10 @@
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
-      "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466"
+      "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
+      "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -1296,6 +1297,19 @@
     }
    }
   },
+  "hy vee": {
+   "name": "Hy-Vee",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153",
+      "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133"
+     ],
+     "count": 2
+    }
+   }
+  },
   "iat insurance group": {
    "name": "IAT Insurance Group",
    "cycles": {
@@ -1500,6 +1514,18 @@
       "workday:manulife:/job/Boston-Massachusetts/Summer-Intern-2027---Software-Engineering_JR26081680"
      ],
      "count": 2
+    }
+   }
+  },
+  "marvell": {
+   "name": "Marvell",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "workday:marvell:/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513"
+     ],
+     "count": 1
     }
    }
   },
@@ -2827,5 +2853,5 @@
    }
   }
  },
- "updated_at": "2026-09-04T19:49:19Z"
+ "updated_at": "2026-09-04T21:58:40Z"
 }

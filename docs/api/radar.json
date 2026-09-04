@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-04T19:49:19Z",
- "data_as_of": "2026-09-04T19:49:19Z",
- "rendered_at": "2026-09-04T19:49:19Z",
+ "generated_at": "2026-09-04T21:58:40Z",
+ "data_as_of": "2026-09-04T21:58:40Z",
+ "rendered_at": "2026-09-04T21:58:40Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2144,7 +2144,7 @@
    "expected": "2026-09-03",
    "days_until": -1,
    "status": "open",
-   "url": "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1",
+   "url": "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2278,6 +2278,44 @@
    "days_until": 0,
    "status": "open",
    "url": "https://apply.workable.com/enfos-inc/j/CA15908E0A/",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Hy-Vee",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Marvell",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5155,5 +5193,5 @@
    }
   }
  ],
- "count": 271
+ "count": 273
 }

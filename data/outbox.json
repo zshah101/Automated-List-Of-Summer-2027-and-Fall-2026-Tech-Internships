@@ -1,6 +1,20 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648",
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107",
+      "greenhouse:garnerhealth:6164698004",
+      "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153",
+      "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133",
+      "workday:marvell:/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513"
+    ],
+    "telegram": [
+      "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648",
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107",
+      "greenhouse:garnerhealth:6164698004",
+      "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153",
+      "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133",
+      "workday:marvell:/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513"
+    ]
   }
 }

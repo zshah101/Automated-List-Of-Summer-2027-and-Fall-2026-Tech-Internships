@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-04T19:49:19Z</updated>
+  <updated>2026-09-04T21:58:40Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648</id>
+    <title>CACI: Software Engineer Intern - Summer 2027 🇺🇸</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"/>
+    <updated>2026-09-04T21:58:39Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Ypsilanti, MI, US · Python, Java, C++, Rust, CUDA · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107</id>
+    <title>CNA Insurance: Technology Internship Program (Software Engineering) 🛂</title>
+    <link href="https://cna.wd1.myworkdayjobs.com/CNA_Careers/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107"/>
+    <updated>2026-09-04T21:58:39Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Chicago, IL, USA · $35k–$65k/yr · Java, SQL · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:garnerhealth:6164698004</id>
+    <title>Garner Health: Software Engineering Intern 🛂</title>
+    <link href="https://job-boards.greenhouse.io/garnerhealth/jobs/6164698004"/>
+    <updated>2026-09-04T21:58:39Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York City, New York · Python, TypeScript, JavaScript, React, Node.js · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153</id>
+    <title>Hy-Vee: Cyber Security Intern- Summer 2027</title>
+    <link href="https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153"/>
+    <updated>2026-09-04T21:58:39Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Corporate Office, Westown Pkwy., West Des Moines, IA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133</id>
+    <title>Hy-Vee: Digital Software Engineering Intern - Summer 2027</title>
+    <link href="https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133"/>
+    <updated>2026-09-04T21:58:39Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Corporate Office, Westown Pkwy., West Des Moines, IA · SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513</id>
+    <title>Marvell: Firmware Engineer Intern, MS - Summer 2027</title>
+    <link href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513"/>
+    <updated>2026-09-04T21:58:39Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Hardware · Santa Clara, CA · Python, Bash, Linux, Git</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1</id>
     <title>CIBC: 2027 Summer Intern - Software Engineering 🛂</title>
@@ -25,7 +73,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:idmeuniversityrecruiting:7980429003</id>
-    <title>ID.me: Summer Intern 2027 - Software Development Engineer</title>
+    <title>ID.me: Summer Intern 2027 - Software Development Engineer Intern</title>
     <link href="https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003"/>
     <updated>2026-09-04T17:22:30Z</updated>
     <category term="Summer 2027"/>
@@ -99,9 +147,9 @@
     <id>urn:intern-engine:workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553</id>
     <title>Direct Supply: AI Engineer Intern</title>
     <link href="https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553"/>
-    <updated>2026-09-04T17:22:30Z</updated>
+    <updated>2026-09-04T21:58:39Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · status: closed · H-1B track record: ~11 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1</id>
@@ -758,53 +806,5 @@
     <updated>2026-09-02T13:52:39Z</updated>
     <category term="Not stated"/>
     <summary>2 openings · Not stated · Data &amp; ML/AI · Westchester, IL · $20–$25/hr · SQL, PyTorch, TensorFlow, scikit-learn, AWS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:trwd:/job/Fort-Worth-TX/Summer-2027-Infrastructure-Engineering-Intern--T036-_JR100218</id>
-    <title>Tarrant Regional Water District: Summer 2027 Infrastructure Engineering Intern (T036)</title>
-    <link href="https://trwd.wd1.myworkdayjobs.com/TRWDCareers/job/Fort-Worth-TX/Summer-2027-Infrastructure-Engineering-Intern--T036-_JR100218"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Fort Worth, TX · $18.54–$27.82/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---AI-Automation--Hybrid--Onsite---Remote-_R282109</id>
-    <title>US Foods: Intern – AI Automation (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---AI-Automation--Hybrid--Onsite---Remote-_R282109"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Rosemont IL · LLMs · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Cybersecurity-Operations--Hybrid--Onsite---Remote-_R282117</id>
-    <title>US Foods: Intern – Cybersecurity Operations (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Cybersecurity-Operations--Hybrid--Onsite---Remote-_R282117"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Rosemont IL · Python, Bash, Linux · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Cybersecurity-Risk--Hybrid--Onsite---Remote-_R282118</id>
-    <title>US Foods: Intern – Cybersecurity Risk (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Cybersecurity-Risk--Hybrid--Onsite---Remote-_R282118"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Rosemont IL · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Data-Analyst--Hybrid--Onsite---Remote-_R282121</id>
-    <title>US Foods: Intern – Data Analyst (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Data-Analyst--Hybrid--Onsite---Remote-_R282121"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Rosemont IL · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Data-Engineer--Hybrid--Onsite---Remote-_R282116</id>
-    <title>US Foods: Intern – Data Engineer (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Data-Engineer--Hybrid--Onsite---Remote-_R282116"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Rosemont IL · Python, SQL, Pandas, LLMs, AWS · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
