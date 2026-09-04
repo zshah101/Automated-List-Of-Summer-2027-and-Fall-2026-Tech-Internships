@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
+      "workable:twgai:AC536E5EE2",
+      "workable:twgai:263B34D737",
+      "workable:twgai:772CD136FF"
+    ],
+    "telegram": [
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
+      "workable:twgai:AC536E5EE2",
+      "workable:twgai:263B34D737",
+      "workable:twgai:772CD136FF"
+    ]
   }
 }

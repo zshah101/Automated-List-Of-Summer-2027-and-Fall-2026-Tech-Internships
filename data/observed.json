@@ -2162,6 +2162,18 @@
     }
    }
   },
+  "skillz": {
+   "name": "skillz",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "greenhouse:skillzinc:8168006"
+     ],
+     "count": 1
+    }
+   }
+  },
   "skydio": {
    "name": "Skydio",
    "cycles": {
@@ -2251,9 +2263,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-28",
      "role_ids": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007361"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007361",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589"
      ],
-     "count": 1
+     "count": 2
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -2439,6 +2452,20 @@
       "workday:trumpf:/job/Farmington-CT/CNC-Programming-Intern_R00042595"
      ],
      "count": 1
+    }
+   }
+  },
+  "twg global": {
+   "name": "TWG Global",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workable:twgai:263B34D737",
+      "workable:twgai:772CD136FF",
+      "workable:twgai:AC536E5EE2"
+     ],
+     "count": 3
     }
    }
   },
@@ -2737,5 +2764,5 @@
    }
   }
  },
- "updated_at": "2026-09-04T09:19:31Z"
+ "updated_at": "2026-09-04T13:40:47Z"
 }

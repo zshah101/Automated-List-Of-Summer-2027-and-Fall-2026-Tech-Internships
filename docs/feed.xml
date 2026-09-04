@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-04T09:19:31Z</updated>
+  <updated>2026-09-04T13:40:47Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:skillzinc:8168006</id>
+    <title>skillz: Co-op, Software Engineer</title>
+    <link href="https://job-boards.greenhouse.io/skillzinc/jobs/8168006"/>
+    <updated>2026-09-04T13:40:47Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Las Vegas, Nevada, United States · $32/hr · Java, AWS, Git · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007589</id>
+    <title>Stantec: Digital Practice Co-op/Intern - Infrastructure (Spring/Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007589"/>
+    <updated>2026-09-04T13:40:47Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Washington, DC, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:twgai:AC536E5EE2</id>
+    <title>TWG Global: AI Data Science Intern (MAQR) - Summer 2027</title>
+    <link href="https://apply.workable.com/twgai/j/AC536E5EE2/"/>
+    <updated>2026-09-04T13:40:47Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Monica, California, United States · $50/hr · Python, PyTorch, TensorFlow, scikit-learn, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:twgai:263B34D737</id>
+    <title>TWG Global: AI Data Science Intern (SOLT) - Summer 2027</title>
+    <link href="https://apply.workable.com/twgai/j/263B34D737/"/>
+    <updated>2026-09-04T13:40:47Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Monica, California, United States · $50/hr · Python, PyTorch, scikit-learn, Pandas, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:twgai:772CD136FF</id>
+    <title>TWG Global: AI Engineering Intern - Summer 2027</title>
+    <link href="https://apply.workable.com/twgai/j/772CD136FF/"/>
+    <updated>2026-09-04T13:40:47Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Monica, California, United States · $50/hr · LLMs, Computer Vision</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10529525</id>
     <title>Amazon: Software Development Engineer Intern, ROBOTICS - 2027</title>
@@ -766,45 +806,5 @@
     <updated>2026-09-01T22:00:29Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Boston, MA · Python, Git · H-1B track record: ~52 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:draftkings:/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932</id>
-    <title>DraftKings: Software Engineer Intern-Referral (Summer 2027)</title>
-    <link href="https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932"/>
-    <updated>2026-09-01T22:00:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, MA · H-1B track record: ~52 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133</id>
-    <title>Genuine Parts Company: Cloud Developer Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133"/>
-    <updated>2026-09-01T22:00:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134</id>
-    <title>Genuine Parts Company: Cloud SRE Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134"/>
-    <updated>2026-09-01T22:00:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135</id>
-    <title>Genuine Parts Company: Customer Software Development Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135"/>
-    <updated>2026-09-01T22:00:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137</id>
-    <title>Genuine Parts Company: GRC/Cybersecurity Analyst Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137"/>
-    <updated>2026-09-01T22:00:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Birmingham, AL, USA · Linux · H-1B track record: ~63 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
