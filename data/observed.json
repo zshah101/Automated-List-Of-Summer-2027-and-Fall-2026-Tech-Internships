@@ -312,6 +312,18 @@
     }
    }
   },
+  "availity": {
+   "name": "Availity",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "workday:availity:/job/Remote---United-States/Data-Science-Intern_R0008483"
+     ],
+     "count": 1
+    }
+   }
+  },
   "awetomaton": {
    "name": "Awetomaton",
    "cycles": {
@@ -753,6 +765,19 @@
       "workday:draper:/job/Cambridge-MA/Electronics---Embedded-Systems-Intern--Summer-2027-_JR002735"
      ],
      "count": 1
+    }
+   }
+  },
+  "drivetime": {
+   "name": "DriveTime",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294"
+     ],
+     "count": 2
     }
    }
   },
@@ -2146,6 +2171,13 @@
       "ashby:skydio:7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915",
       "ashby:skydio:f6320e9b-4eed-408d-8d37-d509fb0406ee"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+     ],
+     "count": 1
     }
    }
   },
@@ -2704,5 +2736,5 @@
    }
   }
  },
- "updated_at": "2026-09-03T21:59:17Z"
+ "updated_at": "2026-09-04T00:18:32Z"
 }

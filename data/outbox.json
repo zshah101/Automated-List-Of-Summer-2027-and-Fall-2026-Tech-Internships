@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
+      "workday:availity:/job/Remote---United-States/Data-Science-Intern_R0008483",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300"
+    ],
+    "telegram": [
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
+      "workday:availity:/job/Remote---United-States/Data-Science-Intern_R0008483",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300"
+    ]
   }
 }
