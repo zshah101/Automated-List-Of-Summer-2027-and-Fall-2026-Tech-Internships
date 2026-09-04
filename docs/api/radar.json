@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-04T13:40:47Z",
- "data_as_of": "2026-09-04T13:40:47Z",
- "rendered_at": "2026-09-04T13:40:47Z",
+ "generated_at": "2026-09-04T17:22:30Z",
+ "data_as_of": "2026-09-04T17:22:30Z",
+ "rendered_at": "2026-09-04T17:22:30Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -234,25 +234,6 @@
    }
   },
   {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -58,
-   "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
    "company": "Akuna Capital",
    "last_cycle_posted": "",
    "posted_on": "2026-07-13",
@@ -322,25 +303,6 @@
    "status": "open",
    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
    "note": "quant cycle opens very early",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-15"
-   }
-  },
-  {
-   "company": "The Trade Desk",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-15",
-   "days_until": -51,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007",
-   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -1992,7 +1954,7 @@
    "expected": "2026-09-01",
    "days_until": -3,
    "status": "open",
-   "url": "https://apply.workable.com/twgai/j/AC536E5EE2/",
+   "url": "https://apply.workable.com/twgai/j/263B34D737/",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2134,6 +2096,25 @@
    }
   },
   {
+   "company": "ID.me",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-03",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-03"
+   }
+  },
+  {
    "company": "Momentive",
    "last_cycle_posted": "",
    "posted_on": "2026-09-03",
@@ -2264,6 +2245,63 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-03"
+   }
+  },
+  {
+   "company": "ENFOS",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://apply.workable.com/enfos-inc/j/CA15908E0A/",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Scale AI",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
+   "note": "posts roles year-round",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Schonfeld",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171696",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
    }
   },
   {
@@ -4718,22 +4756,41 @@
    }
   },
   {
-   "company": "Scale AI",
+   "company": "Northrop Grumman",
    "last_cycle_posted": "",
-   "posted_on": "",
+   "posted_on": "2026-07-08",
    "precision": "day",
-   "rolling": true,
-   "confidence": "rolling",
-   "source": "known",
-   "expected": "",
-   "days_until": null,
-   "status": "waiting",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -58,
+   "status": "dropped",
    "url": "",
-   "note": "posts roles year-round",
+   "note": "fall opening, many roles need clearance",
    "provenance": {
-    "type": "verified-window",
-    "url": "scale.com/careers",
-    "verified_at": "2026-07-21"
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
+   "company": "The Trade Desk",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-15",
+   "days_until": -51,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-15"
    }
   },
   {
@@ -5079,5 +5136,5 @@
    }
   }
  ],
- "count": 267
+ "count": 270
 }

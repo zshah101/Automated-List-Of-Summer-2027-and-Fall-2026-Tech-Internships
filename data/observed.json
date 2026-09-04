@@ -833,6 +833,18 @@
     }
    }
   },
+  "enfos": {
+   "name": "ENFOS",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "workable:enfos-inc:CA15908E0A"
+     ],
+     "count": 1
+    }
+   }
+  },
   "equifax": {
    "name": "Equifax",
    "cycles": {
@@ -1279,6 +1291,18 @@
      "first_posted": "2026-09-01",
      "role_ids": [
       "workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "id me": {
+   "name": "ID.me",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "greenhouse:idmeuniversityrecruiting:7980429003"
      ],
      "count": 1
     }
@@ -2108,6 +2132,32 @@
     }
    }
   },
+  "scale ai": {
+   "name": "Scale AI",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "greenhouse:scaleai:4730845005"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "schonfeld": {
+   "name": "Schonfeld",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "greenhouse:schonfeld:8171692",
+      "greenhouse:schonfeld:8171696",
+      "greenhouse:schonfeld:8180089"
+     ],
+     "count": 3
+    }
+   }
+  },
   "sentara health": {
    "name": "Sentara Health",
    "cycles": {
@@ -2764,5 +2814,5 @@
    }
   }
  },
- "updated_at": "2026-09-04T13:40:47Z"
+ "updated_at": "2026-09-04T17:22:30Z"
 }
