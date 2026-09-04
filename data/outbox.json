@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1",
-      "workday:ingredion:/job/Westchester-IL/AI---Data-Scientist-Intern_Req-40220",
-      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1"
-    ],
-    "telegram": [
-      "workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1",
-      "workday:ingredion:/job/Westchester-IL/AI---Data-Scientist-Intern_Req-40220",
-      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
