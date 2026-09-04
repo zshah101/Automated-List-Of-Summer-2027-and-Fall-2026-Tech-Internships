@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-04T04:41:06Z",
- "data_as_of": "2026-09-04T04:41:06Z",
- "rendered_at": "2026-09-04T04:41:06Z",
+ "generated_at": "2026-09-04T09:19:31Z",
+ "data_as_of": "2026-09-04T09:19:31Z",
+ "rendered_at": "2026-09-04T09:19:31Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 548,
+ "count": 546,
  "jobs": [
   {
    "id": "amazon:amazon:10529525",
@@ -61,35 +61,6 @@
    "h1b_approvals": 26,
    "program": "Internship",
    "remote": false
-  },
-  {
-   "id": "workday:availity:/job/Remote---United-States/Data-Science-Intern_R0008483",
-   "company": "Availity",
-   "title": "Data Science Intern",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Remote - United States",
-   "url": "https://availity.wd1.myworkdayjobs.com/availity_careers_us/job/Remote---United-States/Data-Science-Intern_R0008483",
-   "posted_at": "2026-09-03T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-04T00:18:32Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "scikit-learn",
-    "Pandas",
-    "LLMs",
-    "AWS",
-    "Databricks"
-   ],
-   "source": "workday",
-   "h1b_approvals": 2,
-   "program": "Internship",
-   "remote": true
   },
   {
    "id": "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300",
@@ -11655,30 +11626,6 @@
    "skills": [],
    "source": "workday",
    "h1b_approvals": 28,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:draper:/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
-   "company": "Draper",
-   "title": "Embedded Quality & Fielded Systems Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Cambridge, MA",
-   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
-   "posted_at": "2026-08-05T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-05T21:52:50Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "C#"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
