@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 547 open roles (400 listed below) · 246 new this week
+### 548 open roles (401 listed below) · 235 new this week
 
-4,414 employers tracked · data as of Sep 04, 2026 at 00:18 UTC
+4,414 employers tracked · data as of Sep 04, 2026 at 04:41 UTC
 
-_361 have a cycle the employer stated · 186 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_362 have a cycle the employer stated · 186 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -85,13 +85,14 @@ If it helps you, a star means a lot and tells me to keep going.
 
 ---
 
-## Summer 2027  (213 employer-stated)
+## Summer 2027  (214 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Skydio ✓ | Autonomy Engineer Intern - Computer Vision/Deep Learning Summer 2027 🆕 | Data & ML/AI | San Mateo, California, United States | Computer Vision, Python, C++, PyTorch | Sep 03, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9) |
-| DriveTime | Software Engineering Intern (Summer 2027) 🆕 | Software | 1720 W Rio Salado Pkwy Tempe, AZ 85281 | Python, Java, C#, TypeScript | Sep 03, 2026 | [Apply](https://drivetime.wd1.myworkdayjobs.com/drivetime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294) |
+| Amazon ✓ | Software Development Engineer Intern, ROBOTICS - 2027 🆕 | Hardware | North Reading, Massachusetts, USA | Python, Java, C++, C# | Sep 04, 2026 | [Apply](https://www.amazon.jobs/en/jobs/10529525/software-development-engineer-intern-robotics-2027) |
+| Skydio ✓ | Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027 🆕 | Data & ML/AI | San Mateo, California, United States | Computer Vision, Python, C++, PyTorch | Sep 03, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9) |
 | DriveTime | Database Engineering Intern (Summer 2027) 🆕 | Software | 1720 W Rio Salado Pkwy Tempe, AZ 85281 | Python, SQL, Azure, Snowflake | Sep 03, 2026 | [Apply](https://drivetime.wd1.myworkdayjobs.com/drivetime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300) |
+| DriveTime | Software Engineering Intern (Summer 2027) 🆕 | Software | 1720 W Rio Salado Pkwy Tempe, AZ 85281 | Python, Java, C#, TypeScript | Sep 03, 2026 | [Apply](https://drivetime.wd1.myworkdayjobs.com/drivetime/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294) |
 | The Exploration Company | Summer 2027 Internship (Software) 🇺🇸 🆕 | Software | California | No skills listed | Sep 03, 2026 | [Apply](https://jobs.ashbyhq.com/the-exploration-company/86270058-8eec-4692-b49d-97ce59fd54ac) |
 | Waymo ✓ | 2027 Summer Intern, MS, Software Engineering, Behavior Test 🆕 | Software | San Francisco, California, USA | Python, SQL | Sep 03, 2026 | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8174504) |
 | Hermeus | GNC & Flight Software Intern - Spring/Summer 2027 🇺🇸 🆕 | Software | Atlanta, GA | Python, C++, TypeScript, JavaScript | Sep 03, 2026 | [Apply](https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7) |
@@ -126,7 +127,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | FOTH | Civil Engineering Intern-Waterfront Infrastructure (Summer 2027) 🆕 | Software | Green Bay, Wisconsin | No skills listed | Sep 01, 2026 | [Apply](https://jobs.lever.co/foth/95f75d08-ec27-48ff-8c60-dcf2d5720885) |
 | IAT Insurance Group | Cyber Security Internship 🛂 🆕 | Security | Raleigh NC | No skills listed | Sep 01, 2026 | [Apply](https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Raleigh-NC/Cyber-Security-Internship_JR100410) |
 | Tarrant Regional Water District | Summer 2027 Infrastructure Engineering Intern (T036) 🆕 | Software | Fort Worth, TX | No skills listed | Sep 01, 2026 | [Apply](https://trwd.wd1.myworkdayjobs.com/TRWDCareers/job/Fort-Worth-TX/Summer-2027-Infrastructure-Engineering-Intern--T036-_JR100218) |
-| Stryker ✓ | Summer 2027 Internship - Statistical Programming - California 🆕 | Software | Irvine, California | No skills listed | Sep 01, 2026 | [Apply](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769) |
+| Stryker ✓ | Summer 2027 Internship - Statistical Programming - California | Software | Irvine, California | No skills listed | Sep 01, 2026 | [Apply](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769) |
 | Hermeus | Software Engineering Intern (HIL) - Spring/Summer 2027 🇺🇸 | Software | Atlanta, GA | Python, C++, MATLAB | Sep 01, 2026 | [Apply](https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b) |
 | DraftKings ✓ | Data Science Intern-Referral (Summer 2027) | Data & ML/AI | Boston, MA | Python, Git | Sep 01, 2026 | [Apply](https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/Boston-MA/Data-Science-Intern-Referral--Summer-2027-_JR14960) |
 | DraftKings ✓ | Software Engineer Intern-Referral (Summer 2027) | Software | Boston, MA | No skills listed | Sep 01, 2026 | [Apply](https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932) |
@@ -372,8 +373,8 @@ These postings never name a cycle — not in the title, not in the posting text 
 | US Foods ✓ 🆁 | Intern – Cybersecurity Operations (Hybrid: Onsite & Remote) 🛂 🆕 | Security | Rosemont IL | Python, Bash, Linux | Sep 01, 2026 | [Apply](https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Cybersecurity-Operations--Hybrid--Onsite---Remote-_R282117) |
 | US Foods ✓ 🆁 | Intern – Cybersecurity Risk (Hybrid: Onsite & Remote) 🛂 🆕 | Security | Rosemont IL | No skills listed | Sep 01, 2026 | [Apply](https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Cybersecurity-Risk--Hybrid--Onsite---Remote-_R282118) |
 | Altera Corporation | Graduate Intern - Engineering Infrastructure 🆕 | Software | San Jose, California, United States | Python, Bash, AWS, Terraform | Sep 01, 2026 | [Apply](https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066) |
-| Rockwell Automation ✓ | Intern, Content IDE Software Development (LCS) 🛂 🆕 | Software | Mayfield Heights, Ohio, United States | Git | Sep 01, 2026 | [Apply](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2) |
-| Rockwell Automation ✓ | Intern, Cyber Professional Services (LCS) 🛂 🆕 | Security | Mayfield Heights, Ohio, United States | No skills listed | Sep 01, 2026 | [Apply](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2) |
+| Rockwell Automation ✓ | Intern, Content IDE Software Development (LCS) 🛂 | Software | Mayfield Heights, Ohio, United States | Git | Sep 01, 2026 | [Apply](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2) |
+| Rockwell Automation ✓ | Intern, Cyber Professional Services (LCS) 🛂 | Security | Mayfield Heights, Ohio, United States | No skills listed | Sep 01, 2026 | [Apply](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2) |
 | Valon | Software Engineer Intern | Software | New York | Python, React, GCP, Kubernetes | Sep 01, 2026 | [Apply](https://jobs.ashbyhq.com/valon/b5a62c0c-823c-42dd-8cb5-e4b1455bcc64) |
 | Eulerity | Backend Developer Intern | Software | New York, New York | Java, LLMs, Git | Sep 01, 2026 | [Apply](https://job-boards.greenhouse.io/eulerity/jobs/4709040006) |
 | CWAN | Quant Developer Intern _(4 openings)_ | Quant | Office - New York | Java | Sep 01, 2026 | [Apply](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Quant-Developer-Intern_R12182) [#2](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Quant-Developer-Intern_R12183) [#3](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Quant-Developer-Intern_R12184) [#4](https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Quant-Developer-Intern_R12185) |
@@ -588,7 +589,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,291 of 4,661 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 1023.7s · 571 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,284 of 4,661 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 91% of the full registry) · completed in 1042.6s · 559 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
