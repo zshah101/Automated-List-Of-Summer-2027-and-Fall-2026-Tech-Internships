@@ -608,6 +608,18 @@
     }
    }
   },
+  "cibc": {
+   "name": "CIBC",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "cigna group": {
    "name": "Cigna Group",
    "cycles": {
@@ -2075,9 +2087,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-03",
      "role_ids": [
+      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1",
       "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2814,5 +2827,5 @@
    }
   }
  },
- "updated_at": "2026-09-04T17:22:30Z"
+ "updated_at": "2026-09-04T19:49:19Z"
 }

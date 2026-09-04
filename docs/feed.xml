@@ -5,39 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-04T17:22:30Z</updated>
+  <updated>2026-09-04T19:49:19Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workable:enfos-inc:CA15908E0A</id>
-    <title>ENFOS: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://apply.workable.com/enfos-inc/j/CA15908E0A/"/>
-    <updated>2026-09-04T17:22:30Z</updated>
+    <id>urn:intern-engine:workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1</id>
+    <title>CIBC: 2027 Summer Intern - Software Engineering 🛂</title>
+    <link href="https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"/>
+    <updated>2026-09-04T19:49:19Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Durham, North Carolina, United States; Chicago, Illinois, United States · Python, Java, TypeScript, JavaScript, SQL</summary>
+    <summary>Summer 2027 · Software · Chicago, IL · $36–$40/hr · Python, SQL · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978</id>
-    <title>Nokia: AI-Agent Development Co-op</title>
-    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978"/>
-    <updated>2026-09-04T17:22:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25017705</id>
-    <title>Texas Instruments: Systems Engineering Intern - Machine Learning Expert</title>
-    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017705"/>
-    <updated>2026-09-04T17:22:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Dallas, TX, United States · Python, C++, PyTorch, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553</id>
-    <title>Direct Supply: AI Engineer Intern</title>
-    <link href="https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553"/>
-    <updated>2026-09-04T17:22:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1</id>
+    <title>Saab: Software Engineering Co-Op (Spring - Summer 2027) 🇺🇸</title>
+    <link href="https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1"/>
+    <updated>2026-09-04T19:49:19Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · East Syracuse, NY (Collamer) · $20.27–$22.3/hr · Java, JavaScript, SQL, HTML/CSS, Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:idmeuniversityrecruiting:7980429003</id>
@@ -48,36 +32,12 @@
     <summary>Summer 2027 · Software · Mountain View, CA · Python, Java, JavaScript, Ruby, LLMs</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1</id>
-    <title>Johnson Controls: Software/Controls Engineering Grad Intern</title>
-    <link href="https://jci.wd5.myworkdayjobs.com/JCI/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1"/>
-    <updated>2026-09-04T17:22:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Salem-Virginia-United States of America · C++ · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Loram1:3743990015082845</id>
-    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Loram1/3743990015082845"/>
-    <updated>2026-09-04T17:22:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:scaleai:4730845005</id>
     <title>Scale AI: Software Engineering Intern (Summer 2027)</title>
     <link href="https://job-boards.greenhouse.io/scaleai/jobs/4730845005"/>
     <updated>2026-09-04T17:22:30Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Francisco, CA · Python, TypeScript, LLMs, React, MongoDB · H-1B track record: ~26 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:schonfeld:8171696</id>
-    <title>Schonfeld: 2027 Cybersecurity Operations Intern</title>
-    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8171696"/>
-    <updated>2026-09-04T17:22:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · New York, New York, United States</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:schonfeld:8171692</id>
@@ -88,12 +48,68 @@
     <summary>Summer 2027 · Data &amp; ML/AI · New York, New York, United States · Python, SQL, Docker, Kafka, Airflow</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:greenhouse:schonfeld:8171696</id>
+    <title>Schonfeld: 2027 Cybersecurity Operations Intern</title>
+    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8171696"/>
+    <updated>2026-09-04T17:22:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · New York, New York, United States</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:greenhouse:schonfeld:8180089</id>
     <title>Schonfeld: 2027 Software Engineering Intern</title>
     <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8180089"/>
     <updated>2026-09-04T17:22:30Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York, New York, United States · Python, Java, C++, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25017705</id>
+    <title>Texas Instruments: Systems Engineering Intern - Machine Learning Expert</title>
+    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017705"/>
+    <updated>2026-09-04T17:22:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Dallas, TX, United States · Python, C++, PyTorch, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978</id>
+    <title>Nokia: AI-Agent Development Co-op</title>
+    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978"/>
+    <updated>2026-09-04T17:22:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Loram1:3743990015082845</id>
+    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Loram1/3743990015082845"/>
+    <updated>2026-09-04T17:22:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:enfos-inc:CA15908E0A</id>
+    <title>ENFOS: Software Engineer Intern (Summer 2027)</title>
+    <link href="https://apply.workable.com/enfos-inc/j/CA15908E0A/"/>
+    <updated>2026-09-04T17:22:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Durham, North Carolina, United States; Chicago, Illinois, United States · Python, Java, TypeScript, JavaScript, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553</id>
+    <title>Direct Supply: AI Engineer Intern</title>
+    <link href="https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553"/>
+    <updated>2026-09-04T17:22:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1</id>
+    <title>Johnson Controls: Software/Controls Engineering Grad Intern</title>
+    <link href="https://jci.wd5.myworkdayjobs.com/JCI/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1"/>
+    <updated>2026-09-04T17:22:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Salem-Virginia-United States of America · C++ · H-1B track record: ~104 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:stryker:/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734</id>
@@ -741,7 +757,7 @@
     <link href="https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Westchester-IL/AI---Data-Scientist-Intern_Req-40007-1"/>
     <updated>2026-09-02T13:52:39Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Westchester, IL · $20–$25/hr · SQL, PyTorch, TensorFlow, scikit-learn, AWS</summary>
+    <summary>2 openings · Not stated · Data &amp; ML/AI · Westchester, IL · $20–$25/hr · SQL, PyTorch, TensorFlow, scikit-learn, AWS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:trwd:/job/Fort-Worth-TX/Summer-2027-Infrastructure-Engineering-Intern--T036-_JR100218</id>
@@ -790,21 +806,5 @@
     <updated>2026-09-02T13:52:39Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Rosemont IL · Python, SQL, Pandas, LLMs, AWS · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Software-Engineer--Digital-Commerce--Hybrid--Onsite---Remote-_R282111</id>
-    <title>US Foods: Intern – Software Engineer, Digital Commerce (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Software-Engineer--Digital-Commerce--Hybrid--Onsite---Remote-_R282111"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Rosemont IL · Java, JavaScript, Angular, HTML/CSS, AWS · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Software-Engineer--Legacy-Systems--Hybrid--Onsite---Remote-_R282106</id>
-    <title>US Foods: Intern – Software Engineer, Legacy Systems (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Software-Engineer--Legacy-Systems--Hybrid--Onsite---Remote-_R282106"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Rosemont IL · SQL · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

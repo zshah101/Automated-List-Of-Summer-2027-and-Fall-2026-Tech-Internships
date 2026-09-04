@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-04T17:22:30Z",
- "data_as_of": "2026-09-04T17:22:30Z",
- "rendered_at": "2026-09-04T17:22:30Z",
+ "generated_at": "2026-09-04T19:49:19Z",
+ "data_as_of": "2026-09-04T19:49:19Z",
+ "rendered_at": "2026-09-04T19:49:19Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2248,6 +2248,25 @@
    }
   },
   {
+   "company": "CIBC",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
    "company": "ENFOS",
    "last_cycle_posted": "",
    "posted_on": "2026-09-04",
@@ -2296,7 +2315,7 @@
    "expected": "2026-09-04",
    "days_until": 0,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171696",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5136,5 +5155,5 @@
    }
   }
  ],
- "count": 270
+ "count": 271
 }
