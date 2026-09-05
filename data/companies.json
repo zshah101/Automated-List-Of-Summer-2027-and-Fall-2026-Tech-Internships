@@ -771,6 +771,11 @@
     "site": "aig"
   },
   {
+    "name": "AiPrise",
+    "slug": "aiprise",
+    "ats": "ashby"
+  },
+  {
     "name": "Air Liquide",
     "slug": "airliquidehr",
     "ats": "workday",
@@ -3056,6 +3061,13 @@
     "ats": "workday",
     "wd": "wd108",
     "site": "Careers"
+  },
+  {
+    "name": "Baptist Health",
+    "slug": "bhs",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "careers"
   },
   {
     "name": "Barclays",
@@ -6720,6 +6732,11 @@
     "site": "Careers"
   },
   {
+    "name": "Credence",
+    "slug": "credence",
+    "ats": "workable"
+  },
+  {
     "name": "Credit Acceptance Careers",
     "slug": "creditacceptance",
     "ats": "workday",
@@ -7623,6 +7640,13 @@
     "ats": "workday",
     "wd": "wd501",
     "site": "direct-supply-careers"
+  },
+  {
+    "name": "DIRECTV",
+    "slug": "directv",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "careers"
   },
   {
     "name": "Discord",
@@ -9392,6 +9416,11 @@
     "name": "Field AI",
     "slug": "field-ai",
     "ats": "lever"
+  },
+  {
+    "name": "FieldPulse",
+    "slug": "fieldpulse",
+    "ats": "rippling"
   },
   {
     "name": "Fife Council",
@@ -15881,6 +15910,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Metaview",
+    "slug": "metaview",
+    "ats": "ashby"
+  },
+  {
     "name": "Metergy Solutions",
     "slug": "metergysolutions",
     "ats": "lever"
@@ -16795,6 +16829,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Navion Senior Solutions",
+    "slug": "navionsl",
+    "ats": "workable"
+  },
+  {
     "name": "NAXO",
     "slug": "naxo",
     "ats": "rippling"
@@ -17593,6 +17632,11 @@
     "name": "Obsidian Security",
     "slug": "obsidiansecurity",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Obvio",
+    "slug": "obvio",
+    "ats": "ashby"
   },
   {
     "name": "Obvious",
@@ -19209,6 +19253,11 @@
     "name": "PopStroke Holdings LLC",
     "slug": "popstroke-job-board-1924",
     "ats": "rippling"
+  },
+  {
+    "name": "PortmanDentex",
+    "slug": "PortmanDentex",
+    "ats": "smartrecruiters"
   },
   {
     "name": "Poshmark",
@@ -22050,6 +22099,13 @@
     "site": "SimmonsCareers"
   },
   {
+    "name": "Simon Property Group",
+    "slug": "simon",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "Simon"
+  },
+  {
     "name": "Simons Foundation",
     "slug": "simonsfoundation",
     "ats": "workday",
@@ -24581,6 +24637,13 @@
     "name": "TopDog Law",
     "slug": "topdoglaw",
     "ats": "rippling"
+  },
+  {
+    "name": "Topgolf International",
+    "slug": "topgolf",
+    "ats": "workday",
+    "wd": "wd501",
+    "site": "TopgolfCareers"
   },
   {
     "name": "Topsort",
@@ -27156,6 +27219,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Xodus Group",
+    "slug": "xodus-group",
+    "ats": "workable"
+  },
+  {
     "name": "Xometry",
     "slug": "xometry",
     "ats": "greenhouse"
@@ -27413,6 +27481,13 @@
     "name": "Zoro",
     "slug": "Zoro",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "ZRS Management",
+    "slug": "zrsmanagement",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "zrs_careers"
   },
   {
     "name": "Zscaler",
