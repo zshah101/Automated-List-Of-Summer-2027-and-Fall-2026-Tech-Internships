@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-05T12:18:58Z</updated>
+  <updated>2026-09-05T15:25:23Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:simon:/job/Indianapolis-IN/Intern---Data-Engineering--Data-Analytics--Information-Sciences--Computer-Science-Majors-_R13976</id>
+    <title>Simon Property Group: Intern - Data Engineering (Data Analytics, Information Sciences, Computer Science Majors)</title>
+    <link href="https://simon.wd1.myworkdayjobs.com/Simon/job/Indianapolis-IN/Intern---Data-Engineering--Data-Analytics--Information-Sciences--Computer-Science-Majors-_R13976"/>
+    <updated>2026-09-05T15:25:23Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Indianapolis, IN · Python, SQL, Snowflake, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:simon:/job/Indianapolis-IN/Intern---Front-End-Developer--Computer-Science--Web-Development--or-Information-Sciences-Majors-_R13975</id>
+    <title>Simon Property Group: Intern - Front End Developer (Computer Science, Web Development, or Information Sciences Majors)</title>
+    <link href="https://simon.wd1.myworkdayjobs.com/Simon/job/Indianapolis-IN/Intern---Front-End-Developer--Computer-Science--Web-Development--or-Information-Sciences-Majors-_R13975"/>
+    <updated>2026-09-05T15:25:23Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Indianapolis, IN · JavaScript, HTML/CSS, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:simon:/job/Indianapolis-IN/Intern---Project-Delivery--Information-Services---Computer-Science-Majors-_R13947</id>
+    <title>Simon Property Group: Intern - Project Delivery (Information Services / Computer Science Majors)</title>
+    <link href="https://simon.wd1.myworkdayjobs.com/Simon/job/Indianapolis-IN/Intern---Project-Delivery--Information-Services---Computer-Science-Majors-_R13947"/>
+    <updated>2026-09-05T15:25:23Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Indianapolis, IN</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--AI-Engineering-_R-8126</id>
     <title>CNA Insurance: Technology Internship Program (AI Engineering) 🛂</title>
@@ -782,29 +806,5 @@
     <updated>2026-09-02T13:52:39Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Reston, Virginia · $21–$30/hr · React, Java, TypeScript, JavaScript, SQL · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:devtechnology:8726259002</id>
-    <title>Dev Technology Group: Microsoft Power Platform &amp; AI Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/devtechnology/jobs/8726259002"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Reston, Virginia · $21–$30/hr · Python, Java, C#, JavaScript, LLMs · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:devtechnology:8728292002</id>
-    <title>Dev Technology Group: AI/Agentic Solution Engineer Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/devtechnology/jobs/8728292002"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Reston, Virginia · $21–$30/hr · Python, Rust, TypeScript, JavaScript, React · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417</id>
-    <title>Auto-Owners Insurance: Business Intelligence Developer Internship - Summer 2027</title>
-    <link href="https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417"/>
-    <updated>2026-09-02T13:52:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Lansing, MI · Python, SQL, Tableau</summary>
   </entry>
 </feed>
