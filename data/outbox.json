@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Cybersecurity-_R-8130-1",
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--AI-Strategy-_R-8127-1",
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--AI-Engineering-_R-8126"
+    ],
+    "telegram": [
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Cybersecurity-_R-8130-1",
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--AI-Strategy-_R-8127-1",
+      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--AI-Engineering-_R-8126"
+    ]
   }
 }
