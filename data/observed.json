@@ -437,6 +437,19 @@
     }
    }
   },
+  "bedrock robotics": {
+   "name": "Bedrock Robotics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
+      "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1"
+     ],
+     "count": 2
+    }
+   }
+  },
   "belvedere trading": {
    "name": "Belvedere Trading",
    "cycles": {
@@ -1018,6 +1031,18 @@
      "role_ids": [
       "ashby:ellipsislabs:02136b22-35b1-4b3d-8bef-567c3380a849"
      ]
+    }
+   }
+  },
+  "emerson electric": {
+   "name": "Emerson Electric",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010738"
+     ],
+     "count": 1
     }
    }
   },
@@ -2591,6 +2616,18 @@
     }
    }
   },
+  "securian financial group": {
+   "name": "Securian Financial Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:hq:/job/Saint-Paul-MN-Campus/Data-Science-and-Advanced-Analytics-Internship---Summer-2027_R-010894"
+     ],
+     "count": 1
+    }
+   }
+  },
   "sentara health": {
    "name": "Sentara Health",
    "cycles": {
@@ -3368,5 +3405,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T21:05:49Z"
+ "updated_at": "2026-09-10T23:24:27Z"
 }

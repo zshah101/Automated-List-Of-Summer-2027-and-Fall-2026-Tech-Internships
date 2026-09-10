@@ -5,15 +5,47 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-10T21:05:49Z</updated>
+  <updated>2026-09-10T23:24:27Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:fa-errt-saasfaprod1.fa.ocs.oraclecloud.com:5393</id>
-    <title>SCOR: Data Science Intern</title>
-    <link href="https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5393"/>
+    <id>urn:intern-engine:ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8</id>
+    <title>Bedrock Robotics: Internship 2027 Onboard Infrastructure Engineer, ML Inference</title>
+    <link href="https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8"/>
+    <updated>2026-09-10T23:24:27Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · C++, Rust, PyTorch, LLMs, CUDA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1</id>
+    <title>Bedrock Robotics: Internship 2027 Behavior Machine Learning Engineer, World Models</title>
+    <link href="https://jobs.ashbyhq.com/bedrock-robotics/c51d682e-58ee-44de-886f-4cfacb56d2e1"/>
+    <updated>2026-09-10T23:24:27Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · Python, PyTorch</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26010738</id>
+    <title>Emerson Electric: Software Engineering Co-op (Jun-Dec 2027)</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010738"/>
+    <updated>2026-09-10T23:24:27Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Eden Prairie, MN, United States · C#</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hq:/job/Saint-Paul-MN-Campus/Data-Science-and-Advanced-Analytics-Internship---Summer-2027_R-010894</id>
+    <title>Securian Financial Group: Data Science and Advanced Analytics Internship - Summer 2027</title>
+    <link href="https://hq.wd12.myworkdayjobs.com/Securian_External/job/Saint-Paul-MN-Campus/Data-Science-and-Advanced-Analytics-Internship---Summer-2027_R-010894"/>
+    <updated>2026-09-10T23:24:27Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Saint Paul, MN Campus · Python, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:rfsmart:5407206008</id>
+    <title>RF-SMART: Product Engineering Software Developer Internship - Spring &amp; Summer 2027 🛂</title>
+    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5407206008"/>
     <updated>2026-09-10T21:05:49Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Charlotte, North Carolina, United States · Python, Git</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Jacksonville, Florida, United States · $25/hr · C#, TypeScript · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:testnisc:8191898</id>
@@ -32,12 +64,12 @@
     <summary>Summer 2027 · Security · Mandan, ND · Linux</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:rfsmart:5407206008</id>
-    <title>RF-SMART: Product Engineering Software Developer Internship - Spring &amp; Summer 2027 🛂</title>
-    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5407206008"/>
+    <id>urn:intern-engine:oracle:fa-errt-saasfaprod1.fa.ocs.oraclecloud.com:5393</id>
+    <title>SCOR: Data Science Intern</title>
+    <link href="https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5393"/>
     <updated>2026-09-10T21:05:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Jacksonville, Florida, United States · $25/hr · C#, TypeScript · sponsorship: no-sponsorship</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Charlotte, North Carolina, United States · Python, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-08T17:46:04Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York · $50 per hour · Java, C++, Git, PostgreSQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:talos-trading:91fd5274-3b6b-43cf-b366-9f6dc2ae5977</id>
-    <title>Talos: Software Engineer Intern, Dealer</title>
-    <link href="https://jobs.ashbyhq.com/talos-trading/91fd5274-3b6b-43cf-b366-9f6dc2ae5977"/>
-    <updated>2026-09-08T17:46:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York · $50 per hour · Java, C++, Git, PostgreSQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:datadog:8052118</id>
-    <title>Datadog: Software Engineering Intern (Summer)</title>
-    <link href="https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118"/>
-    <updated>2026-09-08T17:46:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, Massachusetts, USA; New York, New York, USA · Kubernetes · H-1B track record: ~62 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:fspco-op012325:8783960002</id>
-    <title>Flagship Pioneering: Pioneering Intelligence: Data Science Co-Op (Embedded Science Team)</title>
-    <link href="https://job-boards.greenhouse.io/fspco-op012325/jobs/8783960002"/>
-    <updated>2026-09-08T17:46:04Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Cambridge, MA USA · $25–$35/hr · Python, PyTorch, AWS, GCP, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:syskahennessy:8177938</id>
-    <title>Syska Hennessy Group: Software Developer (Innovation) Summer Intern</title>
-    <link href="https://job-boards.greenhouse.io/syskahennessy/jobs/8177938"/>
-    <updated>2026-09-08T17:46:04Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, NY · Python, Java, JavaScript, Swift, Kotlin</summary>
   </entry>
 </feed>
