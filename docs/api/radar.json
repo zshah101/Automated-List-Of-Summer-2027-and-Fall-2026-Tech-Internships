@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T18:07:47Z",
- "data_as_of": "2026-09-10T18:07:47Z",
- "rendered_at": "2026-09-10T18:07:47Z",
+ "generated_at": "2026-09-10T21:05:49Z",
+ "data_as_of": "2026-09-10T21:05:49Z",
+ "rendered_at": "2026-09-10T21:05:50Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1412,25 +1412,6 @@
    }
   },
   {
-   "company": "AnaVation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-27",
-   "days_until": -14,
-   "status": "open",
-   "url": "https://jobs.lever.co/anavationllc/a5c70b6a-2d16-4774-9043-677456614b1b",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-27"
-   }
-  },
-  {
    "company": "Booz Allen",
    "last_cycle_posted": "",
    "posted_on": "2026-08-27",
@@ -2647,25 +2628,6 @@
    }
   },
   {
-   "company": "Merck",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -2,
-   "status": "open",
-   "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "RF-SMART",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2989,6 +2951,25 @@
    }
   },
   {
+   "company": "National Information Solutions Cooperative (NISC)",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/testnisc/jobs/8191898",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "Nelnet",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -3000,6 +2981,44 @@
    "days_until": 0,
    "status": "open",
    "url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
+   "company": "Target",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082",
+   "note": "opens late summer",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
+   "company": "The Toro Company",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3782,25 +3801,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "careers.snowflake.com",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Target",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-08-01",
-   "days_until": -40,
-   "status": "waiting",
-   "url": "",
-   "note": "opens late summer",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://corporate.target.com/careers",
     "verified_at": "2026-07-21"
    }
   },
@@ -5705,6 +5705,25 @@
    }
   },
   {
+   "company": "AnaVation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-27",
+   "days_until": -14,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-27"
+   }
+  },
+  {
    "company": "Bosch",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
@@ -5817,7 +5836,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-08"
    }
+  },
+  {
+   "company": "Merck",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -2,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
   }
  ],
- "count": 306
+ "count": 308
 }
