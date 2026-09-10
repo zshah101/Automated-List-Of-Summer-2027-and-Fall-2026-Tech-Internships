@@ -96,6 +96,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "42dot",
+    "slug": "42dot",
+    "ats": "ashby"
+  },
+  {
     "name": "4DS Corp",
     "slug": "4DSCorp",
     "ats": "smartrecruiters"
@@ -1496,6 +1501,11 @@
   {
     "name": "Amp Robotics",
     "slug": "ampsortation",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Amperesand",
+    "slug": "amperesand",
     "ats": "greenhouse"
   },
   {
@@ -3104,6 +3114,11 @@
     "site": "Staff"
   },
   {
+    "name": "Barnes & Thornburg",
+    "slug": "barnes",
+    "ats": "ashby"
+  },
+  {
     "name": "Barr",
     "slug": "barr",
     "ats": "workday",
@@ -3316,6 +3331,11 @@
     "name": "Bertelsmann",
     "slug": "Bertelsmann-Jobs",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Bertram Capital Management",
+    "slug": "bertramcapitalmanagement",
+    "ats": "greenhouse"
   },
   {
     "name": "Best Buy",
@@ -5437,6 +5457,11 @@
     "site": "cignacareers"
   },
   {
+    "name": "CIM Group",
+    "slug": "cimgroup",
+    "ats": "lever"
+  },
+  {
     "name": "Cincinnati Children’s Hospital and Medical Center",
     "slug": "cincinnatichildrens",
     "ats": "workday",
@@ -6112,6 +6137,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "Careers"
+  },
+  {
+    "name": "Collier Aerospace",
+    "slug": "collieraerospace",
+    "ats": "rippling"
   },
   {
     "name": "Colliers",
@@ -11164,6 +11194,18 @@
     "ats": "ashby"
   },
   {
+    "name": "GreatAmerica Financial Services",
+    "slug": "greatamerica",
+    "ats": "workday",
+    "wd": "wd12",
+    "site": "greatamericacareers"
+  },
+  {
+    "name": "Greenboard",
+    "slug": "greenboard",
+    "ats": "ashby"
+  },
+  {
     "name": "Greene Tweed",
     "slug": "gtweed",
     "ats": "workday",
@@ -11920,6 +11962,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "HMH",
+    "slug": "hmhw",
+    "ats": "workday",
+    "wd": "wd12",
+    "site": "hmh_careers"
+  },
+  {
     "name": "HMT",
     "slug": "hmt-tank",
     "ats": "breezy"
@@ -12563,6 +12612,11 @@
   {
     "name": "Immiland Canada",
     "slug": "immiland-canada-inc",
+    "ats": "lever"
+  },
+  {
+    "name": "Immuta",
+    "slug": "immuta",
     "ats": "lever"
   },
   {
@@ -13280,6 +13334,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "FriendsFamilyCareers"
+  },
+  {
+    "name": "J.M. Smucker",
+    "slug": "smucker",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "US_External_Careers"
   },
   {
     "name": "J.S. Held",
@@ -16527,6 +16588,11 @@
     "site": "meg"
   },
   {
+    "name": "Monzo",
+    "slug": "monzo",
+    "ats": "greenhouse"
+  },
+  {
     "name": "moo",
     "slug": "moo",
     "ats": "lever"
@@ -18139,6 +18205,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "OpenWorks Engineering",
+    "slug": "openworks-engineering",
+    "ats": "workable"
+  },
+  {
     "name": "OpenX",
     "slug": "openx",
     "ats": "lever"
@@ -18448,6 +18519,11 @@
     "name": "PA Consulting",
     "slug": "PAConsulting",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Pacific Fusion",
+    "slug": "pacificfusion",
+    "ats": "greenhouse"
   },
   {
     "name": "Pacific Life",
@@ -19065,6 +19141,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "External"
+  },
+  {
+    "name": "Pilot Company",
+    "slug": "PilotCompany",
+    "ats": "smartrecruiters"
   },
   {
     "name": "Pima County",
@@ -21869,6 +21950,11 @@
     "site": "SentryCareers"
   },
   {
+    "name": "Sequence Holdings",
+    "slug": "seqholdings",
+    "ats": "ashby"
+  },
+  {
     "name": "Sereact",
     "slug": "sereact",
     "ats": "ashby"
@@ -22402,6 +22488,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Smartflower Solar Llc",
+    "slug": "smartflower-solar-llc",
+    "ats": "workable"
+  },
+  {
     "name": "Smartly.io",
     "slug": "smartlyio",
     "ats": "greenhouse"
@@ -22780,6 +22871,11 @@
     "name": "Sparksoft",
     "slug": "sparksoftcorporation",
     "ats": "greenhouse"
+  },
+  {
+    "name": "SpawGlass",
+    "slug": "spawglass",
+    "ats": "lever"
   },
   {
     "name": "Specter",
@@ -23455,6 +23551,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "swbccareers"
+  },
+  {
+    "name": "Swbc",
+    "slug": "swbc",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "swivel"
   },
   {
     "name": "Sweatpals",
@@ -26372,6 +26475,11 @@
     "site": "Careers"
   },
   {
+    "name": "Vitana Pediatric & Orthodontic Partners",
+    "slug": "vitana-pediatric",
+    "ats": "lever"
+  },
+  {
     "name": "VITAS Healthcare",
     "slug": "ejrz.fa.us2.oraclecloud.com",
     "ats": "oracle",
@@ -27204,6 +27312,11 @@
   {
     "name": "WorldQuant",
     "slug": "worldquant",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "WorldStrides",
+    "slug": "world4822stri986des",
     "ats": "greenhouse"
   },
   {
