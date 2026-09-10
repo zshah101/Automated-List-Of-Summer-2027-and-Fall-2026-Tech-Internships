@@ -1,24 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-errt-saasfaprod1.fa.ocs.oraclecloud.com:5393",
-      "workday:magna:/job/Southfield-Michigan-US/Intern---Engineering-Software_R00260232",
-      "greenhouse:testnisc:8191898",
-      "greenhouse:testnisc:8191987",
-      "greenhouse:rfsmart:5407206008",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
-      "workday:target:/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082",
-      "workday:ttc:/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183"
-    ],
-    "telegram": [
-      "oracle:fa-errt-saasfaprod1.fa.ocs.oraclecloud.com:5393",
-      "workday:magna:/job/Southfield-Michigan-US/Intern---Engineering-Software_R00260232",
-      "greenhouse:testnisc:8191898",
-      "greenhouse:testnisc:8191987",
-      "greenhouse:rfsmart:5407206008",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
-      "workday:target:/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082",
-      "workday:ttc:/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
