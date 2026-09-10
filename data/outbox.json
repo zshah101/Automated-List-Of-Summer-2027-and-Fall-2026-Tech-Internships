@@ -1,32 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:ameriprise:/job/Minneapolis-Minnesota/Data-Analytics---AI-Intern---RiverSource_R26_3595",
-      "oracle:eevd.fa.us6.oraclecloud.com:2027455",
-      "oracle:edbz.fa.us2.oraclecloud.com:25017625",
-      "workday:brevanhoward:/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Trading-Technology-Software-Engineer--New-York_JR101597",
-      "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
-      "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
-      "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
-      "greenhouse:hudl:8114314",
-      "workday:labcorp:/job/Baltimore-MD/Intern---Data-Science---Oncology_2630590",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineer-Co-Op---Onsite_01871478",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Co-Op--Software-Engineer--Onsite_01871298",
-      "greenhouse:schonfeld:8171699"
-    ],
-    "telegram": [
-      "workday:ameriprise:/job/Minneapolis-Minnesota/Data-Analytics---AI-Intern---RiverSource_R26_3595",
-      "oracle:eevd.fa.us6.oraclecloud.com:2027455",
-      "oracle:edbz.fa.us2.oraclecloud.com:25017625",
-      "workday:brevanhoward:/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Trading-Technology-Software-Engineer--New-York_JR101597",
-      "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
-      "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
-      "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
-      "greenhouse:hudl:8114314",
-      "workday:labcorp:/job/Baltimore-MD/Intern---Data-Science---Oncology_2630590",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineer-Co-Op---Onsite_01871478",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Co-Op--Software-Engineer--Onsite_01871298",
-      "greenhouse:schonfeld:8171699"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
