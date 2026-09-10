@@ -1,34 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:cimgroup:06e2dc38-9e3c-4f08-996a-b3df6711ab0b",
-      "rippling:collieraerospace:b666dbfe-34e5-422f-8879-4d53c0ae1f51",
-      "rippling:collieraerospace:4981b0ba-5b6f-4ebe-95c0-9d1cda036b77",
-      "lever:immuta:b9b21075-74a4-4b64-8f1b-f0be1fb0b24d",
-      "lever:immuta:3c4cb235-6138-4a50-add2-666a5216427e",
-      "ashby:seqholdings:9dc9a7f3-198a-43c0-be75-a3aba228bf2c",
-      "greenhouse:amperesand:4381214009",
-      "workday:greatamerica:/job/Cedar-Rapids-IA/Software-Engineer-Intern_JR1221",
-      "workday:hmhw:/job/Houston-TX/Software-Engineering-Intern_JR102384",
-      "workday:nelnet:/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098",
-      "greenhouse:pacificfusion:4398373009",
-      "greenhouse:perpay:4076988007",
-      "smartrecruiters:PilotCompany:744000148577368"
-    ],
-    "telegram": [
-      "lever:cimgroup:06e2dc38-9e3c-4f08-996a-b3df6711ab0b",
-      "rippling:collieraerospace:b666dbfe-34e5-422f-8879-4d53c0ae1f51",
-      "rippling:collieraerospace:4981b0ba-5b6f-4ebe-95c0-9d1cda036b77",
-      "lever:immuta:b9b21075-74a4-4b64-8f1b-f0be1fb0b24d",
-      "lever:immuta:3c4cb235-6138-4a50-add2-666a5216427e",
-      "ashby:seqholdings:9dc9a7f3-198a-43c0-be75-a3aba228bf2c",
-      "greenhouse:amperesand:4381214009",
-      "workday:greatamerica:/job/Cedar-Rapids-IA/Software-Engineer-Intern_JR1221",
-      "workday:hmhw:/job/Houston-TX/Software-Engineering-Intern_JR102384",
-      "workday:nelnet:/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098",
-      "greenhouse:pacificfusion:4398373009",
-      "greenhouse:perpay:4076988007",
-      "smartrecruiters:PilotCompany:744000148577368"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
