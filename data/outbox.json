@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
-      "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1",
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010738",
-      "workday:hq:/job/Saint-Paul-MN-Campus/Data-Science-and-Advanced-Analytics-Internship---Summer-2027_R-010894"
-    ],
-    "telegram": [
-      "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
-      "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1",
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010738",
-      "workday:hq:/job/Saint-Paul-MN-Campus/Data-Science-and-Advanced-Analytics-Internship---Summer-2027_R-010894"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
