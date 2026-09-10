@@ -215,6 +215,18 @@
     }
    }
   },
+  "ameriprise financial": {
+   "name": "Ameriprise Financial",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:ameriprise:/job/Minneapolis-Minnesota/Data-Analytics---AI-Intern---RiverSource_R26_3595"
+     ],
+     "count": 1
+    }
+   }
+  },
   "anavation": {
    "name": "AnaVation",
    "cycles": {
@@ -528,6 +540,18 @@
     }
    }
   },
+  "brevan howard": {
+   "name": "Brevan Howard",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:brevanhoward:/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Trading-Technology-Software-Engineer--New-York_JR101597"
+     ],
+     "count": 1
+    }
+   }
+  },
   "brunswick": {
    "name": "Brunswick",
    "cycles": {
@@ -582,12 +606,15 @@
      "role_ids": [
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
+      "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
+      "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
+      "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 6
+     "count": 9
     }
    }
   },
@@ -1446,6 +1473,18 @@
     }
    }
   },
+  "hudl": {
+   "name": "Hudl",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "greenhouse:hudl:8114314"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hudson river trading": {
    "name": "Hudson River Trading",
    "cycles": {
@@ -1642,6 +1681,18 @@
      "first_posted": "2026-08-17",
      "role_ids": [
       "workday:keybank:/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "labcorp": {
+   "name": "LabCorp",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:labcorp:/job/Baltimore-MD/Intern---Data-Science---Oncology_2630590"
      ],
      "count": 1
     }
@@ -2518,9 +2569,10 @@
      "role_ids": [
       "greenhouse:schonfeld:8171692",
       "greenhouse:schonfeld:8171696",
+      "greenhouse:schonfeld:8171699",
       "greenhouse:schonfeld:8180089"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -3277,5 +3329,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T14:40:54Z"
+ "updated_at": "2026-09-10T18:07:47Z"
 }
