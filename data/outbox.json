@@ -1,6 +1,44 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
+      "greenhouse:businessolverinvitationonly:8189738",
+      "workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
+      "workday:corteva:/job/Indianapolis-Indiana-United-States/Data-Science-Summer-Intern_248208W",
+      "workday:corteva:/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W",
+      "workday:emcins:/job/Iowa/Intern--Data-Science_R6524",
+      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
+      "greenhouse:lyft:8802198002",
+      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265",
+      "greenhouse:perpay:4076978007"
+    ],
+    "telegram": [
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
+      "greenhouse:businessolverinvitationonly:8189738",
+      "workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
+      "workday:corteva:/job/Indianapolis-Indiana-United-States/Data-Science-Summer-Intern_248208W",
+      "workday:corteva:/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W",
+      "workday:emcins:/job/Iowa/Intern--Data-Science_R6524",
+      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
+      "greenhouse:lyft:8802198002",
+      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265",
+      "greenhouse:perpay:4076978007"
+    ]
   }
 }

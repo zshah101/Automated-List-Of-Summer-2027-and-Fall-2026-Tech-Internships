@@ -227,6 +227,26 @@
     }
    }
   },
+  "amgen": {
+   "name": "Amgen",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719"
+     ],
+     "count": 9
+    }
+   }
+  },
   "anavation": {
    "name": "AnaVation",
    "cycles": {
@@ -847,6 +867,18 @@
     }
    }
   },
+  "corteva": {
+   "name": "Corteva",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "workday:corteva:/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W"
+     ],
+     "count": 1
+    }
+   }
+  },
   "cox": {
    "name": "Cox",
    "cycles": {
@@ -1067,6 +1099,18 @@
      "role_ids": [
       "ashby:ellipsislabs:02136b22-35b1-4b3d-8bef-567c3380a849"
      ]
+    }
+   }
+  },
+  "emc insurance": {
+   "name": "EMC Insurance",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "workday:emcins:/job/Iowa/Intern--Data-Science_R6524"
+     ],
+     "count": 1
     }
    }
   },
@@ -1597,6 +1641,18 @@
     }
    }
   },
+  "ibotta": {
+   "name": "ibotta",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "ashby:ibotta:3130669e-16aa-4f63-834d-b83571c8d269"
+     ],
+     "count": 1
+    }
+   }
+  },
   "icf": {
    "name": "ICF",
    "cycles": {
@@ -1807,13 +1863,14 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
+      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
       "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00190663",
       "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00190665",
       "workday:leidos:/job/Shiloh-IL/Cybersecurity-Analyst-Intern_R-00190667",
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 10
+     "count": 11
     }
    }
   },
@@ -1849,9 +1906,10 @@
      "role_ids": [
       "greenhouse:lyft:8767726002",
       "greenhouse:lyft:8796124002",
-      "greenhouse:lyft:8797837002"
+      "greenhouse:lyft:8797837002",
+      "greenhouse:lyft:8802198002"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -2293,9 +2351,10 @@
      "first_posted": "2026-08-31",
      "role_ids": [
       "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786",
+      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265",
       "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -2341,9 +2400,10 @@
     "Summer 2027": {
      "first_posted": "2023-09-12",
      "role_ids": [
+      "greenhouse:perpay:4076978007",
       "greenhouse:perpay:4076988007"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3498,5 +3558,5 @@
    }
   }
  },
- "updated_at": "2026-09-11T19:03:11Z"
+ "updated_at": "2026-09-11T22:00:22Z"
 }
