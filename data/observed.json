@@ -809,6 +809,18 @@
     }
    }
   },
+  "commure": {
+   "name": "Commure",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "ashby:commure:62841aa1-3ee5-4547-8380-637b737b2cb3"
+     ],
+     "count": 1
+    }
+   }
+  },
   "conagra brands": {
    "name": "Conagra Brands",
    "cycles": {
@@ -1829,6 +1841,20 @@
     }
    }
   },
+  "lyft": {
+   "name": "Lyft",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "greenhouse:lyft:8767726002",
+      "greenhouse:lyft:8796124002",
+      "greenhouse:lyft:8797837002"
+     ],
+     "count": 3
+    }
+   }
+  },
   "manulife financial": {
    "name": "Manulife Financial",
    "cycles": {
@@ -1978,8 +2004,9 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-16",
-     "count": 2,
+     "count": 3,
      "role_ids": [
+      "workday:moog:/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053",
       "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
       "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science_R-26-19378"
      ]
@@ -2023,9 +2050,11 @@
       "workday:motorolasolutions:/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
+      "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734",
+      "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
      ],
-     "count": 5
+     "count": 7
     }
    }
   },
@@ -3469,5 +3498,5 @@
    }
   }
  },
- "updated_at": "2026-09-11T15:30:24Z"
+ "updated_at": "2026-09-11T19:03:11Z"
 }

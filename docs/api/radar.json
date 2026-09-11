@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-11T15:30:24Z",
- "data_as_of": "2026-09-11T15:30:24Z",
- "rendered_at": "2026-09-11T15:30:25Z",
+ "generated_at": "2026-09-11T19:03:11Z",
+ "data_as_of": "2026-09-11T19:03:11Z",
+ "rendered_at": "2026-09-11T19:03:12Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -624,7 +624,7 @@
    "expected": "2026-08-10",
    "days_until": -32,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4702083005",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2543,7 +2543,7 @@
    "expected": "2026-09-08",
    "days_until": -3,
    "status": "open",
-   "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Data-Scientist-Intern---Summer-2027--Atlanta--GA-_R202682164",
+   "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3113,7 +3113,7 @@
    "expected": "2026-09-10",
    "days_until": -1,
    "status": "open",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183",
+   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3132,7 +3132,45 @@
    "expected": "2026-09-11",
    "days_until": 0,
    "status": "open",
-   "url": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49284",
+   "url": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49276",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "Commure",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/commure/62841aa1-3ee5-4547-8380-637b737b2cb3",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "Lyft",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5990,5 +6028,5 @@
    }
   }
  ],
- "count": 315
+ "count": 317
 }

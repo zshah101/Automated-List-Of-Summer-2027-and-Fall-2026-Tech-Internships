@@ -1,6 +1,30 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:commure:62841aa1-3ee5-4547-8380-637b737b2cb3",
+      "workday:crowe:/job/Chicago-IL-USA/D365-ERP-Technical-Intern_R-71039",
+      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
+      "workday:directsupply:/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559",
+      "workday:fmr:/job/Boston-MA/Co-op--Software-Engineer_2135200",
+      "greenhouse:lyft:8796124002",
+      "greenhouse:lyft:8767726002",
+      "greenhouse:lyft:8797837002",
+      "workday:moog:/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053",
+      "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
+      "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734"
+    ],
+    "telegram": [
+      "ashby:commure:62841aa1-3ee5-4547-8380-637b737b2cb3",
+      "workday:crowe:/job/Chicago-IL-USA/D365-ERP-Technical-Intern_R-71039",
+      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
+      "workday:directsupply:/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559",
+      "workday:fmr:/job/Boston-MA/Co-op--Software-Engineer_2135200",
+      "greenhouse:lyft:8796124002",
+      "greenhouse:lyft:8767726002",
+      "greenhouse:lyft:8797837002",
+      "workday:moog:/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053",
+      "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
+      "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734"
+    ]
   }
 }
