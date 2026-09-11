@@ -1,6 +1,50 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:hcgn.fa.us2.oraclecloud.com:49284",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49286",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49285",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49276",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49280",
+      "workday:abglobal:/job/Nashville-Tennessee/Software-Development-Summer-Intern_R0019771",
+      "workday:abglobal:/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
+      "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "greenhouse:dvtrading:4733133005",
+      "greenhouse:dvtrading:4702083005",
+      "greenhouse:dvtrading:4733138005",
+      "greenhouse:hudl:8155102",
+      "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005",
+      "workday:albemarle:/job/Houston-Texas-United-States-of-America/Ketjen-Summer-2027-Data-Science-Internship_REQ-31411",
+      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267",
+      "greenhouse:tanium:8181017",
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114"
+    ],
+    "telegram": [
+      "oracle:hcgn.fa.us2.oraclecloud.com:49284",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49286",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49285",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49276",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49280",
+      "workday:abglobal:/job/Nashville-Tennessee/Software-Development-Summer-Intern_R0019771",
+      "workday:abglobal:/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
+      "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "greenhouse:dvtrading:4733133005",
+      "greenhouse:dvtrading:4702083005",
+      "greenhouse:dvtrading:4733138005",
+      "greenhouse:hudl:8155102",
+      "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005",
+      "workday:albemarle:/job/Houston-Texas-United-States-of-America/Ketjen-Summer-2027-Data-Science-Internship_REQ-31411",
+      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267",
+      "greenhouse:tanium:8181017",
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114"
+    ]
   }
 }

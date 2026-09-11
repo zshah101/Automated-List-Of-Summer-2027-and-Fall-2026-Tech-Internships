@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-11T06:15:33Z",
- "data_as_of": "2026-09-11T06:15:33Z",
- "rendered_at": "2026-09-11T06:15:34Z",
+ "generated_at": "2026-09-11T15:30:24Z",
+ "data_as_of": "2026-09-11T15:30:24Z",
+ "rendered_at": "2026-09-11T15:30:25Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2723,6 +2723,25 @@
    }
   },
   {
+   "company": "Hypertherm",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-09",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-09",
+   "days_until": -2,
+   "status": "open",
+   "url": "https://hypertherm.wd503.myworkdayjobs.com/hypertherm-careers/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-09"
+   }
+  },
+  {
    "company": "Immuta",
    "last_cycle_posted": "",
    "posted_on": "2026-09-09",
@@ -2951,6 +2970,25 @@
    }
   },
   {
+   "company": "Ketjen",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://albemarle.wd5.myworkdayjobs.com/ketjenexternal/job/Houston-Texas-United-States-of-America/Ketjen-Summer-2027-Data-Science-Internship_REQ-31411",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "LabCorp",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -3027,6 +3065,25 @@
    }
   },
   {
+   "company": "Tanium",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/tanium/jobs/8181017",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "Target",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -3062,6 +3119,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-10"
+   }
+  },
+  {
+   "company": "Citizens Financial Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49284",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
    }
   },
   {
@@ -5914,5 +5990,5 @@
    }
   }
  ],
- "count": 311
+ "count": 315
 }

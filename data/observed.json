@@ -753,6 +753,21 @@
     }
    }
   },
+  "citizens financial group": {
+   "name": "Citizens Financial Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "oracle:hcgn.fa.us2.oraclecloud.com:49276",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49284",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49285",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49286"
+     ],
+     "count": 4
+    }
+   }
+  },
   "clarios": {
    "name": "Clarios",
    "cycles": {
@@ -826,7 +841,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-08",
      "role_ids": [
+      "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
       "workday:cox:/job/Atlanta-GA/Data-Scientist-Intern---Summer-2027--Atlanta--GA-_R202682164",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
       "workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
       "workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168",
       "workday:cox:/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1",
@@ -834,7 +853,7 @@
       "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
       "workday:cox:/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1"
      ],
-     "count": 7
+     "count": 11
     }
    }
   },
@@ -1018,9 +1037,12 @@
     "Summer 2027": {
      "first_posted": "2026-08-10",
      "role_ids": [
-      "greenhouse:dvtrading:4719119005"
+      "greenhouse:dvtrading:4702083005",
+      "greenhouse:dvtrading:4719119005",
+      "greenhouse:dvtrading:4733133005",
+      "greenhouse:dvtrading:4733138005"
      ],
-     "count": 1
+     "count": 4
     }
    }
   },
@@ -1506,9 +1528,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-10",
      "role_ids": [
-      "greenhouse:hudl:8114314"
+      "greenhouse:hudl:8114314",
+      "greenhouse:hudl:8155102"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1535,6 +1558,18 @@
       "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133"
      ],
      "count": 2
+    }
+   }
+  },
+  "hypertherm": {
+   "name": "Hypertherm",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-09",
+     "role_ids": [
+      "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005"
+     ],
+     "count": 1
     }
    }
   },
@@ -1698,6 +1733,18 @@
      "role_ids": [
       "ashby:junior:23ee686b-d305-4ac9-860d-16c99ddb4891"
      ]
+    }
+   }
+  },
+  "ketjen": {
+   "name": "Ketjen",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:albemarle:/job/Houston-Texas-United-States-of-America/Ketjen-Summer-2027-Data-Science-Internship_REQ-31411"
+     ],
+     "count": 1
     }
    }
   },
@@ -2216,9 +2263,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-31",
      "role_ids": [
-      "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786"
+      "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786",
+      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2878,6 +2926,18 @@
     }
    }
   },
+  "tanium": {
+   "name": "Tanium",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "greenhouse:tanium:8181017"
+     ],
+     "count": 1
+    }
+   }
+  },
   "target": {
    "name": "Target",
    "cycles": {
@@ -2995,9 +3055,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-10",
      "role_ids": [
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114",
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
       "workday:ttc:/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -3407,5 +3469,5 @@
    }
   }
  },
- "updated_at": "2026-09-11T06:15:33Z"
+ "updated_at": "2026-09-11T15:30:24Z"
 }
