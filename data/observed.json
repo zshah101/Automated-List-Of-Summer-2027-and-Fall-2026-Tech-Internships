@@ -283,9 +283,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-04",
      "role_ids": [
-      "workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551"
+      "workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551",
+      "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -744,10 +745,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-03",
      "role_ids": [
+      "workday:cigna:/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program-----Infrastructure---Cloud-Engineering-Track_26009529",
       "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
       "workday:cigna:/job/TX-Austin-11501-Alterra-Pkwy-STE-500/The-Cigna-Group-s-Technology-Development-Program---AI-Engineering-Track-Summer-Internship_26009535"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3405,5 +3407,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T23:24:27Z"
+ "updated_at": "2026-09-11T01:21:10Z"
 }

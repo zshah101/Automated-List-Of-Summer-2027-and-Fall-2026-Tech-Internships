@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-10T23:24:27Z</updated>
+  <updated>2026-09-11T01:21:10Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:entegris:/job/Decatur-TX/AI-Continuous-Improvement-Co-Op_REQ-14509</id>
+    <title>Entegris: AI Continuous Improvement Co-Op</title>
+    <link href="https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Decatur-TX/AI-Continuous-Improvement-Co-Op_REQ-14509"/>
+    <updated>2026-09-11T01:21:10Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Data &amp; ML/AI · Decatur, TX · $20–$30/hr · Python, SQL · status: closed · H-1B track record: ~60 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:entegris:/job/Chaska-MN/Cybersecurity-Engineer-Co-Op_REQ-14472-1</id>
+    <title>Entegris: Cybersecurity Engineer Co-Op</title>
+    <link href="https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Chaska-MN/Cybersecurity-Engineer-Co-Op_REQ-14472-1"/>
+    <updated>2026-09-11T01:21:10Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Security · Chaska, MN · $20–$30/hr · Python, GCP, Azure, Terraform, Git · status: closed · H-1B track record: ~60 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:entegris:/job/Chaska-MN/Cyber-Threat-Analyst-Co-Op_REQ-14505</id>
+    <title>Entegris: Cyber Threat Analyst Co-Op</title>
+    <link href="https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Chaska-MN/Cyber-Threat-Analyst-Co-Op_REQ-14505"/>
+    <updated>2026-09-11T01:21:10Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Security · Chaska, MN · $20–$30/hr · status: closed · H-1B track record: ~60 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:entegris:/job/Billerica-MA/Lab-Automation---AI-Engineering-Co-Op_REQ-14498-1</id>
+    <title>Entegris: Lab Automation &amp; AI Engineering Co-Op</title>
+    <link href="https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Billerica-MA/Lab-Automation---AI-Engineering-Co-Op_REQ-14498-1"/>
+    <updated>2026-09-11T01:21:10Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Data &amp; ML/AI · Billerica, MA · $20–$30/hr · Python, LLMs · status: closed · H-1B track record: ~60 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265</id>
+    <title>Applied Materials: 2027 Software Engineering Intern (Masters - Santa Clara, CA)</title>
+    <link href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265"/>
+    <updated>2026-09-11T01:21:10Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Santa Clara,CA · C++ · H-1B track record: ~650 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cigna:/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program-----Infrastructure---Cloud-Engineering-Track_26009529</id>
+    <title>Cigna Group: The Cigna Group's Technology Development Program  -  Infrastructure &amp; Cloud Engineering Track Summer Internship</title>
+    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program-----Infrastructure---Cloud-Engineering-Track_26009529"/>
+    <updated>2026-09-11T01:21:10Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · CT, Bloomfield, 900 Cottage Grove Rd Wilde Bldg · $25–$33/hr · Python, Java, JavaScript, Bash, AWS</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8</id>
     <title>Bedrock Robotics: Internship 2027 Onboard Infrastructure Engineer, ML Inference</title>
@@ -758,53 +806,5 @@
     <updated>2026-09-08T20:30:48Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Palo Alto, CA · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:rfsmart:5409034008</id>
-    <title>RF-SMART: Software Support Engineer Internship (NetSuite) - Summer 2027 🛂</title>
-    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5409034008"/>
-    <updated>2026-09-08T20:30:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Highlands Ranch, Colorado, United States · $25/hr · JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:allegion:/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Firmware-Engineer--Advanced-Development----Indianapolis--IN_JR37458-1</id>
-    <title>Allegion: Summer Intern – Firmware Engineer (Advanced Development) – Indianapolis, IN</title>
-    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Firmware-Engineer--Advanced-Development----Indianapolis--IN_JR37458-1"/>
-    <updated>2026-09-08T20:30:48Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Hardware · Indianapolis, IN - Hague Rd · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613</id>
-    <title>RTX: Software Engineer Intern ( Summer 2027) 🇺🇸</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613"/>
-    <updated>2026-09-08T20:30:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130 · Python, Java, C++, Rust, React · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:meijer:/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302</id>
-    <title>Meijer: Information Security Intern- Summer 2027</title>
-    <link href="https://meijer.wd5.myworkdayjobs.com/Meijer/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302"/>
-    <updated>2026-09-08T20:30:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Grand Rapids, MI</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842</id>
-    <title>Northrop Grumman: 2027 Software Engineering Intern - Roy UT 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"/>
-    <updated>2026-09-08T20:30:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:talos-trading:2c833180-484f-4657-80e3-f822cf1a0285</id>
-    <title>Talos: Software Engineer Intern, RFQ</title>
-    <link href="https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285"/>
-    <updated>2026-09-08T17:46:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York · $50 per hour · Java, C++, Git, PostgreSQL</summary>
   </entry>
 </feed>
