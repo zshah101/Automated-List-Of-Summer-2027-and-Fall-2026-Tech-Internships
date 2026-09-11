@@ -1048,6 +1048,13 @@
     "site": "alliancebernsteincareers"
   },
   {
+    "name": "AllianceBernstein",
+    "slug": "abglobal",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "abcampuscareers"
+  },
+  {
     "name": "Alliant Energy",
     "slug": "alliantenergy",
     "ats": "workday",
@@ -3210,6 +3217,13 @@
     "ats": "workable"
   },
   {
+    "name": "BDC Venture Capital",
+    "slug": "bdc",
+    "ats": "workday",
+    "wd": "wd10",
+    "site": "BDC_Careers"
+  },
+  {
     "name": "BDO Canada",
     "slug": "bdo",
     "ats": "workday",
@@ -4593,6 +4607,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "External"
+  },
+  {
+    "name": "Callan",
+    "slug": "callan",
+    "ats": "lever"
   },
   {
     "name": "Callaway Golf",
@@ -7486,6 +7505,13 @@
     "site": "delta_dental_of_michigan"
   },
   {
+    "name": "Delta Faucet",
+    "slug": "masco",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "deltafaucet"
+  },
+  {
     "name": "Deluxe",
     "slug": "deluxe",
     "ats": "workday",
@@ -9134,6 +9160,11 @@
     "site": "Exclusive-Networks-Career"
   },
   {
+    "name": "Exegy",
+    "slug": "exegy",
+    "ats": "ashby"
+  },
+  {
     "name": "Exelixis",
     "slug": "exelixis",
     "ats": "workday",
@@ -10345,6 +10376,13 @@
     "name": "G2",
     "slug": "g2",
     "ats": "ashby"
+  },
+  {
+    "name": "Gables Residential",
+    "slug": "gables",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "Gables_Careers"
   },
   {
     "name": "GAF",
@@ -11844,6 +11882,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Hightouch",
+    "slug": "hightouch",
+    "ats": "ashby"
+  },
+  {
     "name": "Hiive",
     "slug": "hiive",
     "ats": "ashby"
@@ -12340,6 +12383,13 @@
     "ats": "workable"
   },
   {
+    "name": "Hypertherm",
+    "slug": "hypertherm",
+    "ats": "workday",
+    "wd": "wd503",
+    "site": "hypertherm-careers"
+  },
+  {
     "name": "Hyster-Yale Materials Handling",
     "slug": "hysteryale",
     "ats": "workday",
@@ -12706,6 +12756,11 @@
   {
     "name": "Inductive Automation",
     "slug": "inductive-automation-llc",
+    "ats": "ashby"
+  },
+  {
+    "name": "Inferact",
+    "slug": "inferact",
     "ats": "ashby"
   },
   {
@@ -13489,6 +13544,13 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "John Gore Organization",
+    "slug": "johngore",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "Careers"
+  },
+  {
     "name": "John Lewis Partnership",
     "slug": "jlp",
     "ats": "workday",
@@ -13812,6 +13874,13 @@
     "ats": "workable"
   },
   {
+    "name": "Ketjen",
+    "slug": "albemarle",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "ketjenexternal"
+  },
+  {
     "name": "KeyBank",
     "slug": "keybank",
     "ats": "workday",
@@ -13970,6 +14039,11 @@
     "name": "Klue",
     "slug": "klue",
     "ats": "ashby"
+  },
+  {
+    "name": "Knobelsdorff Enterprises",
+    "slug": "KnobelsdorffEnterprises",
+    "ats": "smartrecruiters"
   },
   {
     "name": "Knock",
@@ -14382,6 +14456,13 @@
     "ats": "workday",
     "wd": "wd103",
     "site": "lego_executive"
+  },
+  {
+    "name": "LEGO",
+    "slug": "lego",
+    "ats": "workday",
+    "wd": "wd103",
+    "site": "LEGO_External"
   },
   {
     "name": "Legrand",
@@ -20092,6 +20173,11 @@
     "ats": "lever"
   },
   {
+    "name": "Quick Release",
+    "slug": "quick-release",
+    "ats": "greenhouse"
+  },
+  {
     "name": "QuidelOrtho",
     "slug": "orthoclinical",
     "ats": "workday",
@@ -20805,6 +20891,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "richemont"
+  },
+  {
+    "name": "Ridgeline",
+    "slug": "ridgeline",
+    "ats": "greenhouse"
   },
   {
     "name": "Rigetti",
@@ -23546,6 +23637,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Swarm Aero",
+    "slug": "swarmaero",
+    "ats": "ashby"
+  },
+  {
     "name": "SWBC",
     "slug": "swbc",
     "ats": "workday",
@@ -23831,6 +23927,11 @@
     "name": "Tangram Interiors",
     "slug": "tangraminteriors",
     "ats": "lever"
+  },
+  {
+    "name": "Tanium",
+    "slug": "tanium",
+    "ats": "greenhouse"
   },
   {
     "name": "Tapcart",
@@ -24444,6 +24545,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "EXTERNAL_TKG"
+  },
+  {
+    "name": "The MJ Companies",
+    "slug": "themjcos",
+    "ats": "greenhouse"
   },
   {
     "name": "The Movement Cooperative",
