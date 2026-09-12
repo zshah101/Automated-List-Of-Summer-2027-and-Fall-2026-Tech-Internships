@@ -537,6 +537,7 @@
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
       "workday:bah:/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050",
+      "workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225",
       "workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Cyber-Security-Intern---Ft-Walton-Beach--FL_R0248416",
       "workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Data-Scientist-Intern---Ft-Walton-Beach--FL_R0248409",
       "workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404",
@@ -556,7 +557,7 @@
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038",
       "workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043"
      ],
-     "count": 33
+     "count": 34
     }
    }
   },
@@ -571,6 +572,18 @@
       "smartrecruiters:BoschGroup:744000146547599"
      ],
      "count": 3
+    }
+   }
+  },
+  "bracco": {
+   "name": "Bracco",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327"
+     ],
+     "count": 1
     }
    }
   },
@@ -1828,6 +1841,18 @@
     }
    }
   },
+  "klaviyo": {
+   "name": "Klaviyo",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "greenhouse:klaviyocampus:7989364003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "labcorp": {
    "name": "LabCorp",
    "cycles": {
@@ -1981,6 +2006,19 @@
      "role_ids": [
       "workday:medtronic:/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173"
      ]
+    }
+   }
+  },
+  "megazonecloud": {
+   "name": "MegazoneCloud",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "ashby:megazone:e2889469-cf20-4227-bf24-2a6e885f8dca",
+      "ashby:megazone:fde09888-986f-4207-88fe-3ff5b921a1fa"
+     ],
+     "count": 2
     }
    }
   },
@@ -3545,6 +3583,18 @@
     }
    }
   },
+  "xcimer energy": {
+   "name": "Xcimer Energy",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "lever:xcimer:fee9965c-8040-4614-8fd1-10bddfe3b911"
+     ],
+     "count": 1
+    }
+   }
+  },
   "zip": {
    "name": "Zip",
    "cycles": {
@@ -3558,5 +3608,5 @@
    }
   }
  },
- "updated_at": "2026-09-12T09:32:34Z"
+ "updated_at": "2026-09-12T13:23:34Z"
 }

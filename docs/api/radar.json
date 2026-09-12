@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-12T09:32:34Z",
- "data_as_of": "2026-09-12T09:32:34Z",
- "rendered_at": "2026-09-12T09:32:35Z",
+ "generated_at": "2026-09-12T13:23:34Z",
+ "data_as_of": "2026-09-12T13:23:34Z",
+ "rendered_at": "2026-09-12T13:23:34Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2495,25 +2495,6 @@
    }
   },
   {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -4,
-   "status": "open",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "Coinbase",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2913,6 +2894,25 @@
    }
   },
   {
+   "company": "Bracco",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -2,
+   "status": "open",
+   "url": "https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "Brevan Howard",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -3217,6 +3217,25 @@
    }
   },
   {
+   "company": "Klaviyo",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
    "company": "Lyft",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -3228,6 +3247,44 @@
    "days_until": -1,
    "status": "open",
    "url": "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "MegazoneCloud",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "Xcimer Energy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.lever.co/xcimer/fee9965c-8040-4614-8fd1-10bddfe3b911",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6047,6 +6104,25 @@
    }
   },
   {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -4,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "CHAOS Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -6104,5 +6180,5 @@
    }
   }
  ],
- "count": 321
+ "count": 325
 }

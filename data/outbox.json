@@ -1,6 +1,32 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:megazone:e2889469-cf20-4227-bf24-2a6e885f8dca",
+      "ashby:megazone:fde09888-986f-4207-88fe-3ff5b921a1fa",
+      "lever:xcimer:fee9965c-8040-4614-8fd1-10bddfe3b911",
+      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071",
+      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
+      "workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225",
+      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085",
+      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077",
+      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083",
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328",
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327",
+      "greenhouse:klaviyocampus:7989364003"
+    ],
+    "telegram": [
+      "ashby:megazone:e2889469-cf20-4227-bf24-2a6e885f8dca",
+      "ashby:megazone:fde09888-986f-4207-88fe-3ff5b921a1fa",
+      "lever:xcimer:fee9965c-8040-4614-8fd1-10bddfe3b911",
+      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071",
+      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
+      "workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225",
+      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085",
+      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077",
+      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083",
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328",
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327",
+      "greenhouse:klaviyocampus:7989364003"
+    ]
   }
 }
