@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-11T22:00:22Z</updated>
+  <updated>2026-09-12T00:29:02Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:newsbreak:4712896006</id>
+    <title>NewsBreak: Nearby AI Internship Program - Engineering Track</title>
+    <link href="https://job-boards.greenhouse.io/newsbreak/jobs/4712896006"/>
+    <updated>2026-09-12T00:29:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Mountain View, California, United States · Python, Java, LLMs, Git, PostgreSQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:ibotta:3130669e-16aa-4f63-834d-b83571c8d269</id>
     <title>ibotta: Software Engineer Intern</title>
@@ -14,70 +22,6 @@
     <updated>2026-09-11T22:00:22Z</updated>
     <category term="Summer 2026"/>
     <summary>Summer 2026 · Software · Denver, CO · $33.85/hr · Python, Java, TypeScript, JavaScript, Ruby · status: closed · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704</id>
-    <title>Amgen: Undergrad Intern – Data Scientist – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $28.87/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708</id>
-    <title>Amgen: Undergrad Intern – Data Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $28.87/hr · Python, Java, SQL, Scala, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709</id>
-    <title>Amgen: Undergrad Intern – Machine Learning Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $28.87/hr · Python, SQL, scikit-learn, Pandas, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725</id>
-    <title>Amgen: Grad Intern – Data Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743</id>
-    <title>Amgen: Grad Intern – Machine Learning Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, SQL, scikit-learn, Pandas, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719</id>
-    <title>Amgen: Undergrad Intern – Software Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States - Remote · $28.87/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722</id>
-    <title>Amgen: Grad Intern – Data Scientist – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745</id>
-    <title>Amgen: Grad Intern – Software Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:businessolverinvitationonly:8189738</id>
@@ -88,12 +32,84 @@
     <summary>Not stated · Data &amp; ML/AI · United States · $23/hr · Python, SQL, AWS</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:corteva:/job/Indianapolis-Indiana-United-States/Data-Science-Summer-Intern_248208W</id>
-    <title>Corteva: Data Science Summer Intern</title>
-    <link href="https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/Data-Science-Summer-Intern_248208W"/>
+    <id>urn:intern-engine:greenhouse:lyft:8802198002</id>
+    <title>Lyft: Data Analyst Intern (Summer 2027)</title>
+    <link href="https://app.careerpuck.com/job-board/lyft/job/8802198002?gh_jid=8802198002"/>
     <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Indianapolis, Indiana, United States · Python, AWS, GCP, Azure</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY · $45–$47/hr · SQL · H-1B track record: ~348 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:perpay:4076978007</id>
+    <title>Perpay: Data Science Internship, Summer 2027</title>
+    <link href="https://job-boards.greenhouse.io/perpay/jobs/4076978007"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Philadelphia, Pennsylvania, United States · Python, SQL, scikit-learn, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725</id>
+    <title>Amgen: Grad Intern – Data Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722</id>
+    <title>Amgen: Grad Intern – Data Scientist – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743</id>
+    <title>Amgen: Grad Intern – Machine Learning Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, SQL, scikit-learn, Pandas, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745</id>
+    <title>Amgen: Grad Intern – Software Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708</id>
+    <title>Amgen: Undergrad Intern – Data Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $28.87/hr · Python, Java, SQL, Scala, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704</id>
+    <title>Amgen: Undergrad Intern – Data Scientist – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $28.87/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709</id>
+    <title>Amgen: Undergrad Intern – Machine Learning Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $28.87/hr · Python, SQL, scikit-learn, Pandas, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719</id>
+    <title>Amgen: Undergrad Intern – Software Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)</title>
+    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States - Remote · $28.87/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:corteva:/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W</id>
@@ -102,6 +118,14 @@
     <updated>2026-09-11T22:00:22Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Indianapolis, Indiana, United States · Python, LLMs, AWS, Azure, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:corteva:/job/Indianapolis-Indiana-United-States/Data-Science-Summer-Intern_248208W</id>
+    <title>Corteva: Data Science Summer Intern</title>
+    <link href="https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/Data-Science-Summer-Intern_248208W"/>
+    <updated>2026-09-11T22:00:22Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Indianapolis, Indiana, United States · Python, AWS, GCP, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:emcins:/job/Iowa/Intern--Data-Science_R6524</id>
@@ -120,28 +144,12 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Huntsville, AL · Python, C++, MATLAB, Linux, Git · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:lyft:8802198002</id>
-    <title>Lyft: Data Analyst Intern (Summer 2027)</title>
-    <link href="https://app.careerpuck.com/job-board/lyft/job/8802198002?gh_jid=8802198002"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY · $45–$47/hr · SQL · H-1B track record: ~348 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265</id>
     <title>Oshkosh: AI Intern</title>
     <link href="https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265"/>
     <updated>2026-09-11T22:00:22Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Oshkosh, Wisconsin, United States · Python, C++, PyTorch, TensorFlow, scikit-learn</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:perpay:4076978007</id>
-    <title>Perpay: Data Science Internship, Summer 2027</title>
-    <link href="https://job-boards.greenhouse.io/perpay/jobs/4076978007"/>
-    <updated>2026-09-11T22:00:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Philadelphia, Pennsylvania, United States · Python, SQL, scikit-learn, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:commure:62841aa1-3ee5-4547-8380-637b737b2cb3</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-09T22:48:46Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · TX, Austin, 11501 Alterra Pkwy STE 500 · $25–$33/hr · Python, PyTorch, TensorFlow, scikit-learn, Pandas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:interplay:bdf67758-1f20-4a01-8bb3-ccebfa79e9ac</id>
-    <title>Internship: AI Labs Intern</title>
-    <link href="https://jobs.ashbyhq.com/interplay/bdf67758-1f20-4a01-8bb3-ccebfa79e9ac"/>
-    <updated>2026-09-09T20:02:21Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · New York · Python, TypeScript, JavaScript, SQL, LLMs</summary>
   </entry>
 </feed>
