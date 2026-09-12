@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-12T00:29:02Z</updated>
+  <updated>2026-09-12T05:17:17Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:etyy.fa.ap2.oraclecloud.com:11648</id>
+    <title>Kulicke &amp; Soffa: Intern, Software Engineering</title>
+    <link href="https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11648"/>
+    <updated>2026-09-12T05:17:17Z</updated>
+    <category term="Not stated"/>
+    <summary>2 openings · Not stated · Software · Fort Washington, PA, United States · Python, C++, MATLAB</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:newsbreak:4712896006</id>
     <title>NewsBreak: Nearby AI Internship Program - Engineering Track</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-09T22:48:46Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Francisco, CA · TypeScript, LLMs, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cigna:/job/TX-Austin-11501-Alterra-Pkwy-STE-500/The-Cigna-Group-s-Technology-Development-Program---AI-Engineering-Track-Summer-Internship_26009535</id>
-    <title>Cigna Group: The Cigna Group's Technology Development Program - AI Engineering Track Summer Internship</title>
-    <link href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/TX-Austin-11501-Alterra-Pkwy-STE-500/The-Cigna-Group-s-Technology-Development-Program---AI-Engineering-Track-Summer-Internship_26009535"/>
-    <updated>2026-09-09T22:48:46Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · TX, Austin, 11501 Alterra Pkwy STE 500 · $25–$33/hr · Python, PyTorch, TensorFlow, scikit-learn, Pandas</summary>
   </entry>
 </feed>

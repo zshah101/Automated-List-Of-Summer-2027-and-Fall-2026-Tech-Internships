@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:etyy.fa.ap2.oraclecloud.com:11649",
+      "oracle:etyy.fa.ap2.oraclecloud.com:11648"
+    ],
+    "telegram": [
+      "oracle:etyy.fa.ap2.oraclecloud.com:11649",
+      "oracle:etyy.fa.ap2.oraclecloud.com:11648"
+    ]
   }
 }
