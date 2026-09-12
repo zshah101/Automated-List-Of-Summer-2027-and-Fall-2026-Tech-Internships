@@ -253,10 +253,11 @@
     "Summer 2027": {
      "first_posted": "2026-08-27",
      "role_ids": [
+      "lever:anavationllc:4a82ae00-30f0-410c-bf3c-f1cdd18739e7",
       "lever:anavationllc:a5c70b6a-2d16-4774-9043-677456614b1b",
       "lever:anavationllc:f7c83978-8510-409c-a5a3-17618511f819"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3608,5 +3609,5 @@
    }
   }
  },
- "updated_at": "2026-09-12T13:23:34Z"
+ "updated_at": "2026-09-12T16:35:45Z"
 }

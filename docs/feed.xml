@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-12T13:23:34Z</updated>
+  <updated>2026-09-12T16:35:45Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:anavationllc:4a82ae00-30f0-410c-bf3c-f1cdd18739e7</id>
+    <title>AnaVation: Computer Science Internship Summer 2027 🇺🇸</title>
+    <link href="https://jobs.lever.co/anavationllc/4a82ae00-30f0-410c-bf3c-f1cdd18739e7"/>
+    <updated>2026-09-12T16:35:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chantilly, VA · Python, Java, Node.js, AWS, GCP · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:megazone:e2889469-cf20-4227-bf24-2a6e885f8dca</id>
     <title>MegazoneCloud: Software Engineer Co-op 2027 🛂</title>
@@ -24,28 +32,20 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Rochester, NY · $27 – $29 per hour · Python, SQL, LLMs, AWS, Git · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:greenhouse:klaviyocampus:7989364003</id>
+    <title>Klaviyo: Software Engineer Intern (Summer 2027) 🛂</title>
+    <link href="https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003"/>
+    <updated>2026-09-12T13:23:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Boston, MA · Python, TypeScript, React, Django, AWS · sponsorship: no-sponsorship · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:lever:xcimer:fee9965c-8040-4614-8fd1-10bddfe3b911</id>
     <title>Xcimer Energy: Summer 2027 Internship - Computational and Software Engineering 🇺🇸</title>
     <link href="https://jobs.lever.co/xcimer/fee9965c-8040-4614-8fd1-10bddfe3b911"/>
     <updated>2026-09-12T13:23:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Denver, CO · 25–35 USD/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071</id>
-    <title>Booz Allen: Enterprise Cybersecurity Education and Execution Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071"/>
-    <updated>2026-09-12T13:23:34Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1</id>
-    <title>Booz Allen: Enterprise Cybersecurity Data Loss Prevention Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1"/>
-    <updated>2026-09-12T13:23:34Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · AWS, GCP, Azure · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225</id>
@@ -56,17 +56,17 @@
     <summary>Summer 2027 · Software · Fayetteville, NC · $108k/yr · Java, C++, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085</id>
-    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Vulnerability Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085"/>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1</id>
+    <title>Booz Allen: Enterprise Cybersecurity Data Loss Prevention Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1"/>
     <updated>2026-09-12T13:23:34Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security · McLean, VA · $126k/yr · Python, SQL, AWS, GCP, Azure · sponsorship: citizens-only</summary>
+    <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · AWS, GCP, Azure · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077</id>
-    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity IT Policy Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077"/>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071</id>
+    <title>Booz Allen: Enterprise Cybersecurity Education and Execution Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071"/>
     <updated>2026-09-12T13:23:34Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
@@ -80,12 +80,20 @@
     <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · AWS, GCP, Azure · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328</id>
-    <title>Bracco: Software Engineering Intern</title>
-    <link href="https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328"/>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077</id>
+    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity IT Policy Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077"/>
     <updated>2026-09-12T13:23:34Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · USA, Eden Prairie, Minnesota, 55344 · $23–$25/hr · Python, Java, C++, C#, TypeScript</summary>
+    <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085</id>
+    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Vulnerability Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085"/>
+    <updated>2026-09-12T13:23:34Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · McLean, VA · $126k/yr · Python, SQL, AWS, GCP, Azure · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327</id>
@@ -96,12 +104,12 @@
     <summary>Summer 2027 · Software · USA, Eden Prairie, Minnesota, 55344 · $23–$25/hr · C++, C#</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:klaviyocampus:7989364003</id>
-    <title>Klaviyo: Software Engineer Intern (Summer 2027) 🛂</title>
-    <link href="https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003"/>
+    <id>urn:intern-engine:workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328</id>
+    <title>Bracco: Software Engineering Intern</title>
+    <link href="https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328"/>
     <updated>2026-09-12T13:23:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, MA · Python, TypeScript, React, Django, AWS · sponsorship: no-sponsorship · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · USA, Eden Prairie, Minnesota, 55344 · $23–$25/hr · Python, Java, C++, C#, TypeScript</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:etyy.fa.ap2.oraclecloud.com:11648</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-10T14:40:54Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Columbus, OH · 25–30 USD/hr · AWS, GCP, Azure, Databricks, Snowflake</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:immuta:b9b21075-74a4-4b64-8f1b-f0be1fb0b24d</id>
-    <title>Immuta: Full-Stack Engineering Internship - Summer 2027</title>
-    <link href="https://jobs.lever.co/immuta/b9b21075-74a4-4b64-8f1b-f0be1fb0b24d"/>
-    <updated>2026-09-10T14:40:54Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Columbus, OH · 25–30 USD/hr · TypeScript, JavaScript, Node.js, AWS, GCP</summary>
   </entry>
 </feed>
