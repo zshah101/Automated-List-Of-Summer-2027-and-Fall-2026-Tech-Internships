@@ -1,10 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"
-    ],
-    "telegram": [
-      "workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
