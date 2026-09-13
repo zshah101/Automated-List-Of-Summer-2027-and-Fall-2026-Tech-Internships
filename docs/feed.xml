@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-13T13:00:06Z</updated>
+  <updated>2026-09-13T17:14:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692</id>
+    <title>Autostore: Co-Op - Software Engineering</title>
+    <link href="https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"/>
+    <updated>2026-09-13T17:14:22Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Atlanta, GA, USA · Python, Java, C++, C#, TypeScript</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:anavationllc:4a82ae00-30f0-410c-bf3c-f1cdd18739e7</id>
     <title>AnaVation: Computer Science Internship Summer 2027 🇺🇸</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-10T21:05:49Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Los Angeles, CA · $20/hr · Python, SQL, scikit-learn, Pandas, LLMs · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:immuta:3c4cb235-6138-4a50-add2-666a5216427e</id>
-    <title>Immuta: Platform &amp; Site Reliability Engineering Internship - Summer 2027</title>
-    <link href="https://jobs.lever.co/immuta/3c4cb235-6138-4a50-add2-666a5216427e"/>
-    <updated>2026-09-10T14:40:54Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Columbus, OH · 25–30 USD/hr · AWS, GCP, Azure, Databricks, Snowflake</summary>
   </entry>
 </feed>
