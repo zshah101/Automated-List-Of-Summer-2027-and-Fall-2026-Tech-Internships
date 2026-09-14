@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-14T00:25:43Z</updated>
+  <updated>2026-09-14T05:44:01Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:acronaviation:34cf5ad0-840a-4c1b-8231-02a433d0479e</id>
+    <title>Acron Aviation: Software Engineer Intern - Phoenix Site</title>
+    <link href="https://jobs.lever.co/acronaviation/34cf5ad0-840a-4c1b-8231-02a433d0479e"/>
+    <updated>2026-09-14T05:44:01Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Phoenix, AZ · Python, C++, C#, SQL, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Data Analyst</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800"/>
+    <updated>2026-09-14T05:44:01Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Mount Laurel, New Jersey</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403</id>
+    <title>Philips: Intern – Software Engineering – Plymouth, MN – Summer 2027</title>
+    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"/>
+    <updated>2026-09-14T05:44:01Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Plymouth, Minnesota, United States · Python, Java, C++, C#, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Cloud/DevOps</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799"/>
+    <updated>2026-09-14T00:25:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mount Laurel, New Jersey · Terraform</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cyber-Security_R_1510795</id>
     <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Cyber Security</title>
@@ -14,14 +46,6 @@
     <updated>2026-09-14T00:25:43Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Mount Laurel, New Jersey</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1</id>
-    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Software Engineer (SWE)</title>
-    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1"/>
-    <updated>2026-09-14T00:25:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mount Laurel, New Jersey · Java, JavaScript</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797</id>
@@ -32,12 +56,12 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Mount Laurel, New Jersey · Hadoop</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799</id>
-    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Cloud/DevOps</title>
-    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799"/>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Software Engineer (SWE)</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1"/>
     <updated>2026-09-14T00:25:43Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mount Laurel, New Jersey · Terraform</summary>
+    <summary>Summer 2027 · Software · Mount Laurel, New Jersey · Java, JavaScript</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692</id>
@@ -571,9 +595,9 @@
     <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265</id>
     <title>Applied Materials: 2027 Software Engineering Intern (Masters - Santa Clara, CA)</title>
     <link href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265"/>
-    <updated>2026-09-11T01:21:10Z</updated>
+    <updated>2026-09-14T05:24:52Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Santa Clara,CA · C++ · H-1B track record: ~650 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · Santa Clara,CA · C++ · status: closed · H-1B track record: ~650 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cigna:/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program-----Infrastructure---Cloud-Engineering-Track_26009529</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-10T18:07:47Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · US-IA-CEDAR RAPIDS-109 ~ 400 Collins Rd NE ~ BLDG 109 · Python, C#, SQL, Angular, Flask · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineer-Co-Op---Onsite_01871478</id>
-    <title>RTX: Software Engineer Co-Op - Onsite 🛂</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineer-Co-Op---Onsite_01871478"/>
-    <updated>2026-09-10T18:07:47Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++ · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:labcorp:/job/Baltimore-MD/Intern---Data-Science---Oncology_2630590</id>
-    <title>LabCorp: Intern - Data Science - Oncology 🛂</title>
-    <link href="https://labcorp.wd1.myworkdayjobs.com/external/job/Baltimore-MD/Intern---Data-Science---Oncology_2630590"/>
-    <updated>2026-09-10T18:07:47Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Baltimore MD · $30–$33/hr · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:seqholdings:9dc9a7f3-198a-43c0-be75-a3aba228bf2c</id>
-    <title>Sequence Holdings: Software Engineer (Intern)</title>
-    <link href="https://jobs.ashbyhq.com/seqholdings/9dc9a7f3-198a-43c0-be75-a3aba228bf2c"/>
-    <updated>2026-09-10T14:40:54Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York City</summary>
   </entry>
 </feed>
