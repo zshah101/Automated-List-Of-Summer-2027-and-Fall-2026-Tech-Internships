@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-14T11:14:45Z",
- "data_as_of": "2026-09-14T11:14:45Z",
- "rendered_at": "2026-09-14T11:14:45Z",
+ "generated_at": "2026-09-14T17:14:07Z",
+ "data_as_of": "2026-09-14T17:14:07Z",
+ "rendered_at": "2026-09-14T17:14:07Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2913,6 +2913,25 @@
    }
   },
   {
+   "company": "Avav",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -4,
+   "status": "open",
+   "url": "https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "Bedrock Robotics",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -3095,6 +3114,25 @@
    "days_until": -4,
    "status": "open",
    "url": "https://hq.wd12.myworkdayjobs.com/Securian_External/job/Saint-Paul-MN-Campus/Data-Science-and-Advanced-Analytics-Internship---Summer-2027_R-010894",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
+   "company": "SEP",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -4,
+   "status": "open",
+   "url": "https://jobs.lever.co/sep/4efbdbce-a753-41b5-8ed7-0661cd193178",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3347,6 +3385,63 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-13"
+   }
+  },
+  {
+   "company": "CoStar Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
+   "company": "Genworth Financial",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
+   "company": "Robinhood",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961",
+   "note": "opens fall",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
    }
   },
   {
@@ -5192,25 +5287,6 @@
    }
   },
   {
-   "company": "Robinhood",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -13,
-   "status": "waiting",
-   "url": "",
-   "note": "opens fall",
-   "provenance": {
-    "type": "verified-window",
-    "url": "robinhood.com/careers",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Rockwell Automation",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -6197,7 +6273,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-11"
    }
+  },
+  {
+   "company": "Flagship Pioneering",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": 0,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
   }
  ],
- "count": 326
+ "count": 331
 }

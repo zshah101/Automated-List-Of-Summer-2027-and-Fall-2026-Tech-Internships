@@ -400,6 +400,18 @@
     }
    }
   },
+  "avav": {
+   "name": "Avav",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549"
+     ],
+     "count": 1
+    }
+   }
+  },
   "awetomaton": {
    "name": "Awetomaton",
    "cycles": {
@@ -893,6 +905,19 @@
     }
    }
   },
+  "costar group": {
+   "name": "CoStar Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
+      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726"
+     ],
+     "count": 2
+    }
+   }
+  },
   "cox": {
    "name": "Cox",
    "cycles": {
@@ -1268,6 +1293,18 @@
     }
    }
   },
+  "flagship pioneering": {
+   "name": "Flagship Pioneering",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:fspco-op012325:8796996002"
+     ],
+     "count": 1
+    }
+   }
+  },
   "flow traders": {
    "name": "Flow Traders",
    "cycles": {
@@ -1382,6 +1419,19 @@
      "role_ids": [
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--AI-ML_JR-202612795"
      ]
+    }
+   }
+  },
+  "genworth financial": {
+   "name": "Genworth Financial",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "workday:gnw:/job/Raleigh-North-Carolina/Data-Science-Intern_REQ-260362-1",
+      "workday:gnw:/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1"
+     ],
+     "count": 2
     }
    }
   },
@@ -2390,10 +2440,11 @@
      "first_posted": "2026-08-31",
      "role_ids": [
       "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786",
+      "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
       "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265",
       "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -2637,6 +2688,21 @@
     }
    }
   },
+  "robinhood": {
+   "name": "Robinhood",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:robinhood:8123225",
+      "greenhouse:robinhood:8142959",
+      "greenhouse:robinhood:8142961",
+      "greenhouse:robinhood:8142963"
+     ],
+     "count": 4
+    }
+   }
+  },
   "roblox": {
    "name": "Roblox",
    "cycles": {
@@ -2827,6 +2893,18 @@
      "first_posted": "2026-08-01",
      "role_ids": [
       "ashby:sentry:672e2a76-d8e1-49c1-b227-4a189c4e49a1"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "sep": {
+   "name": "SEP",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "lever:sep:4efbdbce-a753-41b5-8ed7-0661cd193178"
      ],
      "count": 1
     }
@@ -3516,9 +3594,10 @@
      "first_posted": "2026-09-03",
      "role_ids": [
       "greenhouse:waymo:8174099",
-      "greenhouse:waymo:8174504"
+      "greenhouse:waymo:8174504",
+      "greenhouse:waymo:8193731"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3621,5 +3700,5 @@
    }
   }
  },
- "updated_at": "2026-09-14T11:14:45Z"
+ "updated_at": "2026-09-14T17:14:07Z"
 }
