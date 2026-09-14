@@ -1,48 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "ashby:cyvl:8bfc4116-b0bb-47f8-bca1-7069a37db328",
-      "ashby:base-power:a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7",
-      "ashby:base-power:5353ea33-57d4-46fa-9a96-e392a3f841bc",
-      "lever:reply:74422215-dd06-404a-a35c-3c9bd80e1f0b",
-      "lever:sep:4efbdbce-a753-41b5-8ed7-0661cd193178",
-      "workday:avav:/job/Centreville-VA/Software-Engineering-Intern_8593",
-      "workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613",
-      "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
-      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
-      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
-      "workday:gnw:/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1",
-      "workday:gnw:/job/Raleigh-North-Carolina/Data-Science-Intern_REQ-260362-1",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582",
-      "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
-      "greenhouse:robinhood:8142961",
-      "greenhouse:robinhood:8123225",
-      "greenhouse:robinhood:8142959",
-      "greenhouse:robinhood:8142963",
-      "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1",
-      "greenhouse:waymo:8193731"
-    ],
-    "telegram": [
-      "ashby:cyvl:8bfc4116-b0bb-47f8-bca1-7069a37db328",
-      "ashby:base-power:a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7",
-      "ashby:base-power:5353ea33-57d4-46fa-9a96-e392a3f841bc",
-      "lever:reply:74422215-dd06-404a-a35c-3c9bd80e1f0b",
-      "lever:sep:4efbdbce-a753-41b5-8ed7-0661cd193178",
-      "workday:avav:/job/Centreville-VA/Software-Engineering-Intern_8593",
-      "workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613",
-      "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
-      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
-      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
-      "workday:gnw:/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1",
-      "workday:gnw:/job/Raleigh-North-Carolina/Data-Science-Intern_REQ-260362-1",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582",
-      "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
-      "greenhouse:robinhood:8142961",
-      "greenhouse:robinhood:8123225",
-      "greenhouse:robinhood:8142959",
-      "greenhouse:robinhood:8142963",
-      "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1",
-      "greenhouse:waymo:8193731"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
