@@ -1,52 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "ashby:base-power:b6b2332e-1226-4575-b2c9-9e5258f2540e",
-      "ashby:opengov:c31622c1-be01-4d4a-b7cf-d116be84cc08",
-      "ashby:opengov:d036cfd6-5a01-41ed-af73-78fc32854849",
-      "oracle:ekbq.fa.em2.oraclecloud.com:2061",
-      "workday:slihrms:/job/USAZTempe/Data-Scientist-Intern---Summer-2027_R-161183-1",
-      "workday:slihrms:/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2",
-      "workday:brevanhoward:/job/New-York/XMLNAME-2027-Summer-Internship-Program---AI---Quantitative-Analyst--New-York_JR101602",
-      "workday:clarios:/job/United-States-Wisconsin-Milwaukee/People-Analytics---AI-Intern--Summer-2027-_WD50216",
-      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107",
-      "greenhouse:figma:6178857004",
-      "greenhouse:figma:6143238004",
-      "workday:oshkoshcorporation:/job/Greencastle-Pennsylvania-United-States/Robotics-Programming-Engineer-Intern_R49597",
-      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Robotic-Programming-Welding-Intern--Summer-2027-_R49598",
-      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineer-Co-Op--Summer-2027-_R-03264-1",
-      "greenhouse:singlestore:8154399",
-      "workday:tencent:/job/US-California-Palo-Alto/Cyber-Security-Engineer-Intern_R108141-2",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593",
-      "workday:wexinc:/job/US---Remote/DevOps---Backend-Software-Engineer-Intern--Undergraduate-_R22584",
-      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern---AI---Cloud--Graduate-Master-s-_R22546",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---Java---AI--Master-s-_R22547",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C--Java---AI-Workflows--Undergraduate-_R22586",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C---Cloud-Security---AI--Undergraduate-_R22589"
-    ],
-    "telegram": [
-      "ashby:base-power:b6b2332e-1226-4575-b2c9-9e5258f2540e",
-      "ashby:opengov:c31622c1-be01-4d4a-b7cf-d116be84cc08",
-      "ashby:opengov:d036cfd6-5a01-41ed-af73-78fc32854849",
-      "oracle:ekbq.fa.em2.oraclecloud.com:2061",
-      "workday:slihrms:/job/USAZTempe/Data-Scientist-Intern---Summer-2027_R-161183-1",
-      "workday:slihrms:/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2",
-      "workday:brevanhoward:/job/New-York/XMLNAME-2027-Summer-Internship-Program---AI---Quantitative-Analyst--New-York_JR101602",
-      "workday:clarios:/job/United-States-Wisconsin-Milwaukee/People-Analytics---AI-Intern--Summer-2027-_WD50216",
-      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107",
-      "greenhouse:figma:6178857004",
-      "greenhouse:figma:6143238004",
-      "workday:oshkoshcorporation:/job/Greencastle-Pennsylvania-United-States/Robotics-Programming-Engineer-Intern_R49597",
-      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Robotic-Programming-Welding-Intern--Summer-2027-_R49598",
-      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineer-Co-Op--Summer-2027-_R-03264-1",
-      "greenhouse:singlestore:8154399",
-      "workday:tencent:/job/US-California-Palo-Alto/Cyber-Security-Engineer-Intern_R108141-2",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593",
-      "workday:wexinc:/job/US---Remote/DevOps---Backend-Software-Engineer-Intern--Undergraduate-_R22584",
-      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern---AI---Cloud--Graduate-Master-s-_R22546",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---Java---AI--Master-s-_R22547",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C--Java---AI-Workflows--Undergraduate-_R22586",
-      "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C---Cloud-Security---AI--Undergraduate-_R22589"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
