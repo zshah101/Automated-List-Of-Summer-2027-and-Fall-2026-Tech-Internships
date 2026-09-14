@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:acronaviation:34cf5ad0-840a-4c1b-8231-02a433d0479e",
-      "workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800",
-      "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
-    ],
-    "telegram": [
-      "lever:acronaviation:34cf5ad0-840a-4c1b-8231-02a433d0479e",
-      "workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800",
-      "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
