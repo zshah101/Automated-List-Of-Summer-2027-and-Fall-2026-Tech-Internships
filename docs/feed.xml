@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-15T05:04:58Z</updated>
+  <updated>2026-09-15T08:04:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Machine-Learning-Intern_R108140-1</id>
+    <title>Tencent: Machine Learning Intern</title>
+    <link href="https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Machine-Learning-Intern_R108140-1"/>
+    <updated>2026-09-15T08:04:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US-California-Palo Alto · $28.27–$60/hr · Python, SQL, LLMs</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Undergraduate-Intern_JR0286629</id>
     <title>Intel: AI Solutions Engineering Undergraduate Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-11T19:03:11Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · Blacksburg, VA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734</id>
-    <title>Motorola: DSP (Digital Signal Processing) Software Engineering Intern - Summer 2027</title>
-    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734"/>
-    <updated>2026-09-11T19:03:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Plantation, FL · Python, C++, MATLAB, Linux, Git</summary>
   </entry>
 </feed>

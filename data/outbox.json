@@ -1,6 +1,10 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:tencent:/job/US-California-Palo-Alto/Machine-Learning-Intern_R108140-1"
+    ],
+    "telegram": [
+      "workday:tencent:/job/US-California-Palo-Alto/Machine-Learning-Intern_R108140-1"
+    ]
   }
 }
