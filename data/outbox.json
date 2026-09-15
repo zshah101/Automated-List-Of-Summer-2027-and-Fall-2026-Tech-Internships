@@ -1,24 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:doordashusa:8171041",
-      "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330",
-      "greenhouse:sharkninjaoperatingllc:4669676006",
-      "greenhouse:waymo:8198218",
-      "workday:wexinc:/job/US---Remote/Data---AI-Intern--Graduate-Master-s-_R22551",
-      "workday:wexinc:/job/US---Remote/DevOps---AI-Engineering-Intern--Undergraduate-_R23056",
-      "workday:wexinc:/job/US---Remote/SRE---Application-Services-Intern--Graduate-Master-s-_R22494",
-      "workday:wexinc:/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055"
-    ],
-    "telegram": [
-      "greenhouse:doordashusa:8171041",
-      "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330",
-      "greenhouse:sharkninjaoperatingllc:4669676006",
-      "greenhouse:waymo:8198218",
-      "workday:wexinc:/job/US---Remote/Data---AI-Intern--Graduate-Master-s-_R22551",
-      "workday:wexinc:/job/US---Remote/DevOps---AI-Engineering-Intern--Undergraduate-_R23056",
-      "workday:wexinc:/job/US---Remote/SRE---Application-Services-Intern--Graduate-Master-s-_R22494",
-      "workday:wexinc:/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
