@@ -175,6 +175,12 @@ jobs:
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          # Emails the provider plan allows per rolling day. This is the ONLY
+          # dial for how instant alerts are: the cadence is derived from it, so
+          # raising it on a bigger plan shortens the gap between digests with
+          # no code change. Unset = 300, Brevo's free transactional tier, which
+          # a 224-address list can afford exactly once a day.
+          MAIL_DAILY_QUOTA: ${{ vars.MAIL_DAILY_QUOTA }}
         run: python run.py notify
 
       # The alert state the previous step just advanced (which roles have been
@@ -213,3 +219,17 @@ jobs:
           done
           echo "::error::could not persist alert state after three safe retries"
           exit 1
+
+      # The step that would have caught the 2026-08-24 outage on day one.
+      # Supabase auto-paused the free project, every subsequent run's subscriber
+      # lookup threw into a bare `except`, and the list heard nothing for 24
+      # days while every run stayed green. Nothing here watched delivery.
+      #
+      # Deliberately AFTER the ledger commit above: this step's whole job is to
+      # turn the job red so GitHub emails a human, and doing that before the
+      # commit would sacrifice the delivery state to raise the alarm.
+      # `always()` so a skipped notify (Pages still catching up) is still
+      # checked — the 26-hour threshold means a transient delay never fires it.
+      - name: Check the digest is actually going out
+        if: always()
+        run: python run.py mailcheck
