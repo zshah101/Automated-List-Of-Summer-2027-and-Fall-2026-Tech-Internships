@@ -61,7 +61,7 @@ class TestEvidenceSplit:
     def test_role_rows_render_skill_tags(self, outputs):
         readme.generate({"a": _rec("a", skills=["Python", "React", "SQL"])})
         text = (outputs / "README.md").read_text(encoding="utf-8")
-        assert "| Company | Role | Category | Location | Skills | Posted |" in text
+        assert "| Company | Role | Apply | Location | Skills | Posted |" in text
         assert "| Python, SQL, React |" in text
 
     def test_role_rows_label_missing_skills(self, outputs):
@@ -183,7 +183,7 @@ class TestIdenticalOpenings:
     def test_the_table_shows_one_row(self, outputs):
         readme.generate(self._store())
         text = (outputs / "README.md").read_text(encoding="utf-8")
-        assert text.count("| Acme | [Software Engineer Intern](") == 1
+        assert text.count("| Acme | Software Engineer Intern") == 1
 
     def test_the_row_says_how_many_openings(self, outputs):
         readme.generate(self._store())
@@ -216,7 +216,7 @@ class TestIdenticalOpenings:
         store["1"]["location"] = "Seattle, WA"
         readme.generate(store)
         text = (outputs / "README.md").read_text(encoding="utf-8")
-        assert text.count("| Acme | [Software Engineer Intern](") == 2
+        assert text.count("| Acme | Software Engineer Intern") == 2
         # No row claims a count (the legend explaining the marker is not a row).
         rows = [ln for ln in text.splitlines() if ln.startswith("| Acme |")]
         assert rows and not any("openings)" in ln for ln in rows)
@@ -232,8 +232,9 @@ class TestTableFitsItsColumn:
     the one link a reader needs was the one they could not reach.
 
     Two things fix that together: zero-width spaces give the browser somewhere
-    to wrap, and the Apply column is gone entirely because the role title now
-    carries the link. Both are asserted here.
+    to wrap, and Apply moved from the last column to the third (Category was
+    dropped to make room), so it can no longer be the cell that gets clipped.
+    Both are asserted here.
     """
 
     def test_a_long_word_gets_somewhere_to_wrap(self):
@@ -267,11 +268,33 @@ class TestTableFitsItsColumn:
         })
         text = (outputs / "README.md").read_text(encoding="utf-8")
         row = next(ln for ln in text.splitlines() if ln.startswith("| Security"))
-        # The Role cell is a markdown link, so its URL is legitimately one long
+        # The Apply cell is a markdown link, so its URL is legitimately one long
         # unbreakable run; every other cell is prose and must stay soft.
         cells = row.strip("|").split("|")
         for i, cell in enumerate(cells):
-            if i == 1:
+            if i == 2:
                 continue
             for word in cell.split():
                 assert all(len(p) <= 12 for p in word.split(readme.ZWSP)), word
+
+
+def test_apply_is_the_third_column_and_category_is_gone(outputs):
+    """Apply right after the role, so it is on screen at any width."""
+    readme.generate({
+        "0": {
+            "id": "0", "company": "Acme", "title": "Software Engineer Intern",
+            "location": "Austin, TX", "skills": ["Python"], "category": "Software",
+            "season": "Summer 2027", "url": "https://x/apply-0", "is_open": True,
+            "posted_at": "2026-08-01T00:00:00Z",
+            "first_seen_at": "2026-08-01T00:00:00Z",
+        },
+    })
+    text = (outputs / "README.md").read_text(encoding="utf-8")
+    header = next(ln for ln in text.splitlines() if ln.startswith("| Company |"))
+    assert [c.strip() for c in header.strip("|").split("|")] == [
+        "Company", "Role", "Apply", "Location", "Skills", "Posted",
+    ]
+    row = next(ln for ln in text.splitlines() if ln.startswith("| Acme |"))
+    cells = [c.strip() for c in row.strip("|").split("|")]
+    assert cells[2] == "[Apply](https://x/apply-0)"
+    assert "Software Engineer Intern" in cells[1] and "](" not in cells[1]

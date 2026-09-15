@@ -80,10 +80,10 @@ def _now_str(data_as_of: str | None = None) -> str:
 # off the right edge no matter how much the rest wrapped.
 #
 # This softening is half the fix and was never enough on its own: with seven
-# columns the per-column floors alone exceeded the space, so the apply link
-# stayed unreachable. The other half is in _cells — there is no Apply column
-# any more, the role title carries the link. Both halves matter: this one keeps
-# a single 20-character employer name from dictating the whole table's width.
+# columns the per-column floors alone exceeded the space, so whatever sat last
+# stayed unreachable, and that was Apply. The other half is in _cells: Apply is
+# now the third column and Category is gone. Both halves matter: this one keeps
+# a single 20-character employer name from dictating the table's width.
 #
 # A zero-width space is a break opportunity: invisible, copies as nothing, and
 # only used if a line actually has to break there. <wbr> says the same thing in
@@ -185,23 +185,6 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
     title = _breakable(_md_cell(record.get("title")))
     is_open = record.get("is_open", True)
     url = record.get("url") or ""
-    # THE ROLE TITLE IS THE APPLY LINK. There used to be a seventh column for
-    # it, and on the narrow column GitHub gives a README that cell was the one
-    # the browser pushed off the right edge — so the single thing a reader
-    # actually needs was the one thing they could not reach without scrolling
-    # sideways. Softening long words (see _breakable) bought room but could
-    # never win: seven columns each have a floor, and their floors alone
-    # exceeded the space. Linking the title instead removes a whole column AND
-    # puts the link where the eye already is.
-    #
-    # _breakable ran above, on the bare text, and refuses to touch anything
-    # link-shaped — so the zero-width spaces land in the link's LABEL, where
-    # they still let it wrap, and never in the URL, where they would silently
-    # produce a dead button.
-    if is_open and url:
-        title = f"[{title}]({url})"
-    elif not is_open:
-        title = f"{title} _(closed)_"
     badges = " ".join(
         b for b in (sponsorship.flag(record.get("sponsorship")),
                     "🆕" if _is_new(record) and is_open else "")
@@ -210,22 +193,28 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
     if badges:
         title = f"{title} {badges}"
     # The employer opened this same job more than once. Say so on the row and
-    # keep every requisition reachable — the linked title is the first, these
-    # are the rest — rather than repeating the row N times.
+    # link every requisition, rather than repeating the row N times.
     openings = record.get("openings") or 1
     if openings > 1:
         title += f" _({openings} openings)_"
-        extra = [u for u in (record.get("opening_urls") or []) if u] if is_open else []
-        if extra:
-            title += " " + " ".join(
-                f"[#{i + 2}]({u})" for i, u in enumerate(extra[:6])
-            )
     ordered_skills = skills.sort_by_signal(record.get("skills"), record.get("title"))[:4]
     skill_tags = (_breakable(_md_cell(", ".join(ordered_skills)))
                   if ordered_skills else "No skills listed")
+    # APPLY IS THE THIRD COLUMN, never the last. As the last cell it was the
+    # one the browser pushed off the right edge of GitHub's narrow README
+    # column, so the link a reader actually came for was the one they could
+    # not reach without scrolling sideways. Right after the role it is on
+    # screen at any width. Category was dropped to pay for it: the section
+    # headings and the role titles already say what kind of job each row is.
+    apply = "Closed" if not is_open else (f"[Apply]({url})" if url else "—")
+    if is_open and url and openings > 1:
+        extra = [u for u in (record.get("opening_urls") or []) if u]
+        apply = " ".join(
+            [f"[Apply]({url})"]
+            + [f"[#{i + 2}]({u})" for i, u in enumerate(extra[:6])]
+        )
     return (
-        company, title,
-        _md_cell(record.get("category")),
+        company, title, apply,
         _breakable(_short_location(record.get("location"))),
         skill_tags,
         _pretty_date(record),
@@ -233,14 +222,14 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
 
 
 def _row(record: dict, cycle: str | None = None) -> str:
-    company, title, category, location, skill_tags, posted = _cells(record)
+    company, title, apply, location, skill_tags, posted = _cells(record)
     # A multi-cycle posting appears under each cycle it names. Naming the OTHER
     # cycles here explains why the same title shows up twice — repeating this
     # section's own cycle would just be noise.
     others = [s for s in (record.get("seasons") or []) if s != cycle]
     if len(record.get("seasons") or []) > 1 and others:
         title += f" _(also open for {', '.join(others)})_"
-    return (f"| {company} | {title} | {category} | {location} | {skill_tags} | "
+    return (f"| {company} | {title} | {apply} | {location} | {skill_tags} | "
             f"{posted} |")
 
 
@@ -252,8 +241,8 @@ def _rolling_row(record: dict) -> str:
     postings it was confirmed 0 times out of 60 and contradicted every time it
     could be checked. These rows now say what's true — nobody stated a cycle.
     """
-    company, title, category, location, skill_tags, posted = _cells(record)
-    return (f"| {company} | {title} | {category} | {location} | {skill_tags} | "
+    company, title, apply, location, skill_tags, posted = _cells(record)
+    return (f"| {company} | {title} | {apply} | {location} | {skill_tags} | "
             f"{posted} |")
 
 
@@ -464,17 +453,15 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "anywhere are in *Recently posted — cycle not stated* further down, with "
         "**no cycle guessed for them**. Same quality bar, different amount of "
         "evidence.",
-        "- **The role title is the apply link** — click it to go straight to "
-        "the employer's own posting. There's no separate Apply column: on a "
-        "narrow screen it was the first thing pushed off the right edge, which "
-        "made the one link that matters the hardest one to reach.",
+        "- **Apply** is the third column, right after the role, so the link is "
+        "on screen even when the table is wider than your window.",
         "- The **Posted** column is the date the company published the role.",
         "- **_(3 openings)_ after a role title** = the employer has that many "
         "separate live requisitions for the same job, in the same place, for "
         "the same cycle. They're all real and each takes its own application, "
-        "so they're linked individually (the **role title** is the first, then "
-        "**#2**, **#3**) instead of repeating the row. Counts still count "
-        "requisitions, and the CSV export is never grouped.",
+        "so they're linked individually (**Apply**, then **#2**, **#3**) "
+        "instead of repeating the row. Counts still count requisitions, and "
+        "the CSV export is never grouped.",
         f"- **{REMOTE_MARK} after a company name** = **this role is remote** — "
         "the posting's own location or title says so. It marks the role on that "
         "row, not the whole company.",
@@ -769,7 +756,7 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
     for heading, cycle, rows in sections:
         lines.append(f"## {heading}  ({len(rows)} employer-stated)")
         lines.append("")
-        lines.append("| Company | Role | Category | Location | Skills | Posted |")
+        lines.append("| Company | Role | Apply | Location | Skills | Posted |")
         lines.append("|---|---|---|---|---|---|")
         lines.extend(_row(r, cycle) for r in rows)
         lines.append("")
@@ -786,7 +773,7 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
             "posting's own text states a cycle, the role moves up into that "
             "section automatically.",
             "",
-            "| Company | Role | Category | Location | Skills | Posted |",
+            "| Company | Role | Apply | Location | Skills | Posted |",
             "|---|---|---|---|---|---|",
         ])
         lines.extend(_rolling_row(r) for r in rolling_rows)
