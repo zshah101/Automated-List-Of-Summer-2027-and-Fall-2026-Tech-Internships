@@ -236,14 +236,16 @@
       "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
       "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
       "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255744",
       "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
       "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
       "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
       "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255711",
       "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
       "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719"
      ],
-     "count": 9
+     "count": 11
     }
    }
   },
@@ -1432,9 +1434,12 @@
       "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
       "workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
-      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1"
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406"
      ],
-     "count": 7
+     "count": 10
     }
    }
   },
@@ -2314,7 +2319,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 12,
+     "count": 13,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2327,6 +2332,7 @@
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"
      ]
     },
@@ -3711,6 +3717,18 @@
     }
    }
   },
+  "workshop": {
+   "name": "Workshop",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:workshop:5237900007"
+     ],
+     "count": 1
+    }
+   }
+  },
   "xantium": {
    "name": "Xantium",
    "cycles": {
@@ -3770,5 +3788,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T10:12:51Z"
+ "updated_at": "2026-09-15T15:12:47Z"
 }

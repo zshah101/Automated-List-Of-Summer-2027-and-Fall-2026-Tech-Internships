@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-15T10:12:51Z",
- "data_as_of": "2026-09-15T10:12:51Z",
- "rendered_at": "2026-09-15T10:12:51Z",
+ "generated_at": "2026-09-15T15:12:47Z",
+ "data_as_of": "2026-09-15T15:12:47Z",
+ "rendered_at": "2026-09-15T15:12:47Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -231,6 +231,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-05"
+   }
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -69,
+   "status": "open",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
    }
   },
   {
@@ -3521,6 +3540,25 @@
    }
   },
   {
+   "company": "Workshop",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/workshop/jobs/5237900007",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
    "company": "CAI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -3537,6 +3575,24 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-15"
+   }
+  },
+  {
+   "company": "APEX Analytix",
+   "last_cycle_posted": "",
+   "posted_on": "",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "",
+   "days_until": null,
+   "status": "open",
+   "url": "https://ats.rippling.com/apexanalytix-careers/jobs/40e4727d-e132-4de0-89ba-b4fdbd5860a7",
+   "note": "",
+   "provenance": {
+    "type": "live-role",
+    "url": "https://ats.rippling.com/apexanalytix-careers/jobs/40e4727d-e132-4de0-89ba-b4fdbd5860a7"
    }
   },
   {
@@ -5876,25 +5932,6 @@
    }
   },
   {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -69,
-   "status": "dropped",
-   "url": "",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -6351,5 +6388,5 @@
    }
   }
  ],
- "count": 334
+ "count": 336
 }
