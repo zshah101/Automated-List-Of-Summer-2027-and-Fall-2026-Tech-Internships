@@ -11,6 +11,7 @@ import csv
 import io
 import json
 import os
+import re
 from datetime import UTC, datetime, timedelta
 from urllib.parse import quote
 
@@ -71,6 +72,53 @@ def _now_str(data_as_of: str | None = None) -> str:
     return _as_of(data_as_of).strftime("%b %d, %Y at %H:%M UTC")
 
 
+# GitHub renders the README in a column that is narrower than this table wants
+# to be (the repo sidebar takes a chunk of it), and a table can never be
+# narrower than the longest unbreakable word in each column. Six such words —
+# "Securityriskadvisors", "Telecommunications", "Massachusetts," and friends —
+# already add up to more than the column, so the browser pushed the last cell
+# off the right edge no matter how much the rest wrapped.
+#
+# This softening is half the fix and was never enough on its own: with seven
+# columns the per-column floors alone exceeded the space, so the apply link
+# stayed unreachable. The other half is in _cells — there is no Apply column
+# any more, the role title carries the link. Both halves matter: this one keeps
+# a single 20-character employer name from dictating the whole table's width.
+#
+# A zero-width space is a break opportunity: invisible, copies as nothing, and
+# only used if a line actually has to break there. <wbr> says the same thing in
+# HTML but GitHub's sanitizer strips it, so U+200B is what survives the render.
+ZWSP = "​"
+
+# Runs with no break opportunity in them already (spaces, hyphens and slashes
+# are ones the browser can use on its own).
+_LONG_RUN = re.compile(r"[^\s\-/–—]{13,}")
+
+
+def _breakable(text: str, chunk: int = 10) -> str:
+    """Let long words wrap, so no single word dictates the table's width."""
+
+    # Never reach into a link: a break inserted inside a URL would be invisible
+    # here and a dead Apply button there.
+    if "](" in text or "://" in text:
+        return text
+
+    def soften(match: re.Match) -> str:
+        run = match.group(0)
+        # Break at the word's own seams first — "WallStreetQuants" reads fine
+        # split after "Wall"; chunking is the fallback for names like
+        # "Securityriskadvisors" that offer nothing to break on.
+        pieces = []
+        for piece in re.sub(r"(?<=[a-z0-9])(?=[A-Z])", ZWSP, run).split(ZWSP):
+            while len(piece) > chunk + 2:
+                pieces.append(piece[:chunk])
+                piece = piece[chunk:]
+            pieces.append(piece)
+        return ZWSP.join(pieces)
+
+    return _LONG_RUN.sub(soften, text)
+
+
 def _md_cell(text: str) -> str:
     return (text or "—").replace("|", "/").replace("\n", " ").strip() or "—"
 
@@ -124,8 +172,8 @@ def _is_new(record: dict, hours: int = 48) -> bool:
 REMOTE_MARK = "🆁"  # U+1F181 — a squared R, so it reads as a badge, not a word
 
 
-def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
-    company = _md_cell(record.get("company"))
+def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
+    company = _breakable(_md_cell(record.get("company")))
     if h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
     # The remote mark sits beside the H-1B ✓ in the first column, where the eye
@@ -134,8 +182,26 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
     # unambiguous here — the legend says "this role", not "this company".
     if filters.is_remote(record.get("location") or "", record.get("title") or ""):
         company += f" {REMOTE_MARK}"
-    title = _md_cell(record.get("title"))
+    title = _breakable(_md_cell(record.get("title")))
     is_open = record.get("is_open", True)
+    url = record.get("url") or ""
+    # THE ROLE TITLE IS THE APPLY LINK. There used to be a seventh column for
+    # it, and on the narrow column GitHub gives a README that cell was the one
+    # the browser pushed off the right edge — so the single thing a reader
+    # actually needs was the one thing they could not reach without scrolling
+    # sideways. Softening long words (see _breakable) bought room but could
+    # never win: seven columns each have a floor, and their floors alone
+    # exceeded the space. Linking the title instead removes a whole column AND
+    # puts the link where the eye already is.
+    #
+    # _breakable ran above, on the bare text, and refuses to touch anything
+    # link-shaped — so the zero-width spaces land in the link's LABEL, where
+    # they still let it wrap, and never in the URL, where they would silently
+    # produce a dead button.
+    if is_open and url:
+        title = f"[{title}]({url})"
+    elif not is_open:
+        title = f"{title} _(closed)_"
     badges = " ".join(
         b for b in (sponsorship.flag(record.get("sponsorship")),
                     "🆕" if _is_new(record) and is_open else "")
@@ -144,32 +210,30 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
     if badges:
         title = f"{title} {badges}"
     # The employer opened this same job more than once. Say so on the row and
-    # link every requisition, rather than repeating the row N times.
+    # keep every requisition reachable — the linked title is the first, these
+    # are the rest — rather than repeating the row N times.
     openings = record.get("openings") or 1
     if openings > 1:
         title += f" _({openings} openings)_"
+        extra = [u for u in (record.get("opening_urls") or []) if u] if is_open else []
+        if extra:
+            title += " " + " ".join(
+                f"[#{i + 2}]({u})" for i, u in enumerate(extra[:6])
+            )
     ordered_skills = skills.sort_by_signal(record.get("skills"), record.get("title"))[:4]
-    skill_tags = _md_cell(", ".join(ordered_skills)) if ordered_skills else "No skills listed"
-    url = record.get("url") or ""
-    apply = "Closed" if not is_open else (f"[Apply]({url})" if url else "—")
-    if is_open and url and openings > 1:
-        extra = [u for u in (record.get("opening_urls") or []) if u]
-        apply = " ".join(
-            [f"[Apply]({url})"]
-            + [f"[#{i + 2}]({u})" for i, u in enumerate(extra[:6])]
-        )
+    skill_tags = (_breakable(_md_cell(", ".join(ordered_skills)))
+                  if ordered_skills else "No skills listed")
     return (
         company, title,
         _md_cell(record.get("category")),
-        _short_location(record.get("location")),
+        _breakable(_short_location(record.get("location"))),
         skill_tags,
         _pretty_date(record),
-        apply,
     )
 
 
 def _row(record: dict, cycle: str | None = None) -> str:
-    company, title, category, location, skill_tags, posted, apply = _cells(record)
+    company, title, category, location, skill_tags, posted = _cells(record)
     # A multi-cycle posting appears under each cycle it names. Naming the OTHER
     # cycles here explains why the same title shows up twice — repeating this
     # section's own cycle would just be noise.
@@ -177,7 +241,7 @@ def _row(record: dict, cycle: str | None = None) -> str:
     if len(record.get("seasons") or []) > 1 and others:
         title += f" _(also open for {', '.join(others)})_"
     return (f"| {company} | {title} | {category} | {location} | {skill_tags} | "
-            f"{posted} | {apply} |")
+            f"{posted} |")
 
 
 def _rolling_row(record: dict) -> str:
@@ -188,9 +252,9 @@ def _rolling_row(record: dict) -> str:
     postings it was confirmed 0 times out of 60 and contradicted every time it
     could be checked. These rows now say what's true — nobody stated a cycle.
     """
-    company, title, category, location, skill_tags, posted, apply = _cells(record)
+    company, title, category, location, skill_tags, posted = _cells(record)
     return (f"| {company} | {title} | {category} | {location} | {skill_tags} | "
-            f"{posted} | {apply} |")
+            f"{posted} |")
 
 
 def _region_label(cfg: dict) -> str:
@@ -400,13 +464,17 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "anywhere are in *Recently posted — cycle not stated* further down, with "
         "**no cycle guessed for them**. Same quality bar, different amount of "
         "evidence.",
+        "- **The role title is the apply link** — click it to go straight to "
+        "the employer's own posting. There's no separate Apply column: on a "
+        "narrow screen it was the first thing pushed off the right edge, which "
+        "made the one link that matters the hardest one to reach.",
         "- The **Posted** column is the date the company published the role.",
         "- **_(3 openings)_ after a role title** = the employer has that many "
         "separate live requisitions for the same job, in the same place, for "
         "the same cycle. They're all real and each takes its own application, "
-        "so they're linked individually (**Apply**, then **#2**, **#3**) "
-        "instead of repeating the row. Counts still count requisitions, and "
-        "the CSV export is never grouped.",
+        "so they're linked individually (the **role title** is the first, then "
+        "**#2**, **#3**) instead of repeating the row. Counts still count "
+        "requisitions, and the CSV export is never grouped.",
         f"- **{REMOTE_MARK} after a company name** = **this role is remote** — "
         "the posting's own location or title says so. It marks the role on that "
         "row, not the whole company.",
@@ -701,8 +769,8 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
     for heading, cycle, rows in sections:
         lines.append(f"## {heading}  ({len(rows)} employer-stated)")
         lines.append("")
-        lines.append("| Company | Role | Category | Location | Skills | Posted | Apply |")
-        lines.append("|---|---|---|---|---|---|---|")
+        lines.append("| Company | Role | Category | Location | Skills | Posted |")
+        lines.append("|---|---|---|---|---|---|")
         lines.extend(_row(r, cycle) for r in rows)
         lines.append("")
 
@@ -718,8 +786,8 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
             "posting's own text states a cycle, the role moves up into that "
             "section automatically.",
             "",
-            "| Company | Role | Category | Location | Skills | Posted | Apply |",
-            "|---|---|---|---|---|---|---|",
+            "| Company | Role | Category | Location | Skills | Posted |",
+            "|---|---|---|---|---|---|",
         ])
         lines.extend(_rolling_row(r) for r in rolling_rows)
         lines.append("")
