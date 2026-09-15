@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010928",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172",
+      "greenhouse:brevium:4713683006"
+    ],
+    "telegram": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010928",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172",
+      "greenhouse:brevium:4713683006"
+    ]
   }
 }

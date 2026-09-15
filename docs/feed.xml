@@ -5,15 +5,39 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-15T22:29:22Z</updated>
+  <updated>2026-09-15T23:18:49Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26008230</id>
-    <title>Emerson Electric: Software Engineering Intern - ADG System R&amp;D</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008230"/>
-    <updated>2026-09-15T22:29:22Z</updated>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26010928</id>
+    <title>Emerson Electric: Software Engineering Intern 🛂</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010928"/>
+    <updated>2026-09-15T23:18:49Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Austin, TX, United States · Linux</summary>
+    <summary>Not stated · Software · Austin, TX, United States · Python, C++, C#, Linux · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172</id>
+    <title>Nokia: Embedded Software Development Coop</title>
+    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40172"/>
+    <updated>2026-09-15T23:18:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States · C++, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:brevium:4713683006</id>
+    <title>Brevium: Software Engineer Intern</title>
+    <link href="https://job-boards.greenhouse.io/brevium/jobs/4713683006"/>
+    <updated>2026-09-15T23:18:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · American Fork, UT · C#, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:andurilindustries:5239083007</id>
+    <title>Anduril: 2027 Flight Software Engineer Intern</title>
+    <link href="https://boards.greenhouse.io/andurilindustries/jobs/5239083007?gh_jid=5239083007"/>
+    <updated>2026-09-15T22:29:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Costa Mesa, California, United States · Python, MATLAB, Computer Vision</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007774</id>
@@ -40,12 +64,12 @@
     <summary>Summer 2027 · Software · Austin, TX, United States</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:andurilindustries:5239083007</id>
-    <title>Anduril: 2027 Flight Software Engineer Intern</title>
-    <link href="https://boards.greenhouse.io/andurilindustries/jobs/5239083007?gh_jid=5239083007"/>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26008230</id>
+    <title>Emerson Electric: Software Engineering Intern - ADG System R&amp;D</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008230"/>
     <updated>2026-09-15T22:29:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Costa Mesa, California, United States · Python, MATLAB, Computer Vision</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Austin, TX, United States · Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:jj:/job/Santa-Clara-California-United-States-of-America/Software-Engineering-Intern---Robotics-R-D_R-099919</id>
@@ -675,9 +699,9 @@
     <id>urn:intern-engine:workday:gnw:/job/Raleigh-North-Carolina/Data-Science-Intern_REQ-260362-1</id>
     <title>Genworth Financial: Data Science Intern</title>
     <link href="https://gnw.wd1.myworkdayjobs.com/GNW/job/Raleigh-North-Carolina/Data-Science-Intern_REQ-260362-1"/>
-    <updated>2026-09-14T17:14:07Z</updated>
+    <updated>2026-09-15T23:18:49Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Raleigh, North Carolina · Python, SQL, scikit-learn, Pandas</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Raleigh, North Carolina · Python, SQL, scikit-learn, Pandas · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gnw:/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-12T16:35:45Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Chantilly, VA · Python, Java, Node.js, AWS, GCP · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:megazone:e2889469-cf20-4227-bf24-2a6e885f8dca</id>
-    <title>MegazoneCloud: Software Engineer Co-op 2027 🛂</title>
-    <link href="https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca"/>
-    <updated>2026-09-12T13:23:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Rochester, NY · $27 – $28 per hour · Python, Java, JavaScript, LLMs, AWS · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:megazone:fde09888-986f-4207-88fe-3ff5b921a1fa</id>
-    <title>MegazoneCloud: Data Engineer Co-op 2027 🛂</title>
-    <link href="https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa"/>
-    <updated>2026-09-12T13:23:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Rochester, NY · $27 – $29 per hour · Python, SQL, LLMs, AWS, Git · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:klaviyocampus:7989364003</id>
-    <title>Klaviyo: Software Engineer Intern (Summer 2027) 🛂</title>
-    <link href="https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003"/>
-    <updated>2026-09-12T13:23:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, MA · Python, TypeScript, React, Django, AWS · sponsorship: no-sponsorship · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
