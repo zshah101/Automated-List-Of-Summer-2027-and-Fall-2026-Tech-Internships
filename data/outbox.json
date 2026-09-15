@@ -1,42 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "rippling:apexanalytix-careers:0cfde729-9d23-4186-91a7-464a4b87af53",
-      "oracle:egay.fa.us6.oraclecloud.com:44449",
-      "workday:aspentech:/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459",
-      "workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Science_JR101053",
-      "workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Analyst_JR101052",
-      "greenhouse:duolingo:8805925002",
-      "greenhouse:duolingo:8806114002",
-      "workday:hitachi:/job/Pittsburgh-Pennsylvania-United-States/Intern---Onboard-Software-Developer_R0145042",
-      "workday:micron:/job/Longmont-MAX--Office-CO/Intern---Firmware-Engineer_JR111584",
-      "workday:micron:/job/Longmont-MAX--Office-CO/Intern---Data-Center-SSD-Firmware_JR111461",
-      "greenhouse:testnisc:8204161",
-      "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
-      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
-      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
-      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12796",
-      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
-      "workday:ssctech:/job/Braintree-MA---30-Braintree-Hill-Park/RS-Operational-AI-Analyst-Intern_R45766"
-    ],
-    "telegram": [
-      "rippling:apexanalytix-careers:0cfde729-9d23-4186-91a7-464a4b87af53",
-      "oracle:egay.fa.us6.oraclecloud.com:44449",
-      "workday:aspentech:/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459",
-      "workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Science_JR101053",
-      "workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Analyst_JR101052",
-      "greenhouse:duolingo:8805925002",
-      "greenhouse:duolingo:8806114002",
-      "workday:hitachi:/job/Pittsburgh-Pennsylvania-United-States/Intern---Onboard-Software-Developer_R0145042",
-      "workday:micron:/job/Longmont-MAX--Office-CO/Intern---Firmware-Engineer_JR111584",
-      "workday:micron:/job/Longmont-MAX--Office-CO/Intern---Data-Center-SSD-Firmware_JR111461",
-      "greenhouse:testnisc:8204161",
-      "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
-      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
-      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
-      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12796",
-      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
-      "workday:ssctech:/job/Braintree-MA---30-Braintree-Hill-Park/RS-Operational-AI-Analyst-Intern_R45766"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
