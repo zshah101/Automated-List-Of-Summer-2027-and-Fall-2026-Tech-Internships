@@ -313,6 +313,18 @@
     }
    }
   },
+  "aspentech": {
+   "name": "AspenTech",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:aspentech:/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459"
+     ],
+     "count": 1
+    }
+   }
+  },
   "assured guaranty": {
    "name": "Assured Guaranty",
    "cycles": {
@@ -598,9 +610,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-10",
      "role_ids": [
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Firmware-Engineering-Co-op_JR100324",
       "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2319,7 +2332,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 13,
+     "count": 14,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2332,6 +2345,7 @@
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+      "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"
      ]
@@ -2389,6 +2403,18 @@
     }
    }
   },
+  "nov": {
+   "name": "NOV",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "oracle:egay.fa.us6.oraclecloud.com:44449"
+     ],
+     "count": 1
+    }
+   }
+  },
   "nuclear": {
    "name": "The Nuclear Company",
    "cycles": {
@@ -2429,6 +2455,13 @@
       "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
       "workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406"
+     ],
+     "count": 1
     }
    }
   },
@@ -2626,6 +2659,20 @@
       "greenhouse:point72:7297642002"
      ],
      "count": 1
+    }
+   }
+  },
+  "q2": {
+   "name": "Q2",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12796",
+      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
+      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794"
+     ],
+     "count": 3
     }
    }
   },
@@ -3788,5 +3835,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T15:12:47Z"
+ "updated_at": "2026-09-15T19:15:01Z"
 }
