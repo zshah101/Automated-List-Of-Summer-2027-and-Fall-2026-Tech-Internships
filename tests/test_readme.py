@@ -61,7 +61,7 @@ class TestEvidenceSplit:
     def test_role_rows_render_skill_tags(self, outputs):
         readme.generate({"a": _rec("a", skills=["Python", "React", "SQL"])})
         text = (outputs / "README.md").read_text(encoding="utf-8")
-        assert "| Company | Role | Category | Location | Skills | Posted | Apply |" in text
+        assert "| Company | Role | Category | Location | Skills | Posted |" in text
         assert "| Python, SQL, React |" in text
 
     def test_role_rows_label_missing_skills(self, outputs):
@@ -183,7 +183,7 @@ class TestIdenticalOpenings:
     def test_the_table_shows_one_row(self, outputs):
         readme.generate(self._store())
         text = (outputs / "README.md").read_text(encoding="utf-8")
-        assert text.count("| Acme | Software Engineer Intern") == 1
+        assert text.count("| Acme | [Software Engineer Intern](") == 1
 
     def test_the_row_says_how_many_openings(self, outputs):
         readme.generate(self._store())
@@ -216,7 +216,62 @@ class TestIdenticalOpenings:
         store["1"]["location"] = "Seattle, WA"
         readme.generate(store)
         text = (outputs / "README.md").read_text(encoding="utf-8")
-        assert text.count("| Acme | Software Engineer Intern") == 2
+        assert text.count("| Acme | [Software Engineer Intern](") == 2
         # No row claims a count (the legend explaining the marker is not a row).
         rows = [ln for ln in text.splitlines() if ln.startswith("| Acme |")]
         assert rows and not any("openings)" in ln for ln in rows)
+
+
+class TestTableFitsItsColumn:
+    """The apply link has to survive GitHub's narrow README column.
+
+    A table can never render narrower than the longest unbreakable word in each
+    column. Six of those ("Securityriskadvisors", "Telecommunications", ...)
+    added up to more than the column GitHub gives the README, so the browser
+    pushed the last cell past the right edge — and the last cell was Apply, so
+    the one link a reader needs was the one they could not reach.
+
+    Two things fix that together: zero-width spaces give the browser somewhere
+    to wrap, and the Apply column is gone entirely because the role title now
+    carries the link. Both are asserted here.
+    """
+
+    def test_a_long_word_gets_somewhere_to_wrap(self):
+        assert readme.ZWSP in readme._breakable("Securityriskadvisors")
+
+    def test_it_breaks_a_name_at_its_own_seams_first(self):
+        assert readme._breakable("WallStreetQuants").split(readme.ZWSP) == [
+            "Wall", "Street", "Quants",
+        ]
+
+    def test_ordinary_words_are_left_alone(self):
+        for text in ("Acme", "Auto-Owners Insurance", "Software Engineer Intern"):
+            assert readme._breakable(text) == text
+
+    def test_a_link_is_never_touched(self):
+        # A break inside a URL is invisible on the page and a dead Apply button.
+        link = "[Apply](https://boards.greenhouse.io/verylongcompanyname/jobs/1)"
+        assert readme._breakable(link) == link
+
+    def test_no_column_can_demand_more_than_twelve_characters(self, outputs):
+        readme.generate({
+            "0": {
+                "id": "0", "company": "Securityriskadvisors",
+                "title": "Telecommunications Infrastructure Intern",
+                "location": "Massachusetts, United States",
+                "skills": ["TypeScript", "JavaScript"], "category": "Software",
+                "season": "Summer 2027", "url": "https://x/0", "is_open": True,
+                "posted_at": "2026-08-01T00:00:00Z",
+                "first_seen_at": "2026-08-01T00:00:00Z",
+            },
+        })
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        row = next(ln for ln in text.splitlines() if ln.startswith("| Security"))
+        # The Role cell is a markdown link, so its URL is legitimately one long
+        # unbreakable run; every other cell is prose and must stay soft.
+        cells = row.strip("|").split("|")
+        for i, cell in enumerate(cells):
+            if i == 1:
+                continue
+            for word in cell.split():
+                assert all(len(p) <= 12 for p in word.split(readme.ZWSP)), word
