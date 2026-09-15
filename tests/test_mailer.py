@@ -438,3 +438,240 @@ def test_plus_n_more_counts_roles_not_cards():
     fresh += [_same_job(r) for r in ("a", "b", "c")]
     html = mailer.build_digest_html(fresh)
     assert "plus 3 more new role" in html
+
+
+# --- cadence derived from the email budget --------------------------------------
+
+def test_min_gap_is_daily_on_the_free_tier(monkeypatch):
+    """224 addresses against Brevo's free 300/day affords exactly one send."""
+    monkeypatch.delenv("MAIL_DAILY_QUOTA", raising=False)
+    assert mailer.min_gap(224) == timedelta(hours=24)
+
+
+def test_min_gap_shortens_as_the_budget_grows(monkeypatch):
+    """The point of the whole change: a bigger plan buys instant alerts.
+
+    Nothing about the code changes — raising the quota is the only dial.
+    """
+    monkeypatch.setenv("MAIL_DAILY_QUOTA", "20000")
+    gap = mailer.min_gap(224)
+    assert gap < timedelta(minutes=30)
+    # ...and it stays inside the budget: one send per subscriber per gap must
+    # not exceed what the plan allows in a day.
+    sends_per_day = timedelta(hours=24) / gap
+    assert sends_per_day * 224 <= mailer.send_budget()
+
+
+def test_min_gap_never_goes_faster_than_the_budget_allows(monkeypatch):
+    """A list too big for even one daily send must not be mailed twice a day."""
+    monkeypatch.setenv("MAIL_DAILY_QUOTA", "100")
+    assert mailer.min_gap(5000) == timedelta(hours=24)
+
+
+def test_min_gap_falls_back_to_daily_when_the_list_size_is_unknown(monkeypatch):
+    monkeypatch.setenv("MAIL_DAILY_QUOTA", "20000")
+    assert mailer.min_gap(0) == timedelta(hours=24)
+
+
+def test_should_send_uses_the_budget_cadence_not_a_flat_day(monkeypatch):
+    monkeypatch.setenv("MAIL_DAILY_QUOTA", "20000")
+    now = datetime(2026, 9, 15, 12, tzinfo=UTC)
+    an_hour_ago = (now - timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Under the old flat 24-hour gate this was False no matter what you paid.
+    assert mailer.should_send(
+        {"last_digest_at": an_hour_ago}, 5, now=now, list_size=224
+    ) is True
+
+
+def test_should_send_still_refuses_an_empty_digest(monkeypatch):
+    monkeypatch.setenv("MAIL_DAILY_QUOTA", "20000")
+    now = datetime(2026, 9, 15, 12, tzinfo=UTC)
+    old = (now - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    assert mailer.should_send(
+        {"last_digest_at": old}, 0, now=now, list_size=224
+    ) is False
+
+
+# --- delivery health ------------------------------------------------------------
+
+def test_health_flags_the_supabase_pause_that_went_unnoticed():
+    """The exact 2026-08-24 shape: roles waiting, ledger frozen, runs green."""
+    now = datetime(2026, 9, 15, 7, tzinfo=UTC)
+    state = {"last_digest_at": "2026-08-22T10:52:11Z"}
+    ok, reason = mailer.health(state, pending_count=428, now=now)
+    assert ok is False
+    assert "no digest has gone out" in reason
+
+
+def test_health_reports_a_recorded_failure_with_its_cause():
+    now = datetime(2026, 9, 15, 7, tzinfo=UTC)
+    state = {"last_error": {
+        "at": "2026-09-15T06:00:00Z", "stage": "subscriber lookup",
+        "detail": "ConnectError('project is paused')",
+    }}
+    ok, reason = mailer.health(state, pending_count=0, now=now)
+    assert ok is False
+    assert "subscriber lookup" in reason and "paused" in reason
+
+
+def test_health_is_quiet_when_there_is_simply_nothing_to_send():
+    now = datetime(2026, 9, 15, 7, tzinfo=UTC)
+    state = {"last_digest_at": "2026-08-22T10:52:11Z"}
+    ok, _ = mailer.health(state, pending_count=0, now=now)
+    assert ok is True
+
+
+def test_health_tolerates_a_recent_digest_with_roles_still_queued():
+    now = datetime(2026, 9, 15, 7, tzinfo=UTC)
+    recent = (now - timedelta(hours=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    ok, _ = mailer.health({"last_digest_at": recent}, pending_count=12, now=now)
+    assert ok is True
+
+
+class TestAnOutageIsNeverSilent:
+    """The 2026-08-24 regression: Supabase paused, and nothing said so.
+
+    Every exit from `send_digest` returned 0, which the runner printed as
+    "not due" — identical to a healthy run with no news. The subscriber list
+    was unreachable for 24 days and every Actions run stayed green.
+    """
+
+    def _configure(self, monkeypatch, tmp_path):
+        monkeypatch.setattr(
+            paths, "MAIL_STATE_PATH", str(tmp_path / "mail_state.json")
+        )
+        for key, value in {
+            "BREVO_API_KEY": "brevo", "SUPABASE_URL": "https://db.example",
+            "SUPABASE_SERVICE_KEY": "private-ledger-key",
+            "MAIL_FROM": "alerts@example.com",
+        }.items():
+            monkeypatch.setenv(key, value)
+        monkeypatch.setattr(mailer, "_confirmation_requests", lambda *_: [])
+
+    def test_unreachable_subscriber_list_is_recorded_not_swallowed(
+        self, monkeypatch, tmp_path
+    ):
+        self._configure(monkeypatch, tmp_path)
+
+        def paused(*_args, **_kwargs):
+            raise httpx.ConnectError("project is paused")
+
+        monkeypatch.setattr(mailer, "_subscribers", paused)
+        store = {"a": _record(1, id="a")}
+
+        assert mailer.send_digest(store) == 0      # still never fatal...
+        state = mailer.load_state()
+        assert state["last_error"]["stage"] == "subscriber lookup"
+        assert "paused" in state["last_error"]["detail"]
+
+        # ...and the run now has something to shout about.
+        ok, reason = mailer.health(state, pending_count=1)
+        assert ok is False
+        assert "subscriber lookup" in reason
+
+    def test_an_empty_list_holds_the_digest_and_says_so(
+        self, monkeypatch, tmp_path
+    ):
+        self._configure(monkeypatch, tmp_path)
+        monkeypatch.setattr(mailer, "_subscribers", lambda *_: [])
+        store = {"a": _record(1, id="a")}
+
+        assert mailer.send_digest(store) == 0
+        state = mailer.load_state()
+        assert state["last_error"]["stage"] == "subscriber lookup"
+        assert mailer.health(state, pending_count=1)[0] is False
+
+    def test_half_configured_mailer_reports_the_missing_secret(
+        self, monkeypatch, tmp_path
+    ):
+        """A rotated-away key must not look like "email isn't set up here"."""
+        self._configure(monkeypatch, tmp_path)
+        monkeypatch.delenv("BREVO_API_KEY")
+
+        assert mailer.send_digest({"a": _record(1, id="a")}) == 0
+        state = mailer.load_state()
+        assert state["last_error"]["stage"] == "configuration"
+        assert "BREVO_API_KEY" in state["last_error"]["detail"]
+
+    def test_a_mailer_that_was_never_configured_stays_quiet(
+        self, monkeypatch, tmp_path
+    ):
+        """No secrets at all is a deliberate opt-out, not a broken install."""
+        monkeypatch.setattr(
+            paths, "MAIL_STATE_PATH", str(tmp_path / "mail_state.json")
+        )
+        for key in ("BREVO_API_KEY", "SUPABASE_URL",
+                    "SUPABASE_SERVICE_KEY", "MAIL_FROM"):
+            monkeypatch.delenv(key, raising=False)
+
+        assert mailer.send_digest({"a": _record(1, id="a")}) == 0
+        assert mailer.load_state() == {}
+
+    def test_a_clean_send_clears_a_previous_failure(self, monkeypatch, tmp_path):
+        self._configure(monkeypatch, tmp_path)
+        monkeypatch.setattr(mailer, "_subscribers", lambda *_: [
+            {"email": "ok@example.com", "unsub_token": "tok"},
+        ])
+        monkeypatch.setattr(mailer.time, "sleep", lambda *_: None)
+
+        class Resp:
+            def raise_for_status(self):
+                return None
+
+        class Client:
+            def __init__(self, *a, **k):
+                pass
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+
+            def post(self, *a, **k):
+                return Resp()
+
+        monkeypatch.setattr(mailer.httpx, "Client", Client)
+        mailer._save_state({"last_error": {
+            "at": "2026-09-01T00:00:00Z", "stage": "subscriber lookup",
+            "detail": "boom",
+        }})
+
+        assert mailer.send_digest({"a": _record(1, id="a")}) == 1
+        assert "last_error" not in mailer.load_state()
+
+
+# --- coming back from an outage -------------------------------------------------
+
+def _backlog(n: int) -> list[dict]:
+    # Distinct employers on purpose: identical postings are deliberately folded
+    # into one card, which would make the cap look like it wasn't applied.
+    return [
+        _record(float(i), id=f"r{i}", company=f"Acme{i}", url=f"https://x/{i}")
+        for i in range(n)
+    ]
+
+
+def test_catch_up_digest_settles_the_whole_backlog():
+    """A 428-role backlog must not drip 30 stale roles a day for a fortnight."""
+    now = datetime(2026, 9, 15, 7, tzinfo=UTC)
+    fresh = _backlog(60)
+    state = {"last_digest_at": "2026-08-22T10:52:11Z"}  # 24 days stale
+    settled = mailer.settling_role_ids(fresh, state, now=now)
+    assert len(settled) == 60
+
+
+def test_a_normal_busy_day_still_holds_the_overflow_back():
+    """Unchanged where the old behaviour was right: nothing is dropped."""
+    now = datetime(2026, 9, 15, 7, tzinfo=UTC)
+    fresh = _backlog(60)
+    recent = (now - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    settled = mailer.settling_role_ids(fresh, {"last_digest_at": recent}, now=now)
+    assert len(settled) == mailer._MAX_ROLES
+
+
+def test_a_digest_that_fits_settles_exactly_what_it_printed():
+    now = datetime(2026, 9, 15, 7, tzinfo=UTC)
+    fresh = _backlog(5)
+    state = {"last_digest_at": "2026-08-22T10:52:11Z"}
+    assert len(mailer.settling_role_ids(fresh, state, now=now)) == 5

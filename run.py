@@ -5,6 +5,7 @@
     python run.py update     # fetch -> filter -> enrich -> store -> publish everything
     python run.py render     # rebuild published artifacts from the store (no fetch)
     python run.py notify     # announce what `update` queued (run AFTER the push)
+    python run.py mailcheck  # fail the run if the email digest has stalled
     python run.py all        # discover + harvest + update
 
 `update` and `notify` are separate on purpose. Alerts promise a role is on the
@@ -150,11 +151,43 @@ def cmd_notify() -> None:
     sent = mailer.send_digest(store_data)
     print(f"  email digest         {f'sent to {sent} subscribers' if sent else 'not due'}")
 
+    # "not due" and "the database has been unreachable for three weeks" printed
+    # identically until now, which is how a 24-day outage went unnoticed. Say
+    # which one it is, every run.
+    state = mailer.load_state()
+    waiting = len(mailer.pending_roles(store_data, state))
+    ok, reason = mailer.health(state, waiting)
+    print(f"  email health         {'ok' if ok else 'FAILING'} - {reason}")
+    if not ok:
+        # Picked up as an annotation on the Actions run; `run.py mailcheck`
+        # turns the same verdict into a red run, which is what actually
+        # reaches a human by email.
+        print(f"::error title=Email digest is not going out::{reason}")
+
     # The mirror syncs here — after the gate and the push — so data the gate
     # would have rejected can never reach it.
     stats = pipeline.load_stats()
     if db.sync(store_data, stats):
         print("  Postgres mirror      synced")
+
+
+def cmd_mailcheck() -> None:
+    """Fail the run when the digest is not reaching people.
+
+    Deliberately a separate command from `notify`: it runs after the alert
+    state has been committed, so turning the job red to raise a human never
+    costs the delivery ledger it was complaining about.
+    """
+    store_data = store.load(paths.JOBS_PATH)
+    state = mailer.load_state()
+    waiting = len(mailer.pending_roles(store_data, state))
+    ok, reason = mailer.health(state, waiting)
+    if ok:
+        print(f"Email digest healthy - {reason}")
+        return
+    print(f"::error title=Email digest is not going out::{reason}")
+    print(f"Email digest FAILING - {reason}", file=sys.stderr)
+    sys.exit(1)
 
 
 def main() -> None:
@@ -169,6 +202,8 @@ def main() -> None:
         cmd_render()
     elif cmd == "notify":
         cmd_notify()
+    elif cmd == "mailcheck":
+        cmd_mailcheck()
     elif cmd == "all":
         cmd_discover()
         cmd_harvest()

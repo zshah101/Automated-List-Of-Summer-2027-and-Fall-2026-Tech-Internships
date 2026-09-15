@@ -14,8 +14,23 @@
 -- against the linked project. For a one-off install, paste the complete file
 -- into the Supabase SQL editor. Do not deploy the site writer until this
 -- migration has succeeded: db.py calls the RPC defined at the end of the file.
+--
+-- APPLYING THIS IS NOT OPTIONAL, and shipping the site without it fails
+-- silently in the one way nobody checks. The double opt-in flow shipped on
+-- 2026-08-06; this file was never run against the live project, so the signup
+-- form POSTed to /rpc/request_email_subscription — a function that did not
+-- exist — and 404'd for 40 days. The dashboard showed no error and the engine
+-- never touched that path, so the only symptom was a subscriber count that
+-- stopped moving. The email_subscribers half of this file was applied to the
+-- live project on 2026-09-15 (224 subscribers preserved, unsub_token converted
+-- uuid -> text in place); the mirror half below predates it.
 
-create extension if not exists pgcrypto;
+-- pgcrypto supplies gen_random_bytes for the secret tokens below. On
+-- Supabase it is installed into the `extensions` schema, NOT public, so every
+-- call is schema-qualified: a security definer function pinned to
+-- `search_path = public` cannot see an unqualified gen_random_bytes and fails
+-- at creation with 42883.
+create extension if not exists pgcrypto with schema extensions;
 
 -- ---------------------------------------------------------------------------
 -- Email subscribers
@@ -29,8 +44,8 @@ create table if not exists public.email_subscribers (
     email        text        not null,
     -- The secret in the unsubscribe URL. Random per subscriber, so knowing one
     -- tells you nothing about any other.
-    unsub_token  text        not null unique default encode(gen_random_bytes(24), 'hex'),
-    confirmation_token text not null unique default encode(gen_random_bytes(24), 'hex'),
+    unsub_token  text        not null unique default encode(extensions.gen_random_bytes(24), 'hex'),
+    confirmation_token text not null unique default encode(extensions.gen_random_bytes(24), 'hex'),
     -- Existing installations are backfilled as confirmed below. The default
     -- is then removed so every new request must complete double opt-in.
     confirmed_at timestamptz default now(),
@@ -44,8 +59,41 @@ create table if not exists public.email_subscribers (
 begin;
 lock table public.email_subscribers in access exclusive mode;
 
+-- The first installation typed unsub_token as uuid default gen_random_uuid().
+-- `create table if not exists` above leaves that alone, so unsubscribe_email
+-- below (text) would be created as a SECOND overload against a uuid column:
+-- PostgREST then cannot resolve /rpc/unsubscribe_email and every unsubscribe
+-- link 300s. Convert in place instead. ::text yields the exact hyphenated
+-- string those links already carry, so no live unsubscribe URL breaks.
+do $$
+begin
+    if exists (
+        select 1 from information_schema.columns
+         where table_schema = 'public' and table_name = 'email_subscribers'
+           and column_name = 'unsub_token' and data_type = 'uuid'
+    ) then
+        alter table public.email_subscribers alter column unsub_token drop default;
+        alter table public.email_subscribers
+            alter column unsub_token type text using unsub_token::text;
+    end if;
+end $$;
+alter table public.email_subscribers alter column unsub_token
+    set default encode(extensions.gen_random_bytes(24), 'hex');
+drop function if exists public.unsubscribe_email(uuid);
+
+-- Added WITHOUT a default and then filled per row: ADD COLUMN with a volatile
+-- default is not a dependable way to give N existing rows N DISTINCT secrets,
+-- and one shared confirmation token across the whole list is a vulnerability,
+-- not a cosmetic issue.
 alter table public.email_subscribers add column if not exists
-    confirmation_token text not null default encode(gen_random_bytes(24), 'hex');
+    confirmation_token text;
+update public.email_subscribers
+   set confirmation_token = encode(extensions.gen_random_bytes(24), 'hex')
+ where confirmation_token is null;
+alter table public.email_subscribers
+    alter column confirmation_token set not null;
+alter table public.email_subscribers alter column confirmation_token
+    set default encode(extensions.gen_random_bytes(24), 'hex');
 alter table public.email_subscribers add column if not exists
     confirmed_at timestamptz default now();
 alter table public.email_subscribers add column if not exists
@@ -87,6 +135,12 @@ alter table public.email_subscribers
 drop index if exists public.email_subscribers_email_ci_idx;
 create unique index email_subscribers_email_ci_idx
     on public.email_subscribers (lower(email));
+-- The `unique` markers in the create table never reach an existing install,
+-- and both of these are secrets matched on directly by the RPCs below.
+create unique index if not exists email_subscribers_confirmation_token_idx
+    on public.email_subscribers (confirmation_token);
+create unique index if not exists email_subscribers_unsub_token_idx
+    on public.email_subscribers (unsub_token);
 
 alter table public.email_subscribers
     drop constraint if exists email_shape;
@@ -100,6 +154,7 @@ alter table public.email_subscribers enable row level security;
 -- No direct table policy. The digest sender uses the service key (RLS bypass);
 -- public clients can only execute the narrow functions below.
 drop policy if exists "anon can subscribe" on public.email_subscribers;
+drop policy if exists "public signup" on public.email_subscribers;
 
 revoke all on public.email_subscribers from anon, authenticated;
 
@@ -107,7 +162,7 @@ create or replace function public.request_email_subscription(address text)
 returns void
 language plpgsql
 security definer
-set search_path = public
+set search_path = public, extensions
 as $$
 declare
     normalized text := lower(trim(address));
@@ -124,7 +179,7 @@ begin
             when email_subscribers.confirmed_at is null
              and coalesce(email_subscribers.confirmation_sent_at, '-infinity')
                  < now() - interval '24 hours'
-            then encode(gen_random_bytes(24), 'hex')
+            then encode(extensions.gen_random_bytes(24), 'hex')
             else email_subscribers.confirmation_token end,
         confirmation_sent_at = case
             when email_subscribers.confirmed_at is null
@@ -138,11 +193,11 @@ create or replace function public.confirm_email_subscription(token text)
 returns void
 language sql
 security definer
-set search_path = public
+set search_path = public, extensions
 as $$
     update public.email_subscribers
        set confirmed_at = coalesce(confirmed_at, now()),
-           confirmation_token = encode(gen_random_bytes(24), 'hex')
+           confirmation_token = encode(extensions.gen_random_bytes(24), 'hex')
      where confirmation_token = token;
 $$;
 
@@ -150,7 +205,7 @@ create or replace function public.unsubscribe_email(token text)
 returns void
 language sql
 security definer
-set search_path = public
+set search_path = public, extensions
 as $$
     delete from public.email_subscribers where unsub_token = token;
 $$;

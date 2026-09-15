@@ -1,17 +1,32 @@
-"""Daily email digests to our own subscriber list (optional, best-effort).
+"""New-role email alerts to our own subscriber list (optional, best-effort).
 
-The dashboard signup form inserts emails into Supabase (`email_subscribers`,
-RLS: the public can sign up but never read the list). Each engine run calls
-`send_digest`; it actually sends at most once a day, and only when there is
-something new to say. Every email carries that subscriber's one-click
-unsubscribe link (a per-subscriber secret token).
+The dashboard signup form calls a narrow Supabase RPC that records a pending
+address (`email_subscribers`, RLS: the public can request a subscription,
+confirm one, or unsubscribe, but can never read the list). Each engine run
+calls `send_digest`, which sends only roles nobody has been told about yet —
+`sent_role_ids` is the sole definition of "new", so nothing repeats and
+nothing is skipped. Every email carries that subscriber's own unsubscribe link
+(a per-subscriber secret token).
 
-Sending goes through Brevo's transactional API (free tier: 300 emails/day,
-no domain required — a verified sender address is enough). Like every
-integration here: missing env vars = silent no-op, failures never break a run.
+How OFTEN a run may send is derived from the email budget rather than fixed.
+Mailing the list costs one email per subscriber, so `MAIL_DAILY_QUOTA` divided
+by the list size is how many full sends a day the plan affords, and `min_gap`
+turns that into the minimum spacing. The useful consequence: raising the quota
+on a bigger plan makes alerts more instant by itself. At the Brevo free tier's
+300/day a 224-address list affords one send a day; at 20k/day the same list
+clears one every run, which is what "instant" actually requires.
+
+Sending goes through Brevo's transactional API (free tier: 300 emails/day, no
+domain required — a verified sender address is enough). Failures never break a
+run, but they are never silent either: a run that could not send records why
+in the ledger, and `health()` turns a persistent failure into a red build. It
+exists because it didn't: on 2026-08-24 Supabase auto-paused the free project,
+the subscriber lookup threw into a bare `except`, and 224 people heard nothing
+for 24 days while every run reported success.
 
 Env: BREVO_API_KEY, MAIL_FROM (verified sender, "Name <addr>" or bare),
-     SUPABASE_URL, SUPABASE_SERVICE_KEY.
+     SUPABASE_URL, SUPABASE_SERVICE_KEY,
+     MAIL_DAILY_QUOTA (optional; default 300, the free Brevo tier).
 """
 
 from __future__ import annotations
@@ -30,7 +45,7 @@ import httpx
 
 from . import config, filters, grouping, h1b, paths, sponsorship
 
-_MIN_HOURS_BETWEEN = 24          # a real rolling day; never double-spend quota
+_MIN_HOURS_BETWEEN = 24          # fallback cadence when the list size is unknown
 # Backstop only — NOT the definition of "new". `sent_role_ids` decides that.
 # This bound exists for one situation: if mail state is ever lost or reset, the
 # next digest must not mail the entire back catalogue. Under normal operation
@@ -40,8 +55,13 @@ _MAX_LOOKBACK_DAYS = 14
 # mailer doesn't blast every open role at the whole list.
 _COLD_START_HOURS = 48
 _MAX_ROLES = 30                  # cap the digest body
-_MAX_SENDS = 250                 # stay under Brevo's free 300/day
+# Emails the provider plan allows per rolling day. Brevo's free transactional
+# tier is 300/day; MAIL_DAILY_QUOTA overrides it for any bigger plan.
+_DEFAULT_DAILY_QUOTA = 300
 _MAX_CONFIRMATIONS = 25          # reserve most daily capacity for the digest
+# Confirmations plus slack, held back from the digest budget.
+_QUOTA_RESERVE = 50
+_MAX_SENDS = _DEFAULT_DAILY_QUOTA - _QUOTA_RESERVE  # 250 digest sends/day free
 _BREVO_URL = "https://api.brevo.com/v3/smtp/email"
 _NOTIFY_DEADLINE_SECONDS = 8 * 60
 _REQUEST_TIMEOUT = httpx.Timeout(8.0, connect=4.0)
@@ -67,6 +87,11 @@ def _load_state() -> dict:
         return _validate_state(state)
     except MailStateCorrupt as exc:
         raise MailStateCorrupt(f"{paths.MAIL_STATE_PATH}: {exc}") from exc
+
+
+def load_state() -> dict:
+    """The delivery ledger, for callers that only want to inspect it."""
+    return _load_state()
 
 
 def _save_state(state: dict) -> None:
@@ -238,13 +263,65 @@ def new_roles(store_data: dict, now: datetime | None = None,
     return fresh
 
 
-def should_send(state: dict, fresh_count: int, now: datetime | None = None) -> bool:
-    """At most one digest a day, and never an empty one."""
+def daily_quota() -> int:
+    """Emails the configured provider plan allows per rolling day."""
+    raw = (os.environ.get("MAIL_DAILY_QUOTA") or "").strip()
+    if raw:
+        try:
+            value = int(raw)
+        except ValueError:
+            return _DEFAULT_DAILY_QUOTA
+        if value > 0:
+            return value
+    return _DEFAULT_DAILY_QUOTA
+
+
+def send_budget(quota: int | None = None) -> int:
+    """Digest sends available per rolling day, after reserving confirmations."""
+    return max(1, (quota if quota is not None else daily_quota()) - _QUOTA_RESERVE)
+
+
+def min_gap(list_size: int, quota: int | None = None) -> timedelta:
+    """Shortest gap between digests that the daily email budget actually affords.
+
+    The cadence is DERIVED, not configured. Mailing the list costs one email
+    per subscriber, so a budget of `send_budget()` a day buys
+    `budget // list_size` full sends a day, and the gap is the day divided by
+    that. The consequence is the useful part: raising MAIL_DAILY_QUOTA (a
+    bigger plan) automatically makes alerts more instant, with no code change
+    and no risk of blowing the quota. At the free 300/day a 224-address list
+    affords exactly one send a day; at 20k/day the same list clears a send
+    every few minutes, i.e. every run.
+
+    An unknown list size gives no basis to compute anything, so the
+    conservative daily fallback stands.
+    """
+    if list_size <= 0:
+        return timedelta(hours=_MIN_HOURS_BETWEEN)
+    sends_per_day = send_budget(quota) // list_size
+    if sends_per_day <= 1:
+        return timedelta(hours=_MIN_HOURS_BETWEEN)
+    return timedelta(hours=24) / sends_per_day
+
+
+def should_send(state: dict, fresh_count: int, now: datetime | None = None,
+                list_size: int | None = None) -> bool:
+    """Is a digest due? Never an empty one, never over budget.
+
+    "Due" used to mean a flat 24 hours. That was really the free tier's 300/day
+    quota expressed as a constant, which meant a bigger plan bought nothing.
+    The gap now comes from `min_gap`, so the list moves as fast as the budget
+    allows and no faster.
+    """
     if fresh_count == 0:
         return False
     now = now or datetime.now(UTC)
     last = _parse_ts(state.get("last_digest_at"))
-    return last is None or (now - last) >= timedelta(hours=_MIN_HOURS_BETWEEN)
+    if last is None:
+        return True
+    if list_size is None:
+        list_size = int(state.get("subscribers_total") or 0)
+    return (now - last) >= min_gap(list_size)
 
 
 # --- composition ---------------------------------------------------------------
@@ -320,6 +397,32 @@ def listed_role_ids(fresh: list[dict]) -> list[str]:
         for rid in (row.get("opening_ids") or [row.get("id")])
         if rid
     ]
+
+
+def settling_role_ids(fresh: list[dict], state: dict,
+                      now: datetime | None = None) -> list[str]:
+    """Which roles a digest may mark as sent once it lands.
+
+    Normally only the cards actually printed. The rest have genuinely not been
+    announced to anyone, so they lead the next digest — that is the right
+    answer when a busy day overflows the body by a handful of roles.
+
+    It is the wrong answer coming out of an outage. On 2026-09-15 the backlog
+    was 428 roles against a 30-card body: settling only what was printed would
+    have dripped fortnight-old roles as "new" for fourteen straight days,
+    burying each day's actual news behind the backlog. The body already
+    accounts for the overflow in so many words ("…plus N more new roles on the
+    site"), so a catch-up digest is entitled to settle all of it and let the
+    next one be genuinely current.
+    """
+    listed = listed_role_ids(fresh)
+    if len(fresh) <= _MAX_ROLES:
+        return listed
+    now = now or datetime.now(UTC)
+    last = _parse_ts(state.get("last_digest_at"))
+    if last is None or (now - last) < timedelta(hours=_STALE_AFTER_HOURS):
+        return listed
+    return [str(r["id"]) for r in fresh if r.get("id")]
 
 
 def build_digest_html(fresh: list[dict]) -> str:
@@ -477,12 +580,13 @@ def _recipients(subscribers: list[dict], cursor: int) -> tuple[list[dict], int]:
     start point instead means a list of any size gets served in turn, so the
     failure mode degrades from "starved forever" to "hears from us less often".
     """
+    budget = send_budget()
     total = len(subscribers)
-    if total <= _MAX_SENDS:
+    if total <= budget:
         return subscribers, 0
     start = cursor % total
     ordered = subscribers[start:] + subscribers[:start]
-    return ordered[:_MAX_SENDS], (start + _MAX_SENDS) % total
+    return ordered[:budget], (start + budget) % total
 
 
 def _recipient_key(address: str, secret: str) -> str:
@@ -542,7 +646,7 @@ def _attempt_capacity(state: dict, now: datetime) -> int:
             kept.append({"at": item["at"], "count": count})
             used += count
     state["send_attempts"] = kept
-    return max(0, _MAX_SENDS - used)
+    return max(0, send_budget() - used)
 
 
 def _record_attempt(state: dict, now: datetime) -> None:
@@ -556,6 +660,62 @@ def _record_attempt(state: dict, now: datetime) -> None:
 
 def _deadline_reached(deadline: float) -> bool:
     return time.monotonic() >= deadline
+
+
+# --- failure visibility ---------------------------------------------------------
+# Every path out of `send_digest` used to be `return 0`, which the caller printed
+# as "not due". "Nothing new to say" and "the database has been unreachable for
+# three weeks" were the same word. On 2026-08-24 Supabase auto-paused the free
+# project; the subscriber lookup threw, the except swallowed it, and the list
+# heard nothing for 24 days without a single signal anywhere. The ledger now
+# records WHY a run sent nothing, and `health()` turns a persistent why into a
+# loud one.
+
+_STALE_AFTER_HOURS = 26  # one daily cadence plus slack for a late run
+
+
+def _record_failure(state: dict, now: datetime, stage: str, detail: str) -> None:
+    """Remember that this run could not send, and what stopped it."""
+    state["last_error"] = {
+        "at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "stage": stage,
+        "detail": str(detail)[:300],
+    }
+
+
+def _clear_failure(state: dict) -> None:
+    state.pop("last_error", None)
+
+
+def health(state: dict, pending_count: int = 0,
+           now: datetime | None = None) -> tuple[bool, str]:
+    """Is the digest actually reaching people? Returns (ok, human reason).
+
+    Unhealthy means "there is mail to send and it is not going out": either the
+    last run recorded a hard failure, or roles have been waiting longer than a
+    full cadence. Both are conditions a person needs to see; neither is visible
+    from the data artifacts alone.
+    """
+    now = now or datetime.now(UTC)
+    error = state.get("last_error")
+    if isinstance(error, dict) and error.get("stage"):
+        return False, (
+            f"last run failed at {error.get('stage')}: "
+            f"{error.get('detail')} (at {error.get('at')})"
+        )
+    if pending_count <= 0:
+        return True, "no roles waiting"
+    last = _parse_ts(state.get("last_digest_at"))
+    if last is None:
+        return True, f"{pending_count} waiting; no digest sent yet"
+    stale_for = now - last
+    if stale_for >= timedelta(hours=_STALE_AFTER_HOURS):
+        hours = int(stale_for.total_seconds() // 3600)
+        return False, (
+            f"{pending_count} roles waiting but no digest has gone out in "
+            f"{hours}h (last {state.get('last_digest_at')})"
+        )
+    return True, f"{pending_count} waiting; last digest {state.get('last_digest_at')}"
 
 
 def _send_confirmations(api_key: str, base_url: str, service_key: str,
@@ -670,7 +830,23 @@ def send_digest(store_data: dict) -> int:
     base_url = (os.environ.get("SUPABASE_URL") or "").rstrip("/")
     service_key = os.environ.get("SUPABASE_SERVICE_KEY")
     sender = _sender()
-    if not api_key or not base_url or not service_key or not sender:
+    configured = (api_key, base_url, service_key, sender)
+    if not all(configured):
+        # Nothing set at all is an install that simply doesn't use email, and
+        # must stay quiet. SOME of it set is a broken deployment — a rotated
+        # key, a dropped secret — and that is worth saying out loud.
+        if any(configured):
+            state = _load_state()
+            missing = [
+                name for name, value in (
+                    ("BREVO_API_KEY", api_key), ("SUPABASE_URL", base_url),
+                    ("SUPABASE_SERVICE_KEY", service_key), ("MAIL_FROM", sender),
+                )
+                if not value
+            ]
+            _record_failure(state, datetime.now(UTC), "configuration",
+                            f"missing {', '.join(missing)}")
+            _save_state(state)
         return 0
 
     deadline = time.monotonic() + _NOTIFY_DEADLINE_SECONDS
@@ -682,22 +858,41 @@ def send_digest(store_data: dict) -> int:
         api_key, base_url, service_key, sender, state, now, deadline,
     )
     if _deadline_reached(deadline):
+        _record_failure(state, now, "deadline",
+                        "ran out of time before the digest could start")
+        _save_state(state)
         return 0
-    pending = state.get("pending_digest") or None
-    fresh = pending_roles(store_data, state, now=now) if pending is None else []
-    if pending is None and not should_send(state, len(fresh), now=now):
-        return 0
+
+    # The subscriber list is fetched BEFORE deciding whether a digest is due,
+    # for three reasons: the cadence needs the real list size, an unreachable
+    # database has to be reported rather than mistaken for "nothing new", and
+    # a request every run is what keeps a free-tier project from being paused
+    # for inactivity in the first place.
     try:
         subscribers = _subscribers(base_url, service_key)
-    except Exception:  # noqa: BLE001 — alerting is a side channel, never fatal
+    except Exception as exc:  # noqa: BLE001 — never fatal, but never silent
+        _record_failure(state, now, "subscriber lookup", repr(exc))
+        _save_state(state)
         return 0
     subscribers = [s for s in subscribers
                    if (s.get("email") or "").strip() and s.get("unsub_token")]
+
+    pending = state.get("pending_digest") or None
+    fresh = pending_roles(store_data, state, now=now) if pending is None else []
+    if pending is None and not should_send(
+        state, len(fresh), now=now, list_size=len(subscribers)
+    ):
+        _clear_failure(state)  # healthy: simply nothing due
+        _save_state(state)
+        return 0
     if not subscribers:
         # An existing pending digest has a durable intended audience. A
         # transient successful-but-empty subscriber snapshot is not evidence
         # that every one of them unsubscribed; settling them all would silently
         # drop the digest and mark its roles sent. Keep it pending for retry.
+        _record_failure(state, now, "subscriber lookup",
+                        "the list came back empty; holding the digest")
+        _save_state(state)
         return 0
 
     # Map the private subscriber rows to public-safe opaque keys. Case variants
@@ -720,7 +915,7 @@ def send_digest(store_data: dict) -> int:
         ))
         if not recipient_keys:
             return 0
-        listed_ids = listed_role_ids(fresh)
+        listed_ids = settling_role_ids(fresh, state, now)
         pending = {
             "created_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "role_ids": [r["id"] for r in fresh if r.get("id")],
@@ -794,6 +989,15 @@ def send_digest(store_data: dict) -> int:
     state["last_digest_failed"] = len(remaining)
     state["retry_recipient_keys"] = remaining
     state["subscribers_total"] = len(subscribers)
+    if remaining:
+        # Partial delivery is normal (quota, deadline) and resumes next run,
+        # but it stops being normal if it never finishes — so it is recorded
+        # and `health()` escalates once the roles have waited too long.
+        _record_failure(state, now, "delivery",
+                        f"{len(remaining)} of {len(intended)} recipients "
+                        f"still unsent; resuming next run")
+    else:
+        _clear_failure(state)
     if not remaining:
         state["last_digest_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
         index = _identity_index(store_data)
