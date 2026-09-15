@@ -103,10 +103,15 @@ def test_feed_emits_one_entry_for_identical_requisitions():
 
 
 def test_feed_never_folds_a_closed_requisition_into_a_live_one():
+    # `data_as_of` is pinned to the fixtures' own era on purpose. A closed
+    # requisition only stays in the feed for _FEED_RETENTION_DAYS, measured
+    # from this timestamp — so left to the wall clock this test quietly stopped
+    # testing grouping at all and started failing on the retention cutoff
+    # instead, two weeks after it was written.
     publish.write_feed({
         "a": _req("a"),
         "b": _req("b", is_open=False, closed_at="2026-08-07T12:00:00Z"),
-    })
+    }, data_as_of="2026-08-07T12:00:00Z")
     tree = ET.parse(paths.FEED_PATH)
     entries = tree.findall("{http://www.w3.org/2005/Atom}entry")
     assert len(entries) == 2
