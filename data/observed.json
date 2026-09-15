@@ -681,6 +681,18 @@
     }
    }
   },
+  "cai": {
+   "name": "CAI",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488"
+     ],
+     "count": 1
+    }
+   }
+  },
   "ccc intelligent solutions": {
    "name": "CCC Intelligent Solutions",
    "cycles": {
@@ -3758,5 +3770,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T08:04:43Z"
+ "updated_at": "2026-09-15T10:12:51Z"
 }
