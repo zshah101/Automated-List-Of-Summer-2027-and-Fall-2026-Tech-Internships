@@ -1,6 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "rippling:apexanalytix-careers:40e4727d-e132-4de0-89ba-b4fdbd5860a7",
+      "rippling:apexanalytix-careers:e275fd70-45a3-4a64-8688-cace8a3f87ef",
+      "workday:psu:/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255711",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255744",
+      "greenhouse:ensco:5421861008",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
+      "smartrecruiters:Interco:744000149591449",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
+      "workday:oshkoshcorporation:/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493",
+      "greenhouse:workshop:5237900007"
+    ],
+    "telegram": [
+      "rippling:apexanalytix-careers:40e4727d-e132-4de0-89ba-b4fdbd5860a7",
+      "rippling:apexanalytix-careers:e275fd70-45a3-4a64-8688-cace8a3f87ef",
+      "workday:psu:/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2",
+      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255711",
+      "workday:amgen:/job/United-States---Remote/Grad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255744",
+      "greenhouse:ensco:5421861008",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
+      "smartrecruiters:Interco:744000149591449",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
+      "workday:oshkoshcorporation:/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493",
+      "greenhouse:workshop:5237900007"
+    ]
   }
 }
