@@ -73,6 +73,18 @@
     }
    }
   },
+  "ai intern to the ceo": {
+   "name": "AI Intern to the CEO",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "ashby:cyvl:8bfc4116-b0bb-47f8-bca1-7069a37db328"
+     ],
+     "count": 1
+    }
+   }
+  },
   "air products": {
    "name": "Air Products",
    "cycles": {
@@ -268,9 +280,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-10",
-     "count": 1,
+     "count": 2,
      "role_ids": [
-      "greenhouse:andurilindustries:5148079007"
+      "greenhouse:andurilindustries:5148079007",
+      "greenhouse:andurilindustries:5239083007"
      ]
     }
    }
@@ -1891,9 +1904,10 @@
      "first_posted": "2026-09-01",
      "role_ids": [
       "workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Data-Science-Co-Op--Summer-2027_R-096746",
-      "workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743"
+      "workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743",
+      "workday:jj:/job/Santa-Clara-California-United-States-of-America/Software-Engineering-Intern---Robotics-R-D_R-099919"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -2598,11 +2612,12 @@
     "Summer 2027": {
      "first_posted": "2026-08-20",
      "role_ids": [
+      "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
      ],
-     "count": 3
+     "count": 4
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -3187,9 +3202,12 @@
      "first_posted": "2026-08-28",
      "role_ids": [
       "oracle:hdhl.fa.us6.oraclecloud.com:1007361",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007589"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007774",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007777"
      ],
-     "count": 2
+     "count": 5
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -3835,5 +3853,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T19:15:01Z"
+ "updated_at": "2026-09-15T22:29:22Z"
 }
