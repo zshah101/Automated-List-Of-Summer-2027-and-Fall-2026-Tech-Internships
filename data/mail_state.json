@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-15T08:05:37Z",
-  "last_digest_roles": 428,
-  "last_digest_sent": 224,
+  "last_digest_at": "2026-09-16T11:43:57Z",
+  "last_digest_roles": 46,
+  "last_digest_sent": 226,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -746,15 +746,59 @@
     "workday:nebraskablue:/job/Omaha-NE/IS-Intern--Summer-2027_JR101411",
     "workday:newrez:/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390",
     "workday:brunswick:/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436",
-    "workday:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Masters-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106816"
+    "workday:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Masters-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106816",
+    "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
+    "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624",
+    "smartrecruiters:LLNL:3743990015289136",
+    "smartrecruiters:LLNL:3743990015289146",
+    "greenhouse:brevium:4713683006",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172",
+    "oracle:hdjq.fa.us2.oraclecloud.com:26010928",
+    "greenhouse:andurilindustries:5239083007",
+    "greenhouse:singlestore:8205514",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1007774",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1007777",
+    "oracle:hdjq.fa.us2.oraclecloud.com:26008230",
+    "workday:jj:/job/Santa-Clara-California-United-States-of-America/Software-Engineering-Intern---Robotics-R-D_R-099919",
+    "workday:newperkinelmer:/job/US-Remote---NY/Data-Science-Intern--Asset-Intelligence_REQ-058421",
+    "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
+    "greenhouse:duolingo:8805925002",
+    "greenhouse:duolingo:8806114002",
+    "greenhouse:nisc:8204086",
+    "greenhouse:testnisc:8204156",
+    "greenhouse:testnisc:8204161",
+    "oracle:egay.fa.us6.oraclecloud.com:44449",
+    "rippling:apexanalytix-careers:0cfde729-9d23-4186-91a7-464a4b87af53",
+    "workday:aspentech:/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459",
+    "workday:hitachi:/job/Pittsburgh-Pennsylvania-United-States/Intern---Onboard-Software-Developer_R0145042",
+    "workday:micron:/job/Longmont-MAX--Office-CO/Intern---Data-Center-SSD-Firmware_JR111461",
+    "workday:micron:/job/Longmont-MAX--Office-CO/Intern---Firmware-Engineer_JR111584",
+    "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
+    "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
+    "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12796",
+    "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
+    "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
+    "workday:ssctech:/job/Braintree-MA---30-Braintree-Hill-Park/RS-Operational-AI-Analyst-Intern_R45766",
+    "greenhouse:ensco:5421861008",
+    "greenhouse:workshop:5237900007",
+    "rippling:apexanalytix-careers:40e4727d-e132-4de0-89ba-b4fdbd5860a7",
+    "rippling:apexanalytix-careers:e275fd70-45a3-4a64-8688-cace8a3f87ef",
+    "smartrecruiters:Interco:744000149591449",
+    "workday:amgen:/job/United-States---Remote/Grad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255744",
+    "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255711",
+    "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
+    "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405",
+    "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406",
+    "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
+    "workday:oshkoshcorporation:/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493",
+    "workday:psu:/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2",
+    "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488",
+    "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 224,
+  "subscribers_total": 226,
   "send_attempts": [
-    {
-      "at": "2026-09-15T08:05:37Z",
-      "count": 224
-    },
     {
       "at": "2026-09-15T19:15:46Z",
       "count": 1
@@ -766,6 +810,10 @@
     {
       "at": "2026-09-15T23:19:34Z",
       "count": 2
+    },
+    {
+      "at": "2026-09-16T11:43:57Z",
+      "count": 228
     }
   ]
 }
