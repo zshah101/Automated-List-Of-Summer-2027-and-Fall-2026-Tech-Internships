@@ -764,7 +764,9 @@
     "workday:newperkinelmer:/job/US-Remote---NY/Data-Science-Intern--Asset-Intelligence_REQ-058421",
     "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
     "greenhouse:duolingo:8805925002",
+    "greenhouse:duolingounirecruitment:8806878002",
     "greenhouse:duolingo:8806114002",
+    "greenhouse:duolingounirecruitment:8806115002",
     "greenhouse:nisc:8204086",
     "greenhouse:testnisc:8204156",
     "greenhouse:testnisc:8204161",
@@ -814,6 +816,10 @@
     {
       "at": "2026-09-16T11:43:57Z",
       "count": 228
+    },
+    {
+      "at": "2026-09-16T15:49:59Z",
+      "count": 2
     }
   ]
 }
