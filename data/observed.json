@@ -1990,6 +1990,19 @@
     }
    }
   },
+  "lawrence livermore national laboratory llnl": {
+   "name": "Lawrence Livermore National Laboratory (LLNL)",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "smartrecruiters:LLNL:3743990015289136",
+      "smartrecruiters:LLNL:3743990015289146"
+     ],
+     "count": 2
+    }
+   }
+  },
   "lego": {
    "name": "Lego",
    "cycles": {
@@ -3853,5 +3866,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T23:18:49Z"
+ "updated_at": "2026-09-16T01:02:46Z"
 }
