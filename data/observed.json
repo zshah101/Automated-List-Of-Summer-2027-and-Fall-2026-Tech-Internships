@@ -344,9 +344,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-15",
      "role_ids": [
-      "workday:aspentech:/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459"
+      "workday:aspentech:/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459",
+      "workday:aspentech:/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2884,6 +2885,13 @@
       "greenhouse:rendezvousrobotics:4328555009"
      ],
      "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "greenhouse:rendezvousrobotics:4408590009"
+     ],
+     "count": 1
     }
    }
   },
@@ -2978,6 +2986,7 @@
      "role_ids": [
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01873099",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
@@ -2995,7 +3004,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 18
+     "count": 19
     }
    }
   },
@@ -3977,5 +3986,5 @@
    }
   }
  },
- "updated_at": "2026-09-16T15:49:14Z"
+ "updated_at": "2026-09-16T19:21:23Z"
 }
