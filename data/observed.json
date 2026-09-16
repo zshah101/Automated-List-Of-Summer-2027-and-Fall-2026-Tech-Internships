@@ -73,6 +73,18 @@
     }
    }
   },
+  "aerospace": {
+   "name": "The Aerospace Corporation",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605"
+     ],
+     "count": 1
+    }
+   }
+  },
   "ai intern to the ceo": {
    "name": "AI Intern to the CEO",
    "cycles": {
@@ -2049,6 +2061,18 @@
     }
    }
   },
+  "live oak bank": {
+   "name": "Live Oak Bank",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624"
+     ],
+     "count": 1
+    }
+   }
+  },
   "louisiana blue": {
    "name": "Louisiana Blue",
    "cycles": {
@@ -3866,5 +3890,5 @@
    }
   }
  },
- "updated_at": "2026-09-16T01:02:46Z"
+ "updated_at": "2026-09-16T06:16:32Z"
 }

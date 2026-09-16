@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-16T01:02:46Z",
- "data_as_of": "2026-09-16T01:02:46Z",
- "rendered_at": "2026-09-16T01:02:47Z",
+ "generated_at": "2026-09-16T06:16:32Z",
+ "data_as_of": "2026-09-16T06:16:32Z",
+ "rendered_at": "2026-09-16T06:16:33Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -3654,6 +3654,25 @@
    }
   },
   {
+   "company": "The Aerospace Corporation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
+  },
+  {
    "company": "Lawrence Livermore National Laboratory (LLNL)",
    "last_cycle_posted": "",
    "posted_on": "2026-09-16",
@@ -3664,7 +3683,26 @@
    "expected": "2026-09-16",
    "days_until": 0,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/LLNL/3743990015289146",
+   "url": "https://jobs.smartrecruiters.com/LLNL/3743990015289136",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
+   "company": "Live Oak Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6483,5 +6521,5 @@
    }
   }
  ],
- "count": 341
+ "count": 343
 }

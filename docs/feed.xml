@@ -5,20 +5,36 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-16T01:02:46Z</updated>
+  <updated>2026-09-16T06:16:32Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990015289146</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Data Science Institute Graduate Student Intern - Summer 2027</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990015289146"/>
-    <updated>2026-09-16T01:02:46Z</updated>
+    <id>urn:intern-engine:workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624</id>
+    <title>Live Oak Bank: Summer 2027 Intern: AI Enablement &amp; Forward-Deployed Engineering</title>
+    <link href="https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624"/>
+    <updated>2026-09-16T06:16:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Livermore, CA, United States (Hybrid)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Wilmington, NC · $19.77–$32.12/hr · Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605</id>
+    <title>The Aerospace Corporation: 2027 Aerospace Software Engineer Undergraduate Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605"/>
+    <updated>2026-09-16T06:16:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:LLNL:3743990015289136</id>
     <title>Lawrence Livermore National Laboratory (LLNL): Data Science Institute Undergraduate Student Intern - Summer 2027</title>
     <link href="https://jobs.smartrecruiters.com/LLNL/3743990015289136"/>
+    <updated>2026-09-16T01:02:46Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Livermore, CA, United States (Hybrid)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990015289146</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Data Science Institute Graduate Student Intern - Summer 2027</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990015289146"/>
     <updated>2026-09-16T01:02:46Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Livermore, CA, United States (Hybrid)</summary>
@@ -790,21 +806,5 @@
     <updated>2026-09-14T00:25:43Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Mount Laurel, New Jersey</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797</id>
-    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Data Engineer</title>
-    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797"/>
-    <updated>2026-09-14T00:25:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Mount Laurel, New Jersey · Hadoop</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1</id>
-    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Software Engineer (SWE)</title>
-    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1"/>
-    <updated>2026-09-14T00:25:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mount Laurel, New Jersey · Java, JavaScript</summary>
   </entry>
 </feed>
