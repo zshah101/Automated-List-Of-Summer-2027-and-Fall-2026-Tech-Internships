@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-16T19:21:23Z",
- "data_as_of": "2026-09-16T19:21:23Z",
- "rendered_at": "2026-09-16T19:21:24Z",
+ "generated_at": "2026-09-16T22:24:15Z",
+ "data_as_of": "2026-09-16T22:24:15Z",
+ "rendered_at": "2026-09-16T22:24:15Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -136,6 +136,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-06-01"
+   }
+  },
+  {
+   "company": "Anduril",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-10",
+   "days_until": -98,
+   "status": "open",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-06-10"
    }
   },
   {
@@ -3578,25 +3597,6 @@
    }
   },
   {
-   "company": "NVIDIA",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-15",
-   "days_until": -1,
-   "status": "open",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
-   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-15"
-   }
-  },
-  {
    "company": "Plastipak",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -3654,6 +3654,25 @@
    }
   },
   {
+   "company": "Bass Pro Shops",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
    "company": "Cartesian",
    "last_cycle_posted": "",
    "posted_on": "2026-09-16",
@@ -3684,6 +3703,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
+   "company": "GM financial",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260839",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6103,25 +6141,6 @@
    }
   },
   {
-   "company": "Anduril",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-10",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-10",
-   "days_until": -98,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-06-10"
-   }
-  },
-  {
    "company": "Flow Traders",
    "last_cycle_posted": "",
    "posted_on": "2026-07-08",
@@ -6652,7 +6671,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-14"
    }
+  },
+  {
+   "company": "NVIDIA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -1,
+   "status": "dropped",
+   "url": "",
+   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
   }
  ],
- "count": 350
+ "count": 352
 }

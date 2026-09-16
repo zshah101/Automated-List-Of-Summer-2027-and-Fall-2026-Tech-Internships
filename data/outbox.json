@@ -1,6 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260839",
+      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
+      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1",
+      "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Software-Engineer-Intern_R0023556",
+      "smartrecruiters:RenesasElectronics:744000149952164",
+      "workday:valeo:/job/Troy-MI/Systems-Engineering-Co-Op--Software-_REQ2026071241"
+    ],
+    "telegram": [
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260839",
+      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
+      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1",
+      "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Software-Engineer-Intern_R0023556",
+      "smartrecruiters:RenesasElectronics:744000149952164",
+      "workday:valeo:/job/Troy-MI/Systems-Engineering-Co-Op--Software-_REQ2026071241"
+    ]
   }
 }

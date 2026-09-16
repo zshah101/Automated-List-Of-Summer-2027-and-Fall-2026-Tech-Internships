@@ -196,6 +196,18 @@
     }
    }
   },
+  "american century investments": {
+   "name": "American Century Investments",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729"
+     ],
+     "count": 1
+    }
+   }
+  },
   "american express": {
    "name": "American Express",
    "cycles": {
@@ -488,6 +500,19 @@
       "greenhouse:axq:6181069004"
      ],
      "count": 1
+    }
+   }
+  },
+  "bass pro shops": {
+   "name": "Bass Pro Shops",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
+      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1"
+     ],
+     "count": 2
     }
    }
   },
@@ -1553,6 +1578,18 @@
      "first_posted": "2026-08-25",
      "role_ids": [
       "workday:globalfoundries:/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "gm financial": {
+   "name": "GM financial",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260839"
      ],
      "count": 1
     }
@@ -3986,5 +4023,5 @@
    }
   }
  },
- "updated_at": "2026-09-16T19:21:23Z"
+ "updated_at": "2026-09-16T22:24:15Z"
 }
