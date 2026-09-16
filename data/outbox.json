@@ -1,6 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4",
+      "ashby:gecko-robotics:c097505b-0a28-4a33-a917-268f463641e8",
+      "ashby:gecko-robotics:01138338-ff3c-4982-8ba3-5401386bf082",
+      "oracle:ejia.fa.us6.oraclecloud.com:107256",
+      "greenhouse:cartesiansystems:4408204009",
+      "workday:gfs:/job/Atlanta-Georgia/Data-Science-Engineer-Internship_R-57243-1",
+      "workday:nasdaq:/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972",
+      "workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512",
+      "greenhouse:quantiq:4287936009",
+      "greenhouse:relaypro:8176774",
+      "greenhouse:relaypro:8180836",
+      "workday:tihinsurance:/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172",
+      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171"
+    ],
+    "telegram": [
+      "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4",
+      "ashby:gecko-robotics:c097505b-0a28-4a33-a917-268f463641e8",
+      "ashby:gecko-robotics:01138338-ff3c-4982-8ba3-5401386bf082",
+      "oracle:ejia.fa.us6.oraclecloud.com:107256",
+      "greenhouse:cartesiansystems:4408204009",
+      "workday:gfs:/job/Atlanta-Georgia/Data-Science-Engineer-Internship_R-57243-1",
+      "workday:nasdaq:/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972",
+      "workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512",
+      "greenhouse:quantiq:4287936009",
+      "greenhouse:relaypro:8176774",
+      "greenhouse:relaypro:8180836",
+      "workday:tihinsurance:/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172",
+      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171"
+    ]
   }
 }

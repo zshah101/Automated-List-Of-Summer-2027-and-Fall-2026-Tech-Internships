@@ -519,9 +519,10 @@
      "first_posted": "2026-09-10",
      "role_ids": [
       "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
+      "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4",
       "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -728,6 +729,18 @@
      "first_posted": "2026-09-15",
      "role_ids": [
       "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "cartesian": {
+   "name": "Cartesian",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "greenhouse:cartesiansystems:4408204009"
      ],
      "count": 1
     }
@@ -1445,6 +1458,19 @@
       "greenhouse:freeformfuturecorp:7872198003"
      ],
      "count": 1
+    }
+   }
+  },
+  "gecko robotics": {
+   "name": "Gecko Robotics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "ashby:gecko-robotics:01138338-ff3c-4982-8ba3-5401386bf082",
+      "ashby:gecko-robotics:c097505b-0a28-4a33-a917-268f463641e8"
+     ],
+     "count": 2
     }
    }
   },
@@ -2316,6 +2342,18 @@
     }
    }
   },
+  "nasdaq": {
+   "name": "Nasdaq",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "workday:nasdaq:/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972"
+     ],
+     "count": 1
+    }
+   }
+  },
   "national information solutions cooperative nisc": {
    "name": "National Information Solutions Cooperative (NISC)",
    "cycles": {
@@ -2702,6 +2740,18 @@
     }
    }
   },
+  "plastipak": {
+   "name": "Plastipak",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512"
+     ],
+     "count": 1
+    }
+   }
+  },
   "point72": {
    "name": "Point72",
    "cycles": {
@@ -2752,6 +2802,18 @@
     }
    }
   },
+  "quantiq": {
+   "name": "Quantiq",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-06-17",
+     "role_ids": [
+      "greenhouse:quantiq:4287936009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "red bull": {
    "name": "Red Bull",
    "cycles": {
@@ -2785,6 +2847,19 @@
       "workday:regions:/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975"
      ],
      "count": 1
+    }
+   }
+  },
+  "relay": {
+   "name": "Relay",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "greenhouse:relaypro:8176774",
+      "greenhouse:relaypro:8180836"
+     ],
+     "count": 2
     }
    }
   },
@@ -2921,6 +2996,18 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
      "count": 18
+    }
+   }
+  },
+  "s c electric": {
+   "name": "S&C Electric Company",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "oracle:ejia.fa.us6.oraclecloud.com:107256"
+     ],
+     "count": 1
     }
    }
   },
@@ -3890,5 +3977,5 @@
    }
   }
  },
- "updated_at": "2026-09-16T11:43:13Z"
+ "updated_at": "2026-09-16T15:49:14Z"
 }
