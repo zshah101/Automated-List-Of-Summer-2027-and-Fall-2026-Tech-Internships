@@ -185,13 +185,14 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 5,
+     "count": 6,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
       "amazon:amazon:10459543",
       "amazon:amazon:10517567",
-      "amazon:amazon:10529525"
+      "amazon:amazon:10529525",
+      "amazon:amazon:10552937"
      ]
     }
    }
@@ -653,6 +654,13 @@
       "smartrecruiters:BoschGroup:744000146547599"
      ],
      "count": 3
+    },
+    "Fall 2026": {
+     "first_posted": "2026-09-17",
+     "role_ids": [
+      "smartrecruiters:BoschGroup:744000150217869"
+     ],
+     "count": 1
     }
    }
   },
@@ -1770,9 +1778,10 @@
       "oracle:ibqbjb.fa.ocs.oraclecloud.com:155558",
       "oracle:ibqbjb.fa.ocs.oraclecloud.com:155561",
       "oracle:ibqbjb.fa.ocs.oraclecloud.com:155562",
+      "oracle:ibqbjb.fa.ocs.oraclecloud.com:157903",
       "oracle:ibqbjb.fa.ocs.oraclecloud.com:158088"
      ],
-     "count": 8
+     "count": 9
     }
    }
   },
@@ -3666,10 +3675,11 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-05",
-     "count": 2,
+     "count": 3,
      "role_ids": [
       "greenhouse:towerresearchcapital:8024128",
-      "greenhouse:towerresearchcapital:8044334"
+      "greenhouse:towerresearchcapital:8044334",
+      "greenhouse:towerresearchcapital:8212158"
      ]
     }
    }
@@ -4100,5 +4110,5 @@
    }
   }
  },
- "updated_at": "2026-09-17T20:35:56Z"
+ "updated_at": "2026-09-17T23:22:33Z"
 }

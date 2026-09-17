@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-17T20:35:56Z</updated>
+  <updated>2026-09-17T23:22:33Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10552937</id>
+    <title>Amazon: Software Development Engineer Internship - Summer -2027 (USA)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa"/>
+    <updated>2026-09-17T23:22:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:157903</id>
+    <title>Honeywell: Data Science Co-Op - Spring/Summer 2027 🇺🇸</title>
+    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/157903"/>
+    <updated>2026-09-17T23:22:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Pittsford, NY, United States · $20/hr · Python, LLMs, AWS, Azure · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000150217869</id>
+    <title>Bosch: AI Engineering Intern (October 2026 - August 2027)</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000150217869"/>
+    <updated>2026-09-17T23:22:33Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Plymouth, MI, United States · Python, C++, MATLAB, LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:towerresearchcapital:8212158</id>
+    <title>Tower Research Capital: Software Engineer Intern (Summer 2027)</title>
+    <link href="https://www.tower-research.com/open-positions/?gh_jid=8212158"/>
+    <updated>2026-09-17T23:22:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York · Python, Java, C++, Go, Rust · H-1B track record: ~38 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:tri:6433edb6-76be-409f-9a73-9b9d9c207f9f</id>
     <title>Toyota Research Institute: Human-Centered AI Research Intern, Causal Reasoning Models</title>
@@ -22,6 +54,14 @@
     <updated>2026-09-17T20:35:56Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Pittsford, NY, United States · $20/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:RenesasElectronics:744000150194379</id>
+    <title>Renesas Electronics: Embedded Systems Intern</title>
+    <link href="https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379"/>
+    <updated>2026-09-17T20:35:56Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Remote, REMOTE, United States (Remote)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294</id>
@@ -54,14 +94,6 @@
     <updated>2026-09-17T20:35:56Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Burlington, VT · Python, Java, Bash, Linux, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:RenesasElectronics:744000150194379</id>
-    <title>Renesas Electronics: Embedded Systems Intern</title>
-    <link href="https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379"/>
-    <updated>2026-09-17T20:35:56Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Remote, REMOTE, United States (Remote)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:conductorai:d6a1b110-10ad-4b5e-83a0-88c5fd7bc891</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-15T19:15:01Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Bedford, Massachusetts · Python, C++, C#, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Firmware-Engineering-Co-op_JR100324</id>
-    <title>Bracco: Firmware Engineering Co-op</title>
-    <link href="https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Firmware-Engineering-Co-op_JR100324"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Hardware · USA, Eden Prairie, Minnesota, 55344 · $23–$25/hr · Python, C++ · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hitachi:/job/Pittsburgh-Pennsylvania-United-States/Intern---Onboard-Software-Developer_R0145042</id>
-    <title>Hitachi Energy: Intern - Onboard Software Developer</title>
-    <link href="https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Pittsburgh-Pennsylvania-United-States/Intern---Onboard-Software-Developer_R0145042"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Pittsburgh, Pennsylvania, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:micron:/job/Longmont-MAX--Office-CO/Intern---Data-Center-SSD-Firmware_JR111461</id>
-    <title>Micron Technology: Intern - Data Center SSD Firmware</title>
-    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---Data-Center-SSD-Firmware_JR111461"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Longmont-MAX- Office, CO · Python, C++, LLMs, Git · H-1B track record: ~489 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:micron:/job/Longmont-MAX--Office-CO/Intern---Firmware-Engineer_JR111584</id>
-    <title>Micron Technology: Intern - Firmware Engineer</title>
-    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---Firmware-Engineer_JR111584"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Hardware · Longmont-MAX- Office, CO · Python, C++, LLMs, Git · H-1B track record: ~489 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
