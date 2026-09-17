@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-16T11:43:57Z",
-  "last_digest_roles": 46,
-  "last_digest_sent": 226,
+  "last_digest_at": "2026-09-17T11:57:46Z",
+  "last_digest_roles": 38,
+  "last_digest_sent": 227,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -796,15 +796,42 @@
     "workday:oshkoshcorporation:/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493",
     "workday:psu:/job/Warminster-PA/Embedded-Systems-and-Hardware-Co-Op_REQ_0000066566-2",
     "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488",
-    "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323"
+    "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323",
+    "greenhouse:amperesand:4409254009",
+    "greenhouse:waymo:8203200",
+    "workday:barr:/job/Minneapolis-MN/Internship---Data-Science--Remote-_R-102342",
+    "workday:cisco:/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
+    "workday:cisco:/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890",
+    "workday:smithnephew:/job/US---Pittsburgh-PA/Intern-AI-Center-of-Excellence-Data-Science_R92480-1",
+    "workday:smithnephew:/job/US---Pittsburgh-PA/Intern-Robotics-Software-Engineering_R92482",
+    "greenhouse:newsbreak:4711146006",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260839",
+    "smartrecruiters:RenesasElectronics:744000149952164",
+    "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+    "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
+    "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1",
+    "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Software-Engineer-Intern_R0023556",
+    "workday:valeo:/job/Troy-MI/Systems-Engineering-Co-Op--Software-_REQ2026071241",
+    "greenhouse:clockworksystems:6174230004",
+    "greenhouse:rendezvousrobotics:4408590009",
+    "lever:kitware:7b6ff8f9-34c6-4338-845d-4e1bbc142906",
+    "lever:kitware:ff25a349-a362-45d2-b1e4-2487c1df4f75",
+    "rippling:collieraerospace:5a8bf9a3-c4f5-4c5a-ba9a-188979106827",
+    "workday:aspentech:/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456",
+    "workday:gfs:/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259",
+    "workday:gfs:/job/Atlanta-Georgia/IT-Infrastructure-Project-Support-Internship_R-56286",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01873099",
+    "workday:kbr:/job/Sioux-Falls-South-Dakota/Image-Processing-Software-Engineer-Intern_R2130067",
+    "workday:wellington:/job/Boston-MA-United-States/Trading-Research---Analytics-Co-Op_R94827",
+    "workday:wellington:/job/Boston-MA-United-States/Trading-Research---Analytics-Co-Op_R94827-1",
+    "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4",
+    "ashby:gecko-robotics:01138338-ff3c-4982-8ba3-5401386bf082",
+    "ashby:gecko-robotics:c097505b-0a28-4a33-a917-268f463641e8",
+    "greenhouse:cartesiansystems:4408204009"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 226,
+  "subscribers_total": 227,
   "send_attempts": [
-    {
-      "at": "2026-09-16T11:43:57Z",
-      "count": 228
-    },
     {
       "at": "2026-09-16T15:49:59Z",
       "count": 2
@@ -812,6 +839,10 @@
     {
       "at": "2026-09-16T19:22:08Z",
       "count": 1
+    },
+    {
+      "at": "2026-09-17T11:57:46Z",
+      "count": 228
     }
   ]
 }
