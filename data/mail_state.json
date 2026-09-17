@@ -514,6 +514,7 @@
     "workday:boeing:/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687",
     "workday:devonenergy:/job/Oklahoma-City-OK/Cyber-Security-Intern-2027_R26303-1",
     "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Electrical-Firmware--Winter-Spring-Co-op--Onsite-_01871872",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Electrical-Firmware--Winter-Spring-Co-op--Onsite-_01871872-1",
     "workday:swbc:/job/San-Antonio-TX/DevOps-Intern_R0015484",
     "workday:swbc:/job/San-Antonio-TX/DevOps-Intern_R0015484-2",
     "workday:swbc:/job/San-Antonio-TX/Software-Engineering-Intern_R0015482",
@@ -835,6 +836,10 @@
     {
       "at": "2026-09-17T11:57:46Z",
       "count": 228
+    },
+    {
+      "at": "2026-09-17T23:23:27Z",
+      "count": 3
     }
   ]
 }

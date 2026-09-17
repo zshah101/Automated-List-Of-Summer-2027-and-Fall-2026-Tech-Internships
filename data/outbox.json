@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10552937",
-      "oracle:ibqbjb.fa.ocs.oraclecloud.com:157903",
-      "smartrecruiters:BoschGroup:744000150217869",
-      "greenhouse:towerresearchcapital:8212158"
-    ],
-    "telegram": [
-      "amazon:amazon:10552937",
-      "oracle:ibqbjb.fa.ocs.oraclecloud.com:157903",
-      "smartrecruiters:BoschGroup:744000150217869",
-      "greenhouse:towerresearchcapital:8212158"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
