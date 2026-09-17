@@ -1,20 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:ibqbjb.fa.ocs.oraclecloud.com:158088",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
-      "workday:leidos:/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500",
-      "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
-      "smartrecruiters:RenesasElectronics:744000150194379"
-    ],
-    "telegram": [
-      "oracle:ibqbjb.fa.ocs.oraclecloud.com:158088",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
-      "workday:leidos:/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500",
-      "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
-      "smartrecruiters:RenesasElectronics:744000150194379"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
