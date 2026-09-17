@@ -1,6 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "greenhouse:amperesand:4409254009",
+      "workday:barr:/job/Minneapolis-MN/Internship---Data-Science--Remote-_R-102342",
+      "workday:cisco:/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
+      "workday:cisco:/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890",
+      "workday:smithnephew:/job/US---Pittsburgh-PA/Intern-AI-Center-of-Excellence-Data-Science_R92480-1",
+      "workday:smithnephew:/job/US---Pittsburgh-PA/Intern-Robotics-Software-Engineering_R92482",
+      "greenhouse:waymo:8203200"
+    ],
+    "telegram": [
+      "greenhouse:amperesand:4409254009",
+      "workday:barr:/job/Minneapolis-MN/Internship---Data-Science--Remote-_R-102342",
+      "workday:cisco:/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
+      "workday:cisco:/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890",
+      "workday:smithnephew:/job/US---Pittsburgh-PA/Intern-AI-Center-of-Excellence-Data-Science_R92480-1",
+      "workday:smithnephew:/job/US---Pittsburgh-PA/Intern-Robotics-Software-Engineering_R92482",
+      "greenhouse:waymo:8203200"
+    ]
   }
 }

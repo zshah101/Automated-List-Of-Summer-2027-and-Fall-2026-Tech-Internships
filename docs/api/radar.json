@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-17T01:09:48Z",
- "data_as_of": "2026-09-17T01:09:48Z",
- "rendered_at": "2026-09-17T01:09:48Z",
+ "generated_at": "2026-09-17T06:24:13Z",
+ "data_as_of": "2026-09-17T06:24:13Z",
+ "rendered_at": "2026-09-17T06:24:13Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2552,6 +2552,25 @@
    }
   },
   {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -9,
+   "status": "open",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Coinbase",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -3803,6 +3822,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-16"
+   }
+  },
+  {
+   "company": "Smith+Nephew",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-17",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Pittsburgh-PA/Intern-AI-Center-of-Excellence-Data-Science_R92480-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-17"
    }
   },
   {
@@ -6521,25 +6559,6 @@
    }
   },
   {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -9,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "CHAOS Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -6692,5 +6711,5 @@
    }
   }
  ],
- "count": 352
+ "count": 353
 }
