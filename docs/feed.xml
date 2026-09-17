@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-17T06:24:13Z</updated>
+  <updated>2026-09-17T11:57:03Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:greenhouse:amperesand:4409254009</id>
@@ -14,6 +14,14 @@
     <updated>2026-09-17T06:24:12Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Reno, Nevada, United States · TypeScript, LLMs, React, AWS, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:waymo:8203200</id>
+    <title>Waymo: 2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech</title>
+    <link href="https://careers.withwaymo.com/jobs?gh_jid=8203200"/>
+    <updated>2026-09-17T06:24:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, California · Python, C++, SQL · H-1B track record: ~284 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:barr:/job/Minneapolis-MN/Internship---Data-Science--Remote-_R-102342</id>
@@ -54,14 +62,6 @@
     <updated>2026-09-17T06:24:12Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Hardware · US - Pittsburgh, PA · C++ · H-1B track record: ~77 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:waymo:8203200</id>
-    <title>Waymo: 2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech</title>
-    <link href="https://careers.withwaymo.com/jobs?gh_jid=8203200"/>
-    <updated>2026-09-17T06:24:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, California · Python, C++, SQL · H-1B track record: ~284 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:newsbreak:4711146006</id>
@@ -289,7 +289,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:relaypro:8176774</id>
-    <title>Relay: Relay Launchpad Intern - Software Engineer (AI/ML)</title>
+    <title>Relay: Software Engineering Intern (AI/ML) - Summer 2027</title>
     <link href="https://job-boards.greenhouse.io/relaypro/jobs/8176774"/>
     <updated>2026-09-16T15:49:14Z</updated>
     <category term="Summer 2027"/>
@@ -297,7 +297,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:relaypro:8180836</id>
-    <title>Relay: Relay Launchpad Intern - Software Engineer (Device Team)</title>
+    <title>Relay: Software Engineering Intern (Device Team) - Summer 2027</title>
     <link href="https://job-boards.greenhouse.io/relaypro/jobs/8180836"/>
     <updated>2026-09-16T15:49:14Z</updated>
     <category term="Summer 2027"/>
