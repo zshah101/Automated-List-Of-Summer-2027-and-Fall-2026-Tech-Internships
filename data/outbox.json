@@ -1,28 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40535",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007804",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007850",
-      "workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
-      "workday:churchdwight:/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686",
-      "workday:greatamerica:/job/Cedar-Rapids-IA/Platform-Engineering-Intern_JR1240-1",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Clinical-Epidemiology-and-Data-Science-Co-op_R-098453",
-      "workday:jj:/job/Titusville-New-Jersey-United-States-of-America/XMLNAME--PALM--and-Artificial-Intelligence-Co-Op_R-099389",
-      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
-      "workday:sonyglobal:/job/Remote---Texas/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335"
-    ],
-    "telegram": [
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40535",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007804",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007850",
-      "workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
-      "workday:churchdwight:/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686",
-      "workday:greatamerica:/job/Cedar-Rapids-IA/Platform-Engineering-Intern_JR1240-1",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Clinical-Epidemiology-and-Data-Science-Co-op_R-098453",
-      "workday:jj:/job/Titusville-New-Jersey-United-States-of-America/XMLNAME--PALM--and-Artificial-Intelligence-Co-Op_R-099389",
-      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
-      "workday:sonyglobal:/job/Remote---Texas/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
