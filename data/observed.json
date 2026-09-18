@@ -793,6 +793,18 @@
     }
    }
   },
+  "centene": {
+   "name": "Centene",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-18",
+     "role_ids": [
+      "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"
+     ],
+     "count": 1
+    }
+   }
+  },
   "center for ai safety": {
    "name": "Center for AI Safety",
    "cycles": {
@@ -2435,6 +2447,7 @@
      "first_posted": "2026-08-14",
      "role_ids": [
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
+      "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369",
       "workday:motorolasolutions:/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
@@ -2442,7 +2455,7 @@
       "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
      ],
-     "count": 7
+     "count": 8
     }
    }
   },
@@ -4140,5 +4153,5 @@
    }
   }
  },
- "updated_at": "2026-09-18T16:38:41Z"
+ "updated_at": "2026-09-18T19:27:42Z"
 }

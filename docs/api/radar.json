@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-18T16:38:41Z",
- "data_as_of": "2026-09-18T16:38:41Z",
- "rendered_at": "2026-09-18T16:38:41Z",
+ "generated_at": "2026-09-18T19:27:42Z",
+ "data_as_of": "2026-09-18T19:27:42Z",
+ "rendered_at": "2026-09-18T19:27:42Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1669,7 +1669,7 @@
    "expected": "2026-08-31",
    "days_until": -18,
    "status": "open",
-   "url": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
+   "url": "https://caci.wd1.myworkdayjobs.com/external/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3977,6 +3977,25 @@
    }
   },
   {
+   "company": "Centene",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-18",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-18",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-18"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -4010,6 +4029,24 @@
    "provenance": {
     "type": "live-role",
     "url": "https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77"
+   }
+  },
+  {
+   "company": "REV Robotics",
+   "last_cycle_posted": "",
+   "posted_on": "",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "",
+   "days_until": null,
+   "status": "open",
+   "url": "https://ats.rippling.com/rev-robotics/jobs/9f4e5d99-0bba-4e03-8018-e312810a3dba",
+   "note": "",
+   "provenance": {
+    "type": "live-role",
+    "url": "https://ats.rippling.com/rev-robotics/jobs/9f4e5d99-0bba-4e03-8018-e312810a3dba"
    }
   },
   {
@@ -6787,5 +6824,5 @@
    }
   }
  ],
- "count": 357
+ "count": 359
 }
