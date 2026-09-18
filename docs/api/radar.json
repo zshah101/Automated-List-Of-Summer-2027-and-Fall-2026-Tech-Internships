@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-18T19:27:42Z",
- "data_as_of": "2026-09-18T19:27:42Z",
- "rendered_at": "2026-09-18T19:27:42Z",
+ "generated_at": "2026-09-18T22:05:00Z",
+ "data_as_of": "2026-09-18T22:05:00Z",
+ "rendered_at": "2026-09-18T22:05:00Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -3996,6 +3996,25 @@
    }
   },
   {
+   "company": "Veolia",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-18",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-18",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000150460339",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-18"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -6824,5 +6843,5 @@
    }
   }
  ],
- "count": 359
+ "count": 360
 }
