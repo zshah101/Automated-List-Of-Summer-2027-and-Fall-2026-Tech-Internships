@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-17T23:22:33Z</updated>
+  <updated>2026-09-18T01:28:04Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:k2spacecorporation:5418727008</id>
+    <title>K2 Space: Simulation Software Engineering Intern - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/k2spacecorporation/jobs/5418727008"/>
+    <updated>2026-09-18T01:28:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Los Angeles, CA · $30–$40/hr · Python, C++, Rust, MATLAB, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:k2spacecorporation:5411920008</id>
+    <title>K2 Space: Software Engineering Intern – Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411920008"/>
+    <updated>2026-09-18T01:28:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Los Angeles, CA · $30–$40/hr · C++, Rust, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131</id>
+    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131"/>
+    <updated>2026-09-18T01:28:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-CO-COLORADO SPRINGS-9970-CUST ~ 9970 Federal Dr ~ FEDERAL (External Site) · Python, Java, C++, C#, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:xpengmotors:8819001002</id>
+    <title>XPENG Motors: AI Research Intern – Predictive World Model</title>
+    <link href="https://job-boards.greenhouse.io/xpengmotors/jobs/8819001002"/>
+    <updated>2026-09-18T01:28:04Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CA · Python, PyTorch, Computer Vision</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10552937</id>
     <title>Amazon: Software Development Engineer Internship - Summer -2027 (USA)</title>
@@ -14,6 +46,14 @@
     <updated>2026-09-17T23:22:33Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:towerresearchcapital:8212158</id>
+    <title>Tower Research Capital: Software Engineer Intern (Summer 2027)</title>
+    <link href="https://www.tower-research.com/open-positions/?gh_jid=8212158"/>
+    <updated>2026-09-17T23:22:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York · Python, Java, C++, Go, Rust · H-1B track record: ~38 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:157903</id>
@@ -30,14 +70,6 @@
     <updated>2026-09-17T23:22:33Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Plymouth, MI, United States · Python, C++, MATLAB, LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:towerresearchcapital:8212158</id>
-    <title>Tower Research Capital: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://www.tower-research.com/open-positions/?gh_jid=8212158"/>
-    <updated>2026-09-17T23:22:33Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York · Python, Java, C++, Go, Rust · H-1B track record: ~38 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:tri:6433edb6-76be-409f-9a73-9b9d9c207f9f</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-15T19:15:01Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Pittsburgh, PA · Python, Java, Swift, Kotlin · H-1B track record: ~22 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:testnisc:8204161</id>
-    <title>National Information Solutions Cooperative (NISC): Intern - Software Development (AI Development)</title>
-    <link href="https://job-boards.greenhouse.io/testnisc/jobs/8204161"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Lake Saint Louis, MO · Python, Java, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egay.fa.us6.oraclecloud.com:44449</id>
-    <title>NOV: Software Engineering Intern</title>
-    <link href="https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44449"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Houston, TX, United States · Python, Java, C++, C#, JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:apexanalytix-careers:0cfde729-9d23-4186-91a7-464a4b87af53</id>
-    <title>APEX Analytix: Data Science Intern (Summer 2027)</title>
-    <link href="https://ats.rippling.com/apexanalytix-careers/jobs/0cfde729-9d23-4186-91a7-464a4b87af53"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Greensboro, NC · H-1B track record: ~24 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aspentech:/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459</id>
-    <title>AspenTech: Data Science Intern - Summer 2027 - Bedford, MA</title>
-    <link href="https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459"/>
-    <updated>2026-09-15T19:15:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Bedford, Massachusetts · Python, C++, C#, LLMs</summary>
   </entry>
 </feed>
