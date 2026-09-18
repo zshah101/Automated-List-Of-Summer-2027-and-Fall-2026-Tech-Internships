@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-18T01:28:04Z",
- "data_as_of": "2026-09-18T01:28:04Z",
- "rendered_at": "2026-09-18T01:28:04Z",
+ "generated_at": "2026-09-18T06:54:41Z",
+ "data_as_of": "2026-09-18T06:54:41Z",
+ "rendered_at": "2026-09-18T06:54:42Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -519,6 +519,25 @@
    }
   },
   {
+   "company": "Netsmart",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-03",
+   "days_until": -46,
+   "status": "open",
+   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-03"
+   }
+  },
+  {
    "company": "Pentair",
    "last_cycle_posted": "",
    "posted_on": "2026-08-03",
@@ -567,7 +586,7 @@
    "expected": "2026-08-04",
    "days_until": -45,
    "status": "open",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -1897,7 +1916,7 @@
    "expected": "2026-09-01",
    "days_until": -17,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5418727008",
+   "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411920008",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6351,25 +6370,6 @@
   },
   {
    "company": "CNO Financial Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-03",
-   "days_until": -46,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-03"
-   }
-  },
-  {
-   "company": "Netsmart",
    "last_cycle_posted": "",
    "posted_on": "2026-08-03",
    "precision": "day",
