@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-17T11:57:46Z",
-  "last_digest_roles": 38,
-  "last_digest_sent": 227,
+  "last_digest_at": "2026-09-18T12:08:26Z",
+  "last_digest_roles": 45,
+  "last_digest_sent": 229,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -828,18 +828,50 @@
     "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4",
     "ashby:gecko-robotics:01138338-ff3c-4982-8ba3-5401386bf082",
     "ashby:gecko-robotics:c097505b-0a28-4a33-a917-268f463641e8",
-    "greenhouse:cartesiansystems:4408204009"
+    "greenhouse:cartesiansystems:4408204009",
+    "greenhouse:k2spacecorporation:5411920008",
+    "greenhouse:k2spacecorporation:5418727008",
+    "greenhouse:xpengmotors:8819001002",
+    "workday:globalhr:/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131",
+    "amazon:amazon:10552937",
+    "greenhouse:towerresearchcapital:8212158",
+    "oracle:ibqbjb.fa.ocs.oraclecloud.com:157903",
+    "smartrecruiters:BoschGroup:744000150217869",
+    "oracle:ibqbjb.fa.ocs.oraclecloud.com:158088",
+    "smartrecruiters:RenesasElectronics:744000150194379",
+    "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
+    "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
+    "workday:leidos:/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500",
+    "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760",
+    "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+    "ashby:conductorai:d6a1b110-10ad-4b5e-83a0-88c5fd7bc891",
+    "greenhouse:covar:5240360007",
+    "greenhouse:nanopathinc:4732881005",
+    "greenhouse:sharkninjaoperatingllc:4713793006",
+    "greenhouse:sharkninjaoperatingllc:4713808006",
+    "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1067",
+    "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119494",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260818",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260831",
+    "workday:clarios:/job/United-States-Wisconsin-Milwaukee/Data-Science-Intern--Summer-2027-_WD50211",
+    "workday:jj:/job/Milpitas-California-United-States-of-America/Process-Excellence---AI-Co-op_R-099367",
+    "workday:visa:/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
+    "workday:visa:/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
+    "workday:visa:/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1",
+    "workday:visa:/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 227,
+  "subscribers_total": 229,
   "send_attempts": [
-    {
-      "at": "2026-09-17T11:57:46Z",
-      "count": 228
-    },
     {
       "at": "2026-09-17T23:23:27Z",
       "count": 3
+    },
+    {
+      "at": "2026-09-18T12:08:26Z",
+      "count": 229
     }
   ]
 }
