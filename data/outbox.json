@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:ntst:/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
-      "workday:ntst:/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668"
-    ],
-    "telegram": [
-      "workday:ntst:/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
-      "workday:ntst:/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
