@@ -742,6 +742,7 @@
     "Summer 2027": {
      "first_posted": "2026-08-31",
      "role_ids": [
+      "workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
@@ -752,7 +753,7 @@
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 9
+     "count": 10
     }
    }
   },
@@ -872,6 +873,18 @@
       "greenhouse:ctccampusboard:4708188005",
       "greenhouse:ctccampusboard:4708230005"
      ]
+    }
+   }
+  },
+  "church dwight": {
+   "name": "Church & Dwight",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-17",
+     "role_ids": [
+      "workday:churchdwight:/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686"
+     ],
+     "count": 1
     }
    }
   },
@@ -2253,9 +2266,10 @@
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
       "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654"
      ],
-     "count": 7
+     "count": 8
     }
    }
   },
@@ -3453,16 +3467,18 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007774",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007777"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007777",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007804"
      ],
-     "count": 5
+     "count": 6
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
      "role_ids": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007497"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007497",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007850"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4124,5 +4140,5 @@
    }
   }
  },
- "updated_at": "2026-09-18T12:07:43Z"
+ "updated_at": "2026-09-18T16:38:41Z"
 }
