@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:acronaviation:19dbac7d-b4fb-4d21-9247-dc610bf55fed",
-      "rippling:rev-robotics:9f4e5d99-0bba-4e03-8018-e312810a3dba",
-      "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514",
-      "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369"
-    ],
-    "telegram": [
-      "lever:acronaviation:19dbac7d-b4fb-4d21-9247-dc610bf55fed",
-      "rippling:rev-robotics:9f4e5d99-0bba-4e03-8018-e312810a3dba",
-      "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514",
-      "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
