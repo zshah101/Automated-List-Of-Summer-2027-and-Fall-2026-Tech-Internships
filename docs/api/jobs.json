@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-18T06:54:41Z",
- "data_as_of": "2026-09-18T06:54:41Z",
- "rendered_at": "2026-09-18T06:54:42Z",
+ "generated_at": "2026-09-18T12:07:43Z",
+ "data_as_of": "2026-09-18T12:07:43Z",
+ "rendered_at": "2026-09-18T12:07:43Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 906,
+ "count": 904,
  "jobs": [
   {
    "id": "greenhouse:xpengmotors:8819001002",
@@ -1132,30 +1132,6 @@
    "salary": null,
    "skills": [],
    "source": "oracle",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "smartrecruiters:RenesasElectronics:744000149952164",
-   "company": "Renesas Electronics",
-   "title": "Software Engineer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "San Jose, CALIFORNIA, United States (Hybrid)",
-   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000149952164",
-   "posted_at": "2026-09-16T20:27:52.343Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-09-16T22:24:15Z",
-   "sponsorship": "unknown",
-   "salary": "$38/hr",
-   "skills": [
-    "Python",
-    "Java"
-   ],
-   "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
@@ -18628,33 +18604,6 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:copart:/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631",
-   "company": "Copart",
-   "title": "Site Reliability Engineer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Dallas, TX - Headquarters",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631",
-   "posted_at": "2026-08-19T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-19T22:14:30Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "AWS",
-    "GCP",
-    "Kubernetes",
-    "Linux"
-   ],
-   "source": "workday",
-   "h1b_approvals": 83,
    "program": "Internship",
    "remote": false
   },
