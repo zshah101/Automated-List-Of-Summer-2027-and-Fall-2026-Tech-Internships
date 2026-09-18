@@ -101,6 +101,11 @@
     "ats": "ashby"
   },
   {
+    "name": "4AG Robotics",
+    "slug": "4ag",
+    "ats": "rippling"
+  },
+  {
     "name": "4DS Corp",
     "slug": "4DSCorp",
     "ats": "smartrecruiters"
@@ -4119,6 +4124,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Brady Martz",
+    "slug": "brady-martz",
+    "ats": "workable"
+  },
+  {
     "name": "Brain Co.",
     "slug": "brainco",
     "ats": "ashby"
@@ -5511,6 +5521,13 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "CEC_Careers"
+  },
+  {
+    "name": "Church & Dwight",
+    "slug": "churchdwight",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "chdcareers"
   },
   {
     "name": "CIBC",
@@ -11029,6 +11046,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Global Engineering & Technology, Inc. (GET)",
+    "slug": "get-career-site",
+    "ats": "workable"
+  },
+  {
     "name": "Global Infrastructure",
     "slug": "gi",
     "ats": "workday",
@@ -13188,6 +13210,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Intelliguard",
+    "slug": "intelliguard",
+    "ats": "rippling"
+  },
+  {
     "name": "Interac",
     "slug": "interac",
     "ats": "workday",
@@ -13597,6 +13624,11 @@
     "name": "Jane Street",
     "slug": "janestreet",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Javelin Global Commodities",
+    "slug": "javelin-global-commodities",
+    "ats": "workable"
   },
   {
     "name": "JCC Greater Boston",
@@ -16208,6 +16240,11 @@
   {
     "name": "Mentis AI",
     "slug": "mentis",
+    "ats": "ashby"
+  },
+  {
+    "name": "Meow",
+    "slug": "meow",
     "ats": "ashby"
   },
   {
@@ -19203,6 +19240,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "PerfectServe",
+    "slug": "perfectserve",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Perficient",
     "slug": "fa-etqd-saasfaprod1.fa.ocs.oraclecloud.com",
     "ats": "oracle",
@@ -20491,6 +20533,11 @@
     "site": "Radiance_External"
   },
   {
+    "name": "Radiant",
+    "slug": "radiant-industries",
+    "ats": "ashby"
+  },
+  {
     "name": "Radiant Info Systems",
     "slug": "RadiantInfoSystemsLtd",
     "ats": "smartrecruiters"
@@ -20932,6 +20979,13 @@
     "site": "Repsol"
   },
   {
+    "name": "Republic Airways",
+    "slug": "rjet",
+    "ats": "workday",
+    "wd": "wd108",
+    "site": "External_Career_Site"
+  },
+  {
     "name": "Republic Services",
     "slug": "republic",
     "ats": "workday",
@@ -20993,6 +21047,11 @@
     "name": "Retell AI",
     "slug": "retell-ai",
     "ats": "ashby"
+  },
+  {
+    "name": "REV Robotics",
+    "slug": "rev-robotics",
+    "ats": "rippling"
   },
   {
     "name": "Revantage Corporate Services",
@@ -21439,6 +21498,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "ExternalCareers"
+  },
+  {
+    "name": "Rothesay",
+    "slug": "rothesaygraduates",
+    "ats": "greenhouse"
   },
   {
     "name": "Routeware",
@@ -23415,6 +23479,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Stafford Gray",
+    "slug": "staffordgray",
+    "ats": "workable"
+  },
+  {
     "name": "STAG",
     "slug": "stag-careers",
     "ats": "rippling"
@@ -25239,6 +25308,13 @@
     "site": "TopgolfCareers"
   },
   {
+    "name": "TOPPAN Packaging Americas",
+    "slug": "toppan",
+    "ats": "workday",
+    "wd": "wd108",
+    "site": "TOPPAN-Packaging"
+  },
+  {
     "name": "Topsort",
     "slug": "topsort",
     "ats": "greenhouse"
@@ -26889,6 +26965,11 @@
     "name": "Vmax AI Corp",
     "slug": "vmax",
     "ats": "ashby"
+  },
+  {
+    "name": "VML",
+    "slug": "map",
+    "ats": "greenhouse"
   },
   {
     "name": "VML Enterprise Solutions",
