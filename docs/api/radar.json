@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-19T05:20:06Z",
- "data_as_of": "2026-09-19T05:20:06Z",
- "rendered_at": "2026-09-19T05:20:06Z",
+ "generated_at": "2026-09-19T09:44:44Z",
+ "data_as_of": "2026-09-19T09:44:44Z",
+ "rendered_at": "2026-09-19T09:44:45Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -3285,25 +3285,6 @@
    "days_until": -8,
    "status": "open",
    "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-11"
-   }
-  },
-  {
-   "company": "Citizens Financial Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-11",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-11",
-   "days_until": -8,
-   "status": "open",
-   "url": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49276",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6745,6 +6726,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "Citizens Financial Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -8,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
    }
   },
   {
