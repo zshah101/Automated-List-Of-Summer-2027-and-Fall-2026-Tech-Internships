@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-19T09:44:44Z",
- "data_as_of": "2026-09-19T09:44:44Z",
- "rendered_at": "2026-09-19T09:44:45Z",
+ "generated_at": "2026-09-19T13:41:24Z",
+ "data_as_of": "2026-09-19T13:41:24Z",
+ "rendered_at": "2026-09-19T13:41:24Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -605,7 +605,7 @@
    "expected": "2026-08-04",
    "days_until": -46,
    "status": "open",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -3977,6 +3977,25 @@
    }
   },
   {
+   "company": "Thrivent",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-18",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-18",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-18"
+   }
+  },
+  {
    "company": "Veolia",
    "last_cycle_posted": "",
    "posted_on": "2026-09-18",
@@ -6843,5 +6862,5 @@
    }
   }
  ],
- "count": 360
+ "count": 361
 }
