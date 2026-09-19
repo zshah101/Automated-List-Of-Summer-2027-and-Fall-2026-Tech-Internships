@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-18T22:05:00Z</updated>
+  <updated>2026-09-19T00:33:17Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:botauto:5429357008</id>
+    <title>Bot Auto: Intern, Software Engineer AI Agents (Fall 2026/Winter 2027)</title>
+    <link href="https://job-boards.greenhouse.io/botauto/jobs/5429357008"/>
+    <updated>2026-09-19T00:33:17Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Houston, TX · Python, Java, TypeScript, JavaScript, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Medical-Device-Cybersecurity-Co-Op_R-099388</id>
+    <title>Johnson &amp; Johnson: Medical Device Cybersecurity Co-Op 🛂</title>
+    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Medical-Device-Cybersecurity-Co-Op_R-099388"/>
+    <updated>2026-09-19T00:33:17Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Danvers, Massachusetts, United States of America · $23.5/hr · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Production-Data-Analyst-Co-Op_R-098904</id>
+    <title>Johnson &amp; Johnson: Production Data Analyst Co-Op 🛂</title>
+    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Production-Data-Analyst-Co-Op_R-098904"/>
+    <updated>2026-09-19T00:33:17Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Danvers, Massachusetts, United States of America · $23.5/hr · Tableau · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990015408206</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990015408206"/>
+    <updated>2026-09-19T00:33:17Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Livermore, CA, United States · LLMs, Kubernetes, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000150460339</id>
+    <title>Veolia: SAP &amp; ServiceNow AI Automation Intern 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000150460339"/>
+    <updated>2026-09-18T22:05:00Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Trevose, PA, United States (Hybrid) · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:axcelis:/job/Beverly-MA/Co-Op---Manufacturing-Software-Development-_12019</id>
     <title>Axcelis Technologies, Inc.: Co-Op, (Manufacturing Software Development)</title>
@@ -38,14 +78,6 @@
     <updated>2026-09-18T22:05:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Wyoming, Michigan · Java, SQL, Angular, Spring, GCP · H-1B track record: ~21 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000150460339</id>
-    <title>Veolia: SAP &amp; ServiceNow AI Automation Intern 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000150460339"/>
-    <updated>2026-09-18T22:05:00Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Trevose, PA, United States (Hybrid) · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:acronaviation:19dbac7d-b4fb-4d21-9247-dc610bf55fed</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-16T15:49:14Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Atlanta, Georgia · H-1B track record: ~21 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nasdaq:/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972</id>
-    <title>Nasdaq: Software Developer/ Engineer Intern - 2027 Summer Internship</title>
-    <link href="https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972"/>
-    <updated>2026-09-16T15:49:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · GA - Glenridge Point · C#, SQL, Vue, .NET, AWS · H-1B track record: ~16 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512</id>
-    <title>Plastipak: Software Engineering Intern - Summer 2027</title>
-    <link href="https://plastipak.wd1.myworkdayjobs.com/Plastipak/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512"/>
-    <updated>2026-09-16T15:49:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Plastipak GBTC - Plymouth, MI</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tihinsurance:/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172</id>
-    <title>Tihinsurance: Internship - Software Engineering</title>
-    <link href="https://tihinsurance.wd1.myworkdayjobs.com/crc_careers/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172"/>
-    <updated>2026-09-16T15:49:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Dallas TX - 12377 Merit Dr. · Python, Java, C#, JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171</id>
-    <title>Vermeer: IT Data Engineer Intern</title>
-    <link href="https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171"/>
-    <updated>2026-09-16T15:49:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Pella, Iowa, USA - Corporate Office · SQL</summary>
   </entry>
 </feed>

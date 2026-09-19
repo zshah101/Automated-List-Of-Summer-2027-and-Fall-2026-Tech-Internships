@@ -664,6 +664,18 @@
     }
    }
   },
+  "bot auto": {
+   "name": "Bot Auto",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-18",
+     "role_ids": [
+      "greenhouse:botauto:5429357008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "bracco": {
    "name": "Bracco",
    "cycles": {
@@ -2149,9 +2161,10 @@
      "first_posted": "2026-09-16",
      "role_ids": [
       "smartrecruiters:LLNL:3743990015289136",
-      "smartrecruiters:LLNL:3743990015289146"
+      "smartrecruiters:LLNL:3743990015289146",
+      "smartrecruiters:LLNL:3743990015408206"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -4165,5 +4178,5 @@
    }
   }
  },
- "updated_at": "2026-09-18T22:05:00Z"
+ "updated_at": "2026-09-19T00:33:17Z"
 }
