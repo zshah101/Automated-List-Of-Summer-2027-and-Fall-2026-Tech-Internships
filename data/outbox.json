@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:botauto:5429357008",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Medical-Device-Cybersecurity-Co-Op_R-099388",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Production-Data-Analyst-Co-Op_R-098904",
-      "smartrecruiters:LLNL:3743990015408206"
-    ],
-    "telegram": [
-      "greenhouse:botauto:5429357008",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Medical-Device-Cybersecurity-Co-Op_R-099388",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Production-Data-Analyst-Co-Op_R-098904",
-      "smartrecruiters:LLNL:3743990015408206"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
