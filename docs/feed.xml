@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-19T19:34:49Z</updated>
+  <updated>2026-09-19T22:02:38Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:baxter:/job/Skaneateles-NY/Associate-Software-Engineer-Co-op_JR-207560-1</id>
+    <title>Baxter International: Associate Data Scientist Co-op</title>
+    <link href="https://baxter.wd1.myworkdayjobs.com/baxter/job/Skaneateles-NY/Associate-Software-Engineer-Co-op_JR-207560-1"/>
+    <updated>2026-09-19T22:02:38Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Skaneateles, NY · Python, Java, C#, LLMs, Azure</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:bbh:/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899</id>
     <title>Brown Brothers Harriman: 2027 Internal Audit - Information Technology &amp; Cybersecurity Summer Internship</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-16T15:49:14Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Cambridge, MA · $20–$25/hr · Python, TypeScript, Kotlin, PyTorch, Next.js</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:quantiq:4287936009</id>
-    <title>Quantiq: Software Developer Internship (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/quantiq/jobs/4287936009"/>
-    <updated>2026-09-16T15:49:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin, TX · Python, C++</summary>
   </entry>
 </feed>
