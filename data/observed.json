@@ -702,6 +702,18 @@
     }
    }
   },
+  "brown brothers harriman": {
+   "name": "Brown Brothers Harriman",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-19",
+     "role_ids": [
+      "workday:bbh:/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899"
+     ],
+     "count": 1
+    }
+   }
+  },
   "brunswick": {
    "name": "Brunswick",
    "cycles": {
@@ -4191,5 +4203,5 @@
    }
   }
  },
- "updated_at": "2026-09-19T13:41:24Z"
+ "updated_at": "2026-09-19T17:04:58Z"
 }
