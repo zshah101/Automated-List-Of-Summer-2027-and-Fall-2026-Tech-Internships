@@ -8,7 +8,7 @@
 
 ### 918 open roles (584 listed below) · 192 new this week
 
-4,606 employers tracked · data as of Sep 19, 2026 at 22:02 UTC
+4,606 employers tracked · data as of Sep 20, 2026 at 00:25 UTC
 
 _621 have a cycle the employer stated · 297 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -98,10 +98,10 @@ If it helps you, a star means a lot and tells me to keep going.
 | Centene 🆁 | Cybersecur​ity Summer 2027 Intern (Undergrad​uate) 🆕 | [Apply](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514) | Remote-MO | No skills listed | Sep 18, 2026 |
 | Motorola | Cyber Security - 2027 Summer Internship (Chicago Hybrid) 🛂 🆕 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369) | Chicago, IL, More... | Python, Java, LLMs, AWS | Sep 18, 2026 |
 | Stantec | Transporta​tion Engineering Intern - Infrastruc​ture (Summer 2027) 🆕 | [Apply](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007804) | Lexington, KY, United States | No skills listed | Sep 18, 2026 |
-| Amazon ✓ | Software Development Engineer Intern - Summer 2027 (USA) 🆕 | [Apply](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, Washington, USA | Python, Java, C++, C# | Sep 17, 2026 |
+| Amazon ✓ | Software Development Engineer Intern - Summer 2027 (USA) | [Apply](https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa) | Seattle, Washington, USA | Python, Java, C++, C# | Sep 17, 2026 |
 | Church & Dwight | AI Developer Co-op - Graduate Program (9 Months) 🇺🇸 🆕 | [Apply](https://churchdwight.wd1.myworkdayjobs.com/chdcareers/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686) | USA, Ewing, NJ | Python, SQL, LLMs, AWS | Sep 17, 2026 |
-| Tower Research Capital ✓ | Software Engineer Intern (Summer 2027) 🆕 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8212158) | New York | Python, Java, C++, Go | Sep 17, 2026 |
-| Honeywell | Data Science Co-Op - Spring/Summer 2027 🇺🇸 🆕 | [Apply](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/157903) | Pittsford, NY, United States | Python, LLMs, AWS, Azure | Sep 17, 2026 |
+| Tower Research Capital ✓ | Software Engineer Intern (Summer 2027) | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8212158) | New York | Python, Java, C++, Go | Sep 17, 2026 |
+| Honeywell | Data Science Co-Op - Spring/Summer 2027 🇺🇸 | [Apply](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/157903) | Pittsford, NY, United States | Python, LLMs, AWS, Azure | Sep 17, 2026 |
 | Honeywell | Software Engineer Co-Op - Spring/Summer 2027 🇺🇸 | [Apply](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158088) | Pittsford, NY, United States | No skills listed | Sep 17, 2026 |
 | LabCorp | Intern – Network Infrastruc​ture & Automation Engineering 🛂 | [Apply](https://labcorp.wd1.myworkdayjobs.com/external/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795) | Durham NC | Python, Linux, Git | Sep 17, 2026 |
 | Marvell | SRAM Software Engineer Intern, BS - Summer 2027 | [Apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1) | Burlington, VT | Python, Java, Bash, Linux | Sep 17, 2026 |
@@ -397,7 +397,7 @@ If it helps you, a star means a lot and tells me to keep going.
 |---|---|---|---|---|---|
 | Bot Auto | Intern, Software Engineer AI Agents (Fall 2026/Winter 2027) 🆕 | [Apply](https://job-boards.greenhouse.io/botauto/jobs/5429357008) | Houston, TX | Python, Java, TypeScript, JavaScript | Sep 18, 2026 |
 | Stantec | Transporta​tion Engineering Co-op - Infrastruc​ture (Fall 2026/Spring 2027) 🆕 | [Apply](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007850) | Louisville, KY, United States | No skills listed | Sep 18, 2026 |
-| Bosch ✓ | AI Engineering Intern (October 2026 - August 2027) 🆕 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000150217869) | Plymouth, MI, United States | Python, C++, MATLAB, LLMs | Sep 17, 2026 |
+| Bosch ✓ | AI Engineering Intern (October 2026 - August 2027) | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000150217869) | Plymouth, MI, United States | Python, C++, MATLAB, LLMs | Sep 17, 2026 |
 | Hunt Oil Company | AI Business Strategy & Transforma​tion Intern - Fall 2026 | [Apply](https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1067) | Dallas, TX, United States | LLMs | Sep 17, 2026 |
 | American Century Investments | Cybersecur​ity Intern 🛂 | [Apply](https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729) | Kansas City, Missouri | No skills listed | Sep 16, 2026 |
 | Moog | Intern, Embedded Design Engineering | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053) | Blacksburg, VA | No skills listed | Sep 11, 2026 |
@@ -762,7 +762,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,417 of 4,863 registered boards returned successfully across 12 ATS platforms (96% of boards attempted, 90% of the full registry) · completed in 1163.4s · 579 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,431 of 4,863 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 91% of the full registry) · completed in 1061.9s · 576 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
