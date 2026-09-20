@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-20T14:30:31Z</updated>
+  <updated>2026-09-20T17:56:35Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
+    <title>Ninjaholdings: Data Engineer Intern</title>
+    <link href="https://ninjaholdings.breezy.hr/p/12b3ed96c30c-data-engineer-intern"/>
+    <updated>2026-09-20T14:30:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:breezy:ninjaholdings:23a015fea536</id>
+    <title>Ninjaholdings: Software Engineer Intern</title>
+    <link href="https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern"/>
+    <updated>2026-09-20T14:30:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Chicago, IL · $20 – $25 / hour</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:breezy:ninjaholdings:85be8c78a2ba</id>
+    <title>Ninjaholdings: Data Science Intern</title>
+    <link href="https://ninjaholdings.breezy.hr/p/85be8c78a2ba-data-science-intern"/>
+    <updated>2026-09-20T14:30:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822</id>
     <title>Priceline: Software Engineering - Full Stack (Northeastern Co-op)</title>
@@ -22,30 +46,6 @@
     <updated>2026-09-20T14:30:31Z</updated>
     <category term="Winter 2027"/>
     <summary>Winter 2027 · Software · New York · JavaScript, Python, Java, Go, SQL · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
-    <title>Ninjaholdings: Data Engineer Intern</title>
-    <link href="https://ninjaholdings.breezy.hr/p/12b3ed96c30c-data-engineer-intern"/>
-    <updated>2026-09-20T14:30:31Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:breezy:ninjaholdings:85be8c78a2ba</id>
-    <title>Ninjaholdings: Data Science Intern</title>
-    <link href="https://ninjaholdings.breezy.hr/p/85be8c78a2ba-data-science-intern"/>
-    <updated>2026-09-20T14:30:31Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:breezy:ninjaholdings:23a015fea536</id>
-    <title>Ninjaholdings: Software Engineer Intern</title>
-    <link href="https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern"/>
-    <updated>2026-09-20T14:30:31Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Chicago, IL · $20 – $25 / hour</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:baxter:/job/Skaneateles-NY/Associate-Software-Engineer-Co-op_JR-207560-1</id>
