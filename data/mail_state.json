@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-09-20T14:31:15Z",
-  "last_digest_roles": 14,
+  "last_digest_at": "2026-09-21T15:26:02Z",
+  "last_digest_roles": 6,
   "last_digest_sent": 232,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -914,14 +914,20 @@
     "workday:nasdaq:/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972",
     "workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512",
     "workday:tihinsurance:/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172",
-    "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171"
+    "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
+    "workday:gfs:/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384",
+    "oracle:egud.fa.us2.oraclecloud.com:155461",
+    "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
+    "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464",
+    "workday:nordsonhcm:/job/USA---Texas---Allen/Intern---Manufacturing-Electronics---Software-Engineering_REQ52925"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 232,
   "send_attempts": [
     {
-      "at": "2026-09-20T14:31:15Z",
-      "count": 232
+      "at": "2026-09-21T15:26:02Z",
+      "count": 235
     }
   ]
 }

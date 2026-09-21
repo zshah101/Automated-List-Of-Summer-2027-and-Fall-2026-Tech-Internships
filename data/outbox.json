@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
-      "workday:gfs:/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384"
-    ],
-    "telegram": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
-      "workday:gfs:/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
