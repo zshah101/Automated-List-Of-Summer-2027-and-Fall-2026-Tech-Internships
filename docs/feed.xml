@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-21T08:07:35Z</updated>
+  <updated>2026-09-21T15:21:46Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007837</id>
+    <title>Stantec: Transportation Engineering Co-op/Intern - Infrastructure (Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007837"/>
+    <updated>2026-09-21T15:21:46Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Auburn, NH, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gfs:/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384</id>
+    <title>Gordon Food Service: Imports &amp; Commodities - Data Analyst Internship</title>
+    <link href="https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384"/>
+    <updated>2026-09-21T15:21:46Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Wyoming, Michigan · H-1B track record: ~21 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:egud.fa.us2.oraclecloud.com:155461</id>
     <title>AutoZone: AutoZone 2027 Summer Internship – Data Science</title>
@@ -14,14 +30,6 @@
     <updated>2026-09-21T08:07:35Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Memphis, TN, United States · Python, Java, SQL, Tableau · H-1B track record: ~81 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nordsonhcm:/job/USA---Texas---Allen/Intern---Manufacturing-Electronics---Software-Engineering_REQ52925</id>
-    <title>Nordson: Intern – Manufacturing Electronics / Software Engineering</title>
-    <link href="https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Texas---Allen/Intern---Manufacturing-Electronics---Software-Engineering_REQ52925"/>
-    <updated>2026-09-21T08:07:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Hardware · USA - Texas - Allen · Verilog</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835</id>
@@ -38,6 +46,14 @@
     <updated>2026-09-21T08:07:35Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · United States-Maryland-Baltimore · $20.5–$37.25/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nordsonhcm:/job/USA---Texas---Allen/Intern---Manufacturing-Electronics---Software-Engineering_REQ52925</id>
+    <title>Nordson: Intern – Manufacturing Electronics / Software Engineering</title>
+    <link href="https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Texas---Allen/Intern---Manufacturing-Electronics---Software-Engineering_REQ52925"/>
+    <updated>2026-09-21T08:07:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Hardware · USA - Texas - Allen · Verilog</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
@@ -790,21 +806,5 @@
     <updated>2026-09-16T19:21:23Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Clifton Park, New York · 40–60 USD/hr · Python, PyTorch, TensorFlow, LLMs, Computer Vision · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:collieraerospace:5a8bf9a3-c4f5-4c5a-ba9a-188979106827</id>
-    <title>Collier Aerospace: NCSG AI Feature Development Internship (Summer 2027)</title>
-    <link href="https://ats.rippling.com/collieraerospace/jobs/5a8bf9a3-c4f5-4c5a-ba9a-188979106827"/>
-    <updated>2026-09-16T19:21:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Raleigh, NC</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aspentech:/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456</id>
-    <title>AspenTech: Software Development Intern - Digital Grid Management - Summer 2027</title>
-    <link href="https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456"/>
-    <updated>2026-09-16T19:21:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Medina, Minnesota · $24–$28/hr · Python, Java, C++, JavaScript, Angular</summary>
   </entry>
 </feed>
