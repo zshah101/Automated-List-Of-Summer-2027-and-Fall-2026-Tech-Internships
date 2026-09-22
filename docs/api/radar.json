@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-22T13:41:00Z",
- "data_as_of": "2026-09-22T13:41:00Z",
- "rendered_at": "2026-09-22T13:41:01Z",
+ "generated_at": "2026-09-22T17:58:14Z",
+ "data_as_of": "2026-09-22T17:58:14Z",
+ "rendered_at": "2026-09-22T17:58:14Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1289,7 +1289,7 @@
    "expected": "2026-08-25",
    "days_until": -28,
    "status": "open",
-   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115449",
+   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115750",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3322,7 +3322,7 @@
    "expected": "2026-09-11",
    "days_until": -11,
    "status": "open",
-   "url": "https://emcins.wd5.myworkdayjobs.com/EMC_Careers/job/Iowa/Intern--Data-Science_R6524",
+   "url": "https://emcins.wd5.myworkdayjobs.com/EMC_Internships/job/Iowa/Intern--Data-Science_R6524-2",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3551,6 +3551,25 @@
    "days_until": -8,
    "status": "open",
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2061",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
+   "company": "SingleStore",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": -8,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8154399",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4091,6 +4110,25 @@
    }
   },
   {
+   "company": "Cowboy Space",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Fidelity Investments",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -4180,6 +4218,24 @@
    "provenance": {
     "type": "live-role",
     "url": "https://ats.rippling.com/rev-robotics/jobs/9f4e5d99-0bba-4e03-8018-e312810a3dba"
+   }
+  },
+  {
+   "company": "Rippling",
+   "last_cycle_posted": "",
+   "posted_on": "",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "",
+   "days_until": null,
+   "status": "open",
+   "url": "https://ats.rippling.com/rippling/jobs/f255bf03-9173-4c0a-8a18-7cc43c27ded8",
+   "note": "",
+   "provenance": {
+    "type": "live-role",
+    "url": "https://ats.rippling.com/rippling/jobs/f255bf03-9173-4c0a-8a18-7cc43c27ded8"
    }
   },
   {
@@ -6976,5 +7032,5 @@
    }
   }
  ],
- "count": 367
+ "count": 370
 }

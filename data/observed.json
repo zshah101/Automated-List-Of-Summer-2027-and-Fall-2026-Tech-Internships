@@ -1146,6 +1146,18 @@
     }
    }
   },
+  "cowboy space": {
+   "name": "Cowboy Space",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-21",
+     "role_ids": [
+      "ashby:cowboyspace:56d1d7e4-fa7e-4c25-aa8b-6828447fc64a"
+     ],
+     "count": 1
+    }
+   }
+  },
   "cox": {
    "name": "Cox",
    "cycles": {
@@ -2669,7 +2681,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 17,
+     "count": 19,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2683,6 +2695,8 @@
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196",
       "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
       "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
@@ -3484,6 +3498,18 @@
     }
    }
   },
+  "singlestore": {
+   "name": "SingleStore",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:singlestore:8154399"
+     ],
+     "count": 1
+    }
+   }
+  },
   "skillz": {
    "name": "skillz",
    "cycles": {
@@ -3606,9 +3632,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007804",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007876",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007905"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007905",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007919"
      ],
-     "count": 9
+     "count": 10
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4011,9 +4038,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-09",
      "role_ids": [
-      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605"
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -4317,5 +4346,5 @@
    }
   }
  },
- "updated_at": "2026-09-22T13:41:00Z"
+ "updated_at": "2026-09-22T17:58:14Z"
 }
