@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-22T07:55:41Z</updated>
+  <updated>2026-09-22T13:41:00Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119551</id>
+    <title>Howmet Aerospace: Cybersecurity Intern 🛂</title>
+    <link href="https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119551"/>
+    <updated>2026-09-22T13:41:00Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Pittsburgh, PA, United States · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:massgeneralbrigham:/job/Somerville-MA/Information-Security-Intern_RQ4078693</id>
+    <title>Mass General Brigham: Information Security Intern</title>
+    <link href="https://massgeneralbrigham.wd1.myworkdayjobs.com/mgbexternal/job/Somerville-MA/Information-Security-Intern_RQ4078693"/>
+    <updated>2026-09-22T13:41:00Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Somerville-MA · H-1B track record: ~80 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150</id>
+    <title>Northrop Grumman: 2027 Software Engineer Intern - San Diego CA 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"/>
+    <updated>2026-09-22T13:41:00Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-California-San Diego · $21.5–$39/hr · Python, Java, C++, Rust, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd</id>
     <title>G2: Intern, AI Agent Evaluations</title>
@@ -782,29 +806,5 @@
     <updated>2026-09-17T17:13:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US - Ashburn, VA · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:visa:/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1</id>
-    <title>Visa: Software Engineer, Intern - 2027 Austin, TX 🛂</title>
-    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1"/>
-    <updated>2026-09-17T17:13:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US - Austin, TX · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:visa:/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1</id>
-    <title>Visa: 2027 Sophomore Internship Program - Software Engineer Intern, Austin 🛂</title>
-    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1"/>
-    <updated>2026-09-17T17:13:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US - Austin, TX · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:visa:/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2</id>
-    <title>Visa: Software Engineer, Intern, Bellevue - 2027 🛂</title>
-    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2"/>
-    <updated>2026-09-17T17:13:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US - Bellevue, WA · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>

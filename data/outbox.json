@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119551",
+      "smartrecruiters:Eurofins:744000150986035",
+      "workday:massgeneralbrigham:/job/Somerville-MA/Information-Security-Intern_RQ4078693",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"
+    ],
+    "telegram": [
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119551",
+      "smartrecruiters:Eurofins:744000150986035",
+      "workday:massgeneralbrigham:/job/Somerville-MA/Information-Security-Intern_RQ4078693",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"
+    ]
   }
 }

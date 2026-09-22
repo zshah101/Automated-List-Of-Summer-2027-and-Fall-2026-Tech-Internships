@@ -1449,9 +1449,10 @@
      "role_ids": [
       "smartrecruiters:Eurofins:744000147214369",
       "smartrecruiters:Eurofins:744000148531473",
-      "smartrecruiters:Eurofins:744000148712379"
+      "smartrecruiters:Eurofins:744000148712379",
+      "smartrecruiters:Eurofins:744000150986035"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -2668,13 +2669,14 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 16,
+     "count": 17,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487",
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
       "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
@@ -4315,5 +4317,5 @@
    }
   }
  },
- "updated_at": "2026-09-22T07:55:41Z"
+ "updated_at": "2026-09-22T13:41:00Z"
 }
