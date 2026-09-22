@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:hdjq.fa.us2.oraclecloud.com:26011295",
-      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429",
-      "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605"
-    ],
-    "telegram": [
-      "oracle:hdjq.fa.us2.oraclecloud.com:26011295",
-      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429",
-      "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
