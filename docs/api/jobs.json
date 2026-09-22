@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-22T02:07:37Z",
- "data_as_of": "2026-09-22T02:07:37Z",
- "rendered_at": "2026-09-22T02:07:37Z",
+ "generated_at": "2026-09-22T07:55:41Z",
+ "data_as_of": "2026-09-22T07:55:41Z",
+ "rendered_at": "2026-09-22T07:55:41Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 974,
+ "count": 971,
  "jobs": [
   {
    "id": "ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd",
@@ -1211,30 +1211,6 @@
     "HTML/CSS",
     "AWS",
     "Git"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:sonyglobal:/job/New-York/Sony-Research---Internship-on-Audio-Processing-and-Machine-Learning_JR-119643",
-   "company": "Sony",
-   "title": "Sony Research - Internship on Audio Processing and Machine Learning",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "New York",
-   "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/New-York/Sony-Research---Internship-on-Audio-Processing-and-Machine-Learning_JR-119643",
-   "posted_at": "2026-09-21T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-21T20:11:40Z",
-   "sponsorship": "unknown",
-   "salary": "$50/hr",
-   "skills": [
-    "Python",
-    "PyTorch"
    ],
    "source": "workday",
    "h1b_approvals": null,
@@ -3026,30 +3002,6 @@
    "h1b_approvals": 284,
    "program": "Internship",
    "remote": false
-  },
-  {
-   "id": "workday:barr:/job/Minneapolis-MN/Internship---Data-Science--Remote-_R-102342",
-   "company": "Barr",
-   "title": "Internship - Data Science (Remote)",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Minneapolis, MN",
-   "url": "https://barr.wd1.myworkdayjobs.com/barrcareers/job/Minneapolis-MN/Internship---Data-Science--Remote-_R-102342",
-   "posted_at": "2026-09-16T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-17T06:24:12Z",
-   "sponsorship": "no-sponsorship",
-   "salary": "$30–$38/hr",
-   "skills": [
-    "Python",
-    "SQL"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": true
   },
   {
    "id": "workday:cisco:/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
@@ -22190,36 +22142,6 @@
    "skills": null,
    "source": "workday",
    "h1b_approvals": 83,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
-   "company": "CCC Intelligent Solutions",
-   "title": "R&D & Data Science Internship Fall 2026",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Chicago (Green St), IL",
-   "url": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
-   "posted_at": "2026-08-11T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-11T21:17:11Z",
-   "sponsorship": "unknown",
-   "salary": "$20–$43/hr",
-   "skills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "Swift",
-    "Bash",
-    "LLMs",
-    "Vue",
-    "Kubernetes"
-   ],
-   "source": "workday",
-   "h1b_approvals": 101,
    "program": "Internship",
    "remote": false
   },
