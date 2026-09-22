@@ -6904,6 +6904,11 @@
     "site": "cov_external"
   },
   {
+    "name": "Cowboy Space",
+    "slug": "cowboyspace",
+    "ats": "ashby"
+  },
+  {
     "name": "Cox",
     "slug": "cox",
     "ats": "workday",
@@ -8682,6 +8687,13 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "EMC_Careers"
+  },
+  {
+    "name": "EMC Insurance",
+    "slug": "emcins",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "EMC_Internships"
   },
   {
     "name": "Emerald AI",
@@ -17390,6 +17402,13 @@
     "site": "ext_us"
   },
   {
+    "name": "Nebraska Medicine",
+    "slug": "nebraskamed",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "nm"
+  },
+  {
     "name": "NEC Software Solutions",
     "slug": "NECSWS",
     "ats": "smartrecruiters"
@@ -21090,6 +21109,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "RT"
+  },
+  {
+    "name": "Resultant",
+    "slug": "Resultant",
+    "ats": "smartrecruiters"
   },
   {
     "name": "Retail Information Systems",
@@ -25150,6 +25174,11 @@
     "ats": "workable"
   },
   {
+    "name": "Thought Forge",
+    "slug": "ThoughtForge",
+    "ats": "smartrecruiters"
+  },
+  {
     "name": "ThoughtSpot",
     "slug": "thoughtspot",
     "ats": "workday",
@@ -26878,6 +26907,13 @@
     "name": "Via",
     "slug": "via",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Vialto Partners",
+    "slug": "vialto",
+    "ats": "workday",
+    "wd": "wd107",
+    "site": "vialtoexternalcareers"
   },
   {
     "name": "Viam",
