@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-22T17:59:08Z",
-  "last_digest_roles": 75,
-  "last_digest_sent": 234,
+  "last_digest_at": "2026-09-23T19:23:05Z",
+  "last_digest_roles": 30,
+  "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1000,18 +1000,51 @@
     "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100761",
     "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100762",
     "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265",
-    "lever:anavationllc:a5c70b6a-2d16-4774-9043-677456614b1b"
+    "lever:anavationllc:a5c70b6a-2d16-4774-9043-677456614b1b",
+    "greenhouse:aegworldwide:8797389002",
+    "greenhouse:axs:8797388002",
+    "greenhouse:klaviyocampus:7999274003",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260943",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1007956",
+    "workday:cae:/job/Arlington-TX/Weapons-Simulation-Software-Co-Op_123873",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-Network-Engineering-Internship_RQ228934-2",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Cybersecurity-Associate-Internship_RQ228929-2",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Generative-AI-Software-Development-Internship_RQ228933-1",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship_RQ228931-2",
+    "workday:insulet:/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202",
+    "ashby:grow-therapy:92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8",
+    "smartrecruiters:Keenfinity:744000151395769",
+    "smartrecruiters:Keenfinity:744000151397189",
+    "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
+    "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372",
+    "workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359",
+    "workday:swbc:/job/San-Antonio-TX/Application-Security-Intern_R0015572-2",
+    "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1",
+    "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2",
+    "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325",
+    "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
+    "amazon:amazon:10557133",
+    "greenhouse:astranis:4705214006",
+    "greenhouse:astranis:4705610006",
+    "greenhouse:wehrtyou:8222414",
+    "oracle:egug.fa.us2.oraclecloud.com:26014224",
+    "workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1",
+    "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418",
+    "oracle:hdjq.fa.us2.oraclecloud.com:26011295",
+    "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429",
+    "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
+    "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 234,
+  "subscribers_total": 237,
   "send_attempts": [
-    {
-      "at": "2026-09-22T17:59:08Z",
-      "count": 235
-    },
     {
       "at": "2026-09-22T21:34:08Z",
       "count": 1
+    },
+    {
+      "at": "2026-09-23T19:23:05Z",
+      "count": 238
     }
   ]
 }
