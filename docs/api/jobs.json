@@ -1,36 +1,11 @@
 {
- "generated_at": "2026-09-23T04:58:54Z",
- "data_as_of": "2026-09-23T04:58:54Z",
- "rendered_at": "2026-09-23T04:58:55Z",
+ "generated_at": "2026-09-23T10:15:31Z",
+ "data_as_of": "2026-09-23T10:15:31Z",
+ "rendered_at": "2026-09-23T10:15:31Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 993,
+ "count": 991,
  "jobs": [
-  {
-   "id": "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
-   "company": "KLA",
-   "title": "Software Engineering Intern (C++, Unix)",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Milpitas, CA",
-   "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
-   "posted_at": "2026-09-22T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-23T04:58:54Z",
-   "sponsorship": "unknown",
-   "salary": "$37–$49/hr",
-   "skills": [
-    "C++",
-    "Linux",
-    "Python"
-   ],
-   "source": "workday",
-   "h1b_approvals": 369,
-   "program": "Internship",
-   "remote": false
-  },
   {
    "id": "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2",
    "company": "KLA",
@@ -52,6 +27,31 @@
     "C++",
     "PyTorch",
     "TensorFlow"
+   ],
+   "source": "workday",
+   "h1b_approvals": 369,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
+   "company": "KLA",
+   "title": "Software Engineering Intern (C++, Unix)",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Milpitas, CA",
+   "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
+   "posted_at": "2026-09-22T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-23T04:58:54Z",
+   "sponsorship": "unknown",
+   "salary": "$37–$49/hr",
+   "skills": [
+    "C++",
+    "Linux",
+    "Python"
    ],
    "source": "workday",
    "h1b_approvals": 369,
@@ -16534,30 +16534,6 @@
    "remote": false
   },
   {
-   "id": "greenhouse:hpiq:6140119004",
-   "company": "HP IQ",
-   "title": "Software Engineering Intern, Software Systems (Summer 2027)",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/hpiq/jobs/6140119004",
-   "posted_at": "2026-08-31T15:22:24-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-08-31T21:22:18Z",
-   "sponsorship": "unknown",
-   "salary": "$45–$51/hr",
-   "skills": [
-    "C++",
-    "Linux"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "greenhouse:integrainterns:5406101008",
    "company": "Integra FEC",
    "title": "(SPRING) Data Analyst Intern",
@@ -24676,29 +24652,6 @@
    "remote": false
   },
   {
-   "id": "lever:hermeus:51378fa0-0327-45fd-9420-b6e7d8b56440",
-   "company": "Hermeus",
-   "title": "Flight Software Engineering Intern - Fall 2026",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
-   "posted_at": "2026-03-04T23:43:47Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "citizens-only",
-   "salary": "25–33 USD/hr",
-   "skills": [
-    "C++"
-   ],
-   "source": "lever",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "amazon:amazon:3104589",
    "company": "Amazon",
    "title": "Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more)",
@@ -24838,7 +24791,7 @@
    "seasons": null,
    "season_inferred": false,
    "category": "Software",
-   "location": "Seattle, WA",
+   "location": "San Francisco, CA",
    "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
    "posted_at": null,
    "posted_at_source": null,
