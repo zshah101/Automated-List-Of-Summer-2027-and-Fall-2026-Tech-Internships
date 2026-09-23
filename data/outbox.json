@@ -1,20 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "ashby:grow-therapy:92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8",
-      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372",
-      "smartrecruiters:Keenfinity:744000151397189",
-      "smartrecruiters:Keenfinity:744000151395769",
-      "workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359",
-      "workday:swbc:/job/San-Antonio-TX/Application-Security-Intern_R0015572-2"
-    ],
-    "telegram": [
-      "ashby:grow-therapy:92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8",
-      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372",
-      "smartrecruiters:Keenfinity:744000151397189",
-      "smartrecruiters:Keenfinity:744000151395769",
-      "workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359",
-      "workday:swbc:/job/San-Antonio-TX/Application-Security-Intern_R0015572-2"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
