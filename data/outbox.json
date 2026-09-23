@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:boxinc:8226667",
-      "greenhouse:figma:6178851004",
-      "workday:hypertherm:/job/Hanover-NH/Intern_R4100",
-      "greenhouse:klaviyocampus:8003260003"
-    ],
-    "telegram": [
-      "greenhouse:boxinc:8226667",
-      "greenhouse:figma:6178851004",
-      "workday:hypertherm:/job/Hanover-NH/Intern_R4100",
-      "greenhouse:klaviyocampus:8003260003"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
