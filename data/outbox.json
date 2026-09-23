@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
-      "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2"
-    ],
-    "telegram": [
-      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
-      "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
