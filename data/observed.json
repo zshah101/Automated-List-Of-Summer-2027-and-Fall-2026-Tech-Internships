@@ -836,10 +836,11 @@
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
+      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372",
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 11
+     "count": 12
     }
    }
   },
@@ -1803,6 +1804,18 @@
     }
    }
   },
+  "grow therapy": {
+   "name": "Grow Therapy",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-22",
+     "role_ids": [
+      "ashby:grow-therapy:92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hadrian": {
    "name": "Hadrian",
    "cycles": {
@@ -2695,7 +2708,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 20,
+     "count": 21,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2703,6 +2716,7 @@
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487",
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
       "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
+      "workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359",
       "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
@@ -4362,5 +4376,5 @@
    }
   }
  },
- "updated_at": "2026-09-23T10:15:31Z"
+ "updated_at": "2026-09-23T15:17:42Z"
 }
