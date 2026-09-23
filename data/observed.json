@@ -198,14 +198,15 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 6,
+     "count": 7,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
       "amazon:amazon:10459543",
       "amazon:amazon:10517567",
       "amazon:amazon:10529525",
-      "amazon:amazon:10552937"
+      "amazon:amazon:10552937",
+      "amazon:amazon:10557133"
      ]
     }
    }
@@ -259,9 +260,10 @@
       "oracle:egug.fa.us2.oraclecloud.com:26012764",
       "oracle:egug.fa.us2.oraclecloud.com:26012781",
       "oracle:egug.fa.us2.oraclecloud.com:26013190",
-      "oracle:egug.fa.us2.oraclecloud.com:26013191"
+      "oracle:egug.fa.us2.oraclecloud.com:26013191",
+      "oracle:egug.fa.us2.oraclecloud.com:26014224"
      ],
-     "count": 32
+     "count": 33
     }
    }
   },
@@ -399,6 +401,14 @@
       "greenhouse:astranis:4681183006",
       "greenhouse:astranis:4699071006"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-22",
+     "role_ids": [
+      "greenhouse:astranis:4705214006",
+      "greenhouse:astranis:4705610006"
+     ],
+     "count": 2
     }
    }
   },
@@ -1987,10 +1997,11 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-13",
-     "count": 2,
+     "count": 3,
      "role_ids": [
       "greenhouse:wehrtyou:7964062",
-      "greenhouse:wehrtyou:8052083"
+      "greenhouse:wehrtyou:8052083",
+      "greenhouse:wehrtyou:8222414"
      ]
     }
    }
@@ -2684,7 +2695,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 19,
+     "count": 20,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2693,6 +2704,7 @@
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
       "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
       "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
@@ -4350,5 +4362,5 @@
    }
   }
  },
- "updated_at": "2026-09-22T21:33:23Z"
+ "updated_at": "2026-09-23T00:05:55Z"
 }
