@@ -1541,9 +1541,10 @@
      "first_posted": "2026-09-14",
      "role_ids": [
       "greenhouse:figma:6143238004",
+      "greenhouse:figma:6178851004",
       "greenhouse:figma:6178857004"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -4395,5 +4396,5 @@
    }
   }
  },
- "updated_at": "2026-09-23T19:22:19Z"
+ "updated_at": "2026-09-23T22:34:08Z"
 }
