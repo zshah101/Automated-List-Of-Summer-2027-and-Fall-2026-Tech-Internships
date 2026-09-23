@@ -1,22 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10557133",
-      "oracle:egug.fa.us2.oraclecloud.com:26014224",
-      "workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1",
-      "greenhouse:astranis:4705214006",
-      "greenhouse:astranis:4705610006",
-      "greenhouse:wehrtyou:8222414",
-      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418"
-    ],
-    "telegram": [
-      "amazon:amazon:10557133",
-      "oracle:egug.fa.us2.oraclecloud.com:26014224",
-      "workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1",
-      "greenhouse:astranis:4705214006",
-      "greenhouse:astranis:4705610006",
-      "greenhouse:wehrtyou:8222414",
-      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
