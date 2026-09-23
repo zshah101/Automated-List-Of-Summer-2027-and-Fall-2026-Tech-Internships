@@ -2713,6 +2713,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Authentic",
+    "slug": "authenticinsurance",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Authorium",
     "slug": "authorium",
     "ats": "ashby"
@@ -9168,6 +9173,13 @@
     "site": "Essentia_Health"
   },
   {
+    "name": "Essex",
+    "slug": "essex",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "essexcareers"
+  },
+  {
     "name": "Etched",
     "slug": "etched",
     "ats": "ashby"
@@ -11274,6 +11286,13 @@
     "ats": "lever"
   },
   {
+    "name": "Gorbel",
+    "slug": "gorbel",
+    "ats": "workday",
+    "wd": "wd501",
+    "site": "gorbelcareers"
+  },
+  {
     "name": "Gordon Food Service",
     "slug": "gfs",
     "ats": "workday",
@@ -11526,6 +11545,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "careers"
+  },
+  {
+    "name": "Grow Therapy",
+    "slug": "grow-therapy",
+    "ats": "ashby"
   },
   {
     "name": "GrowthLoop",
@@ -14644,6 +14668,11 @@
     "name": "League",
     "slug": "leagueinc",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Lean TECHniques",
+    "slug": "leantechniques",
+    "ats": "ashby"
   },
   {
     "name": "LEAP Legal Software",
