@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-23T15:17:42Z",
- "data_as_of": "2026-09-23T15:17:42Z",
- "rendered_at": "2026-09-23T15:17:42Z",
+ "generated_at": "2026-09-23T19:22:19Z",
+ "data_as_of": "2026-09-23T19:22:19Z",
+ "rendered_at": "2026-09-23T19:22:20Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -263,7 +263,7 @@
    "expected": "2026-07-08",
    "days_until": -77,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -358,7 +358,7 @@
    "expected": "2026-07-20",
    "days_until": -65,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003",
+   "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3654,25 +3654,6 @@
    }
   },
   {
-   "company": "Plastipak",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-15",
-   "days_until": -8,
-   "status": "open",
-   "url": "https://plastipak.wd1.myworkdayjobs.com/Plastipak/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-15"
-   }
-  },
-  {
    "company": "Q2",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -4202,6 +4183,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-22"
+   }
+  },
+  {
+   "company": "Insulet Corporation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-23",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-23",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-23"
    }
   },
   {
@@ -7068,7 +7068,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-15"
    }
+  },
+  {
+   "company": "Plastipak",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -8,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
   }
  ],
- "count": 372
+ "count": 373
 }
