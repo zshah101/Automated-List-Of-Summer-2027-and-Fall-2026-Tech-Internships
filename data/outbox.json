@@ -1,22 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260821",
-      "ashby:reflect-orbital:c394615d-26c6-4435-ad84-3ca3269c2952",
-      "workday:ameren:/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1",
-      "greenhouse:eqtcorporation:5424757008",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Data-Science---Intern_R413312",
-      "workday:motorolasolutions:/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136",
-      "workday:wexinc:/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543"
-    ],
-    "telegram": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260821",
-      "ashby:reflect-orbital:c394615d-26c6-4435-ad84-3ca3269c2952",
-      "workday:ameren:/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1",
-      "greenhouse:eqtcorporation:5424757008",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Data-Science---Intern_R413312",
-      "workday:motorolasolutions:/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136",
-      "workday:wexinc:/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
