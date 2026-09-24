@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "ashby:ramp:b66be397-240b-41a6-9b05-493299b270a9",
-      "greenhouse:flowtraders:8047166",
-      "greenhouse:newsbreak:4712896006"
-    ],
-    "telegram": [
-      "ashby:ramp:b66be397-240b-41a6-9b05-493299b270a9",
-      "greenhouse:flowtraders:8047166",
-      "greenhouse:newsbreak:4712896006"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
