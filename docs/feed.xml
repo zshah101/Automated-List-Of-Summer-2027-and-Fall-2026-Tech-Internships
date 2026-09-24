@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-24T06:24:48Z</updated>
+  <updated>2026-09-24T12:28:04Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3</id>
+    <title>Kitware: Computer Vision Co-Op 🇺🇸</title>
+    <link href="https://jobs.lever.co/kitware/e76197d1-4dc3-4f7c-a30a-597713283bb3"/>
+    <updated>2026-09-24T12:28:04Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Clifton Park, New York · 30–45 USD/hr · Computer Vision, Python, C++, JavaScript, PostgreSQL · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:dxctechnology:/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298</id>
+    <title>DXC Technology: Cyber Security Intern</title>
+    <link href="https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298"/>
+    <updated>2026-09-24T12:28:04Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · ITA - MI - MILAN</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:wurljobs:4716249006</id>
+    <title>Wurl: Data Science Intern</title>
+    <link href="https://job-boards.greenhouse.io/wurljobs/jobs/4716249006"/>
+    <updated>2026-09-24T12:28:04Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Remote - United States · $30/hr · Python, SQL, Databricks, Snowflake</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:ramp:b66be397-240b-41a6-9b05-493299b270a9</id>
     <title>Ramp: Software Engineering Intern, iOS</title>
@@ -242,7 +266,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2</id>
     <title>KLA: Algorithm Engineering Intern (AI, Computer Vision &amp; Software Engineering)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2"/>
     <updated>2026-09-23T04:58:54Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · $58/hr · Computer Vision, Python, C++, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -250,7 +274,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1</id>
     <title>KLA: Software Engineering Intern (C++, Unix)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1"/>
     <updated>2026-09-23T04:58:54Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · $37–$49/hr · C++, Linux, Python · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -365,7 +389,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
     <updated>2026-09-22T17:58:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f255bf03-9173-4c0a-8a18-7cc43c27ded8</id>
@@ -381,7 +405,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
     <updated>2026-09-22T17:58:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Seattle, WA</summary>
+    <summary>Summer 2027 · Software · New York, NY</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-21T08:07:35Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Hardware · USA - Texas - Allen · Verilog</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
-    <title>Ninjaholdings: Data Engineer Intern</title>
-    <link href="https://ninjaholdings.breezy.hr/p/12b3ed96c30c-data-engineer-intern"/>
-    <updated>2026-09-20T14:30:31Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:breezy:ninjaholdings:23a015fea536</id>
-    <title>Ninjaholdings: Software Engineer Intern</title>
-    <link href="https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern"/>
-    <updated>2026-09-20T14:30:31Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Chicago, IL · $20 – $25 / hour</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:breezy:ninjaholdings:85be8c78a2ba</id>
-    <title>Ninjaholdings: Data Science Intern</title>
-    <link href="https://ninjaholdings.breezy.hr/p/85be8c78a2ba-data-science-intern"/>
-    <updated>2026-09-20T14:30:31Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
   </entry>
 </feed>

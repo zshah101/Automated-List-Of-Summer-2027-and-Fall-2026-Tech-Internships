@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3",
+      "workday:dxctechnology:/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298",
+      "greenhouse:wurljobs:4716249006"
+    ],
+    "telegram": [
+      "lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3",
+      "workday:dxctechnology:/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298",
+      "greenhouse:wurljobs:4716249006"
+    ]
   }
 }
