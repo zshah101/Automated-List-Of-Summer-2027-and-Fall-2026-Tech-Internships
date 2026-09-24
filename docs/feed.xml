@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-24T01:08:30Z</updated>
+  <updated>2026-09-24T06:24:48Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:ramp:b66be397-240b-41a6-9b05-493299b270a9</id>
+    <title>Ramp: Software Engineering Intern, iOS</title>
+    <link href="https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9"/>
+    <updated>2026-09-24T06:24:48Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York, NY (HQ) · $12.5K per month · Swift</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:ramp:a13ae586-f4cb-4385-8822-c42b9b54ed74</id>
     <title>Ramp: Software Engineer Internship, Frontend</title>
@@ -24,20 +32,20 @@
     <summary>Not stated · Software · New York, NY (HQ) · $12.5K per month · Kotlin</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041</id>
-    <title>CACI: Software Engineering Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041"/>
-    <updated>2026-09-24T01:08:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Reston, VA, US · Python, Java, JavaScript, Angular, HTML/CSS</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:graphcore:8841894002</id>
     <title>Graphcore: Firmware Engineering Intern</title>
     <link href="https://job-boards.greenhouse.io/graphcore/jobs/8841894002"/>
     <updated>2026-09-24T01:08:30Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Hardware · Austin, Texas, United States · Python, C++, Linux, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041</id>
+    <title>CACI: Software Engineering Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041"/>
+    <updated>2026-09-24T01:08:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Reston, VA, US · Python, Java, JavaScript, Angular, HTML/CSS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584</id>
@@ -234,7 +242,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2</id>
     <title>KLA: Algorithm Engineering Intern (AI, Computer Vision &amp; Software Engineering)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1"/>
     <updated>2026-09-23T04:58:54Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · $58/hr · Computer Vision, Python, C++, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -242,7 +250,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1</id>
     <title>KLA: Software Engineering Intern (C++, Unix)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325"/>
     <updated>2026-09-23T04:58:54Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · $37–$49/hr · C++, Linux, Python · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -427,17 +435,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530</id>
     <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530"/>
-    <updated>2026-09-22T17:58:14Z</updated>
+    <updated>2026-09-24T06:07:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196</id>
     <title>Northrop Grumman: 2027 Cyber Systems Engineer Intern-Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196"/>
-    <updated>2026-09-22T17:58:14Z</updated>
+    <updated>2026-09-24T06:07:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</id>
@@ -451,17 +459,17 @@
     <id>urn:intern-engine:workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169</id>
     <title>Verizon Communications: Verizon Network and Technology: AI Science 2027 Internship: Rutgers, NJIT, NYU, UT Dallas, UT Arlington, Texas A&amp;M</title>
     <link href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169"/>
-    <updated>2026-09-22T17:58:14Z</updated>
+    <updated>2026-09-24T06:07:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167</id>
     <title>Verizon Communications: Verizon Network and Technology: AI Science 2027 Internship</title>
     <link href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"/>
-    <updated>2026-09-22T17:58:14Z</updated>
+    <updated>2026-09-24T06:07:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Information-Security-Co-op_R94910</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-20T14:30:31Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822</id>
-    <title>Priceline: Software Engineering - Full Stack (Northeastern Co-op)</title>
-    <link href="https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822"/>
-    <updated>2026-09-20T14:30:31Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · New York · Python, Java, Go, JavaScript, SQL · status: closed</summary>
   </entry>
 </feed>
