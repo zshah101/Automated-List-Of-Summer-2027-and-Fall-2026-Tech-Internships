@@ -833,6 +833,7 @@
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
       "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
       "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
+      "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
@@ -840,7 +841,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -3543,6 +3544,13 @@
       "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
      ],
      "count": 6
+    },
+    "Fall 2026": {
+     "first_posted": "2026-09-23",
+     "role_ids": [
+      "workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
+     ],
+     "count": 1
     }
    }
   },
@@ -4396,5 +4404,5 @@
    }
   }
  },
- "updated_at": "2026-09-23T22:34:08Z"
+ "updated_at": "2026-09-24T01:08:30Z"
 }

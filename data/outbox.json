@@ -1,6 +1,18 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:ramp:a13ae586-f4cb-4385-8822-c42b9b54ed74",
+      "ashby:ramp:fcf118cc-521a-4a62-9d13-945e5b6e3cb8",
+      "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
+      "greenhouse:graphcore:8841894002",
+      "workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
+    ],
+    "telegram": [
+      "ashby:ramp:a13ae586-f4cb-4385-8822-c42b9b54ed74",
+      "ashby:ramp:fcf118cc-521a-4a62-9d13-945e5b6e3cb8",
+      "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
+      "greenhouse:graphcore:8841894002",
+      "workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
+    ]
   }
 }
