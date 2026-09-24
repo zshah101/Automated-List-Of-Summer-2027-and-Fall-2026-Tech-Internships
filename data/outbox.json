@@ -1,26 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:abb:/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125",
-      "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
-      "greenhouse:formlabsinternships:8222268",
-      "greenhouse:haigroup:4409386009",
-      "workday:leidos:/job/St-Louis-MO/Software-Developer-Intern_R-00192632",
-      "greenhouse:clevelandguardiansbops:8827470002",
-      "greenhouse:voloridgeinvestmentmanagement:4405530009",
-      "workday:zekelman:/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752",
-      "greenhouse:ziprecruiter:8180455"
-    ],
-    "telegram": [
-      "workday:abb:/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125",
-      "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
-      "greenhouse:formlabsinternships:8222268",
-      "greenhouse:haigroup:4409386009",
-      "workday:leidos:/job/St-Louis-MO/Software-Developer-Intern_R-00192632",
-      "greenhouse:clevelandguardiansbops:8827470002",
-      "greenhouse:voloridgeinvestmentmanagement:4405530009",
-      "workday:zekelman:/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752",
-      "greenhouse:ziprecruiter:8180455"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
