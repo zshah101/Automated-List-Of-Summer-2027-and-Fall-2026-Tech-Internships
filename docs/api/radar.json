@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-25T10:26:01Z",
- "data_as_of": "2026-09-25T10:26:01Z",
- "rendered_at": "2026-09-25T10:26:01Z",
+ "generated_at": "2026-09-25T15:44:53Z",
+ "data_as_of": "2026-09-25T15:44:53Z",
+ "rendered_at": "2026-09-25T15:44:53Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2590,6 +2590,25 @@
    }
   },
   {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -17,
+   "status": "open",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Coinbase",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -3930,7 +3949,7 @@
    "expected": "2026-09-17",
    "days_until": -8,
    "status": "open",
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
    "note": "late-summer opening",
    "provenance": {
     "type": "engine-observed",
@@ -4082,7 +4101,7 @@
    "expected": "2026-09-21",
    "days_until": -4,
    "status": "open",
-   "url": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
+   "url": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Science-Summer-2027_38483",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4235,6 +4254,25 @@
    "days_until": -1,
    "status": "open",
    "url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
+   }
+  },
+  {
+   "company": "Genesis Molecular AI",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6956,25 +6994,6 @@
    }
   },
   {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -17,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "CHAOS Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -7146,5 +7165,5 @@
    }
   }
  ],
- "count": 376
+ "count": 377
 }

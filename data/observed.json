@@ -1784,6 +1784,18 @@
     }
    }
   },
+  "genesis molecular ai": {
+   "name": "Genesis Molecular AI",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-24",
+     "role_ids": [
+      "ashby:genesis-molecular-ai:44e3cbdc-949c-426e-a80a-b41c73ad6a99"
+     ],
+     "count": 1
+    }
+   }
+  },
   "genworth financial": {
    "name": "Genworth Financial",
    "cycles": {
@@ -4453,5 +4465,5 @@
    }
   }
  },
- "updated_at": "2026-09-25T10:26:00Z"
+ "updated_at": "2026-09-25T15:44:53Z"
 }
