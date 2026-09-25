@@ -1,6 +1,42 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493",
+      "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
+      "greenhouse:doordashusa:8204111",
+      "workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Drug-Metabolism---AI_R0055519",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502",
+      "workday:novanta:/job/Apex-NC/Computer-Software-Engineering-Co-op_R009760",
+      "smartrecruiters:RRSGroup:744000151931819",
+      "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
+      "smartrecruiters:VeoliaEnvironnementSA:744000151947749",
+      "greenhouse:waymo:8224900",
+      "workday:elkay:/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151",
+      "workday:elkay:/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1",
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162"
+    ],
+    "telegram": [
+      "workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493",
+      "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
+      "greenhouse:doordashusa:8204111",
+      "workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Drug-Metabolism---AI_R0055519",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502",
+      "workday:novanta:/job/Apex-NC/Computer-Software-Engineering-Co-op_R009760",
+      "smartrecruiters:RRSGroup:744000151931819",
+      "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
+      "smartrecruiters:VeoliaEnvironnementSA:744000151947749",
+      "greenhouse:waymo:8224900",
+      "workday:elkay:/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151",
+      "workday:elkay:/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1",
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162"
+    ]
   }
 }

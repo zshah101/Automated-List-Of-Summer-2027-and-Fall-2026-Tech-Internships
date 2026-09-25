@@ -1337,9 +1337,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-14",
      "role_ids": [
-      "greenhouse:doordashusa:8171041"
+      "greenhouse:doordashusa:8171041",
+      "greenhouse:doordashusa:8204111"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3360,6 +3361,18 @@
     }
    }
   },
+  "rrs group": {
+   "name": "RRS Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-25",
+     "role_ids": [
+      "smartrecruiters:RRSGroup:744000151931819"
+     ],
+     "count": 1
+    }
+   }
+  },
   "rtx": {
    "name": "RTX",
    "cycles": {
@@ -3706,6 +3719,18 @@
       "ashby:snowflake:897e1850-c590-4462-b187-0516b65b2034",
       "ashby:snowflake:e2412cd5-19dd-44f8-addd-c9ef3c99ff82"
      ]
+    }
+   }
+  },
+  "solar turbines": {
+   "name": "Solar Turbines",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-25",
+     "role_ids": [
+      "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786"
+     ],
+     "count": 1
     }
    }
   },
@@ -4358,9 +4383,10 @@
       "greenhouse:waymo:8193731",
       "greenhouse:waymo:8198218",
       "greenhouse:waymo:8203200",
-      "greenhouse:waymo:8221198"
+      "greenhouse:waymo:8221198",
+      "greenhouse:waymo:8224900"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -4485,7 +4511,22 @@
      ]
     }
    }
+  },
+  "zurn elkay water solutions": {
+   "name": "Zurn Elkay Water Solutions",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-25",
+     "role_ids": [
+      "workday:elkay:/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1",
+      "workday:elkay:/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151",
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162"
+     ],
+     "count": 4
+    }
+   }
   }
  },
- "updated_at": "2026-09-25T19:45:35Z"
+ "updated_at": "2026-09-25T23:03:09Z"
 }

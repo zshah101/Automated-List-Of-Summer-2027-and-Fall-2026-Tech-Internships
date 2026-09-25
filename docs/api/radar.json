@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-25T19:45:35Z",
- "data_as_of": "2026-09-25T19:45:35Z",
- "rendered_at": "2026-09-25T19:45:36Z",
+ "generated_at": "2026-09-25T23:03:09Z",
+ "data_as_of": "2026-09-25T23:03:09Z",
+ "rendered_at": "2026-09-25T23:03:09Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1061,7 +1061,7 @@
    "expected": "2026-08-20",
    "days_until": -36,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015684626",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679246",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4281,6 +4281,63 @@
    }
   },
   {
+   "company": "RRS Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/RRSGroup/744000151931819",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
+  },
+  {
+   "company": "Solar Turbines",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://cat.wd5.myworkdayjobs.com/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
+  },
+  {
+   "company": "Zurn Elkay Water Solutions",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -7184,5 +7241,5 @@
    }
   }
  ],
- "count": 378
+ "count": 381
 }
