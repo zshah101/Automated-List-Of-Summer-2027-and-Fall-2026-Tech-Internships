@@ -1,20 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "ashby:genesis-molecular-ai:44e3cbdc-949c-426e-a80a-b41c73ad6a99",
-      "greenhouse:geocgi:4420076009",
-      "workday:greenheckgroup:/job/Schofield-WI/Application-Developer-Co-op_JR104721",
-      "greenhouse:hevenaerotech:4410288009",
-      "workday:leidos:/job/Gaithersburg-MD/Software-Development-Intern_R-00193103",
-      "workday:talentmanagementsolution:/job/Remote---USA/Cyber-Security-Intern_R52980-2"
-    ],
-    "telegram": [
-      "ashby:genesis-molecular-ai:44e3cbdc-949c-426e-a80a-b41c73ad6a99",
-      "greenhouse:geocgi:4420076009",
-      "workday:greenheckgroup:/job/Schofield-WI/Application-Developer-Co-op_JR104721",
-      "greenhouse:hevenaerotech:4410288009",
-      "workday:leidos:/job/Gaithersburg-MD/Software-Development-Intern_R-00193103",
-      "workday:talentmanagementsolution:/job/Remote---USA/Cyber-Security-Intern_R52980-2"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
