@@ -48,9 +48,16 @@
       "smartrecruiters:AbbVie:3743990014860456",
       "smartrecruiters:AbbVie:3743990014896329",
       "smartrecruiters:AbbVie:3743990014900496",
-      "smartrecruiters:AbbVie:3743990014900536"
+      "smartrecruiters:AbbVie:3743990014900536",
+      "smartrecruiters:AbbVie:3743990015679246",
+      "smartrecruiters:AbbVie:3743990015679346",
+      "smartrecruiters:AbbVie:3743990015679386",
+      "smartrecruiters:AbbVie:3743990015684476",
+      "smartrecruiters:AbbVie:3743990015684516",
+      "smartrecruiters:AbbVie:3743990015684556",
+      "smartrecruiters:AbbVie:3743990015684626"
      ],
-     "count": 9
+     "count": 16
     }
    }
   },
@@ -226,9 +233,11 @@
     "Fall 2026": {
      "first_posted": "2026-09-16",
      "role_ids": [
-      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729"
+      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
+      "workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -898,6 +907,18 @@
      "first_posted": "2026-08-11",
      "role_ids": [
       "workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "cencora": {
+   "name": "Cencora",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-25",
+     "role_ids": [
+      "workday:myhrabc:/job/Remote-USA/Software-Intern_R2613763"
      ],
      "count": 1
     }
@@ -3358,6 +3379,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871278",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871442",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871444",
@@ -3366,7 +3388,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -4465,5 +4487,5 @@
    }
   }
  },
- "updated_at": "2026-09-25T15:44:53Z"
+ "updated_at": "2026-09-25T19:45:35Z"
 }

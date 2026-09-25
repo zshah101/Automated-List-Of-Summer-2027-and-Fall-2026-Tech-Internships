@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-25T15:44:53Z",
- "data_as_of": "2026-09-25T15:44:53Z",
- "rendered_at": "2026-09-25T15:44:53Z",
+ "generated_at": "2026-09-25T19:45:35Z",
+ "data_as_of": "2026-09-25T19:45:35Z",
+ "rendered_at": "2026-09-25T19:45:36Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1061,7 +1061,7 @@
    "expected": "2026-08-20",
    "days_until": -36,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015684626",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3939,25 +3939,6 @@
    }
   },
   {
-   "company": "Visa",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-17",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-17",
-   "days_until": -8,
-   "status": "open",
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
-   "note": "late-summer opening",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-17"
-   }
-  },
-  {
    "company": "Zekelman Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-17",
@@ -4101,7 +4082,7 @@
    "expected": "2026-09-21",
    "days_until": -4,
    "status": "open",
-   "url": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Science-Summer-2027_38483",
+   "url": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4278,6 +4259,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-24"
+   }
+  },
+  {
+   "company": "Cencora",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-USA/Software-Intern_R2613763",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
    }
   },
   {
@@ -7163,7 +7163,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-15"
    }
+  },
+  {
+   "company": "Visa",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-17",
+   "days_until": -8,
+   "status": "dropped",
+   "url": "",
+   "note": "late-summer opening",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-17"
+   }
   }
  ],
- "count": 377
+ "count": 378
 }
