@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-24T21:07:02Z",
-  "last_digest_roles": 28,
-  "last_digest_sent": 238,
+  "last_digest_at": "2026-09-25T23:03:56Z",
+  "last_digest_roles": 50,
+  "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1061,18 +1061,49 @@
     "greenhouse:boxinc:8226667",
     "greenhouse:figma:6178851004",
     "greenhouse:klaviyocampus:8003260003",
-    "workday:hypertherm:/job/Hanover-NH/Intern_R4100"
+    "workday:hypertherm:/job/Hanover-NH/Intern_R4100",
+    "greenhouse:doordashusa:8204111",
+    "greenhouse:waymo:8224900",
+    "smartrecruiters:RRSGroup:744000151931819",
+    "smartrecruiters:VeoliaEnvironnementSA:744000151947749",
+    "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
+    "workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493",
+    "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
+    "workday:elkay:/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1",
+    "workday:elkay:/job/Milwaukee-WI/Embedded-Hardware-Intern--Summer-2027-_REQ-020151",
+    "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
+    "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162",
+    "workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Drug-Metabolism---AI_R0055519",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502",
+    "workday:novanta:/job/Apex-NC/Computer-Software-Engineering-Co-op_R009760",
+    "smartrecruiters:AbbVie:3743990015679246",
+    "smartrecruiters:AbbVie:3743990015679346",
+    "smartrecruiters:AbbVie:3743990015679386",
+    "smartrecruiters:AbbVie:3743990015684476",
+    "smartrecruiters:AbbVie:3743990015684516",
+    "smartrecruiters:AbbVie:3743990015684556",
+    "smartrecruiters:AbbVie:3743990015684626",
+    "smartrecruiters:BoschGroup:744000151890105",
+    "workable:talentpluto:6A02556484",
+    "workable:talentpluto:717116FEE8",
+    "workable:talentpluto:A0CFDD6FBD",
+    "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1",
+    "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
+    "workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 238,
+  "subscribers_total": 237,
   "send_attempts": [
-    {
-      "at": "2026-09-24T21:07:02Z",
-      "count": 239
-    },
     {
       "at": "2026-09-25T00:11:26Z",
       "count": 1
+    },
+    {
+      "at": "2026-09-25T23:03:56Z",
+      "count": 237
     }
   ]
 }
