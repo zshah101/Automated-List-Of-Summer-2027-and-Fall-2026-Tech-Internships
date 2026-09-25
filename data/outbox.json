@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10559746",
-      "amazon:amazon:10559762",
-      "workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211",
-      "workday:biibhr:/job/Remote-USA/Co-op--Data-Science---AI-Innovation_REQ24209",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277"
-    ],
-    "telegram": [
-      "amazon:amazon:10559746",
-      "amazon:amazon:10559762",
-      "workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211",
-      "workday:biibhr:/job/Remote-USA/Co-op--Data-Science---AI-Innovation_REQ24209",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
