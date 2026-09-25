@@ -1,52 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workable:talentpluto:6A02556484",
-      "workable:talentpluto:A0CFDD6FBD",
-      "workable:talentpluto:717116FEE8",
-      "smartrecruiters:AbbVie:3743990015684626",
-      "smartrecruiters:AbbVie:3743990015684556",
-      "smartrecruiters:AbbVie:3743990015684516",
-      "smartrecruiters:AbbVie:3743990015684476",
-      "smartrecruiters:AbbVie:3743990015679386",
-      "smartrecruiters:AbbVie:3743990015679346",
-      "smartrecruiters:AbbVie:3743990015679246",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1",
-      "workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1",
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "smartrecruiters:BoschGroup:744000151890105",
-      "workday:myhrabc:/job/Remote-USA/Software-Intern_R2613763",
-      "workday:myhrabc:/job/Conshohocken-PA/EDI-IT-Software-Developer-Intern_R2612376",
-      "workday:commercebank:/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
-      "workday:copart:/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
-      "workday:rgare:/job/United-States-Chesterfield-MO-RGA-HQ/Fall-Intern---Data-Science-AI_J28774",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082"
-    ],
-    "telegram": [
-      "workable:talentpluto:6A02556484",
-      "workable:talentpluto:A0CFDD6FBD",
-      "workable:talentpluto:717116FEE8",
-      "smartrecruiters:AbbVie:3743990015684626",
-      "smartrecruiters:AbbVie:3743990015684556",
-      "smartrecruiters:AbbVie:3743990015684516",
-      "smartrecruiters:AbbVie:3743990015684476",
-      "smartrecruiters:AbbVie:3743990015679386",
-      "smartrecruiters:AbbVie:3743990015679346",
-      "smartrecruiters:AbbVie:3743990015679246",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1",
-      "workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1",
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "smartrecruiters:BoschGroup:744000151890105",
-      "workday:myhrabc:/job/Remote-USA/Software-Intern_R2613763",
-      "workday:myhrabc:/job/Conshohocken-PA/EDI-IT-Software-Developer-Intern_R2612376",
-      "workday:commercebank:/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
-      "workday:copart:/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
-      "workday:rgare:/job/United-States-Chesterfield-MO-RGA-HQ/Fall-Intern---Data-Science-AI_J28774",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
