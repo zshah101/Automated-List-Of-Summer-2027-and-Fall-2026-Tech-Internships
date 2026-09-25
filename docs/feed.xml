@@ -5,32 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-25T00:10:42Z</updated>
+  <updated>2026-09-25T05:07:15Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Intuitive:744000151714759</id>
-    <title>Intuitive Surgical: AI Research Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Intuitive/744000151714759"/>
-    <updated>2026-09-25T00:10:42Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, PyTorch, TensorFlow, LLMs, Computer Vision · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:irhythmtech:/job/San-Francisco-CA/Firmware-Quality-Assurance-Engineer-Co-Op-Intern-Full-Time-January-JuneEngineer_JR1791</id>
-    <title>iRhythm Technologies: Firmware Quality Assurance Engineer Co-Op Intern Full Time January-JuneEngineer</title>
-    <link href="https://irhythmtech.wd5.myworkdayjobs.com/irhythm/job/San-Francisco-CA/Firmware-Quality-Assurance-Engineer-Co-Op-Intern-Full-Time-January-JuneEngineer_JR1791"/>
-    <updated>2026-09-25T00:10:42Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Hardware · San Francisco, CA · $35/hr · C# · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Data-Science-Co-op_R-100341</id>
-    <title>Johnson &amp; Johnson: Data Science Co-op 🛂</title>
-    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Data-Science-Co-op_R-100341"/>
-    <updated>2026-09-25T00:10:42Z</updated>
-    <category term="Winter 2026"/>
-    <summary>Winter 2026 · Data &amp; ML/AI · Danvers, Massachusetts, United States of America · $23.5/hr · Python, PyTorch, TensorFlow, scikit-learn, Pandas · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10559746</id>
     <title>Amazon: Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC)</title>
@@ -48,12 +24,12 @@
     <summary>Summer 2027 · Software · Redmond, Washington, USA · Python, Java, C++, C#, Rust · sponsorship: citizens-only · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211</id>
-    <title>Biogen: Co-op, Data Science</title>
-    <link href="https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Data-Science_REQ24211"/>
+    <id>urn:intern-engine:smartrecruiters:Intuitive:744000151714759</id>
+    <title>Intuitive Surgical: AI Research Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Intuitive/744000151714759"/>
     <updated>2026-09-25T00:10:42Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Remote, USA · Python, SQL, LLMs · H-1B track record: ~125 approvals (FY2022–2023)</summary>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, PyTorch, TensorFlow, LLMs, Computer Vision · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:biibhr:/job/Remote-USA/Co-op--Data-Science---AI-Innovation_REQ24209</id>
@@ -62,6 +38,30 @@
     <updated>2026-09-25T00:10:42Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Remote, USA · Python, SQL, PyTorch, TensorFlow, LLMs · H-1B track record: ~125 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211</id>
+    <title>Biogen: Co-op, Data Science</title>
+    <link href="https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Data-Science_REQ24211"/>
+    <updated>2026-09-25T00:10:42Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Remote, USA · Python, SQL, LLMs · H-1B track record: ~125 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:irhythmtech:/job/San-Francisco-CA/Firmware-Quality-Assurance-Engineer-Co-Op-Intern-Full-Time-January-JuneEngineer_JR1791</id>
+    <title>iRhythm Technologies: Firmware Quality Assurance Engineer Co-Op Intern Full Time January-JuneEngineer</title>
+    <link href="https://irhythmtech.wd5.myworkdayjobs.com/irhythm/job/San-Francisco-CA/Firmware-Quality-Assurance-Engineer-Co-Op-Intern-Full-Time-January-JuneEngineer_JR1791"/>
+    <updated>2026-09-25T00:10:42Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Hardware · San Francisco, CA · $35/hr · C# · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Data-Science-Co-op_R-100341</id>
+    <title>Johnson &amp; Johnson: Data Science Co-op 🛂</title>
+    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Data-Science-Co-op_R-100341"/>
+    <updated>2026-09-25T00:10:42Z</updated>
+    <category term="Winter 2026"/>
+    <summary>Winter 2026 · Data &amp; ML/AI · Danvers, Massachusetts, United States of America · $23.5/hr · Python, PyTorch, TensorFlow, scikit-learn, Pandas · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277</id>
@@ -581,7 +581,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
     <updated>2026-09-22T17:58:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Seattle, WA</summary>
+    <summary>Summer 2027 · Software · New York, NY</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f255bf03-9173-4c0a-8a18-7cc43c27ded8</id>
@@ -597,7 +597,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
     <updated>2026-09-22T17:58:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
