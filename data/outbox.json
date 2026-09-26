@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences---AI_R0055524",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527"
+    ],
+    "telegram": [
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences---AI_R0055524",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527"
+    ]
   }
 }
