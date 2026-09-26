@@ -514,9 +514,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-10",
      "role_ids": [
+      "workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550",
       "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4538,5 +4539,5 @@
    }
   }
  },
- "updated_at": "2026-09-26T19:40:37Z"
+ "updated_at": "2026-09-26T22:29:53Z"
 }

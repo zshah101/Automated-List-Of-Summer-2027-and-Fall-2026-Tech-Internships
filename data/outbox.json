@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:avav:/job/Simi-Valley-CA/Software-Engineering-Intern_8813",
+      "workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550"
+    ],
+    "telegram": [
+      "workday:avav:/job/Simi-Valley-CA/Software-Engineering-Intern_8813",
+      "workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550"
+    ]
   }
 }
