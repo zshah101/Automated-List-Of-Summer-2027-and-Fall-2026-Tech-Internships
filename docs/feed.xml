@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-26T16:35:23Z</updated>
+  <updated>2026-09-26T19:40:37Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939</id>
-    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 AI/ML Software Development and Engineering Internship 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939"/>
-    <updated>2026-09-26T16:35:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>6 openings · Summer 2027 · Data &amp; ML/AI · USA LA Bossier City · Python, SQL, PyTorch, TensorFlow, scikit-learn · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935</id>
     <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 AI/ML Business Intelligence Development Internship 🇺🇸</title>
@@ -30,6 +22,14 @@
     <updated>2026-09-26T16:35:23Z</updated>
     <category term="Summer 2027"/>
     <summary>2 openings · Summer 2027 · Data &amp; ML/AI · USA LA Bossier City · Python, SQL, LLMs · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939</id>
+    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 AI/ML Software Development and Engineering Internship 🇺🇸</title>
+    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939"/>
+    <updated>2026-09-26T16:35:23Z</updated>
+    <category term="Summer 2027"/>
+    <summary>6 openings · Summer 2027 · Data &amp; ML/AI · USA LA Bossier City · Python, SQL, PyTorch, TensorFlow, scikit-learn · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526</id>
@@ -641,11 +641,11 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:klaviyocampus:8003260003</id>
-    <title>Klaviyo: AI Engineer Intern</title>
+    <title>Klaviyo: AI Engineer Intern (Summer 2027)</title>
     <link href="https://job-boards.greenhouse.io/klaviyocampus/jobs/8003260003"/>
     <updated>2026-09-23T22:34:08Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Boston, MA · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Boston, MA · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hypertherm:/job/Hanover-NH/Intern_R4100</id>
