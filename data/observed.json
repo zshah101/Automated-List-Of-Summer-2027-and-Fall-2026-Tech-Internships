@@ -3289,6 +3289,18 @@
     }
    }
   },
+  "rentvision": {
+   "name": "Rentvision",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-21",
+     "role_ids": [
+      "workable:rentvision:0F1C7992BF"
+     ],
+     "count": 1
+    }
+   }
+  },
   "replit": {
    "name": "Replit",
    "cycles": {
@@ -4539,5 +4551,5 @@
    }
   }
  },
- "updated_at": "2026-09-26T22:29:53Z"
+ "updated_at": "2026-09-27T01:05:41Z"
 }

@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-26T22:29:53Z</updated>
+  <updated>2026-09-27T01:05:41Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:avav:/job/Simi-Valley-CA/Software-Engineering-Intern_8813</id>
-    <title>Avav: Software Engineering Intern</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineering-Intern_8813"/>
-    <updated>2026-09-26T22:29:53Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Simi Valley, CA · Python, C++, Linux</summary>
+    <id>urn:intern-engine:workable:rentvision:0F1C7992BF</id>
+    <title>Rentvision: Software Engineering Intern</title>
+    <link href="https://apply.workable.com/rentvision/j/0F1C7992BF/"/>
+    <updated>2026-09-27T01:05:41Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lincoln, Nebraska, United States · Java, TypeScript, JavaScript, React, HTML/CSS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550</id>
@@ -22,6 +22,14 @@
     <updated>2026-09-26T22:29:53Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Melbourne, FL · Python, Java, C++, Bash, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/Simi-Valley-CA/Software-Engineering-Intern_8813</id>
+    <title>Avav: Software Engineering Intern</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineering-Intern_8813"/>
+    <updated>2026-09-26T22:29:53Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Simi Valley, CA · Python, C++, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-23T15:17:42Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Fairport, NY, United States · $25–$26/hr · Python, C++, Azure, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Keenfinity:744000151397189</id>
-    <title>Keenfinity: Embedded Firmware Engineer Co-Op</title>
-    <link href="https://jobs.smartrecruiters.com/Keenfinity/744000151397189"/>
-    <updated>2026-09-23T15:17:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Hardware · Fairport, NY, United States · $24–$27/hr · Python, C++, Linux</summary>
   </entry>
 </feed>
