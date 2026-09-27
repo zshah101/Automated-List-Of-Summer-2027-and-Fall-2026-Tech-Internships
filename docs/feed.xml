@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-27T20:37:34Z</updated>
+  <updated>2026-09-27T23:42:15Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:queracomputinginc:5435902008</id>
+    <title>QuEra Computing: Internship - Scientific Software and Compilation</title>
+    <link href="https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008"/>
+    <updated>2026-09-27T23:42:15Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Boston, MA  USA · Python, Rust</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workable:rentvision:0F1C7992BF</id>
     <title>Rentvision: Software Engineering Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-23T15:17:42Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York City · $50 per hour · Python, TypeScript, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Keenfinity:744000151395769</id>
-    <title>Keenfinity: Software Test Automation Co-Op</title>
-    <link href="https://jobs.smartrecruiters.com/Keenfinity/744000151395769"/>
-    <updated>2026-09-23T15:17:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Fairport, NY, United States · $25–$26/hr · Python, C++, Azure, Linux</summary>
   </entry>
 </feed>
