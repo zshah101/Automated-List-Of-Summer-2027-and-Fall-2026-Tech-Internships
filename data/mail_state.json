@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-25T23:03:56Z",
-  "last_digest_roles": 50,
-  "last_digest_sent": 237,
+  "last_digest_at": "2026-09-27T01:06:25Z",
+  "last_digest_roles": 31,
+  "last_digest_sent": 236,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1094,14 +1094,45 @@
     "workable:talentpluto:A0CFDD6FBD",
     "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1",
     "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-    "workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1"
+    "workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1",
+    "workable:rentvision:0F1C7992BF",
+    "workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550",
+    "workday:avav:/job/Simi-Valley-CA/Software-Engineering-Intern_8813",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Data-Science-and-Engineering-Internship_RQ228936",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Data-Science-and-Engineering-Internship_RQ228938",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228940",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228941",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229141",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229142",
+    "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ229143",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences---AI_R0055524",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527",
+    "workday:copart:/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082",
+    "workday:myhrabc:/job/Conshohocken-PA/EDI-IT-Software-Developer-Intern_R2612376",
+    "workday:myhrabc:/job/Remote-USA/Software-Intern_R2613763",
+    "greenhouse:hevenaerotech:4410288009",
+    "workday:greenheckgroup:/job/Schofield-WI/Application-Developer-Co-op_JR104721",
+    "workday:leidos:/job/Gaithersburg-MD/Software-Development-Intern_R-00193103",
+    "workday:talentmanagementsolution:/job/Remote---USA/Cyber-Security-Intern_R52980-2",
+    "amazon:amazon:10559746",
+    "amazon:amazon:10559762",
+    "workday:biibhr:/job/Remote-USA/Co-op--Data-Science---AI-Innovation_REQ24209",
+    "workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211",
+    "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277",
+    "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 237,
+  "subscribers_total": 236,
   "send_attempts": [
     {
-      "at": "2026-09-25T23:03:56Z",
-      "count": 237
+      "at": "2026-09-27T01:06:25Z",
+      "count": 236
     }
   ]
 }
