@@ -1,6 +1,50 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:ejko.fa.us2.oraclecloud.com:14837",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805",
+      "smartrecruiters:BoschGroup:744000152219569",
+      "workday:brunswick:/job/Champaign-IL/Data-Science-Intern_JR-051760",
+      "workday:myhrabc:/job/Conshohocken-PA/Data-Scientist-Intern_R2613623",
+      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
+      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
+      "greenhouse:formlabsinternships:8223362",
+      "smartrecruiters:Keenfinity:744000152241469",
+      "smartrecruiters:LLNL:3743990015737586",
+      "workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Research-Internship--Summer-2027----Onsite_01872177",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480",
+      "workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
+      "workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776",
+      "workday:veteransunited:/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249"
+    ],
+    "telegram": [
+      "oracle:ejko.fa.us2.oraclecloud.com:14837",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805",
+      "smartrecruiters:BoschGroup:744000152219569",
+      "workday:brunswick:/job/Champaign-IL/Data-Science-Intern_JR-051760",
+      "workday:myhrabc:/job/Conshohocken-PA/Data-Scientist-Intern_R2613623",
+      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
+      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
+      "greenhouse:formlabsinternships:8223362",
+      "smartrecruiters:Keenfinity:744000152241469",
+      "smartrecruiters:LLNL:3743990015737586",
+      "workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Research-Internship--Summer-2027----Onsite_01872177",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480",
+      "workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
+      "workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776",
+      "workday:veteransunited:/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249"
+    ]
   }
 }

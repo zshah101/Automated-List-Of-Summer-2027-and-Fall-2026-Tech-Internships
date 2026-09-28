@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-28T08:58:41Z",
- "data_as_of": "2026-09-28T08:58:41Z",
- "rendered_at": "2026-09-28T08:58:42Z",
+ "generated_at": "2026-09-28T17:54:53Z",
+ "data_as_of": "2026-09-28T17:54:53Z",
+ "rendered_at": "2026-09-28T17:54:54Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1099,7 +1099,7 @@
    "expected": "2026-08-20",
    "days_until": -39,
    "status": "open",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4224,25 +4224,6 @@
    }
   },
   {
-   "company": "RRS Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-25",
-   "days_until": -3,
-   "status": "open",
-   "url": "https://jobs.smartrecruiters.com/RRSGroup/744000151931819",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-25"
-   }
-  },
-  {
    "company": "Solar Turbines",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
@@ -4278,6 +4259,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-25"
+   }
+  },
+  {
+   "company": "Blue Cross Blue Shield of Michigan",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-28",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14837",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-28"
+   }
+  },
+  {
+   "company": "Veterans United",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-28",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://veteransunited.wd1.myworkdayjobs.com/VUHL/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-28"
    }
   },
   {
@@ -7258,7 +7277,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-24"
    }
+  },
+  {
+   "company": "RRS Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": -3,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
   }
  ],
- "count": 382
+ "count": 384
 }
