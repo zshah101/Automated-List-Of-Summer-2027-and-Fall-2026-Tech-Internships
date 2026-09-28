@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-28T02:16:27Z</updated>
+  <updated>2026-09-28T08:58:41Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074</id>
+    <title>Philips: Intern – Embedded Systems Test Automation Engineer – Bothell, WA – Summer 2027</title>
+    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074"/>
+    <updated>2026-09-28T08:58:41Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Bothell, Washington, United States · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ttc:/job/Iron-Mountain-MI/Electrical-software-Coop_JR17089</id>
+    <title>The Toro Company: Electrical/software Coop</title>
+    <link href="https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Iron-Mountain-MI/Electrical-software-Coop_JR17089"/>
+    <updated>2026-09-28T08:58:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Hardware · Iron Mountain, MI</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:queracomputinginc:5435902008</id>
     <title>QuEra Computing: Internship - Scientific Software and Compilation</title>
@@ -790,21 +806,5 @@
     <updated>2026-09-23T19:22:19Z</updated>
     <category term="Winter 2027"/>
     <summary>Winter 2027 · Software · Boston, MA · Python, Java, JavaScript, AWS, Kubernetes · sponsorship: no-sponsorship · status: closed · H-1B track record: ~54 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sonos:/job/Boston-MA/Software-Engineering-Co-op--Signal-Processing-_R2821-2</id>
-    <title>Sonos: Software Engineering Co-op (Signal Processing) 🛂</title>
-    <link href="https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Co-op--Signal-Processing-_R2821-2"/>
-    <updated>2026-09-23T19:22:19Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Boston, MA · Linux · sponsorship: no-sponsorship · status: closed · H-1B track record: ~54 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:grow-therapy:92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8</id>
-    <title>Grow Therapy: Software Engineering Intern (Summer 2027)</title>
-    <link href="https://jobs.ashbyhq.com/grow-therapy/92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8"/>
-    <updated>2026-09-23T15:17:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York City · $50 per hour · Python, TypeScript, React</summary>
   </entry>
 </feed>

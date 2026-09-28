@@ -3082,12 +3082,13 @@
     "Summer 2027": {
      "first_posted": "2026-08-20",
      "role_ids": [
+      "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
       "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
      ],
-     "count": 4
+     "count": 5
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4563,5 +4564,5 @@
    }
   }
  },
- "updated_at": "2026-09-28T02:16:27Z"
+ "updated_at": "2026-09-28T08:58:41Z"
 }

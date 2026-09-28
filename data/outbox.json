@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
+      "workday:ttc:/job/Iron-Mountain-MI/Electrical-software-Coop_JR17089"
+    ],
+    "telegram": [
+      "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
+      "workday:ttc:/job/Iron-Mountain-MI/Electrical-software-Coop_JR17089"
+    ]
   }
 }
