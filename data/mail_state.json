@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-27T01:06:25Z",
-  "last_digest_roles": 31,
-  "last_digest_sent": 236,
+  "last_digest_at": "2026-09-28T02:17:10Z",
+  "last_digest_roles": 1,
+  "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1125,18 +1125,19 @@
     "workday:biibhr:/job/Remote-USA/Co-op--Data-Science---AI-Innovation_REQ24209",
     "workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211",
     "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277",
-    "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322"
+    "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
+    "greenhouse:queracomputinginc:5435902008"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 236,
+  "subscribers_total": 237,
   "send_attempts": [
-    {
-      "at": "2026-09-27T01:06:25Z",
-      "count": 236
-    },
     {
       "at": "2026-09-27T06:50:45Z",
       "count": 1
+    },
+    {
+      "at": "2026-09-28T02:17:10Z",
+      "count": 237
     }
   ]
 }
