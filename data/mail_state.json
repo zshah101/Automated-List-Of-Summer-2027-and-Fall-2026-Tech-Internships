@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-09-28T02:17:10Z",
-  "last_digest_roles": 1,
+  "last_digest_at": "2026-09-29T02:52:08Z",
+  "last_digest_roles": 38,
   "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1126,18 +1126,52 @@
     "workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211",
     "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277",
     "workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
-    "greenhouse:queracomputinginc:5435902008"
+    "greenhouse:queracomputinginc:5435902008",
+    "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Inflammation_R0054741",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics--Computational-Biologics-Engineering_R0054739",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645",
+    "greenhouse:lyft:8843341002",
+    "smartrecruiters:RenesasElectronics:744000152265599",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027-_01871232",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01869486",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Co-op--Summer-Fall-2027-_01877158",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01877155",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878083",
+    "workday:micron:/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524",
+    "workday:myhrabc:/job/Conshohocken-PA/AI-Intern_R2613670",
+    "greenhouse:formlabsinternships:8223362",
+    "oracle:ejko.fa.us2.oraclecloud.com:14837",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
+    "smartrecruiters:BoschGroup:744000152219569",
+    "smartrecruiters:Keenfinity:744000152241469",
+    "smartrecruiters:LLNL:3743990015737586",
+    "workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
+    "workday:brunswick:/job/Champaign-IL/Data-Science-Intern_JR-051760",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Research-Internship--Summer-2027----Onsite_01872177",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
+    "workday:myhrabc:/job/Conshohocken-PA/Data-Scientist-Intern_R2613623",
+    "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
+    "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
+    "workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 237,
   "send_attempts": [
     {
-      "at": "2026-09-28T02:17:10Z",
-      "count": 237
-    },
-    {
       "at": "2026-09-28T22:58:50Z",
       "count": 1
+    },
+    {
+      "at": "2026-09-29T02:52:08Z",
+      "count": 237
     }
   ]
 }

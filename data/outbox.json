@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Inflammation_R0054741",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics--Computational-Biologics-Engineering_R0054739",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753"
-    ],
-    "telegram": [
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Inflammation_R0054741",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics--Computational-Biologics-Engineering_R0054739",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
