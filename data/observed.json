@@ -2003,9 +2003,10 @@
       "lever:hermeus:445db430-6f81-41cf-847a-56a947afb936",
       "lever:hermeus:555263f6-c5ec-4489-ab07-1aea546b70e7",
       "lever:hermeus:5b08e2df-c9db-4831-aece-67d89e744796",
+      "lever:hermeus:78008094-ca81-4a0c-9a18-93b30f932acd",
       "lever:hermeus:d87ed913-affc-475e-b721-c5b5f11c3c7b"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -4266,9 +4267,11 @@
      "role_ids": [
       "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605",
       "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169",
-      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167",
+      "workday:verizon:/job/Irving-Texas/Irving-V-Teamer-for-a-Day--Verizon-Data-Science-Summer-2027-Internship_R-1101386",
+      "workday:verizon:/job/Irving-Texas/Verizon-Network-and-Technology--Data-Science-Summer-2027-Internship_R-1101384"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -4613,5 +4616,5 @@
    }
   }
  },
- "updated_at": "2026-09-29T02:51:23Z"
+ "updated_at": "2026-09-29T09:20:54Z"
 }
