@@ -879,6 +879,7 @@
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
       "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
       "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
+      "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
       "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
@@ -887,7 +888,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 13
+     "count": 14
     }
    }
   },
@@ -1500,6 +1501,18 @@
      "first_posted": "2026-09-04",
      "role_ids": [
       "workable:enfos-inc:CA15908E0A"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "enova": {
+   "name": "Enova",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-29",
+     "role_ids": [
+      "greenhouse:enova:8239619"
      ],
      "count": 1
     }
@@ -2540,9 +2553,10 @@
      "first_posted": "2026-09-04",
      "role_ids": [
       "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+      "workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1",
       "workday:marvell:/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -2775,6 +2789,18 @@
       "greenhouse:testnisc:8191987"
      ],
      "count": 2
+    }
+   }
+  },
+  "national life": {
+   "name": "National Life",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-29",
+     "role_ids": [
+      "greenhouse:nationallifeinsurancecompany:4403876009"
+     ],
+     "count": 1
     }
    }
   },
@@ -3086,6 +3112,18 @@
     }
    }
   },
+  "perchwell": {
+   "name": "Perchwell",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-29",
+     "role_ids": [
+      "ashby:perchwell:194eec78-26db-4d8e-850f-a99ea2733e9f"
+     ],
+     "count": 1
+    }
+   }
+  },
   "perpay": {
    "name": "Perpay",
    "cycles": {
@@ -3191,9 +3229,12 @@
      "role_ids": [
       "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12796",
       "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
-      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794"
+      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12799",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798"
      ],
-     "count": 3
+     "count": 6
     }
    }
   },
@@ -4200,9 +4241,10 @@
      "role_ids": [
       "workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776",
       "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100761",
-      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100762"
+      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100762",
+      "workday:upbound:/job/Plano-TX/User-Experience-Intern_R-100778"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -4616,5 +4658,5 @@
    }
   }
  },
- "updated_at": "2026-09-29T09:20:54Z"
+ "updated_at": "2026-09-29T15:59:07Z"
 }

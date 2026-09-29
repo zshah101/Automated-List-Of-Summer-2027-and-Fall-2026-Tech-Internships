@@ -1,6 +1,30 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:perchwell:194eec78-26db-4d8e-850f-a99ea2733e9f",
+      "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
+      "greenhouse:enova:8239619",
+      "greenhouse:gitai:5437128008",
+      "workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263",
+      "workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1",
+      "greenhouse:nationallifeinsurancecompany:4403876009",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12799",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
+      "workday:upbound:/job/Plano-TX/User-Experience-Intern_R-100778"
+    ],
+    "telegram": [
+      "ashby:perchwell:194eec78-26db-4d8e-850f-a99ea2733e9f",
+      "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
+      "greenhouse:enova:8239619",
+      "greenhouse:gitai:5437128008",
+      "workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263",
+      "workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1",
+      "greenhouse:nationallifeinsurancecompany:4403876009",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12799",
+      "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
+      "workday:upbound:/job/Plano-TX/User-Experience-Intern_R-100778"
+    ]
   }
 }
