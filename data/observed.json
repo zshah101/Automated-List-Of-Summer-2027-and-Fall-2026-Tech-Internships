@@ -2205,9 +2205,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-07",
      "role_ids": [
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
       "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2699,9 +2700,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-16",
-     "count": 3,
+     "count": 4,
      "role_ids": [
       "workday:moog:/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053",
+      "workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288",
       "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
       "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science_R-26-19378"
      ]
@@ -3525,9 +3527,10 @@
     "Fall 2026": {
      "first_posted": "2026-09-16",
      "role_ids": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107256"
+      "oracle:ejia.fa.us6.oraclecloud.com:107256",
+      "oracle:ejia.fa.us6.oraclecloud.com:107307"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4658,5 +4661,5 @@
    }
   }
  },
- "updated_at": "2026-09-29T15:59:07Z"
+ "updated_at": "2026-09-29T20:59:57Z"
 }
