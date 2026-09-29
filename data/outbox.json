@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:hermeus:78008094-ca81-4a0c-9a18-93b30f932acd",
-      "workday:verizon:/job/Irving-Texas/Irving-V-Teamer-for-a-Day--Verizon-Data-Science-Summer-2027-Internship_R-1101386",
-      "workday:verizon:/job/Irving-Texas/Verizon-Network-and-Technology--Data-Science-Summer-2027-Internship_R-1101384"
-    ],
-    "telegram": [
-      "lever:hermeus:78008094-ca81-4a0c-9a18-93b30f932acd",
-      "workday:verizon:/job/Irving-Texas/Irving-V-Teamer-for-a-Day--Verizon-Data-Science-Summer-2027-Internship_R-1101386",
-      "workday:verizon:/job/Irving-Texas/Verizon-Network-and-Technology--Data-Science-Summer-2027-Internship_R-1101384"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
