@@ -1,22 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107307",
-      "workday:avav:/job/Simi-Valley-CA/XMLNAME--Digital-Business-Technology-Infrastructure--DBT--Intern_8885",
-      "workday:cisco:/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913",
-      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
-      "workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288",
-      "workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948",
-      "workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412"
-    ],
-    "telegram": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107307",
-      "workday:avav:/job/Simi-Valley-CA/XMLNAME--Digital-Business-Technology-Infrastructure--DBT--Intern_8885",
-      "workday:cisco:/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913",
-      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
-      "workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288",
-      "workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948",
-      "workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
