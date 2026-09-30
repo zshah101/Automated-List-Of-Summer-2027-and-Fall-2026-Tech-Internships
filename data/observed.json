@@ -173,10 +173,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-08",
      "role_ids": [
+      "ashby:allen-control-systems:1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94",
       "ashby:allen-control-systems:a7831fef-7125-4c03-b828-5f0472989037",
       "ashby:allen-control-systems:ed5c58a7-6a3c-474b-aa07-43ff2051cb5c"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -2826,9 +2827,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-29",
      "role_ids": [
+      "greenhouse:muonspace:5247725007",
       "greenhouse:muonspace:5252680007"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3843,9 +3845,10 @@
     "Fall 2026": {
      "first_posted": "2026-09-23",
      "role_ids": [
+      "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608",
       "workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4760,5 +4763,5 @@
    }
   }
  },
- "updated_at": "2026-09-30T18:23:14Z"
+ "updated_at": "2026-09-30T22:33:38Z"
 }
