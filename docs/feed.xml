@@ -5,15 +5,55 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-30T00:40:52Z</updated>
+  <updated>2026-09-30T06:16:57Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:avav:/job/Sunrise-FL/Software-Engineering-Intern_8797</id>
-    <title>Avav: Software Engineering Intern 🇺🇸</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Sunrise-FL/Software-Engineering-Intern_8797"/>
+    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1</id>
+    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
+    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"/>
+    <updated>2026-09-30T06:16:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:muonspace:5252680007</id>
+    <title>Muon Space: GNC Software Engineering Intern (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/muonspace/jobs/5252680007"/>
+    <updated>2026-09-30T06:16:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA · $40/hr · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790</id>
+    <title>Northrop Grumman: 2027 Embedded Software Engineer Intern – Rolling Meadows IL 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790"/>
+    <updated>2026-09-30T06:16:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Illinois-Rolling Meadows · $20.5–$37.25/hr · Java, C++, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812</id>
+    <title>Northrop Grumman: 2027 Software Digital Intern - Rolling Meadows IL 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812"/>
+    <updated>2026-09-30T06:16:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Illinois-Rolling Meadows · $20.5–$37.25/hr · Python, C++, MATLAB, Verilog · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:graphcore-early-careers:8857368002</id>
+    <title>Graphcore Early Careers: Machine Learning and Data Science Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8857368002"/>
     <updated>2026-09-30T00:40:52Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Sunrise, FL · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
+    <summary>Not stated · Data &amp; ML/AI · Austin, Texas, United States · Python, SQL, PyTorch, scikit-learn, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:robinhood:8241738</id>
+    <title>Robinhood: Data Science Intern (Summer 2027)</title>
+    <link href="https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&amp;gh_jid=8241738"/>
+    <updated>2026-09-30T00:40:52Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Menlo Park, CA · Python, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901</id>
@@ -24,12 +64,20 @@
     <summary>Not stated · Software · Leesburg, VA · Python, Java, C++, Linux, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:graphcore-early-careers:8857368002</id>
-    <title>Graphcore Early Careers: Machine Learning and Data Science Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8857368002"/>
+    <id>urn:intern-engine:workday:avav:/job/Sunrise-FL/Software-Engineering-Intern_8797</id>
+    <title>Avav: Software Engineering Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Sunrise-FL/Software-Engineering-Intern_8797"/>
     <updated>2026-09-30T00:40:52Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Austin, Texas, United States · Python, SQL, PyTorch, scikit-learn, Pandas</summary>
+    <summary>Not stated · Software · Sunrise, FL · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384</id>
+    <title>RTX: Software Engineering Co-op  (Spring/Summer 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384"/>
+    <updated>2026-09-30T00:40:52Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++, Bash, Linux, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:itron:/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2</id>
@@ -46,22 +94,6 @@
     <updated>2026-09-30T00:40:52Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · AZ - Chandler · Python, Java, TypeScript, React, Git · H-1B track record: ~143 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:robinhood:8241738</id>
-    <title>Robinhood: Data Science Intern (Summer 2027)</title>
-    <link href="https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&amp;gh_jid=8241738"/>
-    <updated>2026-09-30T00:40:52Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Menlo Park, CA · Python, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384</id>
-    <title>RTX: Software Engineering Co-op  (Spring/Summer 2027) 🇺🇸</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384"/>
-    <updated>2026-09-30T00:40:52Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++, Bash, Linux, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ejia.fa.us6.oraclecloud.com:107307</id>
@@ -137,11 +169,11 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gitai:5437128008</id>
-    <title>GITAI: Field-Deployed Software Engineering Intern – Immediate Start 🇺🇸</title>
+    <title>GITAI: Field-Deployed Software Engineering Intern – Fall 2026 / Spring 2027 🇺🇸</title>
     <link href="https://job-boards.greenhouse.io/gitai/jobs/5437128008"/>
     <updated>2026-09-29T15:59:07Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Los Angeles, California, United States · $28–$40/hr · Python, C++, PyTorch, Computer Vision, Linux · sponsorship: citizens-only</summary>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Los Angeles, California, United States · $28–$40/hr · Python, C++, PyTorch, Computer Vision, Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:nationallifeinsurancecompany:4403876009</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-25T19:45:35Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · Kansas City, Missouri · Python, Bash, Terraform · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1</id>
-    <title>American Century Investments: Software Developer Intern 🛂</title>
-    <link href="https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1"/>
-    <updated>2026-09-25T19:45:35Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Kansas City, Missouri · Python, Java, JavaScript, SQL, HTML/CSS · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596</id>
-    <title>Copart: Data &amp; AI Intern</title>
-    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596"/>
-    <updated>2026-09-25T19:45:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Dallas, TX - Headquarters · Python, Java, TypeScript, JavaScript, SQL · H-1B track record: ~83 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587</id>
-    <title>Gilead Sciences: Intern - Research - Oncology Biomarker - AI 🛂</title>
-    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587"/>
-    <updated>2026-09-25T19:45:35Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579</id>
-    <title>Gilead Sciences: Intern - Research - Pathobiology - AI 🛂</title>
-    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579"/>
-    <updated>2026-09-25T19:45:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
