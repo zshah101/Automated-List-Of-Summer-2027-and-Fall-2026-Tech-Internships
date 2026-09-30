@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-09-30T06:16:57Z</updated>
+  <updated>2026-09-30T12:47:45Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1</id>
-    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
-    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"/>
-    <updated>2026-09-30T06:16:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:muonspace:5252680007</id>
     <title>Muon Space: GNC Software Engineering Intern (Summer 2027)</title>
@@ -22,6 +14,14 @@
     <updated>2026-09-30T06:16:57Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Mountain View, CA · $40/hr · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1</id>
+    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
+    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"/>
+    <updated>2026-09-30T06:16:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790</id>
@@ -299,9 +299,17 @@
     <id>urn:intern-engine:smartrecruiters:RenesasElectronics:744000152265599</id>
     <title>Renesas Electronics: Firmware Engineering Intern</title>
     <link href="https://jobs.smartrecruiters.com/RenesasElectronics/744000152265599"/>
-    <updated>2026-09-28T22:58:05Z</updated>
+    <updated>2026-09-30T12:47:45Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Hardware · Austin, TEXAS, United States · Python, C++, Linux, Git, Verilog</summary>
+    <summary>Not stated · Hardware · Austin, TEXAS, United States · Python, C++, Linux, Git, Verilog · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696</id>
+    <title>RTX: Software Engineering Intern (Summer 2027) 🛂</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696"/>
+    <updated>2026-09-30T12:47:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 · Python, Java, C++, C# · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-25T19:45:35Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Golden, CO · $25–$26/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750</id>
-    <title>American Century Investments: Infrastructure Automation Engineer Intern 🛂</title>
-    <link href="https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750"/>
-    <updated>2026-09-25T19:45:35Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Kansas City, Missouri · Python, Bash, Terraform · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
