@@ -1166,10 +1166,6 @@
   "subscribers_total": 237,
   "send_attempts": [
     {
-      "at": "2026-09-28T22:58:50Z",
-      "count": 1
-    },
-    {
       "at": "2026-09-29T02:52:08Z",
       "count": 237
     },

@@ -1,28 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:amperesand:4409254009",
-      "workday:avav:/job/Sunrise-FL/Software-Engineering-Intern_8797",
-      "workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054812",
-      "greenhouse:graphcore-early-careers:8857368002",
-      "workday:itron:/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2",
-      "workday:microchiphr:/job/AZ---Chandler/Intern-Engineering--Software-_R4091-26",
-      "greenhouse:robinhood:8241738",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01876388"
-    ],
-    "telegram": [
-      "greenhouse:amperesand:4409254009",
-      "workday:avav:/job/Sunrise-FL/Software-Engineering-Intern_8797",
-      "workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054812",
-      "greenhouse:graphcore-early-careers:8857368002",
-      "workday:itron:/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2",
-      "workday:microchiphr:/job/AZ---Chandler/Intern-Engineering--Software-_R4091-26",
-      "greenhouse:robinhood:8241738",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01876388"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
