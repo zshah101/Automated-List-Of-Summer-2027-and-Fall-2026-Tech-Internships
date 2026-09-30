@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-09-29T02:52:08Z",
-  "last_digest_roles": 38,
+  "last_digest_at": "2026-09-30T06:17:51Z",
+  "last_digest_roles": 37,
   "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1160,18 +1160,58 @@
     "workday:myhrabc:/job/Conshohocken-PA/Data-Scientist-Intern_R2613623",
     "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
     "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
-    "workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1"
+    "workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1",
+    "greenhouse:muonspace:5252680007",
+    "workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860",
+    "workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1",
+    "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790",
+    "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812",
+    "greenhouse:graphcore-early-careers:8857368002",
+    "greenhouse:robinhood:8241738",
+    "workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901",
+    "workday:avav:/job/Sunrise-FL/Software-Engineering-Intern_8797",
+    "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054812",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01876388",
+    "workday:itron:/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942",
+    "workday:itron:/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2",
+    "workday:microchiphr:/job/AZ---Chandler/Intern-Engineering--Software-_R4091-26",
+    "oracle:ejia.fa.us6.oraclecloud.com:107307",
+    "workday:avav:/job/Simi-Valley-CA/XMLNAME--Digital-Business-Technology-Infrastructure--DBT--Intern_8885",
+    "workday:cisco:/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913",
+    "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
+    "workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288",
+    "workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948",
+    "workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412",
+    "ashby:perchwell:194eec78-26db-4d8e-850f-a99ea2733e9f",
+    "greenhouse:enova:8239619",
+    "greenhouse:gitai:5437128008",
+    "greenhouse:nationallifeinsurancecompany:4403876009",
+    "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
+    "workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848",
+    "workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1",
+    "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12799",
+    "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
+    "workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798",
+    "workday:upbound:/job/Plano-TX/User-Experience-Intern_R-100778",
+    "lever:hermeus:78008094-ca81-4a0c-9a18-93b30f932acd",
+    "workday:verizon:/job/Irving-Texas/Irving-V-Teamer-for-a-Day--Verizon-Data-Science-Summer-2027-Internship_R-1101386",
+    "workday:verizon:/job/Irving-Texas/Verizon-Network-and-Technology--Data-Science-Summer-2027-Internship_R-1101384",
+    "workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776",
+    "workday:veteransunited:/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249",
+    "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
+    "workday:ttc:/job/Iron-Mountain-MI/Electrical-software-Coop_JR17089"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 237,
   "send_attempts": [
     {
-      "at": "2026-09-29T02:52:08Z",
-      "count": 237
-    },
-    {
       "at": "2026-09-29T09:21:38Z",
       "count": 2
+    },
+    {
+      "at": "2026-09-30T06:17:51Z",
+      "count": 237
     }
   ]
 }
