@@ -1,24 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "ashby:allen-control-systems:1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94",
-      "ashby:claylabs:5b7eced2-36bd-4265-a2a8-da0f786e47aa",
-      "ashby:ramp:b39ceb08-a0a7-4f8b-a760-2fb88e209956",
-      "greenhouse:genscript:5253581007",
-      "workday:hcsc:/job/Richardson-Texas-HQ-1001-E-Lookout-Drive/Early-Careers---Developer-Intern--Compliance---Health-Quality-_R0059503",
-      "workday:leidos:/job/Huntsville-AL/Embedded-Design-Engineering-Intern---Firmware_R-00193574",
-      "greenhouse:muonspace:5247725007",
-      "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608"
-    ],
-    "telegram": [
-      "ashby:allen-control-systems:1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94",
-      "ashby:claylabs:5b7eced2-36bd-4265-a2a8-da0f786e47aa",
-      "ashby:ramp:b39ceb08-a0a7-4f8b-a760-2fb88e209956",
-      "greenhouse:genscript:5253581007",
-      "workday:hcsc:/job/Richardson-Texas-HQ-1001-E-Lookout-Drive/Early-Careers---Developer-Intern--Compliance---Health-Quality-_R0059503",
-      "workday:leidos:/job/Huntsville-AL/Embedded-Design-Engineering-Intern---Firmware_R-00193574",
-      "greenhouse:muonspace:5247725007",
-      "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
