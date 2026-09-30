@@ -1,6 +1,46 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "amazon:amazon:10565667",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "ashby:plot:5f8cfeaa-c368-480f-aaa5-de52452a63d0",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008052",
+      "smartrecruiters:AECOM2:744000152725659",
+      "greenhouse:amca:4425120009",
+      "smartrecruiters:BoschGroup:744000152706359",
+      "workday:bracco:/job/USA-Pleasanton-California-94566/Firmware-Engineering-Co-op_JR100319",
+      "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+      "workday:intel:/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572-1",
+      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772",
+      "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731",
+      "greenhouse:waymo:8238525",
+      "smartrecruiters:WellmarkInc:744000152679699"
+    ],
+    "telegram": [
+      "amazon:amazon:10565667",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "ashby:plot:5f8cfeaa-c368-480f-aaa5-de52452a63d0",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008052",
+      "smartrecruiters:AECOM2:744000152725659",
+      "greenhouse:amca:4425120009",
+      "smartrecruiters:BoschGroup:744000152706359",
+      "workday:bracco:/job/USA-Pleasanton-California-94566/Firmware-Engineering-Co-op_JR100319",
+      "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+      "workday:intel:/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572-1",
+      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772",
+      "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731",
+      "greenhouse:waymo:8238525",
+      "smartrecruiters:WellmarkInc:744000152679699"
+    ]
   }
 }

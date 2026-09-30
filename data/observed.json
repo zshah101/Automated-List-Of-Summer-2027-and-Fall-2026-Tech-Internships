@@ -99,6 +99,18 @@
     }
    }
   },
+  "aecom": {
+   "name": "AECOM",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-30",
+     "role_ids": [
+      "smartrecruiters:AECOM2:744000152725659"
+     ],
+     "count": 1
+    }
+   }
+  },
   "aerospace": {
    "name": "The Aerospace Corporation",
    "cycles": {
@@ -214,7 +226,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 9,
+     "count": 10,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -224,8 +236,21 @@
       "amazon:amazon:10552937",
       "amazon:amazon:10557133",
       "amazon:amazon:10559746",
-      "amazon:amazon:10559762"
+      "amazon:amazon:10559762",
+      "amazon:amazon:10565667"
      ]
+    }
+   }
+  },
+  "amca": {
+   "name": "AMCA",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-29",
+     "role_ids": [
+      "greenhouse:amca:4425120009"
+     ],
+     "count": 1
     }
    }
   },
@@ -878,6 +903,7 @@
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
       "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
+      "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
       "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
       "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
       "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
@@ -888,7 +914,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 14
+     "count": 15
     }
    }
   },
@@ -1265,6 +1291,18 @@
      "role_ids": [
       "ashby:creatify:75a1f1ad-13d2-4513-952c-71b6dfcaa84f"
      ]
+    }
+   }
+  },
+  "dandy": {
+   "name": "Dandy",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-30",
+     "role_ids": [
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099"
+     ],
+     "count": 1
     }
    }
   },
@@ -2897,7 +2935,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 23,
+     "count": 26,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2917,11 +2955,14 @@
       "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196",
       "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790",
       "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812",
+      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772",
       "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+      "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
       "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731"
      ]
     },
     "Fall 2026": {
@@ -3245,6 +3286,18 @@
      "first_posted": "2026-09-15",
      "role_ids": [
       "workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "poet": {
+   "name": "POET",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-28",
+     "role_ids": [
+      "workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1"
      ],
      "count": 1
     }
@@ -3945,9 +3998,12 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007876",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007905",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007919",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007956"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007956",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008052",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055"
      ],
-     "count": 11
+     "count": 14
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4559,9 +4615,10 @@
       "greenhouse:waymo:8198218",
       "greenhouse:waymo:8203200",
       "greenhouse:waymo:8221198",
-      "greenhouse:waymo:8224900"
+      "greenhouse:waymo:8224900",
+      "greenhouse:waymo:8238525"
      ],
-     "count": 7
+     "count": 8
     }
    }
   },
@@ -4703,5 +4760,5 @@
    }
   }
  },
- "updated_at": "2026-09-30T12:47:45Z"
+ "updated_at": "2026-09-30T18:23:14Z"
 }

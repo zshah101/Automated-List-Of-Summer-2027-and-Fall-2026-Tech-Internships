@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-30T12:47:45Z",
- "data_as_of": "2026-09-30T12:47:45Z",
- "rendered_at": "2026-09-30T12:47:45Z",
+ "generated_at": "2026-09-30T18:23:14Z",
+ "data_as_of": "2026-09-30T18:23:14Z",
+ "rendered_at": "2026-09-30T18:23:15Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2093,25 +2093,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-02"
-   }
-  },
-  {
-   "company": "AXQ Capital",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-03",
-   "days_until": -27,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/axq/jobs/6181069004",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-03"
    }
   },
   {
@@ -4243,6 +4224,25 @@
    }
   },
   {
+   "company": "POET",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-28",
+   "days_until": -2,
+   "status": "open",
+   "url": "https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-28"
+   }
+  },
+  {
    "company": "Veterans United",
    "last_cycle_posted": "",
    "posted_on": "2026-09-28",
@@ -4259,6 +4259,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-28"
+   }
+  },
+  {
+   "company": "AMCA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-29",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/amca/jobs/4425120009",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-29"
    }
   },
   {
@@ -4354,6 +4373,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-29"
+   }
+  },
+  {
+   "company": "Dandy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-30",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/dandy/d43558e9-8e51-4980-b00d-39275063f099",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-30"
    }
   },
   {
@@ -7089,6 +7127,25 @@
    }
   },
   {
+   "company": "AXQ Capital",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-03",
+   "days_until": -27,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-03"
+   }
+  },
+  {
    "company": "skillz",
    "last_cycle_posted": "",
    "posted_on": "2026-09-03",
@@ -7393,5 +7450,5 @@
    }
   }
  ],
- "count": 389
+ "count": 392
 }
