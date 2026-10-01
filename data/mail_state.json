@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-09-30T06:17:51Z",
-  "last_digest_roles": 37,
-  "last_digest_sent": 237,
+  "last_digest_at": "2026-10-01T08:04:51Z",
+  "last_digest_roles": 31,
+  "last_digest_sent": 238,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1200,15 +1200,44 @@
     "workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776",
     "workday:veteransunited:/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249",
     "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
-    "workday:ttc:/job/Iron-Mountain-MI/Electrical-software-Coop_JR17089"
+    "workday:ttc:/job/Iron-Mountain-MI/Electrical-software-Coop_JR17089",
+    "greenhouse:vardaspace:8005821003",
+    "greenhouse:vardaspace:8010159003",
+    "workday:marvell:/job/IN---Pune/Intern--Software-QA-Engineer_2603892",
+    "workday:allegion:/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856-1",
+    "ashby:allen-control-systems:1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94",
+    "ashby:claylabs:5b7eced2-36bd-4265-a2a8-da0f786e47aa",
+    "ashby:ramp:b39ceb08-a0a7-4f8b-a760-2fb88e209956",
+    "greenhouse:genscript:5253581007",
+    "greenhouse:muonspace:5247725007",
+    "workday:hcsc:/job/Richardson-Texas-HQ-1001-E-Lookout-Drive/Early-Careers---Developer-Intern--Compliance---Health-Quality-_R0059503",
+    "workday:leidos:/job/Huntsville-AL/Embedded-Design-Engineering-Intern---Firmware_R-00193574",
+    "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608",
+    "amazon:amazon:10565667",
+    "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+    "ashby:plot:5f8cfeaa-c368-480f-aaa5-de52452a63d0",
+    "greenhouse:amca:4425120009",
+    "greenhouse:waymo:8238525",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1008052",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+    "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
+    "smartrecruiters:AECOM2:744000152725659",
+    "smartrecruiters:BoschGroup:744000152706359",
+    "smartrecruiters:WellmarkInc:744000152679699",
+    "workday:bracco:/job/USA-Pleasanton-California-94566/Firmware-Engineering-Co-op_JR100319",
+    "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+    "workday:intel:/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+    "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572",
+    "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572-1",
+    "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641581",
+    "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+    "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772",
+    "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
+    "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 237,
+  "subscribers_total": 238,
   "send_attempts": [
-    {
-      "at": "2026-09-30T06:17:51Z",
-      "count": 237
-    },
     {
       "at": "2026-09-30T22:34:23Z",
       "count": 1
@@ -1216,6 +1245,10 @@
     {
       "at": "2026-10-01T01:45:55Z",
       "count": 1
+    },
+    {
+      "at": "2026-10-01T08:04:51Z",
+      "count": 238
     }
   ]
 }
