@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-01T15:38:29Z",
- "data_as_of": "2026-10-01T15:38:29Z",
- "rendered_at": "2026-10-01T15:38:29Z",
+ "generated_at": "2026-10-01T20:47:57Z",
+ "data_as_of": "2026-10-01T20:47:57Z",
+ "rendered_at": "2026-10-01T20:47:57Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -41,6 +41,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2024-08-15"
+   }
+  },
+  {
+   "company": "Glean",
+   "last_cycle_posted": "",
+   "posted_on": "2025-09-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2025-09-03",
+   "days_until": -393,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4595665005",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2025-09-03"
    }
   },
   {
@@ -2448,7 +2467,7 @@
    "expected": "2026-09-04",
    "days_until": -27,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171696",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2621,25 +2640,6 @@
    "status": "open",
    "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
    "note": "posts roles across the year",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
-   "company": "Devon Energy",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -23,
-   "status": "open",
-   "url": "https://wd5.myworkdaysite.com/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Cyber-Security-Intern-2027_R26303-1",
-   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -4395,6 +4395,101 @@
    }
   },
   {
+   "company": "ATC",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://atcllc.wd5.myworkdayjobs.com/atcllc/job/Pewaukee-WI/Intern---Cyber-Security-Summer-2027_R0003307",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
+   }
+  },
+  {
+   "company": "Datacor",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/datacor/jobs/5242412007",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
+   }
+  },
+  {
+   "company": "Pinterest",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138097",
+   "note": "opens late summer for next year",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
+   }
+  },
+  {
+   "company": "Riot Games",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/riotgamesup/jobs/8222015",
+   "note": "fall opening for next summer",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
+   }
+  },
+  {
+   "company": "The Federal Reserve System",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Summer-2027-Intern-Cloud-Engineering_R-0000033614",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
+   }
+  },
+  {
    "company": "Varda Space",
    "last_cycle_posted": "",
    "posted_on": "2026-10-01",
@@ -5128,25 +5223,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "optiver.com",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Pinterest",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-08-01",
-   "days_until": -61,
-   "status": "waiting",
-   "url": "",
-   "note": "opens late summer for next year",
-   "provenance": {
-    "type": "verified-window",
-    "url": "pinterestcareers.com",
     "verified_at": "2026-07-21"
    }
   },
@@ -6215,25 +6291,6 @@
    }
   },
   {
-   "company": "Riot Games",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -30,
-   "status": "waiting",
-   "url": "",
-   "note": "fall opening for next summer",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://www.riotgames.com/en/work-with-us",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Rivian",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -7184,6 +7241,25 @@
    }
   },
   {
+   "company": "Devon Energy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -23,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Merck",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -7469,5 +7545,5 @@
    }
   }
  ],
- "count": 393
+ "count": 397
 }

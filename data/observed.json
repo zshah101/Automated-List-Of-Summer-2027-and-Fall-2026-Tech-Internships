@@ -458,6 +458,18 @@
     }
    }
   },
+  "atc": {
+   "name": "ATC",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-01",
+     "role_ids": [
+      "workday:atcllc:/job/Pewaukee-WI/Intern---Cyber-Security-Summer-2027_R0003307"
+     ],
+     "count": 1
+    }
+   }
+  },
   "atkinsréalis": {
    "name": "AtkinsRéalis",
    "cycles": {
@@ -899,6 +911,8 @@
     "Summer 2027": {
      "first_posted": "2026-08-31",
      "role_ids": [
+      "workday:caci:/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1",
+      "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_332790",
       "workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
@@ -915,7 +929,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 15
+     "count": 17
     }
    }
   },
@@ -1230,10 +1244,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-14",
      "role_ids": [
+      "workday:costar:/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950",
       "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
       "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1302,6 +1317,18 @@
      "first_posted": "2026-09-30",
      "role_ids": [
       "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "datacor": {
+   "name": "Datacor",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-01",
+     "role_ids": [
+      "greenhouse:datacor:5242412007"
      ],
      "count": 1
     }
@@ -1622,6 +1649,22 @@
     }
    }
   },
+  "federal reserve system": {
+   "name": "The Federal Reserve System",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-01",
+     "role_ids": [
+      "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Cloud-Engineering_R-0000033614",
+      "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Computer-Science-and-Software-Engineering_R-0000033637",
+      "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Cybersecurity-and-Information-Security_R-0000033612-1",
+      "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Data-Science-and-Business-Analytics_R-0000033609",
+      "workday:rb:/job/Cleveland-OH/TS---Application-Security-Intern---2027_R-0000033625"
+     ],
+     "count": 5
+    }
+   }
+  },
   "fidelity investments": {
    "name": "Fidelity Investments",
    "cycles": {
@@ -1919,6 +1962,18 @@
      "first_posted": "2026-09-28",
      "role_ids": [
       "greenhouse:gitai:5437128008"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "glean": {
+   "name": "Glean",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2025-09-03",
+     "role_ids": [
+      "greenhouse:gleanwork:4595665005"
      ],
      "count": 1
     }
@@ -2938,7 +2993,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 26,
+     "count": 27,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2964,6 +3019,7 @@
       "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
       "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs-CO_R10254007",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
       "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731"
      ]
@@ -3283,6 +3339,27 @@
     }
    }
   },
+  "pinterest": {
+   "name": "Pinterest",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-10-01",
+     "role_ids": [
+      "greenhouse:pinterest:8140217"
+     ],
+     "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-01",
+     "role_ids": [
+      "greenhouse:pinterest:7838577",
+      "greenhouse:pinterest:8138090",
+      "greenhouse:pinterest:8138097"
+     ],
+     "count": 3
+    }
+   }
+  },
   "plastipak": {
    "name": "Plastipak",
    "cycles": {
@@ -3501,6 +3578,18 @@
     }
    }
   },
+  "riot games": {
+   "name": "Riot Games",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-01",
+     "role_ids": [
+      "greenhouse:riotgamesup:8222015"
+     ],
+     "count": 1
+    }
+   }
+  },
   "rivet industries": {
    "name": "Rivet Industries",
    "cycles": {
@@ -3614,10 +3703,11 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01876388",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027---Open-_01870974",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
      ],
-     "count": 38
+     "count": 39
     }
    }
   },
@@ -4007,9 +4097,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007956",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008052",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008055"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008089"
      ],
-     "count": 14
+     "count": 15
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4774,5 +4865,5 @@
    }
   }
  },
- "updated_at": "2026-10-01T15:38:29Z"
+ "updated_at": "2026-10-01T20:47:57Z"
 }
