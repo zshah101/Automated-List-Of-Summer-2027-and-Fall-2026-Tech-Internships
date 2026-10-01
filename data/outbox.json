@@ -1,20 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:cisco:/job/Maynard-Massachusetts-US/Software-Engineer-II--Co-op----United-States_2026923",
-      "workday:cisco:/job/Maynard-Massachusetts-US/Software-Engineer-I--Co-op----United-States_2026920",
-      "workday:dukeenergy:/job/Lake-Mary-FL/PGO-Cybersecurity-Summer-2027-Internship_R41822",
-      "greenhouse:oldmissioncapital:8002345003",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343",
-      "greenhouse:stripe:8194291"
-    ],
-    "telegram": [
-      "workday:cisco:/job/Maynard-Massachusetts-US/Software-Engineer-II--Co-op----United-States_2026923",
-      "workday:cisco:/job/Maynard-Massachusetts-US/Software-Engineer-I--Co-op----United-States_2026920",
-      "workday:dukeenergy:/job/Lake-Mary-FL/PGO-Cybersecurity-Summer-2027-Internship_R41822",
-      "greenhouse:oldmissioncapital:8002345003",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343",
-      "greenhouse:stripe:8194291"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
