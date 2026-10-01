@@ -1476,9 +1476,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-07",
      "role_ids": [
-      "workday:dukeenergy:/job/Charlotte-NC/Asc-Cybersecurity-Gov-Risk-Analyst---Intern-Co-op-Conversion-2027--Souza-_R40863"
+      "workday:dukeenergy:/job/Charlotte-NC/Asc-Cybersecurity-Gov-Risk-Analyst---Intern-Co-op-Conversion-2027--Souza-_R40863",
+      "workday:dukeenergy:/job/Lake-Mary-FL/PGO-Cybersecurity-Summer-2027-Internship_R41822"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3088,9 +3089,10 @@
     "Summer 2027": {
      "first_posted": "2026-07-15",
      "role_ids": [
-      "greenhouse:oldmissioncapital:7796180003"
+      "greenhouse:oldmissioncapital:7796180003",
+      "greenhouse:oldmissioncapital:8002345003"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3579,6 +3581,7 @@
       "workday:globalhr:/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01873099",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
@@ -3614,7 +3617,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
      ],
-     "count": 37
+     "count": 38
     }
    }
   },
@@ -4771,5 +4774,5 @@
    }
   }
  },
- "updated_at": "2026-10-01T08:04:06Z"
+ "updated_at": "2026-10-01T15:38:29Z"
 }
