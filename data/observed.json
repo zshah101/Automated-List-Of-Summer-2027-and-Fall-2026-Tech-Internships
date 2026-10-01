@@ -4378,6 +4378,14 @@
      "role_ids": [
       "greenhouse:vardaspace:7676465003"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-01",
+     "role_ids": [
+      "greenhouse:vardaspace:8005821003",
+      "greenhouse:vardaspace:8010159003"
+     ],
+     "count": 2
     }
    }
   },
@@ -4763,5 +4771,5 @@
    }
   }
  },
- "updated_at": "2026-10-01T01:45:11Z"
+ "updated_at": "2026-10-01T08:04:06Z"
 }
