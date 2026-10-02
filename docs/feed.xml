@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-02T00:23:51Z</updated>
+  <updated>2026-10-02T06:28:30Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:hmhw:/job/Houston-TX/AI---Automation-Development-Intern_JR102458</id>
-    <title>HMH: AI &amp; Automation Development Intern</title>
-    <link href="https://hmhw.wd12.myworkdayjobs.com/hmh_careers/job/Houston-TX/AI---Automation-Development-Intern_JR102458"/>
-    <updated>2026-10-02T00:23:51Z</updated>
+    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503</id>
+    <title>General Motors: 2027 Summer Intern - Software Engineer, Autonomous Vehicle: Simulation</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503"/>
+    <updated>2026-10-02T06:28:29Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Houston, TX · Python, SQL, LLMs</summary>
+    <summary>Summer 2027 · Software · Sunnyvale, California, United States of America · Python, C++ · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508</id>
+    <title>General Motors: 2027 Summer Intern - AI/ML Engineer, Autonomous Vehicle: Simulation</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508"/>
+    <updated>2026-10-02T06:28:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, Java, C++, PyTorch, TensorFlow · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:profluent:5441955008</id>
+    <title>Profluent: Intern, Software Engineering</title>
+    <link href="https://job-boards.greenhouse.io/profluent/jobs/5441955008"/>
+    <updated>2026-10-02T06:28:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Emeryville, California, United States · Python</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:walleyecapital-external-students:4716166006</id>
@@ -22,6 +38,14 @@
     <updated>2026-10-02T00:23:51Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York, New York · Python, SQL, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hmhw:/job/Houston-TX/AI---Automation-Development-Intern_JR102458</id>
+    <title>HMH: AI &amp; Automation Development Intern</title>
+    <link href="https://hmhw.wd12.myworkdayjobs.com/hmh_careers/job/Houston-TX/AI---Automation-Development-Intern_JR102458"/>
+    <updated>2026-10-02T00:23:51Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Houston, TX · Python, SQL, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:datacor:5242412007</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-28T22:58:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · $64–$68/hr · Python, LLMs · H-1B track record: ~348 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:RenesasElectronics:744000152265599</id>
-    <title>Renesas Electronics: Firmware Engineering Intern</title>
-    <link href="https://jobs.smartrecruiters.com/RenesasElectronics/744000152265599"/>
-    <updated>2026-09-30T12:47:45Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Hardware · Austin, TEXAS, United States · Python, C++, Linux, Git, Verilog · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696</id>
-    <title>RTX: Software Engineering Intern (Summer 2027) 🛂</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696"/>
-    <updated>2026-09-30T12:47:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 · Python, Java, C++, C# · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602</id>
-    <title>RTX: Software Engineering Intern -  (Summer 2027)</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602"/>
-    <updated>2026-09-28T22:58:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++, Linux</summary>
   </entry>
 </feed>
