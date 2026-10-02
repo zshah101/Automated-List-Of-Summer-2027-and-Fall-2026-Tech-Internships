@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333034-1",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333005"
-    ],
-    "telegram": [
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333034-1",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333005"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
