@@ -1,34 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:affirm:8011590003",
-      "greenhouse:affirm:8008645003",
-      "greenhouse:arcboatcompany:5442881008",
-      "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
-      "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
-      "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
-      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
-      "workday:hp:/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670-2",
-      "workday:sterlingmets:/job/Citi-Field--Queens-New-York/Intern--Data-Science_R1508",
-      "greenhouse:natera:6188497004",
-      "workday:nelnet:/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
-      "greenhouse:xai:5255111007"
-    ],
-    "telegram": [
-      "greenhouse:affirm:8011590003",
-      "greenhouse:affirm:8008645003",
-      "greenhouse:arcboatcompany:5442881008",
-      "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
-      "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
-      "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
-      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
-      "workday:hp:/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670-2",
-      "workday:sterlingmets:/job/Citi-Field--Queens-New-York/Intern--Data-Science_R1508",
-      "greenhouse:natera:6188497004",
-      "workday:nelnet:/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
-      "greenhouse:xai:5255111007"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
