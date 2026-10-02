@@ -1,30 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10567914",
-      "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
-      "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
-      "ashby:range:5fe3697d-b5b3-4772-9de4-1551cb726718",
-      "lever:shopback-2:640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
-      "lever:shopback-2:e5f5e276-e7f7-43e0-a224-5259d242fe98",
-      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770",
-      "greenhouse:mill:4737741005",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
-    ],
-    "telegram": [
-      "amazon:amazon:10567914",
-      "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
-      "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
-      "ashby:range:5fe3697d-b5b3-4772-9de4-1551cb726718",
-      "lever:shopback-2:640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
-      "lever:shopback-2:e5f5e276-e7f7-43e0-a224-5259d242fe98",
-      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770",
-      "greenhouse:mill:4737741005",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
