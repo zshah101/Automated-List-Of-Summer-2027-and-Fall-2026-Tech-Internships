@@ -443,6 +443,13 @@
     "site": "External"
   },
   {
+    "name": "Acuity International",
+    "slug": "acuityinternational",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "external"
+  },
+  {
     "name": "AcuityMD",
     "slug": "acuitymd",
     "ats": "greenhouse"
@@ -9895,6 +9902,11 @@
     "ats": "lever"
   },
   {
+    "name": "Financeit",
+    "slug": "financeit",
+    "ats": "workable"
+  },
+  {
     "name": "Financial Conduct Authority",
     "slug": "fca",
     "ats": "workday",
@@ -12117,6 +12129,11 @@
     "ats": "workday",
     "wd": "wd503",
     "site": "Main_HoT"
+  },
+  {
+    "name": "Helion Energy",
+    "slug": "helion",
+    "ats": "ashby"
   },
   {
     "name": "Heliux",
@@ -16790,6 +16807,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Mindex",
+    "slug": "mindex",
+    "ats": "workable"
+  },
+  {
     "name": "Mindlance",
     "slug": "Mindlance2",
     "ats": "smartrecruiters"
@@ -17956,6 +17978,11 @@
   {
     "name": "Nimble Gravity",
     "slug": "nimblegravity",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Nimble Robotics",
+    "slug": "nimblerobotics",
     "ats": "greenhouse"
   },
   {
@@ -20313,6 +20340,13 @@
     "site": "pri"
   },
   {
+    "name": "Primient",
+    "slug": "primient",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "External_Careers"
+  },
+  {
     "name": "Printpack",
     "slug": "printpack",
     "ats": "workday",
@@ -20931,6 +20965,11 @@
     "name": "Randstad",
     "slug": "Randstad4",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Range",
+    "slug": "range",
+    "ats": "ashby"
   },
   {
     "name": "RapDev",
@@ -22856,6 +22895,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "SRAlabCareers"
+  },
+  {
+    "name": "ShopBack",
+    "slug": "shopback-2",
+    "ats": "lever"
   },
   {
     "name": "Shoppers Drug Mart",
@@ -25181,6 +25225,11 @@
     "site": "FRS"
   },
   {
+    "name": "The Focusrite Group",
+    "slug": "focusrite",
+    "ats": "workable"
+  },
+  {
     "name": "The Hartford",
     "slug": "thehartford",
     "ats": "workday",
@@ -25987,6 +26036,11 @@
     "name": "True Anomaly",
     "slug": "trueanomalyinc",
     "ats": "greenhouse"
+  },
+  {
+    "name": "True Environmental",
+    "slug": "true-environmental",
+    "ats": "lever"
   },
   {
     "name": "True Platform",
