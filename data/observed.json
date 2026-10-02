@@ -227,7 +227,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 10,
+     "count": 11,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -238,7 +238,8 @@
       "amazon:amazon:10557133",
       "amazon:amazon:10559746",
       "amazon:amazon:10559762",
-      "amazon:amazon:10565667"
+      "amazon:amazon:10565667",
+      "amazon:amazon:10567914"
      ]
     }
    }
@@ -641,9 +642,10 @@
      "role_ids": [
       "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
       "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4",
+      "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
       "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1287,6 +1289,7 @@
      "role_ids": [
       "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
       "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
       "workday:cox:/job/Atlanta-GA/Data-Scientist-Intern---Summer-2027--Atlanta--GA-_R202682164",
       "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
       "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
@@ -1297,7 +1300,7 @@
       "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
       "workday:cox:/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1"
      ],
-     "count": 11
+     "count": 12
     }
    }
   },
@@ -2091,6 +2094,18 @@
     }
    }
   },
+  "harvey": {
+   "name": "Harvey",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-02",
+     "role_ids": [
+      "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hd supply": {
    "name": "HD Supply",
    "cycles": {
@@ -2597,6 +2612,7 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
@@ -2606,7 +2622,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -2799,6 +2815,18 @@
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939"
      ],
      "count": 6
+    }
+   }
+  },
+  "mill": {
+   "name": "Mill",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-24",
+     "role_ids": [
+      "greenhouse:mill:4737741005"
+     ],
+     "count": 1
     }
    }
   },
@@ -4469,9 +4497,10 @@
       "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
       "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_181765",
       "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766"
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766",
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -4878,5 +4907,5 @@
    }
   }
  },
- "updated_at": "2026-10-02T13:26:16Z"
+ "updated_at": "2026-10-02T18:58:16Z"
 }

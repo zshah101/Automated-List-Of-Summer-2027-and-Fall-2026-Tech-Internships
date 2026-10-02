@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-02T13:26:16Z",
- "data_as_of": "2026-10-02T13:26:16Z",
- "rendered_at": "2026-10-02T13:26:16Z",
+ "generated_at": "2026-10-02T18:58:16Z",
+ "data_as_of": "2026-10-02T18:58:16Z",
+ "rendered_at": "2026-10-02T18:58:16Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -3198,25 +3198,6 @@
    }
   },
   {
-   "company": "EMC Insurance",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-11",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-11",
-   "days_until": -21,
-   "status": "open",
-   "url": "https://emcins.wd5.myworkdayjobs.com/EMC_Internships/job/Iowa/Intern--Data-Science_R6524-2",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-11"
-   }
-  },
-  {
    "company": "Klaviyo",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -4468,6 +4449,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-01"
+   }
+  },
+  {
+   "company": "Harvey",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
    }
   },
   {
@@ -7336,6 +7336,25 @@
    }
   },
   {
+   "company": "EMC Insurance",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -21,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
    "company": "ibotta",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -7545,5 +7564,5 @@
    }
   }
  ],
- "count": 397
+ "count": 398
 }
