@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-02T18:58:16Z",
- "data_as_of": "2026-10-02T18:58:16Z",
- "rendered_at": "2026-10-02T18:58:16Z",
+ "generated_at": "2026-10-02T23:16:55Z",
+ "data_as_of": "2026-10-02T23:16:55Z",
+ "rendered_at": "2026-10-02T23:16:56Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -282,7 +282,7 @@
    "expected": "2026-07-08",
    "days_until": -86,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs-CO_R10254007",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -2438,25 +2438,6 @@
    }
   },
   {
-   "company": "Dropbox",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-07",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-07",
-   "days_until": -25,
-   "status": "open",
-   "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224",
-   "note": "opens ~Sep",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-07"
-   }
-  },
-  {
    "company": "ICF",
    "last_cycle_posted": "",
    "posted_on": "2026-09-07",
@@ -3531,7 +3512,7 @@
    "expected": "2026-09-15",
    "days_until": -17,
    "status": "open",
-   "url": "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
+   "url": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3912,25 +3893,6 @@
    "days_until": -11,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-21"
-   }
-  },
-  {
-   "company": "Fidelity Investments",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-21",
-   "days_until": -11,
-   "status": "open",
-   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4452,6 +4414,44 @@
    }
   },
   {
+   "company": "Affirm",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8011590003",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
+   }
+  },
+  {
+   "company": "Arc",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
+   }
+  },
+  {
    "company": "Harvey",
    "last_cycle_posted": "",
    "posted_on": "2026-10-02",
@@ -4463,6 +4463,44 @@
    "days_until": 0,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
+   }
+  },
+  {
+   "company": "Major League Baseball",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://sterlingmets.wd5.myworkdayjobs.com/Mets/job/Citi-Field--Queens-New-York/Intern--Data-Science_R1508",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
+   }
+  },
+  {
+   "company": "xAI",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/xai/jobs/5255111007",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7203,6 +7241,25 @@
    }
   },
   {
+   "company": "Dropbox",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-07",
+   "days_until": -25,
+   "status": "dropped",
+   "url": "",
+   "note": "opens ~Sep",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-07"
+   }
+  },
+  {
    "company": "CHAOS Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -7526,6 +7583,25 @@
    }
   },
   {
+   "company": "Fidelity Investments",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -11,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Genesis Molecular AI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-24",
@@ -7564,5 +7640,5 @@
    }
   }
  ],
- "count": 398
+ "count": 402
 }
