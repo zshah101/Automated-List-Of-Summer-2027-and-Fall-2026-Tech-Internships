@@ -5,15 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-02T06:28:30Z</updated>
+  <updated>2026-10-02T13:26:16Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503</id>
-    <title>General Motors: 2027 Summer Intern - Software Engineer, Autonomous Vehicle: Simulation</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503"/>
-    <updated>2026-10-02T06:28:29Z</updated>
+    <id>urn:intern-engine:workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001</id>
+    <title>CACI: Network / Cybersecurity Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001"/>
+    <updated>2026-10-02T13:26:16Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Sunnyvale, California, United States of America · Python, C++ · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+    <summary>3 openings · Summer 2027 · Security · High Point, NC, US</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:profluent:5441955008</id>
+    <title>Profluent: Intern, Software Engineering</title>
+    <link href="https://job-boards.greenhouse.io/profluent/jobs/5441955008"/>
+    <updated>2026-10-02T06:28:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Emeryville, California, United States · Python</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508</id>
@@ -24,12 +32,12 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, Java, C++, PyTorch, TensorFlow · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:profluent:5441955008</id>
-    <title>Profluent: Intern, Software Engineering</title>
-    <link href="https://job-boards.greenhouse.io/profluent/jobs/5441955008"/>
+    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503</id>
+    <title>General Motors: 2027 Summer Intern - Software Engineer, Autonomous Vehicle: Simulation</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503"/>
     <updated>2026-10-02T06:28:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Emeryville, California, United States · Python</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Sunnyvale, California, United States of America · Python, C++ · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:walleyecapital-external-students:4716166006</id>
@@ -553,8 +561,8 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:graphcore-early-careers:8857368002</id>
-    <title>Graphcore Early Careers: Machine Learning and Data Science Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8857368002"/>
+    <title>Graphcore: Machine Learning and Data Science Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/graphcore/jobs/8862951002"/>
     <updated>2026-09-30T00:40:52Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Austin, Texas, United States · Python, SQL, PyTorch, scikit-learn, Pandas</summary>
@@ -798,13 +806,5 @@
     <updated>2026-09-29T02:51:23Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:lyft:8843341002</id>
-    <title>Lyft: Applied Scientist Intern (Summer 2027)</title>
-    <link href="https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002"/>
-    <updated>2026-09-28T22:58:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · $64–$68/hr · Python, LLMs · H-1B track record: ~348 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T06:28:30Z",
-  "fetched_at": "2026-10-02T06:28:30Z",
-  "duration_seconds": 1137.3,
+  "generated_at": "2026-10-02T13:26:16Z",
+  "fetched_at": "2026-10-02T13:26:16Z",
+  "duration_seconds": 1090.9,
   "companies_total": 4933,
   "companies_by_source": {
     "greenhouse": 1099,
@@ -17,53 +17,52 @@
     "breezy": 13,
     "eightfold": 1
   },
-  "quarantined": 246,
-  "fetched_ok": 4518,
-  "fetch_errors": 169,
+  "quarantined": 282,
+  "fetched_ok": 4480,
+  "fetch_errors": 171,
   "errors_by_source": {
-    "workday": 89,
-    "greenhouse": 5,
-    "rippling": 1,
-    "ashby": 3,
-    "workable": 71
+    "workday": 127,
+    "workable": 42,
+    "lever": 1,
+    "greenhouse": 1
   },
-  "fetch_success_rate": 0.964,
-  "fetch_success_rate_registry": 0.916,
-  "snapshots_complete": 3918,
-  "snapshots_partial": 600,
+  "fetch_success_rate": 0.963,
+  "fetch_success_rate_registry": 0.908,
+  "snapshots_complete": 3882,
+  "snapshots_partial": 598,
   "partial_by_reason": {
-    "result-cap": 588,
-    "malformed-response": 11,
+    "result-cap": 535,
+    "malformed-response": 62,
     "pagination-stalled": 1
   },
-  "degraded_fetches": 12,
-  "roles_matched": 807,
-  "dropped_no_year_in_title": 448,
-  "dropped_offcycle_by_text": 189,
-  "roles_cycle_inferred": 356,
+  "degraded_fetches": 63,
+  "roles_matched": 804,
+  "dropped_no_year_in_title": 440,
+  "dropped_offcycle_by_text": 181,
+  "roles_cycle_inferred": 354,
   "roles_by_source": {
     "amazon": 8,
     "ashby": 58,
     "breezy": 4,
-    "greenhouse": 204,
+    "greenhouse": 203,
     "lever": 26,
     "oracle": 149,
     "rippling": 11,
     "smartrecruiters": 40,
     "workable": 7,
-    "workday": 605
+    "workday": 601
   },
   "roles_by_cycle": {
     "Fall 2026": 44,
-    "Summer 2027": 712,
-    "Not stated": 356
+    "Summer 2027": 709,
+    "Not stated": 354
   },
   "roles_by_region": {
-    "US": 1112
+    "US": 1107
   },
   "sponsorship_counts": {
-    "unknown": 749,
-    "citizens-only": 217,
+    "unknown": 743,
+    "citizens-only": 218,
     "offers": 8,
     "no-sponsorship": 138
   },
@@ -72,7 +71,7 @@
   "enrichment_detail_fetches": 3,
   "purged_this_run": 0,
   "new_this_run": 3,
-  "open_total": 1112,
+  "open_total": 1107,
   "detection_latency": {
     "median_minutes": 138.6,
     "p95_minutes": 1219.1,
@@ -82,7 +81,7 @@
   },
   "posting_lifetime": {
     "median_days": 10,
-    "sample_size": 253
+    "sample_size": 259
   },
-  "rendered_at": "2026-10-02T06:28:30Z"
+  "rendered_at": "2026-10-02T13:26:16Z"
 }
