@@ -2162,9 +2162,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-09",
      "role_ids": [
+      "workday:hmhw:/job/Houston-TX/AI---Automation-Development-Intern_JR102458",
       "workday:hmhw:/job/Houston-TX/Software-Engineering-Intern_JR102384"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4674,12 +4675,13 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-01",
-     "count": 4,
+     "count": 5,
      "role_ids": [
       "greenhouse:walleyecapital-external-students:4676334006",
       "greenhouse:walleyecapital-external-students:4676587006",
       "greenhouse:walleyecapital-external-students:4679168006",
-      "greenhouse:walleyecapital-external-students:4679434006"
+      "greenhouse:walleyecapital-external-students:4679434006",
+      "greenhouse:walleyecapital-external-students:4716166006"
      ]
     }
    }
@@ -4865,5 +4867,5 @@
    }
   }
  },
- "updated_at": "2026-10-01T20:47:57Z"
+ "updated_at": "2026-10-02T00:23:51Z"
 }
