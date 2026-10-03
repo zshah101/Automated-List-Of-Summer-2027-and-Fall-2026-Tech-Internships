@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-03T17:52:27Z</updated>
+  <updated>2026-10-03T20:30:00Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:workable:disa-technologies:73E7609B99</id>
@@ -16,20 +16,20 @@
     <summary>Not stated · Data &amp; ML/AI · Casper, Wyoming, United States (Hybrid) · Python, SQL, Pandas</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614</id>
-    <title>American Bankers Association: Intern, Quantitative Research</title>
-    <link href="https://aba.wd1.myworkdayjobs.com/aba/job/US-DC-Main-Office/Intern--Quantitative-Research_R614"/>
-    <updated>2026-10-03T17:52:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Quant · US DC Main Office · $25/hr · Python</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611</id>
     <title>American Bankers Association: Intern, Cybersecurity Policy Analyst</title>
     <link href="https://aba.wd1.myworkdayjobs.com/aba/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611"/>
     <updated>2026-10-03T17:52:27Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Security · US DC Main Office · $30/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614</id>
+    <title>American Bankers Association: Intern, Quantitative Research</title>
+    <link href="https://aba.wd1.myworkdayjobs.com/aba/job/US-DC-Main-Office/Intern--Quantitative-Research_R614"/>
+    <updated>2026-10-03T17:52:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Quant · US DC Main Office · $25/hr · Python</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cadence:/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657</id>
