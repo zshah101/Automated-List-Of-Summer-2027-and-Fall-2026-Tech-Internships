@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workable:disa-technologies:73E7609B99",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611"
-    ],
-    "telegram": [
-      "workable:disa-technologies:73E7609B99",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
