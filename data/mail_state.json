@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-10-02T13:27:00Z",
-  "last_digest_roles": 51,
+  "last_digest_at": "2026-10-03T13:38:26Z",
+  "last_digest_roles": 26,
   "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1286,14 +1286,42 @@
     "greenhouse:stripe:8194291",
     "workday:cisco:/job/Maynard-Massachusetts-US/Software-Engineer-I--Co-op----United-States_2026920",
     "workday:cisco:/job/Maynard-Massachusetts-US/Software-Engineer-II--Co-op----United-States_2026923",
-    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343"
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01870343",
+    "workday:cadence:/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657",
+    "workday:hntb:/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865",
+    "workday:hntb:/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1",
+    "greenhouse:affirm:8008645003",
+    "greenhouse:affirm:8011590003",
+    "greenhouse:arcboatcompany:5442881008",
+    "greenhouse:natera:6188497004",
+    "greenhouse:xai:5255111007",
+    "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
+    "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
+    "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
+    "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
+    "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697",
+    "workday:hp:/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670",
+    "workday:hp:/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670-2",
+    "workday:nelnet:/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
+    "workday:sterlingmets:/job/Citi-Field--Queens-New-York/Intern--Data-Science_R1508",
+    "amazon:amazon:10567914",
+    "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
+    "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+    "ashby:range:5fe3697d-b5b3-4772-9de4-1551cb726718",
+    "greenhouse:mill:4737741005",
+    "lever:shopback-2:640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
+    "lever:shopback-2:e5f5e276-e7f7-43e0-a224-5259d242fe98",
+    "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
+    "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770",
+    "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
+    "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 237,
   "send_attempts": [
     {
-      "at": "2026-10-02T13:27:00Z",
-      "count": 237
+      "at": "2026-10-03T13:38:26Z",
+      "count": 238
     }
   ]
 }
