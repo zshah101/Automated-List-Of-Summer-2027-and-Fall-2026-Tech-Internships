@@ -2225,6 +2225,18 @@
     }
    }
   },
+  "hntb": {
+   "name": "HNTB",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-02",
+     "role_ids": [
+      "workday:hntb:/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "honeywell": {
    "name": "Honeywell",
    "cycles": {
@@ -4962,5 +4974,5 @@
    }
   }
  },
- "updated_at": "2026-10-02T23:16:55Z"
+ "updated_at": "2026-10-03T02:06:54Z"
 }
