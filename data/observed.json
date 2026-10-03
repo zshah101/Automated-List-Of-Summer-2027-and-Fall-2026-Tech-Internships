@@ -966,6 +966,18 @@
     }
    }
   },
+  "cadence design systems": {
+   "name": "Cadence Design Systems",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-10-02",
+     "role_ids": [
+      "workday:cadence:/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657"
+     ],
+     "count": 1
+    }
+   }
+  },
   "cai": {
    "name": "CAI",
    "cycles": {
@@ -4974,5 +4986,5 @@
    }
   }
  },
- "updated_at": "2026-10-03T02:06:54Z"
+ "updated_at": "2026-10-03T08:20:34Z"
 }
