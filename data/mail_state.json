@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-10-03T13:38:26Z",
-  "last_digest_roles": 26,
+  "last_digest_at": "2026-10-04T15:38:28Z",
+  "last_digest_roles": 4,
   "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1314,14 +1314,18 @@
     "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
     "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770",
     "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
-    "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
+    "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Co-Op---AI-DSP-Applied-Research_01873016",
+    "workable:disa-technologies:73E7609B99",
+    "workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611",
+    "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 237,
   "send_attempts": [
     {
-      "at": "2026-10-03T13:38:26Z",
-      "count": 238
+      "at": "2026-10-04T15:38:28Z",
+      "count": 237
     }
   ]
 }
