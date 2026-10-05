@@ -1,34 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008180",
-      "oracle:edbz.fa.us2.oraclecloud.com:25016392",
-      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615",
-      "greenhouse:foundenergy:4719227006",
-      "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Cybersecurity-Intern_R0023516",
-      "greenhouse:wehrtyou:8257369",
-      "workday:intel:/job/US-California-Santa-Clara/AI-Solution-Architect---Graduate-Intern_JR0287524",
-      "workday:intel:/job/US-California-Santa-Clara/AI-Solution-Architect-Graduate-Intern_JR0287530",
-      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solution-Architect---Graduate-Intern_JR0287531",
-      "workday:jainglobal:/job/New-York-New-York/Data-Engineer-Intern_JR100605-1",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193914",
-      "workday:relx:/job/Alpharetta-GA-Alderman/Data-Science-Intern_R118955",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696"
-    ],
-    "telegram": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008180",
-      "oracle:edbz.fa.us2.oraclecloud.com:25016392",
-      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615",
-      "greenhouse:foundenergy:4719227006",
-      "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Cybersecurity-Intern_R0023516",
-      "greenhouse:wehrtyou:8257369",
-      "workday:intel:/job/US-California-Santa-Clara/AI-Solution-Architect---Graduate-Intern_JR0287524",
-      "workday:intel:/job/US-California-Santa-Clara/AI-Solution-Architect-Graduate-Intern_JR0287530",
-      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solution-Architect---Graduate-Intern_JR0287531",
-      "workday:jainglobal:/job/New-York-New-York/Data-Engineer-Intern_JR100605-1",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193914",
-      "workday:relx:/job/Alpharetta-GA-Alderman/Data-Science-Intern_R118955",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
