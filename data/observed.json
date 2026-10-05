@@ -952,6 +952,7 @@
       "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333005",
       "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333034-1",
       "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
+      "workday:caci:/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085",
       "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
       "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
@@ -962,7 +963,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 23
+     "count": 24
     }
    }
   },
@@ -1329,6 +1330,7 @@
      "role_ids": [
       "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
       "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682365",
       "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
       "workday:cox:/job/Atlanta-GA/Data-Scientist-Intern---Summer-2027--Atlanta--GA-_R202682164",
       "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
@@ -1340,7 +1342,7 @@
       "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
       "workday:cox:/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -1979,10 +1981,12 @@
      "role_ids": [
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503",
-      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697"
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778"
      ],
-     "count": 4
+     "count": 6
     }
    }
   },
@@ -2513,6 +2517,18 @@
     }
    }
   },
+  "jain global": {
+   "name": "Jain Global",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-05",
+     "role_ids": [
+      "workday:jainglobal:/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "johnson johnson": {
    "name": "Johnson & Johnson",
    "cycles": {
@@ -2970,6 +2986,7 @@
      "first_posted": "2026-08-14",
      "role_ids": [
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
+      "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R69313",
       "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369",
       "workday:motorolasolutions:/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
@@ -2979,7 +2996,7 @@
       "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
      ],
-     "count": 9
+     "count": 10
     }
    }
   },
@@ -4998,5 +5015,5 @@
    }
   }
  },
- "updated_at": "2026-10-05T07:53:16Z"
+ "updated_at": "2026-10-05T17:23:28Z"
 }

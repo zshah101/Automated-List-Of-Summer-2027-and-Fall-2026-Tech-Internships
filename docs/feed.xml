@@ -5,15 +5,79 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-05T07:53:16Z</updated>
+  <updated>2026-10-05T17:23:28Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:nc:/job/Wake-County-NC/Data-Science-Intern_JR-125225</id>
-    <title>State of North Carolina: Data Science Intern</title>
-    <link href="https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Data-Science-Intern_JR-125225"/>
-    <updated>2026-10-05T07:53:16Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Data &amp; ML/AI · Wake County, NC · Python, SQL, Pandas, LLMs · status: closed</summary>
+    <id>urn:intern-engine:ashby:tensorwave:39091eeb-13fc-46a7-b7e5-0d4584ac53ab</id>
+    <title>TensorWave: Software Engineering Intern</title>
+    <link href="https://jobs.ashbyhq.com/tensorwave/39091eeb-13fc-46a7-b7e5-0d4584ac53ab"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Las Vegas, Nevada · Kubernetes</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:tensorwave:34dd183d-4423-40e3-bb6d-790b5dafc731</id>
+    <title>TensorWave: Developer Community Engagement Intern</title>
+    <link href="https://jobs.ashbyhq.com/tensorwave/34dd183d-4423-40e3-bb6d-790b5dafc731"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Las Vegas, Nevada</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:tensorwave:8ec8b715-f9ad-48a7-869e-ed9d455119a5</id>
+    <title>TensorWave: Security Engineer Intern</title>
+    <link href="https://jobs.ashbyhq.com/tensorwave/8ec8b715-f9ad-48a7-869e-ed9d455119a5"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Las Vegas, Nevada · Python, Bash</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085</id>
+    <title>CACI: Software Development Intern - Summer 2027 🇺🇸</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Oklahoma City, OK, US · Java, C++, C#, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655</id>
+    <title>General Motors: 2027 Summer Intern – Machine Learning Intern, Autonomous Vehicles: Software Validation (Master's)</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, SQL, Computer Vision, Hadoop · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778</id>
+    <title>General Motors: 2027 Summer Intern, AI/ML Engineer, Mapping</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Warren, Michigan, United States of America · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jainglobal:/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1</id>
+    <title>Jain Global: Quant Research Intern, Systematic Trading</title>
+    <link href="https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, New York · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---SMAI-TD-AI-Engineering-Team_JR112991</id>
+    <title>Micron Technology: Intern - SMAI TD AI Engineering Team</title>
+    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---SMAI-TD-AI-Engineering-Team_JR112991"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Boise, ID - Main Site · Python, Java, C#, TypeScript, JavaScript · H-1B track record: ~489 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nrel:/job/Golden-CO/Undergraduate---Graduate--Spring---Summer--Intern---Cyber-Security-Research---5G_R14555</id>
+    <title>National Laboratory of the Rockies: Undergraduate / Graduate (Spring / Summer) Intern - Cyber Security Research – 5G</title>
+    <link href="https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate---Graduate--Spring---Summer--Intern---Cyber-Security-Research---5G_R14555"/>
+    <updated>2026-10-05T17:23:28Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Golden, CO · Python, Java, C++, PyTorch, TensorFlow</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/People-Care-HR-AI-Agent---Process-Improvement-Project-Management-Intern_1212389</id>
@@ -22,6 +86,14 @@
     <updated>2026-10-05T07:53:16Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Spring, Texas, United States of America · HTML/CSS · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nc:/job/Wake-County-NC/Data-Science-Intern_JR-125225</id>
+    <title>State of North Carolina: Data Science Intern</title>
+    <link href="https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Data-Science-Intern_JR-125225"/>
+    <updated>2026-10-05T07:53:16Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Data &amp; ML/AI · Wake County, NC · Python, SQL, Pandas, LLMs · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:primient:/job/Schaumburg-IL/AI-Analyst-Intern---Summer-2027_JREQ7056</id>
@@ -734,77 +806,5 @@
     <updated>2026-09-30T18:23:14Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Virtual US · Python, C++, PyTorch, Computer Vision, CUDA · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572-1</id>
-    <title>KLA: Software Engineering Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern_2641572-1"/>
-    <updated>2026-09-30T18:23:14Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Software · Milpitas, CA · $37–$49/hr · Python, Java, C++, C#, JavaScript · H-1B track record: ~369 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772</id>
-    <title>Northrop Grumman: 2027 Software Engineer Intern - Rolling Meadows IL 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772"/>
-    <updated>2026-10-02T22:56:46Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Illinois-Rolling Meadows · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768</id>
-    <title>Northrop Grumman: 2027 Software Engineer Intern - Morrisville NC 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768"/>
-    <updated>2026-10-02T22:56:46Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-North Carolina-Morrisville · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731</id>
-    <title>Northrop Grumman: 2027 Software Engineering Intern Dulles VA 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731"/>
-    <updated>2026-10-02T18:40:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Virginia-Dulles · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:muonspace:5252680007</id>
-    <title>Muon Space: GNC Software Engineering Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/muonspace/jobs/5252680007"/>
-    <updated>2026-09-30T06:16:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mountain View, CA · $40/hr · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1</id>
-    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
-    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"/>
-    <updated>2026-09-30T06:16:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790</id>
-    <title>Northrop Grumman: 2027 Embedded Software Engineer Intern – Rolling Meadows IL 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790"/>
-    <updated>2026-10-02T18:40:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Illinois-Rolling Meadows · $20.5–$37.25/hr · Java, C++, Git · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812</id>
-    <title>Northrop Grumman: 2027 Software Digital Intern - Rolling Meadows IL 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812"/>
-    <updated>2026-10-02T18:40:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Illinois-Rolling Meadows · $20.5–$37.25/hr · Python, C++, MATLAB, Verilog · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:graphcore-early-careers:8857368002</id>
-    <title>Graphcore: Machine Learning and Data Science Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/graphcore/jobs/8862951002"/>
-    <updated>2026-09-30T00:40:52Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Austin, Texas, United States · Python, SQL, PyTorch, scikit-learn, Pandas</summary>
   </entry>
 </feed>

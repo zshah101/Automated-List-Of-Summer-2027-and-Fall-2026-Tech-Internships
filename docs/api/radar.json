@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-05T07:53:16Z",
- "data_as_of": "2026-10-05T07:53:16Z",
- "rendered_at": "2026-10-05T07:53:17Z",
+ "generated_at": "2026-10-05T17:23:28Z",
+ "data_as_of": "2026-10-05T17:23:28Z",
+ "rendered_at": "2026-10-05T17:23:28Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2495,25 +2495,6 @@
    }
   },
   {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -27,
-   "status": "open",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "Coinbase",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -4487,6 +4468,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-04"
+   }
+  },
+  {
+   "company": "Jain Global",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-05",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-05"
    }
   },
   {
@@ -7260,6 +7260,25 @@
    }
   },
   {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -27,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "CHAOS Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -7678,5 +7697,5 @@
    }
   }
  ],
- "count": 404
+ "count": 405
 }
