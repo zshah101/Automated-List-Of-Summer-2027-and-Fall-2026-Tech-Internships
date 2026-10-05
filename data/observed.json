@@ -327,6 +327,18 @@
     }
    }
   },
+  "american family insurance group": {
+   "name": "American Family Insurance Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-05",
+     "role_ids": [
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"
+     ],
+     "count": 1
+    }
+   }
+  },
   "ameriprise financial": {
    "name": "Ameriprise Financial",
    "cycles": {
@@ -516,9 +528,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-06",
      "role_ids": [
-      "greenhouse:cssmerge:8687896002"
+      "greenhouse:cssmerge:8687896002",
+      "greenhouse:cssmerge:8869106002"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2321,11 +2334,12 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-13",
-     "count": 3,
+     "count": 4,
      "role_ids": [
       "greenhouse:wehrtyou:7964062",
       "greenhouse:wehrtyou:8052083",
-      "greenhouse:wehrtyou:8222414"
+      "greenhouse:wehrtyou:8222414",
+      "greenhouse:wehrtyou:8257369"
      ]
     }
    }
@@ -2523,9 +2537,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-05",
      "role_ids": [
+      "workday:jainglobal:/job/New-York-New-York/Data-Engineer-Intern_JR100605-1",
       "workday:jainglobal:/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2683,6 +2698,7 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193914",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
@@ -2692,7 +2708,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 13
+     "count": 14
     }
    }
   },
@@ -2703,6 +2719,18 @@
      "first_posted": "2026-09-09",
      "role_ids": [
       "greenhouse:lexingtonmedical:5400236008"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "lexisnexis risk solutions": {
+   "name": "LexisNexis Risk Solutions",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-05",
+     "role_ids": [
+      "workday:relx:/job/Alpharetta-GA-Alderman/Data-Science-Intern_R118955"
      ],
      "count": 1
     }
@@ -4234,9 +4262,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008052",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008089"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008089",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008180"
      ],
-     "count": 15
+     "count": 16
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -5015,5 +5044,5 @@
    }
   }
  },
- "updated_at": "2026-10-05T17:23:28Z"
+ "updated_at": "2026-10-05T23:29:15Z"
 }
