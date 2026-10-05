@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-10-04T15:38:28Z",
-  "last_digest_roles": 4,
+  "last_digest_at": "2026-10-05T17:24:13Z",
+  "last_digest_roles": 13,
   "last_digest_sent": 237,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1318,18 +1318,31 @@
     "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Co-Op---AI-DSP-Applied-Research_01873016",
     "workable:disa-technologies:73E7609B99",
     "workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611",
-    "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614"
+    "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614",
+    "ashby:tensorwave:34dd183d-4423-40e3-bb6d-790b5dafc731",
+    "ashby:tensorwave:39091eeb-13fc-46a7-b7e5-0d4584ac53ab",
+    "ashby:tensorwave:8ec8b715-f9ad-48a7-869e-ed9d455119a5",
+    "workday:caci:/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085",
+    "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682365",
+    "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655",
+    "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778",
+    "workday:jainglobal:/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1",
+    "workday:micron:/job/Boise-ID---Main-Site/Intern---SMAI-TD-AI-Engineering-Team_JR112991",
+    "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R69313",
+    "workday:nrel:/job/Golden-CO/Undergraduate---Graduate--Spring---Summer--Intern---Cyber-Security-Research---5G_R14555",
+    "workday:hpe:/job/Spring-Texas-United-States-of-America/People-Care-HR-AI-Agent---Process-Improvement-Project-Management-Intern_1212389",
+    "workday:primient:/job/Schaumburg-IL/AI-Analyst-Intern---Summer-2027_JREQ7056"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 237,
   "send_attempts": [
     {
-      "at": "2026-10-04T15:38:28Z",
-      "count": 237
-    },
-    {
       "at": "2026-10-05T07:54:02Z",
       "count": 1
+    },
+    {
+      "at": "2026-10-05T17:24:13Z",
+      "count": 237
     }
   ]
 }
