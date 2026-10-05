@@ -12707,6 +12707,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Hudson Pacific Properties",
+    "slug": "hudson-pacific-properties",
+    "ats": "ashby"
+  },
+  {
     "name": "Hudson River Trading",
     "slug": "wehrtyou",
     "ats": "greenhouse"
@@ -19102,6 +19107,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "advisor_career_site"
+  },
+  {
+    "name": "Oscar Health",
+    "slug": "oscar",
+    "ats": "greenhouse"
   },
   {
     "name": "Oshkosh",
