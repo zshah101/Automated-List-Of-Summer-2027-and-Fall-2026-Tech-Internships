@@ -706,9 +706,10 @@
     "Fall 2026": {
      "first_posted": "2026-09-24",
      "role_ids": [
-      "workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211"
+      "workday:biibhr:/job/Remote-USA/Co-op--Data-Science_REQ24211",
+      "workday:biibhr:/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -952,6 +953,7 @@
      "first_posted": "2026-08-31",
      "role_ids": [
       "workday:caci:/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1",
+      "workday:caci:/job/Ashburn-VA-US/Cyber-Analyst-Intern---Summer-2027_333161",
       "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_332790",
       "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
       "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
@@ -976,7 +978,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 24
+     "count": 25
     }
    }
   },
@@ -1308,6 +1310,18 @@
       "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726"
      ],
      "count": 3
+    }
+   }
+  },
+  "courier health": {
+   "name": "Courier Health",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "greenhouse:courierhealth:5258913007"
+     ],
+     "count": 1
     }
    }
   },
@@ -2779,6 +2793,18 @@
     }
    }
   },
+  "mach industries": {
+   "name": "Mach Industries",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-25",
+     "role_ids": [
+      "greenhouse:machindustries:4420626009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "major league baseball": {
    "name": "Major League Baseball",
    "cycles": {
@@ -2813,9 +2839,10 @@
       "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
       "workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1",
       "workday:marvell:/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513",
-      "workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"
+      "workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1",
+      "workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2604989-1"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -2911,6 +2938,18 @@
     }
    }
   },
+  "memx": {
+   "name": "MEMX",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "greenhouse:memx:5445236008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "merck": {
    "name": "Merck",
    "cycles": {
@@ -2925,6 +2964,18 @@
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939"
      ],
      "count": 6
+    }
+   }
+  },
+  "midland states bank": {
+   "name": "Midland States Bank",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-05",
+     "role_ids": [
+      "workday:midlandsb:/job/Effingham-IL/Intern---IT-Infrastructure_JR1471"
+     ],
+     "count": 1
     }
    }
   },
@@ -3135,6 +3186,18 @@
      "first_posted": "2026-09-01",
      "role_ids": [
       "workday:newrez:/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "niantic spatial": {
+   "name": "Niantic Spatial",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "ashby:niantic-spatial:898b2da7-03cd-486e-96e3-3430a148c8fd"
      ],
      "count": 1
     }
@@ -3560,6 +3623,18 @@
     }
    }
   },
+  "pure storage": {
+   "name": "Pure Storage",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "greenhouse:purestorage:8249749"
+     ],
+     "count": 1
+    }
+   }
+  },
   "q2": {
    "name": "Q2",
    "cycles": {
@@ -3841,6 +3916,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01871884",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480",
@@ -3871,7 +3947,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
      ],
-     "count": 39
+     "count": 40
     }
    }
   },
@@ -4102,10 +4178,11 @@
     "Fall 2026": {
      "first_posted": "2026-09-23",
      "role_ids": [
+      "workday:snc:/job/Dayton-OH/Software-Engineer-I--For-2026-Interns-Only-_R0030889",
       "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608",
       "workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -5044,5 +5121,5 @@
    }
   }
  },
- "updated_at": "2026-10-06T11:05:24Z"
+ "updated_at": "2026-10-06T17:28:57Z"
 }
