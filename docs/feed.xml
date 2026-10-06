@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-06T03:35:52Z</updated>
+  <updated>2026-10-06T11:05:24Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:hpe:/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950</id>
-    <title>Hewlett Packard Enterprise: Cloud Developer Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950"/>
+    <id>urn:intern-engine:workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406</id>
+    <title>Hewlett Packard Enterprise: Infrastructure Deployment Automation Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406"/>
     <updated>2026-10-06T03:35:52Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · San Jose, California, United States of America · Python, scikit-learn, LLMs, HTML/CSS, Spark · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · Bloomington, Minnesota, United States of America · Python, Bash, HTML/CSS, Linux · H-1B track record: ~499 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Systems-Software-Engineer-Intern_1213401</id>
@@ -24,12 +24,12 @@
     <summary>Not stated · Software · Bloomington, Minnesota, United States of America · Python, Java, C++, HTML/CSS · H-1B track record: ~499 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406</id>
-    <title>Hewlett Packard Enterprise: Infrastructure Deployment Automation Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406"/>
+    <id>urn:intern-engine:workday:hpe:/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950</id>
+    <title>Hewlett Packard Enterprise: Cloud Developer Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950"/>
     <updated>2026-10-06T03:35:52Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Bloomington, Minnesota, United States of America · Python, Bash, HTML/CSS, Linux · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · San Jose, California, United States of America · Python, scikit-learn, LLMs, HTML/CSS, Spark · H-1B track record: ~499 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:cssmerge:8869106002</id>
@@ -291,9 +291,9 @@
     <id>urn:intern-engine:greenhouse:natera:6188497004</id>
     <title>Natera: Software Engineering Intern</title>
     <link href="https://job-boards.greenhouse.io/natera/jobs/6188497004"/>
-    <updated>2026-10-02T23:16:55Z</updated>
+    <updated>2026-10-06T11:05:23Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · US Remote · Python, Java, JavaScript, SQL · H-1B track record: ~81 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · US Remote · Python, Java, JavaScript, SQL · status: closed · H-1B track record: ~81 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:xai:5255111007</id>
