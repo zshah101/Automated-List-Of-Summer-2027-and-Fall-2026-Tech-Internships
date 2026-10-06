@@ -28,9 +28,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-24",
      "role_ids": [
+      "workday:abb:/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714",
+      "workday:abb:/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711",
       "workday:abb:/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -240,7 +242,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 11,
+     "count": 12,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -252,7 +254,8 @@
       "amazon:amazon:10559746",
       "amazon:amazon:10559762",
       "amazon:amazon:10565667",
-      "amazon:amazon:10567914"
+      "amazon:amazon:10567914",
+      "amazon:amazon:10571004"
      ]
     }
    }
@@ -1488,6 +1491,13 @@
      "role_ids": [
       "workday:dmainc:/job/Fort-Wayne-IN/Software-Development-Intern_REQ460"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "workday:dmainc:/job/Fort-Wayne-IN/Cybersecurity-Intern---Summer-2027_REQ742"
+     ],
+     "count": 1
     }
    }
   },
@@ -2545,6 +2555,18 @@
     }
    }
   },
+  "jabil": {
+   "name": "Jabil",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "workday:jabil:/job/Austin-TX/AI-Transformation-Intern_J2466044"
+     ],
+     "count": 1
+    }
+   }
+  },
   "jain global": {
    "name": "Jain Global",
    "cycles": {
@@ -2713,6 +2735,8 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193914",
+      "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00193937",
+      "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
@@ -2722,7 +2746,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 14
+     "count": 16
     }
    }
   },
@@ -3836,6 +3860,13 @@
      "first_posted": "2026-08-24",
      "role_ids": [
       "ashby:rivet:4e02461a-9f6c-4d3c-a511-6d54f31999bc"
+     ],
+     "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "ashby:rivet:03fcb078-7371-4cfd-89a9-368e5b60d914"
      ],
      "count": 1
     }
@@ -4965,9 +4996,11 @@
       "greenhouse:waymo:8203200",
       "greenhouse:waymo:8221198",
       "greenhouse:waymo:8224900",
-      "greenhouse:waymo:8238525"
+      "greenhouse:waymo:8238525",
+      "greenhouse:waymo:8257237",
+      "greenhouse:waymo:8257660"
      ],
-     "count": 8
+     "count": 10
     }
    }
   },
@@ -5121,5 +5154,5 @@
    }
   }
  },
- "updated_at": "2026-10-06T17:28:57Z"
+ "updated_at": "2026-10-06T22:08:21Z"
 }
