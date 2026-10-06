@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:hpe:/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950",
-      "workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Systems-Software-Engineer-Intern_1213401",
-      "workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406"
-    ],
-    "telegram": [
-      "workday:hpe:/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950",
-      "workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Systems-Software-Engineer-Intern_1213401",
-      "workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
