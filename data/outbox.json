@@ -1,54 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10571004",
-      "workday:dmainc:/job/Fort-Wayne-IN/Cybersecurity-Intern---Summer-2027_REQ742",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40566",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40806",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40807",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40812",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40808",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40809",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40810",
-      "ashby:rivet:03fcb078-7371-4cfd-89a9-368e5b60d914",
-      "workday:abb:/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711",
-      "workday:abb:/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714",
-      "greenhouse:drwuniversityjobs:8259714",
-      "greenhouse:engineersgate:8249666",
-      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineer-Co-op_R004416",
-      "workday:jabil:/job/Austin-TX/AI-Transformation-Intern_J2466044",
-      "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
-      "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00193937",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193327",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193767",
-      "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605",
-      "greenhouse:waymo:8257660",
-      "greenhouse:waymo:8257237"
-    ],
-    "telegram": [
-      "amazon:amazon:10571004",
-      "workday:dmainc:/job/Fort-Wayne-IN/Cybersecurity-Intern---Summer-2027_REQ742",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40566",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40806",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40807",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40812",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40808",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40809",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40810",
-      "ashby:rivet:03fcb078-7371-4cfd-89a9-368e5b60d914",
-      "workday:abb:/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711",
-      "workday:abb:/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714",
-      "greenhouse:drwuniversityjobs:8259714",
-      "greenhouse:engineersgate:8249666",
-      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineer-Co-op_R004416",
-      "workday:jabil:/job/Austin-TX/AI-Transformation-Intern_J2466044",
-      "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
-      "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00193937",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193327",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193767",
-      "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605",
-      "greenhouse:waymo:8257660",
-      "greenhouse:waymo:8257237"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
