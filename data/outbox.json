@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "amazon:amazon:10571374",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476",
+      "greenhouse:sigmacomputing:8001295003"
+    ],
+    "telegram": [
+      "amazon:amazon:10571374",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476",
+      "greenhouse:sigmacomputing:8001295003"
+    ]
   }
 }

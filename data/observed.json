@@ -242,7 +242,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 12,
+     "count": 13,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -255,7 +255,8 @@
       "amazon:amazon:10559762",
       "amazon:amazon:10565667",
       "amazon:amazon:10567914",
-      "amazon:amazon:10571004"
+      "amazon:amazon:10571004",
+      "amazon:amazon:10571374"
      ]
     }
    }
@@ -2253,6 +2254,18 @@
     }
    }
   },
+  "highmark health": {
+   "name": "Highmark Health",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hilton worldwide": {
    "name": "Hilton Worldwide",
    "cycles": {
@@ -4217,6 +4230,18 @@
     }
    }
   },
+  "sigma computing": {
+   "name": "Sigma Computing",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "greenhouse:sigmacomputing:8001295003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "singlestore": {
    "name": "SingleStore",
    "cycles": {
@@ -5154,5 +5179,5 @@
    }
   }
  },
- "updated_at": "2026-10-06T22:08:21Z"
+ "updated_at": "2026-10-07T01:48:12Z"
 }
