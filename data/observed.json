@@ -2889,6 +2889,7 @@
     "Summer 2027": {
      "first_posted": "2026-08-28",
      "role_ids": [
+      "workday:mastercard:/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924",
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869",
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284877",
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879",
@@ -2898,7 +2899,7 @@
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
       "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654"
      ],
-     "count": 8
+     "count": 9
     }
    }
   },
@@ -3245,7 +3246,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 27,
+     "count": 29,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -3273,6 +3274,8 @@
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs-CO_R10254007",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852",
+      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
       "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731"
      ]
     },
@@ -4005,6 +4008,13 @@
       "oracle:ejia.fa.us6.oraclecloud.com:107307"
      ],
      "count": 2
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-07",
+     "role_ids": [
+      "oracle:ejia.fa.us6.oraclecloud.com:107374"
+     ],
+     "count": 1
     }
    }
   },
@@ -5179,5 +5189,5 @@
    }
   }
  },
- "updated_at": "2026-10-07T08:00:41Z"
+ "updated_at": "2026-10-07T15:49:36Z"
 }

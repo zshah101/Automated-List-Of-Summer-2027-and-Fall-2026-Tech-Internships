@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-07T08:00:41Z",
- "data_as_of": "2026-10-07T08:00:41Z",
- "rendered_at": "2026-10-07T08:00:42Z",
+ "generated_at": "2026-10-07T15:49:36Z",
+ "data_as_of": "2026-10-07T15:49:36Z",
+ "rendered_at": "2026-10-07T15:49:37Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -269,6 +269,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-05"
+   }
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -91,
+   "status": "open",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
    }
   },
   {
@@ -2448,7 +2467,7 @@
    "expected": "2026-09-08",
    "days_until": -29,
    "status": "open",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4677,6 +4696,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-06"
+   }
+  },
+  {
+   "company": "S&C Electric Company",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-07",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107374",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-07"
    }
   },
   {
@@ -6975,25 +7013,6 @@
    }
   },
   {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -91,
-   "status": "dropped",
-   "url": "",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -7944,5 +7963,5 @@
    }
   }
  ],
- "count": 418
+ "count": 419
 }
