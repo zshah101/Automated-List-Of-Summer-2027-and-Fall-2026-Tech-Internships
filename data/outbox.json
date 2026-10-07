@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:tenstorrentuniversity:5258901007",
-      "greenhouse:tenstorrentuniversity:5256686007"
-    ],
-    "telegram": [
-      "greenhouse:tenstorrentuniversity:5258901007",
-      "greenhouse:tenstorrentuniversity:5256686007"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
