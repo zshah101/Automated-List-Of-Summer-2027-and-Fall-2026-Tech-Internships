@@ -1,20 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107374",
-      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solution-Architect---Undergraduate-Intern_JR0287931",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193769",
-      "workday:mastercard:/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924",
-      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852"
-    ],
-    "telegram": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107374",
-      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solution-Architect---Undergraduate-Intern_JR0287931",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193769",
-      "workday:mastercard:/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924",
-      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
