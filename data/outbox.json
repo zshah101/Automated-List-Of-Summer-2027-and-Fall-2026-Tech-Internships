@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:axos:/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647",
-      "workday:axos:/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658",
-      "greenhouse:doordashusa:8263774",
-      "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
-    ],
-    "telegram": [
-      "workday:axos:/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647",
-      "workday:axos:/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658",
-      "greenhouse:doordashusa:8263774",
-      "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
