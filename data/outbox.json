@@ -1,34 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:genbio:7d0b5764-48ce-4d06-93d2-431742d35604",
-      "lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2",
-      "workday:applebank:/job/New-York-NY/XMLNAME-2027-Summer-Intern--Information-Security_2026-1416",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064",
-      "greenhouse:imc:4962456101",
-      "workday:jj:/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881",
-      "workday:jll:/job/Los-Angeles-CA/AI-Intern-Summer-2027-Internship---Los-Angeles--CA_REQ539393",
-      "workday:modmed:/job/Boca-Raton-FL/Software-Engineering-Intern_R5148",
-      "workday:moog:/job/Torrance-CA/Intern--Computer-Science_R-26-19819",
-      "workday:moog:/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19965",
-      "workday:ngc:/job/United-States-California-McClellan/XMLNAME-2027-Software-Engineer-Intern---McClellan-CA_R10255207",
-      "greenhouse:perpay:5260960007",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369"
-    ],
-    "telegram": [
-      "lever:genbio:7d0b5764-48ce-4d06-93d2-431742d35604",
-      "lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2",
-      "workday:applebank:/job/New-York-NY/XMLNAME-2027-Summer-Intern--Information-Security_2026-1416",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064",
-      "greenhouse:imc:4962456101",
-      "workday:jj:/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881",
-      "workday:jll:/job/Los-Angeles-CA/AI-Intern-Summer-2027-Internship---Los-Angeles--CA_REQ539393",
-      "workday:modmed:/job/Boca-Raton-FL/Software-Engineering-Intern_R5148",
-      "workday:moog:/job/Torrance-CA/Intern--Computer-Science_R-26-19819",
-      "workday:moog:/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19965",
-      "workday:ngc:/job/United-States-California-McClellan/XMLNAME-2027-Software-Engineer-Intern---McClellan-CA_R10255207",
-      "greenhouse:perpay:5260960007",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
