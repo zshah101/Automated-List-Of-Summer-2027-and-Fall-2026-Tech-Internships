@@ -242,7 +242,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 13,
+     "count": 14,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -250,6 +250,7 @@
       "amazon:amazon:10517567",
       "amazon:amazon:10529525",
       "amazon:amazon:10552937",
+      "amazon:amazon:10553907",
       "amazon:amazon:10557133",
       "amazon:amazon:10559746",
       "amazon:amazon:10559762",
@@ -374,6 +375,13 @@
       "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719"
      ],
      "count": 11
+    },
+    "Fall 2026": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "workday:amgen:/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Interactive-Developer---Immersive-Course-Programmer-for-Manufacturing_R-256886"
+     ],
+     "count": 1
     }
    }
   },
@@ -3105,6 +3113,7 @@
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R69313",
       "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369",
+      "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
       "workday:motorolasolutions:/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
@@ -3113,7 +3122,7 @@
       "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
      ],
-     "count": 10
+     "count": 11
     }
    }
   },
@@ -3236,6 +3245,18 @@
      "first_posted": "2026-10-06",
      "role_ids": [
       "ashby:niantic-spatial:898b2da7-03cd-486e-96e3-3430a148c8fd"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "nissan": {
+   "name": "Nissan",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-07",
+     "role_ids": [
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"
      ],
      "count": 1
     }
@@ -5206,5 +5227,5 @@
    }
   }
  },
- "updated_at": "2026-10-07T21:04:20Z"
+ "updated_at": "2026-10-08T01:10:22Z"
 }
