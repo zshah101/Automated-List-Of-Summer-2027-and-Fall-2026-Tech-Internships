@@ -1517,9 +1517,10 @@
      "first_posted": "2026-09-14",
      "role_ids": [
       "greenhouse:doordashusa:8171041",
-      "greenhouse:doordashusa:8204111"
+      "greenhouse:doordashusa:8204111",
+      "greenhouse:doordashusa:8263774"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3120,9 +3121,10 @@
       "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734",
       "workday:motorolasolutions:/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136",
       "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
-      "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
+      "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782",
+      "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
      ],
-     "count": 11
+     "count": 12
     }
    }
   },
@@ -5227,5 +5229,5 @@
    }
   }
  },
- "updated_at": "2026-10-08T01:10:22Z"
+ "updated_at": "2026-10-08T07:37:43Z"
 }
