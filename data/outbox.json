@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10553907",
-      "workday:amgen:/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Interactive-Developer---Immersive-Course-Programmer-for-Manufacturing_R-256886",
-      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Firmware-Engineering-Co-op_R004419",
-      "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
-      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"
-    ],
-    "telegram": [
-      "amazon:amazon:10553907",
-      "workday:amgen:/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Interactive-Developer---Immersive-Course-Programmer-for-Manufacturing_R-256886",
-      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Firmware-Engineering-Co-op_R004419",
-      "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
-      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
