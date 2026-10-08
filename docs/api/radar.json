@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-08T07:37:43Z",
- "data_as_of": "2026-10-08T07:37:43Z",
- "rendered_at": "2026-10-08T07:37:43Z",
+ "generated_at": "2026-10-08T15:14:50Z",
+ "data_as_of": "2026-10-08T15:14:50Z",
+ "rendered_at": "2026-10-08T15:14:50Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -3426,6 +3426,25 @@
    }
   },
   {
+   "company": "RAVE Aerospace",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -23,
+   "status": "open",
+   "url": "https://apply.workable.com/raveaerospace/j/739753C003/",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
+  },
+  {
    "company": "The Aerospace Corporation",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -4715,6 +4734,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-07"
+   }
+  },
+  {
+   "company": "Rugged Robotics",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-08"
    }
   },
   {
@@ -8001,5 +8039,5 @@
    }
   }
  ],
- "count": 421
+ "count": 423
 }

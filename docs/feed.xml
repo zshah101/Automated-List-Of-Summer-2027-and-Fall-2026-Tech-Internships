@@ -5,15 +5,79 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-08T07:37:43Z</updated>
+  <updated>2026-10-08T15:14:50Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647</id>
-    <title>Axos Bank: Software Development Intern</title>
-    <link href="https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647"/>
-    <updated>2026-10-08T07:37:43Z</updated>
+    <id>urn:intern-engine:workable:raveaerospace:739753C003</id>
+    <title>RAVE Aerospace: Intern - Software Engineering (Summer 2027)</title>
+    <link href="https://apply.workable.com/raveaerospace/j/739753C003/"/>
+    <updated>2026-10-08T15:14:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Laramie, Wyoming, United States · Python, Java, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1008210</id>
+    <title>Stantec: Civil/Transportation Engineering Intern - Infrastructure (Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008210"/>
+    <updated>2026-10-08T15:14:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Charleston, SC, United States; Columbia, SC, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aep:/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R19884</id>
+    <title>American Electric Power: Data Scientist Intern - Columbus, OH</title>
+    <link href="https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R19884"/>
+    <updated>2026-10-08T15:14:49Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · HQ - San Diego, CA · SQL</summary>
+    <summary>Not stated · Data &amp; ML/AI · Columbus, OH · Python, SQL, TensorFlow, scikit-learn, Pandas · H-1B track record: ~34 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645</id>
+    <title>Badger Meter: Software Engineering Intern</title>
+    <link href="https://badgermeter.wd5.myworkdayjobs.com/US_CareerSite/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645"/>
+    <updated>2026-10-08T15:14:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US  - CA - Escondido Facility</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Atlanta-GA/Data-Scientist-Co-op_R202683033</id>
+    <title>Cox: Data Scientist Co-op</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Data-Scientist-Co-op_R202683033"/>
+    <updated>2026-10-08T15:14:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Atlanta GA · $22.02–$33.08/hr · Python, SQL, scikit-learn, Pandas, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Transportation-Routing--_R-58374</id>
+    <title>Gordon Food Service: Software Engineer Intern (Transportation Routing )</title>
+    <link href="https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Transportation-Routing--_R-58374"/>
+    <updated>2026-10-08T15:14:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Wyoming, Michigan · LLMs · H-1B track record: ~21 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152</id>
+    <title>Leidos: Systems, Integration and Software Engineer Intern 🇺🇸</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152"/>
+    <updated>2026-10-08T15:14:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Atlantic City, NJ · Python, Java, C++, JavaScript · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:ruggedrobotics:4730908005</id>
+    <title>Rugged Robotics: Robotic Software Intern/Co-op (Spring or Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005"/>
+    <updated>2026-10-08T15:14:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Houston, TX · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:doordashusa:8263774</id>
+    <title>DoorDash: Software Engineer, Intern - Labs (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/doordashusa/jobs/8263774"/>
+    <updated>2026-10-08T07:37:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CA; Sunnyvale, CA · Python, Java, SQL, Kotlin, Computer Vision · H-1B track record: ~685 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658</id>
@@ -24,12 +88,12 @@
     <summary>Not stated · Data &amp; ML/AI · HQ - San Diego, CA · SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:doordashusa:8263774</id>
-    <title>DoorDash: Software Engineer, Intern - Labs (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/doordashusa/jobs/8263774"/>
+    <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647</id>
+    <title>Axos Bank: Software Development Intern</title>
+    <link href="https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647"/>
     <updated>2026-10-08T07:37:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA; Sunnyvale, CA · Python, Java, SQL, Kotlin, Computer Vision · H-1B track record: ~685 approvals (FY2022–2023)</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · HQ - San Diego, CA · SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997</id>
@@ -83,9 +147,9 @@
     <id>urn:intern-engine:greenhouse:pdtpartners:8263031</id>
     <title>PDT Partners: Summer 2027 Quantitative Research Intern</title>
     <link href="https://job-boards.greenhouse.io/pdtpartners/jobs/8263031"/>
-    <updated>2026-10-07T21:04:20Z</updated>
+    <updated>2026-10-08T15:14:49Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, NY · Python, C++, MATLAB</summary>
+    <summary>Summer 2027 · Quant · New York, NY · Python, C++, MATLAB · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:stateaffairs:4437430009</id>
@@ -742,69 +806,5 @@
     <updated>2026-10-03T17:52:27Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Quant · US DC Main Office · $25/hr · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cadence:/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657</id>
-    <title>Cadence Design Systems: AI / Agentic AI / GenAI Intern – IT (Fall 2026)</title>
-    <link href="https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657"/>
-    <updated>2026-10-04T09:58:11Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · HOME CA · LLMs, Python, Pandas, Git · status: closed · H-1B track record: ~331 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hntb:/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1</id>
-    <title>HNTB: Intern - AI Business Process Developer (Summer 2027) 🛂</title>
-    <link href="https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1"/>
-    <updated>2026-10-03T02:06:54Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Austin, TX · Python, C#, SQL · sponsorship: no-sponsorship · H-1B track record: ~30 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:affirm:8008645003</id>
-    <title>Affirm: Software Engineer (Machine Learning) Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/affirm/jobs/8008645003"/>
-    <updated>2026-10-02T23:16:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, California, United States · Python, Java, C++, JavaScript, React · H-1B track record: ~158 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:affirm:8011590003</id>
-    <title>Affirm: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/affirm/jobs/8011590003"/>
-    <updated>2026-10-02T23:16:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, California, United States · Python, Java, C++, JavaScript, React · H-1B track record: ~158 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:arcboatcompany:5442881008</id>
-    <title>Arc: Software Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008"/>
-    <updated>2026-10-02T23:16:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Torrance, CA · $42/hr · Python, TypeScript, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:natera:6188497004</id>
-    <title>Natera: Software Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/natera/jobs/6188497004"/>
-    <updated>2026-10-06T11:05:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · US Remote · Python, Java, JavaScript, SQL · status: closed · H-1B track record: ~81 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:xai:5255111007</id>
-    <title>xAI: Summer 2027 Software Engineering Internship/Co-op</title>
-    <link href="https://job-boards.greenhouse.io/xai/jobs/5255111007"/>
-    <updated>2026-10-02T23:16:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Palo Alto, CA · Python, Java, C++, C#, JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037</id>
-    <title>CACI: Software Engineer Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037"/>
-    <updated>2026-10-02T23:16:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin, TX, US · Java, C++, JavaScript, Linux</summary>
   </entry>
 </feed>

@@ -3764,6 +3764,18 @@
     }
    }
   },
+  "rave aerospace": {
+   "name": "RAVE Aerospace",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workable:raveaerospace:739753C003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "red bull": {
    "name": "Red Bull",
    "cycles": {
@@ -4023,6 +4035,18 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
      ],
      "count": 44
+    }
+   }
+  },
+  "rugged robotics": {
+   "name": "Rugged Robotics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-08",
+     "role_ids": [
+      "greenhouse:ruggedrobotics:4730908005"
+     ],
+     "count": 1
     }
    }
   },
@@ -4434,9 +4458,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008089",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008180"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008180",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008210"
      ],
-     "count": 16
+     "count": 17
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -5229,5 +5254,5 @@
    }
   }
  },
- "updated_at": "2026-10-08T07:37:43Z"
+ "updated_at": "2026-10-08T15:14:50Z"
 }
