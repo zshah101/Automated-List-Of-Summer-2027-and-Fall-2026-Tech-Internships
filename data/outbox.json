@@ -1,24 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workable:raveaerospace:739753C003",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008210",
-      "workday:aep:/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R19884",
-      "workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645",
-      "workday:cox:/job/Atlanta-GA/Data-Scientist-Co-op_R202683033",
-      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Transportation-Routing--_R-58374",
-      "workday:leidos:/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152",
-      "greenhouse:ruggedrobotics:4730908005"
-    ],
-    "telegram": [
-      "workable:raveaerospace:739753C003",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008210",
-      "workday:aep:/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R19884",
-      "workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645",
-      "workday:cox:/job/Atlanta-GA/Data-Scientist-Co-op_R202683033",
-      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Transportation-Routing--_R-58374",
-      "workday:leidos:/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152",
-      "greenhouse:ruggedrobotics:4730908005"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
