@@ -1,6 +1,18 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:edbz.fa.us2.oraclecloud.com:25012948",
+      "greenhouse:arcesiumllc:5257199007",
+      "greenhouse:gcmgrosvenor:8015792003",
+      "greenhouse:schonfeld:8267092",
+      "greenhouse:schonfeld:8267120"
+    ],
+    "telegram": [
+      "oracle:edbz.fa.us2.oraclecloud.com:25012948",
+      "greenhouse:arcesiumllc:5257199007",
+      "greenhouse:gcmgrosvenor:8015792003",
+      "greenhouse:schonfeld:8267092",
+      "greenhouse:schonfeld:8267120"
+    ]
   }
 }

@@ -1953,6 +1953,18 @@
     }
    }
   },
+  "gcm grosvenor": {
+   "name": "GCM Grosvenor",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-09",
+     "role_ids": [
+      "greenhouse:gcmgrosvenor:8015792003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "gecko robotics": {
    "name": "Gecko Robotics",
    "cycles": {
@@ -4205,9 +4217,11 @@
       "greenhouse:schonfeld:8171692",
       "greenhouse:schonfeld:8171696",
       "greenhouse:schonfeld:8171699",
-      "greenhouse:schonfeld:8180089"
+      "greenhouse:schonfeld:8180089",
+      "greenhouse:schonfeld:8267092",
+      "greenhouse:schonfeld:8267120"
      ],
-     "count": 4
+     "count": 6
     }
    }
   },
@@ -5308,5 +5322,5 @@
    }
   }
  },
- "updated_at": "2026-10-09T08:16:51Z"
+ "updated_at": "2026-10-09T15:34:39Z"
 }
