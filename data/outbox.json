@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386",
-      "workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385",
-      "workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398",
-      "workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704399"
-    ],
-    "telegram": [
-      "workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386",
-      "workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385",
-      "workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398",
-      "workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704399"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
