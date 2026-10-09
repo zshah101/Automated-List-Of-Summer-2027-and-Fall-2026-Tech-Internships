@@ -131,6 +131,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "66 Degrees",
+    "slug": "66degrees",
+    "ats": "greenhouse"
+  },
+  {
     "name": "7-Eleven",
     "slug": "my7elevenhr",
     "ats": "workday",
@@ -3667,6 +3672,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "BIP Ventures",
+    "slug": "bipventures",
+    "ats": "workable"
+  },
+  {
     "name": "Bird Construction",
     "slug": "bird",
     "ats": "workday",
@@ -6040,6 +6050,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "Clarivate_Careers"
+  },
+  {
+    "name": "Clark",
+    "slug": "clark",
+    "ats": "ashby"
   },
   {
     "name": "Clasp",
@@ -10469,6 +10484,11 @@
     "site": "ForestersFinancialCareers"
   },
   {
+    "name": "Forge Nano",
+    "slug": "forge-nano",
+    "ats": "breezy"
+  },
+  {
     "name": "FormFactor",
     "slug": "formfactor",
     "ats": "workday",
@@ -12258,6 +12278,11 @@
     "ats": "oracle",
     "host": "encd.fa.em3.oraclecloud.com",
     "site": "CX_6005"
+  },
+  {
+    "name": "Hedra",
+    "slug": "hedra",
+    "ats": "ashby"
   },
   {
     "name": "Heidelberg Materials",
@@ -17586,6 +17611,13 @@
     "ats": "oracle",
     "host": "hcmn.fa.ap1.oraclecloud.com",
     "site": "CX_1001"
+  },
+  {
+    "name": "MUFG",
+    "slug": "mufgub",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "mufg-earlycareers"
   },
   {
     "name": "Mulligan Funding",
@@ -26605,6 +26637,13 @@
     "name": "UBDS Group",
     "slug": "ubds",
     "ats": "workable"
+  },
+  {
+    "name": "Uber",
+    "slug": "iaziqy.fa.ocs.oraclecloud.com",
+    "ats": "oracle",
+    "host": "iaziqy.fa.ocs.oraclecloud.com",
+    "site": "CX_1"
   },
   {
     "name": "Uber Freight",
