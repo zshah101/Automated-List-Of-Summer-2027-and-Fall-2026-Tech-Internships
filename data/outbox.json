@@ -1,6 +1,36 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:alcon:/job/Fort-Worth-Texas/Clinical-Data-Science-Intern_R-2026-50204",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
+      "greenhouse:arcesiumllc:5257176007",
+      "smartrecruiters:BoschGroup:744000154759734",
+      "smartrecruiters:BoschGroup:744000154757409",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "workday:dtna:/job/Portland-OR-US/Data-Science-Intern_DT-20166-1",
+      "greenhouse:doordashusa:8263774",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
+      "smartrecruiters:Loram1:3743990016031492",
+      "workday:micron:/job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542"
+    ],
+    "telegram": [
+      "workday:alcon:/job/Fort-Worth-Texas/Clinical-Data-Science-Intern_R-2026-50204",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
+      "greenhouse:arcesiumllc:5257176007",
+      "smartrecruiters:BoschGroup:744000154759734",
+      "smartrecruiters:BoschGroup:744000154757409",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "workday:dtna:/job/Portland-OR-US/Data-Science-Intern_DT-20166-1",
+      "greenhouse:doordashusa:8263774",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
+      "smartrecruiters:Loram1:3743990016031492",
+      "workday:micron:/job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542"
+    ]
   }
 }
