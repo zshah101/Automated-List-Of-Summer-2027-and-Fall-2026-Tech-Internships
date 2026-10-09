@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-09T01:29:53Z</updated>
+  <updated>2026-10-09T08:16:51Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386</id>
+    <title>Aptiv: Embedded Software - Engineering Intern 🇺🇸</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386"/>
+    <updated>2026-10-09T08:16:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · USA Walnut Creek, CA - WR · Linux · sponsorship: citizens-only · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385</id>
+    <title>Aptiv: Intern - Compiler Team</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385"/>
+    <updated>2026-10-09T08:16:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · USA Walnut Creek, CA - WR · Python, Bash, Linux, Git · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398</id>
+    <title>Aptiv: Linux Software Development Intern</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398"/>
+    <updated>2026-10-09T08:16:51Z</updated>
+    <category term="Not stated"/>
+    <summary>2 openings · Not stated · Software · USA Home Office - WR · Linux, Python, C++, Git · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/McLean-VA/University--Applied-AI-Software-Development-Intern_R0251314</id>
     <title>Booz Allen: University, Applied AI Software Development Intern 🇺🇸</title>
@@ -782,29 +806,5 @@
     <updated>2026-10-05T17:23:28Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Las Vegas, Nevada · Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:tensorwave:39091eeb-13fc-46a7-b7e5-0d4584ac53ab</id>
-    <title>TensorWave: Software Engineering Intern</title>
-    <link href="https://jobs.ashbyhq.com/tensorwave/39091eeb-13fc-46a7-b7e5-0d4584ac53ab"/>
-    <updated>2026-10-05T17:23:28Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Las Vegas, Nevada · Kubernetes</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:tensorwave:8ec8b715-f9ad-48a7-869e-ed9d455119a5</id>
-    <title>TensorWave: Security Engineer Intern</title>
-    <link href="https://jobs.ashbyhq.com/tensorwave/8ec8b715-f9ad-48a7-869e-ed9d455119a5"/>
-    <updated>2026-10-05T17:23:28Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Las Vegas, Nevada · Python, Bash</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085</id>
-    <title>CACI: Software Development Intern - Summer 2027 🇺🇸</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085"/>
-    <updated>2026-10-05T17:23:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Oklahoma City, OK, US · Java, C++, C#, JavaScript · sponsorship: citizens-only</summary>
   </entry>
 </feed>
