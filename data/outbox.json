@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:bah:/job/McLean-VA/University--Applied-AI-Software-Development-Intern_R0251314",
+      "workday:centific:/job/Remote-Work-USA/AI-Research-Intern----Physical-AI_JR108131-1"
+    ],
+    "telegram": [
+      "workday:bah:/job/McLean-VA/University--Applied-AI-Software-Development-Intern_R0251314",
+      "workday:centific:/job/Remote-Work-USA/AI-Research-Intern----Physical-AI_JR108131-1"
+    ]
   }
 }
