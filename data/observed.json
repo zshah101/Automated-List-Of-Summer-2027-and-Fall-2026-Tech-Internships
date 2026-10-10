@@ -5217,6 +5217,21 @@
     }
    }
   },
+  "workday": {
+   "name": "Workday",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-09",
+     "role_ids": [
+      "workday:workday:/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
+      "workday:workday:/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812",
+      "workday:workday:/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811",
+      "workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810"
+     ],
+     "count": 4
+    }
+   }
+  },
   "workiva": {
    "name": "Workiva",
    "cycles": {
@@ -5340,5 +5355,5 @@
    }
   }
  },
- "updated_at": "2026-10-10T13:17:39Z"
+ "updated_at": "2026-10-10T18:07:34Z"
 }
