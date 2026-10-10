@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-10-09T01:30:37Z",
-  "last_digest_roles": 30,
+  "last_digest_at": "2026-10-10T13:18:23Z",
+  "last_digest_roles": 25,
   "last_digest_sent": 240,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1445,13 +1445,40 @@
     "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215",
     "workday:amgen:/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Interactive-Developer---Immersive-Course-Programmer-for-Manufacturing_R-256886",
     "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Firmware-Engineering-Co-op_R004419",
-    "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929"
+    "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
+    "workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133",
+    "workday:itron:/job/United-States-of-America-Texas-Austin/Intern---HR-AI-Data-Science--Summer-2027-_JR103034",
+    "workday:itron:/job/United-States-of-America-Texas-Austin/Intern---HR-AI-Data-Science--Summer-2027-_JR103034-1",
+    "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941",
+    "greenhouse:arcesiumllc:5257176007",
+    "smartrecruiters:BoschGroup:744000154757409",
+    "smartrecruiters:BoschGroup:744000154759734",
+    "smartrecruiters:Loram1:3743990016031492",
+    "workday:alcon:/job/Fort-Worth-Texas/Clinical-Data-Science-Intern_R-2026-50204",
+    "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
+    "workday:dtna:/job/Portland-OR-US/Data-Science-Intern_DT-20166",
+    "workday:dtna:/job/Portland-OR-US/Data-Science-Intern_DT-20166-1",
+    "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
+    "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
+    "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
+    "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
+    "workday:micron:/job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542",
+    "greenhouse:arcesiumllc:5257199007",
+    "greenhouse:gcmgrosvenor:8015792003",
+    "greenhouse:schonfeld:8267092",
+    "greenhouse:schonfeld:8267120",
+    "oracle:edbz.fa.us2.oraclecloud.com:25012948",
+    "workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398",
+    "workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704399",
+    "workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386",
+    "workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385",
+    "greenhouse:doordashusa:8263774"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 240,
   "send_attempts": [
     {
-      "at": "2026-10-09T01:30:37Z",
+      "at": "2026-10-10T13:18:23Z",
       "count": 240
     }
   ]
