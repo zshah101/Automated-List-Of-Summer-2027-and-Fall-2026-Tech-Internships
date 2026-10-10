@@ -1,14 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133",
-      "workday:itron:/job/United-States-of-America-Texas-Austin/Intern---HR-AI-Data-Science--Summer-2027-_JR103034-1",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941"
-    ],
-    "telegram": [
-      "workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133",
-      "workday:itron:/job/United-States-of-America-Texas-Austin/Intern---HR-AI-Data-Science--Summer-2027-_JR103034-1",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
