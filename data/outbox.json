@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:workday:/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
-      "workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810",
-      "workday:workday:/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812",
-      "workday:workday:/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811"
-    ],
-    "telegram": [
-      "workday:workday:/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
-      "workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810",
-      "workday:workday:/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812",
-      "workday:workday:/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
