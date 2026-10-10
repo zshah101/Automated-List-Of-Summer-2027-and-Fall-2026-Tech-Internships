@@ -618,6 +618,11 @@
     "ats": "rippling"
   },
   {
+    "name": "Adyen",
+    "slug": "adyen",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Aechelon Technology",
     "slug": "aechelontechnology",
     "ats": "greenhouse"
@@ -5795,6 +5800,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "circlekstorejobs"
+  },
+  {
+    "name": "Circle Logistics",
+    "slug": "CircleLogistics1",
+    "ats": "smartrecruiters"
   },
   {
     "name": "Circleback",
@@ -15310,6 +15320,11 @@
     "site": "CX_1"
   },
   {
+    "name": "Lifted Solutions",
+    "slug": "LiftedanUpworkCompany",
+    "ats": "smartrecruiters"
+  },
+  {
     "name": "Light & Wonder",
     "slug": "lnw",
     "ats": "workday",
@@ -16863,6 +16878,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Meter",
+    "slug": "meter",
+    "ats": "ashby"
+  },
+  {
     "name": "Metergy Solutions",
     "slug": "metergysolutions",
     "ats": "lever"
@@ -17936,6 +17956,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "neighborly"
+  },
+  {
+    "name": "Neko Health",
+    "slug": "neko-health",
+    "ats": "ashby"
   },
   {
     "name": "Nelnet",
@@ -19899,6 +19924,11 @@
     "name": "Perplexity AI",
     "slug": "perplexity",
     "ats": "ashby"
+  },
+  {
+    "name": "Perr&Knight",
+    "slug": "perrknight",
+    "ats": "lever"
   },
   {
     "name": "Perry Ellis International",
@@ -25280,6 +25310,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Tenet3",
+    "slug": "tenet3",
+    "ats": "greenhouse"
+  },
+  {
     "name": "TENEX.AI",
     "slug": "tenex",
     "ats": "ashby"
@@ -28559,6 +28594,13 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "Workday_Jobs"
+  },
+  {
+    "name": "Workday",
+    "slug": "workday",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "Workday_Early_Career"
   },
   {
     "name": "Workiva",
