@@ -2614,9 +2614,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-29",
      "role_ids": [
+      "workday:itron:/job/United-States-of-America-Texas-Austin/Intern---HR-AI-Data-Science--Summer-2027-_JR103034-1",
       "workday:itron:/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5339,5 +5340,5 @@
    }
   }
  },
- "updated_at": "2026-10-09T20:40:00Z"
+ "updated_at": "2026-10-10T00:37:51Z"
 }
