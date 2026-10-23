@@ -1,6 +1,20 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "smartrecruiters:BoschGroup:744000157483412",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111861",
+      "workday:freight:/job/FXF-USUSAFXFMHQMemphis-Headquarters/Intern-Data-Scientist_RC5660",
+      "greenhouse:mongodb:8209134",
+      "greenhouse:olsson:5462183008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054"
+    ],
+    "telegram": [
+      "smartrecruiters:BoschGroup:744000157483412",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111861",
+      "workday:freight:/job/FXF-USUSAFXFMHQMemphis-Headquarters/Intern-Data-Scientist_RC5660",
+      "greenhouse:mongodb:8209134",
+      "greenhouse:olsson:5462183008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054"
+    ]
   }
 }

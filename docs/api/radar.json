@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23T10:19:09Z",
- "data_as_of": "2026-10-23T10:19:09Z",
- "rendered_at": "2026-10-23T10:19:09Z",
+ "generated_at": "2026-10-23T15:18:05Z",
+ "data_as_of": "2026-10-23T15:18:05Z",
+ "rendered_at": "2026-10-23T15:18:06Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -928,7 +928,7 @@
    "expected": "2026-08-17",
    "days_until": -67,
    "status": "open",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010970",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082",
    "note": "campus opens mid-summer",
    "provenance": {
     "type": "engine-observed",
@@ -5022,6 +5022,25 @@
    }
   },
   {
+   "company": "MongoDB",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-23",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-23",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8209134",
+   "note": "fall opening",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-23"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -6535,25 +6554,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "https://www.mitre.org/careers",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "MongoDB",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -52,
-   "status": "waiting",
-   "url": "",
-   "note": "fall opening",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://www.mongodb.com/company/careers",
     "verified_at": "2026-07-21"
    }
   },
