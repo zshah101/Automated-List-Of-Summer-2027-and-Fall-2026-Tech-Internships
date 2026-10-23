@@ -1,42 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
-      "workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Application-Software-QA-Engineer_J-00354565",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354562",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354563",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568",
-      "smartrecruiters:Bertelsmann-Jobs:744000157546634",
-      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2642189-1",
-      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1",
-      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878",
-      "workday:koppers:/job/Peachtree-City-GA/Financial-Data-Analyst-Intern_REQ03221",
-      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
-      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
-      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
-      "workday:nike:/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011"
-    ],
-    "telegram": [
-      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
-      "workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Application-Software-QA-Engineer_J-00354565",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354562",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354563",
-      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568",
-      "smartrecruiters:Bertelsmann-Jobs:744000157546634",
-      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2642189-1",
-      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1",
-      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878",
-      "workday:koppers:/job/Peachtree-City-GA/Financial-Data-Analyst-Intern_REQ03221",
-      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
-      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
-      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
-      "workday:nike:/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
