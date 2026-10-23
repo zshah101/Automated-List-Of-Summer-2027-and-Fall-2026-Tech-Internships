@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-10-22T12:43:05Z",
-  "last_digest_roles": 27,
+  "last_digest_at": "2026-10-23T15:19:31Z",
+  "last_digest_roles": 37,
   "last_digest_sent": 239,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1713,15 +1713,49 @@
     "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053",
     "workday:smithnephew:/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964",
     "workday:werner:/job/Omaha-NE/IT-Cloud-Engineering-Intern_JR23745",
-    "workday:werner:/job/Omaha-NE/Information-Security-Intern_JR23746"
+    "workday:werner:/job/Omaha-NE/Information-Security-Intern_JR23746",
+    "greenhouse:mongodb:8209134",
+    "greenhouse:olsson:5462183008",
+    "smartrecruiters:BoschGroup:744000157483412",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111861",
+    "workday:freight:/job/FXF-USUSAFXFMHQMemphis-Headquarters/Intern-Data-Scientist_RC5660",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054",
+    "lever:palantir:b3d81928-6c26-432f-8a0a-36602c2eefcb",
+    "workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038",
+    "workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067",
+    "workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Graduate_R1081128",
+    "workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114",
+    "workday:spscommerce:/job/US-MN-Minneapolis-Office/Software-Engineer-Intern_R-001398",
+    "amazon:amazon:10564599",
+    "ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd",
+    "greenhouse:databricks:6866538002",
+    "lever:pattern:48945dce-b5ef-43cd-9d85-f8b26ce5b43e",
+    "lever:pattern:5c0c1963-87c5-48d7-8da9-0c79121fe443",
+    "lever:pattern:ad978732-7171-473d-9400-0a6fc9e23cf7",
+    "oracle:emit.fa.ca3.oraclecloud.com:97952",
+    "workday:allstate:/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286",
+    "workday:allstate:/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285",
+    "workday:allstate:/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266",
+    "workday:aptiv:/job/Troy-MI---USA/Software-Development-Intern_J000704861",
+    "workday:aptiv:/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400",
+    "workday:gdit:/job/USA-VA-Falls-Church/Financial-Data-Analyst-Intern--Seasonal-_RQ230761",
+    "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103460",
+    "workday:kiongroup:/job/Grand-Rapids-MI-United-States/Software-Analytics-Co-op_JR-0096723",
+    "workday:kiongroup:/job/Grand-Rapids-MI-United-States/Software-Analytics-Co-op_JR-0096723-1",
+    "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineering-Internship--AI-Experience----Dulles-VA_R10257423",
+    "workday:snc:/job/Hagerstown-MD/Systems-Security-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0030540",
+    "ashby:openart:8dd52ba6-a5b6-40b1-95fe-50de352fa254",
+    "greenhouse:systemstechnologyresearch:4723980006",
+    "smartrecruiters:InfiniteQuant:744000157170821",
+    "workday:alliance:/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879",
+    "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00195168",
+    "workday:mii:/job/Earth-City-Missouri-USA/Data-Scientist-Intern_R06666-5",
+    "workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311",
+    "workday:trimble:/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 239,
   "send_attempts": [
-    {
-      "at": "2026-10-22T12:43:05Z",
-      "count": 239
-    },
     {
       "at": "2026-10-22T17:56:40Z",
       "count": 1
@@ -1729,6 +1763,10 @@
     {
       "at": "2026-10-23T10:19:53Z",
       "count": 1
+    },
+    {
+      "at": "2026-10-23T15:19:31Z",
+      "count": 241
     }
   ]
 }
