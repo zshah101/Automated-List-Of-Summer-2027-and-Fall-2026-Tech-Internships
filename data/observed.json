@@ -133,12 +133,13 @@
      "role_ids": [
       "workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -393,12 +394,13 @@
      "first_posted": "2026-09-25",
      "role_ids": [
       "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
+      "workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
       "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -653,12 +655,13 @@
      "first_posted": "2026-08-26",
      "role_ids": [
       "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417",
+      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
       "workday:aoins:/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
       "workday:aoins:/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477",
       "workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474",
       "workday:aoins:/job/Lansing-MI/Software-Developer-Internship_R_2121"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -2055,9 +2058,10 @@
      "first_posted": "2026-09-14",
      "role_ids": [
       "greenhouse:fspco-op012325:8796563002",
-      "greenhouse:fspco-op012325:8796996002"
+      "greenhouse:fspco-op012325:8796996002",
+      "greenhouse:fspco-op012325:8911276002"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3005,6 +3009,18 @@
     }
    }
   },
+  "kla": {
+   "name": "KLA",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-23",
+     "role_ids": [
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878"
+     ],
+     "count": 1
+    }
+   }
+  },
   "klaviyo": {
    "name": "Klaviyo",
    "cycles": {
@@ -3380,13 +3396,16 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "workday:msd:/job/USA---Massachusetts---Boston-MA-Parcel-B-Laboratory/XMLNAME-2027-Future-Talent-Program---Nonclinical-Drug-Safety-Data-Scientist---Intern_R412861",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
       "workday:msd:/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Medical-Data-Scientist---Intern_R412403",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Data-Science---Intern_R413312",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Laboratory-Operations-AI---Digital-Transformation---Intern_R413048",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939"
      ],
-     "count": 6
+     "count": 9
     }
    }
   },
@@ -4532,9 +4551,10 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027---Open-_01870974",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375"
      ],
-     "count": 52
+     "count": 53
     }
    }
   },
@@ -5939,5 +5959,5 @@
    }
   }
  },
- "updated_at": "2026-10-23T15:18:05Z"
+ "updated_at": "2026-10-23T19:27:07Z"
 }
