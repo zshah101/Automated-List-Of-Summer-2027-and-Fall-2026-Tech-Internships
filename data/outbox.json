@@ -1,6 +1,20 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "amazon:amazon:10587999",
+      "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:391876",
+      "greenhouse:amperesand:4465899009",
+      "workday:hpe:/job/Spring-Texas-United-States-of-America/Cybersecurity-Engineering-Intern_1216080",
+      "greenhouse:idmeuniversityrecruiting:8041991003",
+      "workday:sunlife:/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666-1"
+    ],
+    "telegram": [
+      "amazon:amazon:10587999",
+      "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:391876",
+      "greenhouse:amperesand:4465899009",
+      "workday:hpe:/job/Spring-Texas-United-States-of-America/Cybersecurity-Engineering-Intern_1216080",
+      "greenhouse:idmeuniversityrecruiting:8041991003",
+      "workday:sunlife:/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666-1"
+    ]
   }
 }

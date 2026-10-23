@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23T19:27:07Z",
- "data_as_of": "2026-10-23T19:27:07Z",
- "rendered_at": "2026-10-23T19:27:08Z",
+ "generated_at": "2026-10-23T22:55:25Z",
+ "data_as_of": "2026-10-23T22:55:25Z",
+ "rendered_at": "2026-10-23T22:55:25Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -624,7 +624,7 @@
    "expected": "2026-08-04",
    "days_until": -80,
    "status": "open",
-   "url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+   "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
    "note": "trading cycle opens very early",
    "provenance": {
     "type": "engine-observed",
@@ -2410,7 +2410,7 @@
    "expected": "2026-09-08",
    "days_until": -45,
    "status": "open",
-   "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
+   "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3227,7 +3227,7 @@
    "expected": "2026-09-15",
    "days_until": -38,
    "status": "open",
-   "url": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
+   "url": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5072,6 +5072,25 @@
    "status": "open",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8209134",
    "note": "fall opening",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-23"
+   }
+  },
+  {
+   "company": "Sun Life",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-23",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-23",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://sunlife.wd3.myworkdayjobs.com/Campus/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666-1",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -8743,5 +8762,5 @@
    }
   }
  ],
- "count": 460
+ "count": 461
 }

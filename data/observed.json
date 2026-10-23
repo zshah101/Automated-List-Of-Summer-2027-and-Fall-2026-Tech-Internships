@@ -295,7 +295,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 16,
+     "count": 17,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -312,7 +312,8 @@
       "amazon:amazon:10567914",
       "amazon:amazon:10571004",
       "amazon:amazon:10571374",
-      "amazon:amazon:10578583"
+      "amazon:amazon:10578583",
+      "amazon:amazon:10587999"
      ]
     }
    }
@@ -2745,9 +2746,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-03",
      "role_ids": [
-      "greenhouse:idmeuniversityrecruiting:7980429003"
+      "greenhouse:idmeuniversityrecruiting:7980429003",
+      "greenhouse:idmeuniversityrecruiting:8041991003"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5105,6 +5107,18 @@
     }
    }
   },
+  "sun life": {
+   "name": "Sun Life",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-23",
+     "role_ids": [
+      "workday:sunlife:/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666-1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "t mobile": {
    "name": "T-Mobile",
    "cycles": {
@@ -5959,5 +5973,5 @@
    }
   }
  },
- "updated_at": "2026-10-23T19:27:07Z"
+ "updated_at": "2026-10-23T22:55:25Z"
 }
