@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-24T01:23:17Z",
- "data_as_of": "2026-10-24T01:23:17Z",
- "rendered_at": "2026-10-24T01:23:18Z",
+ "generated_at": "2026-10-24T06:07:27Z",
+ "data_as_of": "2026-10-24T06:07:27Z",
+ "rendered_at": "2026-10-24T06:07:28Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -4585,25 +4585,6 @@
    }
   },
   {
-   "company": "Rhombus",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-13",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-13",
-   "days_until": -11,
-   "status": "open",
-   "url": "https://jobs.lever.co/rhombus-systems/59e7a5f3-b457-491d-af08-b629ad35e380",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-13"
-   }
-  },
-  {
    "company": "Watts Water",
    "last_cycle_posted": "",
    "posted_on": "2026-10-13",
@@ -8702,6 +8683,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-07"
+   }
+  },
+  {
+   "company": "Rhombus",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-13",
+   "days_until": -11,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-13"
    }
   },
   {
