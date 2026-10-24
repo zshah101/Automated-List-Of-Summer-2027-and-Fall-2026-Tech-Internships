@@ -4726,6 +4726,18 @@
     }
    }
   },
+  "scout ai": {
+   "name": "Scout AI",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-23",
+     "role_ids": [
+      "ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99"
+     ],
+     "count": 1
+    }
+   }
+  },
   "securian financial group": {
    "name": "Securian Financial Group",
    "cycles": {
@@ -5973,5 +5985,5 @@
    }
   }
  },
- "updated_at": "2026-10-24T11:09:28Z"
+ "updated_at": "2026-10-24T14:43:59Z"
 }

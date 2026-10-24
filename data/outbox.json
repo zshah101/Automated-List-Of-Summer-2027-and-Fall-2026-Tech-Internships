@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:aoins:/job/Bedford-NH/Software-Engineer-Intern_R_14465",
+      "ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99"
+    ],
+    "telegram": [
+      "workday:aoins:/job/Bedford-NH/Software-Engineer-Intern_R_14465",
+      "ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99"
+    ]
   }
 }
