@@ -1,6 +1,10 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workable:connectprep:1AF4F8C65F"
+    ],
+    "telegram": [
+      "workable:connectprep:1AF4F8C65F"
+    ]
   }
 }
