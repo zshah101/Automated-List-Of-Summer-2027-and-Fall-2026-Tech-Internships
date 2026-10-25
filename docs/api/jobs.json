@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-25T05:35:54Z",
- "data_as_of": "2026-10-25T05:35:54Z",
- "rendered_at": "2026-10-25T05:35:55Z",
+ "generated_at": "2026-10-25T10:24:03Z",
+ "data_as_of": "2026-10-25T10:24:03Z",
+ "rendered_at": "2026-10-25T10:24:03Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 1171,
+ "count": 1166,
  "jobs": [
   {
    "id": "ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99",
@@ -12767,29 +12767,6 @@
    "remote": false
   },
   {
-   "id": "workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493",
-   "company": "American Family Insurance Group",
-   "title": "ML Ops Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "WI Madison",
-   "url": "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/ML-Ops-Intern_R39493",
-   "posted_at": "2026-09-25T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-25T23:03:09Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "workday:elkay:/job/Milwaukee-WI/Embedded-Firmware-Intern--Summer-2027-_REQ-020150-1",
    "company": "Zurn Elkay Water Solutions",
    "title": "Embedded Firmware Intern (Summer 2027)",
@@ -13087,27 +13064,6 @@
    "remote": false
   },
   {
-   "id": "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1",
-   "company": "Allegion",
-   "title": "Summer Intern - Software Engineering",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Golden, CO",
-   "url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Engineering_JR37795-1",
-   "posted_at": "2026-09-25T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-25T19:45:35Z",
-   "sponsorship": "unknown",
-   "salary": "$25–$26/hr",
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
    "company": "American Century Investments",
    "title": "Infrastructure Automation Engineer Intern",
@@ -13158,36 +13114,6 @@
    ],
    "source": "workday",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:copart:/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596",
-   "company": "Copart",
-   "title": "Data & AI Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Dallas, TX - Headquarters",
-   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data---AI-Intern_JR111596",
-   "posted_at": "2026-09-25T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-25T19:45:35Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "JavaScript",
-    "SQL",
-    "PyTorch",
-    "TensorFlow",
-    "scikit-learn"
-   ],
-   "source": "workday",
-   "h1b_approvals": 83,
    "program": "Internship",
    "remote": false
   },
@@ -13291,32 +13217,6 @@
    "h1b_approvals": null,
    "program": "Internship",
    "remote": true
-  },
-  {
-   "id": "workday:greenheckgroup:/job/Schofield-WI/Application-Developer-Co-op_JR104721",
-   "company": "Greenheck Group",
-   "title": "Application Developer Co-op",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Schofield, WI",
-   "url": "https://greenheckgroup.wd5.myworkdayjobs.com/external/job/Schofield-WI/Application-Developer-Co-op_JR104721",
-   "posted_at": "2026-09-25T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-25T15:44:53Z",
-   "sponsorship": "unknown",
-   "salary": "$20/hr",
-   "skills": [
-    "Python",
-    "C#",
-    "SQL",
-    "Git"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Co-op",
-   "remote": false
   },
   {
    "id": "workday:leidos:/job/Gaithersburg-MD/Software-Development-Intern_R-00193103",
@@ -25000,36 +24900,6 @@
    "remote": false
   },
   {
-   "id": "workday:chemours:/job/US---Remote/AI---Data-Science-Intern_JR15013",
-   "company": "Chemours",
-   "title": "AI & Data Science Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "US - Remote",
-   "url": "https://chemours.wd103.myworkdayjobs.com/Chemours/job/US---Remote/AI---Data-Science-Intern_JR15013",
-   "posted_at": "2026-08-26T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-26T22:45:27Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "JavaScript",
-    "SQL",
-    "scikit-learn",
-    "Pandas",
-    "LLMs",
-    "React",
-    "HTML/CSS"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": true
-  },
-  {
    "id": "breezy:wavetronix:565668353504",
    "company": "Wavetronix",
    "title": "Computer Science Internship Summer 2027",
@@ -27236,33 +27106,6 @@
    "remote": false
   },
   {
-   "id": "workday:northwesternmutual:/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
-   "company": "Northwestern Mutual",
-   "title": "Public Investments Quantitative Analyst Intern, Summer 2027",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Quant",
-   "location": "Milwaukee, WI Corporate",
-   "url": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
-   "posted_at": "2026-08-12T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-12T20:42:58Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "dbt",
-    "Snowflake",
-    "Tableau"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
    "company": "RTX",
    "title": "Software Engineering Intern (Summer 2027)",
@@ -27338,6 +27181,33 @@
     "Kotlin",
     "Ruby",
     "Bash"
+   ],
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:bah:/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
+   "company": "Booz Allen",
+   "title": "AI RAN Telecommunications Engineer Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "McLean, VA",
+   "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
+   "posted_at": "2026-08-11T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-11T18:48:51Z",
+   "sponsorship": "citizens-only",
+   "salary": "$108k/yr",
+   "skills": [
+    "Python",
+    "C++",
+    "PyTorch",
+    "TensorFlow",
+    "Kubernetes"
    ],
    "source": "workday",
    "h1b_approvals": null,

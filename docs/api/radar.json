@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-25T05:35:54Z",
- "data_as_of": "2026-10-25T05:35:54Z",
- "rendered_at": "2026-10-25T05:35:55Z",
+ "generated_at": "2026-10-25T10:24:03Z",
+ "data_as_of": "2026-10-25T10:24:03Z",
+ "rendered_at": "2026-10-25T10:24:03Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -801,25 +801,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-11"
-   }
-  },
-  {
-   "company": "Northwestern Mutual",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-12",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-12",
-   "days_until": -74,
-   "status": "open",
-   "url": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-12"
    }
   },
   {
@@ -7410,6 +7391,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-06"
+   }
+  },
+  {
+   "company": "Northwestern Mutual",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-12",
+   "days_until": -74,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-12"
    }
   },
   {
