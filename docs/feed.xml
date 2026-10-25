@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-25T00:48:18Z</updated>
+  <updated>2026-10-25T05:35:54Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99</id>
@@ -472,14 +472,6 @@
     <summary>Not stated · Data &amp; ML/AI · Earth City, Missouri, USA · Python, C#, SQL, Tableau</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311</id>
-    <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - San Antonio TX 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311"/>
-    <updated>2026-10-22T17:55:54Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Texas-San Antonio · $19.5–$35.5/hr · Python, Java, C++, C#, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:trimble:/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819</id>
     <title>Trimble: People Development AI &amp; Digital Learning Intern</title>
     <link href="https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819"/>
@@ -806,5 +798,13 @@
     <updated>2026-10-21T00:07:54Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Wisconsin - Remote · C#, JavaScript, React, Angular, .NET</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34</id>
+    <title>Skydio: Embedded Software Engineer Intern - Winer 2027</title>
+    <link href="https://jobs.ashbyhq.com/skydio/370da6a5-5ae6-48fe-8e08-9b1dcc63bf34"/>
+    <updated>2026-10-22T17:36:24Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Linux · status: closed · H-1B track record: ~26 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
