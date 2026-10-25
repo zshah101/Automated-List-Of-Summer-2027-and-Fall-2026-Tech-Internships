@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-10-24T17:53:27Z",
-  "last_digest_roles": 26,
-  "last_digest_sent": 239,
+  "last_digest_at": "2026-10-25T21:03:12Z",
+  "last_digest_roles": 1,
+  "last_digest_sent": 241,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1780,10 +1780,11 @@
     "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
     "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
     "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
-    "workday:nike:/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256"
+    "workday:nike:/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256",
+    "workable:connectprep:1AF4F8C65F"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 239,
+  "subscribers_total": 241,
   "send_attempts": [
     {
       "at": "2026-10-24T22:47:23Z",
@@ -1796,6 +1797,10 @@
     {
       "at": "2026-10-25T14:38:47Z",
       "count": 1
+    },
+    {
+      "at": "2026-10-25T21:03:12Z",
+      "count": 241
     }
   ]
 }
