@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:analogdevices:/job/US-MA-Boston/Embedded-Systems-Co-Op_R267689",
-      "workday:analogdevices:/job/US-MA-Boston/DevOps-Co-Op_R267690",
-      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
-      "greenhouse:hivefinancialsystems:5274887007",
-      "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"
-    ],
-    "telegram": [
-      "workday:analogdevices:/job/US-MA-Boston/Embedded-Systems-Co-Op_R267689",
-      "workday:analogdevices:/job/US-MA-Boston/DevOps-Co-Op_R267690",
-      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
-      "greenhouse:hivefinancialsystems:5274887007",
-      "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
