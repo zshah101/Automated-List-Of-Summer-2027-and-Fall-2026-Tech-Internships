@@ -57,9 +57,10 @@
       "smartrecruiters:AbbVie:3743990015684476",
       "smartrecruiters:AbbVie:3743990015684516",
       "smartrecruiters:AbbVie:3743990015684556",
-      "smartrecruiters:AbbVie:3743990015684626"
+      "smartrecruiters:AbbVie:3743990015684626",
+      "smartrecruiters:AbbVie:3743990016414086"
      ],
-     "count": 16
+     "count": 17
     }
    }
   },
@@ -885,6 +886,7 @@
     "Summer 2027": {
      "first_posted": "2026-08-27",
      "role_ids": [
+      "workday:bah:/job/Albuquerque-NM/University---2027-Summer-Games-Software-Developer-Intern---Albuquerque--NM_R0252335",
       "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414",
       "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Data-Scientist-Intern---Annapolis-Junction--MD_R0248408",
       "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Data-Scientist-Intern---Annapolis-Junction--MD_R0249874",
@@ -899,6 +901,8 @@
       "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Cybersecurity-Intern_R0248131",
       "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132",
       "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130",
+      "workday:bah:/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345",
+      "workday:bah:/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
       "workday:bah:/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050",
@@ -913,6 +917,9 @@
       "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Data-Scientist-Intern---Huntsville--AL_R0248407",
       "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394",
       "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0249872",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Data-Scientist-Intern---Lexington--MA_R0252275",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249832",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249878",
@@ -945,7 +952,7 @@
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0249799",
       "workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043"
      ],
-     "count": 59
+     "count": 65
     }
    }
   },
@@ -1942,6 +1949,18 @@
     }
    }
   },
+  "farmersmutualhailinsurancecompany": {
+   "name": "Farmersmutualhailinsurancecompany",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "greenhouse:farmersmutualhailinsurancecompany:4403596009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "federal reserve system": {
    "name": "The Federal Reserve System",
    "cycles": {
@@ -2324,9 +2343,10 @@
     "Summer 2027": {
      "first_posted": "2025-09-03",
      "role_ids": [
-      "greenhouse:gleanwork:4595665005"
+      "greenhouse:gleanwork:4595665005",
+      "greenhouse:gleanwork:4747670005"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2528,10 +2548,15 @@
     "Summer 2027": {
      "first_posted": "2026-10-06",
      "role_ids": [
+      "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J289812",
+      "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J290027",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476",
-      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017"
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Data-Analyst-enGen-Undergraduate-Intern_J286826",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Architecture-Software-Engineer---Architect-enGen-Undergradute-Intern_J289821",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801"
      ],
-     "count": 2
+     "count": 7
     }
    }
   },
@@ -3738,7 +3763,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 41,
+     "count": 42,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -3770,6 +3795,7 @@
       "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
       "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
+      "workday:ngc:/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Software-Engineering-Intern---Beavercreek-OH_R10257656",
       "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
       "workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10256037",
       "workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311",
@@ -3892,10 +3918,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-15",
      "role_ids": [
+      "workday:nvidia:/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
       "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
       "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -4944,9 +4971,10 @@
       "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
       "ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd",
       "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52",
-      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
+      "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -6009,5 +6037,5 @@
    }
   }
  },
- "updated_at": "2026-10-26T15:25:10Z"
+ "updated_at": "2026-10-26T21:03:38Z"
 }

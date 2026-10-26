@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-26T15:25:10Z",
- "data_as_of": "2026-10-26T15:25:10Z",
- "rendered_at": "2026-10-26T15:25:11Z",
+ "generated_at": "2026-10-26T21:03:38Z",
+ "data_as_of": "2026-10-26T21:03:38Z",
+ "rendered_at": "2026-10-26T21:03:39Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1061,7 +1061,7 @@
    "expected": "2026-08-20",
    "days_until": -67,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679246",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679346",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2039,25 +2039,6 @@
    }
   },
   {
-   "company": "Neighbor",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-03",
-   "days_until": -53,
-   "status": "open",
-   "url": "https://jobs.lever.co/neighbor/7d66629f-3f4b-41ee-a324-fe0154e13c46",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-03"
-   }
-  },
-  {
    "company": "Sierra Nevada Corporation",
    "last_cycle_posted": "",
    "posted_on": "2026-09-03",
@@ -2241,6 +2222,25 @@
    "status": "open",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
    "note": "posts roles year-round",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Schonfeld",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": -52,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -2875,6 +2875,25 @@
    }
   },
   {
+   "company": "Farmersmutualhailinsurancecompany",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -45,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4403596009",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
    "company": "Klaviyo",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -3056,7 +3075,7 @@
    "expected": "2026-09-14",
    "days_until": -42,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8205514",
+   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8154399",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3341,7 +3360,7 @@
    "expected": "2026-09-16",
    "days_until": -40,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/nanopathinc/jobs/4732881005",
+   "url": "https://nanopath.com/careers?gh_jid=4732881005",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3474,7 +3493,7 @@
    "expected": "2026-09-18",
    "days_until": -38,
    "status": "open",
-   "url": "https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334",
+   "url": "https://thrivent.wd5.myworkdayjobs.com/privateexternal/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334-2",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4604,25 +4623,6 @@
    }
   },
   {
-   "company": "LSEG",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-14",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-14",
-   "days_until": -12,
-   "status": "open",
-   "url": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-14"
-   }
-  },
-  {
    "company": "Pattern",
    "last_cycle_posted": "",
    "posted_on": "2026-10-14",
@@ -4908,25 +4908,6 @@
    }
   },
   {
-   "company": "Sierra Space",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-21",
-   "days_until": -5,
-   "status": "open",
-   "url": "https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-21"
-   }
-  },
-  {
    "company": "Allstate Insurance Company",
    "last_cycle_posted": "",
    "posted_on": "2026-10-22",
@@ -4957,25 +4938,6 @@
    "days_until": -4,
    "status": "open",
    "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-22"
-   }
-  },
-  {
-   "company": "STR",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-22",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-22",
-   "days_until": -4,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4723980006",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7831,6 +7793,25 @@
    }
   },
   {
+   "company": "Neighbor",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-03",
+   "days_until": -53,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-03"
+   }
+  },
+  {
    "company": "Saab",
    "last_cycle_posted": "",
    "posted_on": "2026-09-03",
@@ -7885,25 +7866,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-03"
-   }
-  },
-  {
-   "company": "Schonfeld",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-04",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-04",
-   "days_until": -52,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-04"
    }
   },
   {
@@ -8762,6 +8724,25 @@
    }
   },
   {
+   "company": "LSEG",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-14",
+   "days_until": -12,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-14"
+   }
+  },
+  {
    "company": "Berkshire Hathaway Energy",
    "last_cycle_posted": "",
    "posted_on": "2026-10-20",
@@ -8800,7 +8781,45 @@
    }
   },
   {
+   "company": "Sierra Space",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-21",
+   "days_until": -5,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-21"
+   }
+  },
+  {
    "company": "M&T Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-22",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-22",
+   "days_until": -4,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-22"
+   }
+  },
+  {
+   "company": "STR",
    "last_cycle_posted": "",
    "posted_on": "2026-10-22",
    "precision": "day",
@@ -8819,5 +8838,5 @@
    }
   }
  ],
- "count": 464
+ "count": 465
 }

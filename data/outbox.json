@@ -1,6 +1,50 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+      "oracle:cva.fa.us1.oraclecloud.com:10369",
+      "smartrecruiters:AbbVie:3743990016414086",
+      "workday:axos:/job/Omaha-NE/Data-Intern_JR5642",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Data-Scientist-Intern---Lexington--MA_R0252275",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278",
+      "workday:bah:/job/Albuquerque-NM/University---2027-Summer-Games-Software-Developer-Intern---Albuquerque--NM_R0252335",
+      "workday:bah:/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345",
+      "workday:bah:/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340",
+      "greenhouse:farmersmutualhailinsurancecompany:4403596009",
+      "greenhouse:gleanwork:4747670005",
+      "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J289812",
+      "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J290027",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Data-Analyst-enGen-Undergraduate-Intern_J286826",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Architecture-Software-Engineer---Architect-enGen-Undergradute-Intern_J289821",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801",
+      "workday:ngc:/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Software-Engineering-Intern---Beavercreek-OH_R10257656",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
+      "workday:prologis:/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883",
+      "workday:valmont:/job/Valley-NE/Operations-Data-Analyst-Intern_R29224"
+    ],
+    "telegram": [
+      "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+      "oracle:cva.fa.us1.oraclecloud.com:10369",
+      "smartrecruiters:AbbVie:3743990016414086",
+      "workday:axos:/job/Omaha-NE/Data-Intern_JR5642",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Data-Scientist-Intern---Lexington--MA_R0252275",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278",
+      "workday:bah:/job/Albuquerque-NM/University---2027-Summer-Games-Software-Developer-Intern---Albuquerque--NM_R0252335",
+      "workday:bah:/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345",
+      "workday:bah:/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340",
+      "greenhouse:farmersmutualhailinsurancecompany:4403596009",
+      "greenhouse:gleanwork:4747670005",
+      "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J289812",
+      "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J290027",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Data-Analyst-enGen-Undergraduate-Intern_J286826",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Architecture-Software-Engineer---Architect-enGen-Undergradute-Intern_J289821",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801",
+      "workday:ngc:/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Software-Engineering-Intern---Beavercreek-OH_R10257656",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
+      "workday:prologis:/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883",
+      "workday:valmont:/job/Valley-NE/Operations-Data-Analyst-Intern_R29224"
+    ]
   }
 }
