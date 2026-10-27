@@ -1,36 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10590290",
-      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619",
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010630",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
-      "greenhouse:cssmerge:8919606002",
-      "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
-      "workday:aaaie:/job/Arizona---Home-Teleworkers/Data-Science-Intern_R8002",
-      "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800",
-      "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
-      "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903",
-      "workday:sedgwick:/job/Telecommuter-MA/Data-Analyst-Intern_R79691",
-      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
-      "workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1"
-    ],
-    "telegram": [
-      "amazon:amazon:10590290",
-      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619",
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010630",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
-      "greenhouse:cssmerge:8919606002",
-      "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
-      "workday:aaaie:/job/Arizona---Home-Teleworkers/Data-Science-Intern_R8002",
-      "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800",
-      "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
-      "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903",
-      "workday:sedgwick:/job/Telecommuter-MA/Data-Analyst-Intern_R79691",
-      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
-      "workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
