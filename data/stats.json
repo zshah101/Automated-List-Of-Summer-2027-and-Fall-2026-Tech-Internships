@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27T00:39:32Z",
-  "fetched_at": "2026-10-27T00:39:32Z",
-  "duration_seconds": 992.9,
+  "generated_at": "2026-10-27T05:52:24Z",
+  "fetched_at": "2026-10-27T05:52:24Z",
+  "duration_seconds": 1148.2,
   "companies_total": 5136,
   "companies_by_source": {
     "greenhouse": 1136,
@@ -17,26 +17,29 @@
     "breezy": 16,
     "eightfold": 1
   },
-  "quarantined": 371,
-  "fetched_ok": 4741,
-  "fetch_errors": 24,
+  "quarantined": 355,
+  "fetched_ok": 4658,
+  "fetch_errors": 123,
   "errors_by_source": {
-    "lever": 2,
-    "workday": 21,
-    "ashby": 1
+    "workday": 106,
+    "greenhouse": 4,
+    "ashby": 4,
+    "rippling": 1,
+    "workable": 7,
+    "lever": 1
   },
-  "fetch_success_rate": 0.995,
-  "fetch_success_rate_registry": 0.923,
-  "snapshots_complete": 4092,
-  "snapshots_partial": 649,
+  "fetch_success_rate": 0.974,
+  "fetch_success_rate_registry": 0.907,
+  "snapshots_complete": 4047,
+  "snapshots_partial": 611,
   "partial_by_reason": {
-    "result-cap": 614,
-    "malformed-response": 35
+    "result-cap": 600,
+    "malformed-response": 11
   },
-  "degraded_fetches": 35,
-  "roles_matched": 783,
-  "dropped_no_year_in_title": 685,
-  "dropped_offcycle_by_text": 194,
+  "degraded_fetches": 11,
+  "roles_matched": 803,
+  "dropped_no_year_in_title": 686,
+  "dropped_offcycle_by_text": 189,
   "roles_cycle_inferred": 309,
   "roles_by_source": {
     "amazon": 10,
@@ -60,16 +63,16 @@
     "US": 1175
   },
   "sponsorship_counts": {
-    "unknown": 773,
+    "unknown": 772,
     "citizens-only": 231,
-    "no-sponsorship": 163,
+    "no-sponsorship": 164,
     "offers": 8
   },
   "posted_date_coverage": 0.992,
-  "enriched_this_run": 105,
-  "enrichment_detail_fetches": 6,
+  "enriched_this_run": 100,
+  "enrichment_detail_fetches": 1,
   "purged_this_run": 0,
-  "new_this_run": 11,
+  "new_this_run": 1,
   "open_total": 1175,
   "detection_latency": {
     "median_minutes": 113.9,
@@ -79,8 +82,8 @@
     "basis": "roles published in the window with an exact source timestamp"
   },
   "posting_lifetime": {
-    "median_days": 17,
-    "sample_size": 441
+    "median_days": 17.0,
+    "sample_size": 442
   },
-  "rendered_at": "2026-10-27T00:39:32Z"
+  "rendered_at": "2026-10-27T05:52:24Z"
 }
