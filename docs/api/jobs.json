@@ -1,11 +1,60 @@
 {
- "generated_at": "2026-10-27T05:52:24Z",
- "data_as_of": "2026-10-27T05:52:24Z",
- "rendered_at": "2026-10-27T05:52:24Z",
+ "generated_at": "2026-10-27T11:16:21Z",
+ "data_as_of": "2026-10-27T11:16:21Z",
+ "rendered_at": "2026-10-27T11:16:22Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 1175,
+ "count": 1176,
  "jobs": [
+  {
+   "id": "workday:visa:/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2",
+   "company": "Visa",
+   "title": "Business Strategy Intern, Data and AI Team - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "US - Foster City, CA",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2",
+   "posted_at": "2026-10-27T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-10-27T11:16:21Z",
+   "sponsorship": "no-sponsorship",
+   "salary": null,
+   "skills": [
+    "LLMs"
+   ],
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:visa:/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-1",
+   "company": "Visa",
+   "title": "Data Science Intern, Data and AI Team – Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "US - Foster City, CA",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-1",
+   "posted_at": "2026-10-27T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-10-27T11:16:21Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "LLMs",
+    "Tableau"
+   ],
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841",
    "company": "Highmark Health",
@@ -749,7 +798,7 @@
   {
    "id": "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943",
    "company": "PTC",
-   "title": "Software Engineer Intern (Summer 2027)",
+   "title": "Onshape Software Engineer Intern (Summer 2027)",
    "season": "Summer 2027",
    "seasons": null,
    "season_inferred": false,
@@ -9563,33 +9612,6 @@
    "skills": [
     "Python",
     "PyTorch"
-   ],
-   "source": "ashby",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
-   "company": "Harvey",
-   "title": "Software Engineering Intern (Summer 2027)",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "New York",
-   "url": "https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
-   "posted_at": "2026-10-02T17:00:56.168+00:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-10-02T18:58:16Z",
-   "sponsorship": "unknown",
-   "salary": "$62 – $72 per hour",
-   "skills": [
-    "Python",
-    "Java",
-    "TypeScript",
-    "JavaScript",
-    "LLMs"
    ],
    "source": "ashby",
    "h1b_approvals": null,

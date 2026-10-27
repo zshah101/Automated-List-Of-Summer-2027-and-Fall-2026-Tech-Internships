@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-27T05:52:24Z</updated>
+  <updated>2026-10-27T11:16:21Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:visa:/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2</id>
+    <title>Visa: Business Strategy Intern, Data and AI Team - Summer 2027 🛂</title>
+    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2"/>
+    <updated>2026-10-27T11:16:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · US - Foster City, CA · LLMs · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:visa:/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-1</id>
+    <title>Visa: Data Science Intern, Data and AI Team – Summer 2027</title>
+    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-1"/>
+    <updated>2026-10-27T11:16:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · US - Foster City, CA · Python, SQL, LLMs, Tableau</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841</id>
     <title>Highmark Health: Summer 2027 Cyber Risk Management Analyst Undergraduate Intern 🛂</title>
@@ -289,7 +305,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943</id>
-    <title>PTC: Software Engineer Intern (Summer 2027)</title>
+    <title>PTC: Onshape Software Engineer Intern (Summer 2027)</title>
     <link href="https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"/>
     <updated>2026-10-26T15:25:10Z</updated>
     <category term="Summer 2027"/>
@@ -790,21 +806,5 @@
     <updated>2026-10-22T21:06:53Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Francisco, CA - US · $49/hr · Python, Java, C++, Rust, TypeScript · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalfoundries:/job/USA---California---Santa-Clara/Software-Engineering-Intern--Cloud-Platform--Summer-2027-_JR-2604034</id>
-    <title>GlobalFoundries: Software Engineering Intern, Cloud Platform (Summer 2027)</title>
-    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/Software-Engineering-Intern--Cloud-Platform--Summer-2027-_JR-2604034"/>
-    <updated>2026-10-22T01:46:35Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA - California - Santa Clara</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:walrusfi:7dd09f17-cfff-48d8-8e4e-c3e016fe8cf5</id>
-    <title>Walrus: Full Stack Developer Intern 🛂</title>
-    <link href="https://jobs.ashbyhq.com/walrusfi/7dd09f17-cfff-48d8-8e4e-c3e016fe8cf5"/>
-    <updated>2026-10-21T23:01:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York City (Hybrid) · Databricks · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
