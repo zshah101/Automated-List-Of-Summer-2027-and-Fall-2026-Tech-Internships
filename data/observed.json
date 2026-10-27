@@ -297,7 +297,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 17,
+     "count": 18,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -315,7 +315,8 @@
       "amazon:amazon:10571004",
       "amazon:amazon:10571374",
       "amazon:amazon:10578583",
-      "amazon:amazon:10587999"
+      "amazon:amazon:10587999",
+      "amazon:amazon:10590290"
      ]
     }
    }
@@ -1211,9 +1212,10 @@
      "first_posted": "2026-09-18",
      "role_ids": [
       "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
+      "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
       "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1441,6 +1443,18 @@
     }
    }
   },
+  "commonwealth fusion systems": {
+   "name": "Commonwealth Fusion Systems",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-27",
+     "role_ids": [
+      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619"
+     ],
+     "count": 1
+    }
+   }
+  },
   "commure": {
    "name": "Commure",
    "cycles": {
@@ -1584,6 +1598,18 @@
      "first_posted": "2026-10-21",
      "role_ids": [
       "ashby:crusoe:07a8a6a9-975e-471c-ac31-b5aaa97f9af5"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "csaa insurance group": {
+   "name": "CSAA Insurance Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-27",
+     "role_ids": [
+      "workday:aaaie:/job/Arizona---Home-Teleworkers/Data-Science-Intern_R8002"
      ],
      "count": 1
     }
@@ -2441,6 +2467,19 @@
       "greenhouse:gravitonresearchcapital:8899673002"
      ],
      "count": 1
+    }
+   }
+  },
+  "great american insurance": {
+   "name": "Great American Insurance Company",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-27",
+     "role_ids": [
+      "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
+      "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800"
+     ],
+     "count": 2
     }
    }
   },
@@ -3806,12 +3845,13 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 44,
+     "count": 45,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487",
+      "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903",
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
       "workday:ngc:/job/United-States-California-McClellan/XMLNAME-2027-Software-Engineer-Intern---McClellan-CA_R10255207",
       "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
@@ -5097,6 +5137,18 @@
     }
    }
   },
+  "sonos": {
+   "name": "Sonos",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-27",
+     "role_ids": [
+      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871"
+     ],
+     "count": 1
+    }
+   }
+  },
   "sony pictures entertainment": {
    "name": "Sony Pictures Entertainment",
    "cycles": {
@@ -5144,9 +5196,11 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008089",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008180",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008210",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008240"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448"
      ],
-     "count": 18
+     "count": 20
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -6099,5 +6153,5 @@
    }
   }
  },
- "updated_at": "2026-10-27T16:49:49Z"
+ "updated_at": "2026-10-27T21:14:41Z"
 }
