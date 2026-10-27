@@ -1,46 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:edxn.fa.us2.oraclecloud.com:26173",
-      "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:392190",
-      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
-      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
-      "greenhouse:lilasciences:4465061009",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934",
-      "workday:micron:/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---Product-Yield-Software-Engineer_JR115864",
-      "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
-      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10257798",
-      "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
-      "workday:visa:/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF089878W-1",
-      "workday:visa:/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1",
-      "workday:visa:/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W-1",
-      "workday:visa:/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2",
-      "workday:visa:/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1",
-      "workday:visa:/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF089879W-1",
-      "workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1",
-      "workday:visa:/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1"
-    ],
-    "telegram": [
-      "oracle:edxn.fa.us2.oraclecloud.com:26173",
-      "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:392190",
-      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
-      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
-      "greenhouse:lilasciences:4465061009",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934",
-      "workday:micron:/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---Product-Yield-Software-Engineer_JR115864",
-      "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
-      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10257798",
-      "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
-      "workday:visa:/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF089878W-1",
-      "workday:visa:/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1",
-      "workday:visa:/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin--TX---2027_REF089882W-1",
-      "workday:visa:/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2",
-      "workday:visa:/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1",
-      "workday:visa:/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF089879W-1",
-      "workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1",
-      "workday:visa:/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF089918W-1"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
