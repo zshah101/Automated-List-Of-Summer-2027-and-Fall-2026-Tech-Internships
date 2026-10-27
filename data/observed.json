@@ -94,9 +94,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-13",
      "role_ids": [
-      "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022387"
+      "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022387",
+      "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022588"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -647,6 +648,21 @@
       "greenhouse:audaxgroup:4722770005"
      ],
      "count": 1
+    }
+   }
+  },
+  "aurora innovation": {
+   "name": "Aurora Innovation",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-24",
+     "role_ids": [
+      "ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
+      "ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
+      "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
+      "ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0"
+     ],
+     "count": 4
     }
    }
   },
@@ -1380,6 +1396,18 @@
       "workday:cnoinc:/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419"
      ],
      "count": 2
+    }
+   }
+  },
+  "cohesity": {
+   "name": "Cohesity",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-26",
+     "role_ids": [
+      "workday:cohesity:/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2027-_R04791-2"
+     ],
+     "count": 1
     }
    }
   },
@@ -3732,9 +3760,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-06",
      "role_ids": [
-      "ashby:niantic-spatial:898b2da7-03cd-486e-96e3-3430a148c8fd"
+      "ashby:niantic-spatial:898b2da7-03cd-486e-96e3-3430a148c8fd",
+      "ashby:niantic-spatial:ed68b062-4dcb-4deb-9cc0-ed38030f6e43"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3973,6 +4002,13 @@
       "oracle:hctz.fa.us2.oraclecloud.com:2505878",
       "oracle:hctz.fa.us2.oraclecloud.com:2506307"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-26",
+     "role_ids": [
+      "oracle:hctz.fa.us2.oraclecloud.com:2506468"
+     ],
+     "count": 1
     }
    }
   },
@@ -6037,5 +6073,5 @@
    }
   }
  },
- "updated_at": "2026-10-26T21:03:38Z"
+ "updated_at": "2026-10-27T00:39:32Z"
 }
