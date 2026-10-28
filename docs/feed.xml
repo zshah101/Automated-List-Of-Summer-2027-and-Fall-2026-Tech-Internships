@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-28T00:46:36Z</updated>
+  <updated>2026-10-28T06:36:05Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:asml:/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852</id>
-    <title>ASML: Internship - Frontend Developer</title>
-    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852"/>
-    <updated>2026-10-28T00:46:36Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · San Jose, CA, USA · $18/hr · Python, TypeScript, JavaScript, React, Git</summary>
+    <id>urn:intern-engine:workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068</id>
+    <title>VSP Vision: Internship, Software Engineer</title>
+    <link href="https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10068"/>
+    <updated>2026-10-28T06:36:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Remote US · C#, SQL, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:samsungsemiconductor:8046795003</id>
@@ -22,6 +22,14 @@
     <updated>2026-10-28T00:46:36Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · San Jose, California, United States · Python, C++, Bash, Verilog</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:asml:/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852</id>
+    <title>ASML: Internship - Frontend Developer</title>
+    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852"/>
+    <updated>2026-10-28T00:46:36Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Jose, CA, USA · $18/hr · Python, TypeScript, JavaScript, React, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10590290</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-23T15:18:05Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Lincoln, NE</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000157483412</id>
-    <title>Bosch: Agentic AI R&amp;D Intern</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000157483412"/>
-    <updated>2026-10-23T15:18:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

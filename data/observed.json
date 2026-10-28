@@ -5879,6 +5879,18 @@
     }
    }
   },
+  "vsp vision": {
+   "name": "VSP Vision",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-28",
+     "role_ids": [
+      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068"
+     ],
+     "count": 1
+    }
+   }
+  },
   "wabtec": {
    "name": "Wabtec",
    "cycles": {
@@ -6154,5 +6166,5 @@
    }
   }
  },
- "updated_at": "2026-10-28T00:46:36Z"
+ "updated_at": "2026-10-28T06:36:05Z"
 }
