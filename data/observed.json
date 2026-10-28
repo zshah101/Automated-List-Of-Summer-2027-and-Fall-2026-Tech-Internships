@@ -3325,9 +3325,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-20",
      "role_ids": [
-      "smartrecruiters:LinkedIn3:744000156616169"
+      "smartrecruiters:LinkedIn3:744000156616169",
+      "smartrecruiters:LinkedIn3:744000158394370"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5018,6 +5019,18 @@
     }
    }
   },
+  "sherwin williams": {
+   "name": "Sherwin-Williams",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-28",
+     "role_ids": [
+      "oracle:ejhp.fa.us6.oraclecloud.com:2627789"
+     ],
+     "count": 1
+    }
+   }
+  },
   "shield ai": {
    "name": "Shield AI",
    "cycles": {
@@ -5221,9 +5234,10 @@
      "first_posted": "2026-10-27",
      "role_ids": [
       "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1",
-      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871"
+      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
+      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2885"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -6090,12 +6104,13 @@
     "Summer 2027": {
      "first_posted": "2026-10-09",
      "role_ids": [
+      "workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
       "workday:workday:/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
       "workday:workday:/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812",
       "workday:workday:/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811",
       "workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -6246,5 +6261,5 @@
    }
   }
  },
- "updated_at": "2026-10-28T19:20:00Z"
+ "updated_at": "2026-10-28T23:30:54Z"
 }
