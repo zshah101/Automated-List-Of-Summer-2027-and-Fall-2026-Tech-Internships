@@ -3225,11 +3225,12 @@
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00195168",
       "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00190663",
       "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00190665",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
       "workday:leidos:/job/Shiloh-IL/Cybersecurity-Analyst-Intern_R-00190667",
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 18
+     "count": 19
     }
    }
   },
@@ -6153,5 +6154,5 @@
    }
   }
  },
- "updated_at": "2026-10-27T21:14:41Z"
+ "updated_at": "2026-10-28T00:46:36Z"
 }

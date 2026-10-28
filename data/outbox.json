@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "greenhouse:samsungsemiconductor:8046795003"
+    ],
+    "telegram": [
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "greenhouse:samsungsemiconductor:8046795003"
+    ]
   }
 }
