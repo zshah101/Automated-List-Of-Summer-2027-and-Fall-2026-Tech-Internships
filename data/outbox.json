@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:insomniac:6226611004",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068"
-    ],
-    "telegram": [
-      "greenhouse:insomniac:6226611004",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
