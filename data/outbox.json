@@ -1,24 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workable:coldquanta:EB77DE8198",
-      "workday:acehardware:/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering---Quality-Assurance_JR37472-1",
-      "workday:assurant:/job/Georgia-Virtual/Summer-2027--AI-and-Data-Science-Internship_R-116105",
-      "workday:dtna:/job/Portland-OR-US/Software-Release-Management-Intern_DT-20432",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
-    ],
-    "telegram": [
-      "workable:coldquanta:EB77DE8198",
-      "workday:acehardware:/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering---Quality-Assurance_JR37472-1",
-      "workday:assurant:/job/Georgia-Virtual/Summer-2027--AI-and-Data-Science-Internship_R-116105",
-      "workday:dtna:/job/Portland-OR-US/Software-Release-Management-Intern_DT-20432",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
