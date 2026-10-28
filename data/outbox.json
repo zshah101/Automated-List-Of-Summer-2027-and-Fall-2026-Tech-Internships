@@ -1,56 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "breezy:benchmark-space-systems-inc:da54fac87273",
-      "oracle:epyc.fa.us2.oraclecloud.com:167672",
-      "lever:futo-org:7dd9877a-9009-408d-aa50-623cd5153f70",
-      "ashby:old-mission-capital:d003aaa4-a1e9-46b5-b271-eaccc15db9d6",
-      "ashby:quadric:cb79384e-5dd8-49a0-a075-549e7285316c",
-      "ashby:quadric:3f972411-63a7-4b94-869b-85012cc10d52",
-      "lever:rosaiclabs:8e3e00f8-5b06-450c-bb63-5cc4fc3136ab",
-      "lever:rosaiclabs:740b53d3-dd36-41fb-b49c-ab7f97505aa8",
-      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
-      "ashby:webfx:3851a96a-34d2-41df-8da2-0f12ab5c396d",
-      "ashby:zus-health:985c43c5-3c2a-4174-831d-b53ef0d6308c",
-      "ashby:zus-health:ec0f1de8-c589-4637-b3f8-4a87dd06882a",
-      "workday:abb:/job/Milpitas-California-USA/AI-Robotics-Intern--Fall-2026_JR00044846",
-      "smartrecruiters:Intuitive:744000158312151",
-      "smartrecruiters:Intuitive:744000158313919",
-      "workday:leidos:/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576",
-      "workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1",
-      "workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678",
-      "workday:marvell:/job/Boise-ID/Data-Science-Intern--BS---Summer-2027_2603782",
-      "workday:micron:/job/Boise-ID---SIG-Building/Embedded-Software-Engineering-Intern_JR115959",
-      "workday:nrel:/job/Golden-CO/Graduate-Intern----Agentic-AI-Driven-Computational-Synthesis-of-PGM-free-Fuel-Cell-Catalysts_R14571",
-      "greenhouse:schonfeld:8171694",
-      "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441"
-    ],
-    "telegram": [
-      "breezy:benchmark-space-systems-inc:da54fac87273",
-      "oracle:epyc.fa.us2.oraclecloud.com:167672",
-      "lever:futo-org:7dd9877a-9009-408d-aa50-623cd5153f70",
-      "ashby:old-mission-capital:d003aaa4-a1e9-46b5-b271-eaccc15db9d6",
-      "ashby:quadric:cb79384e-5dd8-49a0-a075-549e7285316c",
-      "ashby:quadric:3f972411-63a7-4b94-869b-85012cc10d52",
-      "lever:rosaiclabs:8e3e00f8-5b06-450c-bb63-5cc4fc3136ab",
-      "lever:rosaiclabs:740b53d3-dd36-41fb-b49c-ab7f97505aa8",
-      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
-      "ashby:webfx:3851a96a-34d2-41df-8da2-0f12ab5c396d",
-      "ashby:zus-health:985c43c5-3c2a-4174-831d-b53ef0d6308c",
-      "ashby:zus-health:ec0f1de8-c589-4637-b3f8-4a87dd06882a",
-      "workday:abb:/job/Milpitas-California-USA/AI-Robotics-Intern--Fall-2026_JR00044846",
-      "smartrecruiters:Intuitive:744000158312151",
-      "smartrecruiters:Intuitive:744000158313919",
-      "workday:leidos:/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576",
-      "workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1",
-      "workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678",
-      "workday:marvell:/job/Boise-ID/Data-Science-Intern--BS---Summer-2027_2603782",
-      "workday:micron:/job/Boise-ID---SIG-Building/Embedded-Software-Engineering-Intern_JR115959",
-      "workday:nrel:/job/Golden-CO/Graduate-Intern----Agentic-AI-Driven-Computational-Synthesis-of-PGM-free-Fuel-Cell-Catalysts_R14571",
-      "greenhouse:schonfeld:8171694",
-      "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
