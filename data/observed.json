@@ -1236,11 +1236,12 @@
     "Summer 2027": {
      "first_posted": "2026-09-18",
      "role_ids": [
+      "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
       "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
       "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
       "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -6261,5 +6262,5 @@
    }
   }
  },
- "updated_at": "2026-10-28T23:30:54Z"
+ "updated_at": "2026-10-29T03:03:03Z"
 }
