@@ -1,20 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
-      "greenhouse:usafacts:4472154009",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
-    ],
-    "telegram": [
-      "oracle:ejhp.fa.us6.oraclecloud.com:2627789",
-      "workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626",
-      "workday:asml:/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459",
-      "smartrecruiters:LinkedIn3:744000158394370",
-      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2885",
-      "workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
-      "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
-      "greenhouse:usafacts:4472154009",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
