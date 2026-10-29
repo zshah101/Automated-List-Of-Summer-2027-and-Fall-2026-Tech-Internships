@@ -313,7 +313,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 18,
+     "count": 19,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -332,7 +332,8 @@
       "amazon:amazon:10571374",
       "amazon:amazon:10578583",
       "amazon:amazon:10587999",
-      "amazon:amazon:10590290"
+      "amazon:amazon:10590290",
+      "amazon:amazon:10593054"
      ]
     }
    }
@@ -1264,11 +1265,12 @@
      "first_posted": "2026-09-18",
      "role_ids": [
       "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
+      "workday:centene:/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739",
       "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
       "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
       "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -2508,9 +2510,10 @@
       "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805",
       "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
       "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260839",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260943"
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260943",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261197"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -2554,10 +2557,12 @@
      "first_posted": "2026-10-27",
      "role_ids": [
       "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
+      "workday:gaig:/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813",
+      "workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
       "workday:gaig:/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821",
       "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -3309,6 +3314,7 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193914",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829",
       "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00193937",
       "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
@@ -3322,7 +3328,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 19
+     "count": 20
     }
    }
   },
@@ -4212,6 +4218,18 @@
      "first_posted": "2026-09-09",
      "role_ids": [
       "greenhouse:pacificfusion:4398373009"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "path robotics": {
+   "name": "Path Robotics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-29",
+     "role_ids": [
+      "greenhouse:pathrobotics:8924241002"
      ],
      "count": 1
     }
@@ -5433,9 +5451,10 @@
      "first_posted": "2026-10-15",
      "role_ids": [
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322",
+      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -6306,5 +6325,5 @@
    }
   }
  },
- "updated_at": "2026-10-29T17:11:32Z"
+ "updated_at": "2026-10-29T22:07:11Z"
 }
