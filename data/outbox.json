@@ -1,40 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10593054",
-      "lever:anavationllc:a5c70b6a-2d16-4774-9043-677456614b1b",
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010840",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261197",
-      "lever:pattern:48945dce-b5ef-43cd-9d85-f8b26ce5b43e",
-      "workday:centene:/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739",
-      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
-      "workday:gaig:/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813",
-      "workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
-      "workday:hcsc:/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508",
-      "smartrecruiters:Interco:744000158581114",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829",
-      "greenhouse:pathrobotics:8924241002",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068"
-    ],
-    "telegram": [
-      "amazon:amazon:10593054",
-      "lever:anavationllc:a5c70b6a-2d16-4774-9043-677456614b1b",
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010840",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261197",
-      "lever:pattern:48945dce-b5ef-43cd-9d85-f8b26ce5b43e",
-      "workday:centene:/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739",
-      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
-      "workday:gaig:/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813",
-      "workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
-      "workday:hcsc:/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508",
-      "smartrecruiters:Interco:744000158581114",
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829",
-      "greenhouse:pathrobotics:8924241002",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046",
-      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
