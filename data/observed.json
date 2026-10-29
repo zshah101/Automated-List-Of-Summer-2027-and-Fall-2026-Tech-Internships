@@ -200,14 +200,17 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-13",
-     "count": 6,
+     "count": 9,
      "role_ids": [
       "greenhouse:akunacapital:8018847",
       "greenhouse:akunacapital:8018853",
       "greenhouse:akunacapital:8018856",
       "greenhouse:akunacapital:8018886",
       "greenhouse:akunacapital:8018893",
-      "greenhouse:akunacapital:8036614"
+      "greenhouse:akunacapital:8036614",
+      "greenhouse:akunacapitaloci:8065656",
+      "greenhouse:akunacapitaloci:8065670",
+      "greenhouse:akunacapitaloci:8065680"
      ]
     }
    }
@@ -622,6 +625,18 @@
       "greenhouse:astranis:4705610006"
      ],
      "count": 2
+    }
+   }
+  },
+  "astronics": {
+   "name": "Astronics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-05",
+     "role_ids": [
+      "greenhouse:astronicscorporation:4431835009"
+     ],
+     "count": 1
     }
    }
   },
@@ -1198,6 +1213,18 @@
      "first_posted": "2026-09-16",
      "role_ids": [
       "greenhouse:cartesiansystems:4408204009"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "castelion": {
+   "name": "Castelion",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-07",
+     "role_ids": [
+      "greenhouse:castelioncorporation:4386047009"
      ],
      "count": 1
     }
@@ -2527,9 +2554,10 @@
      "first_posted": "2026-10-27",
      "role_ids": [
       "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
+      "workday:gaig:/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821",
       "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3083,9 +3111,11 @@
     "Summer 2027": {
      "first_posted": "2026-10-27",
      "role_ids": [
-      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120"
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -3910,7 +3940,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 45,
+     "count": 46,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -3954,6 +3984,7 @@
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern--Roy-UT_R10258276-1",
       "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
       "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731",
       "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineering-Internship--AI-Experience----Dulles-VA_R10257423"
@@ -4466,6 +4497,18 @@
      "first_posted": "2026-06-17",
      "role_ids": [
       "greenhouse:quantiq:4287936009"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "qube research technologies": {
+   "name": "Qube Research & Technologies",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-08",
+     "role_ids": [
+      "greenhouse:quberesearchandtechnologies:8777760002"
      ],
      "count": 1
     }
@@ -5235,10 +5278,11 @@
      "first_posted": "2026-10-27",
      "role_ids": [
       "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1",
+      "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1",
       "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
       "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2885"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -6262,5 +6306,5 @@
    }
   }
  },
- "updated_at": "2026-10-29T10:11:05Z"
+ "updated_at": "2026-10-29T17:11:32Z"
 }

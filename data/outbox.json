@@ -1,6 +1,44 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:subtotal:3891929c-0ee6-46ea-a833-4efba2862801",
+      "greenhouse:akunacapitaloci:8065680",
+      "greenhouse:akunacapitaloci:8065656",
+      "greenhouse:akunacapitaloci:8065670",
+      "greenhouse:astronicscorporation:4431835009",
+      "greenhouse:castelioncorporation:4386047009",
+      "greenhouse:gardacp:6238021004",
+      "workday:gaig:/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
+      "workday:kla:/job/Milpitas-CA/Software-Intern_2642700-1",
+      "greenhouse:nyisocoops:5236034007",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern--Roy-UT_R10258276-1",
+      "greenhouse:protagonist:6236620004",
+      "greenhouse:quberesearchandtechnologies:8777760002",
+      "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1",
+      "smartrecruiters:SyngentaGroup:744000158494415",
+      "greenhouse:twosixtechnologies:6236518004"
+    ],
+    "telegram": [
+      "ashby:subtotal:3891929c-0ee6-46ea-a833-4efba2862801",
+      "greenhouse:akunacapitaloci:8065680",
+      "greenhouse:akunacapitaloci:8065656",
+      "greenhouse:akunacapitaloci:8065670",
+      "greenhouse:astronicscorporation:4431835009",
+      "greenhouse:castelioncorporation:4386047009",
+      "greenhouse:gardacp:6238021004",
+      "workday:gaig:/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
+      "workday:kla:/job/Milpitas-CA/Software-Intern_2642700-1",
+      "greenhouse:nyisocoops:5236034007",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern--Roy-UT_R10258276-1",
+      "greenhouse:protagonist:6236620004",
+      "greenhouse:quberesearchandtechnologies:8777760002",
+      "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1",
+      "smartrecruiters:SyngentaGroup:744000158494415",
+      "greenhouse:twosixtechnologies:6236518004"
+    ]
   }
 }
