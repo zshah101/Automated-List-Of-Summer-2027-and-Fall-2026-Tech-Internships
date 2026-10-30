@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-10-29T03:03:48Z",
-  "last_digest_roles": 56,
-  "last_digest_sent": 245,
+  "last_digest_at": "2026-10-30T08:53:57Z",
+  "last_digest_roles": 37,
+  "last_digest_sent": 246,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1909,18 +1909,57 @@
     "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022588",
     "oracle:hctz.fa.us2.oraclecloud.com:2506468",
     "workday:cohesity:/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2027-_R04791-2",
-    "workday:generac:/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736"
+    "workday:generac:/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736",
+    "greenhouse:axontalentcommunity:8037922003",
+    "greenhouse:samsungsemiconductor:8046887003",
+    "workday:centene:/job/Remote-MO/Portfolio-Data-Analyst-Intern--Undergraduate---Summer-2027-_1667733-1",
+    "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439",
+    "workday:globalfoundries:/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355",
+    "amazon:amazon:10593054",
+    "greenhouse:pathrobotics:8924241002",
+    "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261197",
+    "oracle:hdjq.fa.us2.oraclecloud.com:26010840",
+    "smartrecruiters:Interco:744000158581114",
+    "workday:centene:/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739",
+    "workday:gaig:/job/Cincinnati-OH-USA/Content-Publishing-Developer-Intern---Summer-2027_R9813",
+    "workday:gaig:/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826",
+    "workday:hcsc:/job/IL---Chicago/Early-Careers---Cybersecurity-Operations-Intern_R0059508",
+    "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829",
+    "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
+    "ashby:subtotal:3891929c-0ee6-46ea-a833-4efba2862801",
+    "greenhouse:akunacapitaloci:8065656",
+    "greenhouse:akunacapitaloci:8065670",
+    "greenhouse:akunacapitaloci:8065680",
+    "greenhouse:astronicscorporation:4431835009",
+    "greenhouse:castelioncorporation:4386047009",
+    "greenhouse:gardacp:6238021004",
+    "greenhouse:nyisocoops:5236034007",
+    "greenhouse:protagonist:6236620004",
+    "greenhouse:quberesearchandtechnologies:8777760002",
+    "greenhouse:twosixtechnologies:6236518004",
+    "smartrecruiters:SyngentaGroup:744000158494415",
+    "workday:gaig:/job/Cincinnati-OH-USA/Extreme-Programming-Engineer-Intern---Summer-2027_R9821",
+    "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
+    "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158",
+    "workday:kla:/job/Milpitas-CA/Software-Intern_2642700",
+    "workday:kla:/job/Milpitas-CA/Software-Intern_2642700-1",
+    "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern--Roy-UT_R10258276-1",
+    "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1",
+    "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721",
+    "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1",
+    "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046",
+    "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 245,
+  "subscribers_total": 246,
   "send_attempts": [
-    {
-      "at": "2026-10-29T03:03:48Z",
-      "count": 245
-    },
     {
       "at": "2026-10-29T17:12:17Z",
       "count": 2
+    },
+    {
+      "at": "2026-10-30T08:53:57Z",
+      "count": 246
     }
   ]
 }
