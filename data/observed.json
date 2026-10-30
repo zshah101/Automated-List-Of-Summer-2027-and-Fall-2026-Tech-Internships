@@ -313,7 +313,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 19,
+     "count": 20,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -333,7 +333,8 @@
       "amazon:amazon:10578583",
       "amazon:amazon:10587999",
       "amazon:amazon:10590290",
-      "amazon:amazon:10593054"
+      "amazon:amazon:10593054",
+      "amazon:amazon:10593521"
      ]
     }
    }
@@ -1124,6 +1125,19 @@
     }
    }
   },
+  "c3 ai": {
+   "name": "C3.ai",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-21",
+     "role_ids": [
+      "greenhouse:c3ascend:8738917002",
+      "greenhouse:c3ascend:8739036002"
+     ],
+     "count": 2
+    }
+   }
+  },
   "caci": {
    "name": "CACI",
    "cycles": {
@@ -1452,9 +1466,11 @@
     "Fall 2026": {
      "first_posted": "2026-09-02",
      "role_ids": [
-      "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Sept-2026---May-2027-_2025068-2"
+      "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Sept-2026---May-2027-_2025068-2",
+      "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
+      "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -2303,6 +2319,18 @@
      "first_posted": "2026-09-21",
      "role_ids": [
       "ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "garda capital partners": {
+   "name": "Garda Capital Partners",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-30",
+     "role_ids": [
+      "greenhouse:gardacp:6239821004"
      ],
      "count": 1
     }
@@ -3677,6 +3705,18 @@
      "first_posted": "2026-10-08",
      "role_ids": [
       "workday:modmed:/job/Boca-Raton-FL/Software-Engineering-Intern_R5148"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "molina healthcare": {
+   "name": "Molina Healthcare",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-30",
+     "role_ids": [
+      "oracle:hckd.fa.us2.oraclecloud.com:2040172"
      ],
      "count": 1
     }
@@ -5419,6 +5459,18 @@
     }
    }
   },
+  "stripe": {
+   "name": "Stripe",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-30",
+     "role_ids": [
+      "greenhouse:stripe:8333074"
+     ],
+     "count": 1
+    }
+   }
+  },
   "stryker": {
    "name": "Stryker",
    "cycles": {
@@ -6329,5 +6381,5 @@
    }
   }
  },
- "updated_at": "2026-10-30T15:40:32Z"
+ "updated_at": "2026-10-30T20:27:21Z"
 }
