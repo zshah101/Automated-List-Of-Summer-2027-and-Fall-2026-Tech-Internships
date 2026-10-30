@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:asteraearlycareer2027:4749403005",
-      "greenhouse:ensco:5467125008",
-      "greenhouse:fccincinnati:8105405003",
-      "greenhouse:gcmgrosvenor:8035929003",
-      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585"
-    ],
-    "telegram": [
-      "greenhouse:asteraearlycareer2027:4749403005",
-      "greenhouse:ensco:5467125008",
-      "greenhouse:fccincinnati:8105405003",
-      "greenhouse:gcmgrosvenor:8035929003",
-      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
