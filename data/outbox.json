@@ -1,36 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10593521",
-      "workday:ferrovial:/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990",
-      "oracle:hckd.fa.us2.oraclecloud.com:2040172",
-      "lever:tri:f8c9ed26-4574-4ad2-954b-b7f5ec365495",
-      "greenhouse:c3ascend:8738917002",
-      "greenhouse:c3ascend:8739036002",
-      "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
-      "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2",
-      "greenhouse:gardacp:6239821004",
-      "greenhouse:lilasciences:4469152009",
-      "greenhouse:nyisointernships:5236084007",
-      "workday:snc:/job/Folsom-CA/Firmware-Engineering-Intern_R0031219",
-      "greenhouse:stripe:8333074",
-      "greenhouse:thenewyorktimes:4748483005"
-    ],
-    "telegram": [
-      "amazon:amazon:10593521",
-      "workday:ferrovial:/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990",
-      "oracle:hckd.fa.us2.oraclecloud.com:2040172",
-      "lever:tri:f8c9ed26-4574-4ad2-954b-b7f5ec365495",
-      "greenhouse:c3ascend:8738917002",
-      "greenhouse:c3ascend:8739036002",
-      "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
-      "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2",
-      "greenhouse:gardacp:6239821004",
-      "greenhouse:lilasciences:4469152009",
-      "greenhouse:nyisointernships:5236084007",
-      "workday:snc:/job/Folsom-CA/Firmware-Engineering-Intern_R0031219",
-      "greenhouse:stripe:8333074",
-      "greenhouse:thenewyorktimes:4748483005"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
