@@ -2314,9 +2314,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-09",
      "role_ids": [
-      "greenhouse:gcmgrosvenor:8015792003"
+      "greenhouse:gcmgrosvenor:8015792003",
+      "greenhouse:gcmgrosvenor:8035929003"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -6328,5 +6329,5 @@
    }
   }
  },
- "updated_at": "2026-10-30T08:53:02Z"
+ "updated_at": "2026-10-30T15:40:32Z"
 }
