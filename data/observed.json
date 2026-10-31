@@ -4480,6 +4480,18 @@
     }
    }
   },
+  "pretium": {
+   "name": "Pretium",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "greenhouse:pretiuminternships2027:8868243002"
+     ],
+     "count": 1
+    }
+   }
+  },
   "primient": {
    "name": "Primient",
    "cycles": {
@@ -6401,5 +6413,5 @@
    }
   }
  },
- "updated_at": "2026-10-31T11:29:24Z"
+ "updated_at": "2026-10-31T16:37:38Z"
 }
