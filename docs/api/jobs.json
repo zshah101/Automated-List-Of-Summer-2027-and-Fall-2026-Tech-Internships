@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-31T16:37:38Z",
- "data_as_of": "2026-10-31T16:37:38Z",
- "rendered_at": "2026-10-31T16:37:38Z",
+ "generated_at": "2026-10-31T20:36:25Z",
+ "data_as_of": "2026-10-31T20:36:25Z",
+ "rendered_at": "2026-10-31T20:36:25Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 1249,
+ "count": 1248,
  "jobs": [
   {
    "id": "lever:fireworkhq:36722fbd-2705-4beb-83aa-1884068eaa09",
@@ -22828,29 +22828,6 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265",
-   "company": "Applied Materials",
-   "title": "2027 Software Engineering Intern (Masters - Santa Clara, CA)",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Santa Clara,CA",
-   "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265",
-   "posted_at": "2026-09-08T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-11T01:21:10Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "C++"
-   ],
-   "source": "workday",
-   "h1b_approvals": 650,
    "program": "Internship",
    "remote": false
   },
