@@ -1993,10 +1993,6 @@
   "subscribers_total": 245,
   "send_attempts": [
     {
-      "at": "2026-10-30T20:28:47Z",
-      "count": 1
-    },
-    {
       "at": "2026-10-31T11:30:08Z",
       "count": 245
     }
