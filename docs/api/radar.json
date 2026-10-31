@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-31T05:44:04Z",
- "data_as_of": "2026-10-31T05:44:04Z",
- "rendered_at": "2026-10-31T05:44:04Z",
+ "generated_at": "2026-10-31T11:29:24Z",
+ "data_as_of": "2026-10-31T11:29:24Z",
+ "rendered_at": "2026-10-31T11:29:24Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -301,7 +301,7 @@
    "expected": "2026-07-08",
    "days_until": -115,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -668,25 +668,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-05"
-   }
-  },
-  {
-   "company": "Duke Energy",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-07",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-07",
-   "days_until": -85,
-   "status": "open",
-   "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-07"
    }
   },
   {
@@ -4072,25 +4053,6 @@
    }
   },
   {
-   "company": "LexisNexis Risk Solutions",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-05",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-05",
-   "days_until": -26,
-   "status": "open",
-   "url": "https://relx.wd3.myworkdayjobs.com/RiskSolutions/job/Alpharetta-GA-Alderman/Data-Science-Intern_R118955",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-05"
-   }
-  },
-  {
    "company": "Midland States Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-10-05",
@@ -5317,7 +5279,7 @@
    "expected": "2026-10-31",
    "days_until": 0,
    "status": "open",
-   "url": "https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c",
+   "url": "https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7660,6 +7622,25 @@
    }
   },
   {
+   "company": "Duke Energy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-07",
+   "days_until": -85,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-07"
+   }
+  },
+  {
    "company": "Northwestern Mutual",
    "last_cycle_posted": "",
    "posted_on": "2026-08-12",
@@ -9044,6 +9025,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-04"
+   }
+  },
+  {
+   "company": "LexisNexis Risk Solutions",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-05",
+   "days_until": -26,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-05"
    }
   },
   {

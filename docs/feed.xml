@@ -5,20 +5,28 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-10-31T05:44:04Z</updated>
+  <updated>2026-10-31T11:29:24Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Enterprise Risk Management</title>
-    <link href="https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c"/>
+    <id>urn:intern-engine:lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d</id>
+    <title>Tevora: Cybersecurity Internship Summer2027 - Federal</title>
+    <link href="https://jobs.lever.co/tevora/2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d"/>
+    <updated>2026-10-31T05:44:04Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Fairfax, VA · 27 USD/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Systems and Organizations Controls (SOC)</title>
+    <link href="https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c"/>
     <updated>2026-10-31T05:44:04Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Healthcare</title>
-    <link href="https://jobs.lever.co/tevora/a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0"/>
+    <id>urn:intern-engine:lever:tevora:5acd8859-ba7f-4996-9503-13a231376758</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Threat</title>
+    <link href="https://jobs.lever.co/tevora/5acd8859-ba7f-4996-9503-13a231376758"/>
     <updated>2026-10-31T05:44:04Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
@@ -40,6 +48,14 @@
     <summary>Summer 2027 · Security · Fairfax, VA · 27 USD/hr</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Healthcare</title>
+    <link href="https://jobs.lever.co/tevora/a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0"/>
+    <updated>2026-10-31T05:44:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:lever:tevora:facb1a9a-67b3-42ca-90f1-65d934d9b68d</id>
     <title>Tevora: Cybersecurity Internship Summer 2027 - Solutions</title>
     <link href="https://jobs.lever.co/tevora/facb1a9a-67b3-42ca-90f1-65d934d9b68d"/>
@@ -48,28 +64,12 @@
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Systems and Organizations Controls (SOC)</title>
-    <link href="https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c"/>
+    <id>urn:intern-engine:lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Enterprise Risk Management</title>
+    <link href="https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c"/>
     <updated>2026-10-31T05:44:04Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:5acd8859-ba7f-4996-9503-13a231376758</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Threat</title>
-    <link href="https://jobs.lever.co/tevora/5acd8859-ba7f-4996-9503-13a231376758"/>
-    <updated>2026-10-31T05:44:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d</id>
-    <title>Tevora: Cybersecurity Internship Summer2027 - Federal</title>
-    <link href="https://jobs.lever.co/tevora/2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d"/>
-    <updated>2026-10-31T05:44:04Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Fairfax, VA · 27 USD/hr</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146</id>
