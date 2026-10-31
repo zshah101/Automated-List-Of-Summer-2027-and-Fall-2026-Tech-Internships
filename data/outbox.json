@@ -1,28 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c",
-      "lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0",
-      "lever:tevora:648630ae-0dce-4b80-af2b-911c2c8f159c",
-      "lever:tevora:7b1010a9-9379-459a-89f8-222af2fe7721",
-      "lever:tevora:facb1a9a-67b3-42ca-90f1-65d934d9b68d",
-      "lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c",
-      "lever:tevora:5acd8859-ba7f-4996-9503-13a231376758",
-      "lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d",
-      "workday:hpe:/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146",
-      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679"
-    ],
-    "telegram": [
-      "lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c",
-      "lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0",
-      "lever:tevora:648630ae-0dce-4b80-af2b-911c2c8f159c",
-      "lever:tevora:7b1010a9-9379-459a-89f8-222af2fe7721",
-      "lever:tevora:facb1a9a-67b3-42ca-90f1-65d934d9b68d",
-      "lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c",
-      "lever:tevora:5acd8859-ba7f-4996-9503-13a231376758",
-      "lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d",
-      "workday:hpe:/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146",
-      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
