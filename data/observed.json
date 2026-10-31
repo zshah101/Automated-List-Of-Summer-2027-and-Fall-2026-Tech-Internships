@@ -3994,7 +3994,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 46,
+     "count": 47,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -4003,6 +4003,7 @@
       "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903",
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
       "workday:ngc:/job/United-States-California-McClellan/XMLNAME-2027-Software-Engineer-Intern---McClellan-CA_R10255207",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679",
       "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
       "workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359",
       "workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243",
@@ -5638,6 +5639,19 @@
       "lever:tevora:fe730e76-b19c-4026-97d6-f4b6120b299e"
      ],
      "count": 8
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-31",
+     "role_ids": [
+      "lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c",
+      "lever:tevora:5acd8859-ba7f-4996-9503-13a231376758",
+      "lever:tevora:648630ae-0dce-4b80-af2b-911c2c8f159c",
+      "lever:tevora:7b1010a9-9379-459a-89f8-222af2fe7721",
+      "lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0",
+      "lever:tevora:facb1a9a-67b3-42ca-90f1-65d934d9b68d",
+      "lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c"
+     ],
+     "count": 7
     }
    }
   },
@@ -6387,5 +6401,5 @@
    }
   }
  },
- "updated_at": "2026-10-31T00:04:36Z"
+ "updated_at": "2026-10-31T05:44:04Z"
 }

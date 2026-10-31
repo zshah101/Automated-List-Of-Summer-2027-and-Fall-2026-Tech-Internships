@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-31T00:04:36Z",
- "data_as_of": "2026-10-31T00:04:36Z",
- "rendered_at": "2026-10-31T00:04:37Z",
+ "generated_at": "2026-10-31T05:44:04Z",
+ "data_as_of": "2026-10-31T05:44:04Z",
+ "rendered_at": "2026-10-31T05:44:04Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -5079,25 +5079,6 @@
    }
   },
   {
-   "company": "Commonwealth Fusion Systems",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-27",
-   "days_until": -4,
-   "status": "open",
-   "url": "https://jobs.lever.co/cfsenergy/912d6878-25dd-4bdc-8df8-8f7002999619",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-27"
-   }
-  },
-  {
    "company": "CSAA Insurance Group",
    "last_cycle_posted": "",
    "posted_on": "2026-10-27",
@@ -5260,7 +5241,7 @@
    "expected": "2026-10-28",
    "days_until": -3,
    "status": "open",
-   "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10046",
+   "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5323,6 +5304,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-30"
+   }
+  },
+  {
+   "company": "Tevora",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-31",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-31",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-31"
    }
   },
   {
@@ -9237,6 +9237,25 @@
    }
   },
   {
+   "company": "Commonwealth Fusion Systems",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-27",
+   "days_until": -4,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-27"
+   }
+  },
+  {
    "company": "Path Robotics",
    "last_cycle_posted": "",
    "posted_on": "2026-10-29",
@@ -9256,5 +9275,5 @@
    }
   }
  ],
- "count": 487
+ "count": 488
 }
