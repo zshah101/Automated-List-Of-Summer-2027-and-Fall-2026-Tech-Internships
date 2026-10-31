@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-10-30T08:53:57Z",
-  "last_digest_roles": 37,
-  "last_digest_sent": 246,
+  "last_digest_at": "2026-10-31T11:30:08Z",
+  "last_digest_roles": 39,
+  "last_digest_sent": 245,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -1948,18 +1948,57 @@
     "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721",
     "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1",
     "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046",
-    "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068"
+    "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068",
+    "lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d",
+    "lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c",
+    "lever:tevora:5acd8859-ba7f-4996-9503-13a231376758",
+    "lever:tevora:648630ae-0dce-4b80-af2b-911c2c8f159c",
+    "lever:tevora:7b1010a9-9379-459a-89f8-222af2fe7721",
+    "lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0",
+    "lever:tevora:facb1a9a-67b3-42ca-90f1-65d934d9b68d",
+    "lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c",
+    "workday:hpe:/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146",
+    "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:41339",
+    "workday:amat:/job/AustinTX/Summer-2027-Data-Scientist-Intern--Bachelor-s--Austin--TX-_R2627409",
+    "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525",
+    "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Scientist-Intern---Master-s--Santa-Clara--CA-_R2627691",
+    "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746",
+    "workday:nvidia:/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
+    "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102144",
+    "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102542",
+    "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102549",
+    "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102550",
+    "workday:vsp:/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072",
+    "amazon:amazon:10593521",
+    "greenhouse:c3ascend:8738917002",
+    "greenhouse:c3ascend:8739036002",
+    "greenhouse:gardacp:6239821004",
+    "greenhouse:lilasciences:4469152009",
+    "greenhouse:stripe:8333074",
+    "greenhouse:thenewyorktimes:4748483005",
+    "lever:tri:f8c9ed26-4574-4ad2-954b-b7f5ec365495",
+    "oracle:hckd.fa.us2.oraclecloud.com:2040172",
+    "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
+    "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2",
+    "workday:ferrovial:/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990",
+    "workday:snc:/job/Folsom-CA/Firmware-Engineering-Intern_R0031219",
+    "greenhouse:asteraearlycareer2027:4749403005",
+    "greenhouse:ensco:5467125008",
+    "greenhouse:fccincinnati:8105405003",
+    "greenhouse:gcmgrosvenor:8035929003",
+    "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 246,
+  "subscribers_total": 245,
   "send_attempts": [
-    {
-      "at": "2026-10-30T08:53:57Z",
-      "count": 246
-    },
     {
       "at": "2026-10-30T20:28:47Z",
       "count": 1
+    },
+    {
+      "at": "2026-10-31T11:30:08Z",
+      "count": 245
     }
   ]
 }
