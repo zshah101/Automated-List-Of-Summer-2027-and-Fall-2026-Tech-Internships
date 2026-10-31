@@ -553,10 +553,13 @@
      "first_posted": "2026-09-04",
      "role_ids": [
       "workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551",
+      "workday:amat:/job/AustinTX/Summer-2027-Data-Scientist-Intern--Bachelor-s--Austin--TX-_R2627409",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Scientist-Intern---Master-s--Santa-Clara--CA-_R2627691",
       "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265",
       "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672"
      ],
-     "count": 3
+     "count": 6
     }
    }
   },
@@ -2458,11 +2461,12 @@
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778"
      ],
-     "count": 21
+     "count": 22
     }
    }
   },
@@ -4151,9 +4155,10 @@
      "role_ids": [
       "workday:nvidia:/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
       "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
-      "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530"
+      "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530",
+      "workday:nvidia:/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -6097,11 +6102,12 @@
     "Summer 2027": {
      "first_posted": "2026-10-28",
      "role_ids": [
+      "workday:vsp:/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072",
       "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046",
       "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10068",
       "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -6381,5 +6387,5 @@
    }
   }
  },
- "updated_at": "2026-10-30T20:27:21Z"
+ "updated_at": "2026-10-31T00:04:36Z"
 }

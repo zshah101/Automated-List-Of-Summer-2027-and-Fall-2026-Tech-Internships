@@ -1,6 +1,30 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:41339",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Scientist-Intern---Master-s--Santa-Clara--CA-_R2627691",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525",
+      "workday:amat:/job/AustinTX/Summer-2027-Data-Scientist-Intern--Bachelor-s--Austin--TX-_R2627409",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746",
+      "workday:nvidia:/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102549",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102144",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102542",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102550",
+      "workday:vsp:/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072"
+    ],
+    "telegram": [
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:41339",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Scientist-Intern---Master-s--Santa-Clara--CA-_R2627691",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525",
+      "workday:amat:/job/AustinTX/Summer-2027-Data-Scientist-Intern--Bachelor-s--Austin--TX-_R2627409",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746",
+      "workday:nvidia:/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102549",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102144",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102542",
+      "workday:umiami:/job/Miami-FL/Data-Science---AI-Intern_R100102550",
+      "workday:vsp:/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072"
+    ]
   }
 }
