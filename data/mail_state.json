@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-10-31T11:30:08Z",
-  "last_digest_roles": 39,
+  "last_digest_at": "2026-11-01T13:33:29Z",
+  "last_digest_roles": 2,
   "last_digest_sent": 245,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -1987,13 +1987,15 @@
     "greenhouse:ensco:5467125008",
     "greenhouse:fccincinnati:8105405003",
     "greenhouse:gcmgrosvenor:8035929003",
-    "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585"
+    "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585",
+    "greenhouse:pretiuminternships2027:8868243002",
+    "lever:fireworkhq:36722fbd-2705-4beb-83aa-1884068eaa09"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 245,
   "send_attempts": [
     {
-      "at": "2026-10-31T11:30:08Z",
+      "at": "2026-11-01T13:33:29Z",
       "count": 245
     }
   ]
