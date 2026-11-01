@@ -15047,6 +15047,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Kaluza",
+    "slug": "kaluza",
+    "ats": "ashby"
+  },
+  {
     "name": "Kanbrick",
     "slug": "kanbrick",
     "ats": "workable"
@@ -20029,6 +20034,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Open Vision Engineering",
+    "slug": "pocket",
+    "ats": "ashby"
+  },
+  {
     "name": "OpenAI",
     "slug": "openai",
     "ats": "ashby"
@@ -20330,6 +20340,11 @@
     "name": "Otto Aviation",
     "slug": "ottoaviation",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Otto Engineering Inc",
+    "slug": "otto-engineering-inc",
+    "ats": "breezy"
   },
   {
     "name": "OU Health",
