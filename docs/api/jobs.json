@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-31T20:36:25Z",
- "data_as_of": "2026-10-31T20:36:25Z",
- "rendered_at": "2026-10-31T20:36:25Z",
+ "generated_at": "2026-11-01T00:01:30Z",
+ "data_as_of": "2026-11-01T00:01:30Z",
+ "rendered_at": "2026-11-01T00:01:30Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 1248,
+ "count": 1246,
  "jobs": [
   {
    "id": "lever:fireworkhq:36722fbd-2705-4beb-83aa-1884068eaa09",
@@ -19855,33 +19855,6 @@
    "remote": false
   },
   {
-   "id": "greenhouse:clockworksystems:6174230004",
-   "company": "Clockwork Systems",
-   "title": "Software Engineer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Palo Alto, CA",
-   "url": "https://job-boards.greenhouse.io/clockworksystems/jobs/6174230004",
-   "posted_at": "2026-09-16T12:20:28-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-09-16T19:21:23Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "Go",
-    "Django"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "greenhouse:rendezvousrobotics:4408590009",
    "company": "Rendezvous Robotics",
    "title": "Software Engineering Intern (Summer 2027)",
@@ -19903,33 +19876,6 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "lever:kitware:ff25a349-a362-45d2-b1e4-2487c1df4f75",
-   "company": "Kitware",
-   "title": "AI Research Internship",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Clifton Park, New York",
-   "url": "https://jobs.lever.co/kitware/ff25a349-a362-45d2-b1e4-2487c1df4f75",
-   "posted_at": "2026-09-16T18:35:02Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-09-16T19:21:23Z",
-   "sponsorship": "citizens-only",
-   "salary": "40–60 USD/hr",
-   "skills": [
-    "Python",
-    "PyTorch",
-    "TensorFlow",
-    "LLMs",
-    "Computer Vision"
-   ],
-   "source": "lever",
-   "h1b_approvals": 6,
    "program": "Internship",
    "remote": false
   },
