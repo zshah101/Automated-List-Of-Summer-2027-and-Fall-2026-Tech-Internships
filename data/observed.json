@@ -965,6 +965,7 @@
       "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132",
       "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130",
       "workday:bah:/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345",
+      "workday:bah:/job/Detroit-MI/University---2027-Summer-Games-Data-Scientist-Intern---Royal-Oak--MI_R0252783",
       "workday:bah:/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
@@ -1015,7 +1016,7 @@
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0249799",
       "workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043"
      ],
-     "count": 65
+     "count": 66
     }
    }
   },
@@ -1601,9 +1602,10 @@
      "role_ids": [
       "workday:costar:/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950",
       "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
+      "workday:costar:/job/US-VA-Richmond/Data-Science-Intern---Richmond--VA--Summer-2027-_R40140",
       "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -2110,13 +2112,14 @@
     "Summer 2027": {
      "first_posted": "2026-10-01",
      "role_ids": [
+      "workday:rb:/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--Cybersecurity-_R-0000033866",
       "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Cloud-Engineering_R-0000033614",
       "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Computer-Science-and-Software-Engineering_R-0000033637",
       "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Cybersecurity-and-Information-Security_R-0000033612-1",
       "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Data-Science-and-Business-Analytics_R-0000033609",
       "workday:rb:/job/Cleveland-OH/TS---Application-Security-Intern---2027_R-0000033625"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -3090,6 +3093,13 @@
       "smartrecruiters:Intuitive:744000133458290",
       "smartrecruiters:Intuitive:744000145329669"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "smartrecruiters:Intuitive:744000159218439"
+     ],
+     "count": 1
     }
    }
   },
@@ -3152,11 +3162,12 @@
     "Summer 2027": {
      "first_posted": "2026-10-27",
      "role_ids": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Intern_JR105180",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -3307,10 +3318,11 @@
      "first_posted": "2026-09-10",
      "role_ids": [
       "workday:labcorp:/job/Baltimore-MD/Intern---Data-Science---Oncology_2630590",
+      "workday:labcorp:/job/Durham-NC/Co-op---Full-Stack-Life-Sciences-Engineer_2639083",
       "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
       "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -4285,6 +4297,18 @@
     }
    }
   },
+  "paretohealth": {
+   "name": "ParetoHealth",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "greenhouse:paretocaptiveservicesllc:4726117006"
+     ],
+     "count": 1
+    }
+   }
+  },
   "path robotics": {
    "name": "Path Robotics",
    "cycles": {
@@ -5205,10 +5229,14 @@
       "workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
       "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
       "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
+      "workday:snc:/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230",
       "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
+      "workday:snc:/job/Sparks-NV/Data-Science-Intern--Summer-2027-_R0031257",
       "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
      ],
-     "count": 8
+     "count": 12
     },
     "Fall 2026": {
      "first_posted": "2026-09-23",
@@ -5537,10 +5565,12 @@
      "first_posted": "2026-10-15",
      "role_ids": [
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322",
+      "workday:tmobile:/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441"
+      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441",
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -5703,6 +5733,18 @@
       "workday:thrivent:/job/Remote-Minnesota/Associate-Software-Engineer---Sophomore-Intern-Summer-2027_REQ-48457"
      ],
      "count": 2
+    }
+   }
+  },
+  "tiaa": {
+   "name": "TIAA",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "workday:tiaa:/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1"
+     ],
+     "count": 1
     }
    }
   },
@@ -6379,9 +6421,12 @@
     "Summer 2027": {
      "first_posted": "2026-10-19",
      "role_ids": [
-      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103625"
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103625",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626",
+      "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Data-Scientist_JR103610"
      ],
-     "count": 1
+     "count": 4
     }
    }
   },
@@ -6425,5 +6470,5 @@
    }
   }
  },
- "updated_at": "2026-11-02T09:44:43Z"
+ "updated_at": "2026-11-02T20:04:16Z"
 }

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-02T09:44:43Z",
- "data_as_of": "2026-11-02T09:44:43Z",
- "rendered_at": "2026-11-02T09:44:44Z",
+ "generated_at": "2026-11-02T20:04:16Z",
+ "data_as_of": "2026-11-02T20:04:16Z",
+ "rendered_at": "2026-11-02T20:04:17Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -73,7 +73,7 @@
    "expected": "2025-09-12",
    "days_until": -416,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
    "note": "trading cycle opens very early",
    "provenance": {
     "type": "engine-observed",
@@ -3160,25 +3160,6 @@
    }
   },
   {
-   "company": "Cartesian",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-16",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-16",
-   "days_until": -47,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4408204009",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-16"
-   }
-  },
-  {
    "company": "CoVar",
    "last_cycle_posted": "",
    "posted_on": "2026-09-16",
@@ -5288,6 +5269,63 @@
    }
   },
   {
+   "company": "Intuitive Surgical",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/Intuitive/744000159218439",
+   "note": "fall opening",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-02"
+   }
+  },
+  {
+   "company": "ParetoHealth",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4726117006",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-02"
+   }
+  },
+  {
+   "company": "TIAA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-02"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -6668,25 +6706,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "https://jobs.intel.com/",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Intuitive Surgical",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -62,
-   "status": "waiting",
-   "url": "",
-   "note": "fall opening",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://careers.intuitive.com/",
     "verified_at": "2026-07-21"
    }
   },
@@ -8667,6 +8686,25 @@
    }
   },
   {
+   "company": "Cartesian",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": -47,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
    "company": "Live Oak Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-09-16",
@@ -9313,5 +9351,5 @@
    }
   }
  ],
- "count": 490
+ "count": 492
 }
