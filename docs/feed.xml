@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-11-02T02:06:12Z</updated>
+  <updated>2026-11-02T09:44:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:roku:8258241</id>
+    <title>Roku: SW Engineer Intern, AI Engineering</title>
+    <link href="https://www.weareroku.com/jobs/8258241?gh_jid=8258241"/>
+    <updated>2026-11-02T09:44:43Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Data &amp; ML/AI · San Jose, California · Python, LLMs · status: closed · H-1B track record: ~283 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:knowbe4:8919280002</id>
     <title>KnowBe4: Software Engineer Summer Internship</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-28T19:20:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Santa Clara, CA · 30–55 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:rosaiclabs:8e3e00f8-5b06-450c-bb63-5cc4fc3136ab</id>
-    <title>RosaicLabs: AI Accelerator Design Verification Engineer - Intern</title>
-    <link href="https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab"/>
-    <updated>2026-10-28T19:20:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CA · 30–55 USD/hr · Python, C++, Verilog</summary>
   </entry>
 </feed>
