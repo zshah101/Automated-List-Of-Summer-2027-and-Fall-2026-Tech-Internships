@@ -1,48 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:bah:/job/Detroit-MI/University---2027-Summer-Games-Data-Scientist-Intern---Royal-Oak--MI_R0252783",
-      "workday:costar:/job/US-VA-Richmond/Data-Science-Intern---Richmond--VA--Summer-2027-_R40140",
-      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/AI-Developer-Intern_R004397",
-      "smartrecruiters:Intuitive:744000159218439",
-      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Intern_JR105180",
-      "workday:kla:/job/Totowa-NJ/Software-Engineer-Intern_2642151",
-      "workday:ngc:/job/United-States-California-Sunnyvale/Engineering-Software-and-Analysis-Intern_R10258772",
-      "greenhouse:paretocaptiveservicesllc:4726117006",
-      "workday:snc:/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1",
-      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230",
-      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229",
-      "workday:snc:/job/Sparks-NV/Data-Science-Intern--Summer-2027-_R0031257",
-      "workday:tmobile:/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
-      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882",
-      "workday:rb:/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--Cybersecurity-_R-0000033866",
-      "workday:tiaa:/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1",
-      "greenhouse:trace3:8274799",
-      "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Data-Scientist_JR103610",
-      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626",
-      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632"
-    ],
-    "telegram": [
-      "workday:bah:/job/Detroit-MI/University---2027-Summer-Games-Data-Scientist-Intern---Royal-Oak--MI_R0252783",
-      "workday:costar:/job/US-VA-Richmond/Data-Science-Intern---Richmond--VA--Summer-2027-_R40140",
-      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/AI-Developer-Intern_R004397",
-      "smartrecruiters:Intuitive:744000159218439",
-      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Intern_JR105180",
-      "workday:kla:/job/Totowa-NJ/Software-Engineer-Intern_2642151",
-      "workday:ngc:/job/United-States-California-Sunnyvale/Engineering-Software-and-Analysis-Intern_R10258772",
-      "greenhouse:paretocaptiveservicesllc:4726117006",
-      "workday:snc:/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1",
-      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230",
-      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229",
-      "workday:snc:/job/Sparks-NV/Data-Science-Intern--Summer-2027-_R0031257",
-      "workday:tmobile:/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
-      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882",
-      "workday:rb:/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--Cybersecurity-_R-0000033866",
-      "workday:tiaa:/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1",
-      "greenhouse:trace3:8274799",
-      "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Data-Scientist_JR103610",
-      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626",
-      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
