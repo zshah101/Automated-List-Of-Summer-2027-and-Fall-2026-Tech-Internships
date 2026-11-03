@@ -1,6 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "lever:cfsenergy:f71bb176-75b9-4a30-8b2a-e3078b45505d",
+      "ashby:saronic:6118e5ce-36b0-4f9a-a0c4-34dceb46b9c1",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Center-of-Excellence--COE--Delivery-Team-Intern_JR105176",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI---Decision-Science-Intern_JR105095",
+      "workday:ngc:/job/United-States-California-Redondo-Beach/XMLNAME-2027-Ground-Software-Engineer-Intern---Redondo-Beach-CA_R10259057",
+      "workday:ngc:/job/United-States-California-Manhattan-Beach/XMLNAME-2027-Flight-Software-Engineer-Intern---Redondo-Beach-CA_R10259032",
+      "greenhouse:roboforce:5470001008",
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234",
+      "workday:tmobile:/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652",
+      "workday:trustage:/job/Madison-WI/IT---Innovation---AI-Technology-Internship--Hybrid-_R-012293",
+      "greenhouse:usafacts:4478239009",
+      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046"
+    ],
+    "telegram": [
+      "lever:cfsenergy:f71bb176-75b9-4a30-8b2a-e3078b45505d",
+      "ashby:saronic:6118e5ce-36b0-4f9a-a0c4-34dceb46b9c1",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Center-of-Excellence--COE--Delivery-Team-Intern_JR105176",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI---Decision-Science-Intern_JR105095",
+      "workday:ngc:/job/United-States-California-Redondo-Beach/XMLNAME-2027-Ground-Software-Engineer-Intern---Redondo-Beach-CA_R10259057",
+      "workday:ngc:/job/United-States-California-Manhattan-Beach/XMLNAME-2027-Flight-Software-Engineer-Intern---Redondo-Beach-CA_R10259032",
+      "greenhouse:roboforce:5470001008",
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234",
+      "workday:tmobile:/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652",
+      "workday:trustage:/job/Madison-WI/IT---Innovation---AI-Technology-Internship--Hybrid-_R-012293",
+      "greenhouse:usafacts:4478239009",
+      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046"
+    ]
   }
 }

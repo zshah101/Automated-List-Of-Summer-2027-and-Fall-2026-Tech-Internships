@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T18:08:15Z",
- "data_as_of": "2026-11-03T18:08:15Z",
- "rendered_at": "2026-11-03T18:08:15Z",
+ "generated_at": "2026-11-03T23:31:17Z",
+ "data_as_of": "2026-11-03T23:31:17Z",
+ "rendered_at": "2026-11-03T23:31:18Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2847,7 +2847,7 @@
    "expected": "2026-09-11",
    "days_until": -53,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca",
+   "url": "https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4348,7 +4348,7 @@
    "expected": "2026-10-09",
    "days_until": -25,
    "status": "open",
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
    "note": "fall early-career opening",
    "provenance": {
     "type": "engine-observed",
@@ -4976,6 +4976,25 @@
    "days_until": -7,
    "status": "open",
    "url": "https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Georgia-Virtual/Summer-2027--AI-and-Data-Science-Internship_R-116105",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-27"
+   }
+  },
+  {
+   "company": "Commonwealth Fusion Systems",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-27",
+   "days_until": -7,
+   "status": "open",
+   "url": "https://jobs.lever.co/cfsenergy/f71bb176-75b9-4a30-8b2a-e3078b45505d",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -9330,25 +9349,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-22"
-   }
-  },
-  {
-   "company": "Commonwealth Fusion Systems",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-27",
-   "days_until": -7,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-27"
    }
   },
   {

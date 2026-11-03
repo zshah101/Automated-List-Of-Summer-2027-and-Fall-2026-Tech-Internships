@@ -1555,9 +1555,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-27",
      "role_ids": [
-      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619"
+      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619",
+      "lever:cfsenergy:f71bb176-75b9-4a30-8b2a-e3078b45505d"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3179,13 +3180,15 @@
     "Summer 2027": {
      "first_posted": "2026-10-27",
      "role_ids": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI---Decision-Science-Intern_JR105095",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Center-of-Excellence--COE--Delivery-Team-Intern_JR105176",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Intern_JR105180",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105182"
      ],
-     "count": 5
+     "count": 7
     }
    }
   },
@@ -4059,7 +4062,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 49,
+     "count": 51,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -4068,7 +4071,9 @@
       "workday:ngc:/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848",
       "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903",
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
+      "workday:ngc:/job/United-States-California-Manhattan-Beach/XMLNAME-2027-Flight-Software-Engineer-Intern---Redondo-Beach-CA_R10259032",
       "workday:ngc:/job/United-States-California-McClellan/XMLNAME-2027-Software-Engineer-Intern---McClellan-CA_R10255207",
+      "workday:ngc:/job/United-States-California-Redondo-Beach/XMLNAME-2027-Ground-Software-Engineer-Intern---Redondo-Beach-CA_R10259057",
       "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679",
       "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
       "workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359",
@@ -4887,6 +4892,18 @@
     }
    }
   },
+  "roboforce": {
+   "name": "RoboForce",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-11-03",
+     "role_ids": [
+      "greenhouse:roboforce:5470001008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "rocket lab": {
    "name": "Rocket Lab",
    "cycles": {
@@ -5100,9 +5117,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-09",
      "role_ids": [
-      "ashby:saronic:60afb634-5515-4347-824a-3816735541c2"
+      "ashby:saronic:60afb634-5515-4347-824a-3816735541c2",
+      "ashby:saronic:6118e5ce-36b0-4f9a-a0c4-34dceb46b9c1"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5608,13 +5626,15 @@
     "Summer 2027": {
      "first_posted": "2026-10-15",
      "role_ids": [
+      "workday:tmobile:/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652",
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322",
       "workday:tmobile:/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441",
-      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882"
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882",
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234"
      ],
-     "count": 5
+     "count": 7
     }
    }
   },
@@ -5890,9 +5910,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-20",
      "role_ids": [
+      "workday:trustage:/job/Madison-WI/IT---Innovation---AI-Technology-Internship--Hybrid-_R-012293",
       "workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -6242,9 +6263,10 @@
      "first_posted": "2026-08-17",
      "role_ids": [
       "smartrecruiters:Wabtec:3743990014629016",
-      "smartrecruiters:Wabtec:3743990014706157"
+      "smartrecruiters:Wabtec:3743990014706157",
+      "smartrecruiters:Wabtec:3743990016605126"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -6516,5 +6538,5 @@
    }
   }
  },
- "updated_at": "2026-11-03T18:08:15Z"
+ "updated_at": "2026-11-03T23:31:17Z"
 }
