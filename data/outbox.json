@@ -1,6 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:egug.fa.us2.oraclecloud.com:26016065",
+      "oracle:egug.fa.us2.oraclecloud.com:26015722",
+      "ashby:onepot:5116ee20-adfa-4177-b120-e3f48354e7e8",
+      "workday:astrazeneca:/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260",
+      "greenhouse:hearst:4473043009",
+      "workday:kla:/job/Milpitas-CA/Product-Development-Engineering-Intern_2641562-1",
+      "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Summer-2027_65420",
+      "greenhouse:nex:5421056008",
+      "smartrecruiters:Nexthink:744000159392102",
+      "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Electrical-Engineer-Intern---Field-Engineering---Baltimore-MD_R10258965",
+      "workday:rgare:/job/United-States-Chesterfield-MO-RGA-HQ/Summer-Intern---Data-Analyst_J29309",
+      "greenhouse:thenewyorktimes:4750496005",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103638"
+    ],
+    "telegram": [
+      "oracle:egug.fa.us2.oraclecloud.com:26016065",
+      "oracle:egug.fa.us2.oraclecloud.com:26015722",
+      "ashby:onepot:5116ee20-adfa-4177-b120-e3f48354e7e8",
+      "workday:astrazeneca:/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260",
+      "greenhouse:hearst:4473043009",
+      "workday:kla:/job/Milpitas-CA/Product-Development-Engineering-Intern_2641562-1",
+      "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Summer-2027_65420",
+      "greenhouse:nex:5421056008",
+      "smartrecruiters:Nexthink:744000159392102",
+      "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Electrical-Engineer-Intern---Field-Engineering---Baltimore-MD_R10258965",
+      "workday:rgare:/job/United-States-Chesterfield-MO-RGA-HQ/Summer-Intern---Data-Analyst_J29309",
+      "greenhouse:thenewyorktimes:4750496005",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103638"
+    ]
   }
 }
