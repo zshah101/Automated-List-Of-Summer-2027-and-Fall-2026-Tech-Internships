@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-11-03T02:34:04Z</updated>
+  <updated>2026-11-03T10:20:40Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:labcorp:/job/Durham-NC/Co-op---Agentic-AI-Developer_2639201-1</id>
-    <title>LabCorp: Co-op - Agentic AI Developer 🛂</title>
-    <link href="https://labcorp.wd1.myworkdayjobs.com/external/job/Durham-NC/Co-op---Agentic-AI-Developer_2639201-1"/>
+    <id>urn:intern-engine:smartrecruiters:InformaGroupPlc:744000159321820</id>
+    <title>Informa Group: Data Analyst Internship</title>
+    <link href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000159321820"/>
+    <updated>2026-11-03T10:20:40Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Data &amp; ML/AI · Amsterdam, NH, International (NL) (Hybrid) · Python, SQL, Tableau · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:flagshippioneeringinc:8782467002</id>
+    <title>Flagship Pioneering: Flagship Pioneering ML Internship</title>
+    <link href="https://boards.greenhouse.io/flagshippioneeringinc/jobs/8782467002?gh_jid=8782467002"/>
     <updated>2026-11-03T02:34:04Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Data &amp; ML/AI · Durham NC · Python, LLMs, AWS, Azure, Kubernetes · sponsorship: no-sponsorship · status: closed</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Cambridge, MA USA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8163994003</id>
+    <title>Samsung: Intern, AI Application Engineer</title>
+    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003"/>
+    <updated>2026-11-03T02:34:04Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Folsom, California, United States · Python, PyTorch, Pandas, LLMs, Kubernetes</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4</id>
@@ -22,6 +38,30 @@
     <updated>2026-11-03T02:34:04Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Hardware · Dallas, Texas · 37–97 USD/hr · C++, Git, Verilog</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000159260670</id>
+    <title>Wellmark: Software Engineer Internship – AI Platform Team</title>
+    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000159260670"/>
+    <updated>2026-11-03T02:34:04Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Des Moines, IA, United States (Hybrid) · Python, Java, C++, C#, TypeScript · H-1B track record: ~15 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101</id>
+    <title>The Aerospace Corporation: 2027 Software Engineering Grad Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101"/>
+    <updated>2026-11-03T02:34:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102</id>
+    <title>The Aerospace Corporation: 2027 Software Engineering Undergrad Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102"/>
+    <updated>2026-11-03T02:34:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/Summer-2027-Software-Engineer-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2630003</id>
@@ -40,20 +80,20 @@
     <summary>Not stated · Software · Rochester, New York · Python, Java, TypeScript, JavaScript, React</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:flagshippioneeringinc:8782467002</id>
-    <title>Flagship Pioneering: Flagship Pioneering ML Internship</title>
-    <link href="https://boards.greenhouse.io/flagshippioneeringinc/jobs/8782467002?gh_jid=8782467002"/>
-    <updated>2026-11-03T02:34:04Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Cambridge, MA USA</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1</id>
     <title>KLA: Software Engineering Intern</title>
     <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Austin-TX/Software-Engineering-Intern_2642004-1"/>
     <updated>2026-11-03T02:34:04Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Austin, TX · C# · H-1B track record: ~369 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:labcorp:/job/Durham-NC/Co-op---Agentic-AI-Developer_2639201-1</id>
+    <title>LabCorp: Co-op - Agentic AI Developer 🛂</title>
+    <link href="https://labcorp.wd1.myworkdayjobs.com/external/job/Durham-NC/Co-op---Agentic-AI-Developer_2639201-1"/>
+    <updated>2026-11-03T02:34:04Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Data &amp; ML/AI · Durham NC · Python, LLMs, AWS, Azure, Kubernetes · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:leidos:/job/Arlington-VA/Software-Engineering-Intern_R-00195980</id>
@@ -80,44 +120,12 @@
     <summary>Summer 2027 · Software · United States-Arizona-Chandler · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8163994003</id>
-    <title>Samsung: Intern, AI Application Engineer</title>
-    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003"/>
-    <updated>2026-11-03T02:34:04Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Folsom, California, United States · Python, PyTorch, Pandas, LLMs, Kubernetes</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102</id>
-    <title>The Aerospace Corporation: 2027 Software Engineering Undergrad Intern 🇺🇸</title>
-    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102"/>
-    <updated>2026-11-03T02:34:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101</id>
-    <title>The Aerospace Corporation: 2027 Software Engineering Grad Intern 🇺🇸</title>
-    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101"/>
-    <updated>2026-11-03T02:34:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:valmont:/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223</id>
     <title>Valmont: Embedded Systems Engineering Intern</title>
     <link href="https://valmont.wd1.myworkdayjobs.com/ValmontCareers/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223"/>
     <updated>2026-11-03T02:34:04Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Valley NE · C++, Linux, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000159260670</id>
-    <title>Wellmark: Software Engineer Internship – AI Platform Team</title>
-    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000159260670"/>
-    <updated>2026-11-03T02:34:04Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Des Moines, IA, United States (Hybrid) · Python, Java, C++, C#, TypeScript · H-1B track record: ~15 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639</id>
@@ -339,9 +347,9 @@
     <id>urn:intern-engine:greenhouse:knowbe4:8919280002</id>
     <title>KnowBe4: Software Engineer Summer Internship</title>
     <link href="https://job-boards.greenhouse.io/knowbe4/jobs/8919280002"/>
-    <updated>2026-11-02T02:06:12Z</updated>
+    <updated>2026-11-03T10:20:40Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Clearwater, Florida · Python, SQL</summary>
+    <summary>Summer 2027 · Software · Clearwater, Florida · Python, SQL · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:pretiuminternships2027:8868243002</id>
@@ -795,14 +803,6 @@
     <id>urn:intern-engine:greenhouse:akunacapitaloci:8065656</id>
     <title>Akuna Capital: Quantitative Research Intern, Summer 2027 | Georgia Institute of Technology</title>
     <link href="https://job-boards.greenhouse.io/akunacapitaloci/jobs/8065656"/>
-    <updated>2026-10-29T17:11:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Chicago, IL · Python · H-1B track record: ~40 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:akunacapitaloci:8065670</id>
-    <title>Akuna Capital: Quantitative Research Intern, Summer 2027 | Massachusetts Institute of Technology</title>
-    <link href="https://job-boards.greenhouse.io/akunacapitaloci/jobs/8065670"/>
     <updated>2026-10-29T17:11:32Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · Chicago, IL · Python · H-1B track record: ~40 approvals (FY2022–2023)</summary>
