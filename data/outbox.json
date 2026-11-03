@@ -1,6 +1,46 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:egug.fa.us2.oraclecloud.com:26012375",
+      "oracle:egug.fa.us2.oraclecloud.com:26012392",
+      "lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Software-Engineer-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2630003",
+      "workday:cbrands:/job/Rochester-New-York/Intern--Full-Stack-Engineer_R-41600",
+      "greenhouse:flagshippioneeringinc:8782467002",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105182",
+      "workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1",
+      "workday:leidos:/job/Arlington-VA/Software-Engineering-Intern_R-00195980",
+      "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00196049",
+      "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
+      "workday:ngc:/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848",
+      "greenhouse:samsungsemiconductor:8163994003",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101",
+      "workday:valmont:/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223",
+      "greenhouse:waymo:8198218",
+      "smartrecruiters:WellmarkInc:744000159260670",
+      "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639"
+    ],
+    "telegram": [
+      "oracle:egug.fa.us2.oraclecloud.com:26012375",
+      "oracle:egug.fa.us2.oraclecloud.com:26012392",
+      "lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Software-Engineer-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2630003",
+      "workday:cbrands:/job/Rochester-New-York/Intern--Full-Stack-Engineer_R-41600",
+      "greenhouse:flagshippioneeringinc:8782467002",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105182",
+      "workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1",
+      "workday:leidos:/job/Arlington-VA/Software-Engineering-Intern_R-00195980",
+      "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00196049",
+      "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
+      "workday:ngc:/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848",
+      "greenhouse:samsungsemiconductor:8163994003",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101",
+      "workday:valmont:/job/Valley-NE/Embedded-Systems-Engineering-Intern_R29223",
+      "greenhouse:waymo:8198218",
+      "smartrecruiters:WellmarkInc:744000159260670",
+      "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639"
+    ]
   }
 }

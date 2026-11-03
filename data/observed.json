@@ -151,10 +151,12 @@
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"
      ],
-     "count": 7
+     "count": 9
     }
    }
   },
@@ -556,10 +558,11 @@
       "workday:amat:/job/AustinTX/Summer-2027-Data-Scientist-Intern--Bachelor-s--Austin--TX-_R2627409",
       "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525",
       "workday:amat:/job/Santa-ClaraCA/Summer-2027-Data-Scientist-Intern---Master-s--Santa-Clara--CA-_R2627691",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Software-Engineer-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2630003",
       "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265",
       "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -3165,9 +3168,10 @@
       "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Intern_JR105180",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
-      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158"
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105182"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -3279,9 +3283,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-23",
      "role_ids": [
+      "workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1",
       "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3318,11 +3323,12 @@
      "first_posted": "2026-09-10",
      "role_ids": [
       "workday:labcorp:/job/Baltimore-MD/Intern---Data-Science---Oncology_2630590",
+      "workday:labcorp:/job/Durham-NC/Co-op---Agentic-AI-Developer_2639201-1",
       "workday:labcorp:/job/Durham-NC/Co-op---Full-Stack-Life-Sciences-Engineer_2639083",
       "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
       "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -3376,6 +3382,7 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193914",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829",
       "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00193937",
+      "workday:leidos:/job/Arlington-VA/Data-Science-Intern_R-00196049",
       "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
@@ -3388,7 +3395,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -3848,9 +3855,10 @@
       "workday:motorolasolutions:/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136",
       "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782",
+      "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
       "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -4018,12 +4026,13 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 47,
+     "count": 48,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487",
+      "workday:ngc:/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848",
       "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903",
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
       "workday:ngc:/job/United-States-California-McClellan/XMLNAME-2027-Software-Engineer-Intern---McClellan-CA_R10255207",
@@ -5199,9 +5208,10 @@
      "role_ids": [
       "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
       "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
-      "lever:shieldai:aa71c28a-be00-43ca-8aa7-b764b2143797"
+      "lever:shieldai:aa71c28a-be00-43ca-8aa7-b764b2143797",
+      "lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -6424,9 +6434,10 @@
       "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632",
       "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103625",
       "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626",
+      "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639",
       "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Data-Scientist_JR103610"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -6470,5 +6481,5 @@
    }
   }
  },
- "updated_at": "2026-11-02T20:04:16Z"
+ "updated_at": "2026-11-03T02:34:04Z"
 }
