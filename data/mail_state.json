@@ -2005,7 +2005,7 @@
     "greenhouse:knowbe4:8919280002"
   ],
   "last_digest_failed": 1,
-  "subscribers_total": 249,
+  "subscribers_total": 250,
   "send_attempts": [
     {
       "at": "2026-11-04T03:31:46Z",
@@ -2606,7 +2606,7 @@
     "ddb578d0b6686ff1e05f27570e20ea6a"
   ],
   "last_error": {
-    "at": "2026-11-04T11:48:01Z",
+    "at": "2026-11-04T19:10:33Z",
     "stage": "delivery",
     "detail": "1 of 249 recipients still unsent; resuming next run"
   }
