@@ -1,7 +1,7 @@
 {
   "last_digest_at": "2026-11-03T02:34:49Z",
   "last_digest_roles": 45,
-  "last_digest_sent": 247,
+  "last_digest_sent": 248,
   "sent_role_ids": [
     "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673",
     "workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
@@ -2004,16 +2004,16 @@
     "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Data-Scientist_JR103610",
     "greenhouse:knowbe4:8919280002"
   ],
-  "last_digest_failed": 2,
+  "last_digest_failed": 1,
   "subscribers_total": 249,
   "send_attempts": [
     {
-      "at": "2026-11-03T10:21:26Z",
-      "count": 1
-    },
-    {
       "at": "2026-11-04T03:31:46Z",
       "count": 249
+    },
+    {
+      "at": "2026-11-04T11:48:01Z",
+      "count": 1
     }
   ],
   "pending_digest": {
@@ -2598,16 +2598,16 @@
       "6c84b0155c43f1808eab2b40fc23d955",
       "1d15de935a6cf01c1bed151a8e990870",
       "40c373dee3074a822075d928c83eb5b3",
-      "19fcf383633ee30fd1c934e162464675"
+      "19fcf383633ee30fd1c934e162464675",
+      "aef39052417128e116a15545241ba5ff"
     ]
   },
   "retry_recipient_keys": [
-    "aef39052417128e116a15545241ba5ff",
     "ddb578d0b6686ff1e05f27570e20ea6a"
   ],
   "last_error": {
-    "at": "2026-11-04T03:31:46Z",
+    "at": "2026-11-04T11:48:01Z",
     "stage": "delivery",
-    "detail": "2 of 249 recipients still unsent; resuming next run"
+    "detail": "1 of 249 recipients still unsent; resuming next run"
   }
 }
