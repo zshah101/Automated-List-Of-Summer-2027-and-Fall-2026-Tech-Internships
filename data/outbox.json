@@ -1,6 +1,18 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "smartrecruiters:LLNL:3743990016610446",
+      "smartrecruiters:LLNL:3743990016610436",
+      "smartrecruiters:LLNL:3743990016610426",
+      "workday:ngc:/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177",
+      "workday:ngc:/job/United-States-Maryland-Sykesville/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Sykesville-MD_R10258553"
+    ],
+    "telegram": [
+      "smartrecruiters:LLNL:3743990016610446",
+      "smartrecruiters:LLNL:3743990016610436",
+      "smartrecruiters:LLNL:3743990016610426",
+      "workday:ngc:/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177",
+      "workday:ngc:/job/United-States-Maryland-Sykesville/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Sykesville-MD_R10258553"
+    ]
   }
 }
