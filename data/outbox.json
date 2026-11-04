@@ -1,6 +1,36 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "smartrecruiters:AECOM2:744000159662579",
+      "workday:borgwarner:/job/Auburn-Hills---Michigan---USA/Software-Engineering-Intern--Year-Round-_R2026-2448-1",
+      "workday:centene:/job/Remote-MO/AI-Business-Strategy-Intern--Undergraduate-Summer-2027-_1667703-1",
+      "greenhouse:ensco:5467125008",
+      "greenhouse:insomniac:6227080004",
+      "workday:microchiphr:/job/OR---Gresham/Intern--Data-Analyst-_R4441-26",
+      "smartrecruiters:Nexthink:744000159632929",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10259181",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern---Roy-UT_R10259179",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178",
+      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Co-Op--Information-Security--Spring---Summer-2027-_R-03409-1",
+      "workday:smithnephew:/job/Andover-MA/Intern-AI-Engineer-R-D_R92966",
+      "greenhouse:vaticlabs:7205954",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103645"
+    ],
+    "telegram": [
+      "smartrecruiters:AECOM2:744000159662579",
+      "workday:borgwarner:/job/Auburn-Hills---Michigan---USA/Software-Engineering-Intern--Year-Round-_R2026-2448-1",
+      "workday:centene:/job/Remote-MO/AI-Business-Strategy-Intern--Undergraduate-Summer-2027-_1667703-1",
+      "greenhouse:ensco:5467125008",
+      "greenhouse:insomniac:6227080004",
+      "workday:microchiphr:/job/OR---Gresham/Intern--Data-Analyst-_R4441-26",
+      "smartrecruiters:Nexthink:744000159632929",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10259181",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern---Roy-UT_R10259179",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178",
+      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Co-Op--Information-Security--Spring---Summer-2027-_R-03409-1",
+      "workday:smithnephew:/job/Andover-MA/Intern-AI-Engineer-R-D_R92966",
+      "greenhouse:vaticlabs:7205954",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103645"
+    ]
   }
 }
