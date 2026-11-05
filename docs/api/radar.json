@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-05T07:38:48Z",
- "data_as_of": "2026-11-05T07:38:48Z",
- "rendered_at": "2026-11-05T07:38:48Z",
+ "generated_at": "2026-11-05T22:12:40Z",
+ "data_as_of": "2026-11-05T22:12:40Z",
+ "rendered_at": "2026-11-05T22:12:41Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -4737,6 +4737,25 @@
    }
   },
   {
+   "company": "Metalenz",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-21",
+   "days_until": -15,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/metalenz/979c12dd-e71a-41b5-9c5f-a0d7204a22f6",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-21"
+   }
+  },
+  {
    "company": "Allstate Insurance Company",
    "last_cycle_posted": "",
    "posted_on": "2026-10-22",
@@ -5361,6 +5380,82 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-04"
+   }
+  },
+  {
+   "company": "J.M. Smucker",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-05",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Working-Remote-USA/Data-Science-Intern--Summer-2027_116118",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-05"
+   }
+  },
+  {
+   "company": "NBCUniversal",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-05",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000159947792",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-05"
+   }
+  },
+  {
+   "company": "PayPal",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-05",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Data-Scientist-Intern---Summer-2027_R0138582",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-05"
+   }
+  },
+  {
+   "company": "Western Alliance",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-05",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-05"
    }
   },
   {
@@ -9466,5 +9561,5 @@
    }
   }
  ],
- "count": 498
+ "count": 503
 }
