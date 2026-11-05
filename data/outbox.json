@@ -1,6 +1,32 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261245",
+      "lever:tri:e7cc38d2-2b08-4349-b322-4d56cac9fb1b",
+      "lever:tri:d4184c04-b963-489a-9a0b-91bc57d6267e",
+      "workday:asml:/job/San-Diego-CA-USA/Internship----Machine-Learning-and-image-based-EUV-system-setup_J-00356567",
+      "workday:badgermeter:/job/US---WI---Milwaukee-HQ/Firmware-Test-Engineer-Intern_4675",
+      "workday:bah:/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024",
+      "workday:boseallaboutme:/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371",
+      "workday:caci:/job/Rochester-NY-US/Software-Engineering-Co-op-Intern---Spring-2027_334160",
+      "workday:cbrands:/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655",
+      "workday:lifefitness:/job/Schaumburg-IL/Android-Software-Intern_JR-025277",
+      "workday:lifefitness:/job/Schaumburg-IL/Embedded-Software-Intern_JR-025276",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103657"
+    ],
+    "telegram": [
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261245",
+      "lever:tri:e7cc38d2-2b08-4349-b322-4d56cac9fb1b",
+      "lever:tri:d4184c04-b963-489a-9a0b-91bc57d6267e",
+      "workday:asml:/job/San-Diego-CA-USA/Internship----Machine-Learning-and-image-based-EUV-system-setup_J-00356567",
+      "workday:badgermeter:/job/US---WI---Milwaukee-HQ/Firmware-Test-Engineer-Intern_4675",
+      "workday:bah:/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024",
+      "workday:boseallaboutme:/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371",
+      "workday:caci:/job/Rochester-NY-US/Software-Engineering-Co-op-Intern---Spring-2027_334160",
+      "workday:cbrands:/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655",
+      "workday:lifefitness:/job/Schaumburg-IL/Android-Software-Intern_JR-025277",
+      "workday:lifefitness:/job/Schaumburg-IL/Embedded-Software-Intern_JR-025276",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103657"
+    ]
   }
 }

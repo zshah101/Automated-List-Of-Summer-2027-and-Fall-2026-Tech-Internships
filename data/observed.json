@@ -1059,6 +1059,18 @@
     }
    }
   },
+  "bose": {
+   "name": "Bose",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-04",
+     "role_ids": [
+      "workday:boseallaboutme:/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371"
+     ],
+     "count": 1
+    }
+   }
+  },
   "bot auto": {
    "name": "Bot Auto",
    "cycles": {
@@ -1195,6 +1207,7 @@
       "workday:caci:/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085",
       "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
       "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
+      "workday:caci:/job/Rochester-NY-US/Software-Engineering-Co-op-Intern---Spring-2027_334160",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
@@ -1204,7 +1217,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 27
+     "count": 28
     }
    }
   },
@@ -2570,9 +2583,10 @@
       "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
       "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260839",
       "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260943",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261197"
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261197",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261245"
      ],
-     "count": 7
+     "count": 8
     }
    }
   },
@@ -5902,6 +5916,19 @@
     }
    }
   },
+  "toyota research institute": {
+   "name": "Toyota Research Institute",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-04",
+     "role_ids": [
+      "lever:tri:d4184c04-b963-489a-9a0b-91bc57d6267e",
+      "lever:tri:e7cc38d2-2b08-4349-b322-4d56cac9fb1b"
+     ],
+     "count": 2
+    }
+   }
+  },
   "trade desk": {
    "name": "The Trade Desk",
    "cycles": {
@@ -6526,10 +6553,11 @@
       "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626",
       "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103638",
       "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103645",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103657",
       "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639",
       "workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Data-Scientist_JR103610"
      ],
-     "count": 7
+     "count": 8
     }
    }
   },
@@ -6573,5 +6601,5 @@
    }
   }
  },
- "updated_at": "2026-11-04T19:09:47Z"
+ "updated_at": "2026-11-05T00:40:44Z"
 }
