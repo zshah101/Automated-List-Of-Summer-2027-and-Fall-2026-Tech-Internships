@@ -1783,6 +1783,13 @@
     "site": "Andersen_External_Career_Site"
   },
   {
+    "name": "Anderson Merchandisers",
+    "slug": "amerch",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "amerchcareers"
+  },
+  {
     "name": "Ando",
     "slug": "ando",
     "ats": "ashby"
@@ -6350,6 +6357,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Clasp",
+    "slug": "clasp",
+    "ats": "ashby"
+  },
+  {
     "name": "ClassPass",
     "slug": "classpass",
     "ats": "greenhouse"
@@ -8409,6 +8421,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "DSG"
+  },
+  {
+    "name": "Didero",
+    "slug": "didero",
+    "ats": "ashby"
   },
   {
     "name": "DiDi Global",
@@ -13825,6 +13842,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Imbue",
+    "slug": "imbueunlisted",
+    "ats": "greenhouse"
+  },
+  {
     "name": "IMC Trading",
     "slug": "imc",
     "ats": "greenhouse"
@@ -16366,6 +16388,11 @@
     "ats": "rippling"
   },
   {
+    "name": "Longitude Labs",
+    "slug": "longitudelabs",
+    "ats": "ashby"
+  },
+  {
     "name": "Longshot Systems",
     "slug": "longshot-systems-ltd",
     "ats": "workable"
@@ -16432,6 +16459,11 @@
     "name": "loveholidays",
     "slug": "loveholidays",
     "ats": "ashby"
+  },
+  {
+    "name": "Lovelytics",
+    "slug": "lovelytics",
+    "ats": "greenhouse"
   },
   {
     "name": "Lovey",
@@ -18568,6 +18600,11 @@
     "ats": "oracle",
     "host": "ekgn.fa.us6.oraclecloud.com",
     "site": "CX_2001"
+  },
+  {
+    "name": "Myriad360",
+    "slug": "myriad360",
+    "ats": "greenhouse"
   },
   {
     "name": "Mytos",
@@ -26010,6 +26047,13 @@
     "name": "Sunday Robotics",
     "slug": "sunday",
     "ats": "ashby"
+  },
+  {
+    "name": "Sunlife",
+    "slug": "sunlife",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "experienced"
   },
   {
     "name": "Suno",
