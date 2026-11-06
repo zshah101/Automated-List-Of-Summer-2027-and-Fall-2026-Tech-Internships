@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-06T17:46:16Z",
- "data_as_of": "2026-11-06T17:46:16Z",
- "rendered_at": "2026-11-06T17:46:17Z",
+ "generated_at": "2026-11-06T22:35:48Z",
+ "data_as_of": "2026-11-06T22:35:48Z",
+ "rendered_at": "2026-11-06T22:35:48Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -206,7 +206,7 @@
    "expected": "2026-06-11",
    "days_until": -148,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009",
+   "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1536,7 +1536,7 @@
    "expected": "2026-08-31",
    "days_until": -67,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e",
+   "url": "https://jobs.ashbyhq.com/Sierra/34b31b67-268c-4270-b48f-72e59064c96e",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2391,7 +2391,7 @@
    "expected": "2026-09-08",
    "days_until": -59,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285",
+   "url": "https://jobs.ashbyhq.com/Talos-Trading/2c833180-484f-4657-80e3-f822cf1a0285",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4975,7 +4975,7 @@
    "expected": "2026-10-27",
    "days_until": -10,
    "status": "open",
-   "url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1",
+   "url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5402,6 +5402,44 @@
    }
   },
   {
+   "company": "Invesco",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-06",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-06"
+   }
+  },
+  {
+   "company": "Marmon Holdings",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-06",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-06"
+   }
+  },
+  {
    "company": "Match Group",
    "last_cycle_posted": "",
    "posted_on": "2026-11-06",
@@ -5412,7 +5450,26 @@
    "expected": "2026-11-06",
    "days_until": 0,
    "status": "open",
-   "url": "https://jobs.lever.co/matchgroup/f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d",
+   "url": "https://jobs.lever.co/matchgroup/54a814d1-9a73-43d7-a266-c933ffd99ce3",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-06"
+   }
+  },
+  {
+   "company": "The New York Times",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-06",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -9618,5 +9675,5 @@
    }
   }
  ],
- "count": 506
+ "count": 509
 }

@@ -3164,6 +3164,18 @@
     }
    }
   },
+  "invesco": {
+   "name": "Invesco",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-06",
+     "role_ids": [
+      "workday:invesco:/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "itron": {
    "name": "Itron",
    "cycles": {
@@ -3605,6 +3617,18 @@
     }
    }
   },
+  "marmon holdings": {
+   "name": "Marmon Holdings",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-06",
+     "role_ids": [
+      "workday:marmon:/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903"
+     ],
+     "count": 1
+    }
+   }
+  },
   "marvell": {
    "name": "Marvell",
    "cycles": {
@@ -3949,6 +3973,7 @@
       "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369",
       "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
       "workday:motorolasolutions:/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388",
+      "workday:motorolasolutions:/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
       "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734",
@@ -3958,7 +3983,7 @@
       "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
       "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
      ],
-     "count": 13
+     "count": 14
     }
    }
   },
@@ -4085,6 +4110,22 @@
       "workday:ntst:/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667"
      ],
      "count": 2
+    }
+   }
+  },
+  "new york times": {
+   "name": "The New York Times",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-06",
+     "role_ids": [
+      "greenhouse:thenewyorktimes:4751907005",
+      "greenhouse:thenewyorktimes:4751909005",
+      "greenhouse:thenewyorktimes:4751917005",
+      "greenhouse:thenewyorktimes:4751919005",
+      "greenhouse:thenewyorktimes:4751973005"
+     ],
+     "count": 5
     }
    }
   },
@@ -4257,9 +4298,11 @@
     "Summer 2027": {
      "first_posted": "2026-08-14",
      "role_ids": [
-      "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c"
+      "ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947",
+      "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "ashby:notion:43ffba97-b64a-4c6a-ac13-c803253c9413"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -5748,6 +5791,7 @@
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765",
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194",
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279",
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380766",
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380916",
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322",
@@ -5762,7 +5806,7 @@
       "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882",
       "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234"
      ],
-     "count": 18
+     "count": 19
     }
    }
   },
@@ -6723,5 +6767,5 @@
    }
   }
  },
- "updated_at": "2026-11-06T17:46:16Z"
+ "updated_at": "2026-11-06T22:35:48Z"
 }
