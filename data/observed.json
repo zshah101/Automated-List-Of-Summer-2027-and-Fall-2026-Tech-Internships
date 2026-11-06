@@ -2364,6 +2364,18 @@
     }
    }
   },
+  "galaxy": {
+   "name": "Galaxy",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-06",
+     "role_ids": [
+      "greenhouse:galaxydigitalservices:6250002004"
+     ],
+     "count": 1
+    }
+   }
+  },
   "garda capital partners": {
    "name": "Garda Capital Partners",
    "cycles": {
@@ -3629,6 +3641,22 @@
       "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654"
      ],
      "count": 10
+    }
+   }
+  },
+  "match group": {
+   "name": "Match Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-06",
+     "role_ids": [
+      "lever:matchgroup:54a814d1-9a73-43d7-a266-c933ffd99ce3",
+      "lever:matchgroup:573621f6-9931-4e39-840a-1d04171be2ff",
+      "lever:matchgroup:860a839a-5be3-44dc-916f-eb2e71d67d72",
+      "lever:matchgroup:cda906dd-c02a-4bbc-b533-1636d58958ef",
+      "lever:matchgroup:f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d"
+     ],
+     "count": 5
     }
    }
   },
@@ -5717,14 +5745,24 @@
      "role_ids": [
       "workday:tmobile:/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380650",
       "workday:tmobile:/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380766",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380916",
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380757",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380768",
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380917",
       "workday:tmobile:/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441",
+      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734",
+      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
       "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882",
       "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234"
      ],
-     "count": 8
+     "count": 18
     }
    }
   },
@@ -6685,5 +6723,5 @@
    }
   }
  },
- "updated_at": "2026-11-06T10:05:55Z"
+ "updated_at": "2026-11-06T17:46:16Z"
 }
