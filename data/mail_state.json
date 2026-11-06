@@ -2008,12 +2008,12 @@
   "subscribers_total": 250,
   "send_attempts": [
     {
-      "at": "2026-11-05T22:13:26Z",
-      "count": 1
-    },
-    {
       "at": "2026-11-06T10:06:39Z",
       "count": 249
+    },
+    {
+      "at": "2026-11-06T22:36:32Z",
+      "count": 1
     }
   ],
   "pending_digest": {
@@ -2677,7 +2677,7 @@
     "ddb578d0b6686ff1e05f27570e20ea6a"
   ],
   "last_error": {
-    "at": "2026-11-06T17:50:13Z",
+    "at": "2026-11-06T22:36:32Z",
     "stage": "delivery",
     "detail": "1 of 250 recipients still unsent; resuming next run"
   }

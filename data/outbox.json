@@ -1,38 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260831",
-      "ashby:notion:43ffba97-b64a-4c6a-ac13-c803253c9413",
-      "ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947",
-      "workday:invesco:/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319",
-      "greenhouse:lilasciences:4480337009",
-      "workday:marmon:/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903",
-      "workday:motorolasolutions:/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228",
-      "workday:sec:/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279",
-      "greenhouse:thenewyorktimes:4751917005",
-      "greenhouse:thenewyorktimes:4751973005",
-      "greenhouse:thenewyorktimes:4751909005",
-      "greenhouse:thenewyorktimes:4751907005",
-      "greenhouse:thenewyorktimes:4751919005"
-    ],
-    "telegram": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260831",
-      "ashby:notion:43ffba97-b64a-4c6a-ac13-c803253c9413",
-      "ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947",
-      "workday:invesco:/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319",
-      "greenhouse:lilasciences:4480337009",
-      "workday:marmon:/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903",
-      "workday:motorolasolutions:/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228",
-      "workday:sec:/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279",
-      "greenhouse:thenewyorktimes:4751917005",
-      "greenhouse:thenewyorktimes:4751973005",
-      "greenhouse:thenewyorktimes:4751909005",
-      "greenhouse:thenewyorktimes:4751907005",
-      "greenhouse:thenewyorktimes:4751919005"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
