@@ -2677,7 +2677,7 @@
     "ddb578d0b6686ff1e05f27570e20ea6a"
   ],
   "last_error": {
-    "at": "2026-11-06T10:06:39Z",
+    "at": "2026-11-06T17:50:13Z",
     "stage": "delivery",
     "detail": "1 of 250 recipients still unsent; resuming next run"
   }

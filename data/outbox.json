@@ -1,54 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:matchgroup:f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d",
-      "lever:matchgroup:54a814d1-9a73-43d7-a266-c933ffd99ce3",
-      "lever:matchgroup:573621f6-9931-4e39-840a-1d04171be2ff",
-      "lever:matchgroup:cda906dd-c02a-4bbc-b533-1636d58958ef",
-      "lever:matchgroup:860a839a-5be3-44dc-916f-eb2e71d67d72",
-      "ashby:niural:0daacf58-a15d-4c6f-bfa0-0fc069e4956e",
-      "smartrecruiters:BoschGroup:744000160208440",
-      "greenhouse:galaxydigitalservices:6250002004",
-      "workday:globusmedical:/job/Methuen-MA/Software-COOP_JR108063",
-      "workday:hitachi:/job/Dallas-Texas-United-States/Full-Stack-Developer-Intern_R0149426",
-      "workday:kla:/job/Milpitas-CA/Software-Intern_2642954-1",
-      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Customer-Support-Business-Analyst-Intern_R49501",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380757",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380917",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380768",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380766",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380916",
-      "workday:godirect:/job/New-York-NY/Summer-Intern---Renewable-Energy-Infrastructure-Debt_JR0033386"
-    ],
-    "telegram": [
-      "lever:matchgroup:f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d",
-      "lever:matchgroup:54a814d1-9a73-43d7-a266-c933ffd99ce3",
-      "lever:matchgroup:573621f6-9931-4e39-840a-1d04171be2ff",
-      "lever:matchgroup:cda906dd-c02a-4bbc-b533-1636d58958ef",
-      "lever:matchgroup:860a839a-5be3-44dc-916f-eb2e71d67d72",
-      "ashby:niural:0daacf58-a15d-4c6f-bfa0-0fc069e4956e",
-      "smartrecruiters:BoschGroup:744000160208440",
-      "greenhouse:galaxydigitalservices:6250002004",
-      "workday:globusmedical:/job/Methuen-MA/Software-COOP_JR108063",
-      "workday:hitachi:/job/Dallas-Texas-United-States/Full-Stack-Developer-Intern_R0149426",
-      "workday:kla:/job/Milpitas-CA/Software-Intern_2642954-1",
-      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Customer-Support-Business-Analyst-Intern_R49501",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380757",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380917",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Internship_REQ380768",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380766",
-      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380916",
-      "workday:godirect:/job/New-York-NY/Summer-Intern---Renewable-Energy-Infrastructure-Debt_JR0033386"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
