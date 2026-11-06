@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "lever:zoox:7b20b929-d9a4-4995-a472-16cd4925a877",
+      "lever:zoox:88f6cb68-1534-44af-80db-10e43c203520",
+      "lever:zoox:8b32157b-ab44-4078-85ea-1d8d7b747a20",
+      "workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885"
+    ],
+    "telegram": [
+      "lever:zoox:7b20b929-d9a4-4995-a472-16cd4925a877",
+      "lever:zoox:88f6cb68-1534-44af-80db-10e43c203520",
+      "lever:zoox:8b32157b-ab44-4078-85ea-1d8d7b747a20",
+      "workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885"
+    ]
   }
 }
