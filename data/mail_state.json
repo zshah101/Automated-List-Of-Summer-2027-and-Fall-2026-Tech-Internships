@@ -2005,7 +2005,7 @@
     "greenhouse:flagshippioneeringinc:8782467002"
   ],
   "last_digest_failed": 1,
-  "subscribers_total": 250,
+  "subscribers_total": 251,
   "send_attempts": [
     {
       "at": "2026-11-06T10:06:39Z",
@@ -2677,7 +2677,7 @@
     "ddb578d0b6686ff1e05f27570e20ea6a"
   ],
   "last_error": {
-    "at": "2026-11-06T22:36:32Z",
+    "at": "2026-11-07T02:40:29Z",
     "stage": "delivery",
     "detail": "1 of 250 recipients still unsent; resuming next run"
   }
