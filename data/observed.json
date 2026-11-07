@@ -3387,6 +3387,19 @@
     }
    }
   },
+  "l l bean": {
+   "name": "L.L.Bean",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-06",
+     "role_ids": [
+      "workday:llbean:/job/Freeport-ME/Business--Data-Analyst-Intern--Summer-2027-_JR11275",
+      "workday:llbean:/job/Freeport-ME/Software-Developer-Intern--Summer-2027-_JR11274-1"
+     ],
+     "count": 2
+    }
+   }
+  },
   "labcorp": {
    "name": "LabCorp",
    "cycles": {
@@ -6211,9 +6224,10 @@
      "first_posted": "2026-10-01",
      "role_ids": [
       "greenhouse:vardaspace:8005821003",
-      "greenhouse:vardaspace:8010159003"
+      "greenhouse:vardaspace:8010159003",
+      "greenhouse:vardaspace:8198267003"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -6743,11 +6757,13 @@
     "Summer 2027": {
      "first_posted": "2026-10-30",
      "role_ids": [
+      "lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
       "lever:zoox:7b20b929-d9a4-4995-a472-16cd4925a877",
+      "lever:zoox:85c6aec7-8da2-445d-9c4d-812365dbce97",
       "lever:zoox:88f6cb68-1534-44af-80db-10e43c203520",
       "lever:zoox:8b32157b-ab44-4078-85ea-1d8d7b747a20"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -6767,5 +6783,5 @@
    }
   }
  },
- "updated_at": "2026-11-06T22:35:48Z"
+ "updated_at": "2026-11-07T02:38:05Z"
 }
