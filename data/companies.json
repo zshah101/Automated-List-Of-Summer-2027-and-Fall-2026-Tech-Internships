@@ -2461,6 +2461,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Artificial Analysis",
+    "slug": "artificialanalysis",
+    "ats": "ashby"
+  },
+  {
     "name": "Artificial.Agency",
     "slug": "artificial",
     "ats": "ashby"
