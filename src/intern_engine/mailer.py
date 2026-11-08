@@ -59,9 +59,15 @@ _MAX_ROLES = 30                  # cap the digest body
 # tier is 300/day; MAIL_DAILY_QUOTA overrides it for any bigger plan.
 _DEFAULT_DAILY_QUOTA = 300
 _MAX_CONFIRMATIONS = 25          # reserve most daily capacity for the digest
-# Confirmations plus slack, held back from the digest budget.
-_QUOTA_RESERVE = 50
-_MAX_SENDS = _DEFAULT_DAILY_QUOTA - _QUOTA_RESERVE  # 250 digest sends/day free
+# Slack held back from the provider quota. Confirmations are NOT in it — they
+# are sent first and drawn from the same rolling budget as the digest — so this
+# only covers mail sent from outside this code. It used to be 50, which cost a
+# sixth of the free tier for nothing: once the list reached 251 against a 250
+# budget, every digest stranded one recipient for a day and turned 12 of 26
+# runs red (2026-11-02 to 11-08). The rolling 24h window already over-counts
+# any calendar day Brevo resets on, so a small margin is enough.
+_QUOTA_RESERVE = 10
+_MAX_SENDS = _DEFAULT_DAILY_QUOTA - _QUOTA_RESERVE  # 290 digest sends/day free
 _BREVO_URL = "https://api.brevo.com/v3/smtp/email"
 _NOTIFY_DEADLINE_SECONDS = 8 * 60
 _REQUEST_TIMEOUT = httpx.Timeout(8.0, connect=4.0)
@@ -709,7 +715,11 @@ def health(state: dict, pending_count: int = 0,
     if last is None:
         return True, f"{pending_count} waiting; no digest sent yet"
     stale_for = now - last
-    if stale_for >= timedelta(hours=_STALE_AFTER_HOURS):
+    # A list bigger than one day's budget needs several days to clear, by
+    # design; only a digest slower than THAT is stale.
+    list_size = int(state.get("subscribers_total") or 0)
+    days_to_clear = max(1, -(-list_size // send_budget()))
+    if stale_for >= timedelta(hours=_STALE_AFTER_HOURS + 24 * (days_to_clear - 1)):
         hours = int(stale_for.total_seconds() // 3600)
         return False, (
             f"{pending_count} roles waiting but no digest has gone out in "
@@ -942,6 +952,7 @@ def send_digest(store_data: dict) -> int:
     capacity = _attempt_capacity(state, now)
     outstanding = [k for k in intended if k not in delivered and k in by_key]
     sent = 0
+    rejected = 0
     with httpx.Client(timeout=_REQUEST_TIMEOUT) as client:
         for recipient_key in outstanding[:capacity]:
             if _deadline_reached(deadline):
@@ -976,7 +987,7 @@ def send_digest(store_data: dict) -> int:
                 sent += 1
                 delivered.add(recipient_key)
             except Exception:  # noqa: BLE001 — skip the bad address, keep going
-                pass
+                rejected += 1
             pending["delivered_keys"] = [k for k in intended if k in delivered]
             # Persist each response. A later provider failure cannot erase the
             # successes that preceded it, and zero-success runs retain pending.
@@ -989,14 +1000,16 @@ def send_digest(store_data: dict) -> int:
     state["last_digest_failed"] = len(remaining)
     state["retry_recipient_keys"] = remaining
     state["subscribers_total"] = len(subscribers)
-    if remaining:
-        # Partial delivery is normal (quota, deadline) and resumes next run,
-        # but it stops being normal if it never finishes — so it is recorded
-        # and `health()` escalates once the roles have waited too long.
+    if rejected:
+        # The provider refused a send: a real fault a person should see.
         _record_failure(state, now, "delivery",
-                        f"{len(remaining)} of {len(intended)} recipients "
-                        f"still unsent; resuming next run")
+                        f"{rejected} of {len(intended)} recipients rejected by "
+                        f"the provider; {len(remaining)} still unsent")
     else:
+        # Running out of quota or time is normal and resumes next run. It is
+        # not a failure on its own — recording it as one turned every run red
+        # once the list outgrew a day's budget by a single address. If it never
+        # finishes, `health()` catches that through staleness instead.
         _clear_failure(state)
     if not remaining:
         state["last_digest_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")

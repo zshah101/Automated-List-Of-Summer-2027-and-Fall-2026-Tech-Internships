@@ -182,6 +182,13 @@ def cmd_mailcheck() -> None:
     state = mailer.load_state()
     waiting = len(mailer.pending_roles(store_data, state))
     ok, reason = mailer.health(state, waiting)
+    listed = int(state.get("subscribers_total") or 0)
+    if listed > mailer.send_budget():
+        # Not a failure — delivery still completes, over several days — but
+        # the fix (a bigger plan via MAIL_DAILY_QUOTA) is a human's call.
+        print(f"::warning title=Email list outgrew the daily quota::"
+              f"{listed} subscribers vs {mailer.send_budget()} sends/day; "
+              f"each digest now takes more than a day to reach everyone")
     if ok:
         print(f"Email digest healthy - {reason}")
         return

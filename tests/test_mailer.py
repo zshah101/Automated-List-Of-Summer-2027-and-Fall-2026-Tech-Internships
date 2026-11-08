@@ -376,6 +376,25 @@ class TestDurableRecipientSettlement:
         assert state["last_digest_failed"] == 1
         assert len(state["pending_digest"]["delivered_keys"]) == 1
 
+    def test_a_rejected_send_is_a_recorded_failure(self, monkeypatch, tmp_path):
+        self._setup(monkeypatch, tmp_path, {"failed@example.com"})
+        mailer.send_digest({"r": _record(1, id="role-1")})
+        ok, reason = mailer.health(mailer._load_state())
+        assert ok is False
+        assert "rejected" in reason
+
+    def test_running_out_of_quota_is_not_a_failure(self, monkeypatch, tmp_path):
+        """2026-11-08: 251 subscribers against a 250 budget left one unsent per
+        digest, and the run went red every time though nothing was wrong."""
+        self._setup(monkeypatch, tmp_path, set())
+        monkeypatch.setattr(mailer, "send_budget", lambda quota=None: 1)
+
+        assert mailer.send_digest({"r": _record(1, id="role-1")}) == 1
+        state = mailer._load_state()
+        assert state["last_digest_failed"] == 1
+        assert "pending_digest" in state
+        assert "last_error" not in state
+
     def test_zero_success_still_persists_exact_pending_digest(self, monkeypatch, tmp_path):
         self._setup(monkeypatch, tmp_path, {"ok@example.com", "failed@example.com"})
         data = {"r": _record(1, id="role-1")}
@@ -519,6 +538,19 @@ def test_health_is_quiet_when_there_is_simply_nothing_to_send():
     state = {"last_digest_at": "2026-08-22T10:52:11Z"}
     ok, _ = mailer.health(state, pending_count=0, now=now)
     assert ok is True
+
+
+def test_free_tier_budget_covers_the_current_list():
+    assert mailer.send_budget(300) >= 251
+
+
+def test_health_allows_a_list_bigger_than_a_day_to_take_several_days():
+    now = datetime(2026, 11, 8, 18, tzinfo=UTC)
+    two_days = (now - timedelta(hours=40)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    big = {"last_digest_at": two_days, "subscribers_total": mailer.send_budget() + 1}
+    assert mailer.health(big, pending_count=5, now=now)[0] is True
+    small = {"last_digest_at": two_days, "subscribers_total": 10}
+    assert mailer.health(small, pending_count=5, now=now)[0] is False
 
 
 def test_health_tolerates_a_recent_digest_with_roles_still_queued():
