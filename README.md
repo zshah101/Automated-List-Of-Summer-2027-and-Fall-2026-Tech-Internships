@@ -8,7 +8,7 @@
 
 ### 1259 open roles (613 listed below) · 154 new this week
 
-5,031 employers tracked · data as of Nov 08, 2026 at 18:43 UTC
+5,031 employers tracked · data as of Nov 08, 2026 at 22:46 UTC
 
 _947 have a cycle the employer stated · 312 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -91,19 +91,19 @@ If it helps you, a star means a lot and tells me to keep going.
 | Company | Role | Apply | Location | Skills | Posted |
 |---|---|---|---|---|---|
 | Zoox ✓ | AI Workflows & Safety Decision Making Intern [2027] 🆕 | [Apply](https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1) | Foster City, CA | Python, SQL, LLMs, Flask | Nov 07, 2026 |
-| Notion | Software Engineering Intern, iOS (Summer 2027) 🆕 | [Apply](https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947) | New York, New York | Python, Rust, TypeScript, Swift | Nov 06, 2026 |
-| Notion | Software Engineering Intern, Frontend (Summer 2027) 🆕 | [Apply](https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413) | New York, New York | TypeScript, LLMs, React | Nov 06, 2026 |
+| Notion | Software Engineering Intern, iOS (Summer 2027) | [Apply](https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947) | New York, New York | Python, Rust, TypeScript, Swift | Nov 06, 2026 |
+| Notion | Software Engineering Intern, Frontend (Summer 2027) | [Apply](https://jobs.ashbyhq.com/notion/43ffba97-b64a-4c6a-ac13-c803253c9413) | New York, New York | TypeScript, LLMs, React | Nov 06, 2026 |
 | Varda Space | Site Reliability Internship - Summer 2027 🇺🇸 🆕 | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/8198267003) | El Segundo, California, United States | Python, AWS, GCP, Azure | Nov 06, 2026 |
 | Zoox ✓ | Data Science Intern [Summer 2027] 🆕 | [Apply](https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97) | Foster City, CA | Python, SQL, LLMs, Computer Vision | Nov 06, 2026 |
 | L.L.Bean | Business/ Data Analyst Intern (Summer 2027) 🆕 | [Apply](https://llbean.wd1.myworkdayjobs.com/LLBean_Careers/job/Freeport-ME/Business--Data-Analyst-Intern--Summer-2027-_JR11275) | Freeport, ME | Python, SQL, Tableau | Nov 06, 2026 |
 | L.L.Bean | Software Developer Intern (Summer 2027) 🆕 | [Apply](https://llbean.wd1.myworkdayjobs.com/LLBean_Careers/job/Freeport-ME/Software-Developer-Intern--Summer-2027-_JR11274-1) | Freeport, ME | Python, Java, C#, JavaScript | Nov 06, 2026 |
-| The New York Times ✓ | Full-Stack Engineering Intern 🆕 | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751907005) | New York, NY | Python, Java, JavaScript, Kotlin | Nov 06, 2026 |
-| The New York Times ✓ | Frontend Engineering Intern 🆕 | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751909005) | New York, NY | LLMs, React, HTML/CSS, GraphQL | Nov 06, 2026 |
-| The New York Times ✓ | Android Engineering Intern 🆕 | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005) | New York, NY | Kotlin, LLMs | Nov 06, 2026 |
-| Invesco | Early Career Intern - Real Estate (Data Science) 🆕 | [Apply](https://invesco.wd1.myworkdayjobs.com/IVZ/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1) | Dallas, Texas | Python | Nov 06, 2026 |
-| Marmon Holdings | Intern - AI Technology Solutions 🆕 | [Apply](https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903) | Chicago, IL | Python, Tableau | Nov 06, 2026 |
-| Motorola 🆁 | Software Presales Enablement Intern - Summer Internship 2027 🛂 🆕 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228) | Illinois Remote Work, More... | No skills listed | Nov 06, 2026 |
-| T-Mobile ✓ | Summer 2027 AI Strategist Internship 🆕 | [Apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279) | Bellevue, Washington | SQL, LLMs | Nov 06, 2026 |
+| The New York Times ✓ | Full-Stack Engineering Intern | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751907005) | New York, NY | Python, Java, JavaScript, Kotlin | Nov 06, 2026 |
+| The New York Times ✓ | Frontend Engineering Intern | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751909005) | New York, NY | LLMs, React, HTML/CSS, GraphQL | Nov 06, 2026 |
+| The New York Times ✓ | Android Engineering Intern | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005) | New York, NY | Kotlin, LLMs | Nov 06, 2026 |
+| Invesco | Early Career Intern - Real Estate (Data Science) | [Apply](https://invesco.wd1.myworkdayjobs.com/IVZ/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1) | Dallas, Texas | Python | Nov 06, 2026 |
+| Marmon Holdings | Intern - AI Technology Solutions | [Apply](https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903) | Chicago, IL | Python, Tableau | Nov 06, 2026 |
+| Motorola 🆁 | Software Presales Enablement Intern - Summer Internship 2027 🛂 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Software-Presales-Enablement-Intern---Summer-Internship-2027_R70228) | Illinois Remote Work, More... | No skills listed | Nov 06, 2026 |
+| T-Mobile ✓ | Summer 2027 AI Strategist Internship | [Apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279) | Bellevue, Washington | SQL, LLMs | Nov 06, 2026 |
 | Galaxy | 2027 Digital Infrastruc​ture Intern - NYC | [Apply](https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6250002004) | New York | Python, Rust, SQL | Nov 06, 2026 |
 | Match Group ✓ | Backend Engineer Intern | [Apply](https://jobs.lever.co/matchgroup/54a814d1-9a73-43d7-a266-c933ffd99ce3) | Palo Alto, California | Python, Java, TypeScript, Scala | Nov 06, 2026 |
 | Match Group ✓ | Data Scientist Intern | [Apply](https://jobs.lever.co/matchgroup/573621f6-9931-4e39-840a-1d04171be2ff) | San Francisco, California | Python, SQL, LLMs | Nov 06, 2026 |
@@ -439,9 +439,9 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Company | Role | Apply | Location | Skills | Posted |
 |---|---|---|---|---|---|
 | Parspec | Applied AI Engineer Intern 🆕 | [Apply](https://jobs.ashbyhq.com/parspec/0a897c21-0df7-40ba-85f2-694bf6678504) | Hybrid - San Mateo, California | No skills listed | Nov 06, 2026 |
-| Lila Sciences | Co-op, AI for Protein Design 🆕 | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4480337009) | San Francisco, CA USA | Python, PyTorch | Nov 06, 2026 |
-| Leidos ✓ 🆁 | AI/Automation Development Intern - Assessment & Authorizat​ion 🇺🇸 🆕 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319) | 6314 Remote/Teleworker US | Python, JavaScript, SQL, Bash | Nov 06, 2026 |
-| Samsung | Samsung Care AI Data Analytic Intern 🛂 🆕 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1) | 6625 Excellence Way, Plano, TX, USA | Python, Java, C++, SQL | Nov 06, 2026 |
+| Lila Sciences | Co-op, AI for Protein Design | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4480337009) | San Francisco, CA USA | Python, PyTorch | Nov 06, 2026 |
+| Leidos ✓ 🆁 | AI/Automation Development Intern - Assessment & Authorizat​ion 🇺🇸 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319) | 6314 Remote/Teleworker US | Python, JavaScript, SQL, Bash | Nov 06, 2026 |
+| Samsung | Samsung Care AI Data Analytic Intern 🛂 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1) | 6625 Excellence Way, Plano, TX, USA | Python, Java, C++, SQL | Nov 06, 2026 |
 | Niural | AI Product Operator Intern | [Apply](https://jobs.ashbyhq.com/Niural/0daacf58-a15d-4c6f-bfa0-0fc069e4956e) | New York City | Python, TypeScript, JavaScript, SQL | Nov 06, 2026 |
 | Bosch ✓ | Motorsport Software and Data Analytics Graduate Intern | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000160208440) | Farmington Hills, MI, United States | Python, C++, C#, MATLAB | Nov 06, 2026 |
 | Globus Medical ✓ | Software COOP | [Apply](https://globusmedical.wd5.myworkdayjobs.com/GMED_Careers/job/Methuen-MA/Software-COOP_JR108063) | Methuen, MA | No skills listed | Nov 06, 2026 |
@@ -762,7 +762,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,884 of 5,354 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 91% of the full registry) · completed in 883.3s · 637 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,911 of 5,354 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 91% of the full registry) · completed in 1101.2s · 644 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
