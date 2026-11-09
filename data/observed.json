@@ -1212,12 +1212,13 @@
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
       "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
+      "workday:caci:/job/Sterling-VA-US/Cyber-Security-Intern---Summer-2027_334812",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372",
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 28
+     "count": 29
     }
    }
   },
@@ -3479,13 +3480,14 @@
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00195168",
       "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00190663",
+      "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00196546",
       "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00190665",
       "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
       "workday:leidos:/job/Shiloh-IL/Cybersecurity-Analyst-Intern_R-00190667",
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 21
+     "count": 22
     }
    }
   },
@@ -4070,9 +4072,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-05",
      "role_ids": [
-      "smartrecruiters:NBCUniversal3:744000159947792"
+      "smartrecruiters:NBCUniversal3:744000159947792",
+      "smartrecruiters:NBCUniversal3:744000160689930"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -6783,5 +6786,5 @@
    }
   }
  },
- "updated_at": "2026-11-09T10:00:42Z"
+ "updated_at": "2026-11-09T20:56:13Z"
 }
