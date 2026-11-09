@@ -2008,10 +2008,6 @@
   "subscribers_total": 251,
   "send_attempts": [
     {
-      "at": "2026-11-08T18:44:28Z",
-      "count": 250
-    },
-    {
       "at": "2026-11-08T22:46:45Z",
       "count": 1
     },

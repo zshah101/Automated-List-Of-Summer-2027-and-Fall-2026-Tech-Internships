@@ -1,26 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:analogdevices:/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371",
-      "workday:caci:/job/Sterling-VA-US/Cyber-Security-Intern---Summer-2027_334812",
-      "workday:centene:/job/Remote-CA/Social-Media---AI-Undergraduate-Summer-Intern_1667859",
-      "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00196546",
-      "greenhouse:lilasciences:4472540009",
-      "smartrecruiters:NBCUniversal3:744000160689930",
-      "greenhouse:sharpelectronics:4482958009",
-      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22542",
-      "workday:zoetis:/job/US-Remote/AI-Acceleration-Intern---AI-Development-Lifecycle_JR00022013-2"
-    ],
-    "telegram": [
-      "workday:analogdevices:/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371",
-      "workday:caci:/job/Sterling-VA-US/Cyber-Security-Intern---Summer-2027_334812",
-      "workday:centene:/job/Remote-CA/Social-Media---AI-Undergraduate-Summer-Intern_1667859",
-      "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00196546",
-      "greenhouse:lilasciences:4472540009",
-      "smartrecruiters:NBCUniversal3:744000160689930",
-      "greenhouse:sharpelectronics:4482958009",
-      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22542",
-      "workday:zoetis:/job/US-Remote/AI-Acceleration-Intern---AI-Development-Lifecycle_JR00022013-2"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
