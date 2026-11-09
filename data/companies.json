@@ -19023,6 +19023,11 @@
     "site": "Netflix"
   },
   {
+    "name": "Netholabs",
+    "slug": "netholabs",
+    "ats": "ashby"
+  },
+  {
     "name": "Netic",
     "slug": "netic",
     "ats": "ashby"
