@@ -1,44 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1104",
-      "lever:palantir:130ee501-bd22-4d44-b651-39581ef97743",
-      "lever:palantir:eb496d6a-a960-43d3-a09b-e3843052f54e",
-      "lever:palantir:45e4617d-d658-4b30-8dc9-378ca84a027a",
-      "ashby:regent:9f25824f-486e-4d3a-b444-116b474619d7",
-      "lever:tri:be41a03c-460e-4ff7-b817-f012aa1c4b37",
-      "greenhouse:addepar1:8927543002",
-      "greenhouse:addepar1:8927531002",
-      "greenhouse:amperesand:4465899009",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--Embodied-AI_JR-202624034",
-      "greenhouse:lumbermens:5474346008",
-      "workday:motorolasolutions:/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511",
-      "workday:nvidia:/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607",
-      "workday:nvidia:/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1",
-      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225",
-      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219",
-      "workday:trimble:/job/US---TN-Knoxville/Software-Engineering-Intern_R58120",
-      "smartrecruiters:VeoliaEnvironnementSA:744000160896184"
-    ],
-    "telegram": [
-      "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1104",
-      "lever:palantir:130ee501-bd22-4d44-b651-39581ef97743",
-      "lever:palantir:eb496d6a-a960-43d3-a09b-e3843052f54e",
-      "lever:palantir:45e4617d-d658-4b30-8dc9-378ca84a027a",
-      "ashby:regent:9f25824f-486e-4d3a-b444-116b474619d7",
-      "lever:tri:be41a03c-460e-4ff7-b817-f012aa1c4b37",
-      "greenhouse:addepar1:8927543002",
-      "greenhouse:addepar1:8927531002",
-      "greenhouse:amperesand:4465899009",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--Embodied-AI_JR-202624034",
-      "greenhouse:lumbermens:5474346008",
-      "workday:motorolasolutions:/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511",
-      "workday:nvidia:/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607",
-      "workday:nvidia:/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1",
-      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225",
-      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219",
-      "workday:trimble:/job/US---TN-Knoxville/Software-Engineering-Intern_R58120",
-      "smartrecruiters:VeoliaEnvironnementSA:744000160896184"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
