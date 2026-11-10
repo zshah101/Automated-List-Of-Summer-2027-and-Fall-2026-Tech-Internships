@@ -149,6 +149,7 @@
      "role_ids": [
       "workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Grad-Intern_R017106",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949",
@@ -157,7 +158,7 @@
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"
      ],
-     "count": 9
+     "count": 10
     }
    }
   },
@@ -316,7 +317,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 20,
+     "count": 21,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -337,7 +338,8 @@
       "amazon:amazon:10587999",
       "amazon:amazon:10590290",
       "amazon:amazon:10593054",
-      "amazon:amazon:10593521"
+      "amazon:amazon:10593521",
+      "amazon:amazon:10597379"
      ]
     }
    }
@@ -3029,6 +3031,18 @@
     }
    }
   },
+  "illumio": {
+   "name": "Illumio",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-09",
+     "role_ids": [
+      "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e"
+     ],
+     "count": 1
+    }
+   }
+  },
   "imc trading": {
    "name": "IMC Trading",
    "cycles": {
@@ -4139,9 +4153,11 @@
       "greenhouse:thenewyorktimes:4751909005",
       "greenhouse:thenewyorktimes:4751917005",
       "greenhouse:thenewyorktimes:4751919005",
-      "greenhouse:thenewyorktimes:4751973005"
+      "greenhouse:thenewyorktimes:4751973005",
+      "greenhouse:thenewyorktimes:4752926005",
+      "greenhouse:thenewyorktimes:4752930005"
      ],
-     "count": 5
+     "count": 7
     }
    }
   },
@@ -4207,7 +4223,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 56,
+     "count": 57,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -4230,6 +4246,7 @@
       "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256080",
       "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259",
       "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
+      "workday:ngc:/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
@@ -4689,6 +4706,18 @@
       "greenhouse:pinterest:8138097"
      ],
      "count": 3
+    }
+   }
+  },
+  "pivotal software": {
+   "name": "Pivotal Software",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-09",
+     "role_ids": [
+      "lever:pivotal:3a80913d-886a-4d22-bf5e-9a011b157ec4"
+     ],
+     "count": 1
     }
    }
   },
@@ -6551,9 +6580,10 @@
       "greenhouse:waymo:8224900",
       "greenhouse:waymo:8238525",
       "greenhouse:waymo:8257237",
-      "greenhouse:waymo:8257660"
+      "greenhouse:waymo:8257660",
+      "greenhouse:waymo:8350832"
      ],
-     "count": 10
+     "count": 11
     }
    }
   },
@@ -6786,5 +6816,5 @@
    }
   }
  },
- "updated_at": "2026-11-09T20:56:13Z"
+ "updated_at": "2026-11-10T03:46:38Z"
 }

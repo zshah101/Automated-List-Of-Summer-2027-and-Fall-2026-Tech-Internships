@@ -1,6 +1,44 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "amazon:amazon:10597379",
+      "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e",
+      "lever:pivotal:3a80913d-886a-4d22-bf5e-9a011b157ec4",
+      "ashby:regent:1da518a0-9030-48d1-a58c-15d1f88f0eaa",
+      "lever:tri:9c48b236-e6ad-4b97-9380-c675e5432415",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Co-Op--Data-Engineer_J-00355627",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Co-Op--AI-Engineer_J-00355628",
+      "workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--AI-Engineer_J-00355629",
+      "greenhouse:epicgames:6251540004",
+      "workday:formfactor:/job/Livermore-CA/Software-Engineer-Intern_JR101288",
+      "workday:hpe:/job/Spring-Texas-United-States-of-America/Strategic-Sourcing-AI---Automation-Intern_1213039",
+      "workday:hypertherm:/job/Kent-WA/Graduate-Intern---Software-Security_R4136",
+      "workday:ngc:/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Grad-Intern_R017106",
+      "greenhouse:thenewyorktimes:4752930005",
+      "greenhouse:thenewyorktimes:4752926005",
+      "workday:trimble:/job/US---OR-Lake-Oswego/Software-Engineer-Intern_R58171",
+      "greenhouse:waymo:8350832"
+    ],
+    "telegram": [
+      "amazon:amazon:10597379",
+      "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e",
+      "lever:pivotal:3a80913d-886a-4d22-bf5e-9a011b157ec4",
+      "ashby:regent:1da518a0-9030-48d1-a58c-15d1f88f0eaa",
+      "lever:tri:9c48b236-e6ad-4b97-9380-c675e5432415",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Co-Op--Data-Engineer_J-00355627",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Co-Op--AI-Engineer_J-00355628",
+      "workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--AI-Engineer_J-00355629",
+      "greenhouse:epicgames:6251540004",
+      "workday:formfactor:/job/Livermore-CA/Software-Engineer-Intern_JR101288",
+      "workday:hpe:/job/Spring-Texas-United-States-of-America/Strategic-Sourcing-AI---Automation-Intern_1213039",
+      "workday:hypertherm:/job/Kent-WA/Graduate-Intern---Software-Security_R4136",
+      "workday:ngc:/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Grad-Intern_R017106",
+      "greenhouse:thenewyorktimes:4752930005",
+      "greenhouse:thenewyorktimes:4752926005",
+      "workday:trimble:/job/US---OR-Lake-Oswego/Software-Engineer-Intern_R58171",
+      "greenhouse:waymo:8350832"
+    ]
   }
 }
