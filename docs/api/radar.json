@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-10T11:59:37Z",
- "data_as_of": "2026-11-10T11:59:37Z",
- "rendered_at": "2026-11-10T11:59:37Z",
+ "generated_at": "2026-11-10T19:59:04Z",
+ "data_as_of": "2026-11-10T19:59:04Z",
+ "rendered_at": "2026-11-10T19:59:04Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -92,7 +92,7 @@
    "expected": "2025-09-12",
    "days_until": -424,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
    "note": "trading cycle opens very early",
    "provenance": {
     "type": "engine-observed",
@@ -3274,6 +3274,25 @@
    }
   },
   {
+   "company": "SharkNinja",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-17",
+   "days_until": -54,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713808006",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-17"
+   }
+  },
+  {
    "company": "Smith+Nephew",
    "last_cycle_posted": "",
    "posted_on": "2026-09-17",
@@ -5269,6 +5288,25 @@
    }
   },
   {
+   "company": "Lumbermen's",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-05",
+   "days_until": -5,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/lumbermens/jobs/5474346008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-05"
+   }
+  },
+  {
    "company": "NBCUniversal",
    "last_cycle_posted": "",
    "posted_on": "2026-11-05",
@@ -5475,6 +5513,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-09"
+   }
+  },
+  {
+   "company": "Addepar",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/addepar1/jobs/8927543002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-10"
+   }
+  },
+  {
+   "company": "Hunt Oil Company",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1104",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-10"
    }
   },
   {
@@ -9732,5 +9808,5 @@
    }
   }
  ],
- "count": 512
+ "count": 516
 }

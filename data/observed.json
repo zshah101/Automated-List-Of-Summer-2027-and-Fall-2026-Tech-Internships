@@ -101,6 +101,19 @@
     }
    }
   },
+  "addepar": {
+   "name": "Addepar",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-10",
+     "role_ids": [
+      "greenhouse:addepar1:8927531002",
+      "greenhouse:addepar1:8927543002"
+     ],
+     "count": 2
+    }
+   }
+  },
   "adt": {
    "name": "ADT",
    "cycles": {
@@ -2504,6 +2517,7 @@
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI--Masters-_JR-202622540",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--Embodied-AI_JR-202624034",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI--Masters-_JR-202622535",
@@ -2518,7 +2532,7 @@
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778"
      ],
-     "count": 22
+     "count": 23
     }
    }
   },
@@ -2947,6 +2961,13 @@
      "first_posted": "2026-09-17",
      "role_ids": [
       "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1067"
+     ],
+     "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-11-10",
+     "role_ids": [
+      "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1104"
      ],
      "count": 1
     }
@@ -3581,6 +3602,18 @@
     }
    }
   },
+  "lumbermen s": {
+   "name": "Lumbermen's",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-05",
+     "role_ids": [
+      "greenhouse:lumbermens:5474346008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "lyft": {
    "name": "Lyft",
    "cycles": {
@@ -3997,6 +4030,7 @@
     "Summer 2027": {
      "first_posted": "2026-08-14",
      "role_ids": [
+      "workday:motorolasolutions:/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511",
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R69313",
       "workday:motorolasolutions:/job/Chicago-IL/Cyber-Security---2027-Summer-Internship--Chicago-Hybrid-_R68369",
@@ -4012,7 +4046,7 @@
       "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
       "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
      ],
-     "count": 14
+     "count": 15
     }
    }
   },
@@ -4395,12 +4429,14 @@
     "Summer 2027": {
      "first_posted": "2026-09-15",
      "role_ids": [
+      "workday:nvidia:/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1",
       "workday:nvidia:/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
       "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
       "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530",
-      "workday:nvidia:/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170"
+      "workday:nvidia:/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
+      "workday:nvidia:/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607"
      ],
-     "count": 4
+     "count": 6
     }
    }
   },
@@ -5439,6 +5475,13 @@
      "role_ids": [
       "greenhouse:sharkninjaoperatingllc:4669676006"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-17",
+     "role_ids": [
+      "greenhouse:sharkninjaoperatingllc:4713808006"
+     ],
+     "count": 1
     }
    }
   },
@@ -5849,9 +5892,11 @@
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
       "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882",
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219",
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225",
       "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234"
      ],
-     "count": 19
+     "count": 21
     }
    }
   },
@@ -6103,10 +6148,11 @@
     "Summer 2027": {
      "first_posted": "2026-11-04",
      "role_ids": [
+      "lever:tri:be41a03c-460e-4ff7-b817-f012aa1c4b37",
       "lever:tri:d4184c04-b963-489a-9a0b-91bc57d6267e",
       "lever:tri:e7cc38d2-2b08-4349-b322-4d56cac9fb1b"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -6816,5 +6862,5 @@
    }
   }
  },
- "updated_at": "2026-11-10T11:59:37Z"
+ "updated_at": "2026-11-10T19:59:04Z"
 }
