@@ -1,6 +1,26 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:skydio:c85af510-9fe4-4167-a914-c3ab344bef03",
+      "workable:syntiant:468B53B345",
+      "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935",
+      "workday:tsys:/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068",
+      "greenhouse:judihealth:5477146008",
+      "greenhouse:minitab:8200356003",
+      "workday:salesforce:/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3",
+      "workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---2027-Foster-City--CA_REF085862W",
+      "smartrecruiters:WesternDigital:744000160975819"
+    ],
+    "telegram": [
+      "ashby:skydio:c85af510-9fe4-4167-a914-c3ab344bef03",
+      "workable:syntiant:468B53B345",
+      "workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935",
+      "workday:tsys:/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068",
+      "greenhouse:judihealth:5477146008",
+      "greenhouse:minitab:8200356003",
+      "workday:salesforce:/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3",
+      "workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---2027-Foster-City--CA_REF085862W",
+      "smartrecruiters:WesternDigital:744000160975819"
+    ]
   }
 }

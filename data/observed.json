@@ -3912,6 +3912,18 @@
     }
    }
   },
+  "minitab": {
+   "name": "Minitab",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-10",
+     "role_ids": [
+      "greenhouse:minitab:8200356003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "modernizing medicine": {
    "name": "Modernizing Medicine",
    "cycles": {
@@ -5315,9 +5327,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-20",
      "role_ids": [
-      "workday:salesforce:/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1"
+      "workday:salesforce:/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1",
+      "workday:salesforce:/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5627,9 +5640,10 @@
       "ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd",
       "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52",
       "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
+      "ashby:skydio:c85af510-9fe4-4167-a914-c3ab344bef03",
       "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb"
      ],
-     "count": 7
+     "count": 8
     }
    }
   },
@@ -6495,12 +6509,13 @@
       "workday:visa:/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1",
       "workday:visa:/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2",
       "workday:visa:/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-1",
+      "workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---2027-Foster-City--CA_REF085862W",
       "workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
       "workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1",
       "workday:visa:/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
       "workday:visa:/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF089919W-1"
      ],
-     "count": 20
+     "count": 21
     }
    }
   },
@@ -6654,12 +6669,13 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-28",
-     "count": 4,
+     "count": 5,
      "role_ids": [
       "smartrecruiters:WesternDigital:744000134646158",
       "smartrecruiters:WesternDigital:744000134646354",
       "smartrecruiters:WesternDigital:744000138727213",
-      "smartrecruiters:WesternDigital:744000143171017"
+      "smartrecruiters:WesternDigital:744000143171017",
+      "smartrecruiters:WesternDigital:744000160975819"
      ]
     }
    }
@@ -6862,5 +6878,5 @@
    }
   }
  },
- "updated_at": "2026-11-10T19:59:04Z"
+ "updated_at": "2026-11-11T00:57:47Z"
 }
