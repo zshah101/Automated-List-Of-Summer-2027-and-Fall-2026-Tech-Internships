@@ -1125,6 +1125,18 @@
     }
    }
   },
+  "brex": {
+   "name": "Brex",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-11",
+     "role_ids": [
+      "greenhouse:brex:8936403002"
+     ],
+     "count": 1
+    }
+   }
+  },
   "brown brothers harriman": {
    "name": "Brown Brothers Harriman",
    "cycles": {
@@ -2300,9 +2312,22 @@
      "first_posted": "2026-09-21",
      "role_ids": [
       "greenhouse:formlabsinternships:8222268",
-      "greenhouse:formlabsinternships:8223362"
+      "greenhouse:formlabsinternships:8223362",
+      "greenhouse:formlabsinternships:8256076"
      ],
-     "count": 2
+     "count": 3
+    }
+   }
+  },
+  "formulary financial": {
+   "name": "Formulary Financial",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-08",
+     "role_ids": [
+      "ashby:formulary:bbc4fef5-3cff-4879-89bc-65aba1214b04"
+     ],
+     "count": 1
     }
    }
   },
@@ -3551,6 +3576,18 @@
     }
    }
   },
+  "lightmatter": {
+   "name": "Lightmatter",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-11",
+     "role_ids": [
+      "greenhouse:lightmatter:5479596008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "linkedin": {
    "name": "LinkedIn",
    "cycles": {
@@ -3925,6 +3962,18 @@
     }
    }
   },
+  "mks instruments": {
+   "name": "MKS Instruments",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-11",
+     "role_ids": [
+      "workday:mksinst:/job/Andover-MA/XMLNAME-2027-Summer-Software-Engineer-Co-op_R20610"
+     ],
+     "count": 1
+    }
+   }
+  },
   "modernizing medicine": {
    "name": "Modernizing Medicine",
    "cycles": {
@@ -4056,10 +4105,12 @@
       "workday:motorolasolutions:/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136",
       "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782",
+      "workday:motorolasolutions:/job/Schaumburg-IL/Software-Engineering-Intern---2027-Summer-Internship_R70179",
+      "workday:motorolasolutions:/job/Schaumburg-IL/XMLNAME-2027-Summer-Embedded-SW-Engineering-Intern_R67741-1",
       "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
       "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
      ],
-     "count": 15
+     "count": 17
     }
    }
   },
@@ -5195,6 +5246,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01888146",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01871884",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
@@ -5223,6 +5275,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01877155",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878083",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871278",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871442",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871444",
@@ -5238,7 +5291,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375"
      ],
-     "count": 53
+     "count": 55
     }
    }
   },
@@ -5518,12 +5571,17 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
+      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:a28e047a-ee12-452c-883b-ecd995d1b6b2",
+      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:db04c516-d21a-449c-8bfd-1cf830eafb5a",
+      "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
+      "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
+      "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
       "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
       "lever:shieldai:aa71c28a-be00-43ca-8aa7-b764b2143797",
       "lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4",
       "lever:shieldai:db8fc063-8856-4404-991c-f287712de949"
      ],
-     "count": 5
+     "count": 10
     }
    }
   },
@@ -6879,5 +6937,5 @@
    }
   }
  },
- "updated_at": "2026-11-11T15:54:01Z"
+ "updated_at": "2026-11-11T22:33:26Z"
 }

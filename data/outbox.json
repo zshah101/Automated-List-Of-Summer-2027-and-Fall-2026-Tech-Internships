@@ -1,6 +1,54 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workable:bask-health-1:9D7E69054E",
+      "workable:bask-health-1:E81C7F7D3B",
+      "workable:bask-health-1:98DB106D88",
+      "ashby:formulary:bbc4fef5-3cff-4879-89bc-65aba1214b04",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115637",
+      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:a28e047a-ee12-452c-883b-ecd995d1b6b2",
+      "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
+      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:db04c516-d21a-449c-8bfd-1cf830eafb5a",
+      "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
+      "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
+      "lever:tri:da4b4832-36e7-4703-9841-c319efd6d495",
+      "workday:austalusa:/job/Mobile-AL/Cybersecurity-Intern_R0012221",
+      "workday:boseallaboutme:/job/US-MA---Framingham/Digital-Signal-Processing-ML-Software-Development-Co-op_R29372",
+      "greenhouse:brex:8936403002",
+      "greenhouse:formlabsinternships:8256076",
+      "greenhouse:lightmatter:5479596008",
+      "greenhouse:minitab:8200698003",
+      "workday:mksinst:/job/Andover-MA/XMLNAME-2027-Summer-Software-Engineer-Co-op_R20610",
+      "workday:motorolasolutions:/job/Schaumburg-IL/Software-Engineering-Intern---2027-Summer-Internship_R70179",
+      "workday:motorolasolutions:/job/Schaumburg-IL/XMLNAME-2027-Summer-Embedded-SW-Engineering-Intern_R67741-1",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01888146",
+      "greenhouse:samsungsemiconductor:8197305003"
+    ],
+    "telegram": [
+      "workable:bask-health-1:9D7E69054E",
+      "workable:bask-health-1:E81C7F7D3B",
+      "workable:bask-health-1:98DB106D88",
+      "ashby:formulary:bbc4fef5-3cff-4879-89bc-65aba1214b04",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115637",
+      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:a28e047a-ee12-452c-883b-ecd995d1b6b2",
+      "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
+      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:db04c516-d21a-449c-8bfd-1cf830eafb5a",
+      "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
+      "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
+      "lever:tri:da4b4832-36e7-4703-9841-c319efd6d495",
+      "workday:austalusa:/job/Mobile-AL/Cybersecurity-Intern_R0012221",
+      "workday:boseallaboutme:/job/US-MA---Framingham/Digital-Signal-Processing-ML-Software-Development-Co-op_R29372",
+      "greenhouse:brex:8936403002",
+      "greenhouse:formlabsinternships:8256076",
+      "greenhouse:lightmatter:5479596008",
+      "greenhouse:minitab:8200698003",
+      "workday:mksinst:/job/Andover-MA/XMLNAME-2027-Summer-Software-Engineer-Co-op_R20610",
+      "workday:motorolasolutions:/job/Schaumburg-IL/Software-Engineering-Intern---2027-Summer-Internship_R70179",
+      "workday:motorolasolutions:/job/Schaumburg-IL/XMLNAME-2027-Summer-Embedded-SW-Engineering-Intern_R67741-1",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01888146",
+      "greenhouse:samsungsemiconductor:8197305003"
+    ]
   }
 }

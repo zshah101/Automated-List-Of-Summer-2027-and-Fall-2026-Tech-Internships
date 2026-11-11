@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T15:54:01Z",
- "data_as_of": "2026-11-11T15:54:01Z",
- "rendered_at": "2026-11-11T15:54:01Z",
+ "generated_at": "2026-11-11T22:33:26Z",
+ "data_as_of": "2026-11-11T22:33:26Z",
+ "rendered_at": "2026-11-11T22:33:27Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1157,6 +1157,25 @@
    "days_until": -78,
    "status": "open",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/Software-Engineering-Intern--Cloud-Platform--Summer-2027-_JR-2604034",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-25"
+   }
+  },
+  {
+   "company": "Grant Thornton",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-25",
+   "days_until": -78,
+   "status": "open",
+   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3616,25 +3635,6 @@
    }
   },
   {
-   "company": "Enova",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-29",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-29",
-   "days_until": -43,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/enova/jobs/8239619",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-29"
-   }
-  },
-  {
    "company": "Muon Space",
    "last_cycle_posted": "",
    "posted_on": "2026-09-29",
@@ -3670,25 +3670,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-29"
-   }
-  },
-  {
-   "company": "ATC",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-01",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-01",
-   "days_until": -41,
-   "status": "open",
-   "url": "https://atcllc.wd5.myworkdayjobs.com/atcllc/job/Pewaukee-WI/Intern---Cyber-Security-Summer-2027_R0003307",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-01"
    }
   },
   {
@@ -3931,25 +3912,6 @@
    "days_until": -36,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/courierhealth/jobs/5258913007",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-06"
-   }
-  },
-  {
-   "company": "Dmainc",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-06",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-06",
-   "days_until": -36,
-   "status": "open",
-   "url": "https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Cybersecurity-Intern---Summer-2027_REQ742",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5383,6 +5345,25 @@
    }
   },
   {
+   "company": "Formulary Financial",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-08",
+   "days_until": -3,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/formulary/bbc4fef5-3cff-4879-89bc-65aba1214b04",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-08"
+   }
+  },
+  {
    "company": "Illumio",
    "last_cycle_posted": "",
    "posted_on": "2026-11-09",
@@ -5475,6 +5456,63 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-10"
+   }
+  },
+  {
+   "company": "Brex",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://www.brex.com/careers/8936403002?gh_jid=8936403002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
+   }
+  },
+  {
+   "company": "Lightmatter",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
+   }
+  },
+  {
+   "company": "MKS Instruments",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://mksinst.wd1.myworkdayjobs.com/MKSCareersUniversity/job/Andover-MA/XMLNAME-2027-Summer-Software-Engineer-Co-op_R20610",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
    }
   },
   {
@@ -8041,25 +8079,6 @@
    }
   },
   {
-   "company": "Grant Thornton",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-25",
-   "days_until": -78,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-25"
-   }
-  },
-  {
    "company": "Verisk",
    "last_cycle_posted": "",
    "posted_on": "2026-08-26",
@@ -9238,6 +9257,25 @@
    }
   },
   {
+   "company": "Enova",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-29",
+   "days_until": -43,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-29"
+   }
+  },
+  {
    "company": "Itron",
    "last_cycle_posted": "",
    "posted_on": "2026-09-29",
@@ -9292,6 +9330,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-30"
+   }
+  },
+  {
+   "company": "ATC",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": -41,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
    }
   },
   {
@@ -9387,6 +9444,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-05"
+   }
+  },
+  {
+   "company": "Dmainc",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-06",
+   "days_until": -36,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-06"
    }
   },
   {
@@ -9827,5 +9903,5 @@
    }
   }
  ],
- "count": 517
+ "count": 521
 }
