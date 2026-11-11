@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:regent:dfdbb28f-f289-45b9-a2e5-158d81b93524",
+      "workday:dtna:/job/Detroit-MI-US/Cybersecurity-Intern--Governance--Risk--and-Compliance--GRC--Analyst_DT-20656"
+    ],
+    "telegram": [
+      "ashby:regent:dfdbb28f-f289-45b9-a2e5-158d81b93524",
+      "workday:dtna:/job/Detroit-MI-US/Cybersecurity-Intern--Governance--Risk--and-Compliance--GRC--Analyst_DT-20656"
+    ]
   }
 }
