@@ -1781,6 +1781,11 @@
     "ats": "lever"
   },
   {
+    "name": "Ande",
+    "slug": "ande",
+    "ats": "ashby"
+  },
+  {
     "name": "Andersen Corporation",
     "slug": "andersen",
     "ats": "workday",
@@ -3526,6 +3531,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Bask Health",
+    "slug": "bask-health-1",
+    "ats": "workable"
+  },
+  {
     "name": "Bass Pro Shops",
     "slug": "basspro",
     "ats": "workday",
@@ -3886,6 +3896,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "external"
+  },
+  {
+    "name": "Biointellisense",
+    "slug": "biointellisense",
+    "ats": "lever"
   },
   {
     "name": "BioMed Realty",
@@ -9017,6 +9032,11 @@
     "ats": "workable"
   },
   {
+    "name": "Eagle Wireless",
+    "slug": "eagle-wireless",
+    "ats": "rippling"
+  },
+  {
     "name": "Early Warning",
     "slug": "earlywarning",
     "ats": "workday",
@@ -9917,6 +9937,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "euNetworks",
+    "slug": "eunetworks",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Eurofins",
     "slug": "Eurofins",
     "ats": "smartrecruiters"
@@ -10031,6 +10056,11 @@
     "name": "Exa Labs",
     "slug": "exa",
     "ats": "ashby"
+  },
+  {
+    "name": "exacare ai",
+    "slug": "exacare-inc",
+    "ats": "rippling"
   },
   {
     "name": "Exact Sciences",
@@ -11033,6 +11063,11 @@
     "site": "F1"
   },
   {
+    "name": "Formulary Financial",
+    "slug": "formulary",
+    "ats": "ashby"
+  },
+  {
     "name": "Fortell",
     "slug": "fortell",
     "ats": "ashby"
@@ -11700,6 +11735,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "Careers_GM"
+  },
+  {
+    "name": "General Translation",
+    "slug": "generaltranslation",
+    "ats": "ashby"
   },
   {
     "name": "Generalist",
@@ -12478,6 +12518,11 @@
   {
     "name": "GRVTY",
     "slug": "grvty",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "GSA Capital",
+    "slug": "gsacapital",
     "ats": "greenhouse"
   },
   {
@@ -13473,6 +13518,11 @@
     "name": "Huck Adventures",
     "slug": "HuckAdventures",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Huckberry",
+    "slug": "huckberry",
+    "ats": "workable"
   },
   {
     "name": "Hudl",
@@ -14530,6 +14580,13 @@
     "site": "IVZearlycareers"
   },
   {
+    "name": "Investissement Québec",
+    "slug": "investquebec",
+    "ats": "workday",
+    "wd": "wd10",
+    "site": "ext"
+  },
+  {
     "name": "Investment Management Corporation of Ontario",
     "slug": "imcoinvest",
     "ats": "workday",
@@ -15156,6 +15213,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Kalshi",
+    "slug": "kalshi",
+    "ats": "ashby"
+  },
+  {
     "name": "Kaluza",
     "slug": "kaluza",
     "ats": "ashby"
@@ -15195,6 +15257,11 @@
   {
     "name": "Kargo",
     "slug": "kargo",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Kasa Living",
+    "slug": "kasa",
     "ats": "greenhouse"
   },
   {
@@ -15469,6 +15536,11 @@
     "name": "Klaviyo",
     "slug": "klaviyojobs",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Klaviyo",
+    "slug": "f40d14d9-07f4-403d-802b-37453deccf0a",
+    "ats": "ashby"
   },
   {
     "name": "Kled AI",
@@ -15923,6 +15995,11 @@
     "name": "Legal & General",
     "slug": "LegalAndGeneral",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Legal 500",
+    "slug": "legal-500",
+    "ats": "ashby"
   },
   {
     "name": "Legend Biotech",
@@ -16456,6 +16533,11 @@
     "name": "Longitude Labs",
     "slug": "longitudelabs",
     "ats": "ashby"
+  },
+  {
+    "name": "Longshot Space Technologies",
+    "slug": "longshot",
+    "ats": "rippling"
   },
   {
     "name": "Longshot Systems",
@@ -18477,6 +18559,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Moss",
+    "slug": "mossrobotics",
+    "ats": "ashby"
+  },
+  {
     "name": "Moss & Associates",
     "slug": "mosscm",
     "ats": "workday",
@@ -18598,6 +18685,11 @@
     "name": "Mulligan Funding",
     "slug": "mulliganfunding",
     "ats": "lever"
+  },
+  {
+    "name": "Multi Media",
+    "slug": "multimediallc",
+    "ats": "workable"
   },
   {
     "name": "MultiCare Health System",
@@ -21312,6 +21404,13 @@
     "name": "Picogrid",
     "slug": "picogrid",
     "ats": "ashby"
+  },
+  {
+    "name": "Piedmont Airlines",
+    "slug": "aaregional",
+    "ats": "workday",
+    "wd": "wd503",
+    "site": "search"
   },
   {
     "name": "Pierre Fabre",
@@ -24627,6 +24726,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Shield AI",
+    "slug": "shield",
+    "ats": "ashby"
+  },
+  {
     "name": "Shields Health Solutions",
     "slug": "shieldshealthsolutions",
     "ats": "greenhouse"
@@ -26016,6 +26120,11 @@
     "name": "Stratolaunch",
     "slug": "stratolaunch",
     "ats": "greenhouse"
+  },
+  {
+    "name": "STRATOS Technologies",
+    "slug": "stratos",
+    "ats": "ashby"
   },
   {
     "name": "Strava",
@@ -27678,6 +27787,11 @@
   {
     "name": "Tonal",
     "slug": "tonal",
+    "ats": "ashby"
+  },
+  {
+    "name": "Tonic",
+    "slug": "tonicai",
     "ats": "ashby"
   },
   {
@@ -30606,6 +30720,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "xylem-careers"
+  },
+  {
+    "name": "XYZ Reality",
+    "slug": "xyz-reality",
+    "ats": "ashby"
   },
   {
     "name": "Yahoo",
