@@ -3,7 +3,6 @@
   "last_digest_roles": 28,
   "last_digest_sent": 253,
   "sent_role_ids": [
-    "greenhouse:xantium:4360768009",
     "greenhouse:xantium:4371217009",
     "oracle:efet.fa.us2.oraclecloud.com:218257",
     "oracle:egug.fa.us2.oraclecloud.com:26011781",
@@ -667,6 +666,7 @@
     "smartrecruiters:VeoliaEnvironnementSA:744000150460339",
     "workday:cir:/job/Fairfield-IA/Consulting-Services-AI---Automation-Intern_R-2025-223",
     "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375",
+    "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375-2",
     "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377",
     "lever:acronaviation:19dbac7d-b4fb-4d21-9247-dc610bf55fed",
     "rippling:rev-robotics:9f4e5d99-0bba-4e03-8018-e312810a3dba",
