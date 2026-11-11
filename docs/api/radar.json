@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T07:29:12Z",
- "data_as_of": "2026-11-11T07:29:12Z",
- "rendered_at": "2026-11-11T07:29:12Z",
+ "generated_at": "2026-11-11T15:54:01Z",
+ "data_as_of": "2026-11-11T15:54:01Z",
+ "rendered_at": "2026-11-11T15:54:01Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -358,7 +358,7 @@
    "expected": "2026-07-13",
    "days_until": -121,
    "status": "open",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
    "note": "opens fall, closes early Feb",
    "provenance": {
     "type": "engine-observed",
@@ -880,25 +880,6 @@
    }
   },
   {
-   "company": "American Express",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-17",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-17",
-   "days_until": -86,
-   "status": "open",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015722",
-   "note": "campus opens mid-summer",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-17"
-   }
-  },
-  {
    "company": "Hilton Worldwide",
    "last_cycle_posted": "",
    "posted_on": "2026-08-17",
@@ -1023,7 +1004,7 @@
    "expected": "2026-08-20",
    "days_until": -83,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679346",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679386",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3445,25 +3426,6 @@
    }
   },
   {
-   "company": "Viking Global",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-21",
-   "days_until": -51,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/vikingglobalinvestors/jobs/6202755004",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-21"
-   }
-  },
-  {
    "company": "Astranis",
    "last_cycle_posted": "",
    "posted_on": "2026-09-22",
@@ -4259,25 +4221,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-12"
-   }
-  },
-  {
-   "company": "ADT",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-13",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-13",
-   "days_until": -29,
-   "status": "open",
-   "url": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022387",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-13"
    }
   },
   {
@@ -7889,6 +7832,25 @@
    }
   },
   {
+   "company": "American Express",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-17",
+   "days_until": -86,
+   "status": "dropped",
+   "url": "",
+   "note": "campus opens mid-summer",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-17"
+   }
+  },
+  {
    "company": "Conagra Brands",
    "last_cycle_posted": "",
    "posted_on": "2026-08-17",
@@ -9143,6 +9105,25 @@
    }
   },
   {
+   "company": "Viking Global",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -51,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Grow Therapy",
    "last_cycle_posted": "",
    "posted_on": "2026-09-22",
@@ -9539,6 +9520,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-09"
+   }
+  },
+  {
+   "company": "ADT",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-13",
+   "days_until": -29,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-13"
    }
   },
   {

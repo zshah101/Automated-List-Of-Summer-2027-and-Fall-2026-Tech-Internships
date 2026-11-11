@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-11-11T07:29:12Z</updated>
+  <updated>2026-11-11T15:54:01Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:dow:/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169</id>
+    <title>Dow Chemical Company: Local College Co-op: Infrastructure Mapping &amp; Data Quality (Michigan Operations) 🛂</title>
+    <link href="https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169"/>
+    <updated>2026-11-11T15:54:01Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Midland (MI, USA) · sponsorship: no-sponsorship · H-1B track record: ~61 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer-Intern--Summer-2027-_JR-2604028</id>
+    <title>GlobalFoundries: AI Processor Hardware/Software Integration Engineer Intern (Summer 2027)</title>
+    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer-Intern--Summer-2027-_JR-2604028"/>
+    <updated>2026-11-11T15:54:01Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA - Texas - Richardson · Python, C++, PyTorch, TensorFlow, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:rockwellautomation:/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2</id>
+    <title>Rockwell Automation: Intern, Software Developer/Engineering 🛂</title>
+    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2"/>
+    <updated>2026-11-11T15:54:01Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Mequon, Wisconsin, United States · C#, Angular, .NET · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:unisys:/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421</id>
+    <title>Unisys: Software Engineer Intern</title>
+    <link href="https://unisys.wd5.myworkdayjobs.com/External/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421"/>
+    <updated>2026-11-11T15:54:01Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Eagan, MN, United States of America · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:regent:dfdbb28f-f289-45b9-a2e5-158d81b93524</id>
     <title>REGENT: Cybersecurity &amp; IT Operations Intern (Summer)</title>
@@ -774,37 +806,5 @@
     <updated>2026-11-05T22:12:40Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Francisco, CALIFORNIA, United States (Hybrid) · $19.61/hr · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:borgwarner:/job/Auburn-Hills---Michigan---USA/Software-Test-Intern_R2026-4385-1</id>
-    <title>BorgWarner: Software Test Intern</title>
-    <link href="https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Software-Test-Intern_R2026-4385-1"/>
-    <updated>2026-11-05T22:12:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Auburn Hills - Michigan - USA · sponsorship: offers</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Embedded-Software-Co-Op_R0273960</id>
-    <title>Fresenius Medical Care: Embedded Software Co-Op</title>
-    <link href="https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Embedded-Software-Co-Op_R0273960"/>
-    <updated>2026-11-05T22:12:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Lawrence, MA, USA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--AI-IT_R9675</id>
-    <title>Little Caesars Enterprises: Intern, AI IT</title>
-    <link href="https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Intern--AI-IT_R9675"/>
-    <updated>2026-11-05T22:12:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Detroit, MI</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--Cyber-IT_R9672</id>
-    <title>Little Caesars Enterprises: Intern, Cyber IT</title>
-    <link href="https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Intern--Cyber-IT_R9672"/>
-    <updated>2026-11-05T22:12:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Detroit, MI</summary>
   </entry>
 </feed>
