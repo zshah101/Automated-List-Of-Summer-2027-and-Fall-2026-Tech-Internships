@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260818",
-      "workday:dow:/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169",
-      "workday:globalfoundries:/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer-Intern--Summer-2027-_JR-2604028",
-      "workday:rockwellautomation:/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
-      "workday:unisys:/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421"
-    ],
-    "telegram": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260818",
-      "workday:dow:/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169",
-      "workday:globalfoundries:/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer-Intern--Summer-2027-_JR-2604028",
-      "workday:rockwellautomation:/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
-      "workday:unisys:/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
