@@ -2091,6 +2091,18 @@
     }
    }
   },
+  "entegris": {
+   "name": "Entegris",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-12",
+     "role_ids": [
+      "workday:entegris:/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870"
+     ],
+     "count": 1
+    }
+   }
+  },
   "equifax": {
    "name": "Equifax",
    "cycles": {
@@ -2695,6 +2707,19 @@
     }
    }
   },
+  "greystone": {
+   "name": "Greystone",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "workday:greyco:/job/New-York-NY/Summer-2027---Salesforce-Developer-Intern_JR0000144",
+      "workday:greyco:/job/Warrenton-VA/Summer-2027---Full-Stack-Engineer-Internship_JR0000145"
+     ],
+     "count": 2
+    }
+   }
+  },
   "grow therapy": {
    "name": "Grow Therapy",
    "cycles": {
@@ -2833,11 +2858,12 @@
       "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J290027",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Business-Analysis-and-AI-enGen-Undergraduate-Intern_J291552",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Data-Analyst-enGen-Undergraduate-Intern_J286826",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Architecture-Software-Engineer---Architect-enGen-Undergradute-Intern_J289821",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801"
      ],
-     "count": 8
+     "count": 9
     }
    }
   },
@@ -3320,6 +3346,18 @@
     }
    }
   },
+  "johnson controls": {
+   "name": "Johnson Controls",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-12",
+     "role_ids": [
+      "workday:jci:/job/Waynesboro-Pennsylvania-United-States-of-America/Computer-Science-CAD-Intern_WD30285046"
+     ],
+     "count": 1
+    }
+   }
+  },
   "johnson johnson": {
    "name": "Johnson & Johnson",
    "cycles": {
@@ -3736,6 +3774,18 @@
      "first_posted": "2026-11-06",
      "role_ids": [
       "workday:marmon:/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "martin marietta": {
+   "name": "Martin Marietta",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-11",
+     "role_ids": [
+      "workday:martinmarietta:/job/Raleigh-NC/Intern--IS-Infrastructure_JR023723"
      ],
      "count": 1
     }
@@ -4506,13 +4556,14 @@
      "first_posted": "2026-09-15",
      "role_ids": [
       "workday:nvidia:/job/US-CA-Santa-Clara/AI-Operations-Intern--AI-Clouds---Summer-2027_JR2029119-1",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Deep-Learning-Scientist-Intern--LLM--Multimodal-and-Agentic-AI---Summer-2027_JR2027548",
       "workday:nvidia:/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
       "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
       "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530",
       "workday:nvidia:/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170",
       "workday:nvidia:/job/US-WA-Redmond/Compiler-Software-Engineering-Intern---Summer-2027_JR2028607"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -4747,12 +4798,13 @@
      "role_ids": [
       "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
       "workday:philips:/job/Bothell-Washington-United-States/Intern---R-D-Front-End-Innovation-Intern---Oral-Healthcare---Bothell--WA---Summer-2027_593146",
+      "workday:philips:/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012",
       "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
      ],
-     "count": 6
+     "count": 7
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4900,9 +4952,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-26",
      "role_ids": [
+      "workday:ptc:/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926",
       "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5558,9 +5611,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-17",
      "role_ids": [
-      "greenhouse:sharkninjaoperatingllc:4713808006"
+      "greenhouse:sharkninjaoperatingllc:4713808006",
+      "greenhouse:sharkninjaoperatingllc:4727539006"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5633,10 +5687,11 @@
      "first_posted": "2026-09-23",
      "role_ids": [
       "workday:snc:/job/Dayton-OH/Software-Engineer-I--For-2026-Interns-Only-_R0030889",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineer-I--For-2026-Interns-Only-_R0031346",
       "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608",
       "workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -6947,5 +7002,5 @@
    }
   }
  },
- "updated_at": "2026-11-12T12:09:04Z"
+ "updated_at": "2026-11-12T20:10:33Z"
 }

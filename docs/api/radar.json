@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T12:09:04Z",
- "data_as_of": "2026-11-12T12:09:04Z",
- "rendered_at": "2026-11-12T12:09:04Z",
+ "generated_at": "2026-11-12T20:10:33Z",
+ "data_as_of": "2026-11-12T20:10:33Z",
+ "rendered_at": "2026-11-12T20:10:33Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -284,25 +284,6 @@
    "status": "open",
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -127,
-   "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1",
-   "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -975,25 +956,6 @@
    }
   },
   {
-   "company": "AbbVie",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-20",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-20",
-   "days_until": -84,
-   "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679386",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-20"
-   }
-  },
-  {
    "company": "Fifth Third Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-08-20",
@@ -1479,7 +1441,7 @@
    "expected": "2026-08-31",
    "days_until": -73,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/hpiq/jobs/6111955004",
+   "url": "https://job-boards.greenhouse.io/hpiq/jobs/6114781004",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3578,6 +3540,25 @@
    }
   },
   {
+   "company": "Blue Cross Blue Shield of Michigan",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-28",
+   "days_until": -45,
+   "status": "open",
+   "url": "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/14837",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-28"
+   }
+  },
+  {
    "company": "Veterans United",
    "last_cycle_posted": "",
    "posted_on": "2026-09-28",
@@ -4411,6 +4392,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-19"
+   }
+  },
+  {
+   "company": "Greystone",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-20",
+   "days_until": -23,
+   "status": "open",
+   "url": "https://greyco.wd108.myworkdayjobs.com/GTI/job/Warrenton-VA/Summer-2027---Full-Stack-Engineer-Internship_JR0000145",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-20"
    }
   },
   {
@@ -5478,6 +5478,25 @@
    }
   },
   {
+   "company": "Martin Marietta",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--IS-Infrastructure_JR023723",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
+   }
+  },
+  {
    "company": "MKS Instruments",
    "last_cycle_posted": "",
    "posted_on": "2026-11-11",
@@ -5494,6 +5513,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-11"
+   }
+  },
+  {
+   "company": "Entegris",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-12",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-12"
+   }
+  },
+  {
+   "company": "Johnson Controls",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-12",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Waynesboro-Pennsylvania-United-States-of-America/Computer-Science-CAD-Intern_WD30285046",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-12"
    }
   },
   {
@@ -7604,6 +7661,25 @@
    }
   },
   {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -127,
+   "status": "dropped",
+   "url": "",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
    "company": "Old Mission Capital",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -7962,6 +8038,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-19"
+   }
+  },
+  {
+   "company": "AbbVie",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-20",
+   "days_until": -84,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-20"
    }
   },
   {
@@ -9219,25 +9314,6 @@
    }
   },
   {
-   "company": "Blue Cross Blue Shield of Michigan",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-28",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-28",
-   "days_until": -45,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-28"
-   }
-  },
-  {
    "company": "POET",
    "last_cycle_posted": "",
    "posted_on": "2026-09-28",
@@ -9922,5 +9998,5 @@
    }
   }
  ],
- "count": 522
+ "count": 526
 }

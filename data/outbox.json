@@ -1,6 +1,44 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workable:bask-health-1:F0E122E877",
+      "workable:bask-health-1:71AEBBCADE",
+      "oracle:ejko.fa.us2.oraclecloud.com:14837",
+      "lever:pattern:ad978732-7171-473d-9400-0a6fc9e23cf7",
+      "workday:argonne:/job/Lemont-IL-USA/Intern---Business-Information-Systems--Enterprise-Software-Solutions_423702",
+      "smartrecruiters:BoschGroup:744000161339309",
+      "workday:entegris:/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870",
+      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Agentic-AI-Analytics-Co-op_R0277797",
+      "workday:greyco:/job/Warrenton-VA/Summer-2027---Full-Stack-Engineer-Internship_JR0000145",
+      "workday:greyco:/job/New-York-NY/Summer-2027---Salesforce-Developer-Intern_JR0000144",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Business-Analysis-and-AI-enGen-Undergraduate-Intern_J291552",
+      "workday:jci:/job/Waynesboro-Pennsylvania-United-States-of-America/Computer-Science-CAD-Intern_WD30285046",
+      "workday:martinmarietta:/job/Raleigh-NC/Intern--IS-Infrastructure_JR023723",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Deep-Learning-Scientist-Intern--LLM--Multimodal-and-Agentic-AI---Summer-2027_JR2027548",
+      "workday:philips:/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012",
+      "workday:ptc:/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926",
+      "greenhouse:sharkninjaoperatingllc:4727539006",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineer-I--For-2026-Interns-Only-_R0031346"
+    ],
+    "telegram": [
+      "workable:bask-health-1:F0E122E877",
+      "workable:bask-health-1:71AEBBCADE",
+      "oracle:ejko.fa.us2.oraclecloud.com:14837",
+      "lever:pattern:ad978732-7171-473d-9400-0a6fc9e23cf7",
+      "workday:argonne:/job/Lemont-IL-USA/Intern---Business-Information-Systems--Enterprise-Software-Solutions_423702",
+      "smartrecruiters:BoschGroup:744000161339309",
+      "workday:entegris:/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870",
+      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Agentic-AI-Analytics-Co-op_R0277797",
+      "workday:greyco:/job/Warrenton-VA/Summer-2027---Full-Stack-Engineer-Internship_JR0000145",
+      "workday:greyco:/job/New-York-NY/Summer-2027---Salesforce-Developer-Intern_JR0000144",
+      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Business-Analysis-and-AI-enGen-Undergraduate-Intern_J291552",
+      "workday:jci:/job/Waynesboro-Pennsylvania-United-States-of-America/Computer-Science-CAD-Intern_WD30285046",
+      "workday:martinmarietta:/job/Raleigh-NC/Intern--IS-Infrastructure_JR023723",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Deep-Learning-Scientist-Intern--LLM--Multimodal-and-Agentic-AI---Summer-2027_JR2027548",
+      "workday:philips:/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012",
+      "workday:ptc:/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926",
+      "greenhouse:sharkninjaoperatingllc:4727539006",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineer-I--For-2026-Interns-Only-_R0031346"
+    ]
   }
 }
