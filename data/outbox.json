@@ -1,28 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workable:bask-health-1:9C2964C7CD",
-      "ashby:leland:94347c0b-273b-4c17-9987-563912629633",
-      "lever:tri:ad346610-e4a6-4cd2-a357-11d731b136a2",
-      "workday:bloomenergy:/job/San-Jose-California/Data-Science-Intern_JR-25360",
-      "workday:bloomenergy:/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361",
-      "workday:bloomenergy:/job/San-Jose-California/RMCC-Data-Science-Intern_JR-25362",
-      "workday:hubinternational:/job/Chicago-IL/AI-Engineering-Intern_R0039470",
-      "workday:huron:/job/Washington-DC---1800-M-Street-NW/Internal-Audit-and-Risk-Management---Data-Analytics---AI--Summer-2027-Internship-_JR-0017165",
-      "smartrecruiters:ServiceNow:744000161209600",
-      "smartrecruiters:ServiceNow:744000161204235"
-    ],
-    "telegram": [
-      "workable:bask-health-1:9C2964C7CD",
-      "ashby:leland:94347c0b-273b-4c17-9987-563912629633",
-      "lever:tri:ad346610-e4a6-4cd2-a357-11d731b136a2",
-      "workday:bloomenergy:/job/San-Jose-California/Data-Science-Intern_JR-25360",
-      "workday:bloomenergy:/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361",
-      "workday:bloomenergy:/job/San-Jose-California/RMCC-Data-Science-Intern_JR-25362",
-      "workday:hubinternational:/job/Chicago-IL/AI-Engineering-Intern_R0039470",
-      "workday:huron:/job/Washington-DC---1800-M-Street-NW/Internal-Audit-and-Risk-Management---Data-Analytics---AI--Summer-2027-Internship-_JR-0017165",
-      "smartrecruiters:ServiceNow:744000161209600",
-      "smartrecruiters:ServiceNow:744000161204235"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
