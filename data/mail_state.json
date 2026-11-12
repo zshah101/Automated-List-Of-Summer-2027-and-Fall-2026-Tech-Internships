@@ -3,7 +3,6 @@
   "last_digest_roles": 34,
   "last_digest_sent": 253,
   "sent_role_ids": [
-    "oracle:ejhp.fa.us6.oraclecloud.com:2621017",
     "workday:amcor:/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190",
     "oracle:egug.fa.us2.oraclecloud.com:26011679",
     "workday:keybank:/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
@@ -1649,6 +1648,7 @@
     "workday:visa:/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2",
     "workday:visa:/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W",
     "workday:visa:/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-1",
+    "workday:visa:/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-3",
     "workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841",
     "ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
     "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
