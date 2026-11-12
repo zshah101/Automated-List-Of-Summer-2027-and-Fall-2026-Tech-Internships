@@ -2999,6 +2999,18 @@
     }
    }
   },
+  "huron": {
+   "name": "Huron",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-11",
+     "role_ids": [
+      "workday:huron:/job/Washington-DC---1800-M-Street-NW/Internal-Audit-and-Risk-Management---Data-Analytics---AI--Summer-2027-Internship-_JR-0017165"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hy vee": {
    "name": "Hy-Vee",
    "cycles": {
@@ -5571,8 +5583,6 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
-      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:a28e047a-ee12-452c-883b-ecd995d1b6b2",
-      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:db04c516-d21a-449c-8bfd-1cf830eafb5a",
       "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
       "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
       "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
@@ -5581,7 +5591,7 @@
       "lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4",
       "lever:shieldai:db8fc063-8856-4404-991c-f287712de949"
      ],
-     "count": 10
+     "count": 8
     }
    }
   },
@@ -6937,5 +6947,5 @@
    }
   }
  },
- "updated_at": "2026-11-11T22:33:26Z"
+ "updated_at": "2026-11-12T03:38:14Z"
 }
