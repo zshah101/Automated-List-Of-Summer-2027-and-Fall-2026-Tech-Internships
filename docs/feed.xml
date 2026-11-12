@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-11-12T03:38:14Z</updated>
+  <updated>2026-11-12T12:09:04Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:workable:bask-health-1:9C2964C7CD</id>
-    <title>Bask Health: Frontend Engineering Intern</title>
-    <link href="https://apply.workable.com/bask-health-1/j/9C2964C7CD/"/>
-    <updated>2026-11-12T03:38:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · United States (Remote) · TypeScript, JavaScript, React, Next.js, HTML/CSS</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:ashby:leland:94347c0b-273b-4c17-9987-563912629633</id>
     <title>Leland: AI Education Intern</title>
@@ -32,12 +24,28 @@
     <summary>Not stated · Data &amp; ML/AI · Los Altos, CA · $65/hr · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bloomenergy:/job/San-Jose-California/Data-Science-Intern_JR-25360</id>
-    <title>Bloom Energy: Data Science Intern 🛂</title>
-    <link href="https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Data-Science-Intern_JR-25360"/>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161204235</id>
+    <title>ServiceNow: Assoc Information Security Engineer Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161204235"/>
     <updated>2026-11-12T03:38:14Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Jose, California · $36–$50/hr · Python, SQL, Git · sponsorship: no-sponsorship · H-1B track record: ~49 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Security · San Diego, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161209600</id>
+    <title>ServiceNow: Assoc AI Engineering (Cloud Security Automation) Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161209600"/>
+    <updated>2026-11-12T03:38:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:bask-health-1:9C2964C7CD</id>
+    <title>Bask Health: Frontend Engineering Intern</title>
+    <link href="https://apply.workable.com/bask-health-1/j/9C2964C7CD/"/>
+    <updated>2026-11-12T03:38:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States (Remote) · TypeScript, JavaScript, React, Next.js, HTML/CSS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bloomenergy:/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361</id>
@@ -46,6 +54,14 @@
     <updated>2026-11-12T03:38:14Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · San Jose, California · $36–$50/hr · Python, LLMs, Git · sponsorship: no-sponsorship · H-1B track record: ~49 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bloomenergy:/job/San-Jose-California/Data-Science-Intern_JR-25360</id>
+    <title>Bloom Energy: Data Science Intern 🛂</title>
+    <link href="https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Data-Science-Intern_JR-25360"/>
+    <updated>2026-11-12T03:38:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Jose, California · $36–$50/hr · Python, SQL, Git · sponsorship: no-sponsorship · H-1B track record: ~49 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bloomenergy:/job/San-Jose-California/RMCC-Data-Science-Intern_JR-25362</id>
@@ -70,22 +86,6 @@
     <updated>2026-11-12T03:38:14Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Washington DC - 1800 M Street, NW · $30/hr · Python, SQL, PyTorch, TensorFlow, scikit-learn</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161209600</id>
-    <title>ServiceNow: Assoc AI Engineering (Cloud Security Automation) Intern</title>
-    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161209600"/>
-    <updated>2026-11-12T03:38:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161204235</id>
-    <title>ServiceNow: Assoc Information Security Engineer Intern</title>
-    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161204235"/>
-    <updated>2026-11-12T03:38:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · San Diego, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:formulary:bbc4fef5-3cff-4879-89bc-65aba1214b04</id>
