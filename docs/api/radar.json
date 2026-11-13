@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T01:21:23Z",
- "data_as_of": "2026-11-13T01:21:23Z",
- "rendered_at": "2026-11-13T01:21:23Z",
+ "generated_at": "2026-11-13T08:07:54Z",
+ "data_as_of": "2026-11-13T08:07:54Z",
+ "rendered_at": "2026-11-13T08:07:55Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -2381,25 +2381,6 @@
    }
   },
   {
-   "company": "Pilot Company",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-09",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-09",
-   "days_until": -65,
-   "status": "open",
-   "url": "https://jobs.smartrecruiters.com/PilotCompany/744000148577368",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-09"
-   }
-  },
-  {
    "company": "Rocket Lab",
    "last_cycle_posted": "",
    "posted_on": "2026-09-09",
@@ -2676,7 +2657,7 @@
    "expected": "2026-09-10",
    "days_until": -64,
    "status": "open",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114",
+   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Frederick-CO/Cloud-Software-Development-Intern---The-Toro-Company_JR17498",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3380,6 +3361,25 @@
    "days_until": -50,
    "status": "open",
    "url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
+   }
+  },
+  {
+   "company": "Aurora Innovation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -50,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4794,25 +4794,6 @@
    }
   },
   {
-   "company": "Sherwin-Williams",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-28",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-28",
-   "days_until": -16,
-   "status": "open",
-   "url": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2627789",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-28"
-   }
-  },
-  {
    "company": "Garda Capital Partners",
    "last_cycle_posted": "",
    "posted_on": "2026-10-30",
@@ -4956,7 +4937,7 @@
    "expected": "2026-11-03",
    "days_until": -10,
    "status": "open",
-   "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260",
+   "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5488,7 +5469,7 @@
    "expected": "2026-11-12",
    "days_until": -1,
    "status": "open",
-   "url": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870",
+   "url": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -8668,6 +8649,25 @@
    }
   },
   {
+   "company": "Pilot Company",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-09",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-09",
+   "days_until": -65,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-09"
+   }
+  },
+  {
    "company": "Hudl",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -9273,25 +9273,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-22"
-   }
-  },
-  {
-   "company": "Aurora Innovation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-24",
-   "days_until": -50,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-24"
    }
   },
   {
@@ -9904,6 +9885,25 @@
   },
   {
    "company": "Ace Hardware",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-28",
+   "days_until": -16,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-28"
+   }
+  },
+  {
+   "company": "Sherwin-Williams",
    "last_cycle_posted": "",
    "posted_on": "2026-10-28",
    "precision": "day",

@@ -761,12 +761,13 @@
     "Summer 2027": {
      "first_posted": "2026-09-24",
      "role_ids": [
+      "ashby:aurora-operations-inc:06daa269-c02b-43a4-88b8-b57a3ba335ef",
       "ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
       "ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
       "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
       "ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -7032,5 +7033,5 @@
    }
   }
  },
- "updated_at": "2026-11-13T01:21:23Z"
+ "updated_at": "2026-11-13T08:07:54Z"
 }
