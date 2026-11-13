@@ -5148,6 +5148,13 @@
      "role_ids": [
       "ashby:reliable-robotics:c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-11-13",
+     "role_ids": [
+      "ashby:reliable-robotics:cbd31c94-5a83-4d1e-8252-de67a5e594ed"
+     ],
+     "count": 1
     }
    }
   },
@@ -7046,5 +7053,5 @@
    }
   }
  },
- "updated_at": "2026-11-13T16:32:54Z"
+ "updated_at": "2026-11-13T22:25:23Z"
 }

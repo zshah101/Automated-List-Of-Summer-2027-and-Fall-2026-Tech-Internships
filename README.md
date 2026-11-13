@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 1273 open roles (619 listed below) · 159 new this week
+### 1279 open roles (625 listed below) · 149 new this week
 
-5,080 employers tracked · data as of Nov 13, 2026 at 16:32 UTC
+5,099 employers tracked · data as of Nov 13, 2026 at 22:25 UTC
 
-_953 have a cycle the employer stated · 320 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_945 have a cycle the employer stated · 334 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -40,7 +40,7 @@ Every link comes straight from the source — so it's real and current, not a st
 | 📆 **A real date on nearly every role** | Taken from the job portal itself wherever the portal states one, so newest-first actually means newest. The exact coverage figure is printed at the bottom of this page every run. |
 | 🧰 **Skill tags + pay, extracted** | Every posting's text is scanned for the stack it wants (Python, C++, PyTorch, …) and the pay it states — searchable on the [dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/), and included in the CSV and API. |
 | 🔔 **Alerts your way** | [Email digests](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe) or [RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml) — point any reader, or a Slack/Discord RSS integration, at it. Plus a [live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/) with search, filters, and a saved-roles list that never leaves your browser. |
-| ⚙️ **An engine, not a spreadsheet** | 5,409 job-board endpoints (5,080 distinct employers; some run more than one board) polled every 30 minutes across 12 ATS platforms. Full source and tests in this repo. |
+| ⚙️ **An engine, not a spreadsheet** | 5,431 job-board endpoints (5,099 distinct employers; some run more than one board) polled every 30 minutes across 12 ATS platforms. Full source and tests in this repo. |
 
 ## Scope
 
@@ -90,6 +90,7 @@ If it helps you, a star means a lot and tells me to keep going.
 
 | Company | Role | Apply | Location | Skills | Posted |
 |---|---|---|---|---|---|
+| Reliable Robotics | Flight Software Engineer Intern (Summer 2027) 🆕 | [Apply](https://jobs.ashbyhq.com/reliable-robotics/cbd31c94-5a83-4d1e-8252-de67a5e594ed) | Mountain View, CA | C++ | Nov 13, 2026 |
 | Verisk | Data Science/AI Intern / 2027 Summer Internship Program 🆕 | [Apply](https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5184) | Lehi, UT, United States | LLMs, Tableau | Nov 13, 2026 |
 | Rocket Companies | Data Analyst Intern - Summer 2027 🆕 | [Apply](https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832) | Detroit, MI | No skills listed | Nov 13, 2026 |
 | Aurora Innovation ✓ | Software Engineer Intern, Vehicle Platforms 🆕 | [Apply](https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef) | Mountain View, CA | Python, C++, Linux, ROS | Nov 13, 2026 |
@@ -132,7 +133,6 @@ If it helps you, a star means a lot and tells me to keep going.
 | The New York Times ✓ | ML Scientist Intern | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752926005) | New York, NY | Python, scikit-learn, LLMs, GCP | Nov 09, 2026 |
 | The New York Times ✓ | Data Analyst Intern | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752930005) | New York, NY | Python, SQL, LLMs | Nov 09, 2026 |
 | Pivotal Software ✓ | Internship, Software Engineering (Summer 2027) 🇺🇸 | [Apply](https://jobs.lever.co/pivotal/3a80913d-886a-4d22-bf5e-9a011b157ec4) | Palo Alto, CA | Python, C++ | Nov 09, 2026 |
-| The Aerospace Corporation | 2027 Defensive Cyber Operations Grad Intern 🇺🇸 | [Apply](https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Grad-Intern_R017106) | El Segundo, CA | Python, Rust, Kubernetes, Docker | Nov 09, 2026 |
 | NBCUniversal | Advertising & Partnershi​ps: Data Science Internship – Summer 2027 🛂 | [Apply](https://jobs.smartrecruiters.com/NBCUniversal3/744000160689930) | New York, NY, United States | Python, SQL | Nov 09, 2026 |
 | CACI | Cyber Security Intern - Summer 2027 | [Apply](https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/Cyber-Security-Intern---Summer-2027_334812) | Sterling, VA, US | No skills listed | Nov 09, 2026 |
 | Formulary Financial | Software Engineering Intern 🛂 🆕 | [Apply](https://jobs.ashbyhq.com/formulary/bbc4fef5-3cff-4879-89bc-65aba1214b04) | New York City (4 days on-site) | Python, TypeScript, SQL, LLMs | Nov 08, 2026 |
@@ -154,8 +154,8 @@ If it helps you, a star means a lot and tells me to keep going.
 | Match Group ✓ | Machine Learning Engineer Intern | [Apply](https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72) | Palo Alto, California | Python, Java, Scala, PyTorch | Nov 06, 2026 |
 | T-Mobile ✓ | Summer 2027 AI Engineering Internship _(3 openings)_ | [Apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765) [#2](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194) [#3](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198) | Bellevue, Washington | Python, TypeScript, JavaScript, LLMs | Nov 06, 2026 |
 | T-Mobile ✓ | Summer 2027 Software Engineer HR Data Products Internship _(2 openings)_ | [Apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380766) [#2](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Software-Engineer-HR-Data-Products-Internship_REQ380916) | Bellevue, Washington | No skills listed | Nov 06, 2026 |
+| Shield AI | June 2027 Co-Op - Software Engineer Intern 🆕 _(2 openings)_ | [Apply](https://jobs.ashbyhq.com/shield/a28e047a-ee12-452c-883b-ecd995d1b6b2) [#2](https://jobs.ashbyhq.com/shield/a28e047a-ee12-452c-883b-ecd995d1b6b2) | Dallas, TX, US | Python, Java, C++, JavaScript | Nov 05, 2026 |
 | Lumbermen's | Software Developer Internship | [Apply](https://job-boards.greenhouse.io/lumbermens/jobs/5474346008) | Grand Rapids, MI | Python, SQL | Nov 05, 2026 |
-| Shield AI | June 2027 Co-Op - Software Engineer Intern 🆕 _(3 openings)_ | [Apply](https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949) [#2](https://jobs.ashbyhq.com/shield/a28e047a-ee12-452c-883b-ecd995d1b6b2) [#3](https://jobs.ashbyhq.com/shield/a28e047a-ee12-452c-883b-ecd995d1b6b2) | Dallas, Texas | Python, Java, C++, JavaScript | Nov 05, 2026 |
 | NBCUniversal | NBC Sports Bay Area & California - Programming Intern - Summer 2027 🛂 | [Apply](https://jobs.smartrecruiters.com/NBCUniversal3/744000159947792) | San Francisco +2 more | No skills listed | Nov 05, 2026 |
 | JM Family | Software Engineer Intern | [Apply](https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105199) | Florida - Deerfield Beach | No skills listed | Nov 05, 2026 |
 | PayPal ✓ | Data Scientist Intern - Summer 2027 🛂 | [Apply](https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Data-Scientist-Intern---Summer-2027_R0138582) | San Jose +2 more | Python, SQL, Tableau | Nov 05, 2026 |
@@ -181,7 +181,6 @@ If it helps you, a star means a lot and tells me to keep going.
 | Nex | Summer 2027 / Software Engineer Intern (Sports & Fitness) | [Apply](https://job-boards.greenhouse.io/nex/jobs/5421056008) | San Jose, California (Hybrid) | No skills listed | Nov 03, 2026 |
 | AstraZeneca | US Medical Affairs, AI & Knowledge Experience Intern | [Apply](https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260) | US - Gaithersburg - MD | LLMs | Nov 03, 2026 |
 | Mosaic | Artificial Intelligence Co-Op/Intern - Summer 2027 | [Apply](https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Summer-2027_65420) | US - Tampa, FL (Lithia area) | Python, PyTorch, TensorFlow, scikit-learn | Nov 03, 2026 |
-| The Aerospace Corporation | 2027 Software Engineering Grad Intern 🇺🇸 | [Apply](https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101) | El Segundo, CA | Python, Java, C++ | Nov 02, 2026 |
 | Applied Materials ✓ | Summer 2027 Software Engineer Intern- Bachelor's/Master's (Santa Clara, CA) | [Apply](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Summer-2027-Software-Engineer-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2630003) | Santa Clara,CA | Python, C++ | Nov 02, 2026 |
 | KLA ✓ | Software Engineering Intern | [Apply](https://kla.wd1.myworkdayjobs.com/Search/job/Austin-TX/Software-Engineering-Intern_2642004-1) | Austin, TX | C# | Nov 02, 2026 |
 | Zebra Technologies ✓ | 2027 Summer Internship (US) - AI 🛂 | [Apply](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639) | Lincolnshi​re, Illinois | Python, LLMs, HTML/CSS, Git | Nov 02, 2026 |
@@ -236,7 +235,6 @@ If it helps you, a star means a lot and tells me to keep going.
 | MongoDB ✓ | 2027 - Software Engineering Intern, AMER | [Apply](https://www.mongodb.com/careers/job/?gh_jid=8209134) | Austin; New York City; San Francisco | Python, Java, C++, JavaScript | Oct 23, 2026 |
 | Scout AI | AI Engineer Intern - Fury Team (Summer 2027) | [Apply](https://jobs.ashbyhq.com/scout-ai/3b639e39-abd7-4a0c-9bea-e1cd0a72db99) | Sunnyvale, CA | Python, PyTorch, TensorFlow | Oct 23, 2026 |
 | ID.me | Summer Intern 2027 - Analytics Engineer Intern | [Apply](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/8041991003) | Mountain View, CA | LLMs, dbt, Snowflake | Oct 23, 2026 |
-| The Aerospace Corporation | 2027 Defensive Cyber Operations Undergrad Intern 🇺🇸 | [Apply](https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011) | El Segundo, CA | Python, Rust, Kubernetes, Docker | Oct 23, 2026 |
 | KLA ✓ | Software Engineer Intern (C++, Linux) – Summer 2027 | [Apply](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878) | Milpitas, CA | C++, Linux, Python, JavaScript | Oct 23, 2026 |
 | Skydio ✓ | Frontend Software Engineer Intern | [Apply](https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd) | San Mateo, California, United States | TypeScript, React, GraphQL | Oct 22, 2026 |
 | CVS Health | Innovation & Technology Internship - Data Science - Summer 2027 (Graduate) 🛂 | [Apply](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038) | NY - New York | Python, SQL, scikit-learn | Oct 22, 2026 |
@@ -327,7 +325,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Jain Global | Data Engineer Intern | [Apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Data-Engineer-Intern_JR100605-1) | New York, New York | Python, SQL, React | Oct 05, 2026 |
 | Jain Global | Quant Research Intern, Systematic Trading | [Apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1) | New York, New York | Python | Oct 05, 2026 |
 | Affirm ✓ | Software Engineer Intern (Summer 2027) | [Apply](https://job-boards.greenhouse.io/affirm/jobs/8011590003) | San Francisco, California, United States | Python, Java, C++, JavaScript | Oct 02, 2026 |
-| HNTB ✓ | Intern - AI Business Process Developer (Summer 2027) 🛂 | [Apply](https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1) | Austin, TX | Python, C#, SQL | Oct 02, 2026 |
+| HNTB ✓ | Intern - AI Business Process Developer (Summer 2027) 🛂 | [Apply](https://hntb.wd5.myworkdayjobs.com/hntb_university_careers/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865) | Austin, TX | Python, C#, SQL | Oct 02, 2026 |
 | Arc | Software Engineering Intern | [Apply](https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008) | Torrance, CA | Python, TypeScript, AWS, Git | Oct 02, 2026 |
 | xAI | Summer 2027 Software Engineering Internship/Co-op | [Apply](https://job-boards.greenhouse.io/xai/jobs/5255111007) | Palo Alto, CA | Python, Java, C++, C# | Oct 02, 2026 |
 | Nelnet | Intern - IT Software Engineer .NET (Summer 2027) | [Apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198) | Lincoln, NE | Angular | Oct 02, 2026 |
@@ -371,7 +369,9 @@ If it helps you, a star means a lot and tells me to keep going.
 | C.H. Robinson | Cyber Security Internship 2027 | [Apply](https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322) | Eden Prairie +1 more | No skills listed | Sep 24, 2026 |
 | Figma ✓ | Data Engineer Intern (2027) | [Apply](https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004) | San Francisco, CA • New York, NY | Python, SQL | Sep 23, 2026 |
 | DoorDash ✓ | Machine Learning Intern (Masters) - Summer 2027 | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/8204111) | San Francisco +7 more | Python, Java, C++, Go | Sep 23, 2026 |
-| Insulet Corporation ✓ | Intern, DevOps Engineer: June-August 2027 (Onsite) | [Apply](https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202) | San Diego, California | Python, Bash, AWS, Linux | Sep 23, 2026 |
+| Astranis | Software Engineer Backend Intern (Summer 2027) 🇺🇸 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4705214006) | San Francisco, CA | Python, Kubernetes, PostgreSQL | Sep 22, 2026 |
+| Astranis | Software Engineer - Enterprise Systems Intern (Summer 2027) 🇺🇸 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4705610006) | San Francisco, CA | Python, Kubernetes, PostgreSQL | Sep 22, 2026 |
+| Formlabsin​ternships | Embedded Software Intern (Summer 2027) | [Apply](https://job-boards.greenhouse.io/formlabsinternships/jobs/8222268) | Somerville, MA | Python, C++, Linux | Sep 21, 2026 |
 | Anduril | 2027 Flight Software Engineer Intern | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5239083007?gh_jid=5239083007) | Costa Mesa, California, United States | Python, MATLAB, Computer Vision | Sep 15, 2026 |
 | Figma ✓ | Software Engineer Intern (Summer 2027) | [Apply](https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004) | San Francisco, CA • New York, NY | Python, Java, C++, JavaScript | Sep 14, 2026 |
 | DoorDash ✓ | Software Engineer, Intern (Summer 2027) - US | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/8171041) | New York +9 more | Python, Java, SQL, Kotlin | Sep 14, 2026 |
@@ -387,11 +387,11 @@ If it helps you, a star means a lot and tells me to keep going.
 | Hudson River Trading ✓ | Software Engineering Internship (C++ or Python) – Summer 2027 | [Apply](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) | Austin +11 more | Python, C++ | Jul 13, 2026 |
 | Databricks ✓ | Data Science Intern (2027 Start) | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=6866538002) | Mountain View +3 more | Python, SQL, Databricks | Aug 17, 2023 |
 | Databricks ✓ | Software Engineering Intern (2027) | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=6865687002) | Bellevue +7 more | Python, Java, C++, Databricks | Aug 04, 2023 |
-| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | [Apply](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) | New York, NY | No skills listed | — |
+| Rippling | Software Engineer Intern - Backend Focused - Summer 2027 | [Apply](https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba) | San Francisco, CA | No skills listed | — |
 | Rippling | Data Science Intern - Summer 2027 | [Apply](https://ats.rippling.com/rippling/jobs/f255bf03-9173-4c0a-8a18-7cc43c27ded8) | San Francisco, CA | No skills listed | — |
-| Rippling | Full Stack Software Engineer Intern - Summer 2027 | [Apply](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) | New York, NY | No skills listed | — |
+| Rippling | Full Stack Software Engineer Intern - Summer 2027 | [Apply](https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262) | Seattle, WA | No skills listed | — |
 
-## Fall 2026  (34 employer-stated)
+## Fall 2026  (33 employer-stated)
 
 | Company | Role | Apply | Location | Skills | Posted |
 |---|---|---|---|---|---|
@@ -428,17 +428,25 @@ If it helps you, a star means a lot and tells me to keep going.
 | Red Bull | 2026 Internship, Fall - Data Science | [Apply](https://jobs.smartrecruiters.com/RedBull/744000139168339) | Morristown, NJ, United States | SQL | Jul 22, 2026 |
 | onsemi | Fall 2026 - AI & Data Analytics Intern | [Apply](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2505878) | Scottsdale, AZ, United States | Python, SQL, LLMs, Tableau | Jul 15, 2026 |
 | NVIDIA ✓ | Applied Research Intern, NLP - Fall 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) | US, CA, Santa Clara | Python, PyTorch | Jul 01, 2026 |
-| Motorola | Intern - Embedded Software, System, and Test Engineer - 2026 🇺🇸 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372) | Irvine, CA | No skills listed | Mar 30, 2026 |
 
-## Recently posted — cycle not stated  (233 roles)
+## Recently posted — cycle not stated  (241 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
 | Company | Role | Apply | Location | Skills | Posted |
 |---|---|---|---|---|---|
+| Atalanta | Software Engineer Intern 🇺🇸 🆕 | [Apply](https://jobs.ashbyhq.com/atalanta/52011b21-df9a-4304-81a9-005a79f55335) | Washington D.C. | Python, Rust, TypeScript, LLMs | Nov 13, 2026 |
+| ASML | Internship - EUV Data Science and Analytics 🆕 | [Apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Internship---EUV-Data-Science-and-Analytics_J-00357717) | Austin, TX, USA | Python, MATLAB | Nov 13, 2026 |
+| Fresenius Medical Care | Analytics and AI Business Analyst Co-op 🆕 | [Apply](https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519) | Lawrence, MA, USA | No skills listed | Nov 13, 2026 |
+| Martin Marietta | Intern, Data Scientist 🆕 | [Apply](https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--Data-Scientist_JR024144-1) | Raleigh, NC | No skills listed | Nov 13, 2026 |
+| Martin Marietta | Intern, Software Data Integration Engineer 🆕 | [Apply](https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146) | Raleigh, NC | No skills listed | Nov 13, 2026 |
+| Samsung | Intern, AI Systems Performance Engineer 🆕 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003) | San Jose, California, United States | Python, C++, LLMs, Linux | Nov 13, 2026 |
+| Samsung | Intern, ML Compiler (Kernel Auto-Tuning) 🆕 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003) | San Jose, California, United States | Python, C++, PyTorch, LLMs | Nov 13, 2026 |
+| Samsung | Intern, SSD Firmware Development 🆕 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003) | San Jose, California, United States | Python, C++ | Nov 13, 2026 |
+| ServiceNow ✓ | Information Security Analyst Intern 🆕 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161550869) | San Diego, CALIFORNIA, United States | Python, Bash, Linux | Nov 13, 2026 |
+| ServiceNow ✓ | AI Security Engineer Intern 🆕 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161548289) | San Diego, California, United States | No skills listed | Nov 13, 2026 |
 | WTW | Early Careers: Data Analyst Internship 🛂 🆕 | [Apply](https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202607277) | New York, NY, United States | Python | Nov 13, 2026 |
 | Valeo | Software Engineer Intern (Year-Round) 🆕 | [Apply](https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Troy-MI/Software-Engineer-Intern--Year-Round-_REQ2026081794) | Troy, MI | Python, C++, Linux | Nov 13, 2026 |
-| Samsung | Intern, Compiler Engineer 🆕 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202902003) | San Jose, California, United States | PyTorch, TensorFlow | Nov 13, 2026 |
 | Avav | Software Engineering Intern 🆕 | [Apply](https://avav.wd1.myworkdayjobs.com/avav/job/Lawrence-KS/Software-Engineering-Intern_9360) | Lawrence, KS | Python, Java, C++, Bash | Nov 12, 2026 |
 | Leidos ✓ | Junior Software Engineer / Data Scientist Intern 🇺🇸 🆕 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510) | Tucson, AZ | Python, Java, C++, TypeScript | Nov 12, 2026 |
 | Bosch ✓ | AI Research Intern – Time Series Foundation Models 🆕 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000161339309) | Sunnyvale, California, United States | Python, PyTorch | Nov 12, 2026 |
@@ -447,8 +455,8 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Argonne National Laboratory | Intern – Business Information Systems, Enterprise Software Solutions 🇺🇸 🆕 | [Apply](https://argonne.wd1.myworkdayjobs.com/EDU_PUB/job/Lemont-IL-USA/Intern---Business-Information-Systems--Enterprise-Software-Solutions_423702) | Lemont, IL USA | Python, Java, C#, JavaScript | Nov 12, 2026 |
 | Fresenius Medical Care | Agentic AI Analytics Co-op 🆕 | [Apply](https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Agentic-AI-Analytics-Co-op_R0277797) | Lawrence, MA, USA | Python, Pandas, LLMs, AWS | Nov 12, 2026 |
 | ServiceNow ✓ | Assoc Information Security Engineer Intern 🆕 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161204235) | San Diego, CALIFORNIA, United States | No skills listed | Nov 12, 2026 |
-| ServiceNow ✓ | Assoc AI Engineering (Cloud Security Automation) Intern 🆕 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161209600) | Santa Clara, CALIFORNIA, United States | No skills listed | Nov 12, 2026 |
 | Bask Health 🆁 | Frontend Engineering Intern 🆕 | [Apply](https://apply.workable.com/bask-health-1/j/9C2964C7CD/) | United States (Remote) | TypeScript, JavaScript, React, Next.js | Nov 12, 2026 |
+| Arcesium ✓ | AI Transforma​tion Intern 🆕 | [Apply](https://job-boards.greenhouse.io/arcesiumllc/jobs/5257251007) | New York | LLMs | Nov 11, 2026 |
 | Leland | AI Education Intern 🆕 | [Apply](https://jobs.ashbyhq.com/leland/94347c0b-273b-4c17-9987-563912629633) | Leland HQ - Lehi, UT | No skills listed | Nov 11, 2026 |
 | Toyota Research Institute ✓ | Future Product Innovation Research Intern, Human-AI Computatio​nal Design 🆕 | [Apply](https://jobs.lever.co/tri/ad346610-e4a6-4cd2-a357-11d731b136a2) | Los Altos, CA | No skills listed | Nov 11, 2026 |
 | Bloom Energy ✓ | AI Solutions Engineer Intern 🛂 🆕 | [Apply](https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361) | San Jose, California | Python, LLMs, Git | Nov 11, 2026 |
@@ -456,7 +464,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Bloom Energy ✓ | RMCC Data Science Intern 🛂 🆕 | [Apply](https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/RMCC-Data-Science-Intern_JR-25362) | San Jose, California | Python, SQL, Pandas, Git | Nov 11, 2026 |
 | HUB Internatio​nal | AI Engineering Intern 🆕 | [Apply](https://hubinternational.wd1.myworkdayjobs.com/hubinternational/job/Chicago-IL/AI-Engineering-Intern_R0039470) | Chicago, IL | Python, SQL, PyTorch, TensorFlow | Nov 11, 2026 |
 | Minitab | Software Quality Engineer Intern 🆕 | [Apply](https://job-boards.greenhouse.io/minitab/jobs/8200698003) | State College +2 more | No skills listed | Nov 11, 2026 |
-| Samsung | Intern, AI System Architecture Research Scientist 🆕 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003) | San Jose, California, United States | Python, C++, PyTorch, LLMs | Nov 11, 2026 |
 | Austal USA | Cybersecur​ity Intern 🆕 | [Apply](https://austalusa.wd1.myworkdayjobs.com/austal/job/Mobile-AL/Cybersecurity-Intern_R0012221) | Mobile, AL | Linux | Nov 11, 2026 |
 | Bose ✓ | Digital Signal Processing ML Software Development Co-op 🆕 | [Apply](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Digital-Signal-Processing-ML-Software-Development-Co-op_R29372) | US, MA - Framingham | Python, MATLAB | Nov 11, 2026 |
 | Dow Chemical Company ✓ | Local College Co-op: Infrastruc​ture Mapping & Data Quality (Michigan Operations) 🛂 | [Apply](https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169) | Midland (MI, USA) | No skills listed | Nov 11, 2026 |
@@ -464,6 +471,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Unisys ✓ | Software Engineer Intern | [Apply](https://unisys.wd5.myworkdayjobs.com/External/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421) | Eagan, MN, United States of America | No skills listed | Nov 11, 2026 |
 | REGENT | Cybersecur​ity & IT Operations Intern (Summer) | [Apply](https://jobs.ashbyhq.com/REGENT/dfdbb28f-f289-45b9-a2e5-158d81b93524) | North Kingstown, Rhode Island, USA | Python, Linux | Nov 11, 2026 |
 | Daimler Truck | Cybersecur​ity Intern: Governance, Risk, and Compliance (GRC) Analyst | [Apply](https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Detroit-MI-US/Cybersecurity-Intern--Governance--Risk--and-Compliance--GRC--Analyst_DT-20656) | Detroit, MI US | LLMs | Nov 11, 2026 |
+| Carlisle Companies | AI & Data Science Intern 🆕 | [Apply](https://jobs.smartrecruiters.com/Carlisle/3743990016774046) | Carlisle, Pennsylvan​ia, , United States | Python, PyTorch, TensorFlow, scikit-learn | Nov 10, 2026 |
 | Judi Health | AI Solutions Intern | [Apply](https://job-boards.greenhouse.io/judihealth/jobs/5477146008) | New York, New York, United States | Python, JavaScript, SQL, LLMs | Nov 10, 2026 |
 | Global Payments | Cyber​Security Intern 🛂 | [Apply](https://tsys.wd1.myworkdayjobs.com/TSYS/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068) | COLUMBUS, GEORGIA | AWS, GCP | Nov 10, 2026 |
 | REGENT | Embedded Software Engineering Intern (Summer) | [Apply](https://jobs.ashbyhq.com/REGENT/9f25824f-486e-4d3a-b444-116b474619d7) | North Kingstown, Rhode Island, USA | Python, C++, Git | Nov 10, 2026 |
@@ -482,7 +490,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Sharp Electronics | Summer IT AI Intern 🛂 | [Apply](https://job-boards.greenhouse.io/sharpelectronics/jobs/4482958009) | Montvale, New Jersey, United States | Python, LLMs | Nov 09, 2026 |
 | Analog Devices ✓ | Machine Learning for Computatio​nal Sensing Research Intern | [Apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371) | US, MA, Boston | Python, PyTorch, TensorFlow | Nov 09, 2026 |
 | Centene 🆁 | Social Media & AI Undergradu​ate Summer Intern | [Apply](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-CA/Social-Media---AI-Undergraduate-Summer-Intern_1667859) | Remote-CA | No skills listed | Nov 09, 2026 |
-| Samsung | ePro AI  Business & Data Analyst Intern 🛂 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996) | 6625 Excellence Way, Plano, TX, USA | SQL, LLMs, Tableau | Nov 08, 2026 |
 | Parspec | Applied AI Engineer Intern | [Apply](https://jobs.ashbyhq.com/parspec/0a897c21-0df7-40ba-85f2-694bf6678504) | Hybrid - San Mateo, California | No skills listed | Nov 06, 2026 |
 | Lila Sciences | Co-op, AI for Protein Design | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4480337009) | San Francisco, CA USA | Python, PyTorch | Nov 06, 2026 |
 | Leidos ✓ 🆁 | AI/Automation Development Intern - Assessment & Authorizat​ion 🇺🇸 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319) | 6314 Remote/Teleworker US | Python, JavaScript, SQL, Bash | Nov 06, 2026 |
@@ -511,7 +518,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | BorgWarner | Software Engineering Intern (Year-Round) | [Apply](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Software-Engineering-Intern--Year-Round-_R2026-2448-1) | Auburn Hills - Michigan - USA | MATLAB | Nov 04, 2026 |
 | Microchip Technology ✓ | Intern (Data Analyst) | [Apply](https://microchiphr.wd5.myworkdayjobs.com/external/job/OR---Gresham/Intern--Data-Analyst-_R4441-26) | OR - Gresham | Python, Java, C#, SQL | Nov 04, 2026 |
 | USAFacts | AI Product Intern | [Apply](https://job-boards.greenhouse.io/usafacts/jobs/4478239009) | Bellevue, WA | Python, LLMs | Nov 03, 2026 |
-| ASML | Internship- Business Systems AI | [Apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737) | San Diego, CA, USA | No skills listed | Nov 03, 2026 |
 | onepot | Research Intern, Machine Learning | [Apply](https://jobs.ashbyhq.com/onepot/5116ee20-adfa-4177-b120-e3f48354e7e8) | South San Francisco, CA | PyTorch, LLMs | Nov 03, 2026 |
 | The New York Times ✓ | Advertising Business Data Analyst Intern | [Apply](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4750496005) | New York, NY | SQL, LLMs, Tableau | Nov 03, 2026 |
 | Nexthink | Java Software Engineer (Intern) | [Apply](https://jobs.smartrecruiters.com/Nexthink/744000159392102) | Madrid, MD, Internatio​nal (ES) (Hybrid) | Java, Kubernetes, Kafka | Nov 03, 2026 |
@@ -598,7 +604,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Insomniac Games | Engine and Tools Programming Intern – Undergradu​ate | [Apply](https://job-boards.greenhouse.io/insomniac/jobs/6227080004) | United States, Burbank, CA | C++ | Oct 20, 2026 |
 | Texas Instruments ✓ | Software Engineering Intern - Compiler 🛂 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25019103) | United States +3 more | Python, C++ | Oct 20, 2026 |
 | Constellat​ion Brands | Intern, AI Enablement | [Apply](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI-Enablement_R-41526) | Rochester, New York | LLMs | Oct 20, 2026 |
-| Fresenius Medical Care | Software Engineering Co-op | [Apply](https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0271309) | Lawrence, MA, USA | Java, C++, C#, JavaScript | Oct 20, 2026 |
 | Werner | IT Cloud Engineering Intern | [Apply](https://werner.wd501.myworkdayjobs.com/werner/job/Omaha-NE/IT-Cloud-Engineering-Intern_JR23745) | Omaha, NE | GCP, Azure, Linux, Git | Oct 19, 2026 |
 | Werner | Information Security Intern | [Apply](https://werner.wd501.myworkdayjobs.com/werner/job/Omaha-NE/Information-Security-Intern_JR23746) | Omaha, NE | No skills listed | Oct 19, 2026 |
 | Braze ✓ | Intern, Software Engineering | [Apply](https://job-boards.greenhouse.io/braze/jobs/8301086) | New York City | No skills listed | Oct 19, 2026 |
@@ -647,6 +652,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | ShopBack | Software Engineer Intern | [Apply](https://jobs.lever.co/shopback-2/640ac3fb-dae5-4738-95b9-9cb80cc7ad15) | San Francisco, California | TypeScript, LLMs, Node.js, Kubernetes | Oct 02, 2026 |
 | ShopBack | Software Engineer Intern | [Apply](https://jobs.lever.co/shopback-2/e5f5e276-e7f7-43e0-a224-5259d242fe98) | New York City, New York | TypeScript, LLMs, Node.js, Kubernetes | Oct 02, 2026 |
 | Profluent | Intern, Software Engineering | [Apply](https://job-boards.greenhouse.io/profluent/jobs/5441955008) | Emeryville, California, United States | Python | Oct 02, 2026 |
+| Aurora Innovation ✓ | Embedded Software Engineer Intern — Lidar 🆕 | [Apply](https://jobs.ashbyhq.com/aurora-operations-inc/8bd8b0b9-143a-400d-97d0-b3f70d9ee868) | Bozeman, MT | Python, C++, Pandas, Linux | Oct 01, 2026 |
 | Range | Software Engineering Intern | [Apply](https://jobs.ashbyhq.com/range/5fe3697d-b5b3-4772-9de4-1551cb726718) | McLean, VA | TypeScript, JavaScript, React, Node.js | Oct 01, 2026 |
 | Nokia | AI R&D Engineer Co-op _(16 openings)_ | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40677) [#2](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40680) [#3](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40681) [#4](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40682) [#5](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40685) [#6](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40687) [#7](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40689) | United States | PyTorch, TensorFlow, Kafka | Oct 01, 2026 |
 | Nordson | Software Intern | [Apply](https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945) | USA - Minnesota - Minneapolis - 5900 Go… | Python, C++, C#, MATLAB | Oct 01, 2026 |
@@ -666,6 +672,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Gordon Food Service ✓ | Software Engineer Intern (Low Code) | [Apply](https://gfs.wd5.myworkdayjobs.com/usprivate-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375-2) | Wyoming, Michigan | No skills listed | Sep 18, 2026 |
 | GM financial | Intern - Software Development Engineer | [Apply](https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260831) | Arlington, TX, United States | LLMs | Sep 17, 2026 |
 | Tihinsurance | Internship - Software Engineering | [Apply](https://tihinsurance.wd1.myworkdayjobs.com/crc_careers/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172) | Dallas TX - 12377 Merit Dr. | Python, Java, C#, JavaScript | Sep 14, 2026 |
+| Direct Supply ✓ | AI Engineer Intern | [Apply](https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553) | Milwaukee, WI | Python, React, Node.js, AWS | Sep 11, 2026 |
 | Corteva | R & D Intern - Computer & Data Science | [Apply](https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/R---D-Intern---Computer---Data-Science_248131W) | Indianapol​is, Indiana, United States | Python, AWS, GCP, Azure | Sep 03, 2026 |
 | Ancestry | Software Engineer – Observabil​ity, Co-op | [Apply](https://ancestry.wd501.myworkdayjobs.com/Careers/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434) | Draper, Utah | Python, Java, TypeScript, JavaScript | Aug 26, 2026 |
 | Auto-Owners Insurance | Intern - Analytics Web Systems Developer | [Apply](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intern---Analytics-Web-Systems-Developer_R_14272) | Lansing, MI | C++, C#, JavaScript, SQL | Aug 26, 2026 |
@@ -701,7 +708,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | 🎯 Northrop Grumman | Jul 08 | dropped Jul 08 · closed | 🗓️ dropped |
 | 🎯 Old Mission Capital | Jul 15 | dropped Jul 15 · closed | 🗓️ dropped |
 
-_529 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **422** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_530 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **423** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 40 roles that left the list in the last 14 days</summary>
@@ -710,6 +717,15 @@ _Why each one left is in the last column, because the two reasons carry differen
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Shield AI | June 2027 Co-Op - Software Engineer Intern | Summer 2027 | 2026-11-13 | out of scope |
+| The Aerospace Corporation | 2027 Defensive Cyber Operations Grad Intern | Summer 2027 | 2026-11-13 | out of scope |
+| The Aerospace Corporation | 2027 Defensive Cyber Operations Undergrad Intern | Summer 2027 | 2026-11-13 | out of scope |
+| The Aerospace Corporation | 2027 Embedded Software Engineering Grad Intern | Summer 2027 | 2026-11-13 | out of scope |
+| The Aerospace Corporation | 2027 Software Engineering Grad Intern | Summer 2027 | 2026-11-13 | out of scope |
+| The Aerospace Corporation | 2027 Software Tools and Assurance Engineering Grad Intern | Summer 2027 | 2026-11-13 | out of scope |
+| Applied Materials | 2027 Software Engineering Intern (Masters - Santa Clara, CA) | Summer 2027 | 2026-11-13 | out of scope |
+| Insulet Corporation | Intern, DevOps Engineer: June-August 2027 (Onsite) | Summer 2027 | 2026-11-13 | out of scope |
+| Motorola | Intern - Embedded Software, System, and Test Engineer - 2026 | Fall 2026 | 2026-11-13 | out of scope |
 | Affirm | Software Engineer (Machine Learning) Intern (Summer 2027) | Summer 2027 | 2026-11-13 | gone from feed |
 | Shield AI | Summer 2027 - Software Engineer Intern | Summer 2027 | 2026-11-13 | out of scope |
 | JM Family | AI & Decision Science Intern | Summer 2027 | 2026-11-13 | gone from feed |
@@ -741,15 +757,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Zurn Elkay Water Solutions | Embedded Firmware Intern (Summer 2027) | Summer 2027 | 2026-11-12 | gone from feed |
 | J.M. Smucker | Data Science Intern, Summer 2027 | Summer 2027 | 2026-11-12 | gone from feed |
 | Amazon | Software Development Engineer Intern - Summer 2027 | Summer 2027 | 2026-11-11 | gone from feed |
-| Enova | Software Engineer Internship Summer 2027 (Hybrid) | Summer 2027 | 2026-11-11 | gone from feed |
-| ATC | Intern - Cyber Security Summer 2027 | Summer 2027 | 2026-11-11 | gone from feed |
-| Dmainc | Cybersecurity Intern - Summer 2027 | Summer 2027 | 2026-11-11 | gone from feed |
-| Viking Global | Data Science Intern - Summer 2027 | Summer 2027 | 2026-11-11 | gone from feed |
-| Hudson River Trading | Algorithm Development (Quant Research & Trading) Internship – Summer 2027 | Summer 2027 | 2026-11-11 | out of scope |
-| American Express | Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Sunnyvale, CA | Summer 2027 | 2026-11-11 | gone from feed |
-| American Express | Campus Undergraduate Summer Internship Program - 2027 Cybersecurity AI Engineer, Enterprise Technology Services- Phoenix, AZ | Summer 2027 | 2026-11-11 | gone from feed |
-| ADT | Data, Analytics & AI Internship | Summer 2027 | 2026-11-11 | gone from feed |
-| AbbVie | 2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate) | Summer 2027 | 2026-11-11 | out of scope |
 
 </details>
 
@@ -768,7 +775,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,961 of 5,409 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 91% of the full registry) · completed in 1125.9s · 690 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,635 of 5,431 registered boards returned successfully across 12 ATS platforms (91% of boards attempted, 85% of the full registry) · completed in 978.2s · 513 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
