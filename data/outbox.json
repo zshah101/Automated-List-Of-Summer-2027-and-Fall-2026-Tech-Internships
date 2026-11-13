@@ -1,6 +1,18 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:5184",
+      "oracle:eedu.fa.em3.oraclecloud.com:202607277",
+      "workday:corteva:/job/Indianapolis-Indiana-United-States/R---D-Intern---Computer---Data-Science_248131W",
+      "workday:quickenloans:/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832",
+      "workday:valeo:/job/Troy-MI/Software-Engineer-Intern--Year-Round-_REQ2026081794"
+    ],
+    "telegram": [
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:5184",
+      "oracle:eedu.fa.em3.oraclecloud.com:202607277",
+      "workday:corteva:/job/Indianapolis-Indiana-United-States/R---D-Intern---Computer---Data-Science_248131W",
+      "workday:quickenloans:/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832",
+      "workday:valeo:/job/Troy-MI/Software-Engineer-Intern--Year-Round-_REQ2026081794"
+    ]
   }
 }

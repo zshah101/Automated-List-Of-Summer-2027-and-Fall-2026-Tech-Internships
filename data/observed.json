@@ -5292,6 +5292,18 @@
     }
    }
   },
+  "rocket companies": {
+   "name": "Rocket Companies",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-13",
+     "role_ids": [
+      "workday:quickenloans:/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832"
+     ],
+     "count": 1
+    }
+   }
+  },
   "rocket lab": {
    "name": "Rocket Lab",
    "cycles": {
@@ -6507,9 +6519,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-26",
      "role_ids": [
-      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682"
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682",
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:5184"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -7033,5 +7046,5 @@
    }
   }
  },
- "updated_at": "2026-11-13T08:07:54Z"
+ "updated_at": "2026-11-13T16:32:54Z"
 }
