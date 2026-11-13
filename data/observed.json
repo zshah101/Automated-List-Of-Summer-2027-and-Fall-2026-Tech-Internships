@@ -383,6 +383,18 @@
     }
    }
   },
+  "american electric power": {
+   "name": "American Electric Power",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-12",
+     "role_ids": [
+      "workday:aep:/job/Columbus-OH/Cybersecurity-Intern---Summer-2027_R21158"
+     ],
+     "count": 1
+    }
+   }
+  },
   "american express": {
    "name": "American Express",
    "cycles": {
@@ -596,6 +608,18 @@
     }
    }
   },
+  "asml": {
+   "name": "ASML",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-12",
+     "role_ids": [
+      "workday:asml:/job/Wilton-CT-USA/Internship---Data-Scientist_J-00356462"
+     ],
+     "count": 1
+    }
+   }
+  },
   "aspentech": {
    "name": "AspenTech",
    "cycles": {
@@ -660,9 +684,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-03",
      "role_ids": [
+      "workday:astrazeneca:/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
       "workday:astrazeneca:/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1224,6 +1249,7 @@
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
+      "workday:caci:/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147",
       "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
       "workday:caci:/job/Florham-Park-NJ-US/Software-Engineering-Intern---Summer-2027_332543",
       "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
@@ -1245,7 +1271,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 29
+     "count": 30
     }
    }
   },
@@ -2097,9 +2123,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-12",
      "role_ids": [
+      "workday:entegris:/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841",
       "workday:entegris:/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4184,9 +4211,10 @@
      "role_ids": [
       "greenhouse:muonspace:5247725007",
       "greenhouse:muonspace:5252680007",
-      "greenhouse:muonspace:5266679007"
+      "greenhouse:muonspace:5266679007",
+      "greenhouse:muonspace:5293973007"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -5872,9 +5900,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-01",
      "role_ids": [
-      "workday:sbdinc:/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019"
+      "workday:sbdinc:/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019",
+      "workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -6977,12 +7006,13 @@
      "first_posted": "2026-10-30",
      "role_ids": [
       "lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
+      "lever:zoox:0f42ac76-3821-4805-8b59-446477d1e1db",
       "lever:zoox:7b20b929-d9a4-4995-a472-16cd4925a877",
       "lever:zoox:85c6aec7-8da2-445d-9c4d-812365dbce97",
       "lever:zoox:88f6cb68-1534-44af-80db-10e43c203520",
       "lever:zoox:8b32157b-ab44-4078-85ea-1d8d7b747a20"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -7002,5 +7032,5 @@
    }
   }
  },
- "updated_at": "2026-11-12T20:10:33Z"
+ "updated_at": "2026-11-13T01:21:23Z"
 }
