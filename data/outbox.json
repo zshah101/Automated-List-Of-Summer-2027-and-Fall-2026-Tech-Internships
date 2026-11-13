@@ -1,28 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:zoox:0f42ac76-3821-4805-8b59-446477d1e1db",
-      "workday:astrazeneca:/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
-      "workday:aep:/job/Columbus-OH/Cybersecurity-Intern---Summer-2027_R21158",
-      "workday:asml:/job/Wilton-CT-USA/Internship---Data-Scientist_J-00356462",
-      "workday:avav:/job/Lawrence-KS/Software-Engineering-Intern_9360",
-      "workday:caci:/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147",
-      "workday:entegris:/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841",
-      "workday:leidos:/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510",
-      "greenhouse:muonspace:5293973007",
-      "workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481"
-    ],
-    "telegram": [
-      "lever:zoox:0f42ac76-3821-4805-8b59-446477d1e1db",
-      "workday:astrazeneca:/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
-      "workday:aep:/job/Columbus-OH/Cybersecurity-Intern---Summer-2027_R21158",
-      "workday:asml:/job/Wilton-CT-USA/Internship---Data-Scientist_J-00356462",
-      "workday:avav:/job/Lawrence-KS/Software-Engineering-Intern_9360",
-      "workday:caci:/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147",
-      "workday:entegris:/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841",
-      "workday:leidos:/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510",
-      "greenhouse:muonspace:5293973007",
-      "workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
