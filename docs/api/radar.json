@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-14T17:01:49Z",
- "data_as_of": "2026-11-14T17:01:49Z",
- "rendered_at": "2026-11-14T17:01:50Z",
+ "generated_at": "2026-11-14T21:43:51Z",
+ "data_as_of": "2026-11-14T21:43:51Z",
+ "rendered_at": "2026-11-14T21:43:51Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1024,25 +1024,6 @@
    "days_until": -82,
    "status": "open",
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81238",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-24"
-   }
-  },
-  {
-   "company": "Sage",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-24",
-   "days_until": -82,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/sage49/jobs/6131185004",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3407,25 +3388,6 @@
    }
   },
   {
-   "company": "Aurora Innovation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-24",
-   "days_until": -51,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-24"
-   }
-  },
-  {
    "company": "Genesis Molecular AI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-24",
@@ -5185,25 +5147,6 @@
    "days_until": -8,
    "status": "open",
    "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-11-06"
-   }
-  },
-  {
-   "company": "L.L.Bean",
-   "last_cycle_posted": "",
-   "posted_on": "2026-11-06",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-11-06",
-   "days_until": -8,
-   "status": "open",
-   "url": "https://llbean.wd1.myworkdayjobs.com/LLBean_Careers/job/Freeport-ME/Business--Data-Analyst-Intern--Summer-2027-_JR11275",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -8155,6 +8098,25 @@
    }
   },
   {
+   "company": "Sage",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-24",
+   "days_until": -82,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-24"
+   }
+  },
+  {
    "company": "Brunswick",
    "last_cycle_posted": "",
    "posted_on": "2026-08-25",
@@ -9295,6 +9257,25 @@
    }
   },
   {
+   "company": "Aurora Innovation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -51,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
+   }
+  },
+  {
    "company": "RRS Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
@@ -10033,6 +10014,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-05"
+   }
+  },
+  {
+   "company": "L.L.Bean",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-06",
+   "days_until": -8,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-06"
    }
   },
   {
