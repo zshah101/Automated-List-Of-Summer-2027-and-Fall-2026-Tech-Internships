@@ -1,22 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10605141",
-      "amazon:amazon:10605132",
-      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
-      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
-      "workday:dtna:/job/Mount-Holly-NC-US/IT-Developer-Analyst-Intern_DT-20681-1",
-      "smartrecruiters:ServiceNow:744000161592679",
-      "smartrecruiters:ServiceNow:744000161594249"
-    ],
-    "telegram": [
-      "amazon:amazon:10605141",
-      "amazon:amazon:10605132",
-      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
-      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
-      "workday:dtna:/job/Mount-Holly-NC-US/IT-Developer-Analyst-Intern_DT-20681-1",
-      "smartrecruiters:ServiceNow:744000161592679",
-      "smartrecruiters:ServiceNow:744000161594249"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
