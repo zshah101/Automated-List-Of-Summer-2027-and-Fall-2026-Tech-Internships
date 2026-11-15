@@ -1,12 +1,8 @@
 {
-  "last_digest_at": "2026-11-14T17:02:35Z",
-  "last_digest_roles": 19,
+  "last_digest_at": "2026-11-15T21:16:40Z",
+  "last_digest_roles": 4,
   "last_digest_sent": 254,
   "sent_role_ids": [
-    "greenhouse:figma:6178857004",
-    "greenhouse:singlestore:8154399",
-    "oracle:ekbq.fa.em2.oraclecloud.com:2061",
-    "workday:brevanhoward:/job/New-York/XMLNAME-2027-Summer-Internship-Program---AI---Quantitative-Analyst--New-York_JR101602",
     "workday:clarios:/job/United-States-Wisconsin-Milwaukee/People-Analytics---AI-Intern--Summer-2027-_WD50216",
     "workday:oshkoshcorporation:/job/Greencastle-Pennsylvania-United-States/Robotics-Programming-Engineer-Intern_R49597",
     "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Robotic-Programming-Welding-Intern--Summer-2027-_R49598",
@@ -2002,18 +1998,22 @@
     "workday:asml:/job/Austin-TX-USA/Internship---EUV-Data-Science-and-Analytics_J-00357717",
     "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519",
     "workday:martinmarietta:/job/Raleigh-NC/Intern--Data-Scientist_JR024144-1",
-    "workday:martinmarietta:/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146"
+    "workday:martinmarietta:/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146",
+    "greenhouse:raft:6239819004",
+    "greenhouse:raft:6240549004",
+    "greenhouse:raft:6240555004",
+    "oracle:eppr.fa.us2.oraclecloud.com:203746"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 254,
   "send_attempts": [
     {
-      "at": "2026-11-14T17:02:35Z",
-      "count": 254
-    },
-    {
       "at": "2026-11-14T21:44:34Z",
       "count": 1
+    },
+    {
+      "at": "2026-11-15T21:16:40Z",
+      "count": 254
     }
   ]
 }
