@@ -1,10 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:eppr.fa.us2.oraclecloud.com:203746"
-    ],
-    "telegram": [
-      "oracle:eppr.fa.us2.oraclecloud.com:203746"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
