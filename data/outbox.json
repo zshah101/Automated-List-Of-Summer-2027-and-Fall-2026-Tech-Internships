@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "greenhouse:raft:6240555004",
+      "greenhouse:raft:6239819004",
+      "greenhouse:raft:6240549004"
+    ],
+    "telegram": [
+      "greenhouse:raft:6240555004",
+      "greenhouse:raft:6239819004",
+      "greenhouse:raft:6240549004"
+    ]
   }
 }

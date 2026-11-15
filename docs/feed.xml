@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-11-15T16:10:35Z</updated>
+  <updated>2026-11-15T21:15:55Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:raft:6240555004</id>
+    <title>Raft: AI/ML Intern - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/raft/jobs/6240555004"/>
+    <updated>2026-11-15T21:15:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · McLean, Virginia, United States · $30–$40/hr · PyTorch · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:raft:6239819004</id>
+    <title>Raft: DevOps Engineering Intern - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/raft/jobs/6239819004"/>
+    <updated>2026-11-15T21:15:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · McLean, Virginia · $20–$24/hr · Python, Bash, Linux, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:raft:6240549004</id>
+    <title>Raft: Full Stack Engineering Intern - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/raft/jobs/6240549004"/>
+    <updated>2026-11-15T21:15:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · McLean, Virginia · $20–$24/hr · Python, Java, Go, TypeScript, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:eppr.fa.us2.oraclecloud.com:203746</id>
     <title>Northwell Health: Emerging Technology &amp; AI Internship</title>
@@ -782,29 +806,5 @@
     <updated>2026-11-10T19:59:04Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · North Kingstown, Rhode Island, USA · Python, C++, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:addepar1:8927531002</id>
-    <title>Addepar: Software Engineering Intern - Summer 2027</title>
-    <link href="https://job-boards.greenhouse.io/addepar1/jobs/8927531002"/>
-    <updated>2026-11-10T19:59:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · Python, Java, TypeScript, React, Kafka · H-1B track record: ~37 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:addepar1:8927543002</id>
-    <title>Addepar: AI Engineering Intern - Summer 2027</title>
-    <link href="https://job-boards.greenhouse.io/addepar1/jobs/8927543002"/>
-    <updated>2026-11-10T19:59:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY · Python, PyTorch, TensorFlow, LLMs · H-1B track record: ~37 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:lumbermens:5474346008</id>
-    <title>Lumbermen's: Software Developer Internship</title>
-    <link href="https://job-boards.greenhouse.io/lumbermens/jobs/5474346008"/>
-    <updated>2026-11-10T19:59:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Grand Rapids, MI · Python, SQL</summary>
   </entry>
 </feed>

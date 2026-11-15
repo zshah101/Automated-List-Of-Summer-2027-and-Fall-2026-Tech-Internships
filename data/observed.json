@@ -5080,6 +5080,20 @@
     }
    }
   },
+  "raft": {
+   "name": "Raft",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-05",
+     "role_ids": [
+      "greenhouse:raft:6239819004",
+      "greenhouse:raft:6240549004",
+      "greenhouse:raft:6240555004"
+     ],
+     "count": 3
+    }
+   }
+  },
   "rave aerospace": {
    "name": "RAVE Aerospace",
    "cycles": {
@@ -7055,5 +7069,5 @@
    }
   }
  },
- "updated_at": "2026-11-15T16:10:35Z"
+ "updated_at": "2026-11-15T21:15:55Z"
 }
