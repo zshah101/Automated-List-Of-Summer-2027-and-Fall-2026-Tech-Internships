@@ -10,25 +10,8 @@ X-WR-CALDESC:Expected opening dates for tech internships. Dates come from e
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:radar-d e shaw-20261001@intern-engine
-DTSTAMP:20261115T211555Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:D.E. Shaw — typically opens (Summer 2027)
-DESCRIPTION:D.E. Shaw typically opens around this date.  hand-checked typic
- al opening month (month-level\, not a day)  apply by end of prior year\; c
- lass set early Q1  Radar: https://zshah101.github.io/Automated-List-Of-Sum
- mer-2027-and-Fall-2026-Tech-Internships/#radar
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-P7D
-ACTION:DISPLAY
-DESCRIPTION:D.E. Shaw internships open soon
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:radar-ramp-20261201@intern-engine
-DTSTAMP:20261115T211555Z
+DTSTAMP:20261116T011446Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ramp — typically opens (Summer 2027)
@@ -45,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:radar-two sigma-20261201@intern-engine
-DTSTAMP:20261115T211555Z
+DTSTAMP:20261116T011446Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Two Sigma — typically opens (Summer 2027)
