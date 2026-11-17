@@ -306,6 +306,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Absolics",
+    "slug": "absolicsinc",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Absolute Facility Solutions",
     "slug": "AbsoluteFacilitySolutionsLLC",
     "ats": "smartrecruiters"
@@ -4519,6 +4524,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Bound",
+    "slug": "bound",
+    "ats": "rippling"
+  },
+  {
     "name": "Box",
     "slug": "boxinc",
     "ats": "greenhouse"
@@ -8684,6 +8694,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "DLR Group",
+    "slug": "dlrgroup",
+    "ats": "greenhouse"
+  },
+  {
     "name": "DLS Engineering Associates, Inc.",
     "slug": "dlsengineering",
     "ats": "rippling"
@@ -8991,6 +9006,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "external"
+  },
+  {
+    "name": "Duetti",
+    "slug": "duetti",
+    "ats": "lever"
   },
   {
     "name": "Duetto Research",
@@ -10410,6 +10430,11 @@
     "site": "fanthreesixty"
   },
   {
+    "name": "Fantom",
+    "slug": "fantom-corporation",
+    "ats": "lever"
+  },
+  {
     "name": "Fanvue",
     "slug": "fanvue",
     "ats": "ashby"
@@ -10494,6 +10519,14 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "FHLB_Careers"
+  },
+  {
+    "name": "Federal Home Loan Bank of Des Moines",
+    "slug": "vhr_fhlbdm",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "careers",
+    "host": "wd5.myworkdaysite.com"
   },
   {
     "name": "Federal Home Loan Bank of Indianapolis",
@@ -12961,6 +12994,14 @@
     "ats": "lever"
   },
   {
+    "name": "Havas",
+    "slug": "havas",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "GroupExternalCareerSite",
+    "host": "wd3.myworkdaysite.com"
+  },
+  {
     "name": "Haven Studios",
     "slug": "haven",
     "ats": "greenhouse"
@@ -13209,6 +13250,11 @@
     "name": "Hex",
     "slug": "hex",
     "ats": "ashby"
+  },
+  {
+    "name": "HexArmor",
+    "slug": "hexarmor",
+    "ats": "greenhouse"
   },
   {
     "name": "HEXAWARE",
@@ -19469,6 +19515,11 @@
     "ats": "workable"
   },
   {
+    "name": "NeuroSpark",
+    "slug": "neurospark",
+    "ats": "rippling"
+  },
+  {
     "name": "Neutreeno",
     "slug": "neutreeno-1",
     "ats": "workable"
@@ -23429,6 +23480,11 @@
     "site": "relx"
   },
   {
+    "name": "Remanence",
+    "slug": "remanence",
+    "ats": "ashby"
+  },
+  {
     "name": "Remarcable",
     "slug": "remarcable-inc",
     "ats": "ashby"
@@ -25891,6 +25947,11 @@
     "name": "Sopra Steria",
     "slug": "SopraSteria1",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Soros Fund Management",
+    "slug": "familyoffice",
+    "ats": "greenhouse"
   },
   {
     "name": "Sorting Robotics",
@@ -28531,6 +28592,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "tricentis_careers"
+  },
+  {
+    "name": "TricorBraun",
+    "slug": "tricorbraun",
+    "ats": "workday",
+    "wd": "wd115",
+    "site": "careers"
   },
   {
     "name": "Trimble",
@@ -31281,6 +31349,11 @@
     "ats": "oracle",
     "host": "eczd.fa.us2.oraclecloud.com",
     "site": "CX_1"
+  },
+  {
+    "name": "Z1 Tech",
+    "slug": "z1tech",
+    "ats": "lever"
   },
   {
     "name": "Zaber Technologies",
