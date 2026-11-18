@@ -3965,6 +3965,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "BIS Safety Software",
+    "slug": "bis",
+    "ats": "lever"
+  },
+  {
     "name": "Bisnow",
     "slug": "bisnow",
     "ats": "lever"
@@ -6307,6 +6312,11 @@
     "wd": "wd10",
     "site": "cob",
     "host": "wd10.myworkdaysite.com"
+  },
+  {
+    "name": "City of Campbell River",
+    "slug": "CityOfCampbellRiver",
+    "ats": "smartrecruiters"
   },
   {
     "name": "City of Charlotte",
@@ -9220,6 +9230,11 @@
     "site": "CX_1"
   },
   {
+    "name": "Ecliptic Enterprises",
+    "slug": "ecliptic-enterprises-corporation",
+    "ats": "workable"
+  },
+  {
     "name": "Ecolab",
     "slug": "ecolab",
     "ats": "workday",
@@ -9891,6 +9906,11 @@
     "ats": "lever"
   },
   {
+    "name": "EQL Tech",
+    "slug": "eqltech",
+    "ats": "workable"
+  },
+  {
     "name": "EQT Corporation",
     "slug": "eqtcorporation",
     "ats": "greenhouse"
@@ -10212,6 +10232,11 @@
     "site": "Exclusive-Networks-Career"
   },
   {
+    "name": "Executive Title Agency",
+    "slug": "executive-title-agency",
+    "ats": "workable"
+  },
+  {
     "name": "Exegy",
     "slug": "exegy",
     "ats": "ashby"
@@ -10392,6 +10417,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "FTI_Engineering"
+  },
+  {
+    "name": "Falcomm",
+    "slug": "falcomm",
+    "ats": "workable"
   },
   {
     "name": "Fanatics",
@@ -10781,6 +10811,13 @@
     "name": "Fireblocks",
     "slug": "fireblocks",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Firefly Aerospace",
+    "slug": "fireflyspace",
+    "ats": "workday",
+    "wd": "wd115",
+    "site": "firefly"
   },
   {
     "name": "Firemon",
@@ -12112,6 +12149,13 @@
     "name": "Girls Who Code",
     "slug": "girlswhocode",
     "ats": "lever"
+  },
+  {
+    "name": "GIRO",
+    "slug": "giro",
+    "ats": "workday",
+    "wd": "wd10",
+    "site": "GIRO"
   },
   {
     "name": "GITAI",
@@ -15102,6 +15146,13 @@
     "name": "Jane Street",
     "slug": "janestreet",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Jasperholdings",
+    "slug": "jasperholdings",
+    "ats": "workday",
+    "wd": "wd504",
+    "site": "jet_careers"
   },
   {
     "name": "Javelin Global Commodities",
@@ -21314,6 +21365,14 @@
     "ats": "ashby"
   },
   {
+    "name": "Parkland Health",
+    "slug": "parklandhospital",
+    "ats": "workday",
+    "wd": "wd12",
+    "site": "Parkland_Careers",
+    "host": "wd12.myworkdaysite.com"
+  },
+  {
     "name": "Parsons",
     "slug": "parsons",
     "ats": "workday",
@@ -23161,6 +23220,11 @@
     "name": "RAPP",
     "slug": "rapp",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Raptor Maps",
+    "slug": "raptor-maps-inc",
+    "ats": "rippling"
   },
   {
     "name": "RAVE Aerospace",
@@ -25664,6 +25728,11 @@
     "name": "Smartsheet",
     "slug": "smartsheet",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Smarty",
+    "slug": "smarty",
+    "ats": "rippling"
   },
   {
     "name": "Smith+Nephew",
@@ -30398,6 +30467,11 @@
     "name": "Warp",
     "slug": "warp",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Warp Sciences",
+    "slug": "warp-sciences",
+    "ats": "ashby"
   },
   {
     "name": "Wasabi Technologies",
