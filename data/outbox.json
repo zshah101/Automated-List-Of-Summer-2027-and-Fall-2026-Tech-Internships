@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1",
-      "workday:jasperholdings:/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857"
-    ],
-    "telegram": [
-      "workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1",
-      "workday:jasperholdings:/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
