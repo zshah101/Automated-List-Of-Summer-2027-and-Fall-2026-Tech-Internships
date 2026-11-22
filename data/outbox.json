@@ -1,6 +1,8 @@
 {
   "pending": {
-    "discord": [],
+    "discord": [
+      "greenhouse:nerostechnologies:5278981007"
+    ],
     "telegram": [
       "greenhouse:lucidmotors:5290921007",
       "greenhouse:lucidmotors:5290947007",
@@ -16,7 +18,8 @@
       "greenhouse:scoutspace:5489231008",
       "greenhouse:scoutspace:5489232008",
       "smartrecruiters:ServiceNow:744000162827365",
-      "smartrecruiters:VeoliaEnvironnementSA:744000162593839"
+      "smartrecruiters:VeoliaEnvironnementSA:744000162593839",
+      "greenhouse:nerostechnologies:5278981007"
     ]
   }
 }
