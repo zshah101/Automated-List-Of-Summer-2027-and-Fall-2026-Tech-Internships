@@ -47,6 +47,7 @@ jobs:
       - name: Verify committed artifacts match the store
         env:
           # CI validates artifact identity/arithmetic without making a code PR
-          # expire merely because its last real fetch is more than 12h old.
+          # expire merely because its last real fetch is more than 12h old, or
+          # because daily discovery has grown the registry since.
           ALLOW_STALE_STATS: "1"
         run: python tools/verify_accuracy.py

@@ -127,6 +127,79 @@ class TestSnapshotGateCalibration:
         assert "INCOMPLETE_CAPPED" not in computation
 
 
+class TestRegistryGate:
+    """registry-decay held the whole site from 2026-11-16 to 11-21.
+
+    It counted this run's provider trouble (Workday and Workable 429s, the
+    Saturday Workday bot walls) as if it were quarantine growth. Decay must
+    still block a publish; one bad run must not.
+    """
+
+    gate = importlib.import_module("tools.verify_accuracy")
+
+    @staticmethod
+    def _stats(total, ok, errors, benched, **extra):
+        return {
+            "companies_total": total, "fetched_ok": ok, "fetch_errors": errors,
+            "quarantined": benched,
+            "fetch_success_rate_registry": round(ok / total, 3), **extra,
+        }
+
+    def test_the_last_run_that_published_is_clean(self):
+        # 2026-11-16 01:14: Workday 398 + Workable 102 errors, 464 benched.
+        assert self.gate._registry_decay(self._stats(5454, 4490, 500, 464)) == ([], [])
+
+    def test_a_429_storm_is_reported_not_frozen(self):
+        stats = self._stats(5513, 4300, 749, 464,
+                            errors_by_source={"workable": 140, "workday": 600, "ashby": 9})
+        gates, warnings = self.gate._registry_decay(stats)
+        assert gates == []
+        assert len(warnings) == 1
+        assert "[registry-shortfall] only 78.0%" in warnings[0]
+        assert "workday 600, workable 140, ashby 9" in warnings[0]
+
+    def test_real_decay_still_blocks(self):
+        gates, _ = self.gate._registry_decay(self._stats(5000, 3900, 0, 1100))
+        assert len(gates) == 1
+        assert "[registry-decay] only 78.0% of the registry" in gates[0]
+        assert "1100 of 5000 boards are quarantined" in gates[0]
+
+    def test_weather_that_persists_becomes_decay(self):
+        # Workday is ~35% of the registry. If it stays dark, three failed runs
+        # quarantine its boards and the gate trips without anyone tuning it.
+        gates, _ = self.gate._registry_decay(self._stats(5513, 3500, 100, 1913))
+        assert gates
+
+    def test_malformed_stats_are_left_to_the_schema_gate(self):
+        assert self.gate._registry_decay({"companies_total": "5000"}) == ([], [])
+        assert self.gate._registry_decay(self._stats(1, 1, 0, 0) | {"companies_total": 0}) == ([], [])
+
+    def test_drift_only_binds_a_job_that_just_fetched(self):
+        # CI and the audit re-verify committed stats; discovery grows the
+        # registry in between. That tripped every audit from 08-27 to 11-12.
+        assert self.gate._registry_drift(5454, 5513, allow_stale=False)
+        assert self.gate._registry_drift(5454, 5513, allow_stale=True) == []
+        assert self.gate._registry_drift(5513, 5513, allow_stale=False) == []
+
+    def test_reasons_reach_the_actions_page(self, monkeypatch, capsys):
+        monkeypatch.setenv("GITHUB_ACTIONS", "true")
+        self.gate._annotate([f"  [gate-{i}] reason" for i in range(12)])
+        lines = capsys.readouterr().out.splitlines()
+        assert lines[0] == "::error::[gate-0] reason"
+        assert len(lines) == 11
+        assert "2 more" in lines[-1]
+
+    def test_warnings_annotate_as_warnings(self, monkeypatch, capsys):
+        monkeypatch.setenv("GITHUB_ACTIONS", "true")
+        self.gate._annotate(["  [registry-shortfall] x"], level="warning")
+        assert capsys.readouterr().out.splitlines() == ["::warning::[registry-shortfall] x"]
+
+    def test_annotations_stay_out_of_local_runs(self, monkeypatch, capsys):
+        monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+        self.gate._annotate(["  [x] y"])
+        assert capsys.readouterr().out == ""
+
+
 class TestDatePrecisionContract:
     """models.date_source underpins the never-downgrade rule in the store."""
 

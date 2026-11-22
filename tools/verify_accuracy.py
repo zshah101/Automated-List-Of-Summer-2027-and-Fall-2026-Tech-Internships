@@ -70,6 +70,91 @@ _REQUIRED_STATS = {
 }
 
 
+def _annotate(reasons: list[str], level: str = "error") -> None:
+    """Repeat the reasons where the Actions run page can show them.
+
+    A tripped gate surfaced as nothing but "Process completed with exit code
+    1": on 2026-08-15 two failed runs took an hour to diagnose because the only
+    copy of the reason was inside a log download. GitHub renders at most ten
+    error annotations per step, so say the first ten and count the rest.
+    """
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    for reason in reasons[:10]:
+        print(f"::{level}::{reason.strip()}")
+    if len(reasons) > 10:
+        print(f"::{level}::...and {len(reasons) - 10} more (see this step's log)")
+
+
+def _counts(*values) -> bool:
+    return all(isinstance(v, int) and not isinstance(v, bool) for v in values)
+
+
+def _registry_decay(stats: dict) -> tuple[list[str], list[str]]:
+    """Registry-wide coverage as (blocking gates, non-blocking run warnings).
+
+    Two different things lower the share of the registry a run returns, and
+    only one of them is decay. Quarantined boards are decay: they failed run
+    after run and are no longer even attempted. This run's errors are weather.
+    From 2026-11-13 Workday and Workable answered 429 to a fifth of their
+    boards, and every Saturday around 06:00-08:00 UTC Workday serves bot walls
+    to hundreds of tenants. Gating on the sum held the whole site for five days
+    over boards whose roles were being kept anyway: a failed fetch never closes
+    a role, so publishing loses nothing and freezing loses every other update.
+
+    Decay still blocks. Weather is reported, and weather that persists turns
+    into decay by itself, because three failed runs quarantine a board. A
+    collapse within a single run is the separate `fetch-collapse` gate.
+    """
+    total = stats.get("companies_total")
+    benched = stats.get("quarantined")
+    if not _counts(total, benched) or total <= 0:
+        return [], []
+    gates: list[str] = []
+    in_rotation = 1 - benched / total
+    if in_rotation < _MIN_REGISTRY_RATE:
+        gates.append(
+            f"  [registry-decay] only {in_rotation:.1%} of the registry is still "
+            f"being fetched (floor {_MIN_REGISTRY_RATE:.0%}) — {benched} of "
+            f"{total} boards are quarantined"
+        )
+    run_warnings: list[str] = []
+    returned = stats.get("fetch_success_rate_registry")
+    if isinstance(returned, (int, float)) and not isinstance(returned, bool) \
+            and returned < _MIN_REGISTRY_RATE:
+        by_source = stats.get("errors_by_source")
+        worst = ""
+        if isinstance(by_source, dict):
+            top = sorted(
+                ((n, src) for src, n in by_source.items() if _counts(n)),
+                key=lambda pair: (-pair[0], pair[1]),
+            )
+            if top:
+                worst = " — errors: " + ", ".join(f"{src} {n}" for n, src in top[:3])
+        run_warnings.append(
+            f"  [registry-shortfall] only {returned:.1%} of the registry answered "
+            f"this run{worst}; their roles are kept, and boards that keep failing "
+            f"are quarantined into the registry-decay gate"
+        )
+    return gates, run_warnings
+
+
+def _registry_drift(companies_total: int, registry_total: int,
+                    allow_stale: bool) -> list[str]:
+    """Stats from a fetch must describe the registry that fetch read.
+
+    Only a job that just fetched can promise that. CI and the weekly audit
+    re-verify committed stats without fetching, and daily discovery grows the
+    registry in between: this tripped every audit from 2026-08-27 to 11-12.
+    """
+    if allow_stale or companies_total == registry_total:
+        return []
+    return [
+        f"  [registry-drift] stats describe {companies_total} boards, "
+        f"registry has {registry_total}"
+    ]
+
+
 def main() -> None:
     cfg = config.load_config()
     cycles = config.cycles(cfg)
@@ -81,6 +166,12 @@ def main() -> None:
     open_jobs = [r for r in data.values() if r.get("is_open")]
     problems: list[str] = []
     warnings: list[str] = []
+    run_warnings: list[str] = []
+    # Jobs that verify committed stats without fetching (CI, the audit) set
+    # this: the stats may then lag both the clock and the registry.
+    allow_stale = (os.environ.get("ALLOW_STALE_STATS") or "").lower() in {
+        "1", "true", "yes",
+    }
 
     def _line(record: dict, rule: str) -> str:
         return (
@@ -263,9 +354,6 @@ def main() -> None:
             age = datetime.now(UTC) - fetched_dt
             if age < -timedelta(minutes=5):
                 gates.append("  [stats-future] fetch timestamp is in the future")
-            allow_stale = (os.environ.get("ALLOW_STALE_STATS") or "").lower() in {
-                "1", "true", "yes",
-            }
             if not allow_stale:
                 max_hours = int(os.environ.get("MAX_STATS_AGE_HOURS") or 12)
                 if age > timedelta(hours=max_hours):
@@ -287,13 +375,10 @@ def main() -> None:
             gates.append(f"  [fetch-collapse] only {rate:.0%} of boards responded")
         # Attempted-board rate alone hides slow rot: quarantined endpoints are
         # never attempted, so that number stays high while the registry decays
-        # underneath it. Gate on the registry-wide figure too.
-        reg = stats.get("fetch_success_rate_registry")
-        if isinstance(reg, (int, float)) and reg < _MIN_REGISTRY_RATE:
-            gates.append(
-                f"  [registry-decay] only {reg:.1%} of the full registry returned "
-                f"(floor {_MIN_REGISTRY_RATE:.0%}) — quarantined boards are growing"
-            )
+        # underneath it. Gate on the registry-wide picture too.
+        decay, shortfall = _registry_decay(stats)
+        gates.extend(decay)
+        run_warnings.extend(shortfall)
         # A run that read almost nothing completely is not a snapshot worth
         # publishing, even if the roles it did see look fine.
         complete = stats.get("snapshots_complete")
@@ -357,12 +442,9 @@ def main() -> None:
                 gates.append("  [stats-arithmetic] fetch_success_rate is inconsistent")
             if stats.get("fetch_success_rate_registry") != expected_registry_rate:
                 gates.append("  [stats-arithmetic] registry success rate is inconsistent")
-            registry_total = len(registry.load())
-            if companies_total != registry_total:
-                gates.append(
-                    f"  [registry-drift] stats describe {companies_total} boards, "
-                    f"registry has {registry_total}"
-                )
+            gates.extend(_registry_drift(
+                companies_total, len(registry.load()), allow_stale,
+            ))
         if stats.get("open_total") != len(open_jobs):
             gates.append("  [stats-store-drift] open_total differs from the job store")
         expected_cycles: dict[str, int] = {}
@@ -390,6 +472,10 @@ def main() -> None:
     if warnings:
         print(f"\n{len(warnings)} warning(s) (non-blocking):")
         print("\n".join(warnings))
+    if run_warnings:
+        print(f"\n{len(run_warnings)} run warning(s) (non-blocking):")
+        print("\n".join(run_warnings))
+        _annotate(run_warnings, level="warning")
     if problems or gates:
         if problems:
             print(f"\n{len(problems)} violation(s):")
@@ -397,6 +483,7 @@ def main() -> None:
         if gates:
             print(f"\n{len(gates)} publish gate(s) tripped:")
             print("\n".join(gates))
+        _annotate(problems + gates)
         sys.exit(1)
     print("All accuracy invariants hold.")
 

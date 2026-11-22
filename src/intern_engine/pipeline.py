@@ -183,6 +183,13 @@ async def _fetch_all(companies: list[dict], enrich_after):
         try:
             results = await asyncio.gather(*(worker(c) for c in companies))
             enrich_result = await enrich_after(results, default_net, workday_net)
+            for provider, seen in limiter.pushback().items():
+                print(
+                    f"Pushback from {provider}: {seen['signals']} throttled "
+                    f"answers, concurrency cut {seen['cuts']}x "
+                    f"(lowest {seen['lowest']})",
+                    flush=True,
+                )
             return results, enrich_result
         finally:
             if workday_client is not None:
