@@ -1,25 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:nerostechnologies:5278981007"
-    ],
-    "telegram": [
-      "greenhouse:lucidmotors:5290921007",
-      "greenhouse:lucidmotors:5290947007",
-      "greenhouse:lucidmotors:5290911007",
-      "greenhouse:lucidmotors:5290925007",
-      "greenhouse:minitab:8200708003",
-      "greenhouse:mongodb:8346138",
-      "greenhouse:pacificfusion:4505668009",
-      "smartrecruiters:RenesasElectronics:744000162784555",
-      "greenhouse:samsungsemiconductor:8208600003",
-      "greenhouse:samsungsemiconductor:8208494003",
-      "greenhouse:samsungsemiconductor:8208662003",
-      "greenhouse:scoutspace:5489231008",
-      "greenhouse:scoutspace:5489232008",
-      "smartrecruiters:ServiceNow:744000162827365",
-      "smartrecruiters:VeoliaEnvironnementSA:744000162593839",
-      "greenhouse:nerostechnologies:5278981007"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
