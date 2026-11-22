@@ -1578,10 +1578,11 @@
     "Summer 2027": {
      "first_posted": "2026-10-09",
      "role_ids": [
+      "workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1",
       "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1",
       "workday:cmu:/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1"
      ],
-     "count": 2
+     "count": 3
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -3407,6 +3408,18 @@
       "workday:jainglobal:/job/New-York-New-York/Quantitative-Developer-Intern--Summer-2027---New-York-_JR100608"
      ],
      "count": 3
+    }
+   }
+  },
+  "jasperholdings": {
+   "name": "Jasperholdings",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-16",
+     "role_ids": [
+      "workday:jasperholdings:/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857"
+     ],
+     "count": 1
     }
    }
   },
@@ -7227,5 +7240,5 @@
    }
   }
  },
- "updated_at": "2026-11-22T08:49:50Z"
+ "updated_at": "2026-11-22T17:07:13Z"
 }

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-22T08:49:50Z",
- "data_as_of": "2026-11-22T08:49:50Z",
- "rendered_at": "2026-11-22T08:49:50Z",
+ "generated_at": "2026-11-22T17:07:13Z",
+ "data_as_of": "2026-11-22T17:07:13Z",
+ "rendered_at": "2026-11-22T17:07:13Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -3863,6 +3863,25 @@
    }
   },
   {
+   "company": "Cmu",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-09",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-09",
+   "days_until": -44,
+   "status": "open",
+   "url": "https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-09"
+   }
+  },
+  {
    "company": "GCM Grosvenor",
    "last_cycle_posted": "",
    "posted_on": "2026-10-09",
@@ -4069,6 +4088,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-15"
+   }
+  },
+  {
+   "company": "Jasperholdings",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-16",
+   "days_until": -37,
+   "status": "open",
+   "url": "https://jasperholdings.wd504.myworkdayjobs.com/jet_careers/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-16"
    }
   },
   {
@@ -9769,25 +9807,6 @@
    }
   },
   {
-   "company": "Cmu",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-09",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-09",
-   "days_until": -44,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-09"
-   }
-  },
-  {
    "company": "CapTech Consulting",
    "last_cycle_posted": "",
    "posted_on": "2026-10-12",
@@ -10282,5 +10301,5 @@
    }
   }
  ],
- "count": 541
+ "count": 542
 }
