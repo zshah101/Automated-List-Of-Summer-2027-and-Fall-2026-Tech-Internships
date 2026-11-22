@@ -212,6 +212,18 @@
     }
    }
   },
+  "airbnb": {
+   "name": "Airbnb",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-18",
+     "role_ids": [
+      "greenhouse:airbnb:8360478"
+     ],
+     "count": 1
+    }
+   }
+  },
   "akuna capital": {
    "name": "Akuna Capital",
    "cycles": {
@@ -533,12 +545,13 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-10",
-     "count": 4,
+     "count": 5,
      "role_ids": [
       "greenhouse:andurilindustries:5148079007",
       "greenhouse:andurilindustries:5239083007",
       "greenhouse:andurilindustries:5265158007",
-      "greenhouse:andurilindustries:5269977007"
+      "greenhouse:andurilindustries:5269977007",
+      "greenhouse:andurilindustries:5274037007"
      ]
     }
    }
@@ -960,15 +973,28 @@
     }
    }
   },
+  "biohub": {
+   "name": "Biohub",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-20",
+     "role_ids": [
+      "greenhouse:biohub:8400682"
+     ],
+     "count": 1
+    }
+   }
+  },
   "blue cross blue shield of michigan": {
    "name": "Blue Cross Blue Shield of Michigan",
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-09-28",
      "role_ids": [
-      "oracle:ejko.fa.us2.oraclecloud.com:14837"
+      "oracle:ejko.fa.us2.oraclecloud.com:14837",
+      "oracle:ejko.fa.us2.oraclecloud.com:15160"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1089,9 +1115,10 @@
      "role_ids": [
       "smartrecruiters:BoschGroup:744000146546699",
       "smartrecruiters:BoschGroup:744000146546849",
-      "smartrecruiters:BoschGroup:744000146547599"
+      "smartrecruiters:BoschGroup:744000146547599",
+      "smartrecruiters:BoschGroup:744000162076254"
      ],
-     "count": 3
+     "count": 4
     },
     "Fall 2026": {
      "first_posted": "2026-09-17",
@@ -2133,6 +2160,19 @@
     }
    }
   },
+  "ep wealth advisors": {
+   "name": "EP Wealth Advisors",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-11",
+     "role_ids": [
+      "lever:epwealth:6f92e3ad-ab55-44bf-b2d6-395cdd4dc7a9",
+      "lever:epwealth:b9b8ce36-70e5-495e-8ec2-f06456b5851b"
+     ],
+     "count": 2
+    }
+   }
+  },
   "equifax": {
    "name": "Equifax",
    "cycles": {
@@ -2453,9 +2493,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-06",
      "role_ids": [
-      "greenhouse:galaxydigitalservices:6250002004"
+      "greenhouse:galaxydigitalservices:6250002004",
+      "greenhouse:galaxydigitalservices:6265138004"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2820,6 +2861,18 @@
      "first_posted": "2026-09-02",
      "role_ids": [
       "workday:hdsupply:/job/Atlanta-GA-US/Graduate-Intern--Artificial-Intelligence---Data-Science---Summer-2027_R26004952"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "heartflow": {
+   "name": "HeartFlow",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "greenhouse:heartflowinc:6263395004"
      ],
      "count": 1
     }
@@ -3581,9 +3634,11 @@
       "smartrecruiters:LLNL:3743990016610216",
       "smartrecruiters:LLNL:3743990016610426",
       "smartrecruiters:LLNL:3743990016610436",
-      "smartrecruiters:LLNL:3743990016610446"
+      "smartrecruiters:LLNL:3743990016610446",
+      "smartrecruiters:LLNL:3743990016984696",
+      "smartrecruiters:LLNL:3743990016985486"
      ],
-     "count": 18
+     "count": 20
     }
    }
   },
@@ -3662,9 +3717,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-11",
      "role_ids": [
+      "greenhouse:lightmatter:5474807008",
       "greenhouse:lightmatter:5479596008"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3675,9 +3731,11 @@
      "first_posted": "2026-10-20",
      "role_ids": [
       "smartrecruiters:LinkedIn3:744000156616169",
-      "smartrecruiters:LinkedIn3:744000158394370"
+      "smartrecruiters:LinkedIn3:744000158394370",
+      "smartrecruiters:LinkedIn3:744000161930950",
+      "smartrecruiters:LinkedIn3:744000162628808"
      ],
-     "count": 2
+     "count": 4
     }
    }
   },
@@ -3717,6 +3775,25 @@
       "workday:lseg:/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1"
      ],
      "count": 1
+    }
+   }
+  },
+  "lucid motors": {
+   "name": "Lucid Motors",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "greenhouse:lucidmotors:5290800007",
+      "greenhouse:lucidmotors:5290904007",
+      "greenhouse:lucidmotors:5290911007",
+      "greenhouse:lucidmotors:5290919007",
+      "greenhouse:lucidmotors:5290921007",
+      "greenhouse:lucidmotors:5290923007",
+      "greenhouse:lucidmotors:5290925007",
+      "greenhouse:lucidmotors:5290947007"
+     ],
+     "count": 8
     }
    }
   },
@@ -4109,9 +4186,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-23",
      "role_ids": [
-      "greenhouse:mongodb:8209134"
+      "greenhouse:mongodb:8209134",
+      "greenhouse:mongodb:8346138"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4702,9 +4780,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-09",
      "role_ids": [
-      "greenhouse:pacificfusion:4398373009"
+      "greenhouse:pacificfusion:4398373009",
+      "greenhouse:pacificfusion:4505668009"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4781,6 +4860,18 @@
       "greenhouse:pdtpartners:8077685",
       "greenhouse:pdtpartners:8263031"
      ]
+    }
+   }
+  },
+  "pebl": {
+   "name": "Pebl",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "ashby:pebl:10c7b7d7-835c-46a9-b107-81577ed3c4a0"
+     ],
+     "count": 1
     }
    }
   },
@@ -5080,6 +5171,18 @@
     }
    }
   },
+  "quest analytics": {
+   "name": "Quest Analytics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-15",
+     "role_ids": [
+      "lever:questanalytics:8e5758b7-6945-4c22-9f89-3d029ca9716f"
+     ],
+     "count": 1
+    }
+   }
+  },
   "raft": {
    "name": "Raft",
    "cycles": {
@@ -5091,6 +5194,23 @@
       "greenhouse:raft:6240555004"
      ],
      "count": 3
+    }
+   }
+  },
+  "ralliant": {
+   "name": "Ralliant",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11153",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11154",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11167",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11231",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11266",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11324"
+     ],
+     "count": 6
     }
    }
   },
@@ -5188,6 +5308,18 @@
      "first_posted": "2026-09-16",
      "role_ids": [
       "greenhouse:rendezvousrobotics:4408590009"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "renesas electronics": {
+   "name": "Renesas Electronics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-20",
+     "role_ids": [
+      "smartrecruiters:RenesasElectronics:744000162784555"
      ],
      "count": 1
     }
@@ -5613,6 +5745,19 @@
     }
    }
   },
+  "scout space": {
+   "name": "Scout Space",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "greenhouse:scoutspace:5489231008",
+      "greenhouse:scoutspace:5489232008"
+     ],
+     "count": 2
+    }
+   }
+  },
   "securian financial group": {
    "name": "Securian Financial Group",
    "cycles": {
@@ -5968,9 +6113,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008210",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008448"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008995"
      ],
-     "count": 20
+     "count": 21
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -7069,5 +7215,5 @@
    }
   }
  },
- "updated_at": "2026-11-16T01:14:46Z"
+ "updated_at": "2026-11-22T01:19:01Z"
 }
