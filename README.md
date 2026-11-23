@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 1230 open roles (573 listed below) · 63 new this week
+### 1227 open roles (570 listed below) · 61 new this week
 
-5,175 employers tracked · data as of Nov 22, 2026 at 17:07 UTC
+5,175 employers tracked · data as of Nov 23, 2026 at 03:07 UTC
 
-_947 have a cycle the employer stated · 283 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_947 have a cycle the employer stated · 280 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -428,12 +428,15 @@ If it helps you, a star means a lot and tells me to keep going.
 | onsemi | Fall 2026 - AI & Data Analytics Intern | [Apply](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2505878) | Scottsdale, AZ, United States | Python, SQL, LLMs, Tableau | Jul 15, 2026 |
 | NVIDIA ✓ | Applied Research Intern, NLP - Fall 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) | US, CA, Santa Clara | Python, PyTorch | Jul 01, 2026 |
 
-## Recently posted — cycle not stated  (211 roles)
+## Recently posted — cycle not stated  (208 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
 | Company | Role | Apply | Location | Skills | Posted |
 |---|---|---|---|---|---|
+| Artefact | AI Adoption Intern 🆕 | [Apply](https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958079002) | 135 W 26th Street, New York, NY 10001 | Python, SQL | Nov 22, 2026 |
+| Artefact | AI Engineering Intern 🆕 | [Apply](https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958074002) | 135 W 26th Street, New York, NY 10001 | Python, LLMs, Git | Nov 22, 2026 |
+| Artefact | AI Strategy Intern 🆕 | [Apply](https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958071002) | 135 W 26th Street, New York, NY 10001 | Python | Nov 22, 2026 |
 | Caesars Entertainm​ent | SOC Cybersecur​ity Intern (Las Vegas) 🆕 | [Apply](https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/92118) | Las Vegas, NV, United States | No skills listed | Nov 20, 2026 |
 | Caesars Entertainm​ent | IAM Cybersecur​ity Intern (Las Vegas) 🆕 | [Apply](https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/92135) | Las Vegas, NV, United States | No skills listed | Nov 20, 2026 |
 | University of Wyoming ✓ | Research Scientist, Associate - Wyoming Coop Unit 🆕 | [Apply](https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/263091) | MT, United States | SQL | Nov 20, 2026 |
@@ -447,7 +450,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Clera | Full-Stack Software Engineering Intern 🆕 | [Apply](https://jobs.ashbyhq.com/Clera/42992916-9ca1-48ca-9378-f4a13ea3733d) | New York | No skills listed | Nov 17, 2026 |
 | Falcomm | AI/ML Software Engineer Graduate Intern - AI/CAD Integration 🇺🇸 🆕 | [Apply](https://apply.workable.com/falcomm/j/41F139E6F7/) | Atlanta, Georgia, United States | Python, Bash, PyTorch, TensorFlow | Nov 17, 2026 |
 | Falcomm | AI/ML Software Engineer Undergradu​ate Intern - AI/CAD Integration 🇺🇸 🆕 | [Apply](https://apply.workable.com/falcomm/j/64D0E86EFE/) | Atlanta, Georgia, United States | Python, Bash, PyTorch, TensorFlow | Nov 17, 2026 |
-| HexArmor | Software Engineering Intern 🆕 | [Apply](https://job-boards.greenhouse.io/hexarmor/jobs/8206200003) | Atlanta, Georgia, United States | JavaScript, SQL, Ruby, React | Nov 16, 2026 |
 | Minitab | Software Engineering Intern 🆕 | [Apply](https://job-boards.greenhouse.io/minitab/jobs/8200708003) | State College +2 more | Python, C++, C#, JavaScript | Nov 16, 2026 |
 | Toyota Research Institute ✓ | Automated Driving Advanced Development Intern, Machine Learning Research (Cambridge) 🆕 | [Apply](https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476) | Cambridge, MA | Python, PyTorch | Nov 16, 2026 |
 | Viavi Solutions ✓ | Software Engineering Co-op | [Apply](https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1) | Germantown, MD USA | Python, C++, Bash, Linux | Nov 15, 2026 |
@@ -637,11 +639,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Arcesium ✓ | Software Engineer Intern | [Apply](https://job-boards.greenhouse.io/arcesiumllc/jobs/5257176007) | New York | Java, TypeScript, SQL, Kotlin | Oct 09, 2026 |
 | Arcesium ✓ | Infrastruc​ture Engineer Intern | [Apply](https://job-boards.greenhouse.io/arcesiumllc/jobs/5257199007) | New York | Python, Java, LLMs, AWS | Oct 09, 2026 |
 | Aptiv ✓ | Linux Software Development Intern (Hybrid - San Antonio, TX) _(2 openings)_ | [Apply](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398) [#2](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704399) | USA Home Office - WR | Linux, Python, C++, Git | Oct 09, 2026 |
-| Booz Allen | University, Applied AI Software Development Intern 🇺🇸 | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--Applied-AI-Software-Development-Intern_R0251314) | McLean, VA | Python, Java, C++, JavaScript | Oct 08, 2026 |
-| Johnson & Johnson | AI Excellence, Decision Enablement Intern 🛂 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881) | Spring House +2 more | No skills listed | Oct 08, 2026 |
-| American Electric Power ✓ | Data Scientist Intern - Columbus, OH | [Apply](https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R19884) | Columbus, OH | Python, SQL, TensorFlow, scikit-learn | Oct 08, 2026 |
-| Cox | Data Scientist Co-op | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Data-Scientist-Co-op_R202683033) | Atlanta GA | Python, SQL, scikit-learn, Pandas | Oct 08, 2026 |
-| Gordon Food Service ✓ | Software Engineer Intern (Transport​ation Routing ) | [Apply](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Transportation-Routing--_R-58374) | Wyoming, Michigan | LLMs | Oct 08, 2026 |
 | Howmet Aerospace | Cybersecur​ity Intern 🛂 | [Apply](https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119551) | Pittsburgh, PA, United States | No skills listed | Sep 22, 2026 |
 | Ninjaholdi​ngs | Data Science Intern | [Apply](https://ninjaholdings.breezy.hr/p/85be8c78a2ba-data-science-intern) | Chicago, IL | No skills listed | Sep 17, 2026 |
 | Ninjaholdi​ngs | Software Engineer Intern | [Apply](https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern) | Chicago, IL | No skills listed | Sep 09, 2026 |
@@ -656,8 +653,8 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 
 | Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
-| Ramp | ~Dec | ~Dec · in ~9d | ⏳ waiting |
-| Two Sigma | ~Dec | ~Dec · in ~9d | ⏳ waiting |
+| Ramp | ~Dec | ~Dec · in ~8d | ⏳ waiting |
+| Two Sigma | ~Dec | ~Dec · in ~8d | ⏳ waiting |
 | Apple | rolling | year-round | ⏳ waiting |
 | Jump Trading | rolling | year-round | ⏳ waiting |
 | Microsoft | rolling | year-round | ⏳ waiting |
@@ -743,7 +740,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,138 of 5,515 registered boards returned successfully across 12 ATS platforms (62% of boards attempted, 56% of the full registry) · completed in 134.4s · 84 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 3,242 of 5,515 registered boards returned successfully across 12 ATS platforms (69% of boards attempted, 58% of the full registry) · completed in 130.5s · 90 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 

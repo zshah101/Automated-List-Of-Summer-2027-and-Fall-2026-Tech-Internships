@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-11-22T17:07:13Z</updated>
+  <updated>2026-11-23T03:07:27Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:artefactlinkedin:8958079002</id>
+    <title>Artefact: AI Adoption Intern</title>
+    <link href="https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958079002"/>
+    <updated>2026-11-23T03:07:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:artefactlinkedin:8958074002</id>
+    <title>Artefact: AI Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958074002"/>
+    <updated>2026-11-23T03:07:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python, LLMs, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:artefactlinkedin:8958071002</id>
+    <title>Artefact: AI Strategy Intern</title>
+    <link href="https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958071002"/>
+    <updated>2026-11-23T03:07:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1</id>
     <title>Cmu: AI Engineer Intern - Mission Innovation Lab (Summer 2027) 🛂</title>
@@ -107,9 +131,9 @@
     <id>urn:intern-engine:greenhouse:hexarmor:8206200003</id>
     <title>HexArmor: Software Engineering Intern</title>
     <link href="https://job-boards.greenhouse.io/hexarmor/jobs/8206200003"/>
-    <updated>2026-11-22T01:19:01Z</updated>
+    <updated>2026-11-23T03:07:26Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Atlanta, Georgia, United States · JavaScript, SQL, Ruby, React, HTML/CSS</summary>
+    <summary>Not stated · Software · Atlanta, Georgia, United States · JavaScript, SQL, Ruby, React, HTML/CSS · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:lightmatter:5474807008</id>
@@ -782,29 +806,5 @@
     <updated>2026-11-13T01:21:23Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Denver, CO, US · Python, C++, Rust, MATLAB, CUDA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:entegris:/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841</id>
-    <title>Entegris: Power Platform / Copilot Studio Intern – AI - Summer Intern</title>
-    <link href="https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841"/>
-    <updated>2026-11-13T01:21:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Aurora, IL · $20–$30/hr · H-1B track record: ~60 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510</id>
-    <title>Leidos: Junior Software Engineer / Data Scientist Intern 🇺🇸</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Tucson-AZ/Junior-Software-Engineer---Data-Scientist-Intern_R-00196510"/>
-    <updated>2026-11-13T01:21:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Tucson, AZ · Python, Java, C++, TypeScript, JavaScript · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481</id>
-    <title>Stanley Black &amp; Decker: Intern, Data Analyst &amp; BI, Summer 2027 🛂</title>
-    <link href="https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481"/>
-    <updated>2026-11-13T01:21:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Towson, MD, United States · $22–$27/hr · Python, SQL, PostgreSQL, Tableau · sponsorship: no-sponsorship · H-1B track record: ~124 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
