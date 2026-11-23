@@ -1,14 +1,8 @@
 {
-  "last_digest_at": "2026-11-22T01:19:48Z",
-  "last_digest_roles": 57,
-  "last_digest_sent": 253,
+  "last_digest_at": "2026-11-23T03:08:12Z",
+  "last_digest_roles": 6,
+  "last_digest_sent": 252,
   "sent_role_ids": [
-    "greenhouse:newsbreak:4712896006",
-    "greenhouse:businessolverinvitationonly:8189738",
-    "greenhouse:lyft:8802198002",
-    "greenhouse:perpay:4076978007",
-    "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
-    "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
     "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
     "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
     "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
@@ -2002,14 +1996,20 @@
     "smartrecruiters:VeoliaEnvironnementSA:744000162593839",
     "workable:falcomm:41F139E6F7",
     "workable:falcomm:64D0E86EFE",
-    "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1"
+    "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1",
+    "greenhouse:artefactlinkedin:8958071002",
+    "greenhouse:artefactlinkedin:8958074002",
+    "greenhouse:artefactlinkedin:8958079002",
+    "workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1",
+    "workday:jasperholdings:/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857",
+    "greenhouse:nerostechnologies:5278981007"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 253,
+  "subscribers_total": 252,
   "send_attempts": [
     {
-      "at": "2026-11-22T01:19:48Z",
-      "count": 254
+      "at": "2026-11-23T03:08:12Z",
+      "count": 252
     }
   ]
 }
