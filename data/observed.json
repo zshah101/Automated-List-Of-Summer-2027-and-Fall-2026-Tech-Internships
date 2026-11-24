@@ -342,7 +342,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 23,
+     "count": 24,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -366,7 +366,8 @@
       "amazon:amazon:10593521",
       "amazon:amazon:10597379",
       "amazon:amazon:10605132",
-      "amazon:amazon:10605141"
+      "amazon:amazon:10605141",
+      "amazon:amazon:10606968"
      ]
     }
    }
@@ -945,6 +946,18 @@
       "lever:belvederetrading:cbde47db-c60b-4339-a8f4-a8e4f30505ab"
      ],
      "count": 2
+    }
+   }
+  },
+  "benchling": {
+   "name": "Benchling",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-23",
+     "role_ids": [
+      "ashby:benchling:96370d1b-d35e-446b-8e26-dce088860099"
+     ],
+     "count": 1
     }
    }
   },
@@ -3206,9 +3219,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-09",
      "role_ids": [
-      "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e"
+      "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e",
+      "ashby:illumio:78a9e57d-c213-405b-9cf3-6e68109a4ce7"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5846,9 +5860,11 @@
      "first_posted": "2026-09-17",
      "role_ids": [
       "greenhouse:sharkninjaoperatingllc:4713808006",
+      "greenhouse:sharkninjaoperatingllc:4721682006",
+      "greenhouse:sharkninjaoperatingllc:4725867006",
       "greenhouse:sharkninjaoperatingllc:4727539006"
      ],
-     "count": 2
+     "count": 4
     }
    }
   },
@@ -5874,12 +5890,13 @@
       "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
       "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
       "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
+      "ashby:shield:f96617c2-a120-4b3b-844d-790fcda42503",
       "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
       "lever:shieldai:aa71c28a-be00-43ca-8aa7-b764b2143797",
       "lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4",
       "lever:shieldai:db8fc063-8856-4404-991c-f287712de949"
      ],
-     "count": 8
+     "count": 9
     }
    }
   },
@@ -6139,9 +6156,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008995"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008995",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1009005"
      ],
-     "count": 21
+     "count": 22
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -7240,5 +7258,5 @@
    }
   }
  },
- "updated_at": "2026-11-23T03:07:27Z"
+ "updated_at": "2026-11-24T00:21:45Z"
 }

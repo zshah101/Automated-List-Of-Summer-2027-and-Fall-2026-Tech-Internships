@@ -1,6 +1,30 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "amazon:amazon:10606968",
+      "ashby:benchling:96370d1b-d35e-446b-8e26-dce088860099",
+      "ashby:contoro:6a1f0c10-3e5f-4899-ad86-38036a9cd434",
+      "ashby:illumio:78a9e57d-c213-405b-9cf3-6e68109a4ce7",
+      "ashby:shield:f96617c2-a120-4b3b-844d-790fcda42503",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1009005",
+      "greenhouse:capitaltg:5307074007",
+      "greenhouse:capitaltg:5281563007",
+      "greenhouse:oscar:8407472",
+      "greenhouse:sharkninjaoperatingllc:4721682006",
+      "greenhouse:sharkninjaoperatingllc:4725867006"
+    ],
+    "telegram": [
+      "amazon:amazon:10606968",
+      "ashby:benchling:96370d1b-d35e-446b-8e26-dce088860099",
+      "ashby:contoro:6a1f0c10-3e5f-4899-ad86-38036a9cd434",
+      "ashby:illumio:78a9e57d-c213-405b-9cf3-6e68109a4ce7",
+      "ashby:shield:f96617c2-a120-4b3b-844d-790fcda42503",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1009005",
+      "greenhouse:capitaltg:5307074007",
+      "greenhouse:capitaltg:5281563007",
+      "greenhouse:oscar:8407472",
+      "greenhouse:sharkninjaoperatingllc:4721682006",
+      "greenhouse:sharkninjaoperatingllc:4725867006"
+    ]
   }
 }
