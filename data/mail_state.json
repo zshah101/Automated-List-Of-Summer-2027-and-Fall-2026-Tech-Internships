@@ -3,9 +3,6 @@
   "last_digest_roles": 6,
   "last_digest_sent": 252,
   "sent_role_ids": [
-    "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255722",
-    "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-    "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
     "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
     "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
     "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
@@ -1998,8 +1995,11 @@
     "workable:falcomm:64D0E86EFE",
     "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1",
     "greenhouse:artefactlinkedin:8958071002",
+    "greenhouse:artefactnoram:8958073002",
     "greenhouse:artefactlinkedin:8958074002",
+    "greenhouse:artefactnoram:8958076002",
     "greenhouse:artefactlinkedin:8958079002",
+    "greenhouse:artefactnoram:8958081002",
     "workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1",
     "workday:jasperholdings:/job/Jasper-IN/IT-Full-Stack-Developer-Internship--Summer-2027_R-100857",
     "greenhouse:nerostechnologies:5278981007"
