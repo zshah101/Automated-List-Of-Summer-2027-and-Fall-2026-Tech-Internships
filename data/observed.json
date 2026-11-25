@@ -342,7 +342,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 24,
+     "count": 25,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -367,7 +367,8 @@
       "amazon:amazon:10597379",
       "amazon:amazon:10605132",
       "amazon:amazon:10605141",
-      "amazon:amazon:10606968"
+      "amazon:amazon:10606968",
+      "amazon:amazon:10609992"
      ]
     }
    }
@@ -883,6 +884,24 @@
       "greenhouse:axq:6181069004"
      ],
      "count": 1
+    }
+   }
+  },
+  "bandwidth": {
+   "name": "Bandwidth",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-24",
+     "role_ids": [
+      "greenhouse:bandwidth:8414426",
+      "greenhouse:bandwidth:8414430",
+      "greenhouse:bandwidth:8414436",
+      "greenhouse:bandwidth:8414440",
+      "greenhouse:bandwidth:8414444",
+      "greenhouse:bandwidth:8414448",
+      "greenhouse:bandwidth:8414452"
+     ],
+     "count": 7
     }
    }
   },
@@ -2206,6 +2225,18 @@
      "first_posted": "2026-08-31",
      "role_ids": [
       "workday:ercot:/job/Taylor-TX/Summer-Intern----Cyber-Security_R2404"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "esri": {
+   "name": "Esri",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-11-05",
+     "role_ids": [
+      "greenhouse:studentprogram:5286753007"
      ],
      "count": 1
     }
@@ -5887,6 +5918,7 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
+      "ashby:shield:2d4c1eef-2569-46e1-9924-23588d5c5e86",
       "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
       "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
       "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
@@ -5896,7 +5928,7 @@
       "lever:shieldai:ac38d092-f435-4301-880b-48d0e92679a4",
       "lever:shieldai:db8fc063-8856-4404-991c-f287712de949"
      ],
-     "count": 9
+     "count": 10
     }
    }
   },
@@ -6719,9 +6751,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-18",
      "role_ids": [
-      "smartrecruiters:VeoliaEnvironnementSA:744000150460339"
+      "smartrecruiters:VeoliaEnvironnementSA:744000150460339",
+      "smartrecruiters:VeoliaEnvironnementSA:744000163377969"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -7258,5 +7291,5 @@
    }
   }
  },
- "updated_at": "2026-11-24T00:21:45Z"
+ "updated_at": "2026-11-25T04:10:48Z"
 }

@@ -5,15 +5,95 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-11-24T00:21:45Z</updated>
+  <updated>2026-11-25T04:10:48Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:lever:exowatt:86589116-72a5-44f1-893a-1c688d15f2cf</id>
-    <title>Exowatt: Software &amp; AI Spring Intern (Austin, TX)</title>
-    <link href="https://jobs.lever.co/exowatt/86589116-72a5-44f1-893a-1c688d15f2cf"/>
-    <updated>2026-11-24T00:21:45Z</updated>
+    <id>urn:intern-engine:greenhouse:queracomputinginc:5493521008</id>
+    <title>QuEra Computing: Site Reliability Engineer Co-op</title>
+    <link href="https://job-boards.greenhouse.io/queracomputinginc/jobs/5493521008"/>
+    <updated>2026-11-25T04:10:48Z</updated>
     <category term="Spring 2027"/>
-    <summary>Spring 2027 · Data &amp; ML/AI · Austin, TX · LLMs · status: closed</summary>
+    <summary>Spring 2027 · Software · Boston, MA, USA · Python, Bash, Kubernetes, Docker, Linux · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10609992</id>
+    <title>Amazon: Front-End Engineer Internship – 2027 (US)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10609992/front-end-engineer-internship-2027-us"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, C#, JavaScript, React, Angular · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:shield:2d4c1eef-2569-46e1-9924-23588d5c5e86</id>
+    <title>Shield AI: 2027 Summer Intern - Software Test Automation - 5796</title>
+    <link href="https://jobs.ashbyhq.com/shield/2d4c1eef-2569-46e1-9924-23588d5c5e86"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Dallas, TX, US · $35 – $75 per hour · Python, C++, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:bandwidth:8414426</id>
+    <title>Bandwidth: Software Engineer Intern - Summer 2027</title>
+    <link href="https://job-boards.greenhouse.io/bandwidth/jobs/8414426"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>7 openings · Summer 2027 · Software · Raleigh, NC · Java, AWS, Docker, Terraform · H-1B track record: ~18 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BEUMERGroup1:744000163483739</id>
+    <title>BEUMER Group: AI Development Intern</title>
+    <link href="https://jobs.smartrecruiters.com/BEUMERGroup1/744000163483739"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Somerset, New Jersey, United States · $25/hr · Python, SQL, LLMs, Azure, Kubernetes</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:studentprogram:5286753007</id>
+    <title>Esri: Software Development Engineer Internship - St. Louis, MO</title>
+    <link href="https://job-boards.greenhouse.io/studentprogram/jobs/5286753007"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · St. Louis, MO · Python, Java, C++, C#, TypeScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:studentinternships:4456494009</id>
+    <title>ISO New England: Student Internship - AI Assisted Modeling of Energy Storage 🛂</title>
+    <link href="https://job-boards.greenhouse.io/studentinternships/jobs/4456494009"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Holyoke, Massachusetts, United States · Python, PyTorch, TensorFlow, scikit-learn, Pandas · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:studentinternships:4455645009</id>
+    <title>ISO New England: Student Internship - Cyber Adversary Defense Optimization 🛂</title>
+    <link href="https://job-boards.greenhouse.io/studentinternships/jobs/4455645009"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Holyoke, Massachusetts, United States · Python · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:studentinternships:4454673009</id>
+    <title>ISO New England: Student Internship - Market Data Analyst 🛂</title>
+    <link href="https://job-boards.greenhouse.io/studentinternships/jobs/4454673009"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Holyoke, Massachusetts, United States · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:studentinternships:4455610009</id>
+    <title>ISO New England: Student Internship - Operations Process Automation Developer 🛂</title>
+    <link href="https://job-boards.greenhouse.io/studentinternships/jobs/4455610009"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Holyoke, Massachusetts, United States · Python, C#, SQL, MATLAB · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000163377969</id>
+    <title>Veolia: Manufacturing Software Engineer Intern 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000163377969"/>
+    <updated>2026-11-25T04:10:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Hardware · Boulder, CO, United States · Python, Java, C#, SQL, Git · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10606968</id>
@@ -56,12 +136,12 @@
     <summary>Summer 2027 · Software · Dallas, TX, US · $35 – $75 per hour · Python, Java, C++, JavaScript, PyTorch</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1009005</id>
-    <title>Stantec: Data Scientist Intern - Water (Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1009005"/>
+    <id>urn:intern-engine:greenhouse:capitaltg:5281563007</id>
+    <title>Capital Technology Group: Summer Internship - Software Development</title>
+    <link href="https://boards.greenhouse.io/capitaltg/jobs/5281563007?gh_jid=5281563007"/>
     <updated>2026-11-24T00:21:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Diego, CA, United States; Boston, MA, United States; Denver, CO, United States · Python, SQL, PyTorch, TensorFlow, scikit-learn</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Hybrid (Silver Spring, MD) · Python, Java, JavaScript, LLMs, React</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:capitaltg:5307074007</id>
@@ -70,14 +150,6 @@
     <updated>2026-11-24T00:21:45Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Hybrid (Silver Spring, MD) · Python, SQL, scikit-learn, Pandas, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:capitaltg:5281563007</id>
-    <title>Capital Technology Group: Summer Internship - Software Development</title>
-    <link href="https://boards.greenhouse.io/capitaltg/jobs/5281563007?gh_jid=5281563007"/>
-    <updated>2026-11-24T00:21:45Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Hybrid (Silver Spring, MD) · Python, Java, JavaScript, LLMs, React</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:oscar:8407472</id>
@@ -104,28 +176,44 @@
     <summary>Summer 2027 · Software · Needham, MA, United States · $30/hr · Python, Java, JavaScript, Node.js, Linux</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:lever:exowatt:86589116-72a5-44f1-893a-1c688d15f2cf</id>
+    <title>Exowatt: Software &amp; AI Spring Intern (Austin, TX)</title>
+    <link href="https://jobs.lever.co/exowatt/86589116-72a5-44f1-893a-1c688d15f2cf"/>
+    <updated>2026-11-24T00:21:45Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Data &amp; ML/AI · Austin, TX · LLMs · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1009005</id>
+    <title>Stantec: Data Scientist Intern - Water (Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1009005"/>
+    <updated>2026-11-24T00:21:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Diego, CA, United States; Boston, MA, United States; Denver, CO, United States · Python, SQL, PyTorch, TensorFlow, scikit-learn</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:greenhouse:artefactlinkedin:8958071002</id>
     <title>Artefact: AI Strategy Intern</title>
     <link href="https://job-boards.greenhouse.io/artefactnoram/jobs/8958073002"/>
-    <updated>2026-11-23T03:07:26Z</updated>
+    <updated>2026-11-25T04:10:48Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python</summary>
+    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:artefactlinkedin:8958074002</id>
     <title>Artefact: AI Engineering Intern</title>
     <link href="https://job-boards.greenhouse.io/artefactnoram/jobs/8958076002"/>
-    <updated>2026-11-23T03:07:26Z</updated>
+    <updated>2026-11-25T04:10:48Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python, LLMs, Git</summary>
+    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python, LLMs, Git · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:artefactlinkedin:8958079002</id>
     <title>Artefact: AI Adoption Intern</title>
     <link href="https://job-boards.greenhouse.io/artefactnoram/jobs/8958081002"/>
-    <updated>2026-11-23T03:07:26Z</updated>
+    <updated>2026-11-25T04:10:48Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python, SQL</summary>
+    <summary>Not stated · Data &amp; ML/AI · 135 W 26th Street, New York, NY 10001 · $45k–$55k/yr · Python, SQL · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1</id>
@@ -517,7 +605,7 @@
     <link href="https://ats.rippling.com/forterra/jobs/988bc637-2b57-4e15-b594-b2bb4b545395"/>
     <updated>2026-11-22T01:19:01Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · East Palo Alto, CA</summary>
+    <summary>Summer 2027 · Software · Clarksburg, MD</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:BoschGroup:744000162076254</id>
@@ -563,9 +651,9 @@
     <id>urn:intern-engine:smartrecruiters:RenesasElectronics:744000162784555</id>
     <title>Renesas Electronics: Firmware Engineering Intern</title>
     <link href="https://jobs.smartrecruiters.com/RenesasElectronics/744000162784555"/>
-    <updated>2026-11-22T01:19:01Z</updated>
+    <updated>2026-11-25T04:10:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Hardware · Austin, TEXAS, United States · Python, Verilog</summary>
+    <summary>Summer 2027 · Hardware · Austin, TEXAS, United States · Python, Verilog · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:ServiceNow:744000162827365</id>
@@ -718,93 +806,5 @@
     <updated>2026-11-13T22:25:23Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · New York · LLMs · H-1B track record: ~11 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8202927003</id>
-    <title>Samsung: Intern, AI Systems Performance Engineer</title>
-    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Jose, California, United States · Python, C++, LLMs, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8203052003</id>
-    <title>Samsung: Intern, ML Compiler (Kernel Auto-Tuning)</title>
-    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Jose, California, United States · Python, C++, PyTorch, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8203058003</id>
-    <title>Samsung: Intern, SSD Firmware Development</title>
-    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Hardware · San Jose, California, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Carlisle:3743990016774046</id>
-    <title>Carlisle Companies: AI &amp; Data Science Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Carlisle/3743990016774046"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Carlisle, Pennsylvania, , United States · Python, PyTorch, TensorFlow, scikit-learn, Pandas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161548289</id>
-    <title>ServiceNow: AI Security Engineer Intern</title>
-    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161548289"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Diego, California, United States · $62.89/hr · H-1B track record: ~849 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161550869</id>
-    <title>ServiceNow: Information Security Analyst Intern</title>
-    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161550869"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · San Diego, CALIFORNIA, United States · $45.79/hr · Python, Bash, Linux · H-1B track record: ~849 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:asml:/job/Austin-TX-USA/Internship---EUV-Data-Science-and-Analytics_J-00357717</id>
-    <title>ASML: Internship - EUV Data Science and Analytics</title>
-    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Internship---EUV-Data-Science-and-Analytics_J-00357717"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Austin, TX, USA · Python, MATLAB</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519</id>
-    <title>Fresenius Medical Care: Analytics and AI Business Analyst Co-op</title>
-    <link href="https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Lawrence, MA, USA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:martinmarietta:/job/Raleigh-NC/Intern--Data-Scientist_JR024144-1</id>
-    <title>Martin Marietta: Intern, Data Scientist</title>
-    <link href="https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--Data-Scientist_JR024144-1"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Raleigh, NC · Python, SQL, LLMs, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:martinmarietta:/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146</id>
-    <title>Martin Marietta: Intern, Software Data Integration Engineer</title>
-    <link href="https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146"/>
-    <updated>2026-11-13T22:25:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Raleigh, NC · Python, Java, C#, JavaScript, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:eedu.fa.em3.oraclecloud.com:202607277</id>
-    <title>WTW: Early Careers: Data Analyst Internship 🛂</title>
-    <link href="https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202607277"/>
-    <updated>2026-11-13T16:32:54Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · New York, NY, United States · $18–$20/hr · Python · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
