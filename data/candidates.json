@@ -353,5 +353,6 @@
   {"name": "Hebbia", "slug": "hebbia"},
   {"name": "Mendable", "slug": "mendable"},
   {"name": "Ramp Financial", "slug": "rampfinancial"},
-  {"name": "Notion HQ", "slug": "notionhq"}
+  {"name": "Notion HQ", "slug": "notionhq"},
+  {"name": "MathWorks", "slug": "mathworks"}
 ]
