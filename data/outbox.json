@@ -1,6 +1,36 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:hdow.fa.us6.oraclecloud.com:250631",
+      "oracle:hdow.fa.us6.oraclecloud.com:250648",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "ashby:drivewealth:ec17ef99-dea9-4150-b935-5f74750d7b87",
+      "ashby:drivewealth:85147395-3dfa-4c16-880f-8c7522a538ec",
+      "ashby:drivewealth:a214dd6c-e3ac-481e-8308-bf74c2032b8a",
+      "ashby:drivewealth:b11409e6-a86d-4504-b4da-36636f888c16",
+      "lever:veeva:4738ae75-9f7b-4082-b129-69fb82f6d7b2",
+      "lever:veeva:f277bc52-1dd6-4447-ac3b-a6127e625ec7",
+      "ashby:xona-space:d3549244-52e2-4894-87f9-99fc8cbe26ab",
+      "greenhouse:cssmerge:8963704002",
+      "greenhouse:coinbase:8415869",
+      "greenhouse:lightmatter:5492829008",
+      "greenhouse:patientpointinviteonly:4755910005"
+    ],
+    "telegram": [
+      "oracle:hdow.fa.us6.oraclecloud.com:250631",
+      "oracle:hdow.fa.us6.oraclecloud.com:250648",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "ashby:drivewealth:ec17ef99-dea9-4150-b935-5f74750d7b87",
+      "ashby:drivewealth:85147395-3dfa-4c16-880f-8c7522a538ec",
+      "ashby:drivewealth:a214dd6c-e3ac-481e-8308-bf74c2032b8a",
+      "ashby:drivewealth:b11409e6-a86d-4504-b4da-36636f888c16",
+      "lever:veeva:4738ae75-9f7b-4082-b129-69fb82f6d7b2",
+      "lever:veeva:f277bc52-1dd6-4447-ac3b-a6127e625ec7",
+      "ashby:xona-space:d3549244-52e2-4894-87f9-99fc8cbe26ab",
+      "greenhouse:cssmerge:8963704002",
+      "greenhouse:coinbase:8415869",
+      "greenhouse:lightmatter:5492829008",
+      "greenhouse:patientpointinviteonly:4755910005"
+    ]
   }
 }

@@ -754,9 +754,10 @@
      "first_posted": "2026-08-06",
      "role_ids": [
       "greenhouse:cssmerge:8687896002",
-      "greenhouse:cssmerge:8869106002"
+      "greenhouse:cssmerge:8869106002",
+      "greenhouse:cssmerge:8963704002"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1361,6 +1362,19 @@
     }
    }
   },
+  "cantor fitzgerald": {
+   "name": "Cantor Fitzgerald",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-25",
+     "role_ids": [
+      "oracle:hdow.fa.us6.oraclecloud.com:250631",
+      "oracle:hdow.fa.us6.oraclecloud.com:250648"
+     ],
+     "count": 2
+    }
+   }
+  },
   "captech consulting": {
    "name": "CapTech Consulting",
    "cycles": {
@@ -1662,9 +1676,10 @@
       "greenhouse:coinbase:8175441",
       "greenhouse:coinbase:8175459",
       "greenhouse:coinbase:8175462",
-      "greenhouse:coinbase:8175471"
+      "greenhouse:coinbase:8175471",
+      "greenhouse:coinbase:8415869"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -2061,6 +2076,21 @@
       "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294"
      ],
      "count": 2
+    }
+   }
+  },
+  "drivewealth": {
+   "name": "DriveWealth",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "ashby:drivewealth:85147395-3dfa-4c16-880f-8c7522a538ec",
+      "ashby:drivewealth:a214dd6c-e3ac-481e-8308-bf74c2032b8a",
+      "ashby:drivewealth:b11409e6-a86d-4504-b4da-36636f888c16",
+      "ashby:drivewealth:ec17ef99-dea9-4150-b935-5f74750d7b87"
+     ],
+     "count": 4
     }
    }
   },
@@ -3776,9 +3806,10 @@
      "first_posted": "2026-11-11",
      "role_ids": [
       "greenhouse:lightmatter:5474807008",
-      "greenhouse:lightmatter:5479596008"
+      "greenhouse:lightmatter:5479596008",
+      "greenhouse:lightmatter:5492829008"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -6745,6 +6776,19 @@
     }
    }
   },
+  "veeva systems": {
+   "name": "Veeva Systems",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-13",
+     "role_ids": [
+      "lever:veeva:4738ae75-9f7b-4082-b129-69fb82f6d7b2",
+      "lever:veeva:f277bc52-1dd6-4447-ac3b-a6127e625ec7"
+     ],
+     "count": 2
+    }
+   }
+  },
   "veolia": {
    "name": "Veolia",
    "cycles": {
@@ -7291,5 +7335,5 @@
    }
   }
  },
- "updated_at": "2026-11-25T04:10:48Z"
+ "updated_at": "2026-11-27T09:04:10Z"
 }
