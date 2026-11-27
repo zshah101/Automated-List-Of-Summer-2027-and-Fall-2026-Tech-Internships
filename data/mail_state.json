@@ -1,22 +1,8 @@
 {
-  "last_digest_at": "2026-11-25T04:11:33Z",
-  "last_digest_roles": 27,
+  "last_digest_at": "2026-11-27T09:04:56Z",
+  "last_digest_roles": 13,
   "last_digest_sent": 252,
   "sent_role_ids": [
-    "oracle:hcgn.fa.us2.oraclecloud.com:49280",
-    "oracle:hcgn.fa.us2.oraclecloud.com:49284",
-    "oracle:hcgn.fa.us2.oraclecloud.com:49285",
-    "oracle:hcgn.fa.us2.oraclecloud.com:49286",
-    "workday:abglobal:/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
-    "workday:abglobal:/job/Nashville-Tennessee/Software-Development-Summer-Intern_R0019771",
-    "workday:albemarle:/job/Houston-Texas-United-States-of-America/Ketjen-Summer-2027-Data-Science-Internship_REQ-31411",
-    "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
-    "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
-    "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
-    "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
-    "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005",
-    "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267",
-    "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114",
     "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
     "smartrecruiters:WellmarkInc:744000148915793",
     "smartrecruiters:WellmarkInc:744000148918178",
@@ -2002,13 +1988,27 @@
     "greenhouse:oscar:8407472",
     "greenhouse:sharkninjaoperatingllc:4721682006",
     "greenhouse:sharkninjaoperatingllc:4725867006",
-    "oracle:hdhl.fa.us6.oraclecloud.com:1009005"
+    "oracle:hdhl.fa.us6.oraclecloud.com:1009005",
+    "ashby:drivewealth:85147395-3dfa-4c16-880f-8c7522a538ec",
+    "ashby:drivewealth:a214dd6c-e3ac-481e-8308-bf74c2032b8a",
+    "ashby:drivewealth:b11409e6-a86d-4504-b4da-36636f888c16",
+    "ashby:drivewealth:ec17ef99-dea9-4150-b935-5f74750d7b87",
+    "ashby:xona-space:d3549244-52e2-4894-87f9-99fc8cbe26ab",
+    "greenhouse:coinbase:8415869",
+    "greenhouse:atoms:8356100002",
+    "greenhouse:cssmerge:8963704002",
+    "greenhouse:lightmatter:5492829008",
+    "greenhouse:patientpointinviteonly:4755910005",
+    "lever:veeva:4738ae75-9f7b-4082-b129-69fb82f6d7b2",
+    "lever:veeva:f277bc52-1dd6-4447-ac3b-a6127e625ec7",
+    "oracle:hdow.fa.us6.oraclecloud.com:250631",
+    "oracle:hdow.fa.us6.oraclecloud.com:250648"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 252,
   "send_attempts": [
     {
-      "at": "2026-11-25T04:11:33Z",
+      "at": "2026-11-27T09:04:56Z",
       "count": 252
     }
   ]
